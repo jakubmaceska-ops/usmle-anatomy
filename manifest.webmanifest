@@ -2,6 +2,7 @@
   "name": "USMLE Anatomy",
   "short_name": "USMLE Anatomy",
   "description": "Příprava na USMLE z anatomie — procvičovací otázky organizované do tematických celků.",
+  "id": "/",
   "start_url": "/?source=pwa",
   "scope": "/",
   "display": "standalone",
