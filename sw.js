@@ -3,8 +3,9 @@
 // zastaralé appky nebo bez zásahu do Firebase Realtime Database provozu
 // (živé testy potřebují vždy čerstvé síťové spojení, nikdy ne cache).
 
-const CACHE_VERSION = "usmle-anatomy-v1";
+const CACHE_VERSION = "usmle-anatomy-v2";
 const SHELL_CACHE = `shell-${CACHE_VERSION}`;
+const DATA_CACHE = `data-${CACHE_VERSION}`;
 
 // Soubory, které appka potřebuje pro zobrazení i bez připojení.
 const SHELL_ASSETS = [
@@ -17,6 +18,13 @@ const SHELL_ASSETS = [
   "/icons/maskable-512.png",
   "/icons/apple-touch-icon.png",
 ];
+
+// Datové soubory s otázkami a obrázky — cachují se za běhu (ne při instalaci),
+// aby velký objem base64 dat nemohl shodit instalaci celého service workeru.
+// Díky tomu jde procházet otázky i offline (jakmile appka jednou proběhla
+// online a data se stáhla). Živé testy a denní výzva offline nepojedou,
+// protože běží přes Firebase Realtime Database — to je záměr, ne bug.
+const DATA_ASSET_PATTERN = /^\/(questions\.js|images[1-5]\.js)$/;
 
 // Jednoduchá offline stránka zobrazená, když appka nemá síť
 // a požadovaná stránka ještě není v cache.
@@ -71,11 +79,12 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
+  const validCaches = [SHELL_CACHE, DATA_CACHE];
   event.waitUntil(
     caches.keys().then((keys) =>
       Promise.all(
         keys
-          .filter((key) => key !== SHELL_CACHE)
+          .filter((key) => !validCaches.includes(key))
           .map((key) => caches.delete(key))
       )
     )
@@ -129,5 +138,40 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Vše ostatní stejné domény: nech projít na síť normálně.
+  // Data s otázkami a obrázky (questions.js, images1-5.js): stale-while-revalidate.
+  // Pokud už jsou v cache, vrátí se okamžitě (funguje offline) a na pozadí se
+  // zkusí stáhnout čerstvá verze pro příště. Pokud v cache ještě nejsou
+  // (úplně první spuštění appky), počká se na síť a výsledek se zacachuje.
+  if (DATA_ASSET_PATTERN.test(url.pathname)) {
+    event.respondWith(
+      caches.open(DATA_CACHE).then(async (cache) => {
+        const cached = await cache.match(request);
+        const networkUpdate = fetch(request)
+          .then((response) => {
+            if (response && response.ok) cache.put(request, response.clone());
+            return response;
+          })
+          .catch(() => null);
+
+        if (cached) {
+          // Neblokovat odpověď na aktualizaci — ta doběhne na pozadí.
+          networkUpdate;
+          return cached;
+        }
+
+        const fresh = await networkUpdate;
+        return (
+          fresh ||
+          new Response("", {
+            status: 504,
+            statusText: "Offline a data ještě nejsou v cache",
+          })
+        );
+      })
+    );
+    return;
+  }
+
+  // Vše ostatní stejné domény (Firebase-related fetch přes /api/admin-login apod.):
+  // necháváme jít přímo na síť bez cachování.
 });
