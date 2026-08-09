@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Autorská práva a licence — USMLE Anatomy</title>
+<style>
+  :root {
+    --bg: #fafafa;
+    --bg-panel: #ffffff;
+    --bg-hover: #f5f5f5;
+    --ink: #1a1a1a;
+    --ink-soft: #5a5a5a;
+    --ink-faint: #9a9a9a;
+    --line: #e2e2e2;
+    --line-strong: #cfcfcf;
+    --accent: #1a1a1a;
+    --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --radius: 3px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1e1e1e;
+      --bg-panel: #2a2a2a;
+      --bg-hover: #353535;
+      --ink: #f0f0f0;
+      --ink-soft: #c2c2c2;
+      --ink-faint: #8a8a8a;
+      --line: #404040;
+      --line-strong: #545454;
+      --accent: #f0f0f0;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--sans);
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .back-link {
+    font-size: 14px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    border-bottom: 1px solid var(--line-strong);
+  }
+  .back-link:hover { color: var(--ink); }
+  .lang-toggle {
+    display: flex;
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .lang-toggle button {
+    font-family: var(--sans);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 6px 14px;
+    background: var(--bg-panel);
+    color: var(--ink-soft);
+    border: none;
+    cursor: pointer;
+  }
+  .lang-toggle button + button { border-left: 1px solid var(--line-strong); }
+  .lang-toggle button.active {
+    background: var(--accent);
+    color: var(--bg);
+  }
+  h1 {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-size: 19px;
+    font-weight: 600;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  p { font-size: 15px; margin: 0 0 14px; color: var(--ink); }
+  p.soft { color: var(--ink-soft); }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { font-size: 15px; margin-bottom: 6px; }
+  a { color: inherit; text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 2px; }
+  a:hover { text-decoration-color: var(--ink); }
+  .license-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 14px;
+    padding: 0;
+    list-style: none;
+  }
+  .license-list li {
+    margin: 0;
+    padding: 5px 12px;
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    font-size: 13.5px;
+  }
+  .note {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    margin: 18px 0;
+    font-size: 14px;
+    color: var(--ink-soft);
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+  .lang-block { display: none; }
+  .lang-block.active { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="top-bar">
+    <a href="index.html" class="back-link" data-back-cs>← Zpět do aplikace</a>
+    <a href="index.html" class="back-link" data-back-en style="display:none;">← Back to the app</a>
+    <div class="lang-toggle">
+      <button type="button" id="btn-cs" class="active">CZ</button>
+      <button type="button" id="btn-en">EN</button>
+    </div>
+  </div>
+
+  <!-- ===================== ČESKY ===================== -->
+  <div class="lang-block active" id="block-cs">
+    <h1>Autorská práva, využití umělé inteligence a licence obrázků</h1>
+
+    <h2>1. Autorská práva k obsahu aplikace</h2>
+    <p>Testová aplikace USMLE Anatomy je autorským dílem dvou fyzických osob (dále jen „autoři“) ve smyslu zákona č. 121/2000 Sb., o právu autorském (autorský zákon), a ve smyslu unijní judikatury k pojmu „vlastní duševní výtvor autora“ (zejména rozsudky Soudního dvora EU Infopaq, C-5/08, a Painer, C-145/10). Obsah aplikace není převzat ani parafrázován z cizích testových bank, sbírek otázek USMLE ani jiných chráněných zdrojů.</p>
+    <p>Veškerá práva k databázi otázek, jejich struktuře, znění, vysvětlivkám a k aplikaci samotné jsou vyhrazena autorům. Bez předchozího souhlasu autorů není dovoleno obsah kopírovat, dále šířit, zpřístupňovat veřejnosti ani jej zařazovat do jiných produktů nebo databází, a to ani v pozměněné či přeložené podobě.</p>
+
+    <h2>2. Role umělé inteligence při tvorbě otázek</h2>
+    <p>Při přípravě otázek autoři využívali jako pracovní nástroj generativní velké jazykové modely (ChatGPT, Gemini AI, Claude AI).</p>
+    <p>U každé otázky autoři prováděli mimo jiné následující tvůrčí a redakční kroky, které zakládají jejich vlastní duševní výtvor:</p>
+    <ul>
+      <li>výběr a zařazení konkrétního anatomického tématu a jeho didaktické úrovně v souladu s výukovým obsahem Lékařské fakulty Masarykovy univerzity;</li>
+      <li>formulace klinického scénáře (tzv. „stem“) a volba konkrétní otázkové struktury v USMLE stylu;</li>
+      <li>výběr, formulace a uspořádání jednotlivých možností odpovědi, včetně tvorby věrohodných chybných distraktorů;</li>
+      <li>odborná kontrola věcné a medicínské správnosti otázky i vysvětlení, včetně srovnání s výukovými zdroji;</li>
+      <li>jazyková a stylistická úprava, formulace vysvětlivek správné i nesprávných odpovědí;</li>
+      <li>překlad a jazyková adaptace mezi českou a anglickou verzí otázky (nejde o strojový překlad bez redakční kontroly);</li>
+      <li>zařazení otázky do struktury databáze a její kontrola nejméně jedním dalším studentem podle interního kontrolního postupu (8bodová kontrola kvality).</li>
+    </ul>
+    <p>Finální znění každé otázky je tedy výsledkem samostatné tvůrčí volby autorů, nikoli mechanickým výstupem generovaným AI bez lidského zásahu. Otázky, u kterých by tvůrčí podíl autora chyběl (tj. čistě strojově generovaný text bez redakční úpravy a kontroly), nejsou v databázi zařazeny.</p>
+    <div class="note">Pro úplnost: v případech, kdy právní řád nepřiznává autorskoprávní ochranu obsahu vygenerovanému výhradně strojově bez tvůrčí lidské účasti, se toto omezení na obsah aplikace USMLE Anatomy nevztahuje právě proto, že popsaný tvůrčí a redakční podíl autorů je u každé otázky přítomen.</p></div>
+
+    <h2>3. Licence obrazových příloh</h2>
+    <p>Obrázky použité v otázkách pocházejí ze dvou zdrojů:</p>
+    <ul>
+      <li><strong>vlastní autorská díla</strong> — u těchto obrázků je jako zdroj uvedeno „Own work“;</li>
+      <li><strong>veřejně dostupné zdroje</strong>, jejichž licenční podmínky výslovně dovolují bezplatné užití, úpravu a další šíření díla, a to i pro účely vzdělávací aplikace, jako je USMLE Anatomy.</li>
+    </ul>
+    <p>Konkrétně jsou u obrázků z veřejných zdrojů použity následující licence:</p>
+    <ul class="license-list">
+      <li><a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank" rel="noopener">Public domain</a></li>
+      <li><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener">CC BY 2.5</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+    </ul>
+    <p class="soft">U licencí vyžadujících uvedení autora (CC BY, CC BY-SA) je zdrojový autor a licence evidován v interní dokumentaci obrázku; u licencí „Share-Alike“ (CC BY-SA) zůstává případné další šíření obrázku samostatně vázáno stejnou licencí.</p>
+
+    <h2>4. Nahlášení chyby nebo dotaz k autorským právům</h2>
+    <p>Pokud se domníváte, že některý obrázek nebo text porušuje vaše práva, nebo máte jakýkoli dotaz k výše uvedenému, kontaktujte nás na e-mailu <a href="mailto:jakubmaceska@gmail.com">jakubmaceska@gmail.com</a>. Nevhodně zařazený materiál na základě oprávněné žádosti bezodkladně odstraníme nebo upravíme.</p>
+
+    <footer>© USMLE Anatomy — verze 1.0</footer>
+  </div>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div class="lang-block" id="block-en">
+    <h1>Copyright, Use of AI, and Image Licenses</h1>
+
+    <h2>1. Copyright in the App's Content</h2>
+    <p>The USMLE Anatomy question bank is a copyrighted work created by two natural persons (the "authors") within the meaning of Czech Act No. 121/2000 Coll., on Copyright, and within the meaning of EU case law on the concept of the author's "own intellectual creation" (in particular the Court of Justice of the EU judgments in Infopaq, C-5/08, and Painer, C-145/10). The app's content is not copied or paraphrased from other question banks, USMLE question collections, or other protected sources.</p>
+    <p>All rights to the question database, its structure, wording, explanations, and to the application itself are reserved by the authors. Without the authors' prior consent, it is not permitted to copy, further distribute, make publicly available, or incorporate the content into other products or databases, including in modified or translated form.</p>
+
+    <h2>2. The Role of Artificial Intelligence in Creating the Questions</h2>
+    <p>While preparing the questions, the authors used generative large language models (ChatGPT, Gemini AI, Claude AI) as a working tool.</p>
+    <p>For each question, the authors carried out, among others, the following creative and editorial steps, which constitute their own intellectual creation:</p>
+    <ul>
+      <li>selecting and placing the specific anatomical topic and its didactic level in line with the teaching content of the Faculty of Medicine, Masaryk University;</li>
+      <li>formulating the clinical scenario (the "stem") and choosing the specific USMLE-style question structure;</li>
+      <li>selecting, wording, and arranging the individual answer options, including crafting plausible incorrect distractors;</li>
+      <li>expert review of the factual and medical accuracy of the question and its explanation, including cross-checking against teaching sources;</li>
+      <li>linguistic and stylistic editing, and drafting of the explanations for the correct and incorrect answers;</li>
+      <li>translating and linguistically adapting between the Czech and English versions of the question (this is not raw machine translation without editorial review);</li>
+      <li>integrating the question into the database structure and having it checked by at least one additional student under the internal review procedure (an 8-point quality checklist).</li>
+    </ul>
+    <p>The final wording of each question is therefore the result of the authors' own creative choices, not a mechanical AI output produced without human involvement. Questions lacking such creative authorial contribution (i.e., purely machine-generated text without editorial revision and review) are not included in the database.</p>
+    <div class="note">For completeness: in jurisdictions where the law does not grant copyright protection to content generated exclusively by a machine without creative human involvement, that limitation does not apply to the content of USMLE Anatomy, precisely because the creative and editorial contribution described above is present in every question.</div>
+
+    <h2>3. Licenses of the Images Used</h2>
+    <p>The images used in the questions come from two sources:</p>
+    <ul>
+      <li><strong>the authors' own original work</strong> — for these images, the source is listed as "Own work";</li>
+      <li><strong>publicly available sources</strong> whose license terms expressly permit free use, adaptation, and further distribution of the work, including for the purposes of an educational application such as USMLE Anatomy.</li>
+    </ul>
+    <p>Specifically, images from public sources use the following licenses:</p>
+    <ul class="license-list">
+      <li><a href="https://en.wikipedia.org/wiki/Public_domain" target="_blank" rel="noopener">Public domain</a></li>
+      <li><a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank" rel="noopener">CC0 1.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/2.5/" target="_blank" rel="noopener">CC BY 2.5</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="noopener">CC BY 3.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">CC BY-SA 3.0</a></li>
+      <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+    </ul>
+    <p class="soft">For licenses requiring attribution (CC BY, CC BY-SA), the source author and license are recorded in the image's internal documentation; for "Share-Alike" licenses (CC BY-SA), any further redistribution of the image remains bound by the same license.</p>
+
+    <h2>4. Reporting an Error or a Copyright Question</h2>
+    <p>If you believe that an image or text infringes your rights, or if you have any question about the above, please contact us at <a href="mailto:jakubmaceska@gmail.com">jakubmaceska@gmail.com</a>. Upon a justified request, we will promptly remove or amend any improperly included material.</p>
+
+    <footer>© USMLE Anatomy — version 1.0</footer>
+  </div>
+
+</div>
+
+<script>
+  (function () {
+    var btnCs = document.getElementById('btn-cs');
+    var btnEn = document.getElementById('btn-en');
+    var blockCs = document.getElementById('block-cs');
+    var blockEn = document.getElementById('block-en');
+    var backCs = document.querySelector('[data-back-cs]');
+    var backEn = document.querySelector('[data-back-en]');
+
+    function setLang(lang) {
+      var isCs = lang === 'cs';
+      blockCs.classList.toggle('active', isCs);
+      blockEn.classList.toggle('active', !isCs);
+      btnCs.classList.toggle('active', isCs);
+      btnEn.classList.toggle('active', !isCs);
+      backCs.style.display = isCs ? '' : 'none';
+      backEn.style.display = isCs ? 'none' : '';
+      document.documentElement.lang = isCs ? 'cs' : 'en';
+      document.title = isCs
+        ? 'Autorská práva a licence — USMLE Anatomy'
+        : 'Copyright and Licenses — USMLE Anatomy';
+      try { localStorage.setItem('usmleAnatomyCopyrightLang', lang); } catch (e) {}
+    }
+
+    btnCs.addEventListener('click', function () { setLang('cs'); });
+    btnEn.addEventListener('click', function () { setLang('en'); });
+
+    var preferred = null;
+    try { preferred = localStorage.getItem('usmleAnatomyCopyrightLang'); } catch (e) {}
+    if (!preferred) {
+      preferred = (navigator.language || '').toLowerCase().indexOf('cs') === 0 ? 'cs' : 'en';
+    }
+    setLang(preferred);
+  })();
+</script>
+
+</body>
+</html>
