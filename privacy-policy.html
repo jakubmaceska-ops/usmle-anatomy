@@ -31,9 +31,17 @@
   #en { display: none; }
   ul { padding-left: 1.2em; }
   a { color: #0a58ca; }
+  .back-link { display: inline-block; margin-bottom: 18px; font-size: 0.9rem; color: #5a5a5a; text-decoration: none; }
+  .back-link:hover { color: #1a1a1a; text-decoration: underline; }
+  #back-en { display: none; }
 </style>
 </head>
 <body>
+
+<a class="back-link" href="index.html">
+  <span id="back-cs">← Zpět na USMLE Anatomy</span>
+  <span id="back-en">← Back to USMLE Anatomy</span>
+</a>
 
 <div class="lang-toggle">
   <button id="btn-cs" class="active" onclick="showLang('cs')">Čeština</button>
@@ -73,6 +81,13 @@
   <li>informaci o tom, které Aktuality jste již zobrazili.</li>
 </ul>
 <p>Tato data zůstávají pouze na vašem zařízení, nejsou odesílána na žádný server a nejsou nám ani třetím stranám nijak přístupná. Jejich smazání můžete provést vymazáním dat prohlížeče/aplikace nebo odinstalováním aplikace.</p>
+
+<h2>Cookies</h2>
+<p>Aplikace používá jednu technickou (funkčně nezbytnou) cookie:</p>
+<ul>
+  <li><strong>geo_lang</strong> — uchovává zjištěný/zvolený jazyk rozhraní (čeština/angličtina) na základě přibližné polohy odvozené z IP adresy při první návštěvě. Platnost cookie je 1 rok.</li>
+</ul>
+<p>Tato cookie slouží výhradně k tomu, aby se vám aplikace zobrazila ve správném jazyce, aniž byste jej museli nastavovat ručně při každé návštěvě. Nepoužívá se k analytice, sledování napříč weby ani k reklamě, a proto podle platné legislativy (zákon o elektronických komunikacích, ePrivacy směrnice) nevyžaduje aktivní souhlas prostřednictvím cookie lišty — postačuje toto informování.</p>
 
 <h2>Sdílení dat se třetími stranami</h2>
 <p>Pro provoz funkce Živý test používáme infrastrukturu Firebase (Google). Data zadaná do živé relace (přezdívka, kód session, odpovědi) jsou dočasně zpracována v rámci této infrastruktury. Aplikace obsahuje volitelný odkaz na podporu autora přes PayPal (paypal.me/USMLEanatomy); kliknutím na tento odkaz opouštíte aplikaci a jakékoli platební či osobní údaje poté zpracovává výhradně PayPal podle vlastních zásad ochrany soukromí — aplikace k nim nemá přístup. Žádná data neprodáváme ani nepředáváme jiným třetím stranám pro marketingové účely.</p>
@@ -130,6 +145,13 @@
 </ul>
 <p>This data stays on your device only, is never sent to any server, and is not accessible to us or any third party. You can remove it by clearing your browser/app data or uninstalling the app.</p>
 
+<h2>Cookies</h2>
+<p>The app uses a single technical (strictly necessary) cookie:</p>
+<ul>
+  <li><strong>geo_lang</strong> — stores the detected/selected interface language (Czech/English), determined from an approximate location derived from your IP address on first visit. The cookie is valid for 1 year.</li>
+</ul>
+<p>This cookie is used solely to show you the app in the correct language without having to set it manually on every visit. It is not used for analytics, cross-site tracking, or advertising, and therefore does not require active consent via a cookie banner under applicable law (Czech Electronic Communications Act, ePrivacy Directive) — this notice is sufficient.</p>
+
 <h2>Third-party data sharing</h2>
 <p>The Live test feature relies on Firebase (Google) infrastructure. Data entered during a live session (nickname, session code, answers) is temporarily processed within this infrastructure. The app includes an optional link for supporting the author via PayPal (paypal.me/USMLEanatomy); clicking it takes you outside the app, and any payment or personal data is then handled entirely by PayPal under its own privacy policy — the app has no access to it. We do not sell or share data with third parties for marketing purposes.</p>
 
@@ -158,6 +180,8 @@ function showLang(lang) {
   document.getElementById('en').style.display = lang === 'en' ? 'block' : 'none';
   document.getElementById('btn-cs').classList.toggle('active', lang === 'cs');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.getElementById('back-cs').style.display = lang === 'cs' ? 'inline' : 'none';
+  document.getElementById('back-en').style.display = lang === 'en' ? 'inline' : 'none';
 }
 </script>
 
