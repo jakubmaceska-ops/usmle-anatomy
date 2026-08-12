@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.usmle_anatomy.app.twa",
+        "sha256_cert_fingerprints": ["50:70:D9:1D:E7:56:45:F6:AA:F4:63:8F:24:FD:A6:F4:45:C6:20:00:7F:C5:74:26:B4:BA:18:AF:F4:A8:A3:D0"]
+      }
+    }]
