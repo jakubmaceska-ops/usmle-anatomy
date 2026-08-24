@@ -3125,6 +3125,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1066_custom", source: "Athikhun.suw. Froment's sign.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Froment%27s_sign.jpg. CC BY-SA 4.0. Accessed 21 August 2026.", type: "image" }
 },
+{
+  id: 1076,
+  cz: {
+    stem: "Pacient utrpěl poranění zápěstí. Fraktura které kosti je označena na RTG snímku?",
+    options: {
+        a: "Os scaphoideum",
+        b: "Os lunatum",
+        c: "Os triquetrum",
+        d: "Os pisiforme",
+        e: "Os trapezium"
+    },
+    correct: "a",
+    explanation: "Na RTG snímku je patrná fraktura os scaphoideum, tedy člunkové kosti. Os scaphoideum se nachází v proximální řadě karpálních kostí na radiální straně zápěstí a artikuluje s radiem."
+  },
+  en: {
+    stem: "A patient sustains a wrist injury. Which bone is fractured at the site indicated on the radiograph?",
+    options: {
+        a: "Scaphoid",
+        b: "Lunate",
+        c: "Triquetrum",
+        d: "Pisiform",
+        e: "Trapezium"
+    },
+    correct: "a",
+    explanation: "The radiograph shows a fracture of the scaphoid bone. The scaphoid is located in the proximal row of carpal bones on the radial side of the wrist and articulates with the radius."
+  },
+  image: { key: "q1076_custom", source: "James Heilman, MD. FracScaTubercule.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:FracScaTubercule.png. CC BY-SA 4.0. Accessed 24 August 2026.", type: "image" }
+},
 
           {
             id: 12,
