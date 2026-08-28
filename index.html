@@ -2384,7 +2384,7 @@
     <div class="container" id="view-root"></div>
   </main>
 
-  <p class="app-footer">© USMLE Anatomy — verze 1.0</p>
+  <p class="app-footer" id="app-footer">© USMLE Anatomy — verze 1.0</p>
 </div>
 
 <script src="images1.js"></script>
@@ -2939,7 +2939,8 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       qreportCancel: "Zrušit",
       qreportErrRequired: "Popiš prosím, v čem je chyba.",
       qreportErrGeneric: "Nahlášení se nepodařilo odeslat. Zkus to prosím znovu.",
-      qreportThanks: "Díky! Nahlášení bylo odesláno."
+      qreportThanks: "Díky! Nahlášení bylo odesláno.",
+      footerVersion: "© USMLE Anatomy — verze 1.0"
     },
     en: {
       subtitle: "USMLE-style anatomy questions",
@@ -3154,7 +3155,8 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       qreportCancel: "Cancel",
       qreportErrRequired: "Please describe the error.",
       qreportErrGeneric: "Couldn't send the report. Please try again.",
-      qreportThanks: "Thanks! The report has been sent."
+      qreportThanks: "Thanks! The report has been sent.",
+      footerVersion: "© USMLE Anatomy — version 1.0"
     }
   };
 
@@ -5693,6 +5695,7 @@ ${optionsObjCodeEn}
     document.getElementById("lang-cz").classList.toggle("active", lang === "cz");
     document.getElementById("lang-en").classList.toggle("active", lang === "en");
     document.documentElement.lang = lang === "cz" ? "cs" : "en";
+    document.getElementById("app-footer").textContent = tr().footerVersion;
 
     // refresh breadcrumb for current view
     if (state.view === "unitMenu") setBreadcrumb([unitTitle(state.unitKey)]);
@@ -5724,6 +5727,7 @@ ${optionsObjCodeEn}
   document.getElementById("lang-cz").classList.toggle("active", state.lang === "cz");
   document.getElementById("lang-en").classList.toggle("active", state.lang === "en");
   document.documentElement.lang = state.lang === "cz" ? "cs" : "en";
+  document.getElementById("app-footer").textContent = tr().footerVersion;
   document.getElementById("brand-home-btn").addEventListener("click", goHome);
 
   // ============ THEME TOGGLE ============
