@@ -7972,6 +7972,62 @@ const QUESTION_DATA = {
     explanation: "The fibular neck is the site where the common fibular (peroneal) nerve winds around the fibula just beneath the skin, making it particularly vulnerable to injury in fractures of this region. Sensory innervation of the skin on the dorsum of the foot is provided by branches of this nerve (the superficial fibular (peroneal) nerve and the deep fibular (peroneal) nerve). Loss of sensation on the plantar surface of the foot indicates injury to the tibial nerve. Loss of sensation over the medial aspect of the leg is characteristic of injury to the saphenous nerve (a branch of the femoral nerve). A sensory deficit over the posterior aspect of the thigh is associated with injury to the posterior femoral cutaneous nerve. A sensory deficit over the lateral aspect of the thigh corresponds to injury to the lateral femoral cutaneous nerve."
   }
 },
+{
+  id: 1080,
+  cz: {
+    stem: "Na obrázku je patrná kalcifikace v oblasti úponové šlachy svalu. O který sval se jedná?",
+    options: {
+        a: "m. triceps surae",
+        b: "m. tibialis anterior",
+        c: "m. tibialis posterior",
+        d: "m. extensor hallucis longus",
+        e: "m. fibularis longus"
+    },
+    correct: "a",
+    explanation: "Achillova šlacha (tendo calcaneus) je společná úponová šlacha m. triceps surae, který je tvořen m. gastrocnemius medialis et lateralis a m. soleus. Upíná se na tuber calcanei a jeho kontrakce způsobuje plantární flexi nohy."
+  },
+  en: {
+    stem: "The image shows calcification in the insertional tendon of a muscle. Which muscle is involved?",
+    options: {
+        a: "triceps surae muscle",
+        b: "tibialis anterior muscle",
+        c: "tibialis posterior muscle",
+        d: "extensor hallucis longus muscle",
+        e: "fibularis longus muscle"
+    },
+    correct: "a",
+    explanation: "The Achilles tendon (calcaneal tendon) is the common insertional tendon of the triceps surae muscle, which consists of the medial and lateral heads of the gastrocnemius muscle and the soleus muscle. It inserts on the calcaneal tuberosity, and its contraction primarily causes plantar flexion of the foot."
+  },
+  image: { key: "q1080_custom", source: "Mikael Häggström. Achilles insertional calcific tendinosis (labeled).jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Achilles_insertional_calcific_tendinosis_(labeled).jpg. CC0 1.0. Accessed 29 August 2026.", type: "image" }
+},
+{
+  id: 1081,
+  cz: {
+    stem: "Na obrázku je zobrazena deformita dolních končetin u 2letého dítěte s křivicí. Jak se tato deformita označuje?",
+    options: {
+        a: "genua vara",
+        b: "genua valga",
+        c: "genua recurvata",
+        d: "coxa valga",
+        e: "coxa vara"
+    },
+    correct: "a",
+    explanation: "Genua vara představují deformitu kolenních kloubů, při které jsou kolena vychýlena laterálně a dolní končetiny mají charakteristický tvar „O“. U dětí mohou být spojena například s křivicí (rachitis). Genua valga jsou naopak deformita kolen s typickým tvarem „X“. Genua recurvata označují hyperextenzi v kolenním kloubu. Coxa valga a coxa vara jsou deformity úhlu mezi krčkem a diafýzou femuru, nikoli deformity kolenního kloubu."
+  },
+  en: {
+    stem: "The image shows a deformity of the lower limbs in a 2-year-old child with rickets. What is this deformity called?",
+    options: {
+        a: "genua vara",
+        b: "genua valga",
+        c: "genua recurvata",
+        d: "coxa valga",
+        e: "coxa vara"
+    },
+    correct: "a",
+    explanation: "Genua vara is a deformity of the knee joints in which the knees are deviated laterally, giving the lower limbs a characteristic “O” shape. In children, it may be associated with rickets. Genua valga is a deformity of the knees with a characteristic “X” shape. Genua recurvata refers to hyperextension of the knee joint. Coxa valga and coxa vara are deformities of the angle between the femoral neck and shaft, rather than deformities of the knee joint."
+  },
+  image: { key: "q1081_custom", source: "Michael L. Richardson, M.D. XrayRicketsLegssmall.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:XrayRicketsLegssmall.jpg. CC BY-SA 1.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       },
 
