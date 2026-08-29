@@ -3153,6 +3153,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1076_custom", source: "James Heilman, MD. FracScaTubercule.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:FracScaTubercule.png. CC BY-SA 4.0. Accessed 24 August 2026.", type: "image" }
 },
+{
+  id: 1079,
+  cz: {
+    stem: "Na obrázku je hvězdičkou označeno místo palpace a. radialis. Šlachy kterých svalů tvoří ohraničení tohoto prostoru?",
+    options: {
+        a: "Laterálně: m. abductor pollicis longus a m. extensor pollicis brevis; mediálně: m. extensor pollicis longus",
+        b: "Laterálně: m. extensor pollicis longus; mediálně: m. adductor pollicis a m. extensor pollicis brevis",
+        c: "Laterálně: m. abductor pollicis longus a m. extensor pollicis longus; mediálně: m. adduktor pollicis",
+        d: "Laterálně: m. flexor pollicis longus a m. abductor pollicis longus; mediálně: m. extensor pollicis longus",
+        e: "Laterálně: m. extensor indicis; mediálně: m. abductor pollicis longus a m. extensor pollicis longus"
+    },
+    correct: "a",
+    explanation: "Foveola radialis nebo také fossa tabatière je trojúhelníkovitá prohlubeň na dorzolaterální straně zápěstí, která se zvýrazní při extenzi palce. Laterální ohraničení tvoří šlachy m. abductor pollicis longus a m. extensor pollicis brevis, zatímco mediální ohraničení tvoří šlacha m. extensor pollicis longus. Tímto prostorem prochází a. radialis, čehož se využívá při palpaci tepu."
+  },
+  en: {
+    stem: "In the image, the site of palpation of the radial artery is marked with an asterisk.\nThe tendons of which muscles form the boundaries of this space?",
+    options: {
+        a: "Laterally: abductor pollicis longus and extensor pollicis brevis; medially: extensor pollicis longus",
+        b: "Laterally: extensor pollicis longus; medially: adductor pollicis and extensor pollicis brevis",
+        c: "Laterally: abductor pollicis longus and extensor pollicis longus; medially: adductor pollicis",
+        d: "Laterally: flexor pollicis longus and abductor pollicis longus; medially: extensor pollicis longus",
+        e: "Laterally: extensor indicis; medially: abductor pollicis longus and extensor pollicis longus"
+    },
+    correct: "a",
+    explanation: "The foveola radialis, also known as the anatomical snuffbox, is a triangular depression on the dorsolateral aspect of the wrist that becomes more prominent during thumb extension. The lateral boundary is formed by the tendons of the abductor pollicis longus and extensor pollicis brevis, while the medial boundary is formed by the tendon of the extensor pollicis longus. The radial artery passes through this space, which allows its pulse to be palpated."
+  },
+  image: { key: "q1079_custom", source: "Drahreg01. Linke Hand mit Tabatiere.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Linke_Hand_mit_Tabatiere.jpg. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
+},
 
           {
             id: 12,
@@ -18244,6 +18272,62 @@ id: 269,
     explanation: "Coarctation of the aorta is a narrowing of the aorta typically located at the aortic isthmus near the attachment of the ductus arteriosus. Before birth, blood can flow from the pulmonary trunk through the ductus arteriosus into the descending aorta, partially bypassing the site of coarctation. After birth, the ductus arteriosus normally closes, eliminating this alternative route of blood flow to the descending aorta. In severe coarctation, closure of the ductus arteriosus can therefore cause a sudden deterioration in perfusion of the lower half of the body.\n *Image description:\nImage A shows severe coarctation at the aortic isthmus on an oblique sagittal view. Image B shows a stent at the site of coarctation on 3D CT angiography; the arrow indicates narrowing of the stent."
   },
   image: { key: "q1074_custom", source: "Ntsinjana HN, Hughes ML, Taylor AM. Coarctation of the aorta.tiff. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Coarctation_of_the_aorta.tiff?page=1. CC BY 2.0. Accessed 23 August 2026.", type: "image" }
+},
+{
+  id: 1077,
+  cz: {
+    stem: "57letý muž s mnohočetným myelomem podstupuje CT vyšetření, na kterém je zjištěno zvětšení vyznačené lymfatické uzliny. Do které z následujících struktur se primárně odvádí lymfa z této uzliny?",
+    options: {
+        a: "Truncus subclavius",
+        b: "Truncus jugularis",
+        c: "Truncus bronchomediastinalis",
+        d: "Ductus thoracicus",
+        e: "Ductus lymphaticus dexter"
+    },
+    correct: "a",
+    explanation: "Axilární lymfatické uzliny odvádějí lymfu především z horní končetiny, prsu a části hrudní stěny. Eferentní lymfatické cévy z axilárních uzlin vytvářejí truncus subclavius, který odvádí lymfu směrem k žilnímu úhlu. Na pravé straně může truncus subclavius ústit do ductus lymphaticus dexter, zatímco na levé straně obvykle ústí přímo do angulus venosus sinister nebo se může připojovat k ductus thoracicus.     \n*Popis obrázku: CT snímek zobrazuje axilární lymfadenopatii u 57letého muže s mnohočetným myelomem."
+  },
+  en: {
+    stem: "A 57-year-old man with multiple myeloma undergoes a CT scan, which reveals enlargement of the indicated lymph node. Which of the following structures primarily receives lymphatic drainage from this lymph node?",
+    options: {
+        a: "Subclavian trunk",
+        b: "Jugular trunk",
+        c: "Bronchomediastinal trunk",
+        d: "Thoracic duct",
+        e: "Right lymphatic duct"
+    },
+    correct: "a",
+    explanation: "Axillary lymph nodes primarily drain lymph from the upper limb, breast, and parts of the thoracic wall. The efferent lymphatic vessels from the axillary lymph nodes form the subclavian trunk, which carries lymph toward the venous angle. On the right side, the subclavian trunk may drain into the right lymphatic duct, whereas on the left side it usually drains directly into the left venous angle or may join the thoracic duct.     \n*Image description:\nThe CT scan shows axillary lymphadenopathy in a 57-year-old man with multiple myeloma."
+  },
+  image: { key: "q1077_custom", source: "Mikael Häggström. CT of axillary lymphadenopathy - annotated.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:CT_of_axillary_lymphadenopathy_-_annotated.jpg. CC0 1.0. Accessed 29 August 2026.", type: "image" }
+},
+{
+  id: 1078,
+  cz: {
+    stem: "Žena s karcinomem dutiny ústní má viditelně zvětšené krční uzliny (viz foto). Která z následujících posloupností správně popisuje tok lymfy z oblasti těchto uzlin do krevního oběhu?",
+    options: {
+        a: "Truncus jugularis dexter → ductus lymphaticus dexter → angulus venosus dexter",
+        b: "Truncus jugularis dexter → ductus thoracicus → angulus venosus dexter",
+        c: "Truncus subclavius dexter → ductus lymphaticus dexter → angulus venosus dexter",
+        d: "Truncus jugularis dexter → truncus subclavius dexter → ductus lymphaticus dexter → angulus venosus dexter",
+        e: "Truncus bronchomediastinalis dexter → ductus thoracicus → angulus venosus sinister"
+    },
+    correct: "a",
+    explanation: "Lymfa z krčních lymfatických uzlin z pravé strany krku je odváděna do truncus jugularis dexter. Ten se obvykle spojuje s truncus subclavius dexter a truncus bronchomediastinalis dexter a společně vytvářejí ductus lymphaticus dexter. Ten následně ústí do angulus venosus dexter. Toto uspořádání však může být variabilní."
+  },
+  en: {
+    stem: "A woman with oral carcinoma has visibly enlarged cervical lymph nodes (see photo). Which of the following sequences correctly describes the flow of lymph from the region of these lymph nodes into the bloodstream?",
+    options: {
+        a: "Right jugular trunk → right lymphatic duct → right venous angle",
+        b: "Right jugular trunk → thoracic duct → right venous angle",
+        c: "Right subclavian trunk → right lymphatic duct → right venous angle",
+        d: "Right jugular trunk → right subclavian trunk → right lymphatic duct → right venous angle",
+        e: "Right bronchomediastinal trunk → thoracic duct → left venous angle"
+    },
+    correct: "a",
+    explanation: "Lymph from the right cervical lymph nodes drains into the right jugular trunk. The right jugular trunk usually joins the right subclavian trunk and right bronchomediastinal trunk to form the right lymphatic duct. The right lymphatic duct then drains into the right venous angle. However, this arrangement can be anatomically variable."
+  },
+  image: { key: "q1078_custom", source: "Coronation Dental Specialty Group. Cervical lymphadenopathy right neck.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cervical_lymphadenopathy_right_neck.png. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
 },
 ]
       },
