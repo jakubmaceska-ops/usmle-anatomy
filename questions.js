@@ -10064,6 +10064,34 @@ id: 269,
   },
   image: { key: "q1082_custom", source: "Pectus1.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Pectus1.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1084,
+  cz: {
+    stem: "Na obrázku je vyznačena bederní kýla. Jakým prostorem prochází a který sval tvoří strop tohoto prostoru?",
+    options: {
+        a: "Trigonum lumbale superius (Grynfeltti), strop tvoří m. latissimus dorsi",
+        b: "Trigonum lumbale inferius (Petiti), strop tvoří m. latissimus dorsi",
+        c: "Trigonum lumbale superius (Grynfeltti), strop tvoří m. quadratus lumborum",
+        d: "Canalis inguinalis, strop tvoří m. obliquus internus abdominis",
+        e: "Trigonum lumbale inferius (Petiti), strop tvoří musculus obliquus internus abdominis"
+    },
+    correct: "a",
+    explanation: "Na CT je patrná lumbální kýla, která prochází skrze trigonum lumbale superius (Grynfeltti) – to lze poznat např. dle výše, ve které se hernie nachází (zde těsně pod 12. žebrem – označeno „12. Rippe“).  Nejde o trigonum lumbale inferius (Petiti), protože ten leží níže, v úrovni asi L4 (nad crista iliaca).\nStrop trigonum lumbale superius (Grynfeltti) tvoří m. latissimus dorsi. Jde o jedno z míst, kudy může procházet bederní kýla."
+  },
+  en: {
+    stem: "The image shows a lumbar hernia. Through which space does it pass, and which muscle forms the roof of this space?",
+    options: {
+        a: "Superior lumbar triangle (Grynfeltt–Lesshaft), roof formed by the latissimus dorsi muscle",
+        b: "Superior lumbar triangle (Grynfeltt–Lesshaft), roof formed by the latissimus dorsi muscle",
+        c: "Superior lumbar triangle (Grynfeltt–Lesshaft), roof formed by the quadratus lumborum muscle",
+        d: "Inguinal canal, roof formed by the internal oblique muscle",
+        e: "Inferior lumbar triangle (Petit), roof formed by the internal oblique muscle"
+    },
+    correct: "a",
+    explanation: "The CT shows a lumbar hernia passing through the superior lumbar triangle (Grynfeltt–Lesshaft). This can be inferred, for example, from the level at which the hernia is located (here, just below the 12th rib, indicated as “12. Rippe”). It is not the inferior lumbar triangle (Petit), which is located lower, approximately at the level of L4 (above the iliac crest).\nThe roof of the superior lumbar triangle (Grynfeltt–Lesshaft) is formed by the latissimus dorsi muscle. It is one of the sites through which a lumbar hernia can protrude."
+  },
+  image: { key: "q1084_custom", source: "Hellerhoff. Hernie links 55W - CT - 001 Annotation.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Grynfeltt-Hernie_links_55W_-_CT_-_001_Annotation.jpg. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       }
 
@@ -28940,6 +28968,34 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The suboccipital triangle is bounded by three muscles: the rectus capitis posterior major muscle medially, the obliquus capitis superior muscle laterally, and the obliquus capitis inferior muscle inferiorly. Its floor is formed by the posterior atlanto-occipital membrane and the posterior arch of the atlas. The region contains the vertebral artery, suboccipital nerve, and accompanying vessels."
     }
   },
+  {
+  id: 10264,
+  cz: {
+    stem: "Na jakou strukturu se označený sval upíná?",
+    options: {
+        a: "Condylus medialis tibiae",
+        b: "Condylus lateralis tibiae",
+        c: "Tuberositas tibiae",
+        d: "Caput fibulae",
+        e: "Epicondylus medialis femoris"
+    },
+    correct: "a",
+    explanation: "Na axiálním CT řezu šipka ukazuje na m. sartorius (na\npříčném řezu stehnem má charakteristický oválný až trojúhelníkovitý tvar,\nuložený superficiálně těsně pod fascia lata/kůží, na této úrovni stehna probíhá\nanteromediálně, je typicky viditelný jako menší, oddělený sval oddělený od\nvelké svalové masy m. quadriceps femoris).\nM. sartorius se distálně upíná na condylus medialis tibiae jako součást společného úponu pes anserinus, společně se šlachami m. gracilis a m. semitendinosus."
+  },
+  en: {
+    stem: "At which structure does the indicated muscle insert?",
+    options: {
+        a: "Medial condyle of the tibia",
+        b: "Lateral condyle of the tibia",
+        c: "Tibial tuberosity",
+        d: "Head of the fibula",
+        e: "Medial epicondyle of the femur"
+    },
+    correct: "a",
+    explanation: "On the axial CT image, the arrow points to the sartorius muscle (on a transverse section through the thigh, it has a characteristic oval to triangular shape and is located superficially, immediately beneath the fascia lata/skin. At this level, it runs anteromedially and is typically visible as a smaller, separate muscle distinct from the large muscle mass of the quadriceps femoris muscle).\nThe sartorius muscle inserts distally on the medial condyle of the tibia as part of the common pes anserinus insertion, together with the tendons of the gracilis and semitendinosus muscles."
+  },
+  image: { key: "q1083_custom", source: "C4KC-KiTS Kidney Study. Abdominal CT (modified). SAGA IT / The Cancer Imaging Archive. Available from: https://saga-it.com/dicom/samples. CC BY 3.0. Accessed 29 August 2026.", type: "image" }
+},
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
