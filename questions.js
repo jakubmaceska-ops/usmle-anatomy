@@ -11840,14 +11840,14 @@ id: 269,
   cz: {
     stem: "Jaká tepna zásobuje žlučník a odkud tato tepna nejčastěji pochází?",
     options: {
-        a: "a. cystica – ramus dexter a. hepatica propriae – a. hepatica propria",
+        a: "a. cystica – ramus dexter aa. hepaticae propriae – a. hepatica propria",
         b: "a. cystica – a. hepatica communis – truncus coeliacus",
         c: "a. gastrica dextra – a. hepatica propria – a. hepatica communis",
         d: "a. cystica – a. gastroduodenalis – a. hepatica communis",
         e: "a. hepatica propria – truncus coeliacus – aorta abdominalis"
     },
     correct: "a",
-    explanation: "Správná posloupnost je a. cystica – ramus dexter a. hepatica propriae – a. hepatica propria."
+    explanation: "Správná posloupnost je a. cystica – ramus dexter aa. hepaticae propriae – a. hepatica propria."
   },
   en: {
     stem: "Which artery supplies the gallbladder, and from where does this artery most commonly originate?",
@@ -12030,7 +12030,7 @@ id: 269,
 {
   id: 279,
   cz: {
-    stem: "Šestašedesátiletý muž přichází pro neúmyslný úbytek hmotnosti, časnou sytost a epigastrické bolesti. Při fyzikálním vyšetření je hmatná nebolestivá zvětšená uzlina v levé nadklíčkové krajině. Lékař vysloví podezření na metastatické postižení žaludku. Do kterého lymfatického útvaru se nádorové buňky nejpravděpodobněji šířily bezprostředně před postižením této uzliny?",
+    stem: "Šestašedesátiletý muž přichází pro neúmyslný úbytek hmotnosti, nechutenství a epigastrické bolesti. Při fyzikálním vyšetření je hmatná nebolestivá zvětšená uzlina v levé nadklíčkové krajině. Lékař vysloví podezření na metastatické postižení žaludku. Do kterého lymfatického útvaru se nádorové buňky nejpravděpodobněji šířily bezprostředně před postižením této uzliny?",
     options: {
         a: "Ductus thoracicus",
         b: "Truncus jugularis sinister",
@@ -12039,10 +12039,10 @@ id: 269,
         e: "Nodi lymphatici axillares"
     },
     correct: "a",
-    explanation: "Virchowova uzlina je levá supraklavikulární lymfatická uzlina, která přijímá lymfu z ductus thoracicus těsně před jeho vyústěním do levého žilního úhlu. Nádory břišní dutiny, zejména karcinom žaludku, mohou metastazovat přes hrudní mízovod právě do této uzliny, která je proto považována za klasický příznak pokročilého intraabdominálního maligního onemocnění."
+    explanation: "Virchowova uzlina je levá supraklavikulární lymfatická uzlina, která přijímá lymfu z ductus thoracicus těsně před jeho vyústěním do levého žilního úhlu. Nádory břišní dutiny, zejména karcinom žaludku, mohou metastazovat přes ductus thoracicus právě do této uzliny, která je proto považována za klasický příznak pokročilého intraabdominálního maligního onemocnění."
   },
   en: {
-    stem: "A 66-year-old man presents with unintentional weight loss, early satiety, and epigastric pain. Physical examination reveals a painless enlarged lymph node in the left supraclavicular region. The physician suspects metastatic gastric cancer. Through which lymphatic structure did the tumor cells most likely pass immediately before reaching this lymph node?",
+    stem: "A 66-year-old man presents with unintentional weight loss, lack of appetite, and epigastric pain. Physical examination reveals a painless enlarged lymph node in the left supraclavicular region. The physician suspects metastatic gastric cancer. Through which lymphatic structure did the tumor cells most likely pass immediately before reaching this lymph node?",
     options: {
         a: "Thoracic duct",
         b: "Left jugular trunk",
@@ -13017,7 +13017,7 @@ id: 269,
         "e": "Ren dexter"
       },
       "correct": "a",
-      "explanation": "Zadní plocha žaludku tvoří přední stěnu omentální burzy a nachází se v těsném vztahu k několika strukturám označovaným jako žaludeční lůžko. Mezi nejvýznamnější patří pancreas, který leží přímo za žaludkem. Dalšími strukturami žaludečního lůžka jsou například aorta abdominalis, lien, ren sinister a glandula suprarenalis sinistra. Hepar a vesica biliaris se nacházejí především v předním vztahu k žaludku."
+      "explanation": "Pancreas leží v těsném anatomickém vztahu k zadní ploše žaludku, od které je oddělen především omentální burzou. Při preparaci zadní stěny žaludku proto může být pankreas poraněn. Játra a žlučník jsou uloženy především vpravo a kraniálně od žaludku, colon ascendens leží v pravé části dutiny břišní a pravá ledvina je uložena retroperitoneálně vpravo, takže žádná z těchto struktur není v bezprostředním vztahu k zadní ploše žaludku."
     },
     "en": {
       "stem": "A patient undergoes laparoscopic gastric surgery. During dissection of the posterior wall of the stomach, the surgeon encounters a structure located directly behind the stomach that may be injured during the procedure. Which organ is in the closest relationship to the posterior surface of the stomach?",
@@ -13029,7 +13029,7 @@ id: 269,
         "e": "Right kidney"
       },
       "correct": "a",
-      "explanation": "The posterior surface of the stomach forms the anterior wall of the omental bursa and is closely related to several structures collectively known as the stomach bed. Among the most important structures is the pancreas, which lies directly posterior to the stomach. Other structures of the stomach bed include the abdominal aorta, spleen, left kidney, and left suprarenal gland. The liver and gallbladder are located mainly anterior to the stomach."
+      "explanation": "The pancreas lies in close anatomical relation to the posterior surface of the stomach, from which it is separated mainly by the omental bursa. During dissection of the posterior wall of the stomach, the pancreas may therefore be injured. The liver and gallbladder are located mainly to the right and superior to the stomach, the ascending colon lies on the right side of the abdominal cavity, and the right kidney is located retroperitoneally on the right, so none of these structures is in direct relation to the posterior surface of the stomach."
     }
   },
   {
@@ -13057,33 +13057,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The hepatogastric ligament is a part of the lesser omentum connecting the liver to the lesser curvature of the stomach. It contains mainly vessels running along the lesser curvature of the stomach, such as the left gastric artery and right gastric artery, as well as nerve fibers. The gastrosplenic ligament connects the stomach to the spleen and contains the short gastric arteries and the left gastroepiploic artery. The hepatoduodenal ligament contains the portal triad."
-    }
-  },
-  {
-    "id": 505,
-    "cz": {
-      "stem": "Pacient s tupým poraněním břicha má na CT vyšetření tekutinovou kolekci v horní části bursae omentalis. Lékař předpokládá, že tekutina se nahromadila v jednom z jejích recesů uložených v blízkosti jater. Který prostor představuje nejvyšší část bursae omentalis?",
-      "options": {
-        "a": "Recessus superior bursae omentalis",
-        "b": "Recessus inferior bursae omentalis",
-        "c": "Recessus splenicus bursae omentalis",
-        "d": "Recessus paracolicus dexter",
-        "e": "Recessus intersigmoideus"
-      },
-      "correct": "a",
-      "explanation": "Recessus superior bursae omentalis je nejvyšší částí bursae omentalis a nachází se mezi lobus caudatus jater a bránicí. Recessus inferior bursae omentalis je uložen níže mezi žaludkem a colon transversum. Recessus splenicus souvisí s oblastí sleziny a vzniká v okolí ligamentum gastrosplenicum. Ostatní uvedené recesy patří do hlavní peritoneální dutiny a nejsou součástí bursae omentalis."
-    },
-    "en": {
-      "stem": "A patient with blunt abdominal trauma undergoes CT imaging showing a fluid collection in the upper part of the omental bursa. The physician suspects that the fluid has accumulated in one of its recesses located near the liver. Which space represents the highest part of the omental bursa?",
-      "options": {
-        "a": "Superior recess of the omental bursa",
-        "b": "Inferior recess of the omental bursa",
-        "c": "Splenic recess of the omental bursa",
-        "d": "Right paracolic recess",
-        "e": "Intersigmoid recess"
-      },
-      "correct": "a",
-      "explanation": "The superior recess of the omental bursa is the highest part of the omental bursa and is located between the caudate lobe of the liver and the diaphragm. The inferior recess of the omental bursa is situated lower between the stomach and the transverse colon. The splenic recess is related to the splenic region and is formed around the gastrosplenic ligament. The other listed recesses belong to the main peritoneal cavity and are not parts of the omental bursa."
     }
   },
   {
@@ -13125,7 +13098,7 @@ id: 269,
         "e": "Recessus paracolicus sinister"
       },
       "correct": "a",
-      "explanation": "Recessus inferior bursae omentalis představuje dolní část bursae omentalis a nachází se mezi žaludkem a colon transversum. Tento prostor může být postižen při šíření tekutiny nebo zánětlivých procesů z oblasti pankreatu, který leží v těsném vztahu k zadní stěně bursae omentalis. Recessus superior bursae omentalis je uložen výše mezi lobus caudatus jater a bránicí. Recessus splenicus souvisí s oblastí sleziny, zatímco ostatní uvedené recesy patří do hlavní peritoneální dutiny."
+      "explanation": "Recessus inferior bursae omentalis představuje dolní část bursa omentalis a nachází se mezi žaludkem a colon transversum. Tento prostor může být postižen při šíření tekutiny nebo zánětlivých procesů z oblasti pankreatu, který leží v těsném vztahu k zadní stěně bursae omentalis. Recessus superior bursae omentalis je uložen výše mezi lobus caudatus jater a bránicí. Recessus splenicus souvisí s oblastí sleziny, zatímco ostatní uvedené recesy patří do hlavní peritoneální dutiny."
     },
     "en": {
       "stem": "A patient with pancreatitis undergoes imaging showing fluid spreading into the space between the stomach and the transverse colon. The physician states that the fluid is located in the inferior part of the omental bursa. Which anatomical space is affected?",
@@ -13332,16 +13305,16 @@ id: 269,
   {
     "id": 515,
     "cz": {
-      "stem": "Pacient podstupuje resekci tenkého střeva kvůli ischemii. Chirurg během výkonu sleduje cévní oblouky a přímé cévy v mesenterium jejuni. Která charakteristika těchto cév je správná?",
+      "stem": "Pacient podstupuje resekci tenkého střeva kvůli ischemii. Chirurg během výkonu sleduje cévní arkády a přímé cévy v mesenterium jejuni. Která charakteristika těchto cév je správná?",
       "options": {
-        "a": "Jejunum má méně cévních oblouků a delší vasa recta než ileum",
-        "b": "Jejunum má více cévních oblouků a kratší vasa recta než ileum",
-        "c": "Ileum má méně cévních oblouků a delší vasa recta než jejunum",
+        "a": "Jejunum má méně cévních arkád a delší vasa recta než ileum",
+        "b": "Jejunum má více cévních arkád a kratší vasa recta než ileum",
+        "c": "Ileum má méně cévních arkád a delší vasa recta než jejunum",
         "d": "Jejunum a ileum mají identickou strukturu cévního zásobení v mesenterium",
         "e": "Vasa recta vznikají přímo z truncus coeliacus"
       },
       "correct": "a",
-      "explanation": "Jejunum se vyznačuje menším počtem cévních oblouků a delšími přímými cévami (vasa recta) ve srovnání s ileem. Ileum má více cévních oblouků a kratší vasa recta. Tyto rozdíly v uspořádání cév v mesenterium pomáhají anatomicky odlišit jednotlivé části tenkého střeva. Cévy jejuna a ilea jsou větvemi a. mesenterica superior, která zásobuje orgány embryologicky odvozené ze středního střeva."
+      "explanation": "Jejunum se vyznačuje menším počtem cévních arkád a delšími přímými cévami (vasa recta) ve srovnání s ileem. Ileum má více cévních oblouků a kratší vasa recta. Tyto rozdíly v uspořádání cév v mesenterium pomáhají anatomicky odlišit jednotlivé části tenkého střeva. Cévy jejuna a ilea jsou větvemi a. mesenterica superior, která zásobuje orgány embryologicky odvozené ze středního střeva."
     },
     "en": {
       "stem": "A patient undergoes small intestine resection due to ischemia. During the procedure, the surgeon examines the vascular arcades and straight arteries within the jejunal mesentery. Which characteristic of these vessels is correct?",
