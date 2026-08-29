@@ -8028,6 +8028,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1081_custom", source: "Michael L. Richardson, M.D. XrayRicketsLegssmall.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:XrayRicketsLegssmall.jpg. CC BY-SA 1.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1083,
+  cz: {
+    stem: "Na jaké struktuře začíná označený sval?",
+    options: {
+        a: "Spina iliaca anterior superior",
+        b: "Spina iliaca anterior inferior",
+        c: "Tuber ischiadicum",
+        d: "Trochanter major femoris",
+        e: "Ramus superior ossis pubis"
+    },
+    correct: "a",
+    explanation: "Na axiálním CT řezu šipka ukazuje na m. sartorius (na příčném řezu stehnem má charakteristický oválný až trojúhelníkovitý tvar, uložený superficiálně těsně pod fascia lata/kůží, na této úrovni stehna probíhá anteromediálně, je typicky viditelný jako menší, oddělený sval oddělený od velké svalové masy m. quadriceps femoris).\nM. sartorius začíná na spina iliaca anterior superior a probíhá šikmo přes přední stranu stehna. Distálně se upíná na mediální plochu proximální tibie v oblasti pes anserinus."
+  },
+  en: {
+    stem: "On which structure does the indicated muscle originate?",
+    options: {
+        a: "Anterior superior iliac spine",
+        b: "Anterior inferior iliac spine",
+        c: "Ischial tuberosity",
+        d: "Greater trochanter of the femur",
+        e: "Superior ramus of the pubis"
+    },
+    correct: "a",
+    explanation: "On the axial CT image, the arrow points to the sartorius muscle (on a transverse section through the thigh, it has a characteristic oval to triangular shape and is located superficially, immediately beneath the fascia lata/skin. At this level, it runs anteromedially and is typically visible as a smaller, separate muscle distinct from the large muscle mass of the quadriceps femoris muscle).\nThe sartorius muscle originates from the anterior superior iliac spine and runs obliquely across the anterior aspect of the thigh. Distally, it inserts on the medial surface of the proximal tibia as part of the pes anserinus."
+  },
+  image: { key: "q1083_custom", source: "C4KC-KiTS Kidney Study. Abdominal CT (modified). SAGA IT / The Cancer Imaging Archive. Available from: https://saga-it.com/dicom/samples. CC BY 3.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       },
 
