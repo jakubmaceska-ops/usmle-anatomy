@@ -10008,6 +10008,34 @@ id: 269,
       "explanation": "The iliohypogastric nerve is a branch of the anterior ramus of the L1 spinal nerve. It travels laterally across the quadratus lumborum muscle and then passes between the transversus abdominis muscle and internal oblique muscle. It provides motor innervation to portions of the abdominal wall muscles and sensory innervation to the skin of the suprapubic region and the superolateral part of the buttock. Injury to this nerve can therefore cause sensory loss in these characteristic areas."
     }
   },
+  {
+  id: 1082,
+  cz: {
+    stem: "Na obrázku je patrná deformita přední stěny hrudníku u 16letého chlapce. Jaká je nejpravděpodobnější diagnóza?",
+    options: {
+        a: "Pectus excavatum",
+        b: "Pectus carinatum",
+        c: "Kyphosis",
+        d: "Scoliosis",
+        e: "Soudkovitý hrudník (barrel chest)"
+    },
+    correct: "a",
+    explanation: "Pectus excavatum je deformita hrudníku charakterizovaná vpáčením hrudní kosti směrem posteriorně (dovnitř). Pectus carinatum je naopak vyklenutí hrudní kosti anteriorně. Kyphosis a scoliosis jsou deformity páteře, nikoli přední stěny hrudníku. Soudkovitý hrudník (barrel chest) je charakterizován zvětšením anteroposteriorního průměru hrudníku a typicky se vyskytuje u emfyzému."
+  },
+  en: {
+    stem: "The image shows a deformity of the anterior chest wall in a 16-year-old boy. What is the most likely diagnosis?",
+    options: {
+        a: "Pectus excavatum",
+        b: "Pectus carinatum",
+        c: "Kyphosis",
+        d: "Scoliosis",
+        e: "Barrel chest"
+    },
+    correct: "a",
+    explanation: "Pectus excavatum is a chest wall deformity characterized by posterior displacement of the sternum (inward depression). Pectus carinatum, in contrast, is characterized by anterior protrusion of the sternum. Kyphosis and scoliosis are spinal deformities rather than deformities of the anterior chest wall. Barrel chest is characterized by an increased anteroposterior diameter of the chest and is typically seen in conditions such as emphysema."
+  },
+  image: { key: "q1082_custom", source: "Pectus1.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Pectus1.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       }
 
