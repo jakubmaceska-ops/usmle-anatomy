@@ -8056,6 +8056,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1083_custom", source: "C4KC-KiTS Kidney Study. Abdominal CT (modified). SAGA IT / The Cancer Imaging Archive. Available from: https://saga-it.com/dicom/samples. CC BY 3.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1085,
+  cz: {
+    stem: "Jaký sval se upíná na označenou kost?",
+    options: {
+        a: "m. fibularis longus",
+        b: "m. fibularis brevis",
+        c: "m. tibialis anterior",
+        d: "m. tibialis posterior",
+        e: "m. extensor hallucis longus"
+    },
+    correct: "a",
+    explanation: "M. fibularis longus se distálně upíná na plantární plochu báze I. metatarzu a přilehlou část os cuneiforme mediale. Jeho šlacha za laterálním kotníkem pokračuje podél laterální strany nohy, poté obchází plantární stranu nohy v sulcus tendinis m. fibularis longi a směřuje mediálně k místu svého úponu. M. fibularis longus působí především jako evertor a plantární flexor nohy a podílí se na stabilizaci příčné klenby nohy."
+  },
+  en: {
+    stem: "Which muscle inserts on the indicated bone?",
+    options: {
+        a: "fibularis longus muscle",
+        b: "fibularis brevis muscle",
+        c: "tibialis anterior muscle",
+        d: "tibialis posterior muscle",
+        e: "extensor hallucis longus muscle"
+    },
+    correct: "a",
+    explanation: "The fibularis longus muscle inserts distally on the plantar surface of the base of the first metatarsal and the adjacent part of the medial cuneiform. Its tendon passes behind the lateral malleolus along the lateral aspect of the foot, then crosses the plantar surface of the foot in the groove for the fibularis longus tendon and runs medially toward its insertion. The fibularis longus muscle primarily acts as an evertor and plantar flexor of the foot and contributes to stabilization of the transverse arch of the foot."
+  },
+  image: { key: "q1085_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       },
 
