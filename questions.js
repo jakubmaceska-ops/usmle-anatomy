@@ -3181,6 +3181,33 @@ const QUESTION_DATA = {
   },
   image: { key: "q1079_custom", source: "Drahreg01. Linke Hand mit Tabatiere.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Linke_Hand_mit_Tabatiere.jpg. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1089,
+  cz: {
+    stem: "Pacient přichází s akutní ischemií horní končetiny způsobenou proximálním uzávěrem a. axillaris. Která z následujících tepen může prostřednictvím kolaterálního oběhu přivádět krev do oblasti distálně od místa uzávěru?",
+    options: {
+        a: "a. thoracica superior",
+        b: "a. thoracoacromialis",
+        c: "a. suprascapularis",
+        d: "a. thoracica lateralis",
+        e: "a. circumflexa humeri posterior"
+    },
+    correct: "c",
+    explanation: "A. suprascapularis odstupuje z truncus thyrocervicalis, který je větví a. subclavia. Je proto součástí tepenného řečiště proximálnějšího než a. axillaris. Prostřednictvím lopatkové anastomózy se spojuje s a. circumflexa scapulae, větví a. subscapularis, a s a. dorsalis scapulae. Tato anastomotická síť umožňuje vést krev z povodí a. subclavia kolem místa uzávěru a. axillaris do jejího distálního úseku a dále do horní končetiny.\nOstatní uvedené tepny jsou větvemi samotné a. axillaris: a. thoracica superior odstupuje z jejího 1. úseku, a. thoracoacromialis a a. thoracica lateralis z 2. úseku a a. circumflexa humeri posterior z 3. úseku. Při proximálním uzávěru a. axillaris tedy nemohou představovat nezávislý zdroj krve, který by přivedl krev z proximálního tepenného řečiště za místo uzávěru."
+  },
+  en: {
+    stem: "A patient presents with acute ischemia of the upper limb caused by proximal occlusion of the axillary artery. Which of the following arteries can provide blood flow to the region distal to the site of occlusion through collateral circulation?",
+    options: {
+        a: "Superior thoracic artery",
+        b: "Thoracoacromial artery",
+        c: "Suprascapular artery",
+        d: "Lateral thoracic artery",
+        e: "Posterior circumflex humeral artery"
+    },
+    correct: "c",
+    explanation: "The suprascapular artery arises from the thyrocervical trunk, which is a branch of the subclavian artery. It is therefore part of the arterial circulation proximal to the axillary artery. Through the scapular anastomosis, it connects with the circumflex scapular artery, a branch of the subscapular artery, and with the dorsal scapular artery. This anastomotic network allows blood from the subclavian artery to bypass the site of axillary artery occlusion and reach its distal portion and, subsequently, the upper limb.\nThe other arteries listed are branches of the axillary artery itself: the superior thoracic artery arises from its first part, the thoracoacromial artery and lateral thoracic artery from its second part, and the posterior circumflex humeral artery from its third part. Therefore, in the setting of a proximal occlusion of the axillary artery, they cannot serve as an independent source of blood flow from the proximal arterial circulation to the region distal to the occlusion."
+  }
+},
 
           {
             id: 12,
