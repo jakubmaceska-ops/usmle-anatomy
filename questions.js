@@ -8084,6 +8084,62 @@ const QUESTION_DATA = {
   },
   image: { key: "q1085_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1086,
+  cz: {
+    stem: "Jaká kost je označena žlutou šipkou?",
+    options: {
+        a: "os cuboideum",
+        b: "os naviculare",
+        c: "os cuneiforme mediale",
+        d: "os cuneiforme intermedium",
+        e: "os cuneiforme laterale"
+    },
+    correct: "a",
+    explanation: "Os cuboideum je tarzální kost uložená v laterální části nohy, mezi patní kostí proximálně a IV. a V. metatarzem distálně. Mediálně sousedí s os cuneiforme laterale a s os naviculare. Os naviculare (červená šipka) a tři klínové kosti (ossa cuneiformia) se nacházejí více mediálně."
+  },
+  en: {
+    stem: "Which bone is indicated by the yellow arrow?",
+    options: {
+        a: "Cuboid",
+        b: "Navicular",
+        c: "Medial cuneiform",
+        d: "Intermediate cuneiform",
+        e: "Lateral cuneiform"
+    },
+    correct: "a",
+    explanation: "The cuboid is a tarsal bone located in the lateral part of the foot, between the calcaneus proximally and the fourth and fifth metatarsals distally. Medially, it articulates with the lateral cuneiform and the navicular. The navicular (red arrow) and the three cuneiform bones are located more medially."
+  },
+  image: { key: "q1086_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
+},
+{
+  id: 1087,
+  cz: {
+    stem: "Jaký sval se upíná na kost označenou ČERVENOU šipkou?",
+    options: {
+        a: "m. tibialis posterior",
+        b: "m. tibialis anterior",
+        c: "m. fibularis longus",
+        d: "m. fibularis brevis",
+        e: "m. flexor hallucis longus"
+    },
+    correct: "a",
+    explanation: "Červená šipka označuje os naviculare. M. tibialis posterior se upíná na tuberositas ossis navicularis a na spodní plochu klínových kostí. M. tibialis posterior je významným invertorem a plantárním flexorem nohy a podílí se na udržování mediální podélné klenby nohy. Žlutá šipka označuje os cuboideum a modrá šipka os cuneiforme mediale."
+  },
+  en: {
+    stem: "Which muscle inserts on the bone indicated by the RED arrow?",
+    options: {
+        a: "posterior tibialis muscle",
+        b: "anterior tibialis muscle",
+        c: "long fibularis muscle",
+        d: "short fibularis muscle",
+        e: "long flexor muscle of the great toe"
+    },
+    correct: "a",
+    explanation: "The red arrow indicates the navicular bone. The posterior tibialis muscle inserts on the navicular tuberosity and on the plantar surfaces of the cuneiform bones. The posterior tibialis muscle is an important invertor and plantar flexor of the foot and contributes to maintaining the medial longitudinal arch of the foot. The yellow arrow indicates the cuboid bone, and the blue arrow indicates the medial cuneiform bone."
+  },
+  image: { key: "q1086_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
+},
 ]
       },
 
@@ -28651,6 +28707,34 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The femoral nerve arises from the anterior divisions of the L2–L4 spinal nerves and, in the posterior abdominal wall, runs in the groove between the psoas major and iliacus muscles. It then passes beneath the inguinal ligament into the femoral triangle, where it divides into motor and sensory branches. It primarily innervates the quadriceps femoris muscle and provides sensory innervation to the anterior thigh and, via the saphenous nerve, to the medial aspect of the leg."
     }
   },
+  {
+  id: 10265,
+  cz: {
+    stem: "Který z uvedených svalů se upíná na kost označenou MODROU šipkou?",
+    options: {
+        a: "m. tibialis anterior",
+        b: "m. fibularis brevis",
+        c: "m. extensor hallucis longus",
+        d: "m. flexor hallucis longus",
+        e: "m. flexor digitorum longus"
+    },
+    correct: "a",
+    explanation: "Modrá šipka označuje os cuneiforme mediale. M. tibialis anterior se upíná na mediální a plantární plochu os cuneiforme mediale a na bázi I. metatarzu. M. fibularis brevis se upíná na tuberositas metatarsi quinti, zatímco m. extensor hallucis longus se upíná na distální článek palce. M. flexor hallucis longus se rovněž upíná na distální článek palce a m. flexor digitorum longus na distální články II.–V. prstu."
+  },
+  en: {
+    stem: "Which of the following muscles inserts on the bone indicated by the BLUE arrow?",
+    options: {
+        a: "tibialis anterior muscle",
+        b: "fibularis brevis muscle",
+        c: "extensor hallucis longus muscle",
+        d: "flexor hallucis longus muscle",
+        e: "flexor digitorum longus muscle"
+    },
+    correct: "a",
+    explanation: "The blue arrow indicates the medial cuneiform bone. The tibialis anterior muscle inserts on the medial and plantar surfaces of the medial cuneiform and the base of the first metatarsal. The fibularis brevis muscle inserts on the tuberosity of the fifth metatarsal, whereas the extensor hallucis longus muscle inserts on the distal phalanx of the great toe. The flexor hallucis longus muscle also inserts on the distal phalanx of the great toe, while the flexor digitorum longus muscle inserts on the distal phalanges of toes II–V."
+  },
+  image: { key: "q1086_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
+},
     ]
     // =ANATOMIE_1_VERZE_1_END=
   },
