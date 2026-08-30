@@ -8140,6 +8140,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1086_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1088,
+  cz: {
+    stem: "14letý chlapec aktivně sportuje a opakovaně pociťuje bolest a citlivost v oblasti přední strany kolene, která se zhoršuje při běhání, skákání a dalších aktivitách zatěžujících extenzorový aparát kolene. I přes tyto varovné příznaky pokračuje v trénincích ve stejné intenzitě. K lékaři je transportován poté, co při tréninku náhle ucítí prudkou bolest v oblasti pod kolenem. Při vyšetření je patrný otok a výrazná bolestivost v oblasti kolene. Na MRI snímku je patrné odtržení místa úponu šlachy přetěžovaného svalu.\nVyber správnou kombinaci svalu a části kosti, která byla odlomena.",
+    options: {
+        a: "m. quadriceps femoris – tuberositas tibiae",
+        b: "m. quadriceps femoris – condylus medialis tibiae",
+        c: "m. biceps femoris – tuberositas tibiae",
+        d: "m. biceps femoris – capitulum fibulae",
+        e: "m. gastrocnemius – epicondylus lateralis femoris"
+    },
+    correct: "a",
+    explanation: "Jedná se o Osgood-Schlatterovu chorobu, tedy trakční apofyzitidu tuberositas tibiae, která se typicky objevuje u dospívajících sportovců. Opakované kontrakce m. quadriceps femoris přenášejí tah přes patellu a ligamentum patellae na tuberositas tibiae. Opakované přetěžování může způsobit bolest a otok v této oblasti a v závažnějších případech i avulzi (odtržení) tuberositas tibiae. Správná kombinace je tedy m. quadriceps femoris (největší extensor v kolenním kloubu) – tuberositas tibiae (míst odtržení na MRI, kam se tento sval upíná)."
+  },
+  en: {
+    stem: "A 14-year-old boy actively participates in sports and repeatedly experiences pain and tenderness over the anterior aspect of the knee, which worsens with running, jumping, and other activities that place stress on the knee extensor mechanism. Despite these warning signs, he continues training at the same intensity. He is brought to a physician after suddenly experiencing severe pain below the knee during training. On examination, swelling and marked tenderness are present around the knee. An MRI scan shows avulsion of the attachment site of the tendon of the overworked muscle.\nWhich of the following combinations of the muscle and the part of the bone that was avulsed is correct?",
+    options: {
+        a: "quadriceps femoris muscle – tibial tuberosity",
+        b: "quadriceps femoris muscle – medial condyle of the tibia",
+        c: "biceps femoris muscle – tibial tuberosity",
+        d: "biceps femoris muscle – head of the fibula",
+        e: "gastrocnemius muscle – lateral epicondyle of the femur"
+    },
+    correct: "a",
+    explanation: "This is Osgood-Schlatter disease, a traction apophysitis of the tibial tuberosity that typically occurs in adolescent athletes. Repetitive contractions of the quadriceps femoris muscle transmit tensile forces through the patella and patellar ligament to the tibial tuberosity. Repetitive overuse can cause pain and swelling in this region and, in severe cases, avulsion of the tibial tuberosity.\nTherefore, the correct combination is quadriceps femoris muscle (the main extensor of the knee joint) – tibial tuberosity (the site of the avulsion seen on MRI, where the extensor mechanism ultimately attaches)."
+  },
+  image: { key: "q1087_custom", source: "MBq. MBq Osgood-Schlatter.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:MBq_Osgood-Schlatter.jpg. Public domain. Accessed 30 August 2026.", type: "image" }
+},
 ]
       },
 
