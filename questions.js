@@ -3208,6 +3208,34 @@ const QUESTION_DATA = {
     explanation: "The suprascapular artery arises from the thyrocervical trunk, which is a branch of the subclavian artery. It is therefore part of the arterial circulation proximal to the axillary artery. Through the scapular anastomosis, it connects with the circumflex scapular artery, a branch of the subscapular artery, and with the dorsal scapular artery. This anastomotic network allows blood from the subclavian artery to bypass the site of axillary artery occlusion and reach its distal portion and, subsequently, the upper limb.\nThe other arteries listed are branches of the axillary artery itself: the superior thoracic artery arises from its first part, the thoracoacromial artery and lateral thoracic artery from its second part, and the posterior circumflex humeral artery from its third part. Therefore, in the setting of a proximal occlusion of the axillary artery, they cannot serve as an independent source of blood flow from the proximal arterial circulation to the region distal to the occlusion."
   }
 },
+{
+  id: 1091,
+  cz: {
+    stem: "Uzávěr které arterie je patrný na zobrazené CT angiografii?",
+    options: {
+        a: "a. subclavia – 1. úsek (pars intrascalenica)",
+        b: "a. subclavia – 2. úsek (pars interscalenica)",
+        c: "a. subclavia – 3. úsek (pars extrascalenica)",
+        d: "a. axillaris",
+        e: "a. brachialis"
+    },
+    correct: "d",
+    explanation: "A. subclavia začíná vpravo jako větev truncus brachiocephalicus a vlevo odstupuje přímo z arcus aortae. Její 1. úsek (pars intrascalenica/prescalenica) probíhá od odstupu k mediálnímu okraji m. scalenus anterior, 2. úsek (pars interscalenica) za tímto svalem a 3. úsek (pars extrascalenica/postscalenica) od jeho laterálního okraje k laterálnímu okraji 1. žebra.\nPoté pokračuje jako a. axillaris, která probíhá axilou až k dolnímu okraji m. teres major. Ve výšce collum chirurgicum humeri přechází v a. brachialis. Uzávěr zobrazený na CT angiografii tedy odpovídá a. axillaris, která anatomicky leží mezi a. subclavia a a. brachialis."
+  },
+  en: {
+    stem: "Which artery is occluded on the CT angiography shown?",
+    options: {
+        a: "Subclavian artery – 1st part (prescalene part)",
+        b: "Subclavian artery – 2nd part (retroscalene part)",
+        c: "Subclavian artery – 3rd part (postscalene part)",
+        d: "Axillary artery",
+        e: "Brachial artery"
+    },
+    correct: "d",
+    explanation: "The subclavian artery arises on the right from the brachiocephalic trunk and on the left directly from the aortic arch. Its 1st part (intrascalenic/prescalene part) extends to the medial border of the anterior scalene muscle, the 2nd part (retroscalene part) passes posterior to this muscle, and the 3rd part (extrascalenic/postscalene part) extends from its lateral border to the lateral border of the 1st rib.\nAt the lateral border of the 1st rib, it continues as the axillary artery, which runs through the axilla to the inferior border of the teres major muscle. At this level, it continues as the brachial artery. The occlusion shown on the CT angiography therefore corresponds to the axillary artery, which anatomically lies between the subclavian and brachial arteries."
+  },
+  image: { key: "q1091_custom", source: "James Heilman, MD. Acuteoccluisionaxartery.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Acuteoccluisionaxartery.png. CC BY-SA 4.0. Accessed 30 August 2026.", type: "image" }
+},
 
           {
             id: 12,
