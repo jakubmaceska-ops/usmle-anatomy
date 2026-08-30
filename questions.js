@@ -8195,6 +8195,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1087_custom", source: "MBq. MBq Osgood-Schlatter.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:MBq_Osgood-Schlatter.jpg. Public domain. Accessed 30 August 2026.", type: "image" }
 },
+{
+  id: 1090,
+  cz: {
+    stem: "Při vyšetření kolene je pacient v poloze vleže na zádech s kolenem flektovaným přibližně do 90°. Vyšetřující stabilizuje dolní končetinu a uchopí proximální část bérce, kterou následně táhne směrem dopředu (viz schéma). Nadměrný posun tibie vůči femuru oproti zdravé končetině je považován za pozitivní nález.",
+    options: {
+        a: "Ligamentum cruciatum anterius",
+        b: "Ligamentum cruciatum posterius",
+        c: "Ligamentum collaterale tibiale",
+        d: "Ligamentum collaterale fibulare",
+        e: "Meniscus medialis"
+    },
+    correct: "a",
+    explanation: "V zadání je popsaný přední zásuvkový test, který hodnotí především stabilitu předního zkříženého vazu (ligamentum cruciatum anterius, ACL). Při jeho provedení je tibie tažena anteriorně vůči femuru. Nadměrný přední posun tibie může svědčit pro poranění nebo insuficienci předního zkříženého vazu, který za normálních okolností omezuje přední translaci tibie vůči femuru."
+  },
+  en: {
+    stem: "During a knee examination, the patient is lying supine with the knee flexed to approximately 90°. The examiner stabilizes the lower limb and grasps the proximal part of the leg, which is then pulled forward (see scheme). Excessive anterior displacement of the tibia relative to the femur compared with the contralateral limb is considered a positive finding.\nWhich of the following structures is primarily assessed by this test?",
+    options: {
+        a: "Anterior cruciate ligament",
+        b: "Posterior cruciate ligament",
+        c: "Tibial collateral ligament",
+        d: "Fibular collateral ligament",
+        e: "Medial meniscus"
+    },
+    correct: "a",
+    explanation: "The test described in the question is the anterior drawer test, which primarily assesses the stability of the anterior cruciate ligament (ligamentum cruciatum anterius, ACL). During the test, the tibia is pulled anteriorly relative to the femur. Excessive anterior displacement of the tibia may indicate injury or insufficiency of the anterior cruciate ligament, which normally limits anterior translation of the tibia relative to the femur."
+  },
+  image: { key: "q1090_custom", source: "Own work. Created with Gemini AI.", type: "image" }
+},
 ]
       },
 
