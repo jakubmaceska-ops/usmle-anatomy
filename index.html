@@ -2789,6 +2789,9 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       fieldImage: "Obrázek nebo video (PNG/JPG/WebP, MP4/WebM/OGV, nepovinné)",
       fieldImageSource: "Zdroj obrázku (nepovinné)",
       fieldImageSourcePlaceholder: "např. Gray's Anatomy, 41. vydání",
+      fieldExplanationImage: "Obrázek nebo video k řešení (PNG/JPG/WebP, MP4/WebM/OGV, nepovinné)",
+      fieldExplanationImageSource: "Zdroj obrázku k řešení (nepovinné)",
+      fieldExplanationImageSourcePlaceholder: "např. Gray's Anatomy, 41. vydání",
       fieldOptions: "Možnosti odpovědí (zaškrtni správnou)",
       fieldOptionPlaceholder: (letter) => `Možnost ${letter}`,
       fieldOptionsEn: "Možnosti odpovědí (EN)",
@@ -3005,6 +3008,9 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       fieldImage: "Image or video (PNG/JPG/WebP, MP4/WebM/OGV, optional)",
       fieldImageSource: "Image source (optional)",
       fieldImageSourcePlaceholder: "e.g. Gray's Anatomy, 41st ed.",
+      fieldExplanationImage: "Explanation image or video (PNG/JPG/WebP, MP4/WebM/OGV, optional)",
+      fieldExplanationImageSource: "Explanation image source (optional)",
+      fieldExplanationImageSourcePlaceholder: "e.g. Gray's Anatomy, 41st ed.",
       fieldOptions: "Answer options (mark the correct one)",
       fieldOptionPlaceholder: (letter) => `Option ${letter}`,
       fieldOptionsEn: "Answer options (EN)",
@@ -4042,6 +4048,62 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     sourceField.appendChild(sourceInput);
     wrap.appendChild(sourceField);
 
+    // -- explanation image / video (optional, shared for both languages) --
+    let explImageDataUrl = null;
+    let explImageMediaType = "image"; // "image" | "video"
+    const explImageField = el("div", { cls: "aq-field" });
+    explImageField.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationImage }));
+    const explImageInput = el("input", {
+      attrs: {
+        type: "file",
+        accept: "image/png,image/jpeg,image/webp,video/mp4,video/webm,video/ogg,.ogv,.ogg,.mp4,.webm,.mov"
+      }
+    });
+    const explImagePreviewWrap = el("div", { cls: "aq-image-preview-wrap" });
+    explImageField.appendChild(explImageInput);
+    explImageField.appendChild(explImagePreviewWrap);
+    wrap.appendChild(explImageField);
+
+    explImageInput.addEventListener("change", () => {
+      const file = explImageInput.files && explImageInput.files[0];
+      explImagePreviewWrap.innerHTML = "";
+      if (!file) { explImageDataUrl = null; return; }
+      const isVideo = (file.type && file.type.startsWith("video/")) || VIDEO_EXT_RE.test(file.name || "");
+      explImageMediaType = isVideo ? "video" : "image";
+      const reader = new FileReader();
+      reader.onload = () => {
+        explImageDataUrl = reader.result;
+        const previewEl = isVideo
+          ? el("video", {
+              cls: "aq-image-preview",
+              attrs: { src: explImageDataUrl, controls: "controls", muted: "muted" }
+            })
+          : el("img", { cls: "aq-image-preview", attrs: { src: explImageDataUrl, alt: "" } });
+        const removeBtn = el("button", {
+          cls: "aq-remove-img",
+          text: "×",
+          onClick: () => {
+            explImageDataUrl = null;
+            explImageInput.value = "";
+            explImagePreviewWrap.innerHTML = "";
+          }
+        });
+        explImagePreviewWrap.appendChild(previewEl);
+        explImagePreviewWrap.appendChild(removeBtn);
+      };
+      reader.readAsDataURL(file);
+    });
+
+    // -- explanation image source (optional, shared for both languages) --
+    const explSourceField = el("div", { cls: "aq-field" });
+    explSourceField.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationImageSource }));
+    const explSourceInput = el("input", {
+      cls: "aq-input",
+      attrs: { type: "text", placeholder: tr().fieldExplanationImageSourcePlaceholder }
+    });
+    explSourceField.appendChild(explSourceInput);
+    wrap.appendChild(explSourceField);
+
     // -- EN section heading --
     wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionEnTitle }));
 
@@ -4158,6 +4220,17 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
           ? `,\n  image: { key: ${JSON.stringify(imageKey)}, source: ${JSON.stringify(sourceInput.value.trim())}, type: ${JSON.stringify(imageMediaType)} }`
           : "";
 
+        let explImageKey = null;
+        let explImageCode = "";
+        if (explImageDataUrl) {
+          explImageKey = "e" + newId + "_custom";
+          explImageCode = `  ${explImageKey}: ${JSON.stringify(explImageDataUrl)},\n`;
+        }
+
+        const explImageFieldCode = explImageKey
+          ? `,\n  explanationImage: { key: ${JSON.stringify(explImageKey)}, source: ${JSON.stringify(explSourceInput.value.trim())}, type: ${JSON.stringify(explImageMediaType)} }`
+          : "";
+
         const questionCode =
 `{
   id: ${newId},
@@ -4176,12 +4249,14 @@ ${optionsObjCodeEn}
     },
     correct: ${JSON.stringify(correctLetter)},
     explanation: ${JSON.stringify(explTextEn)}
-  }${imageFieldCode}
+  }${imageFieldCode}${explImageFieldCode}
 },`;
 
+        const combinedImageCode = imageCode + explImageCode;
+
         let finalOutput = "";
-        if (imageCode) {
-          finalOutput += "// 1) Vlož do objektu IMAGES (na začátku skriptu):\n" + imageCode + "\n";
+        if (combinedImageCode) {
+          finalOutput += "// 1) Vlož do objektu IMAGES (na začátku skriptu):\n" + combinedImageCode + "\n";
           finalOutput += `// 2) Vlož do QUESTION_DATA.${unitSelect.value}.chapters.${chapterSelect.value}.questions:\n` + questionCode;
         } else {
           finalOutput += `// Vlož do QUESTION_DATA.${unitSelect.value}.chapters.${chapterSelect.value}.questions:\n` + questionCode;
@@ -5278,6 +5353,24 @@ ${optionsObjCodeEn}
     document.body.appendChild(overlay);
   }
 
+  function buildQuestionImageWrap(imageMeta, sourceLabel) {
+    if (!imageMeta || !IMAGES[imageMeta.key]) return null;
+    const imgWrap = el("div", { cls: "q-image-wrap" });
+    const isVideo = imageMeta.type === "video";
+    const imgEl = isVideo
+      ? el("video", { cls: "q-image", attrs: { src: IMAGES[imageMeta.key], controls: "controls" } })
+      : el("img", {
+          cls: "q-image",
+          attrs: { src: IMAGES[imageMeta.key], alt: "" },
+          onClick: () => openLightbox(IMAGES[imageMeta.key], "image")
+        });
+    imgWrap.appendChild(imgEl);
+    if (imageMeta.source) {
+      imgWrap.appendChild(el("div", { cls: "q-image-source", text: `${sourceLabel}: ${imageMeta.source}` }));
+    }
+    return imgWrap;
+  }
+
   function renderQuiz() {
     const frag = el("div");
     const idx = state.currentIndex;
@@ -5401,6 +5494,8 @@ ${optionsObjCodeEn}
     if (isAnswered && state.mode === "browse") {
       expl.appendChild(el("span", { cls: "exp-label", text: tr().explanationLabel }));
       expl.appendChild(el("div", { text: qData.explanation }));
+      const explImgWrap = buildQuestionImageWrap(q.explanationImage, tr().imageSource);
+      if (explImgWrap) expl.appendChild(explImgWrap);
     }
     card.appendChild(expl);
 
@@ -5683,6 +5778,8 @@ ${optionsObjCodeEn}
     const expl = el("div", { cls: "explanation visible" });
     expl.appendChild(el("span", { cls: "exp-label", text: tr().explanationLabel }));
     expl.appendChild(el("div", { text: qData.explanation }));
+    const explImgWrap = buildQuestionImageWrap(q.explanationImage, tr().imageSource);
+    if (explImgWrap) expl.appendChild(explImgWrap);
     card.appendChild(expl);
 
     return card;
