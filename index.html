@@ -4048,6 +4048,47 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     sourceField.appendChild(sourceInput);
     wrap.appendChild(sourceField);
 
+    // -- EN section heading --
+    wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionEnTitle }));
+
+    // -- stem (EN) --
+    const stemFieldEn = el("div", { cls: "aq-field" });
+    stemFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldStemEn }));
+    const stemInputEn = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldStemEnPlaceholder }
+    });
+    stemFieldEn.appendChild(stemInputEn);
+    wrap.appendChild(stemFieldEn);
+
+    // -- options a-e (EN) — same correct letter as CZ, just translated text --
+    const optionsFieldEn = el("div", { cls: "aq-field" });
+    optionsFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldOptionsEn }));
+    const optionInputsEn = {};
+    letters.forEach(letter => {
+      const row = el("div", { cls: "aq-option-row" });
+      const letterLabel = el("span", { cls: "aq-option-letter", text: letter.toUpperCase() });
+      const textInput = el("input", {
+        cls: "aq-input aq-option-input",
+        attrs: { type: "text", placeholder: tr().fieldOptionPlaceholderEn(letter.toUpperCase()) }
+      });
+      optionInputsEn[letter] = { textInput };
+      row.appendChild(letterLabel);
+      row.appendChild(textInput);
+      optionsFieldEn.appendChild(row);
+    });
+    wrap.appendChild(optionsFieldEn);
+
+    // -- explanation (EN) --
+    const explFieldEn = el("div", { cls: "aq-field" });
+    explFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationEn }));
+    const explInputEn = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldExplanationEnPlaceholder }
+    });
+    explFieldEn.appendChild(explInputEn);
+    wrap.appendChild(explFieldEn);
+
     // -- explanation image / video (optional, shared for both languages) --
     let explImageDataUrl = null;
     let explImageMediaType = "image"; // "image" | "video"
@@ -4103,47 +4144,6 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     });
     explSourceField.appendChild(explSourceInput);
     wrap.appendChild(explSourceField);
-
-    // -- EN section heading --
-    wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionEnTitle }));
-
-    // -- stem (EN) --
-    const stemFieldEn = el("div", { cls: "aq-field" });
-    stemFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldStemEn }));
-    const stemInputEn = el("textarea", {
-      cls: "aq-textarea",
-      attrs: { rows: "4", placeholder: tr().fieldStemEnPlaceholder }
-    });
-    stemFieldEn.appendChild(stemInputEn);
-    wrap.appendChild(stemFieldEn);
-
-    // -- options a-e (EN) — same correct letter as CZ, just translated text --
-    const optionsFieldEn = el("div", { cls: "aq-field" });
-    optionsFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldOptionsEn }));
-    const optionInputsEn = {};
-    letters.forEach(letter => {
-      const row = el("div", { cls: "aq-option-row" });
-      const letterLabel = el("span", { cls: "aq-option-letter", text: letter.toUpperCase() });
-      const textInput = el("input", {
-        cls: "aq-input aq-option-input",
-        attrs: { type: "text", placeholder: tr().fieldOptionPlaceholderEn(letter.toUpperCase()) }
-      });
-      optionInputsEn[letter] = { textInput };
-      row.appendChild(letterLabel);
-      row.appendChild(textInput);
-      optionsFieldEn.appendChild(row);
-    });
-    wrap.appendChild(optionsFieldEn);
-
-    // -- explanation (EN) --
-    const explFieldEn = el("div", { cls: "aq-field" });
-    explFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationEn }));
-    const explInputEn = el("textarea", {
-      cls: "aq-textarea",
-      attrs: { rows: "4", placeholder: tr().fieldExplanationEnPlaceholder }
-    });
-    explFieldEn.appendChild(explInputEn);
-    wrap.appendChild(explFieldEn);
 
     // -- error message --
     const errorMsg = el("div", { cls: "aq-error" });
