@@ -11832,7 +11832,7 @@ id: 269,
         e: "Přímo do vena azygos."
     },
     correct: "a",
-    explanation: "Na rozdíl od většiny žaludečních žil, které odtékají přes venu splenicu nebo venu mesenterica superior, ústí vena gastrica sinistra (vena coronaria ventriculi) typicky přímo do vena portae hepatis. Zároveň komunikuje s jícnovými žilami, což je klinicky významné při portální hypertenzi a vzniku jícnových varixů."
+    explanation: "Na rozdíl od většiny žaludečních žil, které odtékají přes vena splenica nebo vena mesenterica superior, ústí vena gastrica sinistra typicky přímo do vena portae hepatis. Zároveň komunikuje s jícnovými žilami, což je klinicky významné při portální hypertenzi a vzniku jícnových varixů."
   },
   en: {
     stem: "Venous blood from the lesser curvature of the stomach drains, among other routes, through the left gastric vein. Where does this vein typically drain?",
@@ -11844,7 +11844,7 @@ id: 269,
         e: "Directly into the azygos vein."
     },
     correct: "a",
-    explanation: "Unlike most gastric veins, which drain via the splenic vein or the superior mesenteric vein, the left gastric vein (coronary vein of the stomach) typically drains directly into the hepatic portal vein. It also communicates with esophageal veins, which is clinically significant in portal hypertension and the development of esophageal varices."
+    explanation: "Unlike most gastric veins, which drain via the splenic vein or the superior mesenteric vein, the left gastric vein typically drains directly into the hepatic portal vein. It also communicates with esophageal veins, which is clinically significant in portal hypertension and the development of esophageal varices."
   }
 },
 {
@@ -12041,23 +12041,23 @@ id: 269,
   cz: {
     stem: "Arteria mesenterica inferior zásobuje oblast trávicího traktu vyvíjeného z embryologického základu zadního střeva. Ve které úrovni obvykle odstupuje z abdominální aorty?",
     options: {
-        a: "Ve výši obratle L3, přibližně 3–4 cm nad bifurkací aorty.",
-        b: "Ve výši obratle Th12, těsně pod bránicí.",
-        c: "Ve výši obratle L1, společně s arteria mesenterica superior.",
-        d: "Ve výši obratle L1, nad bifurkací aorty.",
-        e: "Ve výši obratle L5, mezi společnými kyčelními tepnami."
+        a: "Ve výši obratle L3",
+        b: "Ve výši obratle Th12",
+        c: "Ve výši obratle L1",
+        d: "Ve výši obratle L4",
+        e: "Ve výši obratle L5"
     },
     correct: "a",
-    explanation: "Arteria mesenterica inferior odstupuje z přední/levé strany abdominální aorty přibližně ve výši obratle L3, několik centimetrů nad bifurkací aorty. Zásobuje deriváty hindgut – distální třetinu colon transversum, colon descendens, colon sigmoideum a horní část rekta."
+    explanation: "Arteria mesenterica inferior odstupuje z přední/levé strany abdominální aorty přibližně ve výši obratle L3, několik centimetrů nad bifurkací aorty. Zásobuje deriváty z embryologického zadního střeva (hindgut) – distální třetinu colon transversum, colon descendens, colon sigmoideum a horní část rekta."
   },
   en: {
     stem: "The inferior mesenteric artery supplies the portion of the gastrointestinal tract derived embryologically from the hindgut. At which vertebral level does it typically arise from the abdominal aorta?",
     options: {
-        a: "At the level of vertebra L3, approximately 3–4 cm above the aortic bifurcation.",
-        b: "At the level of vertebra T12, just below the diaphragm.",
-        c: "At the level of vertebra L1, together with the superior mesenteric artery.",
-        d: "At the level of vertebra L1, above the aortic bifurcation.",
-        e: "At the level of vertebra L5, between the common iliac arteries."
+        a: "At the level of vertebra L3",
+        b: "At the level of vertebra T12",
+        c: "At the level of vertebra L1",
+        d: "At the level of vertebra L4",
+        e: "At the level of vertebra L5"
     },
     correct: "a",
     explanation: "The inferior mesenteric artery arises from the anterior/left surface of the abdominal aorta at approximately the level of vertebra L3, a few centimeters above the aortic bifurcation. It supplies hindgut derivatives — the distal third of the transverse colon, the descending colon, the sigmoid colon, and the upper part of the rectum."
@@ -12075,7 +12075,7 @@ id: 269,
         e: "Zásobuje colon descendens a anastomozuje s arteria gastroduodenalis dextra."
     },
     correct: "a",
-    explanation: "Arteria colica sinistra, první a nejvýše položená větev arteria mesenterica inferior, vystupuje směrem k flexura coli sinistra, kde zásobuje colon descendens a anastomozuje s větví arteria colica media prostřednictvím marginální arterie tračníku (u části populace posílené variabilní Riolanovou arkádou)."
+    explanation: "Arteria colica sinistra, první a nejvýše položená větev arteria mesenterica inferior, vystupuje směrem k flexura coli sinistra, kde zásobuje colon descendens a anastomozuje s větví arteria colica media prostřednictvím marginální arterie tračníku (u části populace posílené variabilní Riolanovou anastomózou)."
   },
   en: {
     stem: "The left colic artery is the first branch of the inferior mesenteric artery. Which part of the colon does it primarily supply, and with which artery does it anastomose?",
@@ -13326,7 +13326,7 @@ id: 269,
         "e": "A. splenica"
       },
       "correct": "a",
-      "explanation": "A. gastrica sinistra probíhá v ligamentum hepatogastricum podél curvatura minor žaludku a anastomozuje s a. gastrica dextra. Tato tepna zásobuje především horní část menšího zakřivení žaludku. Ostatní uvedené tepny mají odlišný průběh – například aa. gastricae breves odstupují z a. splenica a zásobují oblast fundu žaludku, zatímco aa. gastroepiploicae probíhají podél většího zakřivení žaludku."
+      "explanation": "A. gastrica sinistra probíhá v ligamentum hepatogastricum podél curvatura minor žaludku a anastomozuje s a. gastrica dextra. Tato tepna zásobuje především horní část curvatura minor žaludku. Ostatní uvedené tepny mají odlišný průběh – například aa. gastricae breves odstupují z a. splenica a zásobují oblast fundu žaludku, zatímco aa. gastroepiploicae probíhají podél většího zakřivení žaludku."
     },
     "en": {
       "stem": "A patient undergoes a surgical procedure involving the stomach. During the operation, the surgeon must ligate a vessel running within the hepatogastric ligament along the lesser curvature of the stomach. Which artery is most likely to be injured?",
@@ -13425,7 +13425,7 @@ id: 269,
   {
     "id": 506,
     "cz": {
-      "stem": "Při endoskopickém vyšetření horní části dutiny břišní lékař pozoruje prostor mezi žaludkem a játry, který představuje přední část přístupu k bursae omentalis. Která struktura tvoří významnou část přední hranice tohoto prostoru?",
+      "stem": "Při endoskopickém vyšetření horní části dutiny břišní lékař pozoruje prostor mezi žaludkem a játry, který představuje přední část přístupu k bursa omentalis. Která struktura tvoří významnou část přední hranice tohoto prostoru?",
       "options": {
         "a": "Omentum minus",
         "b": "Omentum majus",
@@ -13434,7 +13434,7 @@ id: 269,
         "e": "Ligamentum falciforme hepatis"
       },
       "correct": "a",
-      "explanation": "Omentum minus tvoří přední část horního ohraničení bursae omentalis a spojuje játra se žaludkem a duodenem. Jeho součástí jsou ligamentum hepatogastricum a ligamentum hepatoduodenale. Omentum majus visí z velkého zakřivení žaludku a tvoří především přední kryt střevních kliček, nikoliv hlavní hranici bursae omentalis. Ostatní uvedené peritoneální řasy nejsou významnou součástí předního ohraničení bursae omentalis."
+      "explanation": "Omentum minus tvoří přední část horního ohraničení bursa omentalis a spojuje játra se žaludkem a duodenem. Jeho součástí jsou ligamentum hepatogastricum a ligamentum hepatoduodenale. Omentum majus visí z velkého zakřivení žaludku a tvoří především přední kryt střevních kliček, nikoliv hlavní hranici bursa omentalis. Ostatní uvedené peritoneální řasy nejsou významnou součástí předního ohraničení bursa omentalis."
     },
     "en": {
       "stem": "During an upper abdominal endoscopic procedure, a physician observes the space between the stomach and the liver, which represents the anterior part of the approach to the omental bursa. Which structure forms an important part of the anterior boundary of this space?",
@@ -13722,7 +13722,7 @@ id: 269,
   {
     "id": 517,
     "cz": {
-      "stem": "65letý pacient podstupuje pravostrannou hemikolektomii pro karcinom lokalizovaný v oblasti colon ascendens. Chirurg při preparaci kořene mesocolon identifikuje cévní zásobení postiženého úseku. Která kombinace nejlépe odpovídá hlavnímu arteriálnímu zásobení colon ascendens?",
+      "stem": "Která kombinace nejlépe odpovídá hlavnímu arteriálnímu zásobení colon ascendens?",
       "options": {
         "a": "A. ileocolica a a. colica dextra, vycházející z a. mesenterica superior",
         "b": "A. colica media a a. colica sinistra, vycházející z a. mesenterica inferior",
@@ -13734,7 +13734,7 @@ id: 269,
       "explanation": "Colon ascendens je součástí středního střeva a jeho hlavní arteriální zásobení pochází z a. mesenterica superior. Nejvýznamnějšími cévami jsou a. ileocolica a obvykle také a. colica dextra, které zásobují oblast od caecum až po flexura coli dextra. Anastomotické spojení mezi jednotlivými větvemi vytváří arcus marginalis, který umožňuje kolaterální průtok krve podél tlustého střeva."
     },
     "en": {
-      "stem": "A 65-year-old patient undergoes a right hemicolectomy for carcinoma located in the ascending colon. During dissection of the root of the mesocolon, the surgeon identifies the vascular supply of the affected segment. Which combination best represents the main arterial supply of the ascending colon?",
+      "stem": "Which combination best represents the main arterial supply of the ascending colon?",
       "options": {
         "a": "The ileocolic artery and right colic artery, arising from the superior mesenteric artery",
         "b": "The middle colic artery and left colic artery, arising from the inferior mesenteric artery",
@@ -14001,7 +14001,7 @@ id: 269,
         "e": "Bursa omentalis"
       },
       "correct": "a",
-      "explanation": "Excavatio rectovesicalis je peritoneální recesus u muže, který představuje nejhlubší část peritoneální dutiny v oblasti malé pánve. Nachází se mezi rectum a vesica urinaria a může sloužit jako místo hromadění tekutiny, krve nebo patologického obsahu. Excavatio rectouterina se nachází pouze u ženy mezi rectum a uterus. Fossa ischioanalis leží v oblasti perinea, spatium retropubicum se nachází mezi os pubis a vesica urinaria a bursa omentalis je prostor v horní části dutiny břišní za žaludkem."
+      "explanation": "Excavatio rectovesicalis je peritoneální recesus u muže, který představuje nejhlubší část peritoneální dutiny v oblasti malé pánve. Nachází se mezi rectem a močovým měchýřem a může sloužit jako místo hromadění tekutiny, krve nebo patologického obsahu. Excavatio rectouterina se nachází pouze u žen mezi rectem a dělohou. Fossa ischioanalis leží v oblasti perinea, spatium retropubicum se nachází mezi os pubis a močovým měchýřem, a bursa omentalis je prostor v horní části dutiny břišní za žaludkem."
     },
     "en": {
       "stem": "A male patient suffers pelvic trauma after a fall. Imaging reveals a fluid collection in the deepest part of the peritoneal cavity within the pelvis. This anatomical space is also clinically important for the spread of pathological fluid from surrounding organs. Which structure corresponds to this finding?",
@@ -14181,7 +14181,7 @@ id: 269,
   {
     "id": 534,
     "cz": {
-      "stem": "65letý pacient má progresivní ikterus, tmavou moč, světlou stolici a hubnutí. Zobrazovací vyšetření ukáže nádor v oblasti caput pancreatis. Nádor způsobuje obstrukční ikterus tím, že blokuje odtok žluči do duodena. Který anatomický vztah umožňuje vznik této komplikace?",
+      "stem": "65letý pacient má progresivní ikterus, tmavou moč, světlou stolici a udává úbytek na váze. Zobrazovací vyšetření ukáže nádor v oblasti caput pancreatis. Nádor způsobuje obstrukční ikterus tím, že blokuje odtok žluči do duodena. Který anatomický vztah umožňuje vznik této komplikace?",
       "options": {
         "a": "Caput pancreatis naléhá na ductus choledochus",
         "b": "Caput pancreatis naléhá na vesica fellea",
@@ -14190,7 +14190,7 @@ id: 269,
         "e": "Caput pancreatis leží v oblasti porta hepatis"
       },
       "correct": "a",
-      "explanation": "Nádory caput pancreatis mohou způsobit obstrukční ikterus, protože distální část ductus choledochus prochází v těsném vztahu k hlavě pankreatu před vyústěním do duodena. Komprese tohoto vývodu zabrání odtoku žluči, což vede k hromadění konjugovaného bilirubinu v krvi a vzniku ikteru, tmavé moči a světlé stolice."
+      "explanation": "Nádory hlavy pankreatu mohou způsobit obstrukční ikterus, protože distální část ductus choledochus prochází v těsném vztahu k hlavě pankreatu před vyústěním do duodena. Komprese tohoto vývodu zabrání odtoku žluči, což vede k hromadění konjugovaného bilirubinu v krvi a vzniku ikteru, tmavé moči a světlé stolice."
     },
     "en": {
       "stem": "A 65-year-old patient presents with progressive jaundice, dark urine, pale stool, and weight loss. Imaging reveals a tumor in the head of the pancreas. The tumor causes obstructive jaundice by blocking bile flow into the duodenum. Which anatomical relationship allows this complication to occur?",
@@ -14434,7 +14434,7 @@ id: 269,
         e: "Přechodný epitel"
     },
     correct: "a",
-    explanation: "Barrettův jícen představuje metaplastickou přeměnu normálního vícevrstevného dlaždicového epitelu jícnu na cylindrický epitel intestinálního typu, který může obsahovat pohárkové buňky. Tento stav vzniká nejčastěji v souvislosti s dlouhodobým gastroezofageálním refluxem a je spojen se zvýšeným rizikem adenokarcinomu jícnu."
+    explanation: "Barrettův jícen představuje metaplastickou přeměnu normálního vrstevnatého dlaždicového epitelu nerohovějícího jícnu na cylindrický epitel intestinálního typu, který může obsahovat pohárkové buňky. Tento stav vzniká nejčastěji v souvislosti s dlouhodobým gastroezofageálním refluxem a je spojen se zvýšeným rizikem adenokarcinomu jícnu."
   },
   en: {
     stem: "A 58-year-old man with a long history of gastroesophageal reflux disease undergoes endoscopic examination (see image). A biopsy of the distal esophageal mucosa demonstrates intestinal metaplasia with the presence of goblet cells. Which type of epithelium was originally replaced in this region?",
