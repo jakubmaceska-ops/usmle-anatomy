@@ -14616,6 +14616,34 @@ id: 269,
     explanation: "Palatine tonsils are paired lymphoid organs located in the tonsillar fossa between the palatoglossal arch and palatopharyngeal arch. The image shows bilateral inflammation with whitish exudates, consistent with bilateral tonsillitis. The palatine tonsils are part of Waldeyer's lymphatic ring, together with the pharyngeal tonsil, tubal tonsils, and lingual tonsil."
   },
   image: { key: "q1049_custom", source: "Rafl. Mandel entzuendung02.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Mandel_entzuendung02.jpg. CC BY-SA 3.0. Accessed 19 August 2026.", type: "image" }
+},
+{
+  id: 1092,
+  cz: {
+    stem: "U dívky na obrázku dochází k výměně mléčného chrupu za stálý chrup. Jedná se o fyziologický vývoj chrupu. Z možností vyber nejpravděpodobnější věk dívky.",
+    options: {
+        a: "3–4 roky",
+        b: "4–5 let",
+        c: "5–6 let",
+        d: "6–8 let",
+        e: "8–10 let"
+    },
+    correct: "d",
+    explanation: "Na obrázku je dívka, u které již došlo k vypadnutí horního mléčného řezáku a dochází k nahrazování stálým řezákem. Trvalé (dospělé) střední řezáky se prořezávají jako jedny z prvních trvalých zubů, typicky mezi 6.-8. rokem. Dolní řezáky se obvykle prořezávají o něco dříve než horní. Dívce na obrázku je 7 let."
+  },
+  en: {
+    stem: "The girl in the image is undergoing replacement of her primary teeth with permanent teeth. This case represents physiological tooth replacement. Based on the image, select the most likely age of the girl.",
+    options: {
+        a: "3–4 years",
+        b: "3–4 years",
+        c: "5–6 years",
+        d: "6–8 years",
+        e: "8–10 years"
+    },
+    correct: "d",
+    explanation: "The image shows a girl who has already lost an upper primary incisor and is being replaced by a permanent incisor. Permanent (adult) central incisors are among the first permanent teeth to erupt, typically between 6 and 8 years of age. The lower incisors usually erupt slightly earlier than the upper incisors. The girl in the image is 7 years old."
+  },
+  image: { key: "q1092_custom", source: "File 6609 — Giovanni Dall'Orto. Caduta dei denti da latte e crescita della dentatura definitiva in una bambina. 3 March 2007. Own work. (modified) Used under the copyright holder's terms permitting any use, including modification and commercial use, provided that the copyright holder is properly attributed. Wikimedia Commons.", type: "image" }
 },]
       },
       dychaci_soustava: {
