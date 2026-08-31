@@ -14644,6 +14644,35 @@ id: 269,
     explanation: "The image shows a girl who has already lost an upper primary incisor and is being replaced by a permanent incisor. Permanent (adult) central incisors are among the first permanent teeth to erupt, typically between 6 and 8 years of age. The lower incisors usually erupt slightly earlier than the upper incisors. The girl in the image is 7 years old."
   },
   image: { key: "q1092_custom", source: "File 6609 — Giovanni Dall'Orto. Caduta dei denti da latte e crescita della dentatura definitiva in una bambina. 3 March 2007. Own work. (modified) Used under the copyright holder's terms permitting any use, including modification and commercial use, provided that the copyright holder is properly attributed. Wikimedia Commons.", type: "image" }
+},
+{
+  id: 1093,
+  cz: {
+    stem: "Na obrázku jsou čísly označeny jednotlivé typy papil jazyka. Vyberte kombinaci čísel označujících všechny papily, ve kterých se nacházejí chuťové pohárky.",
+    options: {
+        a: "1, 2",
+        b: "1, 3",
+        c: "1, 2, 4",
+        d: "2, 3, 4",
+        e: "1, 2, 3, 4"
+    },
+    correct: "c",
+    explanation: "Chuťové pohárky se nacházejí ve třech typech papil jazyka: papillae circumvallatae, papillae fungiformes a papillae foliatae. Na obrázku jim odpovídají čísla 1, 2 a 4.\nPapillae circumvallatae jsou velké papily uspořádané před sulcus terminalis a obsahují velké množství chuťových pohárků především na svých laterálních stěnách. Papillae fungiformes jsou roztroušeny zejména na hrotu a předních částech jazyka a rovněž obsahují chuťové pohárky. Papillae foliatae se nacházejí na posterolaterálních okrajích jazyka a obsahují chuťové pohárky v oblasti svých bočních stěn.\nNaproti tomu papillae filiformes (č. 3) chuťové pohárky neobsahují. Jsou nejpočetnějšími papilami jazyka a mají především mechanickou funkci při uchopování a posunování potravy."
+  },
+  en: {
+    stem: "The image shows the different types of lingual papillae, labeled with numbers. Select the combination of numbers corresponding to all papillae that contain taste buds.",
+    options: {
+        a: "1, 2",
+        b: "1, 3",
+        c: "1, 2, 4",
+        d: "2, 3, 4",
+        e: "1, 2, 3, 4"
+    },
+    correct: "c",
+    explanation: "Taste buds are found in three types of lingual papillae: papillae circumvallatae, papillae fungiformes, and papillae foliatae. In the image, these correspond to numbers 1, 2, and 4.\nPapillae circumvallatae are large papillae arranged anterior to the sulcus terminalis and contain numerous taste buds, primarily on their lateral walls. Papillae fungiformes are scattered mainly over the apex and anterior parts of the tongue and also contain taste buds. Papillae foliatae are located along the posterolateral margins of the tongue and contain taste buds within the lateral walls of their folds.\nIn contrast, papillae filiformes (no. 3) do not contain taste buds. They are the most numerous lingual papillae and primarily serve a mechanical function in gripping and moving food."
+  },
+  image: { key: "q1093_custom", source: "OpenStax. 1402 The Tongue.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:1402_The_Tongue.jpg. CC BY 4.0. Accessed 31 August 2026.", type: "image" },
+  explanationImage: { key: "e1093_custom", source: "OpenStax. 1402 The Tongue.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:1402_The_Tongue.jpg. CC BY 4.0. Accessed 31 August 2026.", type: "image" }
 },]
       },
       dychaci_soustava: {
