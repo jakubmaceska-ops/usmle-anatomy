@@ -14673,6 +14673,33 @@ id: 269,
   },
   image: { key: "q1093_custom", source: "OpenStax. 1402 The Tongue.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:1402_The_Tongue.jpg. CC BY 4.0. Accessed 31 August 2026.", type: "image" },
   explanationImage: { key: "e1093_custom", source: "OpenStax. 1402 The Tongue.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:1402_The_Tongue.jpg. CC BY 4.0. Accessed 31 August 2026.", type: "image" }
+},
+{
+  id: 1094,
+  cz: {
+    stem: "Vyberte správné pořadí prořezávání stálých zubů, od nejdříve prořezávajícího po nejpozději prořezávající zub.<br><strong>A</strong> – první molár<br><strong>B</strong> – centrální řezák<br><strong>C</strong> – laterální řezák<br><strong>D</strong> – první premolár",
+    options: {
+        a: "A → B → C → D",
+        b: "B → A → C → D",
+        c: "A → C → B → D",
+        d: "D → A → B → C",
+        e: "B → C → D → A"
+    },
+    correct: "a",
+    explanation: "Prořezávání stálých zubů začíná přibližně kolem 6. roku věku. Jako první se obvykle prořezávají první stálé moláry (6–7 let), následované centrálními řezáky (6–8 let). Poté se prořezávají laterální řezáky (7–9 let) a následně první premoláry (10–12 let). Správné pořadí je tedy A → B → C → D, tedy první molár → centrální řezák → laterální řezák → první premolár."
+  },
+  en: {
+    stem: "Select the correct order of eruption of the permanent teeth, from the earliest-erupting to the latest-erupting tooth.<br><strong>A</strong> – first molar<br><strong>B</strong> – central incisor<br><strong>C</strong> – lateral incisor<br><strong>D</strong> – first premolar",
+    options: {
+        a: "A → B → C → D",
+        b: "B → A → C → D",
+        c: "A → C → B → D",
+        d: "D → A → B → C",
+        e: "B → C → D → A"
+    },
+    correct: "a",
+    explanation: "The eruption of permanent teeth begins at approximately 6 years of age. The first permanent molars (6–7 years) usually erupt first, followed by the central incisors (6–8 years). The lateral incisors (7–9 years) erupt next, followed by the first premolars (10–12 years). Therefore, the correct order is A → B → C → D, i.e. first molar → central incisor → lateral incisor → first premolar."
+  }
 },]
       },
       dychaci_soustava: {
