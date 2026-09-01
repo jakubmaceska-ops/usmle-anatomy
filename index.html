@@ -5440,7 +5440,8 @@ ${optionsObjCodeEn}
 
     // Question card
     const card = el("div", { cls: "question-card" });
-    card.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${idx + 1}` }));
+    const qNumberLabel = (q.id !== undefined && q.id !== null) ? q.id : (idx + 1);
+    card.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${qNumberLabel}` }));
 
     // Favorite button
     if (q.id !== undefined && q.id !== null) {
@@ -5746,7 +5747,8 @@ ${optionsObjCodeEn}
     const card = el("div", { cls: "question-card review-card" });
 
     const head = el("div", { cls: "review-head" });
-    head.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${idx + 1}` }));
+    const reviewQNumberLabel = (q.id !== undefined && q.id !== null) ? q.id : (idx + 1);
+    head.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${reviewQNumberLabel}` }));
     let statusCls = "unanswered";
     let statusText = tr().unanswered;
     if (answer) {
