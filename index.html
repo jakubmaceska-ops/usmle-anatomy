@@ -3811,6 +3811,28 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     return node;
   }
 
+  // Escapuje HTML speciální znaky, aby text z dat (stem, options, ...) nemohl
+  // vložit vlastní značky při vykreslování přes innerHTML.
+  function escapeHtml(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  // Formátuje zadání otázky (stem) pro bezpečné vykreslení přes innerHTML:
+  // - každý řádek (oddělený \n v datech) se zalomí na nový řádek (<br>)
+  // - řádek začínající označením "A – ...", "B - ..." apod. se tučně zvýrazní
+  function formatStemHtml(text) {
+    return String(text)
+      .split("\n")
+      .map(line => {
+        const escaped = escapeHtml(line);
+        return escaped.replace(/^([A-Za-z0-9]{1,2})(\s*[–-]\s*)/, "<strong>$1</strong>$2");
+      })
+      .join("<br>");
+  }
+
   function getMaxQuestionId() {
     let max = 0;
     Object.keys(QUESTION_DATA).forEach(unitKey => {
@@ -5454,7 +5476,7 @@ ${optionsObjCodeEn}
       card.appendChild(imgWrap);
     }
 
-    card.appendChild(el("div", { cls: "q-stem", text: qData.stem }));
+    card.appendChild(el("div", { cls: "q-stem", html: formatStemHtml(qData.stem) }));
 
     const optsWrap = el("div", { cls: "q-options" });
     const optionRealKeys = Object.keys(qData.options);
@@ -5751,7 +5773,7 @@ ${optionsObjCodeEn}
       card.appendChild(imgWrap);
     }
 
-    card.appendChild(el("div", { cls: "q-stem", text: qData.stem }));
+    card.appendChild(el("div", { cls: "q-stem", html: formatStemHtml(qData.stem) }));
 
     const optsWrap = el("div", { cls: "q-options" });
     const optionRealKeys = Object.keys(qData.options);
