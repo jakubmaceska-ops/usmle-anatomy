@@ -2654,6 +2654,7 @@ function chapterImageSrc(chapterKey) {
     units: { anatomie_1: true, anatomie_2: true, anatomie_3: true }, // které jednotky prohledávat
     chapterFilter: "",       // "" = všechny podkapitoly, jinak "unitKey::chapterKey"
     hasImageOnly: false,
+    includeLiveQuestions: false, // jen pro adminy — zahrne i otázky ID >= SEARCH_MAX_QUESTION_ID
     results: [],
     hasSearched: false
   };
@@ -2870,6 +2871,7 @@ function chapterImageSrc(chapterKey) {
       backToChapters: "Zpět na kapitoly",
       backToUnits: "Zpět na úvod",
       question: "Otázka",
+      questionIdLabel: "ID otázky:",
       of: "z",
       next: "Další otázka",
       prev: "Předchozí otázka",
@@ -3081,11 +3083,12 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       searchQuestionMenuTitle: "Vyhledat otázku",
       searchInputLabel: "Hledaný výraz nebo ID otázky",
       searchInputPlaceholder: "např. uzlina, n. medianus nebo 245…",
-      searchHelpHtml: "Lze zadat buď <strong>přesné ID otázky</strong> (číslo, např. <code>245</code>), nebo <strong>klíčová slova</strong>. Podporované znaky pro vyhledávání slov: <code>*</code> = libovolný počet libovolných znaků (např. <code>uzlin*</code> najde „uzlina“, „uzliny“…), <code>?</code> = právě jeden libovolný znak, <code>\"přesná fráze\"</code> = hledání přesné fráze, <code>-slovo</code> = vynechá otázky obsahující dané slovo. Více slov oddělených mezerou musí být ve výsledku všechna obsažena.",
+      searchHelpHtml: "Lze zadat buď <strong>přesné ID otázky</strong> (číslo, např. <code>245</code>), nebo <strong>klíčová slova</strong>. Podporované znaky pro vyhledávání slov: <code>*</code> = libovolný počet libovolných znaků (např. <code>uzlin*</code> najde „uzlina“, „uzliny“…), <code>?</code> = právě jeden libovolný znak, <code>\"přesná fráze\"</code> = hledání přesné fráze. Více slov oddělených mezerou musí být ve výsledku všechna obsažena.",
       searchUnitsLabel: "Jednotky",
       searchChapterLabel: "Podkapitola",
       searchAllChapters: "Všechny podkapitoly",
       searchHasImageLabel: "Obsahuje obrázek nebo video",
+      searchIncludeLiveLabel: "Zahrnout i otázky živých testů (ID ≥ 10 000)",
       searchButton: "Hledat",
       searchResultsCount: (n) => n === 1 ? `Nalezena ${n} otázka` : (n >= 2 && n <= 4 ? `Nalezeny ${n} otázky` : `Nalezeno ${n} otázek`),
       searchNoResults: "Žádné otázce neodpovídá zadané hledání. Zkus upravit klíčová slova nebo filtry.",
@@ -3104,6 +3107,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       backToChapters: "Back to chapters",
       backToUnits: "Back to home",
       question: "Question",
+      questionIdLabel: "Question ID:",
       of: "of",
       next: "Next question",
       prev: "Previous question",
@@ -3315,11 +3319,12 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       searchQuestionMenuTitle: "Search question",
       searchInputLabel: "Search term or question ID",
       searchInputPlaceholder: "e.g. lymph node, median nerve, or 245…",
-      searchHelpHtml: "Enter either an <strong>exact question ID</strong> (a number, e.g. <code>245</code>), or <strong>keywords</strong>. Supported search syntax: <code>*</code> = any number of any characters (e.g. <code>nod*</code> matches \"node\", \"nodes\"…), <code>?</code> = exactly one character, <code>\"exact phrase\"</code> = search for an exact phrase, <code>-word</code> = exclude questions containing that word. Multiple space-separated words must all be present in a match.",
+      searchHelpHtml: "Enter either an <strong>exact question ID</strong> (a number, e.g. <code>245</code>), or <strong>keywords</strong>. Supported search syntax: <code>*</code> = any number of any characters (e.g. <code>nod*</code> matches \"node\", \"nodes\"…), <code>?</code> = exactly one character, <code>\"exact phrase\"</code> = search for an exact phrase. Multiple space-separated words must all be present in a match.",
       searchUnitsLabel: "Units",
       searchChapterLabel: "Subchapter",
       searchAllChapters: "All subchapters",
       searchHasImageLabel: "Contains an image or video",
+      searchIncludeLiveLabel: "Include live-test questions too (ID ≥ 10,000)",
       searchButton: "Search",
       searchResultsCount: (n) => n === 1 ? `${n} question found` : `${n} questions found`,
       searchNoResults: "No questions match your search. Try adjusting the keywords or filters.",
@@ -3844,31 +3849,25 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
   }
 
   // Rozparsuje uživatelský vyhledávací dotaz na pole regulárních výrazů,
-  // které musí (include) nebo nesmí (exclude) v textu otázky být obsaženy.
-  // Podporuje: "přesná fráze", -vyloučené_slovo, * (libovolný počet znaků),
+  // které musí v textu otázky být obsaženy.
+  // Podporuje: "přesná fráze", * (libovolný počet znaků),
   // ? (právě jeden znak). Více slov oddělených mezerou = logické A.
   function parseSearchKeywordQuery(raw) {
     const include = [];
-    const exclude = [];
     const tokenRe = /"([^"]+)"|(\S+)/g;
     let m;
     while ((m = tokenRe.exec(raw)) !== null) {
       const quoted = m[1] !== undefined;
       let text = quoted ? m[1] : m[2];
-      let negate = false;
-      if (!quoted && text.length > 1 && text[0] === "-") {
-        negate = true;
-        text = text.slice(1);
-      }
       if (!text) continue;
       let pattern = escapeRegexKeepWildcards(text);
       if (!quoted) {
         pattern = pattern.replace(/\*/g, ".*").replace(/\?/g, ".");
       }
       const rx = new RegExp(pattern, "i");
-      if (negate) exclude.push(rx); else include.push(rx);
+      include.push(rx);
     }
-    return { include, exclude };
+    return { include };
   }
 
   function questionSearchHaystack(q) {
@@ -3889,7 +3888,11 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       Object.keys(unit.chapters).forEach(chKey => {
         if (search.chapterFilter && search.chapterFilter !== `${uk}::${chKey}`) return;
         unit.chapters[chKey].questions.forEach(q => {
-          if (q.id === undefined || q.id === null || q.id >= SEARCH_MAX_QUESTION_ID) return;
+          if (q.id === undefined || q.id === null) return;
+          const isLiveQuestion = q.id >= SEARCH_MAX_QUESTION_ID;
+          // Otázky živých testů se nabízí jen adminovi, a jen pokud si to
+          // explicitně zaškrtne (viz checkbox searchIncludeLiveLabel).
+          if (isLiveQuestion && !(live.isAdminUnlocked && search.includeLiveQuestions)) return;
           pool.push(Object.assign({}, q, { _unitKey: uk, _chapterKey: chKey }));
         });
       });
@@ -3907,9 +3910,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       const parsed = parseSearchKeywordQuery(raw);
       results = pool.filter(q => {
         const haystack = questionSearchHaystack(q);
-        const includeOk = parsed.include.every(rx => rx.test(haystack));
-        if (!includeOk) return false;
-        return parsed.exclude.every(rx => !rx.test(haystack));
+        return parsed.include.every(rx => rx.test(haystack));
       });
     } else {
       results = pool;
@@ -4622,6 +4623,14 @@ ${optionsObjCodeEn}
           li.appendChild(el("img", { cls: "ch-thumb", attrs: { src: imgSrc, alt: "" } }));
         }
         ul.appendChild(li);
+
+        // Stejně jako v plném menu (renderSettingsList) se "Vyhledat otázku"
+        // vkládá natvrdo hned za "Podpořte nás", i v tomto zmenšeném náhledu.
+        if (unitKey === "nastaveni" && chKey === "podporte_nas") {
+          const searchLi = el("li", { cls: "unit-card-li" });
+          searchLi.appendChild(el("span", { text: tr().searchQuestionMenuTitle }));
+          ul.appendChild(searchLi);
+        }
       });
       card.appendChild(ul);
       grid.appendChild(card);
@@ -4706,9 +4715,10 @@ ${optionsObjCodeEn}
       list.appendChild(row);
 
       // "Vyhledat otázku" není skutečná podkapitola z datového souboru,
-      // ale samostatná funkce appky — vkládá se natvrdo hned za "Přidat
-      // otázku", ať je pořadí v menu stabilní bez ohledu na data.
-      if (chKey === "pridat_otazku") {
+      // ale samostatná funkce appky — vkládá se natvrdo hned za "Podpořte
+      // nás" (před "Přidat otázku"), ať je pořadí v menu stabilní bez
+      // ohledu na data.
+      if (chKey === "podporte_nas") {
         const searchRow = el("div", {
           cls: "chapter-row",
           onClick: openQuestionSearch
@@ -4842,7 +4852,20 @@ ${optionsObjCodeEn}
     imgField.appendChild(imgLbl);
     panel.appendChild(imgField);
 
-    panel.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
+    // -- checkbox "zahrnout otázky živých testů" (jen pro odemčeného admina) --
+    if (live.isAdminUnlocked) {
+      const liveField = el("div", { cls: "aq-field" });
+      const liveLbl = el("label", { cls: "qsearch-checkbox qsearch-checkbox-standalone" });
+      const liveCb = el("input", { attrs: { type: "checkbox" } });
+      liveCb.checked = !!search.includeLiveQuestions;
+      liveCb.addEventListener("change", () => { search.includeLiveQuestions = liveCb.checked; });
+      liveLbl.appendChild(liveCb);
+      liveLbl.appendChild(document.createTextNode(" " + tr().searchIncludeLiveLabel));
+      liveField.appendChild(liveLbl);
+      panel.appendChild(liveField);
+    } else {
+      panel.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
+    }
 
     // -- tlačítko hledat --
     const actions = el("div", { cls: "qsearch-actions" });
@@ -5872,7 +5895,7 @@ ${optionsObjCodeEn}
     // Question card
     const card = el("div", { cls: "question-card" });
     const qNumberLabel = (q.id !== undefined && q.id !== null) ? q.id : (idx + 1);
-    card.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${qNumberLabel}` }));
+    card.appendChild(el("div", { cls: "q-number", text: `${tr().questionIdLabel} ${qNumberLabel}` }));
 
     // Favorite button
     if (q.id !== undefined && q.id !== null) {
@@ -6179,7 +6202,7 @@ ${optionsObjCodeEn}
 
     const head = el("div", { cls: "review-head" });
     const reviewQNumberLabel = (q.id !== undefined && q.id !== null) ? q.id : (idx + 1);
-    head.appendChild(el("div", { cls: "q-number", text: `${tr().question} ${reviewQNumberLabel}` }));
+    head.appendChild(el("div", { cls: "q-number", text: `${tr().questionIdLabel} ${reviewQNumberLabel}` }));
     let statusCls = "unanswered";
     let statusText = tr().unanswered;
     if (answer) {
