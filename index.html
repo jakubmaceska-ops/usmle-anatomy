@@ -758,6 +758,124 @@
     border-color: var(--ink-soft);
   }
 
+  /* ============ VYHLEDAT OTÁZKU ============ */
+  .qsearch-panel {
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+  }
+
+  .qsearch-help {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    line-height: 1.6;
+    margin: 2px 0 0;
+  }
+
+  .qsearch-help code {
+    font-family: var(--mono);
+    background: var(--bg-hover);
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+  }
+
+  .qsearch-checkbox-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 22px;
+  }
+
+  .qsearch-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 14.5px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .qsearch-checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+  }
+
+  .qsearch-checkbox-standalone {
+    font-weight: 500;
+  }
+
+  .qsearch-note {
+    font-size: 12.5px;
+    color: var(--ink-faint);
+    line-height: 1.5;
+    margin: -8px 0 0;
+  }
+
+  .qsearch-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .qsearch-results {
+    max-width: 640px;
+    margin: 36px auto 0;
+  }
+
+  .qsearch-results-count {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    margin-bottom: 12px;
+  }
+
+  .qsearch-list .qsearch-row {
+    display: block;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--line);
+    cursor: pointer;
+    transition: background 0.12s;
+  }
+
+  .qsearch-list .qsearch-row:last-child { border-bottom: none; }
+  .qsearch-list .qsearch-row:hover { background: var(--bg-hover); }
+
+  .qsearch-row-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+  }
+
+  .qsearch-row-id {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--ink);
+    background: var(--bg-hover-strong);
+    padding: 2px 7px;
+    border-radius: 3px;
+  }
+
+  .qsearch-row-chapter {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-faint);
+  }
+
+  .qsearch-row-imgicon {
+    font-size: 13px;
+    margin-left: auto;
+  }
+
+  .qsearch-row-snippet {
+    font-size: 14px;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
   .aq-option-row {
     display: flex;
     align-items: center;
@@ -2526,6 +2644,20 @@ function chapterImageSrc(chapterKey) {
     myResult: null           // lokální výsledek dnešního běhu (pro obrazovku výsledků)
   };
 
+  // ============ VYHLEDAT OTÁZKU ============
+  // Otázky živého testu (ID >= tato hranice) se ve vyhledávání nikdy
+  // nenabízí — jsou určeny jen pro živá kola, ne pro běžné procházení.
+  const SEARCH_MAX_QUESTION_ID = 10000;
+
+  const search = {
+    query: "",
+    units: { anatomie_1: true, anatomie_2: true, anatomie_3: true }, // které jednotky prohledávat
+    chapterFilter: "",       // "" = všechny podkapitoly, jinak "unitKey::chapterKey"
+    hasImageOnly: false,
+    results: [],
+    hasSearched: false
+  };
+
   // ============ KOMENTÁŘE K OTÁZKÁM (diskuze pod otázkou v režimu "Procházet") ============
   // Sdílí stejné Firebase napojení (Realtime Database + anonymní Auth) jako "Živý test",
   // viz window.__fb / window.__fbAuth a listener "fb-auth-ready" u objektu `live` níže.
@@ -2943,7 +3075,22 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       qreportErrRequired: "Popiš prosím, v čem je chyba.",
       qreportErrGeneric: "Nahlášení se nepodařilo odeslat. Zkus to prosím znovu.",
       qreportThanks: "Díky! Nahlášení bylo odesláno.",
-      footerVersion: "© USMLE Anatomy — verze 1.0"
+      footerVersion: "© USMLE Anatomy — verze 1.0",
+
+      // ---- Vyhledat otázku ----
+      searchQuestionMenuTitle: "Vyhledat otázku",
+      searchInputLabel: "Hledaný výraz nebo ID otázky",
+      searchInputPlaceholder: "např. uzlina, n. medianus nebo 245…",
+      searchHelpHtml: "Lze zadat buď <strong>přesné ID otázky</strong> (číslo, např. <code>245</code>), nebo <strong>klíčová slova</strong>. Podporované znaky pro vyhledávání slov: <code>*</code> = libovolný počet libovolných znaků (např. <code>uzlin*</code> najde „uzlina“, „uzliny“…), <code>?</code> = právě jeden libovolný znak, <code>\"přesná fráze\"</code> = hledání přesné fráze, <code>-slovo</code> = vynechá otázky obsahující dané slovo. Více slov oddělených mezerou musí být ve výsledku všechna obsažena.",
+      searchUnitsLabel: "Jednotky",
+      searchChapterLabel: "Podkapitola",
+      searchAllChapters: "Všechny podkapitoly",
+      searchHasImageLabel: "Obsahuje obrázek nebo video",
+      searchButton: "Hledat",
+      searchResultsCount: (n) => n === 1 ? `Nalezena ${n} otázka` : (n >= 2 && n <= 4 ? `Nalezeny ${n} otázky` : `Nalezeno ${n} otázek`),
+      searchNoResults: "Žádné otázce neodpovídá zadané hledání. Zkus upravit klíčová slova nebo filtry.",
+      searchIdLimitNote: "Vyhledávání zahrnuje pouze otázky s ID nižším než 10 000 (otázky živých testů nejsou zahrnuty).",
+      searchBackLabel: "Zpět na vyhledávání"
     },
     en: {
       subtitle: "USMLE-style anatomy questions",
@@ -3162,7 +3309,22 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       qreportErrRequired: "Please describe the error.",
       qreportErrGeneric: "Couldn't send the report. Please try again.",
       qreportThanks: "Thanks! The report has been sent.",
-      footerVersion: "© USMLE Anatomy — version 1.0"
+      footerVersion: "© USMLE Anatomy — version 1.0",
+
+      // ---- Search question ----
+      searchQuestionMenuTitle: "Search question",
+      searchInputLabel: "Search term or question ID",
+      searchInputPlaceholder: "e.g. lymph node, median nerve, or 245…",
+      searchHelpHtml: "Enter either an <strong>exact question ID</strong> (a number, e.g. <code>245</code>), or <strong>keywords</strong>. Supported search syntax: <code>*</code> = any number of any characters (e.g. <code>nod*</code> matches \"node\", \"nodes\"…), <code>?</code> = exactly one character, <code>\"exact phrase\"</code> = search for an exact phrase, <code>-word</code> = exclude questions containing that word. Multiple space-separated words must all be present in a match.",
+      searchUnitsLabel: "Units",
+      searchChapterLabel: "Subchapter",
+      searchAllChapters: "All subchapters",
+      searchHasImageLabel: "Contains an image or video",
+      searchButton: "Search",
+      searchResultsCount: (n) => n === 1 ? `${n} question found` : `${n} questions found`,
+      searchNoResults: "No questions match your search. Try adjusting the keywords or filters.",
+      searchIdLimitNote: "Search only covers questions with an ID below 10,000 (live-test-only questions are excluded).",
+      searchBackLabel: "Back to search"
     }
   };
 
@@ -3633,6 +3795,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     state.chapterKey = null;
     state.view = "quiz";
     state._isFavoritesBrowse = true;
+    state._isSearchBrowse = false;
     setBreadcrumb([unitTitle(unitKey), tr().favorites]);
     render();
   }
@@ -3656,10 +3819,122 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     state.currentIndex = 0;
     state.answers = {};
     state._isFavoritesBrowse = false;
+    state._isSearchBrowse = false;
     const crumbs = chapterKey
       ? [unitTitle(unitKey), chapterTitle(unitKey, chapterKey), tr().browseAll]
       : [unitTitle(unitKey), tr().browseAll];
     setBreadcrumb(crumbs);
+    render();
+  }
+
+  // ============ VYHLEDAT OTÁZKU: logika ============
+
+  function openQuestionSearch() {
+    state.view = "questionSearch";
+    state.unitKey = "nastaveni";
+    state.chapterKey = null;
+    setBreadcrumb([unitTitle("nastaveni"), tr().searchQuestionMenuTitle]);
+    render();
+  }
+
+  // Escapuje řetězec pro použití v regexu, ale ponechává * a ? beze změny
+  // (ty se řeší zvlášť níže jako wildcard/žolíkové znaky).
+  function escapeRegexKeepWildcards(str) {
+    return str.replace(/[.+^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // Rozparsuje uživatelský vyhledávací dotaz na pole regulárních výrazů,
+  // které musí (include) nebo nesmí (exclude) v textu otázky být obsaženy.
+  // Podporuje: "přesná fráze", -vyloučené_slovo, * (libovolný počet znaků),
+  // ? (právě jeden znak). Více slov oddělených mezerou = logické A.
+  function parseSearchKeywordQuery(raw) {
+    const include = [];
+    const exclude = [];
+    const tokenRe = /"([^"]+)"|(\S+)/g;
+    let m;
+    while ((m = tokenRe.exec(raw)) !== null) {
+      const quoted = m[1] !== undefined;
+      let text = quoted ? m[1] : m[2];
+      let negate = false;
+      if (!quoted && text.length > 1 && text[0] === "-") {
+        negate = true;
+        text = text.slice(1);
+      }
+      if (!text) continue;
+      let pattern = escapeRegexKeepWildcards(text);
+      if (!quoted) {
+        pattern = pattern.replace(/\*/g, ".*").replace(/\?/g, ".");
+      }
+      const rx = new RegExp(pattern, "i");
+      if (negate) exclude.push(rx); else include.push(rx);
+    }
+    return { include, exclude };
+  }
+
+  function questionSearchHaystack(q) {
+    const qData = q[state.lang];
+    if (!qData) return "";
+    const optionsText = qData.options ? Object.values(qData.options).join(" ") : "";
+    return [qData.stem || "", optionsText, qData.explanation || ""].join(" \n ");
+  }
+
+  function runQuestionSearch() {
+    const raw = String(search.query || "").trim();
+    const isIdSearch = /^\d+$/.test(raw);
+
+    let pool = [];
+    Object.keys(search.units).filter(uk => search.units[uk]).forEach(uk => {
+      const unit = QUESTION_DATA[uk];
+      if (!unit) return;
+      Object.keys(unit.chapters).forEach(chKey => {
+        if (search.chapterFilter && search.chapterFilter !== `${uk}::${chKey}`) return;
+        unit.chapters[chKey].questions.forEach(q => {
+          if (q.id === undefined || q.id === null || q.id >= SEARCH_MAX_QUESTION_ID) return;
+          pool.push(Object.assign({}, q, { _unitKey: uk, _chapterKey: chKey }));
+        });
+      });
+    });
+
+    if (search.hasImageOnly) {
+      pool = pool.filter(q => q.image && q.image.key);
+    }
+
+    let results;
+    if (isIdSearch) {
+      const idNum = parseInt(raw, 10);
+      results = pool.filter(q => q.id === idNum);
+    } else if (raw) {
+      const parsed = parseSearchKeywordQuery(raw);
+      results = pool.filter(q => {
+        const haystack = questionSearchHaystack(q);
+        const includeOk = parsed.include.every(rx => rx.test(haystack));
+        if (!includeOk) return false;
+        return parsed.exclude.every(rx => !rx.test(haystack));
+      });
+    } else {
+      results = pool;
+    }
+
+    results.sort((a, b) => a.id - b.id);
+    search.results = results;
+    search.hasSearched = true;
+    render();
+  }
+
+  // Otevře nalezenou otázku v běžném prohlížecím režimu, se všemi ostatními
+  // výsledky hledání jako sadou pro tlačítka Předchozí/Další.
+  function openSearchResult(q) {
+    const idx = search.results.findIndex(r => r.id === q.id);
+    state.mode = "browse";
+    state.questions = prepareQuestionsForSession(search.results, { shuffleOrder: false });
+    state.currentIndex = idx >= 0 ? idx : 0;
+    state.answers = {};
+    state.unitKey = q._unitKey;
+    state.chapterKey = null;
+    state.view = "quiz";
+    state._isFavoritesBrowse = false;
+    state._isSearchBrowse = true;
+    setBreadcrumb([tr().searchQuestionMenuTitle]);
     render();
   }
 
@@ -3789,6 +4064,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     else if (state.view === "unitMenu") root.appendChild(renderUnitMenu());
     else if (state.view === "chapterList") root.appendChild(renderChapterList());
     else if (state.view === "settingsList") root.appendChild(renderSettingsList());
+    else if (state.view === "questionSearch") root.appendChild(renderQuestionSearch());
     else if (state.view === "newsList") root.appendChild(renderNewsList());
     else if (state.view === "chapterMenu") root.appendChild(renderChapterMenu());
     else if (state.view === "quiz") root.appendChild(renderQuiz());
@@ -4428,6 +4704,21 @@ ${optionsObjCodeEn}
       nameWrap.appendChild(document.createTextNode(ch.title[state.lang]));
       row.appendChild(nameWrap);
       list.appendChild(row);
+
+      // "Vyhledat otázku" není skutečná podkapitola z datového souboru,
+      // ale samostatná funkce appky — vkládá se natvrdo hned za "Přidat
+      // otázku", ať je pořadí v menu stabilní bez ohledu na data.
+      if (chKey === "pridat_otazku") {
+        const searchRow = el("div", {
+          cls: "chapter-row",
+          onClick: openQuestionSearch
+        });
+        const searchNameWrap = el("span", { cls: "ch-name-icon" });
+        searchNameWrap.innerHTML = settingsChapterIcon("vyhledat_otazku");
+        searchNameWrap.appendChild(document.createTextNode(tr().searchQuestionMenuTitle));
+        searchRow.appendChild(searchNameWrap);
+        list.appendChild(searchRow);
+      }
     });
     frag.appendChild(list);
 
@@ -4458,8 +4749,147 @@ ${optionsObjCodeEn}
       // Plus
       return `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
     }
+    if (chKey === "vyhledat_otazku") {
+      // Lupa
+      return `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M15.3 15.3L20 20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+    }
     // Obecná ikona (tři tečky) pro případné budoucí podsekce
     return `<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="6.5" cy="12" r="1.4" fill="currentColor"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/><circle cx="17.5" cy="12" r="1.4" fill="currentColor"/></svg>`;
+  }
+
+  function renderQuestionSearch() {
+    const frag = el("div");
+
+    frag.appendChild(el("a", {
+      cls: "back-link", attrs: { "data-hw-back": "1" },
+      text: "← " + tr().back,
+      onClick: () => openSettingsList("nastaveni")
+    }));
+
+    const head = el("div", { cls: "page-head" });
+    head.appendChild(el("h1", { text: tr().searchQuestionMenuTitle }));
+    frag.appendChild(head);
+
+    const panel = el("div", { cls: "qsearch-panel" });
+
+    // -- textové pole + nápověda k syntaxi --
+    const inputField = el("div", { cls: "aq-field" });
+    inputField.appendChild(el("label", { cls: "aq-label", text: tr().searchInputLabel }));
+    const input = el("input", {
+      cls: "aq-input",
+      attrs: { type: "text", placeholder: tr().searchInputPlaceholder }
+    });
+    input.value = search.query;
+    input.addEventListener("input", () => { search.query = input.value; });
+    input.addEventListener("keydown", (e) => { if (e.key === "Enter") runQuestionSearch(); });
+    inputField.appendChild(input);
+    inputField.appendChild(el("p", { cls: "qsearch-help", html: tr().searchHelpHtml }));
+    panel.appendChild(inputField);
+
+    // -- checkboxy jednotek --
+    const unitKeys = Object.keys(QUESTION_DATA).filter(k => k !== "nastaveni");
+    const unitsField = el("div", { cls: "aq-field" });
+    unitsField.appendChild(el("label", { cls: "aq-label", text: tr().searchUnitsLabel }));
+    const unitsRow = el("div", { cls: "qsearch-checkbox-row" });
+    unitKeys.forEach(uk => {
+      const lbl = el("label", { cls: "qsearch-checkbox" });
+      const cb = el("input", { attrs: { type: "checkbox" } });
+      cb.checked = !!search.units[uk];
+      cb.addEventListener("change", () => {
+        search.units[uk] = cb.checked;
+        // pokud zrušená jednotka odpovídá zvolené podkapitole, zrušit i filtr podkapitoly
+        if (!cb.checked && search.chapterFilter.indexOf(uk + "::") === 0) search.chapterFilter = "";
+        render();
+      });
+      lbl.appendChild(cb);
+      lbl.appendChild(document.createTextNode(" " + QUESTION_DATA[uk].title[state.lang]));
+      unitsRow.appendChild(lbl);
+    });
+    unitsField.appendChild(unitsRow);
+    panel.appendChild(unitsField);
+
+    // -- výběr podkapitoly (jen z aktuálně zaškrtnutých jednotek) --
+    const chapterField = el("div", { cls: "aq-field" });
+    chapterField.appendChild(el("label", { cls: "aq-label", text: tr().searchChapterLabel }));
+    const chapterSelect = el("select", { cls: "aq-select" });
+    const allOpt = el("option", { text: tr().searchAllChapters });
+    allOpt.value = "";
+    chapterSelect.appendChild(allOpt);
+    unitKeys.filter(uk => search.units[uk]).forEach(uk => {
+      const unit = QUESTION_DATA[uk];
+      const group = document.createElement("optgroup");
+      group.label = unit.title[state.lang];
+      Object.keys(unit.chapters).forEach(chKey => {
+        const opt = el("option", { text: unit.chapters[chKey].title[state.lang] });
+        opt.value = `${uk}::${chKey}`;
+        group.appendChild(opt);
+      });
+      chapterSelect.appendChild(group);
+    });
+    chapterSelect.value = search.chapterFilter || "";
+    chapterSelect.addEventListener("change", () => { search.chapterFilter = chapterSelect.value; });
+    chapterField.appendChild(chapterSelect);
+    panel.appendChild(chapterField);
+
+    // -- checkbox "obsahuje obrázek" --
+    const imgField = el("div", { cls: "aq-field" });
+    const imgLbl = el("label", { cls: "qsearch-checkbox qsearch-checkbox-standalone" });
+    const imgCb = el("input", { attrs: { type: "checkbox" } });
+    imgCb.checked = !!search.hasImageOnly;
+    imgCb.addEventListener("change", () => { search.hasImageOnly = imgCb.checked; });
+    imgLbl.appendChild(imgCb);
+    imgLbl.appendChild(document.createTextNode(" " + tr().searchHasImageLabel));
+    imgField.appendChild(imgLbl);
+    panel.appendChild(imgField);
+
+    panel.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
+
+    // -- tlačítko hledat --
+    const actions = el("div", { cls: "qsearch-actions" });
+    actions.appendChild(el("button", { cls: "pill-btn primary", text: tr().searchButton, onClick: runQuestionSearch }));
+    panel.appendChild(actions);
+
+    frag.appendChild(panel);
+
+    // -- výsledky --
+    if (search.hasSearched) {
+      const resultsWrap = el("div", { cls: "qsearch-results" });
+      resultsWrap.appendChild(el("div", { cls: "qsearch-results-count", text: tr().searchResultsCount(search.results.length) }));
+      if (search.results.length === 0) {
+        const empty = el("div", { cls: "empty-state" });
+        empty.appendChild(el("p", { text: tr().searchNoResults }));
+        resultsWrap.appendChild(empty);
+      } else {
+        const list = el("div", { cls: "chapter-list qsearch-list" });
+        search.results.forEach(q => list.appendChild(renderSearchResultRow(q)));
+        resultsWrap.appendChild(list);
+      }
+      frag.appendChild(resultsWrap);
+    }
+
+    return frag;
+  }
+
+  function renderSearchResultRow(q) {
+    const qData = q[state.lang];
+    const row = el("div", { cls: "qsearch-row", onClick: () => openSearchResult(q) });
+
+    const top = el("div", { cls: "qsearch-row-top" });
+    top.appendChild(el("span", { cls: "qsearch-row-id", text: `#${q.id}` }));
+    top.appendChild(el("span", {
+      cls: "qsearch-row-chapter",
+      text: `${unitTitle(q._unitKey)} · ${chapterTitle(q._unitKey, q._chapterKey)}`
+    }));
+    if (q.image && q.image.key) {
+      top.appendChild(el("span", { cls: "qsearch-row-imgicon", text: "🖼" }));
+    }
+    row.appendChild(top);
+
+    const stemText = qData && qData.stem ? String(qData.stem) : "";
+    const snippet = stemText.length > 160 ? stemText.slice(0, 160) + "…" : stemText;
+    row.appendChild(el("div", { cls: "qsearch-row-snippet", text: snippet }));
+
+    return row;
   }
 
   function renderNewsList() {
@@ -5406,13 +5836,14 @@ ${optionsObjCodeEn}
     const topbar = el("div", { cls: "quiz-topbar" });
     topbar.appendChild(el("a", {
       cls: "back-link", attrs: { "data-hw-back": "1" },
-      text: "← " + ((state.mode === "live" || state.mode === "daily") ? tr().backToUnits : tr().backToChapters),
+      text: "← " + ((state.mode === "live" || state.mode === "daily") ? tr().backToUnits : (state._isSearchBrowse ? tr().searchBackLabel : tr().backToChapters)),
       onClick: () => {
         stopTimer();
         commentsCloseAll();
         if (state.mode === "live") { goHome(); return; }
         if (state.mode === "daily") { dailyBackToEntryFromQuiz(); return; }
         if (state.mode === "test") openUnit(state.unitKey);
+        else if (state._isSearchBrowse) { state._isSearchBrowse = false; openQuestionSearch(); }
         else if (state._isFavoritesBrowse) { state._isFavoritesBrowse = false; openChapterList(state.unitKey); }
         else if (state.chapterKey) openChapterMenu(state.unitKey, state.chapterKey);
         else openChapterList(state.unitKey);
