@@ -2651,10 +2651,9 @@ function chapterImageSrc(chapterKey) {
 
   const search = {
     query: "",
-    units: { anatomie_1: true, anatomie_2: true, anatomie_3: true }, // které jednotky prohledávat
+    units: { anatomie_1: true, anatomie_2: true, anatomie_3: true, zive_testy: false }, // které jednotky prohledávat
     chapterFilter: "",       // "" = všechny podkapitoly, jinak "unitKey::chapterKey"
     hasImageOnly: false,
-    includeLiveQuestions: false, // jen pro adminy — zahrne i otázky ID >= SEARCH_MAX_QUESTION_ID
     results: [],
     hasSearched: false
   };
@@ -3088,7 +3087,8 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       searchChapterLabel: "Podkapitola",
       searchAllChapters: "Všechny podkapitoly",
       searchHasImageLabel: "Obsahuje obrázek nebo video",
-      searchIncludeLiveLabel: "Zahrnout i otázky živých testů (ID ≥ 10 000)",
+      searchUnitLiveTests: "Živé testy",
+      searchLiveBankLabel: "Živý test",
       searchShowLiveBtn: "Zobrazit otázky z živých testů — nutné přihlášení admina",
       searchButton: "Hledat",
       searchResultsCount: (n) => n === 1 ? `Nalezena ${n} otázka` : (n >= 2 && n <= 4 ? `Nalezeny ${n} otázky` : `Nalezeno ${n} otázek`),
@@ -3325,7 +3325,8 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       searchChapterLabel: "Subchapter",
       searchAllChapters: "All subchapters",
       searchHasImageLabel: "Contains an image or video",
-      searchIncludeLiveLabel: "Include live-test questions too (ID ≥ 10,000)",
+      searchUnitLiveTests: "Live tests",
+      searchLiveBankLabel: "Live test",
       searchShowLiveBtn: "Show live-test questions — admin login required",
       searchButton: "Search",
       searchResultsCount: (n) => n === 1 ? `${n} question found` : `${n} questions found`,
@@ -3884,21 +3885,35 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     const isIdSearch = /^\d+$/.test(raw);
 
     let pool = [];
-    Object.keys(search.units).filter(uk => search.units[uk]).forEach(uk => {
+    // Běžné jednotky (anatomie_1/2/3) — otázky se berou z QUESTION_DATA.
+    Object.keys(search.units).filter(uk => uk !== "zive_testy" && search.units[uk]).forEach(uk => {
       const unit = QUESTION_DATA[uk];
       if (!unit) return;
       Object.keys(unit.chapters).forEach(chKey => {
         if (search.chapterFilter && search.chapterFilter !== `${uk}::${chKey}`) return;
         unit.chapters[chKey].questions.forEach(q => {
           if (q.id === undefined || q.id === null) return;
-          const isLiveQuestion = q.id >= SEARCH_MAX_QUESTION_ID;
-          // Otázky živých testů se nabízí jen adminovi, a jen pokud si to
-          // explicitně zaškrtne (viz checkbox searchIncludeLiveLabel).
-          if (isLiveQuestion && !(live.isAdminUnlocked && search.includeLiveQuestions)) return;
           pool.push(Object.assign({}, q, { _unitKey: uk, _chapterKey: chKey }));
         });
       });
     });
+
+    // Otázky živých testů (ID >= 10 000) žijí v samostatném objektu
+    // LIVE_QUESTION_BANKS (ne v QUESTION_DATA), a nemají podkapitoly —
+    // proto se přidávají zvlášť a jen když je zaškrtnuté "Živé testy"
+    // (dostupné jen po přihlášení admina) a není aktivní filtr na
+    // konkrétní podkapitolu (ten se na živé testy nevztahuje).
+    if (search.units.zive_testy && live.isAdminUnlocked && !search.chapterFilter &&
+        typeof LIVE_QUESTION_BANKS !== "undefined" && LIVE_QUESTION_BANKS) {
+      Object.keys(LIVE_QUESTION_BANKS).forEach(bankKey => {
+        const bank = LIVE_QUESTION_BANKS[bankKey];
+        const questions = (bank && bank.questions) || [];
+        questions.forEach(q => {
+          if (q.id === undefined || q.id === null) return;
+          pool.push(Object.assign({}, q, { _unitKey: bankKey, _chapterKey: null }));
+        });
+      });
+    }
 
     if (search.hasImageOnly) {
       pool = pool.filter(q => q.image && q.image.key);
@@ -4817,6 +4832,18 @@ ${optionsObjCodeEn}
       lbl.appendChild(document.createTextNode(" " + QUESTION_DATA[uk].title[state.lang]));
       unitsRow.appendChild(lbl);
     });
+    // "Živé testy" — 4. políčko vedle běžných jednotek, ale otázky bere ze
+    // samostatného LIVE_QUESTION_BANKS (viz runQuestionSearch). Nabízí se
+    // jen po přihlášení admina.
+    if (live.isAdminUnlocked) {
+      const liveLbl = el("label", { cls: "qsearch-checkbox" });
+      const liveCb = el("input", { attrs: { type: "checkbox" } });
+      liveCb.checked = !!search.units.zive_testy;
+      liveCb.addEventListener("change", () => { search.units.zive_testy = liveCb.checked; render(); });
+      liveLbl.appendChild(liveCb);
+      liveLbl.appendChild(document.createTextNode(" " + tr().searchUnitLiveTests));
+      unitsRow.appendChild(liveLbl);
+    }
     unitsField.appendChild(unitsRow);
     panel.appendChild(unitsField);
 
@@ -4854,19 +4881,13 @@ ${optionsObjCodeEn}
     imgField.appendChild(imgLbl);
     panel.appendChild(imgField);
 
-    // -- otázky živých testů (ID >= 10 000): buď checkbox pro odemčeného
-    // admina, nebo tlačítko, které přímo v tomto panelu otevře stejné
-    // admin přihlášení jako u živého testu / přidání otázky (sdílený stav
-    // live.showAdminUnlock, live.isAdminUnlocked).
+    // -- otázky živých testů (ID >= 10 000): zaškrtávátko je teď 4. položka
+    // v "Jednotky" výše (viditelná jen po přihlášení admina); tady jen
+    // umožníme admina odhlásit, nebo pokud ještě přihlášený není, otevřeme
+    // přímo v tomto panelu stejné admin přihlášení jako u živého testu /
+    // přidání otázky (sdílený stav live.showAdminUnlock, live.isAdminUnlocked).
     const liveField = el("div", { cls: "aq-field" });
     if (live.isAdminUnlocked) {
-      const liveLbl = el("label", { cls: "qsearch-checkbox qsearch-checkbox-standalone" });
-      const liveCb = el("input", { attrs: { type: "checkbox" } });
-      liveCb.checked = !!search.includeLiveQuestions;
-      liveCb.addEventListener("change", () => { search.includeLiveQuestions = liveCb.checked; });
-      liveLbl.appendChild(liveCb);
-      liveLbl.appendChild(document.createTextNode(" " + tr().searchIncludeLiveLabel));
-      liveField.appendChild(liveLbl);
       liveField.appendChild(el("a", { cls: "live-admin-toggle", text: tr().liveAdminLock, onClick: liveLockAdmin }));
     } else if (!live.showAdminUnlock) {
       liveField.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
@@ -4939,9 +4960,10 @@ ${optionsObjCodeEn}
 
     const top = el("div", { cls: "qsearch-row-top" });
     top.appendChild(el("span", { cls: "qsearch-row-id", text: `#${q.id}` }));
+    const chapterLabel = q._chapterKey ? chapterTitle(q._unitKey, q._chapterKey) : tr().searchLiveBankLabel;
     top.appendChild(el("span", {
       cls: "qsearch-row-chapter",
-      text: `${unitTitle(q._unitKey)} · ${chapterTitle(q._unitKey, q._chapterKey)}`
+      text: `${unitTitle(q._unitKey)} · ${chapterLabel}`
     }));
     if (q.image && q.image.key) {
       top.appendChild(el("span", { cls: "qsearch-row-imgicon", text: "🖼" }));
