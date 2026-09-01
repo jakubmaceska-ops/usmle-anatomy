@@ -14700,6 +14700,33 @@ id: 269,
     correct: "a",
     explanation: "The eruption of permanent teeth begins at approximately 6 years of age. The first permanent molars (6–7 years) usually erupt first, followed by the central incisors (6–8 years). The lateral incisors (7–9 years) erupt next, followed by the first premolars (10–12 years). Therefore, the correct order is A → B → C → D, i.e. first molar → central incisor → lateral incisor → first premolar."
   }
+},
+{
+  id: 1095,
+  cz: {
+    stem: "Vyberte správné pořadí prořezávání mléčných zubů, od nejdříve prořezávajícího po nejpozději prořezávající zub.\nA – první molár\nB – špičák\nC – centrální řezák\nD – laterální řezák",
+    options: {
+        a: "C → D → A → B",
+        b: "D → C → A → B",
+        c: "C → A → D → B",
+        d: "A → C → D → B",
+        e: "D → A → C → B"
+    },
+    correct: "a",
+    explanation: "Prořezávání mléčných zubů začíná obvykle kolem 6. měsíce věku. Jako první se nejčastěji prořezávají centrální řezáky (6–10 měsíců), následované laterálními řezáky (9–13 měsíců). Poté se prořezávají první moláry (13–19 měsíců) a následně špičáky (16–23 měsíců). Typické pořadí je tedy C → D → A → B, tedy centrální řezák → laterální řezák → první molár → špičák."
+  },
+  en: {
+    stem: "Select the correct order of eruption of the primary teeth, from the earliest-erupting to the latest-erupting tooth.\nA – first molar\nB – canine\nC – central incisor\nD – lateral incisor",
+    options: {
+        a: "C → D → A → B",
+        b: "D → C → A → B",
+        c: "C → A → D → B",
+        d: "A → C → D → B",
+        e: "D → A → C → B"
+    },
+    correct: "a",
+    explanation: "The eruption of the primary teeth usually begins at approximately 6 months of age. The central incisors (6–10 months) usually erupt first, followed by the lateral incisors (9–13 months). The first molars (13–19 months) erupt next, followed by the canines (16–23 months). Therefore, the typical order is C → D → A → B, i.e. central incisor → lateral incisor → first molar → canine."
+  }
 },]
       },
       dychaci_soustava: {
