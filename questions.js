@@ -30205,6 +30205,33 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The esophageal hiatus of the diaphragm, located approximately at the T10 vertebral level, transmits the esophagus together with the anterior and posterior vagal trunks and small branches of the left gastric artery and vein. The inferior vena cava passes through the caval opening at T8, while the aorta passes through the aortic hiatus at T12."
     }
   },
+  {
+  id: 10266,
+  cz: {
+    stem: "Vyberte správné pořadí prořezávání stálých zubů, od nejdříve prořezávajícího po nejpozději prořezávající zub.\nA – druhý molár\nB – špičák\nC – třetí molár\nD – druhý premolár",
+    options: {
+        a: "B → D → A → C",
+        b: "D → B → A → C",
+        c: "B → A → D → C",
+        d: "A → B → D → C",
+        e: "D → A → B → C"
+    },
+    correct: "a",
+    explanation: "Špičáky se obvykle prořezávají přibližně ve věku 9–12 let, druhé premoláry přibližně 10–12 let a druhé moláry přibližně 11–13 let. Třetí moláry se prořezávají nejpozději, obvykle přibližně mezi 17–21 lety, přičemž jejich prořezání je velmi variabilní a někdy k němu vůbec nedojde.\nTypické pořadí je tedy B → D → A → C, tedy špičák → druhý premolár → druhý molár → třetí molár."
+  },
+  en: {
+    stem: "Select the correct order of eruption of the permanent teeth, from the earliest-erupting to the latest-erupting tooth.\nA – second molar\nB – canine\nC – third molar\nD – second premolar",
+    options: {
+        a: "B → D → A → C",
+        b: "D → B → A → C",
+        c: "B → A → D → C",
+        d: "A → B → D → C",
+        e: "D → A → B → C"
+    },
+    correct: "a",
+    explanation: "Canines usually erupt at approximately 9–12 years of age, second premolars at approximately 10–12 years, and second molars at approximately 11–13 years. Third molars erupt last, usually at approximately 17–21 years of age. Their eruption is highly variable, and they may fail to erupt altogether.\nThe typical order is therefore B → D → A → C, i.e. canine → second premolar → second molar → third molar."
+  }
+},
     ]
     // =ANATOMIE_2_VERZE_1_END=
   },
