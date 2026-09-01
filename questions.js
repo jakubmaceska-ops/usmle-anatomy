@@ -14677,7 +14677,7 @@ id: 269,
 {
   id: 1094,
   cz: {
-    stem: "Vyberte správné pořadí prořezávání stálých zubů, od nejdříve prořezávajícího po nejpozději prořezávající zub.<br><strong>A</strong> – první molár<br><strong>B</strong> – centrální řezák<br><strong>C</strong> – laterální řezák<br><strong>D</strong> – první premolár",
+    stem: "Vyberte správné pořadí prořezávání stálých zubů, od nejdříve prořezávajícího po nejpozději prořezávající zub.\nA – první molár\nB – centrální řezák\nC – laterální řezák\nD – první premolár",
     options: {
         a: "A → B → C → D",
         b: "B → A → C → D",
@@ -14689,7 +14689,7 @@ id: 269,
     explanation: "Prořezávání stálých zubů začíná přibližně kolem 6. roku věku. Jako první se obvykle prořezávají první stálé moláry (6–7 let), následované centrálními řezáky (6–8 let). Poté se prořezávají laterální řezáky (7–9 let) a následně první premoláry (10–12 let). Správné pořadí je tedy A → B → C → D, tedy první molár → centrální řezák → laterální řezák → první premolár."
   },
   en: {
-    stem: "Select the correct order of eruption of the permanent teeth, from the earliest-erupting to the latest-erupting tooth.<br><strong>A</strong> – first molar<br><strong>B</strong> – central incisor<br><strong>C</strong> – lateral incisor<br><strong>D</strong> – first premolar",
+    stem: "Select the correct order of eruption of the permanent teeth, from the earliest-erupting to the latest-erupting tooth.\nA – first molar\nB – central incisor\nC – lateral incisor\nD – first premolar",
     options: {
         a: "A → B → C → D",
         b: "B → A → C → D",
