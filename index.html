@@ -3903,14 +3903,20 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     // proto se přidávají zvlášť a jen když je zaškrtnuté "Živé testy"
     // (dostupné jen po přihlášení admina) a není aktivní filtr na
     // konkrétní podkapitolu (ten se na živé testy nevztahuje).
+    // Pozn.: klíč banky může mít u verzovaných kol tvar "anatomie_1_verze_2"
+    // (viz baseUnitKeyForLiveBank), který v QUESTION_DATA neexistuje —
+    // proto se pro zobrazení jednotky/název převádí na základní klíč jednotky.
     if (search.units.zive_testy && live.isAdminUnlocked && !search.chapterFilter &&
         typeof LIVE_QUESTION_BANKS !== "undefined" && LIVE_QUESTION_BANKS) {
       Object.keys(LIVE_QUESTION_BANKS).forEach(bankKey => {
         const bank = LIVE_QUESTION_BANKS[bankKey];
         const questions = (bank && bank.questions) || [];
+        const baseUnitKey = baseUnitKeyForLiveBank(bankKey);
+        const resolvedUnitKey = QUESTION_DATA[baseUnitKey] ? baseUnitKey : null;
+        if (!resolvedUnitKey) return; // banka bez rozpoznatelné jednotky — přeskočit, ať appka nepadá při dalším procházení
         questions.forEach(q => {
           if (q.id === undefined || q.id === null) return;
-          pool.push(Object.assign({}, q, { _unitKey: bankKey, _chapterKey: null }));
+          pool.push(Object.assign({}, q, { _unitKey: resolvedUnitKey, _chapterKey: null, _liveBankKey: bankKey }));
         });
       });
     }
