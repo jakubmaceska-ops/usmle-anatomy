@@ -3089,6 +3089,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       searchAllChapters: "Všechny podkapitoly",
       searchHasImageLabel: "Obsahuje obrázek nebo video",
       searchIncludeLiveLabel: "Zahrnout i otázky živých testů (ID ≥ 10 000)",
+      searchShowLiveBtn: "Zobrazit otázky z živých testů — nutné přihlášení admina",
       searchButton: "Hledat",
       searchResultsCount: (n) => n === 1 ? `Nalezena ${n} otázka` : (n >= 2 && n <= 4 ? `Nalezeny ${n} otázky` : `Nalezeno ${n} otázek`),
       searchNoResults: "Žádné otázce neodpovídá zadané hledání. Zkus upravit klíčová slova nebo filtry.",
@@ -3325,6 +3326,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       searchAllChapters: "All subchapters",
       searchHasImageLabel: "Contains an image or video",
       searchIncludeLiveLabel: "Include live-test questions too (ID ≥ 10,000)",
+      searchShowLiveBtn: "Show live-test questions — admin login required",
       searchButton: "Search",
       searchResultsCount: (n) => n === 1 ? `${n} question found` : `${n} questions found`,
       searchNoResults: "No questions match your search. Try adjusting the keywords or filters.",
@@ -4852,9 +4854,12 @@ ${optionsObjCodeEn}
     imgField.appendChild(imgLbl);
     panel.appendChild(imgField);
 
-    // -- checkbox "zahrnout otázky živých testů" (jen pro odemčeného admina) --
+    // -- otázky živých testů (ID >= 10 000): buď checkbox pro odemčeného
+    // admina, nebo tlačítko, které přímo v tomto panelu otevře stejné
+    // admin přihlášení jako u živého testu / přidání otázky (sdílený stav
+    // live.showAdminUnlock, live.isAdminUnlocked).
+    const liveField = el("div", { cls: "aq-field" });
     if (live.isAdminUnlocked) {
-      const liveField = el("div", { cls: "aq-field" });
       const liveLbl = el("label", { cls: "qsearch-checkbox qsearch-checkbox-standalone" });
       const liveCb = el("input", { attrs: { type: "checkbox" } });
       liveCb.checked = !!search.includeLiveQuestions;
@@ -4862,10 +4867,45 @@ ${optionsObjCodeEn}
       liveLbl.appendChild(liveCb);
       liveLbl.appendChild(document.createTextNode(" " + tr().searchIncludeLiveLabel));
       liveField.appendChild(liveLbl);
-      panel.appendChild(liveField);
+      liveField.appendChild(el("a", { cls: "live-admin-toggle", text: tr().liveAdminLock, onClick: liveLockAdmin }));
+    } else if (!live.showAdminUnlock) {
+      liveField.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
+      liveField.appendChild(el("button", {
+        cls: "pill-btn",
+        text: tr().searchShowLiveBtn,
+        attrs: { type: "button" },
+        onClick: liveOpenAdminUnlock
+      }));
     } else {
-      panel.appendChild(el("p", { cls: "qsearch-note", text: tr().searchIdLimitNote }));
+      const unlockBox = el("div", { cls: "live-field live-admin-unlock-box" });
+      unlockBox.appendChild(el("label", { text: tr().liveAdminUnlockLabel }));
+      const pwInput = el("input", {
+        attrs: { type: "password", placeholder: tr().liveAdminUnlockPh, autocomplete: "off" }
+      });
+      pwInput.value = live.adminUnlockInput || "";
+      pwInput.disabled = !!live.adminUnlockChecking;
+      pwInput.addEventListener("input", () => { live.adminUnlockInput = pwInput.value; });
+      pwInput.addEventListener("keydown", (e) => { if (e.key === "Enter" && !live.adminUnlockChecking) liveSubmitAdminUnlock(); });
+      unlockBox.appendChild(pwInput);
+
+      if (live.adminUnlockError) {
+        unlockBox.appendChild(el("div", { cls: "live-error", text: live.adminUnlockError }));
+      }
+
+      const unlockActions = el("div", { cls: "live-actions" });
+      const unlockBtn = el("button", {
+        cls: "pill-btn primary",
+        text: live.adminUnlockChecking ? tr().liveAdminUnlockChecking : tr().liveAdminUnlockBtn,
+        onClick: live.adminUnlockChecking ? () => {} : liveSubmitAdminUnlock
+      });
+      if (live.adminUnlockChecking) unlockBtn.disabled = true;
+      unlockActions.appendChild(unlockBtn);
+      unlockActions.appendChild(el("button", { cls: "pill-btn", text: tr().liveAdminUnlockCancel, onClick: liveCloseAdminUnlock }));
+      unlockBox.appendChild(unlockActions);
+
+      liveField.appendChild(unlockBox);
     }
+    panel.appendChild(liveField);
 
     // -- tlačítko hledat --
     const actions = el("div", { cls: "qsearch-actions" });
