@@ -184,33 +184,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 17,
-  cz: {
-    stem: "Při zavádění elektrody kardiostimulátoru transvenózním přístupem kardiolog využívá žílu probíhající v sulcus (trigonum) deltoideopectorale mezi m. deltoideus a m. pectoralis major. O kterou žílu se jedná?",
-    options: {
-        a: "v. basilica",
-        b: "v. cephalica",
-        c: "v. axillaris",
-        d: "v. subclavia",
-        e: "v. mediana cubiti"
-    },
-    correct: "b",
-    explanation: "V. cephalica probíhá v sulcus deltoideopectoralis mezi m. deltoideus a m. pectoralis major, kde je díky svému povrchovému a konstantnímu uložení snadno přístupná pro venepunkci nebo zavedení katétrů/elektrod, např. při implantaci kardiostimulátoru."
-  },
-  en: {
-    stem: "During transvenous implantation of a pacemaker lead, the cardiologist uses a vein that runs through the deltopectoral groove (deltopectoral triangle) between the deltoid muscle and the pectoralis major muscle. Which vein is it?",
-    options: {
-        a: "basilic vein",
-        b: "cephalic vein",
-        c: "axillary vein",
-        d: "subclavian vein",
-        e: "median cubital vein"
-    },
-    correct: "b",
-    explanation: "The cephalic vein runs within the deltopectoral groove between the deltoid muscle and the pectoralis major muscle. Due to its superficial and relatively constant anatomical course, it is easily accessible for venous access and for the insertion of catheters or pacing leads, for example during pacemaker implantation."
-  }
-},
-{
   id: 18,
   cz: {
     stem: "Při odběru krve ze žíly v kubitální jamce hrozí při příliš hlubokém vpichu poškození hlubších struktur. Která struktura odděluje povrchově uloženou v. mediana cubiti od a. brachialis a n. medianus?",
@@ -434,23 +407,23 @@ const QUESTION_DATA = {
         a: "m. deltoideus – n. axillaris",
         b: "m. supraspinatus – n. suprascapularis",
         c: "m. infraspinatus – n. suprascapularis",
-        d: "m. teres major – n. subscapularis",
-        e: "m. teres minor – n. axillaris"
+        d: "m. deltoideus – n. subscapularis",
+        e: "m. supraspinatus – n. axillaris"
     },
     correct: "b",
-    explanation: "Abdukce paže v ramenním kloubu má dvě fáze:\n•\t0–15° (initiační fáze) → zajišťuje ji hlavně m. supraspinatus \n•\t>15° → pokračuje m. deltoideus \nProto pacient, který nedokáže zahájit abdukci, má nejpravděpodobněji poškozený právě m. supraspinatus (n. suprascapularis)."
+    explanation: "Abdukce paže v ramenním kloubu má dvě fáze:\n•\t0–15° (initiační fáze) → zajišťuje ji hlavně m. supraspinatus, a \n•\t>15° → pokračuje m. deltoideus \nProto pacient, který nedokáže zahájit abdukci, má nejpravděpodobněji poškozený právě m. supraspinatus (n. suprascapularis)."
   },
   en: {
     stem: "A 23-year-old man was brought to the emergency department after falling off a motorcycle at approximately 50 km/h. He sustained abrasions on the left flank, a contusion of the right thigh, and a chest bruise, with no signs of fractures. After stabilization, the patient complains of difficulty initiating abduction of the right arm at the shoulder joint, specifically in the range of 0–15°. The physician suspects injury to the muscle primarily responsible for this initial phase of movement. Which muscle is involved, and what is its innervation?",
     options: {
-        a: "m. deltoideus – n. axillaris",
-        b: "m. supraspinatus – n. suprascapularis",
-        c: "m. infraspinatus – n. suprascapularis",
-        d: "m. teres major – n. subscapularis",
-        e: "m. teres minor – n. axillaris"
+        a: "deltoid muscle – axillary nerve",
+        b: "supraspinatus muscle – suprascapular nerve",
+        c: "infraspinatus muscle – suprascapular nerve",
+        d: "deltoid muscle – subscapular nerve",
+        e: "supraspinatus muscle – axillary nerve"
     },
     correct: "b",
-    explanation: "Shoulder abduction at the glenohumeral joint occurs in two phases:\n• 0–15° (initiation phase) → mainly performed by the m. supraspinatus\n• >15° → continued primarily by the m. deltoideus\nTherefore, a patient who is unable to initiate abduction most likely has an injury of the m. supraspinatus (n. suprascapularis)."
+    explanation: "Shoulder abduction at the glenohumeral joint occurs in two phases:\n• 0–15° (initiation phase) → mainly performed by the supraspinatus muscle, and \n• >15° → continued primarily by the deltoid muscle.\nTherefore, a patient who is unable to initiate abduction most likely has an injury of the supraspinatus muscle (suprascapularis nerve)."
   }
 },
 {
@@ -519,10 +492,10 @@ const QUESTION_DATA = {
         e: "m. deltoideus a m. teres major"
     },
     correct: "c",
-    explanation: "n. axillaris (C5–C6) inervuje:\nm. deltoideus → hlavní sval pro abdukci paže nad 15° a elevaci končetiny\nm. teres minor → zevní rotace paže (součást rotátorové manžety)\n\nOstatní svaly v nabízených možnostech jsou inervovány jinými nervy:\nm. supraspinatus, m. infraspinatus → n. suprascapularis\nm. teres major → n. subscapularis"
+    explanation: "n. axillaris (C5–C6) inervuje:\nm. deltoideus → hlavní sval pro abdukci paže nad 15° a elevaci končetiny; \nm. teres minor → zevní rotace paže (součást rotátorové manžety).\n\nOstatní svaly v nabízených možnostech jsou inervovány jinými nervy:\nm. supraspinatus, m. infraspinatus → n. suprascapularis;\nm. teres major → n. subscapularis."
   },
   en: {
-    stem: "A 52-year-old man was brought to the emergency department after falling onto his right shoulder while cycling. He reports pain in the shoulder region and limited movement of the upper limb. Clinical examination reveals reduced strength during arm elevation and impaired stabilization of the shoulder joint. An injury of the axillary nerve (n. axillaris) is suspected. Which of the following options contains only muscles innervated by this nerve?",
+    stem: "A 52-year-old man was brought to the emergency department after falling onto his right shoulder while cycling. He reports pain in the shoulder region and limited movement of the upper limb. Clinical examination reveals reduced strength during arm elevation and impaired stabilization of the shoulder joint. An injury of the axillary nerve is suspected. Which of the following options contains only muscles innervated by this nerve?",
     options: {
         a: "m. deltoideus and m. infraspinatus",
         b: "m. supraspinatus and m. teres minor",
@@ -531,7 +504,7 @@ const QUESTION_DATA = {
         e: "m. deltoideus and m. teres major"
     },
     correct: "c",
-    explanation: "The axillary nerve (C5–C6) innervates:\nm. deltoideus → primary muscle for arm abduction beyond 15° and shoulder elevation\nm. teres minor → external rotation of the arm (part of the rotator cuff)\n\nOther muscles listed are innervated by different nerves:\nsupraspinatus and infraspinatus → suprascapular nerve\nteres major → subscapular nerve"
+    explanation: "The axillary nerve (C5–C6) innervates:\ndeltoid muscle → primary muscle for arm abduction beyond 15° and shoulder elevation,\nteres minor muscle → external rotation of the arm (part of the rotator cuff).\n\nOther muscles listed are innervated by different nerves:\nsupraspinatus and infraspinatus → suprascapular nerve,\nteres major → subscapular nerve."
   }
 },
 {
@@ -897,34 +870,6 @@ const QUESTION_DATA = {
   image: { key: "q119_custom", source: "Nevit Dilmen. Shoulder MRI T2 me2d ax (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Shoulder_MRI_144244_t2me2d.png. CC BY-SA 3.0. Accessed 1 July 2026." }
 },
 {
-  id: 120,
-  cz: {
-    stem: "45letý muž pociťuje bolest v přední části ramene při zvedání břemen, přičemž testy indikují patologii struktury označené na MRI snímku šipkou. Který z následujících nervů zajišťuje motorickou inervaci svalu, k němuž tato šlacha patří?",
-    options: {
-        a: "Nervus musculocutaneus",
-        b: "Nervus axillaris",
-        c: "Nervus radialis",
-        d: "Nervus suprascapularis",
-        e: "Nervus subscapularis"
-    },
-    correct: "a",
-    explanation: "Zobrazenou strukturou je šlacha musculus biceps brachii, který jakožto flexor paže spadá pod motorickou inervaci nervus musculocutaneus"
-  },
-  en: {
-    stem: "A 45-year-old man experiences pain in the anterior part of his shoulder when lifting loads, with tests indicating pathology of the structure indicated by the arrow on the MRI scan. Which of the following nerves provides motor innervation to the muscle to which this tendon belongs?",
-    options: {
-        a: "Musculocutaneous nerve",
-        b: "Axillary nerve",
-        c: "Radial nerve",
-        d: "Suprascapular nerve",
-        e: "Subscapular nerve"
-    },
-    correct: "a",
-    explanation: "The structure shown is the tendon of the biceps brachii muscle, which, as a flexor of the arm, falls under the motor innervation of the musculocutaneous nerve."
-  },
-  image: { key: "q119_custom", source: "Nevit Dilmen. Shoulder MRI T2 me2d ax (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Shoulder_MRI_144244_t2me2d.png. CC BY-SA 3.0. Accessed 1 July 2026."}
-},
-{
   id: 121,
   cz: {
     stem: "45letý muž pociťuje bolest v rameni při flexi v lokti proti odporu, přičemž vyšetření indikuje patologii struktury označené na MRI šipkou. Která z následujících tepen primárně zásobuje krví svalové bříško této struktury?",
@@ -1160,7 +1105,7 @@ const QUESTION_DATA = {
         e: "Neschopnost extenze metakarpofalangeálních kloubů, oslabení pronace předloktí a anestezie kůže v oblasti m. deltoideus."
     },
     correct: "a",
-    explanation: "Na obrázku je označen m. triceps brachii. Přetětí n. radialis způsobí výpadek extenzorů zápěstí a MCP kloubů (příznak pokleslého zápěstí). Supinace je oslabena (vypadne m. supinator, ale je částečně zachována díky m. biceps brachii inervovanému z n. musculocutaneus). Senzorický výpadek postihuje radiální část (hranice je polovina 3. prstu, zbytek inervuje r. dorsalis n. ulnaris) hřbetu ruky."
+    explanation: "Na obrázku je označen m. triceps brachii inervovaný z nervus radialis. Přetětí n. radialis způsobí výpadek extenzorů zápěstí a metakarpofalangeálních kloubů. Supinace je oslabena (vypadne m. supinator, ale je částečně zachována díky m. biceps brachii inervovanému z n. musculocutaneus). Senzorický výpadek postihuje radiální část (hranice je polovina 3. prstu, zbytek inervuje r. dorsalis n. ulnaris) hřbetu ruky."
   },
   en: {
     stem: "A patient sustained a deep stab wound to the arm that completely transected the nerve innervating the structure marked with the number 1. What will be the resulting neurological finding on the affected limb?",
@@ -1172,7 +1117,7 @@ const QUESTION_DATA = {
         e: "Inability to extend the metacarpophalangeal joints, weakened forearm pronation, and anesthesia of the skin in the deltoid region"
     },
     correct: "a",
-    explanation: "The image shows the triceps brachii muscle. Transection of the radial nerve causes a deficit of the wrist and MCP joint extensors (the wrist drop sign). Supination is weakened (the supinator muscle is lost, but it is partially preserved thanks to the biceps brachii muscle, which is innervated by the musculocutaneous nerve). The sensory deficit affects the radial part of the back of the hand (the boundary is the midline of the 3rd finger, while the rest is innervated by the ramus dorsalis of the ulnar nerve)."
+    explanation: "The image shows the triceps brachii muscle which is innervated by the radial nerve. Transection of the radial nerve causes a deficit of the wrist and MCP joint extensors (the wrist drop sign). Supination is weakened (the supinator muscle is lost, but it is partially preserved thanks to the biceps brachii muscle, which is innervated by the musculocutaneous nerve). The sensory deficit affects the radial part of the back of the hand (the boundary is the midline of the 3rd finger, while the rest is innervated by the ramus dorsalis of the ulnar nerve)."
   },
   image: {key: "q127_custom", source: "RSatUSZ. MRI of intact triceps tendon, axial (modified with Gemini AI). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:MRI._intact_triceps_tendon_axial..jpg. Accessed 1 July 2026." }
 },
@@ -1260,33 +1205,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 133,
-  cz: {
-    stem: "Během chirurgického přístupu do ramenního kloubu využívá operatér anatomickou rovinu v trigonum deltoideopectorale. Aby nedošlo k poškození struktur procházejících tímto prostorem, musí identifikovat svaly tvořící jeho bezprostřední ohraničení. Která z následujících dvojic svalů přímo ohraničuje tento topografický prostor?",
-    options: {
-        a: "Musculus pectoralis major a musculus deltoideus",
-        b: "Musculus pectoralis minor a musculus deltoideus",
-        c: "Musculus pectoralis minor a musculus pectoralis major",
-        d: "Musculus teres major a musculus pectoralis major",
-        e: "Musculus pectoralis major a musculus subclavius"
-    },
-    correct: "a",
-    explanation: "Trigonum deltoideopectorale je ohraničeno m. pectoralis major (mediálně), m. deltoideus (laterálně) a klíční kostí (shora)."
-  },
-  en: {
-    stem: "During a surgical approach to the shoulder joint, the surgeon utilizes the anatomical plane in the deltoideopectoral triangle (trigonum deltoideopectorale). To avoid damaging structures passing through this space, they must identify the muscles forming its immediate boundaries. Which of the following pairs of muscles directly bounds this topographical space?",
-    options: {
-        a: "Pectoralis major muscle and deltoid muscle",
-        b: "Pectoralis minor muscle and deltoid muscle",
-        c: "Pectoralis minor muscle and pectoralis major muscle",
-        d: "Teres major muscle and pectoralis major muscle",
-        e: "Pectoralis major muscle and subclavius muscle"
-    },
-    correct: "a",
-    explanation: "The deltoideopectoral triangle (trigonum deltoideopectorale) is bounded by the m. pectoralis major (medially), the m. deltoideus (laterally), and the clavicle (superiorly)."
-  }
-},
-{
   id: 134,
   cz: {
     stem: "Pacient byl přivezen na urgentní příjem s hlubokou tržnou ranou v zadní krajině ramene. Při revizi rány chirurg identifikuje krvácení z cévy, která prochází skrze foramen omotricipitale. Která z následujících cév byla nejpravděpodobněji poškozena?",
@@ -1316,11 +1234,11 @@ const QUESTION_DATA = {
 {
   id: 135,
   cz: {
-    stem: "Při chirurgické revizi hlubokých struktur v regio scapularis je nutné bezpečně identifikovat cévy vázané na jednotlivá anatomická foramina. Která z následujících cév prochází skrze foramen humerotricipitale?",
+    stem: "Která z následujících cév prochází skrze foramen humerotricipitale?",
     options: {
         a: "Arteria circumflexa humeri posterior",
         b: "Arteria circumflexa humeri anterior",
-        c: "Arteria circumflexa scapula",
+        c: "Arteria circumflexa scapulae",
         d: "Arteria subscapularis",
         e: "Arteria profunda brachii"
     },
@@ -1328,7 +1246,7 @@ const QUESTION_DATA = {
     explanation: "Skrze foramen humerotricipitale prochází arteria circumflexa humeri posterior a stejnojmenné žíly."
   },
   en: {
-    stem: "During a surgical exploration of the deep structures in the scapular region, it is necessary to safely identify the vessels associated with the individual anatomical foramina. Which of the following vessels passes through the foramen humerotricipitale?",
+    stem: "Which of the following vessels passes through the foramen humerotricipitale?",
     options: {
         a: "Posterior circumflex humeral artery",
         b: "Anterior circumflex humeral artery",
@@ -1463,7 +1381,7 @@ const QUESTION_DATA = {
         e: "m. extensor carpi ulnaris"
     },
     correct: "a",
-    explanation: "M. brachioradialis začíná nejvýše ze všech uvedených svalů, konkrétně na crista supraepicondylaris lateralis. Ostatní svaly v možnostech začínají níže, přímo na samotném epicondylus lateralis humeri přes společnou šlachu extenzorů (tendo communis extensorum). Z hlediska inervace dostává m. brachioradialis vlákna přímo z hlavního kmene n. radialis ještě předtím, než se nerv v nitru loketní jamky rozdělí na ramus profundus (hluboká motorická větev pro svaly odstupující z epikondylu) a ramus superficialis (povrchová senzitivní větev)."
+    explanation: "M. brachioradialis začíná nejvýše ze všech uvedených svalů, konkrétně na crista supracondylaris lateralis. Ostatní svaly v možnostech začínají níže, přímo na samotném epicondylus lateralis humeri přes společnou šlachu extenzorů (tendo communis extensorum). Z hlediska inervace dostává m. brachioradialis vlákna přímo z hlavního kmene n. radialis ještě předtím, než se nerv v nitru loketní jamky rozdělí na ramus profundus (hluboká motorická větev pro svaly odstupující z epikondylu) a ramus superficialis (povrchová senzitivní větev)."
   },
   en: {
     stem: "Which of the following muscles has its origin most proximally on the humerus in close proximity to the structure indicated by the arrow?",
@@ -1475,7 +1393,7 @@ const QUESTION_DATA = {
         e: "extensor carpi ulnaris muscle"
     },
     correct: "a",
-    explanation: "M. brachioradialis originates highest of all the listed muscles, specifically on the lateral supraepicondylar ridge. The other muscles in the options originate lower, directly on the lateral epicondyle of the humerus itself via the common extensor tendon (tendo communis extensorum). In terms of innervation, m. brachioradialis receives fibers directly from the main trunk of the radial nerve, even before the nerve divides inside the cubital fossa into the ramus profundus (deep motor branch for the muscles originating from the epicondyle) and ramus superficialis (superficial sensory branch)."
+    explanation: "The brachioradialis muscle originates highest of all the listed muscles, specifically on the lateral supraepicondylar ridge. The other muscles in the options originate lower, directly on the lateral epicondyle of the humerus itself via the common extensor tendon. In terms of innervation, m. brachioradialis receives fibers directly from the main trunk of the radial nerve, even before the nerve divides inside the cubital fossa into the ramus profundus (deep motor branch for the muscles originating from the epicondyle) and ramus superficialis (superficial sensory branch)."
   },
   image: { key: "q171_custom", source: "Hellerhoff. Palliative osteosynthesis for pathological fracture of the humerus (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Palliative_Osteosynthese_bei_pathologischer_Fraktur_Humerus_69W_-_CR_-_001.jpg. Accessed 2 July 2026."
 }
@@ -1540,7 +1458,7 @@ const QUESTION_DATA = {
 {
   id: 175,
   cz: {
-    stem: "Šestnáctiletý gymnasta utrpěl při pádu z hrazdy avulzní zlomeninu struktury označené šipkou na snímku. Při vyšetření je patrná nestabilita lokte při abdukčním stresu.\nKterý z následujících vazů byl tímto zraněním přímo mechanicky postižen?",
+    stem: "Který z následujících vazů se upíná na strukturu označenou šipkou?",
     options: {
         a: "lig. collaterale ulnare",
         b: "lig. collaterale radiale",
@@ -1549,10 +1467,10 @@ const QUESTION_DATA = {
         e: "chorda obliqua"
     },
     correct: "a",
-    explanation: "Šipka ukazuje na epicondylus medialis humeri, ze kterého odstupuje ulnární postranní vaz (lig. collaterale ulnare). Tento vaz je hlavním stabilizátorem loketního kloubu proti valgóznímu stresu (abdukci předloktí), takže jeho abrupce vede k popsané nestabilitě."
+    explanation: "Šipka ukazuje na epicondylus medialis humeri, ze kterého odstupuje lig. collaterale ulnare. Tento vaz je hlavním stabilizátorem loketního kloubu proti valgóznímu stresu (abdukci předloktí), takže jeho abrupce vede k popsané nestabilitě."
   },
   en: {
-    stem: "A 16-year-old gymnast sustained an avulsion fracture of the structure indicated by the arrow in the image during a fall from the high bar. Examination reveals elbow instability during abduction (valgus) stress. Which of the following ligaments was directly mechanically affected by this injury?",
+    stem: "Which of the following ligaments attaches to the structure indicated by the arrow?",
     options: {
         a: "ulnar collateral ligament",
         b: "radial collateral ligament",
@@ -1561,7 +1479,7 @@ const QUESTION_DATA = {
         e: "oblique cord"
     },
     correct: "a",
-    explanation: "The arrow points to the medial epicondyle of the humerus, from which the ulnar collateral ligament (lig. collaterale ulnare) originates. This ligament is the primary stabilizer of the elbow joint against valgus stress (abduction of the forearm), so its avulsion leads to the described instability."
+    explanation: "The arrow points to the medial epicondyle of the humerus, from which the ulnar collateral ligament originates. This ligament is the primary stabilizer of the elbow joint against valgus stress (abduction of the forearm), so its avulsion leads to the described instability."
   },
   image: { key: "q174_custom", source: "Nevit Dilmen. Medical X-Ray imaging ACA02 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_ACA02_nevit.jpg. CC BY-SA 3.0. Accessed 16 August 2026." 
 }
@@ -1797,7 +1715,7 @@ const QUESTION_DATA = {
         e: "os trapezium"
     },
     correct: "a",
-    explanation: "Šipka ukazuje na os scaphoideum, jedná se o nejvíce radiální kost proximální řady karpálních kůstek."
+    explanation: "Šipka ukazuje na os scaphoideum, jedná se o nejvíce radiální kost proximální řady karpálních kůstek. RTG snímek je ilustrativní - hlavní nález na tomto RTG je Collesova zlomenina."
   },
   en: {
     stem: "Which bone is the arrow pointing to on the X-ray?",
@@ -1809,7 +1727,7 @@ const QUESTION_DATA = {
         e: "Trapezium bone"
     },
     correct: "a",
-    explanation: "The arrow points to the scaphoid bone (os scaphoideum); it is the most radial bone of the proximal row of carpal bones."
+    explanation: "The arrow points to the scaphoid bone; it is the most radial bone of the proximal row of carpal bones. The X-ray image is for illustrative purposes; the main finding on this X-ray is a Colles’ fracture."
   },
   image: { key: "q191_custom", source: "Lucien Monfils. Collesfracture.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Collesfracture.jpg. CC BY-SA 3.0. Accessed 4 Jul 2026." }
 },
@@ -2150,9 +2068,9 @@ const QUESTION_DATA = {
       "options": {
         "a": "Neschopnost opozice palce a ztráta citlivosti na palmární ploše distálního článku ukazováčku, přičemž citlivost kůže nad samotným thenarem je normální",
         "b": "Atrofie všech svalů thenaru doprovázená ztrátou citlivosti na palmární i dorzální ploše celého palce, ukazováčku a prostředníčku",
-        "c": "Neschopnost abdukce prstů (roztahování od sebe) a ztráta citlivosti na palmární ploše distálního článku malíčku",
+        "c": "Neschopnost abdukce prstů a ztráta citlivosti na palmární ploše distálního článku malíčku",
         "d": "Neschopnost abdukce a opozice palce se zachovanou citlivostí na kůži tehdy, když je testována v oblasti palmární plochy distálního článku ukazováčku",
-        "e": "Ztráta kožní citlivosti na kůži thenaru (palcového valu) a neschopnost addukce palce"
+        "e": "Ztráta kožní citlivosti na kůži thenaru a neschopnost addukce palce"
       },
       "correct": "a",
       "explanation": "Zachovaná citlivost thenaru je dána tím, že senzitivní větev pro kůži palcového valu odstupuje ještě před karpálním tunelem a běží nad ním, takže útlakem v tunelu netrpí, zatímco citlivost na distálním článku ukazováčku je ztracena, protože její vlákna tunelem procházejí. Motorický deficit postihuje výhradně opozici a abdukci palce kvůli lézi svalů inervovaných z ramus recurrens nervi mediani, zatímco addukce palce a funkce mezikostních svalů zůstávají plně zachovány, jelikož jsou pod kontrolou nervus ulnaris."
@@ -2162,9 +2080,9 @@ const QUESTION_DATA = {
       "options": {
         "a": "Inability to oppose the thumb and loss of sensation on the palmar surface of the distal phalanx of the index finger, while skin sensation over the thenar eminence itself is normal",
         "b": "Atrophy of all thenar muscles accompanied by loss of sensation on both the palmar and dorsal surfaces of the entire thumb, index finger, and middle finger",
-        "c": "Inability to abduct the fingers (spreading them apart) and loss of sensation on the palmar surface of the distal phalanx of the little finger",
+        "c": "Inability to abduct the fingers and loss of sensation on the palmar surface of the distal phalanx of the little finger",
         "d": "Inability to abduct and oppose the thumb with preserved skin sensation when tested in the area of the palmar surface of the distal phalanx of the index finger",
-        "e": "Loss of skin sensation over the thenar eminence (thumb pad) and inability to adduct the thumb"
+        "e": "Loss of skin sensation over the thenar eminence and inability to adduct the thumb"
       },
       "correct": "a",
       "explanation": "The preserved sensation of the thenar eminence is due to the fact that the sensory branch for the skin of the thumb pad branches off before the carpal tunnel and runs above it, so it is not affected by compression within the tunnel, whereas sensation on the distal phalanx of the index finger is lost because its fibers pass through the tunnel. The motor deficit exclusively affects the opposition and abduction of the thumb due to a lesion of the muscles innervated by the ramus recurrens nervi mediani, while thumb adduction and the function of the interosseous muscles remain fully preserved as they are under the control of the ulnar nerve."
@@ -2195,33 +2113,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "Although the tendons of the m. flexor digitorum profundus (FDP) do pass through the carpal tunnel, their motor innervation (nerve branches) originates high up in the forearm. Therefore, compression within the tunnel does not impair the mobility of the deep flexors. The medial part of the FDP (for the 4th and 5th fingers) is innervated by the ulnar nerve, and the lateral part (for the 2nd and 3rd fingers) is innervated by the median nerve in the forearm—both remain intact. Within the tunnel, the lesion only affects the ramus recurrens (loss of thumb opposition) and the distal sensory branches (numbness of the middle finger)."
-    }
-  },
-  {
-    "id": 206,
-    "cz": {
-      "stem": "Během stáže na chirurgii profesor demonstruje cévní zásobení ruky. Ptá se na povrchový palmární oblouk (arcus palmaris superficialis), konkrétně která tepna je jeho hlavním zdrojem a jaká je jeho poloha vůči hlubokému oblouku (arcus palmaris profundus). Která odpověď je správná?",
-      "options": {
-        "a": "Je tvořen hlavně z arteria ulnaris a leží distálněji než hluboký oblouk",
-        "b": "Je tvořen hlavně z arteria radialis a leží proximálněji než hluboký oblouk",
-        "c": "Je tvořen hlavně z arteria radialis a leží distálněji než hluboký oblouk",
-        "d": "Je tvořen hlavně z arteria ulnaris a leží proximálněji než hluboký oblouk",
-        "e": "Je tvořen rovnoměrným spojením obou tepen a leží ve stejné horizontální úrovni"
-      },
-      "correct": "a",
-      "explanation": "Arcus palmaris superficialis je přímým pokračováním kmenu arteria ulnaris (která se v dlani spojuje jen s tenkou ramus palmaris superficialis a. radialis). Tento povrchový oblouk leží anatomicky distálněji (blíže k prstům) než hluboký oblouk, který je naopak formován primárně z arteria radialis."
-    },
-    "en": {
-      "stem": "During a surgery rotation, the professor demonstrates the vascular supply of the hand. He asks about the superficial palmar arch (arcus palmaris superficialis), specifically which artery is its main source and what its position is relative to the deep arch (arcus palmaris profundus). Which answer is correct?",
-      "options": {
-        "a": "It is formed mainly by the ulnar artery and lies more distally than the deep arch",
-        "b": "It is formed mainly by the radial artery and lies more proximally than the deep arch",
-        "c": "It is formed mainly by the radial artery and lies more distally than the deep arch",
-        "d": "It is formed mainly by the ulnar artery and lies more proximally than the deep arch",
-        "e": "It is formed by an equal junction of both arteries and lies at the same horizontal level"
-      },
-      "correct": "a",
-      "explanation": "The arcus palmaris superficialis is a direct continuation of the trunk of the ulnar artery (which connects in the palm only with the thin ramus palmaris superficialis of the radial artery). This superficial arch lies anatomically more distally (closer to the fingers) than the deep arch, which, conversely, is formed primarily by the radial artery."
     }
   },
   {
@@ -2281,7 +2172,7 @@ const QUESTION_DATA = {
   {
     "id": 209,
     "cz": {
-      "stem": "Při testování motorických funkcí ruky po úrazu se lékař zaměřuje na izolovanou činnost červovitých svalů (mm. lumbricales). Který z následujících pohybů tyto svaly na 2. až 5. prstu specificky vykonávají?",
+      "stem": "Při testování motorických funkcí ruky po úrazu se lékař zaměřuje na izolovanou činnost mm. lumbricales. Který z následujících pohybů tyto svaly na 2. až 5. prstu specificky vykonávají?",
       "options": {
         "a": "Flexi v metakarpofalangových kloubech a extenzi v interfalangových kloubech",
         "b": "Addukci prstů směrem k podélné ose ruky",
@@ -2293,7 +2184,7 @@ const QUESTION_DATA = {
       "explanation": "Mm. lumbricales se upínají do dorzální aponeurózy prstů. Díky tomuto anatomickému průběhu táhnou za bazi proximálního článku do flexe metacarpophalangeálním kloubu, ale přes dorzální aponeurózu současně napínají a natahují střední a distální článek prstu do extenze v interfalangovém kloubu."
     },
     "en": {
-      "stem": "During motor function testing of the hand following an injury, the doctor focuses on the isolated action of the lumbrical muscles (mm. lumbricales). Which of the following movements do these muscles specifically perform on the 2nd to 5th fingers?",
+      "stem": "During motor function testing of the hand following an injury, the doctor focuses on the isolated action of the lumbrical muscles. Which of the following movements do these muscles specifically perform on the 2nd to 5th fingers?",
       "options": {
         "a": "Flexion in the metacarpophalangeal joints and extension in the interphalangeal joints",
         "b": "Adduction of the fingers toward the longitudinal axis of the hand",
@@ -2308,7 +2199,7 @@ const QUESTION_DATA = {
   {
     "id": 210,
     "cz": {
-      "stem": "Lékař vyšetřuje pacienta, který utrpěl hlubokou řeznou ránu na přední straně zápěstí těsně nad dlaní. Pacient je schopen bez problému provést opozici palce a citlivost na bříškách ukazováčku i prostředníčku je plně zachována. Lékař však zjišťuje, že pacient není schopen pokrčit prsty v metakarpofalangových kloubech a zároveň je narovnat v mezifalangových kloubech u prsteníčku a malíčku (tzv. drápovitá ruka). Která struktura probíhající v oblasti zápěstí byla tímto poraněním zasažena?",
+      "stem": "Lékař vyšetřuje pacienta, který utrpěl hlubokou řeznou ránu na přední straně zápěstí těsně nad dlaní. Pacient je schopen bez problému provést opozici palce a citlivost na bříškách ukazováčku i prostředníčku je plně zachována. Lékař však zjišťuje, že pacient není schopen pokrčit prsty v metakarpofalangových kloubech a zároveň je narovnat v mezifalangových kloubech u prsteníčku a malíčku (tzv. drápovitá ruka). Která struktura probíhající v oblasti zápěstí byla tímto poraněním postižena?",
       "options": {
         "a": "Nervus ulnaris v canalis ulnaris (Guyonově kanálu)",
         "b": "Ramus superficialis nervi radialis ve fovea radialis",
@@ -2317,10 +2208,10 @@ const QUESTION_DATA = {
         "e": "Nervus medianus před vstupem do karpálního tunelu"
       },
       "correct": "a",
-      "explanation": "Popsaný motorický deficit (drápovitá ruka / claw hand u 4. a 5. prstu) je typickým projevem léze nervus ulnaris. Tento nerv inervuje mediální dva červovité svaly (mm. lumbricales III et IV), které normálně provádějí flexi v MCP a extenzi v IP kloubech. Při jejich ochrnutí převáží tah antagonistů (extenze v MCP a flexe v IP). Nervus ulnaris probíhá zápěstím v Guyonově kanálu."
+      "explanation": "Popsaný motorický deficit (drápovitá ruka / claw hand u 4. a 5. prstu) je typickým projevem léze nervus ulnaris. Tento nerv inervuje mediální dva mm. lumbricales (III et IV), které normálně provádějí flexi v metakarpofalangeálních kloubech a extenzi v interfalangeálních kloubech. Při jejich ochrnutí převáží tah antagonistů (extenze v metakarpofalangeálních kloubech a flexe v interfalangeálních kloubech). Nervus ulnaris probíhá zápěstím v Guyonově kanálu."
     },
     "en": {
-      "stem": "A doctor examines a patient who sustained a deep laceration on the anterior aspect of the wrist just above the palm. The patient is able to perform thumb opposition without difficulty, and sensation on the pads of the index and middle fingers is fully preserved. However, the doctor finds that the patient is unable to flex the fingers at the metacarpophalangeal joints while simultaneously extending them at the interphalangeal joints of the ring and little fingers (so-called claw hand). Which structure running through the wrist area was affected by this injury?",
+      "stem": "A doctor examines a patient who sustained a deep laceration on the anterior aspect of the wrist just above the palm. The patient is able to perform thumb opposition without difficulty, and sensation on the pads of the index and middle fingers is fully preserved. However, the doctor finds that the patient is unable to flex the fingers at the metacarpophalangeal joints while simultaneously extending them at the interphalangeal joints of the ring and little fingers (claw hand). Which structure running through the wrist area was affected by this injury?",
       "options": {
         "a": "Nervus ulnaris in the canalis ulnaris (Guyon's canal)",
         "b": "Ramus superficialis nervi radialis in the fovea radialis",
@@ -2332,33 +2223,6 @@ const QUESTION_DATA = {
       "explanation": "The described motor deficit (claw hand of the 4th and 5th fingers) is a typical manifestation of a lesion of the ulnar nerve. This nerve innervates the medial two lumbrical muscles (mm. lumbricales III et IV), which normally perform flexion at the MCP and extension at the IP joints. In the event of their paralysis, the pull of the antagonists prevails (extension at the MCP and flexion at the IP). The ulnar nerve runs through the wrist in Guyon's canal."
     }
   },
-  {
-  "id": 211,
-  "cz": {
-    "stem": "Během neurologického vyšetření 28letého mechanika, který utrpěl hluboké bodné poranění v oblasti ulnární strany zápěstí, lékař testuje funkci mm. interossei dorsales et palmares. Která z následujících možností správně popisuje anatomickou funkci těchto svalů?",
-    "options": {
-      "a": "Mm. palmares provádějí addukci prstů k podélné ose ruky; mm. dorsales provádějí abdukci prstů od osy ruky",
-      "b": "Mm. palmares provádějí abdukci prstů od podélné osy ruky; mm. dorsales provádějí addukci prstů k ose ruky",
-      "c": "Mm. palmares provádějí extenzi v metakarpofalangových kloubech; mm. dorsales provádějí flexi v mezifalangových kloubech",
-      "d": "Mm. palmares provádějí flexi palce; mm. dorsales provádějí opozici malíčku",
-      "e": "Mm. palmares i dorsales provádějí výhradně flexi v distálních mezifalangových kloubech"
-    },
-    "correct": "a",
-    "explanation": "Palmární mm. interossei provádějí addukci prstů k podélné ose ruky, zatímco dorzální mezikostní svaly zajišťují jejich abdukci od této osy. Vzhledem k úponu do dorzální aponeurózy prstů navíc všechny tyto svaly současně pomáhají s flexí v metakarpofalangových a extenzí v mezifalangových kloubech. Všechny mezikostní svaly jsou inervovány z hluboké větve loketního nervu (ramus profundus nervi ulnaris)."
-  },
-  "en": {
-    "stem": "During a neurological examination of a 28-year-old mechanic who sustained a deep puncture wound to the ulnar aspect of the wrist, the physician tests the function of the interossei muscles (dorsal and palmar interossei). Which of the following options correctly describes the anatomical function of these muscles?",
-    "options": {
-      "a": "Palmares adduct the fingers toward the longitudinal axis of the hand; dorsales abduct the fingers away from the axis of the hand",
-      "b": "Palmares abduct the fingers away from the longitudinal axis of the hand; dorsales adduct the fingers toward the axis of the hand",
-      "c": "Palmares extend the metacarpophalangeal joints; dorsales flex the interphalangeal joints",
-      "d": "Palmares flex the thumb; dorsales oppose the little finger",
-      "e": "Both palmares and dorsales exclusively flex the distal interphalangeal joints"
-    },
-    "correct": "a",
-    "explanation": "Palmar interossei muscles adduct the fingers toward the longitudinal axis of the hand, while dorsal interossei muscles abduct them away from this axis. Furthermore, due to their insertion into the dorsal digital expansion, all of these muscles simultaneously assist with flexion at the metacarpophalangeal joints and extension at the interphalangeal joints. All interossei muscles are innervated by the deep branch of the ulnar nerve (ramus profundus nervi ulnaris)."
-  }
-},
 {
   "id": 212,
   "cz": {
@@ -2389,7 +2253,7 @@ const QUESTION_DATA = {
 {
   "id": 213,
   "cz": {
-    "stem": "Při pitvě ruky student anatomie detailně preparuje hluboké struktury dlaně a mezikostní prostory. Zaměřuje se na početní zastoupení a prostorové uspořádání mezikostních svalů (mm. interossei). Která z následujících možností správně popisuje celkový počet a anatomické rozdělení těchto svalů na lidské ruce?",
+    "stem": "Při pitvě ruky student anatomie detailně preparuje hluboké struktury dlaně a mezikostní prostory. Zaměřuje se na početní zastoupení a prostorové uspořádání mm. interossei. Která z následujících možností správně popisuje celkový počet a anatomické rozdělení těchto svalů na ruce?",
     "options": {
       "a": "Celkem 7 svalů: 3 palmární a 4 dorzální",
       "b": "Celkem 8 svalů: 3 palmární a 5 dorzální",
@@ -2398,10 +2262,10 @@ const QUESTION_DATA = {
       "e": "Celkem 9 svalů: 4 palmární a 5 dorzální"
     },
     "correct": "a",
-    "explanation": "Na lidské ruce se standardně nachází celkem 7 mezikostních svalů, které se dělí na 3 palmární a 4 dorzální. Palmární svaly jsou jednobříškové, nacházejí se ve 2., 3. a 4. mezikostním prostoru a přitahují prsty k ose ruky. Dorzální svaly jsou dvoubříškové, vyplňují všechny 4 mezikostní prostory a prsty od osy ruky odtahují."
+    "explanation": "Na ruce se standardně nachází celkem 7 mezikostních svalů, které se dělí na 3 palmární a 4 dorzální. Palmární svaly jsou jednobříškové, nacházejí se ve 2., 3. a 4. mezikostním prostoru a přitahují prsty k ose ruky. Dorzální svaly jsou dvoubříškové, vyplňují všechny 4 mezikostní prostory a prsty od osy ruky odtahují."
   },
   "en": {
-    "stem": "During a hand dissection, an anatomy student meticulously prepares the deep structures of the palm and the interosseous spaces, focusing on the number and spatial arrangement of the interosseous muscles (mm. interossei). Which of the following options correctly describes the total number and anatomical distribution of these muscles in the human hand?",
+    "stem": "During a hand dissection, an anatomy student meticulously prepares the deep structures of the palm and the interosseous spaces, focusing on the number and spatial arrangement of the interosseous muscles. Which of the following options correctly describes the total number and anatomical distribution of these muscles in the human hand?",
     "options": {
       "a": "Total of 7 muscles: 3 palmar and 4 dorsal",
       "b": "Total of 8 muscles: 3 palmar and 5 dorsal",
@@ -2410,13 +2274,13 @@ const QUESTION_DATA = {
       "e": "Total of 9 muscles: 4 palmar and 5 dorsal"
     },
     "correct": "a",
-    "explanation": "On the human hand, there are standardly a total of 7 interosseous muscles, which are divided into 3 palmar and 4 dorsal. The palmar muscles are unipennate, located in the 2nd, 3rd, and 4th interosseous spaces, and adduct the fingers toward the axis of the hand. The dorsal muscles are bipennate, fill all 4 interosseous spaces, and abduct the fingers away from the axis of the hand."
+    "explanation": "On the hand, there are standardly a total of 7 interosseous muscles, which are divided into 3 palmar and 4 dorsal. The palmar muscles are unipennate, located in the 2nd, 3rd, and 4th interosseous spaces, and adduct the fingers toward the axis of the hand. The dorsal muscles are bipennate, fill all 4 interosseous spaces, and abduct the fingers away from the axis of the hand."
   }
 },
 {
   "id": 214,
   "cz": {
-    "stem": "Dítě si při hře nešťastnou náhodou zabodlo nůžky hluboko do dlaně v blízkosti zápěstních kůstek. Chirurgické vyšetření potvrdilo kompletní přerušení hluboké větve loketního nervu (ramus profundus nervi ulnaris). Který z následujících motorických deficitů bude u tohoto pacienta bezprostředně přítomen?",
+    "stem": "Dítě si při hře nešťastnou náhodou zabodlo nůžky hluboko do dlaně v blízkosti zápěstních kůstek. Chirurgické vyšetření potvrdilo kompletní přerušení ramus profundus nervi ulnaris. Který z následujících motorických deficitů bude u tohoto pacienta přítomen?",
     "options": {
       "a": "Neschopnost abdukce a addukce druhého až pátého prstu a oslabení flexe v metakarpofalangových kloubech",
       "b": "Kompletní ztráta opozice palce a neschopnost flexe v distálním mezifalangovém kloubu ukazováčku",
@@ -2425,10 +2289,10 @@ const QUESTION_DATA = {
       "e": "Neschopnost addukce druhého až pátého prstu a oslabení flexe v interfalangových kloubech"
     },
     "correct": "a",
-    "explanation": "Ramus profundus nervi ulnaris je čistě motorická větev, která v dlani inervuje všechny palmární i dorzální mezikostní svaly (mm. interossei). Jejich ochrnutí vede k neschopnosti roztahovat prsty od sebe (abdukce) a přitahovat je k sobě (addukce). Jelikož se tyto svaly podílejí i na flexi v metakarpofalangových kloubech, je oslaben i tento pohyb. Senzitivní větve ani motorické větve na předloktí poraněny nebyly."
+    "explanation": "Ramus profundus nervi ulnaris je čistě motorická větev, která v dlani inervuje všechny palmární i dorzální mm. interossei. Jejich ochrnutí vede k neschopnosti roztahovat prsty od sebe (abdukce) a přitahovat je k sobě (addukce). Jelikož se tyto svaly podílejí i na flexi v metakarpofalangových kloubech, je oslaben i tento pohyb. Senzitivní větve ani motorické větve na předloktí poraněny nebyly."
   },
   "en": {
-    "stem": "A child, during careless play, accidentally stabbed scissors deep into their palm near the carpal bones. Surgical examination confirmed an isolated, complete transection of the deep branch of the ulnar nerve (ramus profundus nervi ulnaris). Which of the following motor deficits will be immediately present in this patient?",
+    "stem": "A child accidentally stabbed scissors deep into their palm near the carpal bones. Surgical examination confirmed an isolated, complete transection of the deep branch of the ulnar nerve. Which of the following motor deficits will be immediately present in this patient?",
     "options": {
       "a": "Inability to abduct and adduct the second to fifth fingers and weakening of flexion in the metacarpophalangeal joints",
       "b": "Complete loss of thumb opposition and inability to flex the distal interphalangeal joint of the index finger",
@@ -2495,33 +2359,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  "id": 217,
-  "cz": {
-    "stem": "Student medicíny opakuje před zkouškou z anatomie inervační oblasti jednotlivých hlavních nervů na horní končetině. Zaměřuje se na to, zda a jakým způsobem se nervus radialis podílí na motorické inervaci svalů ruky. Které z následujících tvrzení správně popisuje motorickou inervaci z nervus radialis na ruce?",
-    "options": {
-      "a": "Neinervuje motoricky žádný sval ruky; jeho působnost na ruce je čistě senzorická",
-      "b": "Inervuje všechny svaly thenaru na palcové straně dlaně",
-      "c": "Inervuje m. adductor pollicis prostřednictvím své hluboké větve",
-      "d": "Inervuje mm. interossei dorsales",
-      "e": "Inervuje m. abductor pollicis brevis a zajišťuje tak odtažení palce"
-    },
-    "correct": "a",
-    "explanation": "Nervus radialis vysílá své motorické větve na paži a předloktí, kde inervuje extenzory. Jakmile jeho větve přejdou přes zápěstí na ruku, má zde již pouze čistě senzitivní větev (ramus superficialis), která zásobuje kůži radiální poloviny dorsa ruky a proximálních článků příslušných prstů. Žádný vlastní (vnitřní) sval ruky není motoricky inervován z nervus radialis. Všechny svaly ruky jsou rozděleny výhradně mezi nervus ulnaris a nervus medianus."
-  },
-  "en": {
-    "stem": "A medical student is reviewing the innervation territories of the individual main nerves of the upper limb before an anatomy exam. They are focusing on whether and in what manner the radial nerve (nervus radialis) participates in the motor innervation of the hand muscles. Which of the following statements correctly describes the motor innervation from the radial nerve in the hand?",
-    "options": {
-      "a": "It does not provide motor innervation to any muscle of the hand; its function in the hand is purely sensory",
-      "b": "It innervates all thenar muscles on the thumb side of the palm",
-      "c": "It innervates the m. adductor pollicis through its deep branch",
-      "d": "It innervates the mm. interossei dorsales",
-      "e": "It innervates the m. abductor pollicis brevis and thus ensures abduction of the thumb"
-    },
-    "correct": "a",
-    "explanation": "The nervus radialis sends its motor branches to the arm and forearm, where it innervates the extensors. Once its branches cross the wrist onto the hand, it only has a purely sensory branch there (ramus superficialis), which supplies the skin of the radial half of the dorsum of the hand and the proximal phalanges of the corresponding fingers. No intrinsic (internal) muscle of the hand is motorically innervated by the radial nerve. All muscles of the hand are divided exclusively between the ulnar nerve and the median nerve."
-  }
-},
-{
   "id": 218,
   "cz": {
     "stem": "Muž utrpěl hlubokou tržnou ránu na zápěstí, která vedla k přetnutí nervus medianus těsně před jeho vstupem do karpálního tunelu. Při vyšetření svalů thenaru lékař hodnotí, které specifické hlavy svalů mají díky duálnímu nebo odlišnému inervačnímu vzoru zachovanou motorickou funkci. Která z následujících struktur bude u tohoto pacienta nadále plně funkční?",
@@ -2578,7 +2415,7 @@ const QUESTION_DATA = {
 {
   "id": 220,
   "cz": {
-    "stem": "Při zlomenině chirurgického krčku pažní kosti (collum chirurgicum humeri) je proximální úlomek fixován v neutrální pozici, zatímco distální úlomek je tažen proximálně a mediálně. Který sval je primárně zodpovědný za tento mediální posun distálního úlomku?",
+    "stem": "Při zlomenině collum chirurgicum humeri je proximální úlomek fixován v neutrální pozici, zatímco distální úlomek je tažen proximálně a mediálně. Který sval je primárně zodpovědný za tento mediální posun distálního úlomku?",
     "options": {
       "a": "Musculus pectoralis major",
       "b": "Musculus deltoideus",
@@ -2587,10 +2424,10 @@ const QUESTION_DATA = {
       "e": "Musculus coracobrachialis"
     },
     "correct": "a",
-    "explanation": "Velký prsní sval (musculus pectoralis major) se upíná na hranu velkého hrbolku (crista tuberculi majoris) pod lomnou linií chirurgického krčku. Svým silným tahem způsobuje addukci a vnitřní rotaci distálního fragmentu."
+    "explanation": "Musculus pectoralis major se upíná na crista tuberculi majoris pod lomnou linií chirurgického krčku. Svým silným tahem způsobuje addukci a vnitřní rotaci distálního fragmentu."
   },
   "en": {
-    "stem": "In a fracture of the surgical neck of the humerus (collum chirurgicum humeri), the proximal fragment is fixed in a neutral position, while the distal fragment is pulled proximally and medially. Which muscle is primarily responsible for this medial displacement of the distal fragment?",
+    "stem": "In a fracture of the surgical neck of the humerus, the proximal fragment is fixed in a neutral position, while the distal fragment is pulled proximally and medially. Which muscle is primarily responsible for this medial displacement of the distal fragment?",
     "options": {
       "a": "Musculus pectoralis major",
       "b": "Musculus deltoideus",
@@ -2599,7 +2436,7 @@ const QUESTION_DATA = {
       "e": "Musculus coracobrachialis"
     },
     "correct": "a",
-    "explanation": "The great pectoral muscle (musculus pectoralis major) inserts onto the crest of the greater tubercle (crista tuberculi majoris) below the fracture line of the surgical neck. Through its powerful pull, it causes adduction and internal rotation of the distal fragment."
+    "explanation": "The pectoralis major muscle inserts onto the crest of the greater tubercle below the fracture line of the surgical neck. Through its powerful pull, it causes adduction and internal rotation of the distal fragment."
   }
 },
 {
@@ -2641,7 +2478,7 @@ const QUESTION_DATA = {
       "e": "Z paže přichází v sulcus bicipitalis lateralis, na předloktí vstupuje pod m. flexor digitorum superficialis a do zápěstí vstupuje těsně vedle arteria radialis."
     },
     "correct": "a",
-    "explanation": "Nervus ulnaris opouští paži průběhem v sulcus nervi ulnaris za mediálním epikondylem pažní kosti. Na předloktí vstupuje skrze arkádu mezi caput humerale a caput ulnare m. flexoris carpi ulnaris. Následně sestupuje po ulnární straně předloktí mezi tímto svalem a m. flexor digitorum profundus, doprovázen stejnojmennou cévou. Na ruku se dostává povrchově před retinaculum flexorum, kde prochází skrze Guyonův kanál (canalis ulnaris) vedle os pisiforme."
+    "explanation": "Nervus ulnaris opouští paži průběhem v sulcus nervi ulnaris za mediálním epikondylem pažní kosti. Na předloktí vstupuje mezi caput humerale a caput ulnare m. flexoris carpi ulnaris. Následně sestupuje po ulnární straně předloktí mezi tímto svalem a m. flexor digitorum profundus, doprovázen stejnojmennou cévou. Na ruku se dostává povrchově před retinaculum flexorum, kde prochází skrze Guyonův kanál (canalis ulnaris) vedle os pisiforme."
   },
   "en": {
     "stem": "During a reconstructive forearm surgery, the surgeon must identify the ulnar nerve (nervus ulnaris) along its entire course. Which of the following options correctly describes the course of this nerve during its descent from the arm through the elbow and forearm into the wrist region?",
@@ -2653,34 +2490,7 @@ const QUESTION_DATA = {
       "e": "It approaches from the arm in the lateral bicipital groove (sulcus bicipitalis lateralis), enters the forearm beneath the m. flexor digitorum superficialis, and enters the wrist right next to the radial artery."
     },
     "correct": "a",
-    "explanation": "The ulnar nerve leaves the arm by running in the sulcus nervi ulnaris behind the medial epicondyle of the humerus. It enters the forearm through the arcade between the humeroulnar head (caput humerale) and the ulnar head (caput ulnare) of the m. flexor carpi ulnaris. Subsequently, it descends along the ulnar side of the forearm between this muscle and the m. flexor digitorum profundus, accompanied by the vessel of the same name. It reaches the hand superficially in front of the retinaculum flexorum, where it passes through Guyon's canal (canalis ulnaris) next to the os pisiforme."
-  }
-},
-{
-  "id": 223,
-  "cz": {
-    "stem": "Při dekompresi struktur v oblasti lokte a předloktí je klíčové přesně znát anatomický průběh nervus medianus. Která z následujících možností správně popisuje jeho topografickou trasu při přechodu z paže na předloktí a jeho další sestup směrem k zápěstí?",
-    "options": {
-      "a": "Prochází v loketní jamce mediálně od a. brachialis, vstupuje na předloktí mezi dvěma hlavami m. pronator teres, běží pod m. flexor digitorum superficialis a do dlaně vstupuje skrze karpální tunel.",
-      "b": "Sestupuje za mediálním epikondylem humeru, prostupuje skrze m. flexor carpi ulnaris a na zápěstí prochází povrchově nad retinaculum flexorum v Guyonově kanálu.",
-      "c": "Obtáčí se kolem krčku vřetenní kosti, proráží sval m. supinator, sestupuje po dorzální straně předloktí podél mezikostní blány a do dlaně vůbec nevstupuje.",
-      "d": "Sestupuje po laterální straně lokte pod m. brachioradialis, v polovině předloktí se klade hluboko pod m. flexor carpi radialis a prochází skrz foveola radialis.",
-      "e": "Prochází loketní jamkou laterálně od úponové šlachy m. biceps brachii, proráží m. brachialis a běží po povrchové fascii předloktí až k palcovému valu."
-    },
-    "correct": "a",
-    "explanation": "Nervus medianus prochází loketní jamkou mediálně od arteria brachialis a na předloktí vstupuje mezi oběma hlavami svalu pronator teres. Následně sestupuje středem předloktí mezi povrchovým a hlubokým ohybačem prstů. V dolní třetině předloktí se dostává na povrch mezi šlachy flexor carpi radialis a palmaris longus, odkud pak pokračuje přes karpální tunel přímo do dlaně."
-  },
-  "en": {
-    "stem": "During decompression of structures in the elbow and forearm region, it is crucial to know the precise anatomical course of the median nerve (nervus medianus). Which of the following options correctly describes its topographical route during its transition from the arm to the forearm and its subsequent descent toward the wrist?",
-    "options": {
-      "a": "It passes through the cubital fossa medially to the a. brachialis, enters the forearm between the two heads of the m. pronator teres, runs beneath the m. flexor digitorum superficialis, and enters the palm through the carpal tunnel.",
-      "b": "It descends behind the medial epicondyle of the humerus, passes through the m. flexor carpi ulnaris, and at the wrist, it passes superficially over the retinaculum flexorum in Guyon's canal.",
-      "c": "It winds around the neck of the radius, pierces the m. supinator, descends along the dorsal side of the forearm along the interosseous membrane, and does not enter the palm at all.",
-      "d": "It descends along the lateral side of the elbow beneath the m. brachioradialis, places itself deep beneath the m. flexor carpi radialis in the middle of the forearm, and passes through the foveola radialis.",
-      "e": "It passes through the cubital fossa laterally to the insertion tendon of the m. biceps brachii, pierces the m. brachialis, and runs along the superficial fascia of the forearm up to the thenar eminence."
-    },
-    "correct": "a",
-    "explanation": "The median nerve passes through the cubital fossa medially to the brachial artery and enters the forearm between both heads of the pronator teres muscle. Subsequently, it descends down the middle of the forearm between the superficial and deep flexors of the fingers. In the lower third of the forearm, it emerges superficially between the tendons of the flexor carpi radialis and palmaris longus, from where it then continues through the carpal tunnel directly into the palm."
+    "explanation": "The ulnar nerve leaves the arm by running in the sulcus nervi ulnaris behind the medial epicondyle of the humerus. It enters the forearm through the arcade between the humeroulnar head and the ulnar head of the flexor carpi ulnaris muscle. Subsequently, it descends along the ulnar side of the forearm between this muscle and the flexor digitorum profundus muscle, accompanied by the vessel of the same name. It reaches the hand superficially in front of the flexor retinaculum, where it passes through Guyon's canal (canalis ulnaris) next to the os pisiforme."
   }
 },
 {
@@ -23761,7 +23571,7 @@ id: 269,
   {
     "id": 830,
     "cz": {
-      "stem": "Při studiu limbického systému je sledována dráha nervového vzruchu vycházející z hippocampu a postupující klasickým Papezovým okruhem. Která z následujících sekvencí správně zachycuje směr vedení od hippocampu?",
+      "stem": "Při studiu limbického systému je sledována dráha nervového vzruchu vycházející z hippocampu a postupující Papezovým okruhem. Která z následujících sekvencí správně zachycuje směr vedení od hippocampu?",
       "options": {
         "a": "Hippocampus → fornix → corpora mamillaria → tractus mammillothalamicus → nucleus anterior thalami → gyrus cinguli",
         "b": "Hippocampus → tractus mammillothalamicus → corpora mamillaria → fornix → nucleus anterior thalami → gyrus cinguli",
@@ -23770,10 +23580,10 @@ id: 269,
         "e": "Hippocampus → fornix → corpora mamillaria → nucleus dorsomedialis thalami → cingulum → gyrus cinguli"
       },
       "correct": "a",
-      "explanation": "Klasický Papezův okruh začíná v hippocampu, jehož eferentní vlákna procházejí fornixem a směřují do corpora mamillaria. Odtud pokračují prostřednictvím tractus mammillothalamicus do nucleus anterior thalami. Následně vedou thalamokortikální projekce do gyrus cinguli. Z gyrus cinguli pokračují vlákna prostřednictvím cingulum do gyrus parahippocampalis a následně se vracejí do hippocampu."
+      "explanation": "Papezův okruh začíná v hippocampu, jehož eferentní vlákna procházejí fornixem a směřují do corpora mamillaria. Odtud pokračují prostřednictvím tractus mammillothalamicus do nucleus anterior thalami. Následně vedou thalamokortikální projekce do gyrus cinguli. Z gyrus cinguli pokračují vlákna prostřednictvím cingulum do gyrus parahippocampalis a následně se vracejí do hippocampu."
     },
     "en": {
-      "stem": "While studying the limbic system, a neural pathway originating in the hippocampus is followed through the classical Papez circuit. Which of the following sequences correctly represents the direction of transmission from the hippocampus?",
+      "stem": "While studying the limbic system, a neural pathway originating in the hippocampus is followed through the Papez circuit. Which of the following sequences correctly represents the direction of transmission from the hippocampus?",
       "options": {
         "a": "Hippocampus → fornix → mammillary bodies → mammillothalamic tract → anterior nucleus of the thalamus → cingulate gyrus",
         "b": "Hippocampus → mammillothalamic tract → mammillary bodies → fornix → anterior nucleus of the thalamus → cingulate gyrus",
@@ -23782,7 +23592,7 @@ id: 269,
         "e": "Hippocampus → fornix → mammillary bodies → mediodorsal nucleus of the thalamus → cingulum → cingulate gyrus"
       },
       "correct": "a",
-      "explanation": "The classical Papez circuit begins in the hippocampus, whose efferent fibers pass through the fornix and project to the mammillary bodies. From there, fibers travel through the mammillothalamic tract to the anterior nucleus of the thalamus. Thalamocortical projections then reach the cingulate gyrus. From the cingulate gyrus, fibers travel through the cingulum to the parahippocampal gyrus and subsequently return to the hippocampus."
+      "explanation": "The Papez circuit begins in the hippocampus, whose efferent fibers pass through the fornix and project to the mammillary bodies. From there, fibers travel through the mammillothalamic tract to the anterior nucleus of the thalamus. Thalamocortical projections then reach the cingulate gyrus. From the cingulate gyrus, fibers travel through the cingulum to the parahippocampal gyrus and subsequently return to the hippocampus."
     }
   },
   {
@@ -29102,6 +28912,115 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The inferior lumbar triangle (Petit's triangle) is bounded medially by the latissimus dorsi muscle, laterally by the external oblique muscle, and inferiorly by the iliac crest. The floor of the triangle is formed by the internal oblique muscle."
     }
   },
+  {
+  "id": 10267,
+  "cz": {
+    "stem": "Která z následujících možností správně popisuje topografickou trasu nervus medianus při přechodu z paže na předloktí a jeho další sestup směrem k zápěstí?",
+    "options": {
+      "a": "Prochází v loketní jamce mediálně od a. brachialis, vstupuje na předloktí mezi dvěma hlavami m. pronator teres, běží pod m. flexor digitorum superficialis a do dlaně vstupuje skrze karpální tunel.",
+      "b": "Sestupuje za mediálním epikondylem humeru, prostupuje skrze m. flexor carpi ulnaris a na zápěstí prochází povrchově nad retinaculum flexorum v Guyonově kanálu.",
+      "c": "Obtáčí se kolem krčku vřetenní kosti, proráží sval m. supinator, sestupuje po dorzální straně předloktí podél mezikostní blány a do dlaně vůbec nevstupuje.",
+      "d": "Sestupuje po laterální straně lokte pod m. brachioradialis, v polovině předloktí se klade hluboko pod m. flexor carpi radialis a prochází skrz foveola radialis.",
+      "e": "Prochází loketní jamkou laterálně od úponové šlachy m. biceps brachii, proráží m. brachialis a běží po povrchové fascii předloktí až k palcovému valu."
+    },
+    "correct": "a",
+    "explanation": "Nervus medianus prochází loketní jamkou mediálně od arteria brachialis a na předloktí vstupuje mezi oběma hlavami svalu pronator teres. Následně sestupuje středem předloktí mezi povrchovým a hlubokým ohybačem prstů. V dolní třetině předloktí se dostává na povrch mezi šlachy flexor carpi radialis a palmaris longus, odkud pak pokračuje přes karpální tunel přímo do dlaně."
+  },
+  "en": {
+    "stem": "Which of the following options correctly describes topographical route of the median nerve during its transition from the arm to the forearm and its subsequent descent toward the wrist?",
+    "options": {
+      "a": "It passes through the cubital fossa medially to the a. brachialis, enters the forearm between the two heads of the m. pronator teres, runs beneath the m. flexor digitorum superficialis, and enters the palm through the carpal tunnel.",
+      "b": "It descends behind the medial epicondyle of the humerus, passes through the m. flexor carpi ulnaris, and at the wrist, it passes superficially over the retinaculum flexorum in Guyon's canal.",
+      "c": "It winds around the neck of the radius, pierces the m. supinator, descends along the dorsal side of the forearm along the interosseous membrane, and does not enter the palm at all.",
+      "d": "It descends along the lateral side of the elbow beneath the m. brachioradialis, places itself deep beneath the m. flexor carpi radialis in the middle of the forearm, and passes through the foveola radialis.",
+      "e": "It passes through the cubital fossa laterally to the insertion tendon of the m. biceps brachii, pierces the m. brachialis, and runs along the superficial fascia of the forearm up to the thenar eminence."
+    },
+    "correct": "a",
+    "explanation": "The median nerve passes through the cubital fossa medially to the brachial artery and enters the forearm between both heads of the pronator teres muscle. Subsequently, it descends down the middle of the forearm between the superficial and deep flexors of the fingers. In the lower third of the forearm, it emerges superficially between the tendons of the flexor carpi radialis and palmaris longus, from where it then continues through the carpal tunnel directly into the palm."
+  }
+},
+{
+  id: 10268,
+  cz: {
+    stem: "Při zavádění elektrody kardiostimulátoru transvenózním přístupem kardiolog využívá žílu probíhající v sulcus (trigonum) deltoideopectorale mezi m. deltoideus a m. pectoralis major. O kterou žílu se jedná?",
+    options: {
+        a: "v. basilica",
+        b: "v. cephalica",
+        c: "v. axillaris",
+        d: "v. subclavia",
+        e: "v. mediana cubiti"
+    },
+    correct: "b",
+    explanation: "V. cephalica probíhá v sulcus deltoideopectoralis mezi m. deltoideus a m. pectoralis major, kde je díky svému povrchovému a konstantnímu uložení snadno přístupná pro venepunkci nebo zavedení katétrů/elektrod, např. při implantaci kardiostimulátoru."
+  },
+  en: {
+    stem: "During transvenous implantation of a pacemaker lead, the cardiologist uses a vein that runs through the deltopectoral groove (deltopectoral triangle) between the deltoid muscle and the pectoralis major muscle. Which vein is it?",
+    options: {
+        a: "basilic vein",
+        b: "cephalic vein",
+        c: "axillary vein",
+        d: "subclavian vein",
+        e: "median cubital vein"
+    },
+    correct: "b",
+    explanation: "The cephalic vein runs within the deltopectoral groove between the deltoid muscle and the pectoralis major muscle. Due to its superficial and relatively constant anatomical course, it is easily accessible for venous access and for the insertion of catheters or pacing leads, for example during pacemaker implantation."
+  }
+},
+{
+  id: 10269,
+  cz: {
+    stem: "Během chirurgického přístupu do ramenního kloubu využívá operatér anatomickou rovinu v trigonum deltoideopectorale. Aby nedošlo k poškození struktur procházejících tímto prostorem, musí identifikovat svaly tvořící jeho bezprostřední ohraničení. Která z následujících dvojic svalů přímo ohraničuje tento topografický prostor?",
+    options: {
+        a: "Musculus pectoralis major a musculus deltoideus",
+        b: "Musculus pectoralis minor a musculus deltoideus",
+        c: "Musculus pectoralis minor a musculus pectoralis major",
+        d: "Musculus teres major a musculus pectoralis major",
+        e: "Musculus pectoralis major a musculus subclavius"
+    },
+    correct: "a",
+    explanation: "Trigonum deltoideopectorale je ohraničeno m. pectoralis major (mediálně), m. deltoideus (laterálně) a klíční kostí (shora)."
+  },
+  en: {
+    stem: "During a surgical approach to the shoulder joint, the surgeon utilizes the anatomical plane in the deltoideopectoral triangle (trigonum deltoideopectorale). To avoid damaging structures passing through this space, they must identify the muscles forming its immediate boundaries. Which of the following pairs of muscles directly bounds this topographical space?",
+    options: {
+        a: "Pectoralis major muscle and deltoid muscle",
+        b: "Pectoralis minor muscle and deltoid muscle",
+        c: "Pectoralis minor muscle and pectoralis major muscle",
+        d: "Teres major muscle and pectoralis major muscle",
+        e: "Pectoralis major muscle and subclavius muscle"
+    },
+    correct: "a",
+    explanation: "The deltoideopectoral triangle (trigonum deltoideopectorale) is bounded by the m. pectoralis major (medially), the m. deltoideus (laterally), and the clavicle (superiorly)."
+  }
+},
+{
+  id: 10270,
+  cz: {
+    stem: "45letý muž pociťuje bolest v přední části ramene při zvedání břemen, přičemž testy indikují patologii struktury označené na MRI snímku šipkou. Který z následujících nervů zajišťuje motorickou inervaci svalu, k němuž tato šlacha patří?",
+    options: {
+        a: "Nervus musculocutaneus",
+        b: "Nervus axillaris",
+        c: "Nervus radialis",
+        d: "Nervus suprascapularis",
+        e: "Nervus subscapularis"
+    },
+    correct: "a",
+    explanation: "Zobrazenou strukturou je šlacha musculus biceps brachii, který jakožto flexor paže spadá pod motorickou inervaci nervus musculocutaneus"
+  },
+  en: {
+    stem: "A 45-year-old man experiences pain in the anterior part of his shoulder when lifting loads, with tests indicating pathology of the structure indicated by the arrow on the MRI scan. Which of the following nerves provides motor innervation to the muscle to which this tendon belongs?",
+    options: {
+        a: "Musculocutaneous nerve",
+        b: "Axillary nerve",
+        c: "Radial nerve",
+        d: "Suprascapular nerve",
+        e: "Subscapular nerve"
+    },
+    correct: "a",
+    explanation: "The structure shown is the tendon of the biceps brachii muscle, which, as a flexor of the arm, falls under the motor innervation of the musculocutaneous nerve."
+  },
+  image: { key: "q119_custom", source: "Nevit Dilmen. Shoulder MRI T2 me2d ax (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Shoulder_MRI_144244_t2me2d.png. CC BY-SA 3.0. Accessed 1 July 2026."}
+},
     ]
     // =ANATOMIE_1_VERZE_2_END=
   },
@@ -29329,6 +29248,33 @@ const LIVE_QUESTION_BANKS = {
     explanation: "On the axial CT image, the arrow points to the sartorius muscle (on a transverse section through the thigh, it has a characteristic oval to triangular shape and is located superficially, immediately beneath the fascia lata/skin. At this level, it runs anteromedially and is typically visible as a smaller, separate muscle distinct from the large muscle mass of the quadriceps femoris muscle).\nThe sartorius muscle inserts distally on the medial condyle of the tibia as part of the common pes anserinus insertion, together with the tendons of the gracilis and semitendinosus muscles."
   },
   image: { key: "q1083_custom", source: "C4KC-KiTS Kidney Study. Abdominal CT (modified). SAGA IT / The Cancer Imaging Archive. Available from: https://saga-it.com/dicom/samples. CC BY 3.0. Accessed 29 August 2026.", type: "image" }
+},
+{
+  "id": 10271,
+  "cz": {
+    "stem": "Během neurologického vyšetření 28letého mechanika, který utrpěl hluboké bodné poranění v oblasti ulnární strany zápěstí, lékař testuje funkci mm. interossei dorsales et palmares. Která z následujících možností správně popisuje anatomickou funkci těchto svalů?",
+    "options": {
+      "a": "Mm. palmares provádějí addukci prstů k podélné ose ruky; mm. dorsales provádějí abdukci prstů od osy ruky",
+      "b": "Mm. palmares provádějí abdukci prstů od podélné osy ruky; mm. dorsales provádějí addukci prstů k ose ruky",
+      "c": "Mm. palmares provádějí extenzi v metakarpofalangových kloubech; mm. dorsales provádějí flexi v mezifalangových kloubech",
+      "d": "Mm. palmares provádějí flexi palce; mm. dorsales provádějí opozici malíčku",
+      "e": "Mm. palmares i dorsales provádějí výhradně flexi v distálních mezifalangových kloubech"
+    },
+    "correct": "a",
+    "explanation": "Mm. interossei palmares provádějí addukci prstů k podélné ose ruky, zatímco mm. interossei dorsales zajišťují jejich abdukci od této osy. Vzhledem k úponu do dorzální aponeurózy prstů navíc všechny tyto svaly současně pomáhají s flexí v metakarpofalangových a extenzí v mezifalangových kloubech. Všechny mezikostní svaly jsou inervovány z ramus profundus nervi ulnaris."
+  },
+  "en": {
+    "stem": "During a neurological examination of a 28-year-old mechanic who sustained a deep puncture wound to the ulnar aspect of the wrist, the physician tests the function of the interossei muscles (dorsal and palmar interossei). Which of the following options correctly describes the anatomical function of these muscles?",
+    "options": {
+      "a": "Palmares adduct the fingers toward the longitudinal axis of the hand; dorsales abduct the fingers away from the axis of the hand",
+      "b": "Palmares abduct the fingers away from the longitudinal axis of the hand; dorsales adduct the fingers toward the axis of the hand",
+      "c": "Palmares extend the metacarpophalangeal joints; dorsales flex the interphalangeal joints",
+      "d": "Palmares flex the thumb; dorsales oppose the little finger",
+      "e": "Both palmares and dorsales exclusively flex the distal interphalangeal joints"
+    },
+    "correct": "a",
+    "explanation": "Palmar interossei muscles adduct the fingers toward the longitudinal axis of the hand, while dorsal interossei muscles abduct them away from this axis. Furthermore, due to their insertion into the dorsal digital expansion, all of these muscles simultaneously assist with flexion at the metacarpophalangeal joints and extension at the interphalangeal joints. All interossei muscles are innervated by the deep branch of the ulnar nerve."
+  }
 },
     ]
     // =ANATOMIE_1_VERZE_3_END=
