@@ -2145,7 +2145,7 @@ const QUESTION_DATA = {
   {
     "id": 208,
     "cz": {
-      "stem": "Při vyšetření pacienta po traumatu ruky se lékař zaměřuje na inervaci červovitých svalů (mm. lumbricales). Která z následujících možností správně popisuje inervaci těchto čtyř svalů?",
+      "stem": "Při vyšetření pacienta po traumatu ruky se lékař zaměřuje na inervaci mm. lumbricales. Která z následujících možností správně popisuje inervaci těchto čtyř svalů?",
       "options": {
         "a": "1. a 2. mm. lumbricales jsou inervovány n. medianus, zatímco 3. a 4. jsou inervovány n. ulnaris",
         "b": "Všechny čtyři mm. lumbricales jsou inervovány výhradně pomocí n. medianus",
@@ -2157,7 +2157,7 @@ const QUESTION_DATA = {
       "explanation": "Inervace mm. lumbricales kopíruje jejich příslušnost k bříškům m. flexor digitorum profundus. Laterální dva (pro ukazováček a prostředníček) inervuje n. medianus, mediální dva (pro prsteníček a malíček) inervuje n. ulnaris."
     },
     "en": {
-      "stem": "During examination of a patient following hand trauma, the doctor focuses on the innervation of the lumbrical muscles (mm. lumbricales). Which of the following options correctly describes the innervation of these four muscles?",
+      "stem": "During examination of a patient following hand trauma, the doctor focuses on the innervation of the lumbrical muscles. Which of the following options correctly describes the innervation of these four muscles?",
       "options": {
         "a": "The 1st and 2nd lumbricals are innervated by the median nerve, while the 3rd and 4th are innervated by the ulnar nerve",
         "b": "All four lumbricals are innervated exclusively by the median nerve",
@@ -18584,6 +18584,33 @@ id: 269,
     explanation: "Lymph from the right cervical lymph nodes drains into the right jugular trunk. The right jugular trunk usually joins the right subclavian trunk and right bronchomediastinal trunk to form the right lymphatic duct. The right lymphatic duct then drains into the right venous angle. However, this arrangement can be anatomically variable."
   },
   image: { key: "q1078_custom", source: "Coronation Dental Specialty Group. Cervical lymphadenopathy right neck.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cervical_lymphadenopathy_right_neck.png. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
+},
+{
+  id: 1096,
+  cz: {
+    stem: "Rektální čípky mají oproti perorálnímu podání výhodu v tom, že část léčiva může obejít first-pass efekt jater, a není tak před vstupem do systémové cirkulace metabolizována v játrech. Odtok kterých žil z rekta nevede přes jaterní cirkulaci?",
+    options: {
+        a: "vv. rectales superiores",
+        b: "vv. rectales mediae et inferiores",
+        c: "vv. sigmoideae",
+        d: "vv. rectales laterales",
+        e: "vv. colicae sinistrae"
+    },
+    correct: "b",
+    explanation: "Vv. rectales mediae et inferiores odvádějí krev ze střední a dolní části rekta do vv. iliacae internae a dále do v. cava inferior, čímž umožňují, aby část léčiva absorbovaného v této oblasti obešla portální oběh a first-pass metabolismus jater. Naproti tomu vv. rectales superiores odvádí krev prostřednictvím v. mesenterica inferior do v. portae, takže látky absorbované v horní části rekta procházejí játry před vstupem do systémové cirkulace. Rektální podání proto může first-pass efekt částečně obejít, nikoli jej zcela eliminovat. Vv. rectales laterales není standardní anatomický název."
+  },
+  en: {
+    stem: "Compared with oral administration, rectal suppositories have the advantage that part of the drug can bypass the hepatic first-pass effect and therefore is not metabolized in the liver before entering the systemic circulation. Which veins draining the rectum do NOT pass through the hepatic circulation?",
+    options: {
+        a: "superior rectal veins",
+        b: "middle and inferior rectal veins",
+        c: "sigmoid veins",
+        d: "lateral rectal veins",
+        e: "left colic veins"
+    },
+    correct: "b",
+    explanation: "The middle and inferior rectal veins drain blood from the middle and lower parts of the rectum into the internal iliac veins and subsequently into the inferior vena cava. This allows some of the drug absorbed in these regions to bypass the portal circulation and hepatic first-pass metabolism. In contrast, the superior rectal veins drain blood via the inferior mesenteric vein into the portal vein. Therefore, substances absorbed in the upper part of the rectum pass through the liver before reaching the systemic circulation. Thus, rectal administration can partially bypass the hepatic first-pass effect, but it does not eliminate it completely. Lateral rectal veins is not a standard anatomical term."
+  }
 },
 ]
       },
