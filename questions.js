@@ -3605,7 +3605,7 @@ const QUESTION_DATA = {
         e: "n. saphenus"
     },
     correct: "c",
-    explanation: "N. tibialis prochází tarzálním tunelem za mediálním kotníkem pod retinaculum musculorum flexorum.\nJeho komprese (tzv. tarzální tunelový syndrom) vede k:\n- bolesti a paresteziím na plantární straně nohy\n- pozitivnímu Tinelovu příznaku při poklepu za mediálním kotníkem\n- postižení větví nn. plantares"
+    explanation: "N. tibialis prochází tarzálním tunelem za mediálním kotníkem pod retinaculum musculorum flexorum.\nJeho komprese (tzv. tarzální tunelový syndrom) vede k:\n bolesti a paresteziím na plantární straně nohy,\n pozitivnímu Tinelovu příznaku při poklepu za mediálním kotníkem, a\n postižení větví nn. plantares"
   },
   en: {
     stem: "A patient presents with plantar foot pain and paresthesia that worsen during walking. Tapping behind the medial malleolus produces tingling sensations in the sole of the foot (positive Tinel’s sign). Which nerve is most likely compressed in the tarsal tunnel under the flexor retinaculum?",
@@ -3617,7 +3617,7 @@ const QUESTION_DATA = {
         e: "saphenous nerve"
     },
     correct: "c",
-    explanation: "The tibial nerve passes through the tarsal tunnel behind the medial malleolus under the flexor retinaculum. \nCompression of this nerve (tarsal tunnel syndrome) leads to:\n- plantar foot pain and paresthesia\n- positive Tinel’s sign over the tarsal tunnel\n- involvement of the plantar nerves"
+    explanation: "The tibial nerve passes through the tarsal tunnel behind the medial malleolus under the flexor retinaculum. \nCompression of this nerve (tarsal tunnel syndrome) leads to:\n plantar foot pain and paresthesia,\n positive Tinel’s sign over the tarsal tunnel, and\n involvement of the plantar nerves"
   }
 },
 {
@@ -3740,7 +3740,7 @@ const QUESTION_DATA = {
         e: "a. tarsalis lateralis"
     },
     correct: "b",
-    explanation: "A. dorsalis pedis je pokračováním a. tibialis anterior na dorzu nohy a palpuje se mezi šlachami m. extensor hallucis longus a m. extensor digitorum longus, v projekci první meziprstní komisury. Je standardním místem pro vyšetření periferního pulzu při hodnocení arteriálního prokrvení dolní končetiny."
+    explanation: "A. dorsalis pedis je pokračováním a. tibialis anterior na dorzu nohy a palpuje se mezi šlachami m. extensor hallucis longus a m. extensor digitorum longus. Je standardním místem pro vyšetření periferního pulzu při hodnocení arteriálního prokrvení dolní končetiny."
   },
   en: {
     stem: "During examination of a peripheral foot pulse, the physician palpates an artery on the dorsum of the foot between the tendons of the extensor hallucis longus and extensor digitorum longus, approximately at the level of the bases of the metatarsals. Which artery is being palpated?",
@@ -3752,7 +3752,7 @@ const QUESTION_DATA = {
         e: "lateral tarsal artery"
     },
     correct: "b",
-    explanation: "The dorsalis pedis artery is the continuation of the anterior tibial artery on the dorsum of the foot. It is palpated between the tendons of the extensor hallucis longus and extensor digitorum longus, in the region of the first interdigital space. It is a standard site for assessing peripheral arterial perfusion of the lower limb."
+    explanation: "The dorsalis pedis artery is the continuation of the anterior tibial artery on the dorsum of the foot. It is palpated between the tendons of the extensor hallucis longus and extensor digitorum longus. It is a standard site for assessing peripheral arterial perfusion of the lower limb."
   }
 },
 {
@@ -3821,7 +3821,7 @@ const QUESTION_DATA = {
         e: "ligamenta tarsometatarsalia"
     },
     correct: "d",
-    explanation: "Lisfrankův kloub tvoří spojení mezi distální řadou tarzálních kostí (ossa cuneiformia a os cuboideum) a bázemi metatarzů. Proto se na jeho tvorbě podílejí i příslušné tarsometatarzální vazy.\nOs naviculare je součástí proximální řady tarzálních kostí a podílí se na Chopartově kloubu (talonavikulární část), ale není součástí Lisfrankova kloubu, proto je správná odpověď."
+    explanation: "Lisfrankův kloub tvoří spojení mezi distální řadou tarzálních kostí (ossa cuneiformia a os cuboideum) a bázemi metatarzů. Proto se na jeho tvorbě podílejí i příslušné tarsometatarzální vazy.\nOs naviculare je součástí proximální řady tarzálních kostí a podílí se na Chopartově kloubu (talonavikulární část)"
   },
   en: {
     stem: "The Lisfranc (tarsometatarsal) joint connects the tarsal bones with the metatarsals. Which of the following structures is NOT part of this joint?",
@@ -3833,7 +3833,7 @@ const QUESTION_DATA = {
         e: "tarsometatarsal ligaments"
     },
     correct: "d",
-    explanation: "The Lisfranc joint is formed by the distal tarsal bones (cuneiforms and cuboid) articulating with the bases of the metatarsals, together with the supporting tarsometatarsal ligaments.\nThe navicular bone belongs to the proximal tarsal row and is part of the Chopart joint (talonavicular component), not the Lisfranc joint, therefore it is the correct answer."
+    explanation: "The Lisfranc joint is formed by the distal tarsal bones (cuneiforms and cuboid) articulating with the bases of the metatarsals, together with the supporting tarsometatarsal ligaments.\nThe navicular bone belongs to the proximal tarsal row and is part of the Chopart joint (talonavicular component)"
   }
 },
 {
@@ -4838,7 +4838,7 @@ const QUESTION_DATA = {
 {
   id: 300,
   cz: {
-    stem: "Čtyřiadvacetiletý muž utrpěl bodné poranění v horní třetině stehna přímo v oblasti trigonum femorale a masivně krvácí. Která z následujících možností správně popisuje anatomický obsah tohoto prostoru v pořadí od mediální k laterální straně?",
+    stem: "Která z následujících možností správně popisuje anatomický obsah trigonum femorale v pořadí od mediální k laterální straně?",
     options: {
         a: "Vena femoralis, arteria femoralis, nervus femoralis",
         b: "Nervus femoralis, arteria femoralis, vena femoralis",
@@ -4850,7 +4850,7 @@ const QUESTION_DATA = {
     explanation: "Hlavní cévy a nervy probíhají v trigonum femorale v topografickém uspořádání od vnitřní (mediální) strany k vnější (laterální) straně v pořadí žíla, tepna, nerv, což lze snadno zapamatovat podle mnemotechnické pomůcky VAN při postupu od středu těla ven."
   },
   en: {
-    stem: "A 24-year-old man sustained a stab wound to the upper third of the thigh directly in the region of the femoral triangle (trigonum femorale) and is experiencing massive bleeding. Which of the following options correctly describes the anatomical contents of this space in order from medial to lateral?",
+    stem: "Which of the following options correctly describes the anatomical contents of the femoral triangle in order from medial to lateral?",
     options: {
         a: "Femoral vein, femoral artery, femoral nerve",
         b: "Femoral nerve, femoral artery, femoral vein",
@@ -4859,7 +4859,7 @@ const QUESTION_DATA = {
         e: "Femoral nerve, femoral vein, femoral artery"
     },
     correct: "a",
-    explanation: "The main vessels and nerves run within the femoral triangle (trigonum femorale) in a topographic arrangement from the medial (inner) side to the lateral (outer) side in the order vein, artery, nerve, which can be easily remembered using the mnemonic VAN when moving away from the midline."
+    explanation: "The main vessels and nerves run within the femoral triangle in a topographic arrangement from the medial (inner) side to the lateral (outer) side in the order vein, artery, nerve, which can be easily remembered using the mnemonic VAN when moving away from the midline."
   }
 },
 {
@@ -4946,7 +4946,7 @@ const QUESTION_DATA = {
 {
   id: 304,
   cz: {
-    stem: "24letý pacient přichází k vyšetření povrchového žilního systému dolní končetiny po úrazu v oblasti třísla. Při anatomickém vyšetření lékař sleduje průběh povrchových žil v okolí ligamentum inguinale a identifikuje žílu, která odvádí krev z oblasti laterálního třísla v blízkosti spina iliaca anterior superior. Která žíla byla nejpravděpodobněji nalezena?",
+    stem: "Která povrchová žíla odvádí krev z oblasti laterálního třísla v blízkosti spina iliaca anterior superior?",
     options: {
         a: "Vena circumflexa ilium superficialis",
         b: "Vena epigastrica superficialis",
@@ -4955,10 +4955,10 @@ const QUESTION_DATA = {
         e: "Vena profunda femoris"
     },
     correct: "a",
-    explanation: "Vena circumflexa ilium superficialis je povrchová žíla, která probíhá v podkoží paralelně s ligamentum inguinale směrem k spina iliaca anterior superior. Odvádí krev z oblasti laterální části třísla, povrchových tkání nad crista iliaca a okolí SIAS. Následně se stáčí mediálně a jako jeden z přítoků vstupuje do terminálního úseku vena saphena magna v oblasti hiatus saphenus, kde se spolu s dalšími povrchovými žilami podílí na tvorbě Cockettovy žilní hvězdice."
+    explanation: "Vena circumflexa ilium superficialis je povrchová žíla, která probíhá v podkoží paralelně s ligamentum inguinale směrem k spina iliaca anterior superior (SIAS). Odvádí krev z oblasti laterální části třísla, povrchových tkání nad crista iliaca a okolí SIAS. Následně se stáčí mediálně a jako jeden z přítoků vstupuje do terminálního úseku vena saphena magna v oblasti hiatus saphenus, kde se spolu s dalšími povrchovými žilami podílí na tvorbě Cockettovy žilní hvězdice."
   },
   en: {
-    stem: "A 24-year-old patient presents for examination of the superficial venous system of the lower limb after an injury in the groin region. During the anatomical examination, the physician follows the course of the superficial veins around the inguinal ligament and identifies a vein that drains blood from the lateral groin region near the anterior superior iliac spine (spina iliaca anterior superior). Which vein was most likely identified?",
+    stem: "Which superficial vein drains blood from the lateral groin region near the anterior superior iliac spine?",
     options: {
         a: "Superficial circumflex iliac vein",
         b: "Superficial epigastric vein",
@@ -4967,7 +4967,7 @@ const QUESTION_DATA = {
         e: "Deep femoral vein"
     },
     correct: "a",
-    explanation: "The superficial circumflex iliac vein is a superficial vein that runs in the subcutaneous tissue parallel to the inguinal ligament toward the anterior superior iliac spine. It drains blood from the lateral part of the groin region, superficial tissues over the iliac crest, and the area surrounding the ASIS. It then turns medially and enters the terminal part of the great saphenous vein as one of its tributaries in the region of the hiatus saphenus, where it contributes to the formation of Cockett’s venous star together with other superficial veins."
+    explanation: "The superficial circumflex iliac vein is a superficial vein that runs in the subcutaneous tissue parallel to the inguinal ligament toward the anterior superior iliac spine. It drains blood from the lateral part of the groin region, superficial tissues over the iliac crest, and the area surrounding the ASIS. It then turns medially and enters the terminal part of the great saphenous vein as one of its tributaries in the region of the hiatus saphenus, where it joins the great saphenous vein together with other superficial tributaries near the saphenofemoral junction."
   }
 },
 {
@@ -7137,7 +7137,7 @@ const QUESTION_DATA = {
   {
     "id": 401,
     "cz": {
-      "stem": "Při anatomické preparaci oblasti hlezenního kloubu student identifikuje sulcus malleolaris lateralis a je dotázán na jeho lokalizaci. Na které kosti se tento žlábek nachází?",
+      "stem": "Na které kosti se nachází sulcus malleolaris lateralis?",
       "options": {
         "a": "Fibula",
         "b": "Tibia",
@@ -7149,7 +7149,7 @@ const QUESTION_DATA = {
       "explanation": "Sulcus malleolaris lateralis se nachází na fibule za laterálním kotníkem. Je určen pro průchod šlach m. fibularis longus a m. fibularis brevis, které jsou v této oblasti vedeny a stabilizovány retinaculy fibulárních svalů."
     },
     "en": {
-      "stem": "During anatomical dissection of the ankle region, a student identifies the lateral malleolar groove and is asked about its location. On which bone is this groove located?",
+      "stem": "Which bone contains the lateral malleolar groove?",
       "options": {
         "a": "Fibula",
         "b": "Tibia",
@@ -7270,33 +7270,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 406,
-    "cz": {
-      "stem": "Při vyšetření motoriky dorsum pedis je hodnocena funkce m. extensor digitorum brevis. Která z následujících možností správně popisuje jeho inervaci podle zásobení jednotlivých prstů?",
-      "options": {
-        "a": "Nervus fibularis profundus – větev pro m. extensor digitorum brevis zásobuje extenzory prstů II–IV",
-        "b": "Nervus peroneus superficialis – větev pro m. extensor digitorum brevis zásobuje extenzory prstů II–V",
-        "c": "Nervus tibialis – větev pro m. extensor digitorum brevis zásobuje extenzory prstů I–III",
-        "d": "Nervus fibularis profundus – větev pro m. extensor digitorum brevis zásobuje extenzory prstů II+III, IV inervován z nervus peroneus superficialis",
-        "e": "Nervus fibularis profundus – větev pro m. extensor digitorum brevis zásobuje extenzory prstů I–IV"
-      },
-      "correct": "a",
-      "explanation": "M. extensor digitorum brevis je celý motoricky inervován nervus fibularis profundus. Jeho šlachy se upínají na dorzální aponeurózy prstů II–IV (ne na V. prst). M. extensor hallucis brevis tvoří samostatnou část pro palec."
-    },
-    "en": {
-      "stem": "During examination of motor function of the dorsum of the foot, the function of the extensor digitorum brevis muscle is assessed. Which of the following options correctly describes its innervation according to the distribution to individual toes?",
-      "options": {
-        "a": "Deep fibular nerve – the branch to the extensor digitorum brevis supplies the extensors of toes II–IV",
-        "b": "Superficial fibular nerve – the branch to the extensor digitorum brevis supplies the extensors of toes II–V",
-        "c": "Tibial nerve – the branch to the extensor digitorum brevis supplies the extensors of toes I–III",
-        "d": "Deep fibular nerve – the branch to the extensor digitorum brevis supplies the extensors of toes II and III, with toe IV innervated by the superficial fibular nerve",
-        "e": "Deep fibular nerve – the branch to the extensor digitorum brevis supplies the extensors of toes I–IV"
-      },
-      "correct": "a",
-      "explanation": "The extensor digitorum brevis muscle is entirely motorically innervated by the deep fibular nerve. Its tendons insert into the dorsal aponeuroses of toes II–IV (not the fifth toe). The extensor hallucis brevis muscle forms a separate part for the great toe."
-    }
-  },
-  {
     "id": 407,
     "cz": {
       "stem": "Mladý fotbalista si při zápase při prudké změně směru a následném špatném došlapu poraní nohu. Následně přichází k lékaři s bolestí při zatížení a omezenou funkcí postižené končetiny. Zobrazovací vyšetření potvrdí poranění oblasti Lisfrancova kloubu. Mezi kterými strukturami se tento kloub nachází?",
@@ -7374,7 +7347,7 @@ const QUESTION_DATA = {
         "e": "Flexor hallucis longus muscle"
       },
       "correct": "a",
-      "explanation": "M. adductor hallucis is located in the third muscular layer of the planta pedis and consists of two heads – the oblique head and the transverse head. Both heads unite and insert on the lateral side of the base of the proximal phalanx of the great toe. Its main function is adduction of the great toe, and it significantly contributes to the stabilization of the transverse arch of the foot, especially in the region of the metatarsal heads."
+      "explanation": "The adductor hallucis muscle is located in the third muscular layer of the planta pedis and consists of two heads – the oblique head and the transverse head. Both heads unite and insert on the lateral side of the base of the proximal phalanx of the great toe. Its main function is adduction of the great toe, and it significantly contributes to the stabilization of the transverse arch of the foot, especially in the region of the metatarsal heads."
     }
   },
   {
