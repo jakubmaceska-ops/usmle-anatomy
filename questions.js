@@ -1401,7 +1401,7 @@ const QUESTION_DATA = {
 {
   id: 173,
   cz: {
-    stem: "Který z následujících svalů má svůj začátek nejvíce proximálně na kosti pažní v těsné blízkosti struktury označené šipkou? Čím je tento sval inervován?",
+    stem: "Který z následujících svalů má svůj začátek v těsné blízkosti struktury označené šipkou?",
     options: {
         a: "m. extensor carpi radialis longus",
         b: "m. flexor carpi radialis",
@@ -1410,10 +1410,10 @@ const QUESTION_DATA = {
         e: "m. flexor digitorum superficialis"
     },
     correct: "a",
-    explanation: "Šipka ukazuje na laterální epikondyl, před nímž probíhá n. radialis. Tento nerv inervuje svaly extenzorové skupiny předloktí, včetně m. extensor carpi radialis longus. Svaly v ostatních možnostech jsou inervovány z n. medianus, a m. brachialis je inervován z n. musculocutaneus."
+    explanation: "Šipka ukazuje na laterální epikondyl humeru. M. extensor carpi radialis longus začíná na crista supracondylaris lateralis humeri, těsně proximálně od laterálního epikondylu, tedy v bezprostřední blízkosti označené struktury. Ostatní nabízené svaly začínají mimo tuto oblast. M. flexor carpi radialis, m. pronator teres a m. flexor digitorum superficialis mají svůj začátek na mediálním epikondylu humeru. M. brachialis začíná na distální polovině přední plochy těla humeru."
   },
   en: {
-    stem: "Which of the following muscles has its origin most proximally on the humerus in close proximity to the structure indicated by the arrow? By what is this muscle innervated?",
+    stem: "Which of the following muscles originates in close proximity to the structure indicated by the arrow?",
     options: {
         a: "extensor carpi radialis longus muscle",
         b: "flexor carpi radialis muscle",
@@ -1422,7 +1422,7 @@ const QUESTION_DATA = {
         e: "flexor digitorum superficialis muscle"
     },
     correct: "a",
-    explanation: "The arrow points to the lateral epicondyle, anterior to which the radial nerve courses. This nerve innervates the muscles of the forearm extensor group, including the extensor carpi radialis longus muscle. The muscles in the other options are innervated by the median nerve, and the brachialis muscle is innervated by the musculocutaneous nerve."
+    explanation: "The arrow indicates the lateral epicondyle of the humerus. The m. extensor carpi radialis longus originates from the lateral supracondylar ridge of the humerus, immediately proximal to the lateral epicondyle and therefore in close proximity to the indicated structure. The other muscles originate elsewhere. The m. flexor carpi radialis, m. pronator teres, and m. flexor digitorum superficialis originate from the medial epicondyle of the humerus. The m. brachialis originates from the distal half of the anterior surface of the humeral shaft."
   },
   image: {key: "q171_custom", source: "Hellerhoff. Palliative osteosynthesis for pathological fracture of the humerus (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Palliative_Osteosynthese_bei_pathologischer_Fraktur_Humerus_69W_-_CR_-_001.jpg. Accessed 2 July 2026."
 }
@@ -1523,7 +1523,7 @@ const QUESTION_DATA = {
         e: "m. abduktor pollicis longus"
     },
     correct: "a",
-    explanation: "Šipka na snímku ukazuje na epicondylus medialis (místo začátku povrchových flexorů, jako je m. pronator teres), zatímco m. abductor pollicis longus je hluboký extenzor začínající na opačné, zadní straně kostí předloktí a mezikostní membráně."
+    explanation: "Šipka na snímku ukazuje na epicondylus medialis humeri – zde začíná m. pronator teres. M. anconeus začíná na epicondylus lateralis humeri. M. pronator quadratus začíná na distální čtvrtině přední plochy ulny. M. abductor pollicis brevis začíná na tuberculum ossis scaphoidei, tuberculum ossis trapezii a retinaculum flexorum. M. abductor pollicis longus začíná na zadní ploše ulny, radia a membrana interossea antebrachii."
   },
   en: {
     stem: "Which of the following muscles has its anatomical origin directly on the bony structure indicated by the arrow on the X-ray?",
@@ -1535,7 +1535,7 @@ const QUESTION_DATA = {
         e: "abductor pollicis longus muscle"
     },
     correct: "a",
-    explanation: "The arrow on the image points to the medial epicondyle (the origin site of the superficial flexors, such as the pronator teres muscle), whereas the abductor pollicis longus muscle is a deep extensor originating on the opposite, posterior side of the forearm bones and the interosseous membrane."
+    explanation: "The arrow indicates the medial epicondyle of the humerus – this is where the pronator teres muscle originates. The anconeus muscle originates from the lateral epicondyle of the humerus. The pronator quadratus muscle originates from the distal quarter of the anterior surface of the ulna. The abductor pollicis brevis muscle originates from the tubercle of the scaphoid, the tubercle of the trapezium, and the flexor retinaculum. The abductor pollicis longus muscle originates from the posterior surfaces of the ulna and radius and the interosseous membrane of the forearm."
   },
   image: {key: "q174_custom", source: "Nevit Dilmen. Medical X-Ray imaging ACA02 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_ACA02_nevit.jpg. CC BY-SA 3.0. Accessed 16 August 2026." 
 }
@@ -1954,36 +1954,9 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 200,
-    "cz": {
-      "stem": "32letý gymnasta přichází s chronickou bolestí zápěstí, která se zhoršuje při záklonu ruky (hyperextenzi). Lékař mu vysvětluje, že pohyby v zápěstí většinou nevychází izolovaně z jednoho kloubu, ale podílí se na nich koordinovaně více kloubů zároveň. Které z následujících tvrzení správně popisuje anatomické a funkční chování kloubů zápěstí?",
-      "options": {
-        "a": "Articulatio radiocarpalis a articulatio mediocarpalis se pohybují současně, přičemž extenze začíná v articulatio mediocarpalis.",
-        "b": "Articulatio mediocarpalis je izolovaný plochý kloub, který se nepodílí na abdukci (radiální a ulnární dukci) ruky.",
-        "c": "Articulatio radiocarpalis obsahuje kloubní disk, který kompletně izoluje os ulna a os pisiforme od kontaktu s vřetenní kostí.",
-        "d": "Articulatio mediocarpalis má tvar čistého sedlového kloubu, což umožňuje rotaci distální řady proti proximální.",
-        "e": "Většina rozsahu palmární flexe zápěstí se odehrává v articulatio mediocarpalis, zatímco dorzální extenze v articulatio radiocarpalis."
-      },
-      "correct": "a",
-      "explanation": "Pohyb v zápěstí je výsledkem koordinované činnosti articulatio radiocarpalis (proximální zápěstní kloub) a articulatio mediocarpalis (meziřadový kloub). Při dorzální extenzi ruky začíná pohyb nejprve v articulatio mediocarpalis (kde se distální řada kůstek naklopí na proximální) a následně se zapojuje articulatio radiocarpalis."
-    },
-    "en": {
-      "stem": "A 32-year-old gymnast presents with chronic wrist pain that worsens when the hand is bent backward (hyperextension). The doctor explains to him that wrist movements do not usually originate in isolation from a single joint, but rather multiple joints participate in them simultaneously in a coordinated manner. Which of the following statements correctly describes the anatomical and functional behavior of the wrist joints?",
-      "options": {
-        "a": "The radiocarpal joint and the mediocarpal joint move simultaneously, with extension beginning in the mediocarpal joint.",
-        "b": "The mediocarpal joint is an isolated plane joint that does not participate in abduction (radial and ulnar deviation) of the hand.",
-        "c": "The radiocarpal joint contains an articular disc that completely isolates the ulnar bone and the pisiform bone from contact with the radius",
-        "d": "The mediocarpal joint has the shape of a pure saddle joint, which allows rotation of the distal row against the proximal row.",
-        "e": "Most of the range of palmar flexion of the wrist takes place in the mediocarpal joint, while dorsal extension takes place in the radiocarpal joint."
-      },
-      "correct": "a",
-      "explanation": "Movement in the wrist is the result of the coordinated activity of the radiocarpal joint (proximal wrist joint) and the mediocarpal joint (midcarpal joint). During dorsal extension of the hand, the movement begins first in the mediocarpal joint (where the distal row of bones tilts onto the proximal row) and subsequently involves the radiocarpal joint."
-    }
-  },
-  {
     "id": 201,
     "cz": {
-      "stem": "34letý tesař přichází k lékaři pro oslabení stisku ruky a atrofii svalstva thenaru. Pacient udává, že potíže začaly tlakem v oblasti zápěstí, kde dochází ke kompresi struktur nacházejících se pod retinaculum musculorum flexorum. Která z následujících struktur běží pod tímto ligamentem?",
+      "stem": "Která z následujících struktur prochází pod retinaculum musculorum flexorum?",
       "options": {
         "a": "Šlacha musculus flexor pollicis longus",
         "b": "Šlacha musculus flexor carpi radialis",
@@ -1992,10 +1965,10 @@ const QUESTION_DATA = {
         "e": "Nervus ulnaris"
       },
       "correct": "a",
-      "explanation": "Šlacha musculus flexor carpi radialis neprochází hlavním kompartmentem karpálního tunelu spolu s nervus medianus a ostatními flexory prstů. Má svůj vlastní, izolovaný osteofibrózní kanál, který je tvořen hlubokým listem retinaculum flexorum a rýhou na os trapezium."
+      "explanation": "Pod retinaculum musculorum flexorum procházejí šlachy m. flexor digitorum superficialis, m. flexor digitorum profundus a m. flexor pollicis longus a také n. medianus. Šlacha m. flexor carpi radialis prochází samostatným osteofibrózním kanálem. N. ulnaris, šlacha m. flexor carpi ulnaris a šlacha m. palmaris longus pod retinakulem neprocházejí."
     },
     "en": {
-      "stem": "A 34-year-old carpenter presents to the doctor with a weakened hand grip and wasting (atrophy) of the thenar muscles. The patient states that the difficulties began with chronic pressure in the wrist area, where compression of structures located under the retinaculum musculorum flexorum occurs. Which of the following structures runs under this ligament?",
+      "stem": "Which of the following structures passes beneath the flexor retinaculum?",
       "options": {
         "a": "Tendon of the flexor pollicis longus muscle",
         "b": "Tendon of the flexor carpi radialis muscle",
@@ -2004,34 +1977,7 @@ const QUESTION_DATA = {
         "e": "Ulnar nerve"
       },
       "correct": "a",
-      "explanation": "The tendon of the flexor carpi radialis muscle does not pass through the main compartment of the carpal tunnel along with the median nerve and the other finger flexors. It has its own isolated osteofibrous canal, which is formed by the deep layer of the flexi retinaculum and the groove on the trapezium bone."
-    }
-  },
-  {
-    "id": 202,
-    "cz": {
-      "stem": "Během praktické zkoušky z anatomie profesor ukazuje na karpální tunel a ptá se, které struktury tvoří jeho mediální a laterální ohraničení (eminentia carpi ulnaris et radialis). Která odpověď je správná?",
-      "options": {
-        "a": "Mediálně os pisiforme + hamulus ossis hamati; laterálně tuberculum ossis scaphoidei + tuberculum ossis trapezii",
-        "b": "Mediálně os scaphoideum + os lunatum; laterálně os triquetrum + os pisiforme",
-        "c": "Mediálně tuberculum ossis trapezii; laterálně hamulus ossis hamati",
-        "d": "Mediálně os capitatum; laterálně os trapezoideum",
-        "e": "Mediálně šlacha m. flexor carpi ulnaris; laterálně šlacha m. flexor carpi radialis"
-      },
-      "correct": "a",
-      "explanation": "Mediální vyvýšeninu (eminentia carpi ulnaris) tvoří os pisiforme a hamulus ossis hamati. Laterální vyvýšeninu (eminentia carpi radialis) tvoří tuberculum ossis scaphoidei a tuberculum ossis trapezii. Na tyto body se upíná retinaculum flexorum."
-    },
-    "en": {
-      "stem": "During a practical anatomy exam, the professor points to the carpal tunnel and asks which structures form its medial and lateral boundaries (eminentia carpi ulnaris et radialis). Which answer is correct?",
-      "options": {
-        "a": "Medially the pisiform bone + hamulus of the hamate bone; laterally the tubercle of the scaphoid bone + tubercle of the trapezium bone",
-        "b": "Medially the scaphoid bone + lunate bone; laterally the triquetral bone + pisiform bone",
-        "c": "Medially the tubercle of the trapezium bone; laterally the hamulus of the hamate bone",
-        "d": "Medially the capitate bone; laterally the trapezoid bone",
-        "e": "Medially the tendon of the flexor carpi ulnaris muscle; laterally the tendon of the flexor carpi radialis muscle"
-      },
-      "correct": "a",
-      "explanation": "The medial eminence (eminentia carpi ulnaris) is formed by the pisiform bone and the hamulus of the hamate bone. The lateral eminence (eminentia carpi radialis) is formed by the tubercle of the scaphoid bone and the tubercle of the trapezium bone. The flexor retinaculum attaches to these points."
+      "explanation": "The tendons of the flexor digitorum superficialis, flexor digitorum profundus, and flexor pollicis longus muscles, as well as the median nerve, pass beneath the flexor retinaculum. The tendon of the flexor carpi radialis muscle passes through a separate osteofibrous canal. The ulnar nerve, tendon of the flexor carpi ulnaris muscle, and tendon of the palmaris longus muscle do not pass beneath the flexor retinaculum."
     }
   },
   {
@@ -2118,7 +2064,7 @@ const QUESTION_DATA = {
   {
     "id": 207,
     "cz": {
-      "stem": "Během cévní operace ruky chirurg identifikuje hluboký palmární oblouk (arcus palmaris profundus). Profesor se ptá, která tepna je jeho hlavním zdrojem a jaká je jeho poloha vůči povrchovému oblouku (arcus palmaris superficialis). Která odpověď je správná?",
+      "stem": "Která z následujících možností správně popisuje hlavní zdroj arcus palmaris profundus a jeho polohu vůči arcus palmaris superficialis?",
       "options": {
         "a": "Je tvořen hlavně z arteria radialis a leží proximálněji než povrchový oblouk",
         "b": "Je tvořen hlavně z arteria ulnaris a leží proximálněji než povrchový oblouk",
@@ -2127,10 +2073,10 @@ const QUESTION_DATA = {
         "e": "Je tvořen z arteria interossea anterior a leží ve stejné úrovni jako povrchový oblouk"
       },
       "correct": "a",
-      "explanation": "Arcus palmaris profundus vzniká jako přímé pokračování arteria radialis poté, co projde skrze m. interosseus dorsalis primus do dlaně. Tento oblouk leží na bázích metakarpů, tedy hlouběji a proximálněji (blíže k zápěstí) než povrchový oblouk z arteria ulnaris."
+      "explanation": "Arcus palmaris profundus je zásobovaný především z arteria radialis. Tento oblouk leží na bázích metakarpů, tedy hlouběji a proximálněji než povrchový oblouk, který je zásobovaný především z arteria ulnaris."
     },
     "en": {
-      "stem": "During a vascular surgery of the hand, the surgeon identifies the deep palmar arch (arcus palmaris profundus). The professor asks which artery is its main source and what its position is relative to the superficial arch (arcus palmaris superficialis). Which answer is correct?",
+      "stem": "Which of the following options correctly describes the main source of the deep palmar arch and its position relative to the superficial palmar arch?",
       "options": {
         "a": "It is formed mainly by the radial artery and lies more proximally than the superficial arch",
         "b": "It is formed mainly by the ulnar artery and lies more proximally than the superficial arch",
@@ -2139,7 +2085,7 @@ const QUESTION_DATA = {
         "e": "It is formed by the anterior interosseous artery and lies at the same level as the superficial arch"
       },
       "correct": "a",
-      "explanation": "The arcus palmaris profundus arises as a direct continuation of the radial artery after it passes through the m. interosseus dorsalis primus into the palm. This arch lies on the bases of the metacarpals, thus deeper and more proximally (closer to the wrist) than the superficial arch from the ulnar artery."
+      "explanation": "The deep palmar arch is supplied primarily by the radial artery. This arch lies at the bases of the metacarpals, making it deeper and more proximal than the superficial palmar arch, which is supplied primarily by the ulnar artery."
     }
   },
   {
@@ -2166,7 +2112,7 @@ const QUESTION_DATA = {
         "e": "All four lumbricals are innervated exclusively by the deep branch of the ulnar nerve"
       },
       "correct": "a",
-      "explanation": "The innervation of the mm. lumbricales mirrors their association with the bellies of the m. flexor digitorum profundus. The lateral two (for the index and middle fingers) are innervated by the median nerve, while the medial two (for the ring and little fingers) are innervated by the ulnar nerve."
+      "explanation": "The innervation of the lumbrical muscles mirrors their association with the bellies of the flexor digitorum profundus muscle. The lateral two (for the index and middle fingers) are innervated by the median nerve, while the medial two (for the ring and little fingers) are innervated by the ulnar nerve."
     }
   },
   {
@@ -2224,33 +2170,6 @@ const QUESTION_DATA = {
     }
   },
 {
-  "id": 212,
-  "cz": {
-    "stem": "Při hodnocení pacienta po hlubokém poranění dlaně a zápěstí lékař testuje motorické funkce ruky. Zaměřuje se na mezikostní svaly (mm. interossei palmares et dorsales). Která z následujících možností správně popisuje inervaci těchto svalů?",
-    "options": {
-      "a": "Všechny palmární i dorzální mezikostní svaly jsou inervovány výhradně z ramus profundus nervi ulnaris",
-      "b": "1. a 2. palmární i dorzální mezikostní sval jsou inervovány n. radialis, zatímco 3. a 4. jsou inervovány n. medianus",
-      "c": "Všechny palmární mezikostní svaly jsou inervovány n. medianus, zatímco všechny dorzální mezikostní svaly jsou inervovány n. radialis",
-      "d": "1. a 2. palmární i dorzální mezikostní sval jsou inervovány n. medianus, zatímco 3. a 4. jsou inervovány n. ulnaris",
-      "e": "Všechny palmární i dorzální mezikostní svaly jsou inervovány motorickými větvemi n. radialis v oblasti dorzální aponeurózy"
-    },
-    "correct": "a",
-    "explanation": "Na rozdíl od mm. lumbricales, které mají duální inervaci rozdělenou mezi n. medianus a n. ulnaris, jsou všechny mezikostní svaly ruky (jak čtyři dorzální, tak tři až čtyři palmární) inervovány stoprocentně z hluboké motorické větvě loketního nervu (ramus profundus nervi ulnaris)."
-  },
-  "en": {
-    "stem": "During the evaluation of a patient after a deep wound to the palm and wrist, the physician tests the motor functions of the hand. They focus on the interossei muscles (mm. interossei palmares et dorsales). Which of the following options correctly describes the innervation of these muscles?",
-    "options": {
-      "a": "All palmar and dorsal interossei muscles are innervated exclusively by the deep branch of the ulnar nerve",
-      "b": "The 1st and 2nd palmar and dorsal interossei muscles are innervated by the radial nerve, whereas the third and fourth are innervated by the median nerve",
-      "c": "All palmar interossei muscles are innervated by the median nerve, while all dorsal interossei muscles are innervated by the radial nerve",
-      "d": "The 1st and 2nd palmar and dorsal interossei muscles are innervated by the median nerve, while the 3rd and 4th are innervated by the ulnar nerve",
-      "e": "All palmar and dorsal interossei muscles are innervated by the motor branches of the adial nervein the region of the dorsal digital expansion"
-    },
-    "correct": "a",
-    "explanation": "Unlike the lumbrical muscles (mm. lumbricales), which have dual innervation divided between the median nerve and ulnar nerve, all interossei muscles of the hand (both four dorsal and three to four palmar) are 100% innervated by the deep motor branch of the ulnar nerve (ramus profundus nervi ulnaris)."
-  }
-},
-{
   "id": 213,
   "cz": {
     "stem": "Při pitvě ruky student anatomie detailně preparuje hluboké struktury dlaně a mezikostní prostory. Zaměřuje se na početní zastoupení a prostorové uspořádání mm. interossei. Která z následujících možností správně popisuje celkový počet a anatomické rozdělení těchto svalů na ruce?",
@@ -2307,7 +2226,7 @@ const QUESTION_DATA = {
 {
   "id": 215,
   "cz": {
-    "stem": "Během praktické zkoušky z anatomie dostal student úkol vybrat skupinu svalů ruky, které jsou kompletně inervovány výhradně z nervus ulnaris. Ve které z následujících možností se nacházejí pouze svaly inervované tímto nervem?",
+    "stem": "Která z následujících možností obsahuje pouze svaly ruky inervované nervus ulnaris?",
     "options": {
       "a": "M. adductor pollicis, mm. interossei, mm. lumbricales III et IV, m. palmaris brevis",
       "b": "M. abductor pollicis brevis, m. opponens pollicis, mm. lumbricales I et II",
@@ -2316,19 +2235,19 @@ const QUESTION_DATA = {
       "e": "M. opponens digiti minimi, m. lumbricalis II, mm. interossei dorsales"
     },
     "correct": "a",
-    "explanation": "Nervus ulnaris inervuje prostřednictvím svých větví v dlani všechny mm. interossei, mediální dva mm. lumbricales (III a IV), svaly hypothenaru, povrchový m. palmaris brevis a z thenarových svalů specificky m. adductor pollicis (včetně hlubokého bříška m. flexor pollicis brevis). Svaly v ostatních možnostech, jako jsou m. abductor pollicis brevis, m. opponens pollicis a mm. lumbricales I et ii, jsou inervovány z nervus medianus. Sval m. palmaris longus je sval předloktí, nikoli ruky, a je rovněž inervován z nervus medianus."
+    "explanation": "Svaly inervované nervus ulnaris jsou m. adductor pollicis, mm. interossei (palmares et dorsales), mm. lumbricales III et IV, m. palmaris brevis, m. abductor digiti minimi a m. opponens digiti minimi. Naopak m. abductor pollicis brevis, m. opponens pollicis, mm. lumbricales I et II, m. flexor pollicis brevis (caput superficiale) a m. palmaris longus jsou inervovány nervus medianus. "
   },
   "en": {
-    "stem": "During a practical anatomy exam, a student was assigned the task of selecting a group of hand muscles that are completely innervated exclusively by the ulnar nerve. Which of the following options contains only muscles innervated by this nerve?",
+    "stem": "Which of the following options contains only muscles of the hand innervated by the ulnar nerve?",
     "options": {
-      "a": "M. adductor pollicis, mm. interossei, mm. lumbricales III et IV, m. palmaris brevis",
-      "b": "M. abductor pollicis brevis, m. opponens pollicis, mm. lumbricales I et II",
-      "c": "Mm. interossei, mm. lumbricales I et II, m. adductor pollicis",
-      "d": "M. flexor pollicis brevis (caput superficiale), m. abductor digiti minimi, m. palmaris longus",
-      "e": "M. opponens digiti minimi, m. lumbricalis II, mm. interossei dorsales"
+      "a": "Adductor pollicis muscle, interosseous muscles, lumbrical muscles III and IV, palmaris brevis muscle",
+      "b": "Abductor pollicis brevis muscle, opponens pollicis muscle, lumbrical muscles I and II",
+      "c": "Interosseous muscles, lumbrical muscles I and II, adductor pollicis muscle",
+      "d": "Flexor pollicis brevis muscle (superficial head), abductor digiti minimi muscle, palmaris longus muscle",
+      "e": "Opponens digiti minimi muscle, lumbrical muscle II, dorsal interosseous muscles"
     },
     "correct": "a",
-    "explanation": "The nervus ulnaris, through its branches in the palm, innervates all mm. interossei, the medial two mm. lumbricales (III and IV), the hypothenar muscles, the superficial m. palmaris brevis, and from the thenar muscles specifically the m. adductor pollicis (including the deep head of the m. flexor pollicis brevis). The muscles in the other options, such as the m. abductor pollicis brevis, m. opponens pollicis, and mm. lumbricales I et II, are innervated by the nervus medianus. The muscle m. palmaris longus is a muscle of the forearm, not the hand, and is also innervated by the nervus medianus."
+    "explanation": "The muscles innervated by the ulnar nerve are the adductor pollicis muscle, interosseous muscles (palmar and dorsal), lumbrical muscles III and IV, palmaris brevis muscle, abductor digiti minimi muscle, and opponens digiti minimi muscle. In contrast, the abductor pollicis brevis muscle, opponens pollicis muscle, lumbrical muscles I and II, flexor pollicis brevis muscle (superficial head), and palmaris longus muscle are innervated by the median nerve."
   }
 },
 {
@@ -3052,8 +2971,8 @@ const QUESTION_DATA = {
             cz: {
               stem: "Po dlouhodobém používání podpažních berlí má pacient nejen poruchu extenze zápěstí a prstů, ale i výraznou slabost extenze v lokti. Který nerv byl postižen a v jaké lokalizaci?",
               options: {
-                a: "n. radialis v axile (proximálně od odstupu větví pro m. triceps brachii)",
-                b: "n. radialis v sulcus nervi radialis (distálně od odstupu větví pro m. triceps brachii)",
+                a: "n. radialis v axile",
+                b: "n. radialis v sulcus nervi radialis",
                 c: "n. axillaris v kvadrangulárním prostoru",
                 d: "n. musculocutaneus v axile",
                 e: "n. ulnaris v kubitálním tunelu"
@@ -3064,8 +2983,8 @@ const QUESTION_DATA = {
             en: {
               stem: "After prolonged use of axillary (underarm) crutches, a patient has not only impaired extension of the wrist and fingers but also marked weakness of elbow extension. Which nerve was affected, and at what location?",
               options: {
-                a: "Radial nerve in the axilla (proximal to the branches supplying the triceps brachii)",
-                b: "Radial nerve in the radial groove (distal to the branches supplying the triceps brachii)",
+                a: "Radial nerve in the axilla",
+                b: "Radial nerve in the radial groove",
                 c: "Axillary nerve in the quadrangular space",
                 d: "Musculocutaneous nerve in the axilla",
                 e: "Ulnar nerve in the cubital tunnel"
@@ -29276,6 +29195,33 @@ const LIVE_QUESTION_BANKS = {
     "explanation": "Palmar interossei muscles adduct the fingers toward the longitudinal axis of the hand, while dorsal interossei muscles abduct them away from this axis. Furthermore, due to their insertion into the dorsal digital expansion, all of these muscles simultaneously assist with flexion at the metacarpophalangeal joints and extension at the interphalangeal joints. All interossei muscles are innervated by the deep branch of the ulnar nerve."
   }
 },
+ {
+    "id": 10272,
+    "cz": {
+      "stem": "Které struktury tvoří mediální a laterální ohraničení karpálního tunelu?",
+      "options": {
+        "a": "Mediálně os pisiforme + hamulus ossis hamati; laterálně tuberculum ossis scaphoidei + tuberculum ossis trapezii",
+        "b": "Mediálně os scaphoideum + os lunatum; laterálně os triquetrum + os pisiforme",
+        "c": "Mediálně tuberculum ossis trapezii; laterálně hamulus ossis hamati",
+        "d": "Mediálně os capitatum; laterálně os trapezoideum",
+        "e": "Mediálně šlacha m. flexor carpi ulnaris; laterálně šlacha m. flexor carpi radialis"
+      },
+      "correct": "a",
+      "explanation": "Mediální vyvýšeninu (eminentia carpi ulnaris) tvoří os pisiforme a hamulus ossis hamati. Laterální vyvýšeninu (eminentia carpi radialis) tvoří tuberculum ossis scaphoidei a tuberculum ossis trapezii. Na tyto body se upíná retinaculum flexorum."
+    },
+    "en": {
+      "stem": "Which structures form the medial and lateral boundaries of the carpal tunnel?",
+      "options": {
+        "a": "Medially the pisiform bone + hamulus of the hamate bone; laterally the tubercle of the scaphoid bone + tubercle of the trapezium bone",
+        "b": "Medially the scaphoid bone + lunate bone; laterally the triquetral bone + pisiform bone",
+        "c": "Medially the tubercle of the trapezium bone; laterally the hamulus of the hamate bone",
+        "d": "Medially the capitate bone; laterally the trapezoid bone",
+        "e": "Medially the tendon of the flexor carpi ulnaris muscle; laterally the tendon of the flexor carpi radialis muscle"
+      },
+      "correct": "a",
+      "explanation": "The medial eminence is formed by the pisiform bone and the hamulus of the hamate bone. The lateral eminence is formed by the tubercle of the scaphoid bone and the tubercle of the trapezium bone. The flexor retinaculum attaches to these points."
+    }
+  },
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
