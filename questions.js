@@ -16515,6 +16515,33 @@ id: 269,
     explanation: "Blunting of the costophrenic angle (= costodiaphragmatic angle) on a chest X-ray is a typical finding associated with the accumulation of fluid in the pleural cavity. In pneumonia, a parapneumonic pleural effusion may develop as a result of the inflammatory process, leading to the accumulation of inflammatory fluid in the pleural cavity. When the patient is in an upright position, the fluid collects in the lowest part of the pleural cavity, which is the costodiaphragmatic recess.\nThe costomediastinal recess is located between the costal and mediastinal pleura, particularly in the anterior part of the thorax. The pulmonary hilum is an area on the medial surface of the lung through which the structures of the root of the lung pass. The transverse pericardial sinus is a space within the pericardial sac, while the omental bursa is a space in the abdominal cavity located posterior to the stomach."
   },
   image: { key: "q1067_custom", source: "James Heilman, MD. LLL pneumonia with effusionM.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:LLL_pneumonia_with_effusionM.jpg. CC BY 3.0. Accessed 21 August 2026.", type: "image" }
+},
+{
+  id: 1097,
+  cz: {
+    stem: "U 58letého pacienta byl diagnostikován karcinom levého hlavního bronchu. Do které skupiny lymfatických uzlin se nádorové buňky s nejvyšší pravděpodobností rozšíří jako první?",
+    options: {
+        a: "nodi lymphoidei paratracheales",
+        b: "nodi lymphoidei supraclaviculares sinistri",
+        c: "nodi lymphoidei tracheobronchiales inferiores",
+        d: "nodi lymphoidei mediastinales posteriores",
+        e: "nodi lymphoidei cervicales profundi"
+    },
+    correct: "c",
+    explanation: "Nodi lymphoidei tracheobronchiales inferiores jsou uloženy v místě bifurkace trachey, mezi pravým a levým hlavním bronchem. Přijímají lymfu z oblasti bronchů a plic a představují významnou skupinu uzlin pro šíření bronchogenních karcinomů. Nodi lymphoidei paratracheales jsou uloženy podél trachey a přijímají lymfu především z trachey, jícnu a mediastinálních struktur. Nodi lymphoidei supraclaviculares sinistri (Virchowova uzlina) mohou být postiženy metastázami nádorů z oblasti hrudníku a dutiny břišní, typicky například karcinomem žaludku. Nodi lymphoidei mediastinales posteriores se nacházejí v zadním mediastinu a odvádějí lymfu především z orgánů a struktur zadního mediastina. Nodi lymphoidei cervicales profundi jsou uloženy na krku podél v. jugularis interna a představují vzdálenější skupinu uzlin. Karcinom hlavního bronchu se do nich může dostat až při pokročilejším lymfatickém šíření, nikoli jako do první spádové skupiny."
+  },
+  en: {
+    stem: "A 58-year-old patient was diagnosed with carcinoma of the left main bronchus. Which group of lymph nodes is the tumor most likely to spread to first?",
+    options: {
+        a: "Paratracheal lymph nodes",
+        b: "Left supraclavicular lymph nodes",
+        c: "Inferior tracheobronchial lymph nodes",
+        d: "Posterior mediastinal lymph nodes",
+        e: "Deep cervical lymph nodes"
+    },
+    correct: "c",
+    explanation: "The inferior tracheobronchial lymph nodes are located at the carina, between the right and left main bronchi. They receive lymph from the bronchi and lungs and represent an important group of lymph nodes involved in the spread of bronchogenic carcinomas. The paratracheal lymph nodes are located along the trachea and receive lymph primarily from the trachea, esophagus, and mediastinal structures. The left supraclavicular lymph nodes (Virchow's node) may be involved by metastases from tumors of the thorax and abdominal cavity, classically gastric carcinoma. The posterior mediastinal lymph nodes are located in the posterior mediastinum and drain mainly structures of the posterior mediastinum. The deep cervical lymph nodes are located along the internal jugular vein and represent a more distant group of lymph nodes. Carcinoma of the main bronchus may spread to these nodes in advanced disease, but they are not the first lymph node group involved."
+  }
 },]
       },
       srdce_cevni_system: {
