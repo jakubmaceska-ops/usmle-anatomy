@@ -2965,6 +2965,62 @@ const QUESTION_DATA = {
   },
   image: { key: "q1091_custom", source: "James Heilman, MD. Acuteoccluisionaxartery.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Acuteoccluisionaxartery.png. CC BY-SA 4.0. Accessed 30 August 2026.", type: "image" }
 },
+{
+  id: 1098,
+  cz: {
+    stem: "U pacienta je po poranění horní končetiny patrná typická „kapkovitá ruka“ („wrist drop“) - tedy stav, kdy je předloktí v mírné pronaci, ruka v zápěstí přepadává do palmární flexe, prsty i palec chabě visí dolů. Porucha jakého nervu je nejpravděpodobněji příčinou tohoto stavu?",
+    options: {
+        a: "n. medianus",
+        b: "n. ulnaris",
+        c: "n. radialis",
+        d: "n. musculocutaneus",
+        e: "n. axillaris"
+    },
+    correct: "c",
+    explanation: "N. radialis inervuje extenzorovou skupinu svalů předloktí prostřednictvím svých motorických větví a jeho poškození vede k poruše extenze zápěstí a prstů, což způsobuje typickou „kapkovitou ruku“ (wrist drop). N. medianus inervuje převážně flexory předloktí a některé svaly ruky. Jeho poškození může vést k poruše opozice palce a při proximálním postižení k typické „opičí ruce“ („ape hand“). N. ulnaris inervuje část flexorů předloktí a většinu drobných svalů ruky a jeho poškození je typicky spojeno s ulnární drápovitou rukou. N. musculocutaneus inervuje flexory paže a jeho poškození způsobuje poruchu flexe v lokti. N. axillaris inervuje m. deltoideus a m. teres minor a jeho poškození vede k poruše abdukce paže."
+  },
+  en: {
+    stem: "Following an upper limb injury, a patient presents with a typical “wrist drop” — a condition in which the forearm is slightly pronated, the hand falls into palmar flexion at the wrist, and the fingers and thumb hang loosely downward. Injury to which nerve is the most likely cause of this condition?",
+    options: {
+        a: "Median nerve",
+        b: "Ulnar nerve",
+        c: "Radial nerve",
+        d: "Musculocutaneous nerve",
+        e: "Axillary nerve"
+    },
+    correct: "c",
+    explanation: "The radial nerve innervates the extensor muscles of the forearm through its motor branches. Injury to this nerve causes impaired extension of the wrist and fingers, resulting in the typical “wrist drop.” The median nerve primarily innervates the flexors of the forearm and some muscles of the hand. Its injury may cause impaired thumb opposition and, with a proximal lesion, the characteristic “ape hand”. The ulnar nerve innervates part of the flexor compartment of the forearm and most intrinsic muscles of the hand; its injury is typically associated with an ulnar claw hand. The musculocutaneous nerve innervates the flexors of the arm, and its injury causes impaired elbow flexion. The axillary nerve innervates the deltoid muscle and teres minor, and its injury results in impaired abduction of the arm."
+  },
+  image: { key: "q1098_custom", source: "Godart, Thomas. Hand after an injury. Barts Health Archives. Available from: Barts Health Archives – catalogue record. CC BY 4.0. Accessed 3 September 2026.", type: "image" }
+},
+{
+  id: 1099,
+  cz: {
+    stem: "U pacienta je patrné oploštění thenaru a postavení palce v rovině ostatních prstů s nemožností jeho opozice. Která z následujících možností mohla tento stav nejpravděpodobněji způsobit?",
+    options: {
+        a: "útlak nervu v canalis ulnaris (Guyonově kanálu)",
+        b: "útlak nervu v canalis carpi",
+        c: "útlak nervu v sulcus nervi radialis",
+        d: "útlak nervu v sulcus bicipitalis lateralis",
+        e: "útlak nervu v quadrilaterálním prostoru"
+    },
+    correct: "b",
+    explanation: "Útlak n. medianus v canalis carpi může vést k poruše motorické inervace svalů thenaru a následně k poruše opozice palce. Palec proto zůstává v rovině ostatních prstů a při současném oploštění thenaru vzniká typický obraz „opičí ruky“ („ape hand“). Útlak nervu v canalis ulnaris (Guyonově kanálu) postihuje n. ulnaris a vede především k poruše vlastních svalů ruky a typické ulnární drápovité ruce. Útlak nervu v sulcus nervi radialis může poškodit n. radialis a způsobit poruchu extenze zápěstí a prstů, tedy „kapkovitou ruku“ („wrist drop“). Útlak n. musculocutaneus v oblasti sulcus bicipitalis lateralis může vést k oslabení flexe v lokti a supinace předloktí. Útlak n. axillaris v prostoru quadrilaterálním může způsobit oslabení abdukce paže."
+  },
+  en: {
+    stem: "A patient presents with flattening of the thenar eminence and the thumb positioned in the same plane as the other fingers, with an inability to oppose the thumb. Which of the following conditions could most likely cause this finding?",
+    options: {
+        a: "Compression of a nerve in the ulnar canal (Guyon's canal)",
+        b: "Compression of a nerve in the carpal tunnel",
+        c: "Compression of a nerve in the radial groove",
+        d: "Compression of a nerve in the lateral bicipital groove",
+        e: "Compression of a nerve in the quadrilateral space"
+    },
+    correct: "b",
+    explanation: "Compression of the median nerve in the carpal tunnel can impair motor innervation of the thenar muscles, resulting in impaired thumb opposition. The thumb therefore remains in the same plane as the other fingers, and together with flattening of the thenar eminence, this produces the characteristic ape hand. Compression of a nerve in the ulnar canal (Guyon's canal) affects the ulnar nerve and primarily causes dysfunction of the intrinsic muscles of the hand, producing the characteristic ulnar claw hand. Compression of a nerve in the radial groove can damage the radial nerve and cause impaired extension of the wrist and fingers, resulting in wrist drop. Compression of the musculocutaneous nerve in the lateral bicipital groove can lead to weakness of elbow flexion and forearm supination. Compression of the axillary nerve in the quadrilateral space can cause weakness of arm abduction."
+  },
+  image: { key: "q1099_custom", source: "1: Emily Barrett. *Apehand 1.JPG* (modified). Wikimedia Commons. Available from: [https://commons.wikimedia.org/wiki/File:Apehand_1.JPG](https://commons.wikimedia.org/wiki/File:Apehand_1.JPG?utm_source=chatgpt.com). CC BY 3.0. Accessed 3 September 2026.  2: Emily Barrett. *Apehand 2.JPG* (modified). Wikimedia Commons. Available from: [https://commons.wikimedia.org/wiki/File:Apehand_2.JPG](https://commons.wikimedia.org/wiki/File:Apehand_2.JPG?utm_source=chatgpt.com). CC BY 3.0. Accessed 3 September 2026.", type: "image" }
+},
 
           {
             id: 12,
