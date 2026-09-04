@@ -1351,12 +1351,36 @@
   }
 
   .q-image-source {
+    display: none;
     text-align: center;
     font-family: var(--mono);
     font-size: 9px;
     color: var(--ink-faint);
-    margin-top: 8px;
+    margin-top: 6px;
     word-break: break-all;
+  }
+
+  .q-image-source.visible {
+    display: block;
+  }
+
+  .q-image-source-toggle {
+    display: block;
+    margin: 8px auto 0;
+    padding: 3px 10px;
+    font-family: var(--mono);
+    font-size: 9px;
+    letter-spacing: 0.02em;
+    color: var(--ink-faint);
+    background: none;
+    border: 1px solid var(--line-strong);
+    border-radius: 999px;
+    cursor: pointer;
+    opacity: 0.75;
+  }
+
+  .q-image-source-toggle:hover {
+    opacity: 1;
   }
 
   .lightbox-overlay {
@@ -2877,6 +2901,8 @@ function chapterImageSrc(chapterKey) {
       finish: "Zobrazit výsledky",
       explanationLabel: "Řešení",
       imageSource: "Zdroj obrázku",
+      imageSourceShow: "Citace obrázku (zobrazit)",
+      imageSourceHide: "Citace obrázku (skrýt)",
       yourScore: "Tvůj výsledek",
       retryTest: "Zkusit znovu",
       backHome: "Zpět na úvod",
@@ -3115,6 +3141,8 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       finish: "Show results",
       explanationLabel: "Explanation",
       imageSource: "Image source",
+      imageSourceShow: "Image citation (show)",
+      imageSourceHide: "Image citation (hide)",
       yourScore: "Your score",
       retryTest: "Try again",
       backHome: "Back to home",
@@ -5909,7 +5937,18 @@ ${optionsObjCodeEn}
         });
     imgWrap.appendChild(imgEl);
     if (imageMeta.source) {
-      imgWrap.appendChild(el("div", { cls: "q-image-source", text: `${sourceLabel}: ${imageMeta.source}` }));
+      const sourceEl = el("div", { cls: "q-image-source", text: `${sourceLabel}: ${imageMeta.source}` });
+      const toggleBtn = el("button", {
+        cls: "q-image-source-toggle",
+        text: tr().imageSourceShow,
+        attrs: { type: "button" }
+      });
+      toggleBtn.addEventListener("click", () => {
+        const isVisible = sourceEl.classList.toggle("visible");
+        toggleBtn.textContent = isVisible ? tr().imageSourceHide : tr().imageSourceShow;
+      });
+      imgWrap.appendChild(toggleBtn);
+      imgWrap.appendChild(sourceEl);
     }
     return imgWrap;
   }
@@ -5982,22 +6021,8 @@ ${optionsObjCodeEn}
       card.appendChild(favBtn);
     }
 
-    if (q.image && IMAGES[q.image.key]) {
-      const imgWrap = el("div", { cls: "q-image-wrap" });
-      const isVideo = q.image.type === "video";
-      const imgEl = isVideo
-        ? el("video", { cls: "q-image", attrs: { src: IMAGES[q.image.key], controls: "controls" } })
-        : el("img", {
-            cls: "q-image",
-            attrs: { src: IMAGES[q.image.key], alt: "" },
-            onClick: () => openLightbox(IMAGES[q.image.key], "image")
-          });
-      imgWrap.appendChild(imgEl);
-      if (q.image.source) {
-        imgWrap.appendChild(el("div", { cls: "q-image-source", text: `${tr().imageSource}: ${q.image.source}` }));
-      }
-      card.appendChild(imgWrap);
-    }
+    const mainImgWrap = buildQuestionImageWrap(q.image, tr().imageSource);
+    if (mainImgWrap) card.appendChild(mainImgWrap);
 
     card.appendChild(el("div", { cls: "q-stem", html: formatStemHtml(qData.stem) }));
 
@@ -6280,22 +6305,8 @@ ${optionsObjCodeEn}
     head.appendChild(el("div", { cls: "review-status " + statusCls, text: statusText }));
     card.appendChild(head);
 
-    if (q.image && IMAGES[q.image.key]) {
-      const imgWrap = el("div", { cls: "q-image-wrap" });
-      const isVideo = q.image.type === "video";
-      const imgEl = isVideo
-        ? el("video", { cls: "q-image", attrs: { src: IMAGES[q.image.key], controls: "controls" } })
-        : el("img", {
-            cls: "q-image",
-            attrs: { src: IMAGES[q.image.key], alt: "" },
-            onClick: () => openLightbox(IMAGES[q.image.key], "image")
-          });
-      imgWrap.appendChild(imgEl);
-      if (q.image.source) {
-        imgWrap.appendChild(el("div", { cls: "q-image-source", text: `${tr().imageSource}: ${q.image.source}` }));
-      }
-      card.appendChild(imgWrap);
-    }
+    const mainImgWrap = buildQuestionImageWrap(q.image, tr().imageSource);
+    if (mainImgWrap) card.appendChild(mainImgWrap);
 
     card.appendChild(el("div", { cls: "q-stem", html: formatStemHtml(qData.stem) }));
 
