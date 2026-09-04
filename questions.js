@@ -10129,6 +10129,34 @@ id: 269,
   },
   image: { key: "q1084_custom", source: "Hellerhoff. Hernie links 55W - CT - 001 Annotation.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Grynfeltt-Hernie_links_55W_-_CT_-_001_Annotation.jpg. CC BY-SA 4.0. Accessed 29 August 2026.", type: "image" }
 },
+{
+  id: 1105,
+  cz: {
+    stem: "Na CT je zobrazena hernie. O jaký typ hernie se jedná?",
+    options: {
+        a: "hernia femoralis",
+        b: "hernia obturatoria",
+        c: "hernia inguinalis",
+        d: "hernia lumbalis",
+        e: "hernia epigastrica"
+    },
+    correct: "c",
+    explanation: "Na CT je zobrazena tříselná hernie (hernia inguinalis), při které dochází k prostupu břišního obsahu v oblasti tříselného kanálu. Na obrázku je zobrazena inkarcerovaná tříselná hernii, tedy hernie, jejíž obsah nelze volně reponovat zpět do dutiny břišní.\nHernia femoralis prochází přes canalis femoralis pod lig. inguinale, hernia obturatoria prochází canalis obturatorius a hernia lumbalis vzniká v oblasti zadní břišní stěny v bederní krajině. Hernia epigastrica se objevuje ve střední čáře nad pupkem, nejčastěji v oblasti linea alba."
+  },
+  en: {
+    stem: "The CT scan shows a hernia. Which type of hernia is shown?",
+    options: {
+        a: "Femoral hernia",
+        b: "Obturator hernia",
+        c: "Inguinal hernia",
+        d: "Lumbar hernia",
+        e: "Epigastric hernia"
+    },
+    correct: "c",
+    explanation: "The CT scan shows an inguinal hernia, in which abdominal contents protrude through the inguinal canal. The image shows an incarcerated inguinal hernia, meaning that the herniated contents cannot be freely reduced back into the abdominal cavity.\nA femoral hernia passes through the femoral canal below the inguinal ligament, an obturator hernia passes through the obturator canal, and a lumbar hernia occurs in the posterior abdominal wall in the lumbar region. An epigastric hernia occurs in the midline above the umbilicus, most commonly through the linea alba."
+  },
+  image: { key: "q1105_custom", source: "James Heilman, MD. Inquinalhernia.png. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
+},
 ]
       }
 
