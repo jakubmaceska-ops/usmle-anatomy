@@ -3077,6 +3077,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1102_custom", source: "1: Frank C. Müller. Morbus dupuytren 1 (fcm).jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 4.0. Accessed 4 September 2026.  2: James Heilman, MD. Dupuytren's2010.JPG. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
 },
+{
+  id: 1103,
+  cz: {
+    stem: "Na obrázku je příklad pokročilého nálezu u kompresního syndromu nervu horní končetiny. O který syndrom se jedná?",
+    options: {
+        a: "syndrom karpálního tunelu",
+        b: "syndrom kubitálního tunelu",
+        c: "syndrom Guyonova kanálu",
+        d: "syndrom radiálního tunelu",
+        e: "syndrom pronator teres"
+    },
+    correct: "a",
+    explanation: "Na obrázku je zobrazen příklad neléčeného syndromu karpálního tunelu, tedy kompresivní neuropatie n. medianus v oblasti zápěstí. Na obrázku je viditelná atrofie svalů thenaru – zejména m. abductor pollicis brevis a m. opponens pollicis. K útlaku dochází při průchodu nervu canalis carpi, jehož střechu tvoří retinaculum flexorum. Syndrom kubitálního tunelu vzniká útlakem n. ulnaris v oblasti lokte, zatímco syndrom Guyonova kanálu je způsoben útlakem n. ulnaris v oblasti zápěstí. Syndrom radiálního tunelu souvisí s útlakem větví n. radialis v oblasti laterálního předloktí a syndrom pronator teres vzniká při kompresi n. medianus v oblasti m. pronator teres."
+  },
+  en: {
+    stem: "The image shows an example of an advanced finding in a compressive neuropathy of an upper limb nerve. Which syndrome is shown?",
+    options: {
+        a: "Carpal tunnel syndrome",
+        b: "Cubital tunnel syndrome",
+        c: "Guyon’s canal syndrome",
+        d: "Radial tunnel syndrome",
+        e: "Pronator teres syndrome"
+    },
+    correct: "a",
+    explanation: "The image shows an example of untreated carpal tunnel syndrome, i.e. compressive neuropathy of the median nerve at the wrist. Visible findings include atrophy of the thenar muscles, particularly the abductor pollicis brevis and opponens pollicis muscles. Compression occurs as the nerve passes through the carpal tunnel, whose roof is formed by the flexor retinaculum. Cubital tunnel syndrome is caused by compression of the ulnar nerve at the elbow, while Guyon’s canal syndrome results from compression of the ulnar nerve at the wrist. Radial tunnel syndrome involves compression of branches of the radial nerve in the lateral forearm, whereas pronator teres syndrome results from compression of the median nerve in the region of the pronator teres muscle."
+  },
+  image: { key: "q1103_custom", source: "Dr. Harry Gouvas, MD, PhD. Untreated Carpal Tunnel Syndrome.JPG. Wikimedia Commons. Available from: Wikimedia Commons. Public domain. Accessed 4 September 2026.", type: "image" }
+},
 
           {
             id: 12,
