@@ -3021,6 +3021,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1099_custom", source: "1: Emily Barrett. *Apehand 1.JPG* (modified). Wikimedia Commons. Available from: [https://commons.wikimedia.org/wiki/File:Apehand_1.JPG](https://commons.wikimedia.org/wiki/File:Apehand_1.JPG?utm_source=chatgpt.com). CC BY 3.0. Accessed 3 September 2026.  2: Emily Barrett. *Apehand 2.JPG* (modified). Wikimedia Commons. Available from: [https://commons.wikimedia.org/wiki/File:Apehand_2.JPG](https://commons.wikimedia.org/wiki/File:Apehand_2.JPG?utm_source=chatgpt.com). CC BY 3.0. Accessed 3 September 2026.", type: "image" }
 },
+{
+  id: 1100,
+  cz: {
+    stem: "U pacienta je patrné hyperextenzní postavení metakarpofalangeálních kloubů a flexe interfalangeálních kloubů 4. a 5. prstu, zatímco palec a 2. a 3. prst jsou v klidovém postavení bez patrné deformity. Poškození kterého nervu může vést k tomuto nálezu?",
+    options: {
+        a: "n. medianus",
+        b: "n. radialis",
+        c: "n. ulnaris",
+        d: "n. musculocutaneus",
+        e: "n. axillaris"
+    },
+    correct: "c",
+    explanation: "N. ulnaris inervuje mm. interossei a mm. lumbricales III et IV, které se podílejí na flexi metakarpofalangeálních a extenzi interfalangeálních kloubů 4. a 5. prstu. Jejich denervace proto vede k hyperextenzi metakarpofalangeálních kloubů a flexi interfalangeálních kloubů těchto prstů (převládne tonus antagonistických svalů). Tento nález se označuje jako ulnární drápovitá ruka („ulnar claw hand“). N. medianus inervuje mm. lumbricales I et II a svaly thenaru, jeho poškození proto vede zejména k poruše opozice palce. N. radialis inervuje extenzory předloktí a jeho poškození způsobuje především „kapkovitou ruku“ („wrist drop“). N. musculocutaneus zajišťuje motorickou inervaci flexorů paže a n. axillaris inervuje m. deltoideus a m. teres minor.\n  *Poznámka k obrázku: Zobrazená ruka ve skutečnosti není způsobena neurologickým postižením, ale jde o zdravou ruku vědomě napodobující ulnární drápovitou ruku."
+  },
+  en: {
+    stem: "A patient presents with hyperextension of the metacarpophalangeal joints and flexion of the interphalangeal joints of the 4th and 5th fingers, while the thumb and 2nd and 3rd fingers remain in a resting position without apparent deformity. Damage to which nerve can lead to this finding?",
+    options: {
+        a: "Median nerve",
+        b: "Radial nerve",
+        c: "Ulnar nerve",
+        d: "Musculocutaneous nerve",
+        e: "Axillary nerve"
+    },
+    correct: "c",
+    explanation: "The ulnar nerve innervates the interosseous muscles and lumbrical muscles III and IV, which contribute to flexion of the metacarpophalangeal joints and extension of the interphalangeal joints of the 4th and 5th fingers. Their denervation therefore results in hyperextension of the metacarpophalangeal joints and flexion of the interphalangeal joints of these fingers due to the unopposed action of their antagonists. This finding is known as the ulnar claw hand.\nThe median nerve innervates lumbrical muscles I and II and the thenar muscles; its injury therefore primarily causes impaired thumb opposition. The radial nerve innervates the extensor muscles of the forearm, and its injury primarily causes wrist drop. The musculocutaneous nerve provides motor innervation to the flexor muscles of the arm, while the axillary nerve innervates the deltoid and teres minor muscles.\n  *Note regarding the image: The hand shown is not actually caused by a neurological lesion; it is a healthy hand consciously imitating an ulnar claw hand."
+  },
+  image: { key: "q1100_custom", source: "Mcstrother. Ulnar claw hand.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File.JPG. CC BY 3.0. Accessed 4 September 2026.", type: "image" }
+},
 
           {
             id: 12,
