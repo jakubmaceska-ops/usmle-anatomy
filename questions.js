@@ -14569,6 +14569,34 @@ id: 269,
     correct: "a",
     explanation: "The eruption of the primary teeth usually begins at approximately 6 months of age. The central incisors (6–10 months) usually erupt first, followed by the lateral incisors (9–13 months). The first molars (13–19 months) erupt next, followed by the canines (16–23 months). Therefore, the typical order is C → D → A → B, i.e. central incisor → lateral incisor → first molar → canine."
   }
+},
+{
+  id: 1104,
+  cz: {
+    stem: "Na obrázku je zobrazen CT nález akutního onemocnění dutiny břišní. Která diagnóza je nejpravděpodobnější?",
+    options: {
+        a: "akutní gastritida",
+        b: "akutní enteritida",
+        c: "akutní pankreatitida",
+        d: "akutní hepatitida",
+        e: "akutní cholecystitida"
+    },
+    correct: "c",
+    explanation: "Na obrázku je CT vyšetření akutní exsudativní pankreatitidy, při kterém jsou dobře patrné tekutinové kolekce v okolí pankreatu. Pankreas nevykazuje snížené kontrastní sycení, které by svědčilo pro přítomnost nekrózy. Nález tedy odpovídá akutní pankreatitidě bez známek pankreatické nekrózy.\nAkutní gastritida postihuje žaludeční sliznici, akutní enteritida tenké střevo, akutní hepatitida jaterní parenchym a akutní cholecystitida žlučník."
+  },
+  en: {
+    stem: "The image shows a CT finding of an acute abdominal condition. Which diagnosis is most likely?",
+    options: {
+        a: "Acute gastritis",
+        b: "Acute enteritis",
+        c: "Acute pancreatitis",
+        d: "Acute hepatitis",
+        e: "Acute cholecystitis"
+    },
+    correct: "c",
+    explanation: "The image shows a CT scan of acute exudative pancreatitis, with fluid collections surrounding the pancreas clearly visible. The pancreas does not show decreased contrast enhancement, which would indicate the presence of necrosis. The findings therefore correspond to acute pancreatitis without evidence of pancreatic necrosis.\nAcute gastritis affects the gastric mucosa, acute enteritis affects the small intestine, acute hepatitis affects the liver parenchyma, and acute cholecystitis affects the gallbladder."
+  },
+  image: { key: "q1104_custom", source: "Hellerhoff. Pankreatitis exsudativ CT axial.jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
 },]
       },
       dychaci_soustava: {
