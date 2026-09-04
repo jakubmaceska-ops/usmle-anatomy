@@ -3049,6 +3049,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1100_custom", source: "Mcstrother. Ulnar claw hand.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File.JPG. CC BY 3.0. Accessed 4 September 2026.", type: "image" }
 },
+{
+  id: 1102,
+  cz: {
+    stem: "Na obrázcích je patrné fibrózní ztluštění a zkrácení tkáně, které znemožňuje přirozené postavení prstů. Která z následujících anatomických struktur je při tomto onemocnění primárně postižena?",
+    options: {
+        a: "aponeurosis palmaris",
+        b: "retinaculum flexorum",
+        c: "m. flexor pollicis brevis",
+        d: "retinaculum extensorum",
+        e: "m. flexor digiti minimi"
+    },
+    correct: "a",
+    explanation: "Na obrázcích jsou příklady Dupuytrenovy kontraktury, což je onemocnění charakterizované progresivním fibrózním ztluštěním a zkrácením palmární aponeurózy. V postižené tkáni vznikají fibrózní uzly a pruhy, které se postupně zkracují a omezují extenzi prstů. Nejčastěji jsou postiženy 4. a 5. prst."
+  },
+  en: {
+    stem: "The images show fibrous thickening and shortening of tissue that prevents the fingers from assuming their normal position. Which of the following anatomical structures is primarily affected in this condition?",
+    options: {
+        a: "Palmar aponeurosis",
+        b: "Flexor retinaculum",
+        c: "Flexor pollicis brevis muscle",
+        d: "Extensor retinaculum",
+        e: "Flexor digiti minimi muscle"
+    },
+    correct: "a",
+    explanation: "The images show examples of Dupuytren’s contracture, a condition characterized by progressive fibrous thickening and shortening of the palmar aponeurosis. Fibrous nodules and cords develop within the affected tissue, progressively shortening and limiting finger extension. The 4th and 5th fingers are most commonly affected."
+  },
+  image: { key: "q1102_custom", source: "1: Frank C. Müller. Morbus dupuytren 1 (fcm).jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 4.0. Accessed 4 September 2026.  2: James Heilman, MD. Dupuytren's2010.JPG. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
+},
 
           {
             id: 12,
