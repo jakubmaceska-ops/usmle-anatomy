@@ -20081,6 +20081,35 @@ id: 269,
   },
   image: { key: "q1072_custom", source: "A: Hastings Gilford, F.R.C.S. Hastings Gilford 15.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Hastings_Gilford_15.jpg. Public domain. Accessed 22 August 2026. B: Ctvrtlik F, Koranda P, Tichy T. Fig. 1. Adrenal disease: a clinical update and overview of imaging. A review (modified). Biomed Pap Med Fac Univ Palacky Olomouc Czech Repub. 2014;158(1):23–34. Available from: https://biomed.papers.upol.cz/magno/bio/2014/mn1.php. CC BY 4.0. Accessed 22 August 2026.", type: "image" }
 },
+{
+  id: 1101,
+  cz: {
+    stem: "Obrázek 1 (vlevo) zobrazuje obraz pacienta s morbus Peyronie, na obrázku 2 (vpravo) je snímek z ultrazvuku tkáně penisu s vyznačením patologie. Která anatomická struktura je u tohoto onemocnění primárně postižena?",
+    options: {
+        a: "tunica dartos",
+        b: "tunica albuginea",
+        c: "fascia penis profunda",
+        d: "corpus cavernosum",
+        e: "corpus spongiosum"
+    },
+    correct: "b",
+    explanation: "Morbus Peyronie je charakterizován vznikem fibrózních plaků v tunica albuginea, která obaluje corpora cavernosa. Tyto plaky způsobují ztrátu elasticity tunica albuginea a při erekci vedou k abnormálnímu zakřivení penisu, typicky směrem k postižené straně. Na ultrazvuku mohou být fibrózní plaky zobrazeny jako hyperechogenní ložiska v oblasti tunica albuginea.\nTunica dartos je vrstva hladké svaloviny v podkoží penisu a skrota. Fascia penis profunda (Buckova fascie) obaluje erektilní tkáň penisu, ale není primárně postižena při morbus Peyronie."
+  },
+  en: {
+    stem: "Figure 1 (left) shows a patient with Peyronie’s disease, while Figure 2 (right) shows an ultrasound image of penile tissue with the pathology indicated. Which anatomical structure is primarily affected in this condition?",
+    options: {
+        a: "Dartos tunic",
+        b: "Tunica albuginea",
+        c: "Deep fascia of the penis",
+        d: "Corpus cavernosum",
+        e: "Corpus spongiosum"
+    },
+    correct: "b",
+    explanation: "Peyronie’s disease is characterized by the formation of fibrous plaques in the tunica albuginea, which surrounds the corpora cavernosa. These plaques reduce the elasticity of the tunica albuginea and cause abnormal curvature of the penis during erection, typically toward the affected side. On ultrasound, fibrous plaques may appear as hyperechoic lesions within the tunica albuginea.\nThe dartos tunic is a layer of smooth muscle in the subcutaneous tissue of the penis and scrotum. The deep fascia of the penis (Buck’s fascia) surrounds the erectile tissue but is not primarily affected in Peyronie’s disease."
+  },
+  image: { key: "q1101_custom", source: "1: Peyronie. *Peyronie disease.jpg*. (modified) Wikimedia Commons. Available from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peyronie_disease.jpg?utm_source=chatgpt.com). Public domain. Accessed 4 September 2026. 2: Angelatomato. *Peyronie's Disease Ultrasound.jpg*. (modified) Wikimedia Commons. Available from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peyronie%27s_Disease_Ultrasound.jpg?utm_source=chatgpt.com). CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" },
+  explanationImage: { key: "e1101_custom", source: "Angelatomato. Peyronie's Disease Ultrasound.jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
+},
         ]
       },
       vylucovaci_soustava: {
