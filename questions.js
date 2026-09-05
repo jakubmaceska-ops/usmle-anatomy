@@ -3552,11 +3552,11 @@ const QUESTION_DATA = {
         a: "n. fibularis superficialis a a. fibularis",
         b: "n. fibularis profundus a a. tibialis anterior",
         c: "n. tibialis a a. tibialis posterior",
-        d: "n. suralis a a. fibularis",
-        e: "n. fibularis profundus a a. genus descendens"
+        d: "n. suralis a a. tibialis anterior",
+        e: "n. fibularis profundus a a. fibularis"
     },
     correct: "b",
-    explanation: "Přední kompartment bérce je inervován n. fibularis (peroneus) profundus a zásoben a. tibialis anterior. Tento nerv vzniká z n. fibularis communis po jeho rozdělení a kromě motorické funkce zásobuje senzitivně i kůži první meziprstní komisury na nártu."
+    explanation: "Přední kompartment bérce je inervován n. fibularis (peroneus) profundus a zásoben a. tibialis anterior. Tento nerv vzniká z n. fibularis communis po jeho rozdělení a kromě motorické funkce zásobuje senzitivně i kůži prvního meziprstního prostoru na nártu."
   },
   en: {
     stem: "The anterior compartment of the leg contains the tibialis anterior muscle, extensor digitorum longus, extensor hallucis longus, and fibularis tertius. Which nerve and artery supply this compartment?",
@@ -3564,8 +3564,8 @@ const QUESTION_DATA = {
         a: "superficial fibular nerve and fibular artery",
         b: "deep fibular (peroneal) nerve and anterior tibial artery",
         c: "tibial nerve and posterior tibial artery",
-        d: "sural nerve and fibular artery",
-        e: "deep fibular (peroneal) nerve and descending genicular artery"
+        d: "sural nerve and anterior tibial artery",
+        e: "deep fibular (peroneal) nerve and fibular artery"
     },
     correct: "b",
     explanation: "The anterior compartment of the leg is innervated by the deep fibular (peroneal) nerve and supplied by the anterior tibial artery. The nerve arises from the common fibular nerve after its division and, in addition to motor innervation, provides sensory supply to the skin of the first interdigital cleft on the dorsum of the foot."
@@ -4762,7 +4762,7 @@ const QUESTION_DATA = {
 {
   id: 295,
   cz: {
-    stem: "Při rekonstrukci mediálního stabilizačního systému kolenního kloubu operatér identifikuje šlachy, které tvoří strukturu pes anserinus superficialis. Která z následujících kombinací svalů se společně upíná do této struktury?",
+    stem: "Při rekonstrukci mediálního stabilizačního systému kolenního kloubu operatér identifikuje šlachy, které tvoří strukturu pes anserinus. Která z následujících kombinací svalů se společně upíná do této struktury?",
     options: {
         a: "M. sartorius, m. gracilis, m. semitendinosus",
         b: "M. sartorius, m. gracilis, m. semimembranosus",
@@ -4771,19 +4771,19 @@ const QUESTION_DATA = {
         e: "M. biceps femoris, m. gracilis, m. semimembranosus"
     },
     correct: "a",
-    explanation: "Pes anserinus superficialis je společný úpon svalů m. sartorius, m. gracilis a m. semitendinosus na vnitřní stranu kolene. Tyto svaly jsou postupně inervovány z n. femoralis, n. obturatorius a n. ischiadicus. Celá struktura slouží jako dynamický stabilizátor kolene."
+    explanation: "Pes anserinus je společný úpon svalů m. sartorius, m. gracilis a m. semitendinosus na vnitřní stranu kolene. Tyto svaly jsou postupně inervovány z n. femoralis, n. obturatorius a n. ischiadicus. Celá struktura slouží jako dynamický stabilizátor kolene."
   },
   en: {
-    stem: "During reconstruction of the medial stabilizing system of the knee joint, the surgeon identifies the tendons that form the structure known as pes anserinus superficialis. Which of the following combinations of muscles insert together into this structure?",
+    stem: "During reconstruction of the medial stabilizing system of the knee joint, the surgeon identifies the tendons that form the structure known as pes anserinus. Which of the following combinations of muscles insert together into this structure?",
     options: {
-        a: "M. sartorius, m. gracilis, m. semitendinosus",
-        b: "M. sartorius, m. gracilis, m. semimembranosus",
-        c: "M. rectus femoris, m. gracilis, m. semitendinosus",
-        d: "M. sartorius, m. adductor longus, m. semitendinosus",
-        e: "M. biceps femoris, m. gracilis, m. semimembranosus"
+        a: "Sartorius muscle, gracilis muscle, semitendinosus muscle",
+        b: "Sartorius muscle, gracilis muscle, semimembranosus muscle",
+        c: "Rectus femoris muscle, gracilis muscle, semitendinosus muscle",
+        d: "Sartorius muscle, adductor longus muscle, semitendinosus muscle",
+        e: "Biceps femoris muscle, gracilis muscle, semimembranosus muscle"
     },
     correct: "a",
-    explanation: "Pes anserinus superficialis is the common insertion of the muscles m. sartorius, m. gracilis, and m. semitendinosus on the medial side of the knee. These muscles are innervated by the femoral nerve, obturator nerve, and sciatic nerve, respectively. The entire structure serves as a dynamic stabilizer of the knee joint."
+    explanation: "Pes anserinus is the common insertion of the muscles sartorius, gracilis, and semitendinosus on the medial side of the knee. These muscles are innervated by the femoral nerve, obturator nerve, and sciatic nerve, respectively. The entire structure serves as a dynamic stabilizer of the knee joint."
   }
 },
 {
@@ -4798,7 +4798,7 @@ const QUESTION_DATA = {
         e: "Nervus femoralis, nervus obturatorius a nervus tibialis"
     },
     correct: "a",
-    explanation: "Tři svaly upínající se pod condylus medialis tibiae pocházejí ze tří různých svalových skupin, a proto má každý odlišnou inervaci. M. sartorius je přední sval stehna inervovaný z n. femoralis, m. gracilis je adduktor inervovaný z n. obturatorius a m. semitendinosus is zadní sval stehna inervovaný z n. ischiadicus."
+    explanation: "Tři svaly upínající se pod condylus medialis tibiae pocházejí ze tří různých svalových skupin, a proto má každý odlišnou inervaci. M. sartorius je přední sval stehna inervovaný z n. femoralis, m. gracilis je adduktor inervovaný z n. obturatorius a m. semitendinosus je zadní sval stehna inervovaný z n. ischiadicus."
   },
   en: {
     stem: "During revision of the medial side of the knee joint, the surgeon dissects the tendons of three muscles that insert together on the medial condyle of the tibia (specifically just below it). From which combination of nerves is this group of three muscles innervated?",
@@ -4810,7 +4810,7 @@ const QUESTION_DATA = {
         e: "Femoral nerve, obturator nerve, and tibial nerve"
     },
     correct: "a",
-    explanation: "The three muscles inserting below the medial condyle of the tibia originate from three different muscle groups, and therefore each has a different innervation. M. sartorius is an anterior thigh muscle innervated by the femoral nerve, m. gracilis is an adductor innervated by the obturator nerve, and m. semitendinosus is a posterior thigh muscle innervated by the sciatic nerve."
+    explanation: "The three muscles inserting below the medial condyle of the tibia originate from three different muscle groups, and therefore each has a different innervation. The sartorius muscle is an anterior thigh muscle innervated by the femoral nerve, the gracilis muscle is an adductor innervated by the obturator nerve, and the semitendinosus muscle is a posterior thigh muscle innervated by the sciatic nerve."
   }
 },
 {
@@ -5387,7 +5387,7 @@ const QUESTION_DATA = {
   {
     "id": 322,
     "cz": {
-      "stem": "53letý pacient podstupuje chirurgický výkon v oblasti zadní strany kolenního kloubu. Chirurg identifikuje struktury probíhající ve fossa poplitea a musí znát their vzájemné uspořádání, aby zabránil poranění neurovaskulárního svazku. Jaké je správné uspořádání hlavních struktur ve fossa poplitea z povrchu do hloubky?",
+      "stem": "Jaké je správné uspořádání struktur ve fossa poplitea z povrchu do hloubky?",
       "options": {
         "a": "n. tibialis – v. poplitea – a. poplitea",
         "b": "a. poplitea – v. poplitea – n. tibialis",
@@ -5399,7 +5399,7 @@ const QUESTION_DATA = {
       "explanation": "Ve fossa poplitea jsou hlavní struktury uspořádány z povrchu do hloubky jako nervus tibialis → vena poplitea → arteria poplitea. Arterie leží nejhlouběji přímo na femuru a pouzdru kolenního kloubu, zatímco nerv je nejpovrchnější a nejvíce ohrožený při traumatech v této oblasti."
     },
     "en": {
-      "stem": "A 53-year-old patient undergoes a surgical procedure in the posterior region of the knee joint. The surgeon identifies structures passing through the popliteal fossa (fossa poplitea) and must know their relative arrangement to avoid injury to the neurovascular bundle. What is the correct arrangement of the main structures in the popliteal fossa from superficial to deep?",
+      "stem": "What is the correct arrangement of the structures in the popliteal fossa from superficial to deep?",
       "options": {
         "a": "Tibial nerve – popliteal vein – popliteal artery",
         "b": "Popliteal artery – popliteal vein – tibial nerve",
@@ -5408,7 +5408,7 @@ const QUESTION_DATA = {
         "e": "Tibial nerve – popliteal vein – common fibular nerve"
       },
       "correct": "a",
-      "explanation": "In the popliteal fossa (fossa poplitea), the main structures are arranged from superficial to deep as follows: tibial nerve → popliteal vein → popliteal artery. The artery lies the deepest, directly on the femur and the capsule of the knee joint, while the nerve is the most superficial and therefore most vulnerable to trauma in this region."
+      "explanation": "In the popliteal fossa, the main structures are arranged from superficial to deep as follows: tibial nerve → popliteal vein → popliteal artery. The artery lies the deepest, directly on the femur and the capsule of the knee joint, while the nerve is the most superficial and therefore most vulnerable to trauma in this region."
     }
   },
   {
@@ -6791,7 +6791,7 @@ const QUESTION_DATA = {
   {
     "id": 386,
     "cz": {
-      "stem": "Při operačním výkonu v oblasti zadní části bérce je nutné znát cévní zásobení svalových skupin. Která z následujících možností správně popisuje cévu zásobující dorzální skupinu svalů bérce a její původ?",
+      "stem": "Která z následujících možností správně popisuje cévu zásobující dorzální skupinu svalů bérce a její původ?",
       "options": {
         "a": "Arteria tibialis posterior – odstupuje z arteria poplitea",
         "b": "Arteria tibialis posterior – odstupuje z arteria femoralis",
@@ -6803,7 +6803,7 @@ const QUESTION_DATA = {
       "explanation": "Zadní (dorzální) skupina svalů bérce je zásobena především arteria tibialis posterior, která vzniká rozdělením arteria poplitea. Arteria fibularis je její větev a zásobuje zejména laterální část zadního kompartmentu. Arteria tibialis anterior naopak zásobuje přední (extenzorovou) skupinu svalů bérce."
     },
     "en": {
-      "stem": "During a surgical procedure in the posterior region of the leg, knowledge of the vascular supply of the muscle compartments is essential. Which of the following options correctly describes the vessel supplying the posterior compartment muscles of the leg and its origin?",
+      "stem": "Which of the following options correctly describes the vessel supplying the posterior compartment muscles of the leg and its origin?",
       "options": {
         "a": "Posterior tibial artery – arises from the popliteal artery",
         "b": "Posterior tibial artery – arises from the femoral artery",
@@ -7221,33 +7221,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 402,
-    "cz": {
-      "stem": "Po úrazu v oblasti hlezna je na zobrazovacím vyšetření hodnocena anatomicky významný prostor sinus tarsi, který obsahuje důležité stabilizační struktury subtalárního kloubu. Která z následujících možností správně popisuje kostěné struktury tvořící tuto oblast?",
-      "options": {
-        "a": "Sulcus tali na talu a sulcus calcanei na calcaneu",
-        "b": "Sulcus tali na talu a sulcus malleolaris lateralis na fibule",
-        "c": "Sulcus calcanei na calcaneu a sulcus malleolaris medialis na tibii",
-        "d": "Sulcus tali na talu a sulcus navicularis na os naviculare",
-        "e": "Sulcus malleolaris lateralis na fibule, sulcus malleolaris medialis na tibii"
-      },
-      "correct": "a",
-      "explanation": "Sinus tarsi vzniká spojením sulcus tali na talu a sulcus calcanei na calcaneu. Nachází se laterálně mezi talem a calcaneem a obsahuje zejména ligamentum talocalcaneum interosseum, které stabilizuje subtalární kloub."
-    },
-    "en": {
-      "stem": "After an ankle injury, the anatomically significant space sinus tarsi is evaluated on imaging, which contains important stabilizing structures of the subtalar joint. Which of the following options correctly describes the bony structures forming this region?",
-      "options": {
-        "a": "Talus groove on the talus and calcaneal groove on the calcaneus",
-        "b": "Talus groove on the talus and lateral malleolar groove on the fibula",
-        "c": "Calcaneal groove on the calcaneus and medial malleolar groove on the tibia",
-        "d": "Talus groove on the talus and navicular groove on the navicular bone",
-        "e": "Lateral malleolar groove on the fibula and medial malleolar groove on the tibia"
-      },
-      "correct": "a",
-      "explanation": "The sinus tarsi is formed by the union of the sulcus tali on the talus and the sulcus calcanei on the calcaneus. It is located laterally between the talus and calcaneus and contains mainly the interosseous talocalcaneal ligament, which stabilizes the subtalar joint."
-    }
-  },
-  {
     "id": 403,
     "cz": {
       "stem": "Při vyšetření subtalárního kloubu je hodnocena oblast sinus tarsi, která obsahuje důležité anatomické struktury. Která z následujících možností správně popisuje struktury procházející sinus tarsi?",
@@ -7434,33 +7407,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The abductor hallucis muscle lies in the first layer of the plantar muscles on the medial side of the foot. It originates from the region of the calcaneal tuberosity and inserts on the proximal phalanx of the great toe. It is responsible for abduction of the great toe and contributes to maintaining the medial longitudinal arch. It is innervated by the medial plantar nerve."
-    }
-  },
-  {
-    "id": 481,
-    "cz": {
-      "stem": "Mladý fotbalista utrpěl poranění v oblasti plantární strany prvního metatarzofalangeálního kloubu. Po zhojení má obtíže provádět specifické pohyby palce. Při vyšetření je oslaben sval, který je uložen v třetí vrstvě planty, má dvě hlavy a jeho příčná hlava se podílí na stabilizaci přední části příčné klenby nohy. Který sval je nejpravděpodobněji postižen?",
-      "options": {
-        "a": "Musculus adductor hallucis",
-        "b": "Musculus flexor hallucis longus",
-        "c": "Musculus flexor hallucis brevis",
-        "d": "Musculus abductor hallucis",
-        "e": "Musculus interosseus I"
-      },
-      "correct": "a",
-      "explanation": "Musculus adductor hallucis leží ve třetí vrstvě planty a skládá se z caput obliquum a caput transversum. Zajišťuje addukci palce a jeho příčná hlava se podílí na stabilizaci příčné klenby nohy. Musculus flexor hallucis brevis má také dvě hlavy, ale jeho hlavní funkcí je flexe palce."
-    },
-    "en": {
-      "stem": "A young football player sustained an injury in the plantar region of the first metatarsophalangeal joint. After healing, he has difficulty performing specific movements of the great toe. On examination, a muscle located in the third layer of the plantar muscles is weakened. The muscle has two heads, and its transverse head contributes to stabilization of the anterior part of the transverse arch of the foot.Which muscle is most likely affected?",
-      "options": {
-        "a": "Adductor hallucis muscle",
-        "b": "Flexor hallucis longus muscle",
-        "c": "Flexor hallucis brevis muscle",
-        "d": "Abductor hallucis muscle",
-        "e": "First interosseous muscle"
-      },
-      "correct": "a",
-      "explanation": "The adductor hallucis muscle lies in the third layer of the plantar muscles and consists of the oblique head and the transverse head. It is responsible for adduction of the great toe, and its transverse head contributes to the stabilization of the transverse arch of the foot. The flexor hallucis brevis muscle also has two heads, but its main function is flexion of the great toe."
     }
   },
   {
@@ -8239,7 +8185,7 @@ const QUESTION_DATA = {
 {
   id: 86,
   cz: {
-    stem: "Atlas (C1) nemá tělo obratle a kloubí se s dens axis, který vznikl evolučně srůstem těla atlasu s axisem. Který vaz fixuje dens axis k zadní ploše přední oblouku atlasu a zabraňuje jeho posteriornímu posunu?",
+    stem: "Který vaz fixuje dens axis k zadní ploše přední oblouku atlasu a zabraňuje jeho posteriornímu posunu?",
     options: {
       a: "lig. apicis dentis",
       b: "lig. transversum atlantis",
@@ -8248,19 +8194,19 @@ const QUESTION_DATA = {
       e: "membrana tectoria"
     },
     correct: "b",
-    explanation: "Lig. transversum atlantis probíhá mezi vnitřními ploškami massae laterales atlasu a fixuje dens axis zezadu k arcus anterior atlantis. Jeho ruptura (např. při traumatu nebo u revmatoidní artritidy) umožňuje posteriorní posun densu do canalis vertebralis s rizikem komprese míchy."
+    explanation: "Lig. transversum atlantis probíhá mezi vnitřními ploškami massae laterales atlasu a fixuje dens axis zezadu k arcus anterior atlantis. Jeho ruptura (např. při traumatu nebo u revmatoidní artritidy) umožňuje posteriorní posun dens axis do canalis vertebralis s rizikem komprese míchy."
   },
   en: {
-    stem: "The atlas (C1) has no vertebral body and articulates with the dens of the axis, which evolutionarily arises from fusion of the atlas body with the axis. Which ligament anchors the dens of the axis to the posterior surface of the anterior arch of the atlas and prevents its posterior displacement?",
+    stem: "Which ligament anchors the dens of the axis to the posterior surface of the anterior arch of the atlas and prevents its posterior displacement?",
     options: {
-      a: "apical ligament of the dens (lig. apicis dentis)",
-      b: "transverse ligament of the atlas (lig. transversum atlantis)",
-      c: "alar ligaments (lig. alaria)",
-      d: "anterior longitudinal ligament (lig. longitudinale anterius)",
-      e: "tectorial membrane (membrana tectoria)"
+      a: "apical ligament of the dens",
+      b: "transverse ligament of the atlas",
+      c: "alar ligaments",
+      d: "anterior longitudinal ligament",
+      e: "tectorial membrane"
     },
     correct: "b",
-    explanation: "The lig. transversum atlantis runs between the medial surfaces of the lateral masses of the atlas and secures the dens of the axis posteriorly to the anterior arch of the atlas. Its rupture (e.g., in trauma or rheumatoid arthritis) allows posterior displacement of the dens into the vertebral canal with a risk of spinal cord compression."
+    explanation: "The transverse ligament of the atlas runs between the medial surfaces of the lateral masses of the atlas and secures the dens of the axis posteriorly to the anterior arch of the atlas. Its rupture (e.g., in trauma or rheumatoid arthritis) allows posterior displacement of the dens into the vertebral canal with a risk of spinal cord compression."
   }
 },
 {
