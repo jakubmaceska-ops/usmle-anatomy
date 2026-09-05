@@ -10157,6 +10157,34 @@ id: 269,
   },
   image: { key: "q1105_custom", source: "James Heilman, MD. Inquinalhernia.png. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
 },
+{
+  id: 1108,
+  cz: {
+    stem: "Jaký typ hernie je přítomen na přiloženém CT?",
+    options: {
+        a: "hernia inguinalis",
+        b: "hernia femoralis",
+        c: "hernia obturatoria",
+        d: "hernia lumbalis",
+        e: "hernia epigastrica"
+    },
+    correct: "c",
+    explanation: "Na CT je zobrazena hernia obturatoria. Jedná se o vzácný typ hernie, při kterém břišní obsah prochází canalis obturatorius do oblasti mediální strany stehna. Vzhledem k průběhu nervus obturatorius a cév může být spojena s jejich útlakem. Tento typ hernie se častěji vyskytuje u starších a hubených žen a může dlouho zůstat klinicky málo nápadná. K jejím komplikacím patří zejména inkarcerace a strangulace herniovaného střeva."
+  },
+  en: {
+    stem: "What type of hernia is present on the attached CT scan?",
+    options: {
+        a: "inguinal hernia",
+        b: "femoral hernia",
+        c: "obturator hernia",
+        d: "lumbar hernia",
+        e: "epigastric hernia"
+    },
+    correct: "c",
+    explanation: "The CT scan shows an obturator hernia. This is a rare type of hernia in which abdominal contents pass through the obturator canal into the medial aspect of the thigh. Due to the course of the obturator nerve and vessels, it may be associated with compression of these structures. Obturator hernias occur more commonly in elderly, thin women and may remain clinically subtle for a long time. Major complications include incarceration and strangulation of the herniated bowel."
+  },
+  image: { key: "q1108_custom", source: "Immanueltjahjadi. 12893 2021 1125 Fig1 HTML.webp. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 4.0. Accessed 5 September 2026.", type: "image" }
+},
 ]
       }
 
