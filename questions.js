@@ -14654,6 +14654,35 @@ id: 269,
   },
   image: { key: "q1106_custom", source: "Mikael Häggström. Appendix locations.svg. (modified) Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" },
   explanationImage: { key: "e1106_custom", source: "Mikael Häggström. Appendix locations.svg. Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" }
+},
+{
+  id: 1107,
+  cz: {
+    stem: "Na obrázku jsou znázorněny různé polohy appendixu označené čísly. Která poloha je nejnebezpečnější pro přímé šíření infekce na pravé ovarium a vejcovod při appendicitidě?",
+    options: {
+        a: "1",
+        b: "2",
+        c: "3",
+        d: "4",
+        e: "5"
+    },
+    correct: "e",
+    explanation: "Číslo 5 označuje pelvickou polohu appendixu. Appendix v této poloze sestupuje do malé pánve a může být v těsné blízkosti pravého ovaria a vejcovodu. Při appendicitidě nebo perforaci proto může dojít k přímému šíření infekce a vzniku tubo-ovariálního abscesu. Pelvická poloha se vyskytuje přibližně u 32 % populace."
+  },
+  en: {
+    stem: "The image shows different positions of the appendix, labeled with numbers. Which position is the most dangerous for direct spread of infection to the right ovary and fallopian tube in appendicitis?",
+    options: {
+        a: "1",
+        b: "2",
+        c: "3",
+        d: "4",
+        e: "5"
+    },
+    correct: "e",
+    explanation: "Number 5 indicates the pelvic position of the appendix. In this position, the appendix descends into the pelvis and may lie in close proximity to the right ovary and fallopian tube. Therefore, in cases of appendicitis or perforation, infection may spread directly to these structures, potentially resulting in a tubo-ovarian abscess. The pelvic position occurs in approximately 32% of the population."
+  },
+  image: { key: "q1106_custom", source: "Mikael Häggström. Appendix locations.svg. (modified) Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" },
+  explanationImage: { key: "e1106_custom", source: "Mikael Häggström. Appendix locations.svg. Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" }
 },]
       },
       dychaci_soustava: {
