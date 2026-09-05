@@ -8110,7 +8110,7 @@ const QUESTION_DATA = {
         e: "m. latissimus dorsi"
     },
     correct: "a",
-    explanation: "M. quadratus lumborum:\n- začíná na crista iliaca\n- upíná se na 12. žebro a příčné výběžky obratlů L1–L4\n- leží v zadní stěně břišní (retroperitoneálním prostoru)"
+    explanation: "M. quadratus lumborum:\n- začíná na crista iliaca, \n- upíná se na 12. žebro a příčné výběžky obratlů L1–L4, \n- leží v zadní stěně břišní (retroperitoneálním prostoru)."
   },
   en: {
     stem: "A 54-year-old man presents to the emergency department after a motor vehicle collision. He complains of severe flank pain and has significant tenderness in the left posterolateral abdominal wall. CT imaging reveals a retroperitoneal hematoma involving a muscle that extends from the iliac crest to the 12th rib and transverse processes of the upper lumbar vertebrae. Which of the following muscles is most likely involved?",
@@ -8122,7 +8122,7 @@ const QUESTION_DATA = {
         e: "latissimus dorsi muscle"
     },
     correct: "a",
-    explanation: "The quadratus lumborum:\n- originates from iliac crest\n- inserts into 12th rib and transverse processes of L1–L4\n- lies in the posterior abdominal wall (retroperitoneal space)"
+    explanation: "The quadratus lumborum:\n- originates from iliac crest, \n- inserts into 12th rib and transverse processes of L1–L4, \n- lies in the posterior abdominal wall (retroperitoneal space)."
   }
 },
 { 
@@ -14625,6 +14625,35 @@ id: 269,
     explanation: "The image shows a CT scan of acute exudative pancreatitis, with fluid collections surrounding the pancreas clearly visible. The pancreas does not show decreased contrast enhancement, which would indicate the presence of necrosis. The findings therefore correspond to acute pancreatitis without evidence of pancreatic necrosis.\nAcute gastritis affects the gastric mucosa, acute enteritis affects the small intestine, acute hepatitis affects the liver parenchyma, and acute cholecystitis affects the gallbladder."
   },
   image: { key: "q1104_custom", source: "Hellerhoff. Pankreatitis exsudativ CT axial.jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
+},
+{
+  id: 1106,
+  cz: {
+    stem: "Na obrázku jsou znázorněny různé anatomické polohy appendixu označené čísly. Které číslo označuje jeho nejčastější polohu?",
+    options: {
+        a: "1",
+        b: "2",
+        c: "3",
+        d: "4",
+        e: "5"
+    },
+    correct: "a",
+    explanation: "Na obrázku číslo 1 označuje retrocékální polohu appendixu, která je nejčastější a vyskytuje se přibližně u 64 % lidí. Appendix se v této poloze nachází za caecem. Pelvická poloha je druhou nejčastější, přibližně u 32 % lidí. Subcékální poloha se vyskytuje asi ve 2 %, preileální přibližně v 1 % a postileální asi u 0,5 % lidí."
+  },
+  en: {
+    stem: "The image shows different anatomical positions of the appendix, labeled with numbers. Which number indicates the most common position of the appendix?",
+    options: {
+        a: "1",
+        b: "2",
+        c: "3",
+        d: "4",
+        e: "5"
+    },
+    correct: "a",
+    explanation: "In the image, number 1 indicates the retrocecal position of the appendix, which is the most common and occurs in approximately 64% of people. In this position, the appendix is located behind the caecum. The pelvic position is the second most common, occurring in approximately 32% of people. The subcecal position occurs in about 2%, the preileal position in approximately 1%, and the postileal position in about 0.5% of people."
+  },
+  image: { key: "q1106_custom", source: "Mikael Häggström. Appendix locations.svg. (modified) Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" },
+  explanationImage: { key: "e1106_custom", source: "Mikael Häggström. Appendix locations.svg. Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 5 September 2026.", type: "image" }
 },]
       },
       dychaci_soustava: {
