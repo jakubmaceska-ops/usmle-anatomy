@@ -20254,6 +20254,35 @@ id: 269,
   image: { key: "q1101_custom", source: "1: Peyronie. *Peyronie disease.jpg*. (modified) Wikimedia Commons. Available from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peyronie_disease.jpg?utm_source=chatgpt.com). Public domain. Accessed 4 September 2026. 2: Angelatomato. *Peyronie's Disease Ultrasound.jpg*. (modified) Wikimedia Commons. Available from: [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Peyronie%27s_Disease_Ultrasound.jpg?utm_source=chatgpt.com). CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" },
   explanationImage: { key: "e1101_custom", source: "Angelatomato. Peyronie's Disease Ultrasound.jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 3.0. Accessed 4 September 2026.", type: "image" }
 },
+{
+  id: 1109,
+  cz: {
+    stem: "67letý muž přichází s bulkou v levém třísle, která se během posledního roku postupně zvětšovala a nyní zasahuje do skrota. Udává tupou bolest, která se zhoršuje při stání a namáhání, ale ustupuje vleže. Při vyšetření je palpována měkká, reponibilní masa, která se táhne od anulus inguinalis profundus do skrota a nachází se nad varletem. Ultrazvuk potvrzuje kýlní vak, který prochází canalis inguinalis podél funiculus spermaticus.\nKterá z následujících vrstev představuje nejvnitřnější obal tohoto kýlního vaku?",
+    options: {
+        a: "Fascia spermatica externa",
+        b: "Fascia cremasterica",
+        c: "Fascia spermatica interna",
+        d: "Camperova fascie",
+        e: "Scarpova fascie"
+    },
+    correct: "c",
+    explanation: "Jedná se o nepřímou tříselnou kýlu, jejíž vak prochází anulus inguinalis profundus spolu s funiculus spermaticus, a proto získává stejné tři obaly zvenčí dovnitř: fascia spermatica externa (od m. obliquus externus) → fascia cremasterica s m. cremaster (od m. obliquus internus) → fascia spermatica interna (od fascia transversalis), která je nejvnitřnější a přiléhá přímo k tunica vaginalis testis. Camperova a Scarpova fascie jsou vrstvy podkoží břišní stěny a s funiculus spermaticus nesouvisí."
+  },
+  en: {
+    stem: "A 67-year-old man presents with a bulge in his left groin that has progressively increased in size over the past year and now extends into the scrotum. He reports a dull ache that worsens with standing and straining but resolves when lying down. On examination, a soft, reducible mass is palpated extending from the deep inguinal ring into the scrotum and lying superior to the testis. Ultrasound confirms a hernia sac passing through the inguinal canal alongside the spermatic cord.\nWhich of the following layers is the innermost covering of this hernia sac?",
+    options: {
+        a: "External spermatic fascia",
+        b: "Cremasteric fascia",
+        c: "Internal spermatic fascia",
+        d: "Camper's fascia",
+        e: "Scarpa's fascia"
+    },
+    correct: "c",
+    explanation: "This is an indirect inguinal hernia whose sac passes through the deep inguinal ring along with the spermatic cord and therefore acquires the same three coverings from superficial to deep: external spermatic fascia (from the external oblique muscle) → cremasteric fascia with the cremaster muscle (from the internal oblique muscle) → internal spermatic fascia (from the transversalis fascia), which is the innermost layer and lies directly adjacent to the tunica vaginalis testis. Camper's and Scarpa's fasciae are layers of the subcutaneous tissue of the abdominal wall and are not associated with the spermatic cord."
+  },
+  image: { key: "q1109_custom", source: "Mikael Häggström. Ultrasonography of inguinal hernia (annotated).jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 6 September 2026.", type: "image" },
+  explanationImage: { key: "e1109_custom", source: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health. An inguinal hernia with the small intestine, internal inguinal ring, external inguinal ring, pubic bone, penis, spermatic cord, and testes labeled. NIDDK Media Library. Available from: https://www.niddk.nih.gov/news/media-library/17832. Public domain (U.S. Government work). Accessed 5 September 2026.", type: "image" }
+},
         ]
       },
       vylucovaci_soustava: {
