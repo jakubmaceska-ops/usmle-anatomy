@@ -18759,6 +18759,34 @@ id: 269,
     explanation: "The middle and inferior rectal veins drain blood from the middle and lower parts of the rectum into the internal iliac veins and subsequently into the inferior vena cava. This allows some of the drug absorbed in these regions to bypass the portal circulation and hepatic first-pass metabolism. In contrast, the superior rectal veins drain blood via the inferior mesenteric vein into the portal vein. Therefore, substances absorbed in the upper part of the rectum pass through the liver before reaching the systemic circulation. Thus, rectal administration can partially bypass the hepatic first-pass effect, but it does not eliminate it completely. Lateral rectal veins is not a standard anatomical term."
   }
 },
+{
+  id: 1110,
+  cz: {
+    stem: "Na přiloženém CT je červeným kruhem označen nádor orgánu lokalizovaného v předním mediastinu. O jaký orgán se jedná?",
+    options: {
+        a: "srdce",
+        b: "thymus",
+        c: "trachea",
+        d: "oesophagus",
+        e: "glandula thyroidea"
+    },
+    correct: "b",
+    explanation: "Na obrázku je označen thymom, tedy nádor thymu. Thymus je lymfatický orgán uložený v předním mediastinu, před velkými cévami a perikardem. U dětí a mladých dospělých je thymus relativně velký, maxima své velikosti dosahuje kolem puberty (přibližně 30–40 g), poté postupně involuje a je nahrazován tukovou tkání. \nThymomy se nejčastěji vyskytují u dospělých středního a vyššího věku a jsou vzácné u dětí. Thymom obvykle roste pomalu a má méně agresivní biologické chování, přesto mají thymomy maligní potenciál a mohou prorůstat do okolních struktur nebo metastazovat. Karcinom thymu je oproti thymomu výrazně agresivnější a častěji metastazuje.\nPro thymom je také typická asociace s autoimunitními onemocněními, především s myasthenia gravis, která se vyskytuje přibližně u 30 % dospělých pacientů s thymomem. Mezi další asociované stavy patří například čistá aplazie červené krevní řady (PRCA - pure red cell aplasia) a hypogamaglobulinémie."
+  },
+  en: {
+    stem: "On the attached CT scan, a tumor of an organ located in the anterior mediastinum is marked with a red circle. Which organ is involved?",
+    options: {
+        a: "heart",
+        b: "thymus",
+        c: "trachea",
+        d: "esophagus",
+        e: "thyroid gland"
+    },
+    correct: "b",
+    explanation: "The image shows a thymoma, a tumor of the thymus. The thymus is a lymphatic organ located in the anterior mediastinum, anterior to the great vessels and pericardium. In children and young adults, the thymus is relatively large and reaches its maximum size around puberty (approximately 30–40 g). It then gradually undergoes involution and is replaced by adipose tissue.\nThymomas most commonly occur in middle-aged and older adults and are rare in children. A thymoma usually grows slowly and has relatively less aggressive biological behavior. Nevertheless, thymomas have malignant potential and may invade surrounding structures or metastasize. Thymic carcinoma is considerably more aggressive than thymoma and is more likely to metastasize.\nThymoma is also characteristically associated with autoimmune diseases, particularly myasthenia gravis, which occurs in approximately 30% of adult patients with thymoma. Other associated conditions include pure red cell aplasia (PRCA) and hypogammaglobulinemia."
+  },
+  image: { key: "q1110_custom", source: "Hellerhoff. Thymom - CT axial - circle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thymom_-_CT_axial_-_circle.jpg. CC BY-SA 3.0. Accessed 7 September 2026.", type: "image" }
+},
 ]
       },
       pohlavni_soustava: {
