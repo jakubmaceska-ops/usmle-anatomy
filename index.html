@@ -1134,7 +1134,7 @@
   .swipe-skip-hint {
     position: absolute;
     top: 50%;
-    right: 18px;
+    left: 18px;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
@@ -4094,7 +4094,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     }
   }
 
-  // Swipe doprava na kartě otázky = přeskočit otázku (posun na další, i bez odpovědi).
+  // Swipe zprava doleva na kartě otázky = přeskočit otázku (posun na další, i bez odpovědi).
   // Funguje pouze na dotykových zařízeních (touch eventy na desktopu nevznikají),
   // takže myš/klik na možnosti/tlačítka není nijak ovlivněn.
   function attachSwipeSkip(card) {
@@ -4109,7 +4109,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       if (hintEl) return hintEl;
       hintEl = document.createElement("div");
       hintEl.className = "swipe-skip-hint";
-      hintEl.innerHTML = `<span>${escapeHtml(tr().skipQuestion)}</span> →`;
+      hintEl.innerHTML = `← <span>${escapeHtml(tr().skipQuestion)}</span>`;
       card.appendChild(hintEl);
       return hintEl;
     }
@@ -4143,16 +4143,16 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       }
 
       dx = curDx;
-      if (dx <= 0) {
-        // doleva/zpět nic neděláme (skip funguje jen doprava)
+      if (dx >= 0) {
+        // doprava nic neděláme (skip funguje jen zprava doleva)
         resetCard(false);
         return;
       }
       e.preventDefault();
-      const clamped = Math.min(dx, 200);
+      const clamped = Math.max(dx, -200);
       card.style.transition = "none";
       card.style.transform = `translateX(${clamped}px) rotate(${(clamped / 40).toFixed(2)}deg)`;
-      const progress = Math.min(clamped / THRESHOLD, 1);
+      const progress = Math.min(Math.abs(clamped) / THRESHOLD, 1);
       const hint = ensureHint();
       hint.style.opacity = String(progress);
       card.classList.toggle("swipe-armed", progress >= 1);
@@ -4161,10 +4161,10 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     function onTouchEnd() {
       if (!tracking) return;
       tracking = false;
-      if (horizontalLock && dx > THRESHOLD) {
+      if (horizontalLock && dx < -THRESHOLD) {
         finished = true;
         card.style.transition = "transform 0.22s ease, opacity 0.22s ease";
-        card.style.transform = "translateX(130%) rotate(8deg)";
+        card.style.transform = "translateX(-130%) rotate(-8deg)";
         card.style.opacity = "0";
         setTimeout(() => nextQuestion(), 190);
       } else {
