@@ -4035,7 +4035,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       if (live.sessionId) liveSaveAnswers(live.sessionId, state.answers);
       livePublishProgress();
     }
-    render();
+    render({ preserveScroll: true });
   }
 
   function prevQuestion() {
@@ -4107,7 +4107,10 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
   }
 
   // ============ RENDER ============
-  function render() {
+  function render(opts = {}) {
+    const preserveScroll = !!opts.preserveScroll;
+    const scrollY = preserveScroll ? window.scrollY : 0;
+
     const root = document.getElementById("view-root");
     root.innerHTML = "";
     root.classList.toggle("container-wide", state.view === "home");
@@ -4124,7 +4127,11 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     else if (state.view === "live") root.appendChild(renderLive());
     else if (state.view === "daily") root.appendChild(renderDaily());
 
-    window.scrollTo({ top: 0, behavior: "auto" });
+    if (preserveScroll) {
+      window.scrollTo({ top: scrollY, behavior: "auto" });
+    } else {
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
     syncHwBackHistory();
   }
 
