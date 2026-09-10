@@ -1123,6 +1123,36 @@
     padding: 36px;
     margin-bottom: 20px;
     position: relative;
+    touch-action: pan-y;
+    will-change: transform;
+  }
+
+  .question-card.swipe-armed {
+    border-color: var(--line-strong);
+  }
+
+  .swipe-skip-hint {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    background: var(--bg-hover-strong);
+    color: var(--ink-soft);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 640px) {
+    .swipe-skip-hint { display: flex; }
   }
 
   .fav-btn {
@@ -2899,6 +2929,7 @@ function chapterImageSrc(chapterKey) {
       next: "Další otázka",
       prev: "Předchozí otázka",
       finish: "Zobrazit výsledky",
+      skipQuestion: "Přeskočit",
       explanationLabel: "Řešení",
       imageSource: "Zdroj obrázku",
       imageSourceShow: "Citace obrázku (zobrazit)",
@@ -3139,6 +3170,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       next: "Next question",
       prev: "Previous question",
       finish: "Show results",
+      skipQuestion: "Skip",
       explanationLabel: "Explanation",
       imageSource: "Image source",
       imageSourceShow: "Image citation (show)",
@@ -4060,6 +4092,88 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     } else {
       finishQuiz();
     }
+  }
+
+  // Swipe doprava na kartě otázky = přeskočit otázku (posun na další, i bez odpovědi).
+  // Funguje pouze na dotykových zařízeních (touch eventy na desktopu nevznikají),
+  // takže myš/klik na možnosti/tlačítka není nijak ovlivněn.
+  function attachSwipeSkip(card) {
+    const THRESHOLD = 90; // px potřebné k potvrzení přeskočení
+    let startX = 0, startY = 0, dx = 0;
+    let tracking = false;      // dotyk aktivní
+    let horizontalLock = null; // null = nerozhodnuto, true/false po prvním pohybu
+    let finished = false;
+    let hintEl = null;
+
+    function ensureHint() {
+      if (hintEl) return hintEl;
+      hintEl = document.createElement("div");
+      hintEl.className = "swipe-skip-hint";
+      hintEl.innerHTML = `<span>${escapeHtml(tr().skipQuestion)}</span> →`;
+      card.appendChild(hintEl);
+      return hintEl;
+    }
+
+    function resetCard(animated) {
+      card.style.transition = animated ? "transform 0.2s ease" : "none";
+      card.style.transform = "";
+      if (hintEl) hintEl.style.opacity = "0";
+      card.classList.remove("swipe-armed");
+    }
+
+    card.addEventListener("touchstart", (e) => {
+      if (finished || e.touches.length !== 1) return;
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      dx = 0;
+      tracking = true;
+      horizontalLock = null;
+    }, { passive: true });
+
+    card.addEventListener("touchmove", (e) => {
+      if (!tracking || finished) return;
+      const t = e.touches[0];
+      const curDx = t.clientX - startX;
+      const curDy = t.clientY - startY;
+
+      if (horizontalLock === null) {
+        if (Math.abs(curDx) < 10 && Math.abs(curDy) < 10) return; // ještě nerozhodnuto
+        horizontalLock = Math.abs(curDx) > Math.abs(curDy) * 1.2;
+        if (!horizontalLock) { tracking = false; return; } // svislý posun -> necháme normální scroll
+      }
+
+      dx = curDx;
+      if (dx <= 0) {
+        // doleva/zpět nic neděláme (skip funguje jen doprava)
+        resetCard(false);
+        return;
+      }
+      e.preventDefault();
+      const clamped = Math.min(dx, 200);
+      card.style.transition = "none";
+      card.style.transform = `translateX(${clamped}px) rotate(${(clamped / 40).toFixed(2)}deg)`;
+      const progress = Math.min(clamped / THRESHOLD, 1);
+      const hint = ensureHint();
+      hint.style.opacity = String(progress);
+      card.classList.toggle("swipe-armed", progress >= 1);
+    }, { passive: false });
+
+    function onTouchEnd() {
+      if (!tracking) return;
+      tracking = false;
+      if (horizontalLock && dx > THRESHOLD) {
+        finished = true;
+        card.style.transition = "transform 0.22s ease, opacity 0.22s ease";
+        card.style.transform = "translateX(130%) rotate(8deg)";
+        card.style.opacity = "0";
+        setTimeout(() => nextQuestion(), 190);
+      } else {
+        resetCard(true);
+      }
+    }
+
+    card.addEventListener("touchend", onTouchEnd);
+    card.addEventListener("touchcancel", () => { tracking = false; resetCard(true); });
   }
 
   function finishQuiz() {
@@ -6075,6 +6189,8 @@ ${optionsObjCodeEn}
       if (explImgWrap) expl.appendChild(explImgWrap);
     }
     card.appendChild(expl);
+
+    attachSwipeSkip(card);
 
     frag.appendChild(card);
 
