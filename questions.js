@@ -78,7 +78,7 @@ const QUESTION_DATA = {
           {
             id: 6,
             cz: {
-              stem: "Mladý muž spadl na extendovanou ruku při zachytávání pádu. Na RTG byla diagnostikována fraktura os scaphoideum. Lékař se obává poškození tepny probíhající přes prostor nazývaný „fossa tabatière“. O kterou arterii se jedná?",
+              stem: "Mladý muž spadl na extendovanou ruku. Na RTG byla diagnostikována fraktura os scaphoideum. Která arterie mohla být tímto zraněním nejpravděpodobněji poškozena?",
               options: {
                 a: "a. ulnaris",
                 b: "a. interossea anterior",
@@ -87,10 +87,10 @@ const QUESTION_DATA = {
                 e: "arcus palmaris superficialis"
               },
               correct: "c",
-              explanation: "A. radialis probíhá přes dno anatomické tabatěrky, ohraničené šlachami m. extensor pollicis longus a m. abductor pollicis longus/m. extensor pollicis brevis, než vstupuje do dlaně. Fraktura os scaphoideum proto může vést k poškození této tepny a ohrožení cévního zásobení skafoidní kosti."
+              explanation: "A. radialis probíhá přes dno foveola radialis (fossa tabatière), ohraničené šlachami m. extensor pollicis longus a m. abductor pollicis longus/m. extensor pollicis brevis, než vstupuje do dlaně. Fraktura os scaphoideum proto může vést k poškození této tepny."
             },
             en: {
-              stem: "A young man fell on an outstretched hand while bracing himself during a fall. X-ray reveals a fracture of the scaphoid bone. The physician is concerned about injury to the artery that runs across the anatomical snuffbox. Which artery is this?",
+              stem: "A young man fell on an outstretched hand. An X-ray diagnosed a fracture of the scaphoid bone. Which artery was most likely damaged by this injury?",
               options: {
                 a: "Ulnar artery",
                 b: "Anterior interosseous artery",
@@ -99,7 +99,7 @@ const QUESTION_DATA = {
                 e: "Superficial palmar arch"
               },
               correct: "c",
-              explanation: "The radial artery runs across the floor of the anatomical snuffbox, bordered by the tendons of extensor pollicis longus and abductor pollicis longus/extensor pollicis brevis, before entering the palm. A scaphoid fracture can therefore injure this artery and compromise the blood supply to the scaphoid bone."
+              explanation: "The radial artery runs across the floor of the anatomical snuffbox, bordered by the tendons of extensor pollicis longus muscle and abductor pollicis longus muscle/extensor pollicis brevis muscle, before entering the palm. A scaphoid fracture can therefore injure this artery."
             }
           },
             {
@@ -1040,7 +1040,7 @@ const QUESTION_DATA = {
 {
   id: 127,
   cz: {
-    stem: "45letý muž po usnutí s paží přehozenou přes opěradlo židle vykazuje motorický deficit specificky při kompresi nervu inervujícího strukturu označenou na MRI snímku číslem 1. Jaké svaly a jaký dermatom budou nefunkčností tohoto nervu postiženy?",
+    stem: "45letý muž usnul s paží přehozenou přes opěradlo židle a vykazuje motorický deficit kvůli kompresi nervu, který mimojiné inervuje strukturu označenou na MRI snímku číslem 1. Jaké svaly z nabídky a jaký dermatom budou nefunkčností tohoto nervu postiženy?",
     options: {
         a: "m. supinator, m. anconeus a kůže prvního meziprstního prostoru na hřbetu ruky",
         b: "m. brachioradialis, m. pronator teres a kůže laterální strany předloktí",
@@ -1049,19 +1049,19 @@ const QUESTION_DATA = {
         e: "m. extensor indicis, m. brachioradialis a kůže dlaně na radiální straně"
     },
     correct: "a",
-    explanation: "Uvedený mechanismus (usnutí s paží přes židli) popisuje tzv. „obrnu sobotní noci“ (Saturday night palsy), při které dochází ke kompresi nervus radialis. Tento nerv inervuje m. triceps brachii (struktura na MRI) a z nabízených možností čistě pod nervus radialis spadá m. supinator, m. anconeus a senzitivní kůže 1. meziprstního prostoru na hřbetu ruky (nervus cutaneus antebrachii posterior / ramus superficialis)."
+    explanation: "Uvedený mechanismus (usnutí s paží přes židli) popisuje tzv. „obrnu sobotní noci“ (Saturday night palsy), při které dochází ke kompresi nervus radialis. Tento nerv inervuje m. triceps brachii (struktura na MRI) a z nabízených možností čistě pod nervus radialis spadá m. supinator, m. anconeus a senzitivní inervace kůže 1. meziprstního prostoru na hřbetu ruky (nervus cutaneus antebrachii posterior / ramus superficialis)."
   },
   en: {
-    stem: "45-year-old man, after falling asleep with his arm draped over the backrest of a chair, exhibits a motor deficit specifically due to compression of the nerve innervating the structure marked with the number 1 on the MRI scan. Which muscles and which dermatome will be affected by dysfunction of this nerve?",
+    stem: "A 45-year-old man fell asleep with his arm draped over the back of a chair and shows a motor deficit due to compression of the nerve that, among other structures, innervates the structure marked with number 1 on the MRI image. Which muscles from the options and which dermatome will be affected by dysfunction of this nerve?",
     options: {
-        a: "m. supinator, m. anconeus, and the skin of the first interdigital space on the back of the hand",
-        b: "m. brachioradialis, m. pronator teres, and the skin of the lateral side of the forearm",
-        c: "m. brachialis, m. extensor carpi radialis longus, and the skin of the palm for the 1st and 2nd fingers",
-        d: "m. abductor pollicis longus, m. flexor carpi radialis, and the skin of the thenar eminence",
-        e: "m. extensor indicis, m. brachioradialis, and the skin of the palm on the radial side"
+        a: "supinator muscle, anconeus muscle, and skin of the first interdigital space on the dorsum of the hand",
+        b: "brachioradialis muscle, pronator teres muscle, and skin of the lateral forearm",
+        c: "brachialis muscle, extensor carpi radialis longus muscle, and skin of the palm for the 1st and 2nd fingers",
+        d: "abductor pollicis longus muscle, flexor carpi radialis muscle, and skin of the thenar eminence",
+        e: "extensor indicis muscle, brachioradialis muscle, and skin of the palmar radial side"
     },
     correct: "a",
-    explanation: "The specified mechanism (falling asleep with an arm draped over a chair) describes \"Saturday night palsy,\" during which compression of the radial nerve occurs. This nerve innervates the m. triceps brachii (the structure on the MRI), and from the options provided, the m. supinator, m. anconeus, and the sensitive skin of the 1st interdigital space on the back of the hand (posterior cutaneous nerve of the forearm / superficial branch) fall strictly under the radial nerve."
+    explanation: "The specified mechanism (falling asleep with an arm draped over a chair) describes \"Saturday night palsy,\" during which compression of the radial nerve occurs. This nerve innervates the triceps brachii muscle (the structure on the MRI), and from the options provided, the supinator muscle, anconeus muscle, and the sensitive skin of the 1st interdigital space on the back of the hand (posterior cutaneous nerve of the forearm / superficial branch) fall strictly under the radial nerve."
   },
   image: { key: "q127_custom", source: "RSatUSZ. MRI of intact triceps tendon, axial (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:MRI._intact_triceps_tendon_axial..jpg. Accessed 1 July 2026." }
 },
@@ -3383,33 +3383,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 45,
-  cz: {
-    stem: "Nejdelší sval lidského těla, probíhající od spina iliaca anterior superior šikmo přes přední stranu stehna k pes anserinus na mediální straně tibie, je inervován kterým nervem?",
-    options: {
-        a: "n. obturatorius",
-        b: "n. femoralis",
-        c: "n. ischiadicus",
-        d: "n. gluteus superior",
-        e: "n. cutaneus femoris lateralis"
-    },
-    correct: "b",
-    explanation: "M. sartorius (krejčovský sval) je inervován n. femoralis. Podílí se na flexi, abdukci a zevní rotaci v kyčli a flexi v koleni."
-  },
-  en: {
-    stem: "The longest muscle in the human body, running from the anterior superior iliac spine obliquely across the anterior aspect of the thigh to the pes anserinus on the medial side of the tibia, is innervated by which nerve?",
-    options: {
-        a: "obturator nerve",
-        b: "femoral nerve",
-        c: "sciatic nerve",
-        d: "superior gluteal nerve",
-        e: "lateral femoral cutaneous nerve"
-    },
-    correct: "b",
-    explanation: "The sartorius muscle is innervated by the femoral nerve. It contributes to flexion, abduction, and external rotation at the hip, and flexion at the knee."
-  }
-},
-{
   id: 46,
   cz: {
     stem: "Na mediální straně proximální tibie se upínají tři šlachy tvořící tzv. pes anserinus („husí noha“). Které svaly tyto šlachy tvoří?",
@@ -3583,7 +3556,7 @@ const QUESTION_DATA = {
         e: "n. saphenus"
     },
     correct: "b",
-    explanation: "Laterální kompartment bérce je inervován n. fibularis (peroneus) superficialis, který zajišťuje motoriku mm. fibulares (everzi nohy) a senzitivně zásobuje většinu dorzální strany nohy, s výjimkou první meziprstní komisury (n. fibularis profundus) a laterálního okraje nohy (n. suralis)."
+    explanation: "Laterální kompartment bérce je inervován n. fibularis (peroneus) superficialis, který zajišťuje motoriku mm. fibulares (everzi nohy) a senzitivně zásobuje většinu dorzální strany nohy, s výjimkou prvního meziprstního prostoru (n. fibularis profundus) a laterálního okraje nohy (n. suralis)."
   },
   en: {
     stem: "The lateral compartment of the leg contains the fibularis (peroneus) longus and brevis muscles, which are responsible for eversion of the foot. Which nerve innervates this compartment?",
@@ -4411,28 +4384,28 @@ const QUESTION_DATA = {
 {
   id: 264,
   cz: {
-    stem: "V chirurgické anatomii tříselné oblasti je důležité přesně rozlišovat struktury procházející jednotlivými topografickými prostory pod ligamentum inguinale. Která z následujících možností správně a kompletně vyjmenovává struktury, které anatomicky procházejí skrze lacuna musculorum?",
+    stem: "Která z následujících možností správně a kompletně vyjmenovává struktury, které procházejí skrze lacuna musculorum?",
     options: {
-        a: "M. iliopsoas, nervus femoralis a nervus cutaneus femoris lateralis (variabilně)",
+        a: "M. iliopsoas, nervus femoralis a nervus cutaneus femoris lateralis",
         b: "M. iliopsoas, nervus femoralis a ramus femoralis n. genitofemoralis",
         c: "M. iliopsoas, nervus femoralis a ramus genitalis n. genitofemoralis",
         d: "M. rectus femoris, nervus femoralis a arteria femoralis",
-        e: "M. pectineus, nervus femoralis a nervus cutaneus femoris lateralis (variabilně)"
+        e: "M. pectineus, nervus femoralis a nervus cutaneus femoris lateralis"
     },
     correct: "a",
-    explanation: "Skrz lacuna musculorum (laterální prostor) prochází sval m. iliopsoas doprovázený dvěma nervy: mohutným nervus femoralis a tenkým, čistě senzitivním nervus cutaneus femoris lateralis, který běží těsně u spina iliaca anterior superio (variabilně může prochazet mimo lacuna musculorum nad lig. inguinale)."
+    explanation: "Skrz lacuna musculorum (laterální prostor) prochází sval m. iliopsoas doprovázený dvěma nervy: mohutným nervus femoralis a tenkým, čistě senzitivním nervus cutaneus femoris lateralis, který běží těsně u spina iliaca anterior superior (variabilně může prochazet mimo lacuna musculorum nad lig. inguinale)."
   },
   en: {
-    stem: "In the surgical anatomy of the inguinal region, it is important to precisely distinguish the structures passing through the individual topographic spaces beneath the ligamentum inguinale. Which of the following options correctly and completely lists the structures that anatomically pass through the lacuna musculorum?",
+    stem: "Which of the following options correctly and completely lists the structures that pass through the muscular lacuna (lacuna musculorum)?",
     options: {
-        a: "M. iliopsoas, nervus femoralis and nervus cutaneus femoris lateralis (variably)",
-        b: "M. iliopsoas, nervus femoralis and ramus femoralis n. genitofemoralis",
-        c: "M. iliopsoas, nervus femoralis and ramus genitalis n. genitofemoralis",
-        d: "M. rectus femoris, nervus femoralis and arteria femoralis",
-        e: "M. pectineus, nervus femoralis and nervus cutaneus femoris lateralis (variably)"
+        a: "Iliopsoas muscle, femoral nerve, and lateral femoral cutaneous nerve",
+        b: "Iliopsoas muscle, femoral nerve, and femoral branch of the genitofemoral nerve",
+        c: "Iliopsoas muscle, femoral nerve, and genital branch of the genitofemoral nerve",
+        d: "Rectus femoris muscle, femoral nerve, and femoral artery",
+        e: "Pectineus muscle, femoral nerve, and lateral femoral cutaneous nerve"
     },
     correct: "a",
-    explanation: "Through the lacuna musculorum (the lateral space) passes the m. iliopsoas, accompanied by two nerves: the substantial nervus femoralis and the thin, purely sensory nervus cutaneus femoris lateralis, which runs close to the spina iliaca anterior superior (it may variably pass outside the lacuna musculorum, above the inguinal ligament)."
+    explanation: "Through the muscular lacuna (the lateral space) passes the iliopsoas muscle, accompanied by two nerves: the substantial femoral nerve and the thin, purely sensory lateral femoral cutaneous nerve, which runs close to the anterior superior iliac spine (it may variably pass outside the muscular lacuna, above the inguinal ligament)."
   }
 },
 {
@@ -4541,33 +4514,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The muscles referred to as hamstrings meet two criteria: they originate from the ischial tuberosity and are innervated by the sciatic nerve. They include the m. biceps femoris (long head), m. semitendinosus, and m. semimembranosus."
-  }
-},
-{
-  id: 287,
-  cz: {
-    stem: "62letý pacient s pokročilou formou osteoartrózy kolenního kloubu podstoupil totální endoprotézu. Během pooperačního vyšetření si stěžuje, že nemůže aktivně propnout koleno, a při chůzi mu koleno nekontrolovaně povoluje. Lékař navíc zjišťuje sníženou citlivost na přední straně stehna a na vnitřní straně bérce. Která z následujících možností správně identifikuje svalovou skupinu, jejíž funkce je vypadlá, a nerv, který byl při operaci poškozen?",
-    options: {
-        a: "Přední skupina svalů stehna + nervus femoralis",
-        b: "Mediální skupina svalů stehna + nervus obturatorius",
-        c: "Zadní skupina svalů stehna + nervus ischiadicus",
-        d: "Přední skupina svalů stehna + nervus saphenus",
-        e: "Mediální skupina svalů stehna + nervus cutaneus femoris lateralis"
-    },
-    correct: "a",
-    explanation: "Neschopnost extenze v koleni a ztráta citlivosti na přední straně stehna jasně ukazují na lézi nervus femoralis. Porucha citlivosti na vnitřní straně bérce je pak způsobena postižením jeho nejdelší senzitivní větve, kterou je nervus saphenus."
-  },
-  en: {
-    stem: "A 62-year-old patient with advanced knee osteoarthritis underwent a total knee arthroplasty. During the postoperative examination, the patient complains of being unable to actively extend the knee, and the knee unexpectedly gives way during walking. The physician also notes decreased sensation over the anterior thigh and the medial aspect of the leg. Which of the following options correctly identifies the muscle group whose function has been lost and the nerve that was injured during the operation?",
-    options: {
-        a: "Anterior compartment of the thigh muscles + femoral nerve",
-        b: "Medial compartment of the thigh muscles + obturator nerve",
-        c: "Posterior compartment of the thigh muscles + sciatic nerve",
-        d: "Anterior compartment of the thigh muscles + saphenous nerve",
-        e: "Medial compartment of the thigh muscles + lateral femoral cutaneous nerve"
-    },
-    correct: "a",
-    explanation: "Inability to extend the knee and loss of sensation on the anterior surface of the thigh clearly indicate a lesion of the femoral nerve. The sensory disturbance on the medial side of the lower leg is then caused by damage to its longest sensory branch, the saphenous nerve."
   }
 },
 {
@@ -5885,43 +5831,16 @@ const QUESTION_DATA = {
       explanation: "Articulatio genus je articulatio trochoginglymus, tedy kombinace kladkového a válcového kloubu. Převládajícím pohybem je flexe a extenzi jako u ginglymu, ale při flektovaném koleni umožňuje také omezenou rotaci kolem podélné osy tibie díky komponentě trochoidea."
     },
     en: {
-      stem: "The articulatio genus is a complex joint of the lower limb that primarily allows flexion and extension, but due to its arrangement also permits limited rotation of the leg when the knee is flexed. What type of joint best corresponds to its anatomical classification?",
+      stem: "The knee joint is a complex joint of the lower limb that primarily allows flexion and extension, but due to its structure also permits limited rotation of the lower leg when the knee is flexed. Which type of joint best corresponds to its anatomical classification?",
       options: {
-        a: "Trochoginglymus joint",
+        a: "Modified hinge joint",
         b: "Ball-and-socket joint",
         c: "Plane joint",
         d: "Pivot joint",
         e: "Saddle joint"
       },
       correct: "a",
-      explanation: "The articulatio genus is an articulatio trochoginglymus, meaning a combination of a hinge joint and a pivot joint. The predominant movements are flexion and extension, as in a ginglymus, but when the knee is flexed it also allows limited rotation around the longitudinal axis of the tibia due to the trochlear component."
-    }
-  },
-  {
-    id: 350,
-    cz: {
-      stem: "Při vyšetření pacienta s bolestí přední části kolenního kloubu lékař hodnotí postavení a funkci patelly. Které z následujících tvrzení o patelle je správné?",
-      options: {
-        a: "Patella je největší sezamská kost v lidském těle a je uložena ve šlaše m. quadriceps femoris",
-        b: "Patella je plochá kost, která neovlivňuje mechaniku extenze kolene",
-        c: "Patella je součástí mediální skupiny svalů stehna a slouží jako úpon adduktorů",
-        d: "Patella je spojena s femurem pouze vazivově bez vzniku kloubního spojení",
-        e: "Patella je uložena v průběhu šlachy m. sartorius a podílí se na flexi kolene"
-      },
-      correct: "a",
-      explanation: "Patella je největší sezamská kost lidského těla a nachází se ve šlaše m. quadriceps femoris. Zvyšuje mechanickou výhodu extenzorového aparátu kolene tím, že oddaluje šlachu quadriceps od osy pohybu, čímž zvyšuje jeho moment síly při extenzi kolenního kloubu."
-    },
-    en: {
-      stem: "During the examination of a patient with anterior knee pain, a physician evaluates the position and function of the patella. Which of the following statements about the patella is correct?",
-      options: {
-        a: "The patella is the largest sesamoid bone in the human body and is located within the tendon of the quadriceps femoris muscle",
-        b: "The patella is a flat bone that does not affect the mechanics of knee extension",
-        c: "The patella is part of the medial thigh muscle group and serves as an attachment site for the adductors",
-        d: "The patella is connected to the femur only by fibrous tissue without forming a joint articulation",
-        e: "The patella is located within the tendon of the sartorius muscle and contributes to knee flexion"
-      },
-      correct: "a",
-      explanation: "The patella is the largest sesamoid bone in the human body and is located within the tendon of the quadriceps femoris muscle. It increases the mechanical advantage of the knee extensor apparatus by displacing the quadriceps tendon away from the axis of movement, thereby increasing its moment arm during knee extension."
+      explanation: "The knee joint is a modified hinge joint, i.e., a combination of a hinge joint and a pivot joint. The predominant movement is flexion and extension, as with a hinge joint, but when the knee is flexed, it also allows limited rotation around the longitudinal axis of the shin bone thanks to the pivot-joint component."
     }
   },
   {
@@ -7167,33 +7086,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 400,
-    "cz": {
-      "stem": "Po podvrtnutí hlezenního kloubu je při vyšetření hodnocena oblast laterálního kotníku, kde mohou být poškozeny šlachy probíhající za zevním kotníkem. Která z následujících možností správně popisuje vztahy struktur procházející za laterálním kotníkem?",
-      "options": {
-        "a": "M. fibularis brevis leží před m. fibularis longus; nervus suralis je uložen povrchověji než šlachy fibulárních svalů",
-        "b": "M. fibularis longus leží před m. fibularis brevis; nervus suralis je uložen hlouběji než šlachy fibulárních svalů",
-        "c": "M. fibularis brevis leží před m. fibularis longus; nervus suralis je uložen hlouběji než šlachy fibulárních svalů",
-        "d": "M. fibularis longus leží před m. fibularis brevis; nervus suralis je uložen povrchověji než šlachy fibulárních svalů",
-        "e": "M. fibularis brevis leží před m. fibularis longus; nervus suralis a vena saphena parva probíhají mezi šlachami fibulárních svalů"
-      },
-      "correct": "a",
-      "explanation": "Za laterálním kotníkem probíhají šlachy laterální skupiny svalů bérce. M. fibularis brevis leží před m. fibularis longus. Povrchověji než tyto šlachy probíhají nervus suralis a vena saphena parva, které se nacházejí v podkoží na zadní straně bérce a laterální straně nohy."
-    },
-    "en": {
-      "stem": "After an ankle sprain, the lateral malleolus region is examined, where the tendons passing behind the lateral malleolus may be damaged. Which of the following options correctly describes the relationships of the structures passing behind the lateral malleolus?",
-      "options": {
-        "a": "The fibularis brevis muscle lies anterior to the fibularis longus muscle; the sural nerve is located more superficially than the tendons of the fibular muscles",
-        "b": "The fibularis longus muscle lies anterior to the fibularis brevis muscle; the sural nerve is located deeper than the tendons of the fibular muscles",
-        "c": "The fibularis brevis muscle lies anterior to the fibularis longus muscle; the sural nerve is located deeper than the tendons of the fibular muscles",
-        "d": "The fibularis longus muscle lies anterior to the fibularis brevis muscle; the sural nerve is located more superficially than the tendons of the fibular muscles",
-        "e": "The fibularis brevis muscle lies anterior to the fibularis longus muscle; the sural nerve and small saphenous vein pass between the tendons of the fibular muscles"
-      },
-      "correct": "a",
-      "explanation": "Behind the lateral malleolus, the tendons of the lateral compartment muscles of the leg pass. The fibularis brevis muscle lies anterior to the fibularis longus muscle. More superficially than these tendons, the sural nerve and the small saphenous vein pass, located in the subcutaneous tissue on the posterior aspect of the leg and the lateral side of the foot."
-    }
-  },
-  {
     "id": 401,
     "cz": {
       "stem": "Na které kosti se nachází sulcus malleolaris lateralis?",
@@ -7434,33 +7326,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The flexor hallucis brevis muscle is innervated by the medial plantar nerve. Both heads of the adductor hallucis muscle (the oblique head and the transverse head) are innervated by the deep branch of the lateral plantar nerve."
-    }
-  },
-  {
-    "id": 483,
-    "cz": {
-      "stem": "Pacient po poranění v oblasti kotníku má oslabenou funkci svalů zásobených nervus plantaris medialis. Při vyšetření jsou hodnoceny svaly palce, zejména sval uložený v první vrstvě planty, který se podílí na odtažení palce od ostatních prstů a stabilizaci mediální podélné klenby. Které tvrzení o tomto svalu je správné?",
-      "options": {
-        "a": "Musculus abductor hallucis je inervován nervus plantaris medialis a jeho šlacha se upíná na mediální stranu baze proximálního článku palce",
-        "b": "Musculus abductor hallucis je inervován nervus plantaris lateralis a upíná se na laterální stranu baze proximálního článku palce",
-        "c": "Musculus flexor hallucis brevis je inervován nervus plantaris medialis a tvoří mediální okraj planty",
-        "d": "Musculus adductor hallucis je inervován nervus plantaris medialis a podílí se na tvorbě mediální podélné klenby",
-        "e": "Musculus adductor hallucis je inervován nervus plantaris lateralis a podílí se na tvorbě mediální podélné klenby"
-      },
-      "correct": "a",
-      "explanation": "Musculus abductor hallucis leží v první vrstvě planty, je inervován nervus plantaris medialis a upíná se na mediální stranu baze proximálního článku palce. Podílí se na abdukci palce a stabilizaci mediální podélné klenby."
-    },
-    "en": {
-      "stem": "A patient after an ankle injury has weakened function of the muscles supplied by the medial plantar nerve. During examination, the muscles of the great toe are assessed, especially the muscle located in the first layer of the plantar muscles, which contributes to abduction of the great toe away from the other toes and stabilization of the medial longitudinal arch. Which statement about this muscle is correct?",
-      "options": {
-        "a": "The abductor hallucis muscle is innervated by the medial plantar nerve and its tendon inserts on the medial side of the base of the proximal phalanx of the great toe",
-        "b": "The abductor hallucis muscle is innervated by the lateral plantar nerve and inserts on the lateral side of the base of the proximal phalanx of the great toe",
-        "c": "The flexor hallucis brevis muscle is innervated by the medial plantar nerve and forms the medial border of the plantar region",
-        "d": "The adductor hallucis muscle is innervated by the medial plantar nerve and contributes to the formation of the medial longitudinal arch",
-        "e": "The adductor hallucis muscle is innervated by the lateral plantar nerve and contributes to the formation of the medial longitudinal arch"
-      },
-      "correct": "a",
-      "explanation": "The abductor hallucis muscle lies in the first layer of the plantar muscles, is innervated by the medial plantar nerve, and inserts on the medial side of the base of the proximal phalanx of the great toe. It contributes to abduction of the great toe and stabilization of the medial longitudinal arch."
     }
   },
   {
