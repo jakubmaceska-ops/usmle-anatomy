@@ -103,33 +103,6 @@ const QUESTION_DATA = {
             }
           },
             {
-            id: 8,
-            cz: {
-              stem: "Muž, který si při práci u stolu často opírá lokty o desku, si stěžuje na brnění na ulnární straně ruky (malík a polovina prsteníku) a slabost stisku. Vyšetření prokázalo pozitivní Tinelův příznak nad mediálním epikondylem humeru. Který nerv je nejpravděpodobněji komprimován?",
-              options: {
-                a: "n. medianus",
-                b: "n. radialis",
-                c: "n. ulnaris",
-                d: "n. musculocutaneus",
-                e: "n. interosseus anterior"
-              },
-              correct: "c",
-              explanation: "N. ulnaris probíhá v sulcus nervi ulnaris za mediálním epikondylem humeru (kubitální tunel), kde je při dlouhodobém opírání lokte nebo flexi v lokti náchylný ke kompresi. Postižení se projeví senzitivním deficitem na malíku a ulnární polovině prsteníku a oslabením svalů inervovaných n. ulnaris v ruce."
-            },
-            en: {
-              stem: "A man who frequently rests his elbows on his desk while working complains of tingling on the ulnar side of the hand (the little finger and half of the ring finger) and weak grip strength. Examination reveals a positive Tinel sign over the medial epicondyle of the humerus. Which nerve is most likely compressed?",
-              options: {
-                a: "Median nerve",
-                b: "Radial nerve",
-                c: "Ulnar nerve",
-                d: "Musculocutaneous nerve",
-                e: "Anterior interosseous nerve"
-              },
-              correct: "c",
-              explanation: "The ulnar nerve runs in the ulnar groove behind the medial epicondyle of the humerus (cubital tunnel), where it is susceptible to compression from prolonged elbow resting or flexion. Involvement causes sensory deficit in the little finger and ulnar half of the ring finger and weakness of the ulnar-innervated hand muscles."
-            }
-          },
-            {
             id: 10,
             cz: {
               stem: "Pacient po suprakondylické zlomenině humeru nedokáže vytvořit kruh (znamení „OK“) mezi palcem a ukazovákem – místo toho tvoří plochý úchop, citlivost ruky je však zcela zachována. Který nerv byl pravděpodobně poškozen?",
@@ -188,7 +161,7 @@ const QUESTION_DATA = {
   cz: {
     stem: "Při odběru krve ze žíly v kubitální jamce hrozí při příliš hlubokém vpichu poškození hlubších struktur. Která struktura odděluje povrchově uloženou v. mediana cubiti od a. brachialis a n. medianus?",
     options: {
-        a: "m. biceps brachii",
+        a: "m. triceps brachii",
         b: "bicipitální aponeuróza (lacertus fibrosus)",
         c: "m. brachialis",
         d: "m. pronator teres",
@@ -200,14 +173,14 @@ const QUESTION_DATA = {
   en: {
     stem: "During venipuncture in the cubital fossa, inserting the needle too deeply may injure underlying structures. Which structure separates the superficially located median cubital vein from the brachial artery and the median nerve?",
     options: {
-        a: "biceps brachii muscle",
+        a: "triceps brachii muscle",
         b: "bicipital aponeurosis (lacertus fibrosus)",
         c: "brachialis muscle",
         d: "pronator teres muscle",
         e: "flexor retinaculum"
     },
     correct: "b",
-    explanation: "The bicipital aponeurosis (lacertus fibrosus), a fibrous extension of the biceps brachii tendon, fans out across the cubital fossa and separates the superficially located median cubital vein from the deeper brachial artery and median nerve. When venipuncture is performed correctly, this structure helps protect these deeper neurovascular structures from injury."
+    explanation: "The bicipital aponeurosis (lacertus fibrosus), a fibrous extension of the biceps brachii tendon, fans out across the cubital fossa and separates the superficially located median cubital vein from the deeper-lying brachial artery and median nerve. When venipuncture is performed correctly, this structure helps protect these deeper neurovascular structures from injury."
   }
 },
 {
@@ -540,10 +513,10 @@ const QUESTION_DATA = {
     stem: "Na axiálním MRI ramenního kloubu je vyznačen sval (1). Která možnost odpovídá správné kombinaci jeho inervace a hlavní funkce?",
     options: {
         a: "n. axillaris – zevní rotace ramene",
-        b: "n. radialis – zevní rotace ramene",
+        b: "nn. subscapulares – zevní rotace ramene",
         c: "n. suprascapularis – zevní rotace ramene",
         d: "nn. subscapulares – vnitřní rotace ramene",
-        e: "n. musculocutaneus – flexe v loketním kloubu"
+        e: "n. suprascapularis – vnitřní rotace ramene"
     },
     correct: "c",
     explanation: "Na snímku je číslem 1 označen m. infraspinatus (sval uložený posteriorně od hlavice humeru ve fossa infraspinata). Správná odpověď je n. suprascapularis – zevní rotace ramene, protože m. infraspinatus je hlavním zevním rotátorem ramenního kloubu a jeho motorická inervace pochází z n. suprascapularis."
@@ -552,10 +525,10 @@ const QUESTION_DATA = {
     stem: "An axial MRI of the shoulder joint highlights muscle (1). Which option represents the correct combination of its innervation and primary function?",
     options: {
         a: "Axillary nerve – external rotation of the shoulder",
-        b: "Radial nerve – external rotation of the shoulder",
+        b: "Subscapular nerves – external rotation of the shoulder",
         c: "Suprascapular nerve – external rotation of the shoulder",
         d: "Subscapular nerves – internal rotation of the shoulder",
-        e: "Musculocutaneous nerve – elbow flexion"
+        e: "Suprascapular nerve – internal rotation of the shoulder"
     },
     correct: "c",
     explanation: "Structure (1) represents the infraspinatus muscle (located posterior to the humeral head within the infraspinous fossa). The correct answer is suprascapular nerve – external rotation of the shoulder, because m. infraspinatus is one of the primary external rotators of the glenohumeral joint and receives motor innervation from the suprascapular nerve."
@@ -1818,34 +1791,6 @@ const QUESTION_DATA = {
   image: { key: "q196_custom", source: "Lucien Monfils. Collesfracture.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Collesfracture.jpg. CC BY-SA 3.0. Accessed 4 Jul 2026." }
 },
 {
-  id: 197,
-  cz: {
-    stem: "48letý cyklista přichází k lékaři pro parestézie malíčku a ulnární poloviny prsteníčku pravé ruky po dlouhém závodu. Vyšetření odhalilo kompresní syndrom v oblasti zápěstí. Na RTG snímku je šipkou označena kost, která se podílí na ohraničení tohoto komprimovaného prostoru. Které z následujících tvrzení správně popisuje anatomický vztah označené kosti k tomuto prostoru?",
-    options: {
-        a: "Ohraničuje Guyonův kanál z jeho mediální strany",
-        b: "Ohraničuje Guyonův kanál z jeho laterální strany",
-        c: "Ohraničuje karpální tunel z jeho mediální strany",
-        d: "Ohraničuje Guyonův kanál z jeho dorzální (stropní) strany",
-        e: "Tvoří dno foveola radialis"
-    },
-    correct: "a",
-    explanation: "Šipka ukazuje na os pisiforme. Pacient má příznaky komprese nervus ulnaris v Guyonově kanálu (canalis ulnaris). Tento prostor je ohraničen mediálně právě pomocí os pisiforme. Dno foveola radialis (C) je tvořeno kostmi os scaphoideum a os trapezium na opačné, radiální straně zápěstí."
-  },
-  en: {
-    stem: "A 48-year-old cyclist presents to the doctor with paresthesia of the pinky finger and the ulnar half of the ring finger of his right hand after a long race. Examination revealed a compression syndrome in the wrist area. On the X-ray, the arrow points to a bone that participates in bounding this compressed space. Which of the following statements correctly describes the anatomical relationship of the marked bone to this space?",
-    options: {
-        a: "It bounds Guyon's canal from its medial side",
-        b: "It bounds Guyon's canal from its lateral side",
-        c: "It bounds the carpal tunnel from its medial side",
-        d: "It bounds Guyon's canal from its dorsal (roof) side",
-        e: "It forms the floor of the radial foveola"
-    },
-    correct: "a",
-    explanation: "The arrow points to the pisiform bone. The patient presents with symptoms of ulnar nerve compression in Guyon's canal (ulnar canal). This space is bounded medially precisely by the pisiform bone. The floor of the radial foveola (C) is formed by the scaphoid bone and the trapezium bone on the opposite, radial side of the wrist."
-  },
-  image: { key: "q197_custom", source: "Lucien Monfils. Collesfracture.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Collesfracture.jpg. CC BY-SA 3.0. Accessed 4 Jul 2026." }
-},
-{
     "id": 198,
     "cz": {
       "stem": "32letá tenistka přichází do ambulance pro bolesti zápěstí a oslabení stisku ruky. Lékař diagnostikoval syndrom, při kterém dochází k útlaku struktury procházející pod retinaculum flexorum. Která z následujících anatomických struktur prochází ve stejném kompartmentu tohoto topografického prostoru společně s postiženým nervem?",
@@ -2167,33 +2112,6 @@ const QUESTION_DATA = {
     },
     "correct": "a",
     "explanation": "The muscles innervated by the ulnar nerve are the adductor pollicis muscle, interosseous muscles (palmar and dorsal), lumbrical muscles III and IV, palmaris brevis muscle, abductor digiti minimi muscle, and opponens digiti minimi muscle. In contrast, the abductor pollicis brevis muscle, opponens pollicis muscle, lumbrical muscles I and II, flexor pollicis brevis muscle (superficial head), and palmaris longus muscle are innervated by the median nerve."
-  }
-},
-{
-  "id": 218,
-  "cz": {
-    "stem": "Muž utrpěl hlubokou tržnou ránu na zápěstí, která vedla k přetnutí nervus medianus těsně před jeho vstupem do karpálního tunelu. Při vyšetření svalů thenaru lékař hodnotí, které specifické hlavy svalů mají díky duálnímu nebo odlišnému inervačnímu vzoru zachovanou motorickou funkci. Která z následujících struktur bude u tohoto pacienta nadále plně funkční?",
-    "options": {
-      "a": "Caput profundum musculus flexor pollicis brevis a obě hlavy musculus adductor pollicis",
-      "b": "Caput superficiale musculus flexor pollicis brevis a obě hlavy musculus adductor pollicis",
-      "c": "Caput superficiale musculus flexor pollicis brevis a caput transversum musculus adductor pollicis",
-      "d": "Caput profundum musculus flexor pollicis brevis a caput obliquum musculus adductor pollicis",
-      "e": "Obě hlavy musculus flexor pollicis brevis a caput transversum musculus adductor pollicis"
-    },
-    "correct": "a",
-    "explanation": "Při izolované lézi n. medianus dochází k ochrnutí svalů thenaru s výjimkou těch, které jsou inervovány z n. ulnaris. Mezi ně patří hluboká hlava krátkého ohýbače palce (caput profundum musculi flexoris pollicis brevis) a obě hlavy přitahovače palce (caput obliquum et caput transversum musculi adductoris pollicis). Naopak povrchová hlava (caput superficiale) krátkého ohýbače palce je inervována z n. medianus, a její funkce bude proto ztracena."
-  },
-  "en": {
-    "stem": "A man sustained a deep laceration to his wrist, resulting in a clean transection of the median nerve (nervus medianus) just before its entry into the carpal tunnel. During an examination of the thenar muscles, the physician assesses which specific muscle heads have preserved motor function due to a dual or distinct innervation pattern. Which of the following structures will remain fully functional in this patient?",
-    "options": {
-      "a": "Caput profundum musculus flexor pollicis brevis and both heads of the musculus adductor pollicis",
-      "b": "Caput superficiale musculus flexor pollicis brevis and both heads of the musculus adductor pollicis",
-      "c": "Caput superficiale musculus flexor pollicis brevis and the caput transversum of the musculus adductor pollicis",
-      "d": "Caput profundum musculus flexor pollicis brevis and the caput obliquum of the musculus adductor pollicis",
-      "e": "Both heads of the musculus flexor pollicis brevis and the caput transversum of the musculus adductor pollicis"
-    },
-    "correct": "a",
-    "explanation": "In an isolated lesion of the n. medianus, paralysis of the thenar muscles occurs with the exception of those innervated by the n. ulnaris. These include the deep head of the flexor pollicis brevis (caput profundum musculus flexor pollicis brevis) and both heads of the adductor pollicis (caput obliquum et caput transversum musculus adductor pollicis). Conversely, the superficial head (caput superficiale) of the flexor pollicis brevis is innervated by the n. medianus, and its function will therefore be lost."
   }
 },
 {
@@ -11231,34 +11149,7 @@ id: 269,
       },
       travici_soustava: {
         title: { cz: "Trávicí soustava", en: "Digestive System" },
-        questions: [{
-  id: 21,
-  cz: {
-    stem: "Který orgány/které orgány NESJOU součástí trávicího systému?",
-    options: {
-        a: "2,5",
-        b: "2",
-        c: "1,3,4",
-        d: "2,4",
-        e: "2,3"
-    },
-    correct: "a",
-    explanation: "Správná odpověď je 2 (slezina) a 5 (aorta abdominalis). Do trávicího systému patří žaludek (3)  a játra - lobus dexter (1) a lobus caudatus (4)."
-  },
-  en: {
-    stem: "Which organs are NOT part of the digestive system?",
-    options: {
-        a: "2,5",
-        b: "2",
-        c: "1,3,4",
-        d: "2,4",
-        e: "2,3"
-    },
-    correct: "a",
-    explanation: "The correct answer is 2 (spleen) and 5 (abdominal aorta). The digestive system includes the stomach (3) and the liver — specifically the right lobe (1) and the caudate lobe (4)."
-  },
-  image: { key: "q21_custom", source: "Imaging Data Commons (IDC). DICOM study (modified) visualized in Saga DICOM Viewer. Available from: https://saga-it.com/dicom/viewer/app/viewer/idc?StudyInstanceUIDs=1.2.840.113654.2.55.33575893932308185246496913106863435791. CC BY 4.0. Accessed 28 June 2026." }
-},
+        questions: [
 {
   id: 228,
   cz: {
@@ -11316,7 +11207,7 @@ id: 269,
 {
   id: 230,
   cz: {
-    stem: "Podél velké kurvatury žaludku probíhá tepenná arkáda tvořená dvěma tepnami. O jaké tepy se jedná a odkud tyto tepny odstupují?",
+    stem: "Podél velké kurvatury žaludku probíhá tepenná arkáda tvořená dvěma tepnami. O jaké tepny se jedná a odkud tyto tepny odstupují?",
     options: {
         a: "Arteria gastroomentalis dextra (z arteria gastroduodenalis) a arteria gastroomentalis sinistra (z arteria splenica).",
         b: "Arteria gastrica dextra (z arteria hepatica propria) a arteria gastrica sinistra (z truncus coeliacus).",
@@ -11325,7 +11216,7 @@ id: 269,
         e: "Arteria gastroomentalis dextra (z arteria hepatica propria) a arteria gastrica dextra (z arteria gastroduodenalis)."
     },
     correct: "a",
-    explanation: "Arteria gastroomentalis (gastroepiploica) dextra je terminální větví arteria gastroduodenalis, zatímco arterie gastroomentalis sinistra odstupuje z arteria splenica. Obě tepny probíhají podél velké kurvatury žaludku, kde spolu vytvářejí anastomózu, a zásobují také přilehlou část velkého omenta."
+    explanation: "Arteria gastroomentalis (gastroepiploica) dextra je terminální větví arteria gastroduodenalis, zatímco arteria gastroomentalis sinistra odstupuje z arteria splenica. Obě tepny probíhají podél velké kurvatury žaludku, kde spolu vytvářejí anastomózu, a zásobují také přilehlou část velkého omenta."
   },
   en: {
     stem: "Along the greater curvature of the stomach, there is an arterial arcade formed by two arteries. Which arteries are they, and from which arteries do they originate?",
@@ -11665,33 +11556,6 @@ id: 269,
   }
 },
 {
-  id: 243,
-  cz: {
-    stem: "Arteria rectalis superior je přímým pokračováním arteria mesenterica inferior. Kterou část rekta tato tepna zásobuje?",
-    options: {
-        a: "Horní část rekta.",
-        b: "Celé rectum včetně canalis analis.",
-        c: "Pouze dolní třetinu canalis analis pod linea pectinata.",
-        d: "Výhradně musculus sphincter ani externus.",
-        e: "Dolní část rekta."
-    },
-    correct: "a",
-    explanation: "Arteria rectalis superior je terminálním pokračováním arteria mesenterica inferior po odstupu poslední arteria sigmoidea. Přechází přes vstup do malé pánve a zásobuje horní část rekta, čímž představuje poslední úsek trávicí trubice zásobovaný povodím hindgut."
-  },
-  en: {
-    stem: "The superior rectal artery is the direct continuation of the inferior mesenteric artery. Which part of the rectum does this artery supply?",
-    options: {
-        a: "The upper part of the rectum.",
-        b: "The entire rectum, including the anal canal.",
-        c: "Only the lower third of the anal canal, below the pectinate line.",
-        d: "Exclusively the external anal sphincter muscle.",
-        e: "The lower part of the rectum."
-    },
-    correct: "a",
-    explanation: "The superior rectal artery is the terminal continuation of the inferior mesenteric artery after the origin of the last sigmoid artery. It crosses the pelvic inlet and supplies the upper part of the rectum, representing the final segment of the gut tube supplied by the hindgut territory."
-  }
-},
-{
   id: 244,
   cz: {
     stem: "Střední část rekta je kromě arteria rectalis superior zásobena i arteria rectalis media. Odkud tato tepna nejčastěji odstupuje?",
@@ -11703,7 +11567,7 @@ id: 269,
         e: "Z arteria iliaca externa."
     },
     correct: "a",
-    explanation: "Arteria rectalis media odstupuje z arteria iliaca interna, často jako větev arteria vesicalis inferior, a přispívá k zásobení střední a dolní části rekta. Rectum je tak zásobeno ze dvou různých zdrojů – z povodí arteria mesenterica inferior (hindgut) i z pánevního povodí arteria iliaca interna."
+    explanation: "Arteria rectalis media odstupuje z arteria iliaca interna, často jako větev arteria vesicalis inferior, a přispívá k zásobení střední a dolní části rekta. Rectum je tak zásobeno ze dvou různých zdrojů – z povodí arteria mesenterica inferior (embryologicky zadní střevo) i z pánevního povodí arteria iliaca interna."
   },
   en: {
     stem: "In addition to the superior rectal artery, the middle part of the rectum is also supplied by the middle rectal artery. Where does this artery most commonly arise from?",
@@ -12019,33 +11883,6 @@ id: 269,
   }
 },
 {
-  id: 281,
-  cz: {
-    stem: "Při vyšetření dutiny ústní lékař identifikuje ústí ductus parotideus (Stensenova vývodu). Kde se toto ústí za normálních okolností nachází?",
-    options: {
-        a: "Na sliznici tváře proti druhému hornímu moláru.",
-        b: "Na caruncula sublingualis po stranách frenulum linguae.",
-        c: "Na plica sublingualis pod jazykem.",
-        d: "Na sliznici tváře proti druhému dolnímu moláru.",
-        e: "Ve vestibulum oris proti horním řezákům."
-    },
-    correct: "a",
-    explanation: "Ductus parotideus (Stensenův vývod) probíhá přes m. masseter, následně se stáčí mediálně, proráží m. buccinator a ústí do vestibulum oris na papilla parotidea, která se nachází naproti druhému hornímu moláru. Toto místo je důležitým orientačním bodem při vyšetření příušní žlázy i při endoskopii slinných vývodů."
-  },
-  en: {
-    stem: "During an oral examination, a physician identifies the opening of the parotid duct (Stensen's duct). Where is this duct normally located?",
-    options: {
-        a: "On the buccal mucosa opposite the maxillary second molar.",
-        b: "On the sublingual caruncle on either side of the lingual frenulum.",
-        c: "Along the sublingual fold beneath the tongue.",
-        d: "On the buccal mucosa opposite the mandibular second molar.",
-        e: "In the oral vestibule opposite the maxillary incisors."
-    },
-    correct: "a",
-    explanation: "The parotid duct (Stensen's duct) courses across the masseter muscle, turns medially, pierces the buccinator muscle, and opens into the oral vestibule at the parotid papilla, located opposite the maxillary second molar. This anatomical landmark is important during oral examination and in procedures involving the parotid gland and its duct."
-  }
-},
-{
   id: 282,
   cz: {
     stem: "Na obrázku je vyznačen důležitý klinický bod na spojnici pravé medioklavikulární čáry a pravého žeberního oblouku. Jak se tento bod nazývá a který orgán se zde primárně vyšetřuje?",
@@ -12197,7 +12034,7 @@ id: 269,
         e: "M. palatoglossus"
     },
     correct: "a",
-    explanation: "M. transversus linguae patří mezi vlastní svaly jazyka a umožňuje jemné změny jeho tvaru. Jeho kontrakce zužuje a prodlužuje jazyk a podílí se na schopnosti vytvářet různé tvary jazyka při artikulaci a manipulaci s potravou. Vytvoření „ruličky“ není primárně funkcí zevních svalů jazyka. M. genioglossus zajišťuje především protrusi jazyka, m. styloglossus elevaci a retrakci jazyka, m. hyoglossus depresi a retrakci jazyka a m. palatoglossus elevaci zadní části jazyka."
+    explanation: "M. transversus linguae patří mezi intraglosální svaly (vlastní svaly jazyka) a umožňuje jemné změny jeho tvaru. Jeho kontrakce zužuje a prodlužuje jazyk a podílí se na schopnosti vytvářet různé tvary jazyka při artikulaci a manipulaci s potravou. Vytvoření „ruličky“ není primárně funkcí zevních svalů jazyka. M. genioglossus zajišťuje především protrusi jazyka, m. styloglossus elevaci a retrakci jazyka, m. hyoglossus depresi a retrakci jazyka a m. palatoglossus elevaci zadní části jazyka."
   },
   en: {
     stem: "A patient with tongue injury has difficulty forming a “tongue roll” by curling the lateral margins of the tongue upward (see picture). Examination reveals impaired fine shape changes of the tongue while protrusion remains intact. Which tongue muscle is most likely affected?",
@@ -12702,7 +12539,7 @@ id: 269,
   {
     "id": 478,
     "cz": {
-      "stem": "Pacient je před celkovou anestezií vyšetřen pomocí Mallampatiho skóre, které hodnotí viditelnost struktur v oblasti dutiny ústní a orofaryngu. Při vyšetření je viditelné pouze měkké patro a tvrdé patro není zakryto jazykem. Která anatomická struktura se nachází mezi měkkým patrem a kořenem jazyka a tvoří dolní hranici orofaryngu?",
+      "stem": "Která anatomická struktura se nachází mezi měkkým patrem a kořenem jazyka a tvoří dolní hranici orofaryngu?",
       "options": {
         "a": "Epiglottis",
         "b": "Palatum durum",
@@ -12711,10 +12548,10 @@ id: 269,
         "e": "Ostium pharyngeum tubae auditivae"
       },
       "correct": "a",
-      "explanation": "Epiglottis tvoří dolní hranici orofaryngu a představuje přechod mezi orofaryngem a laryngopharyngem. Při vyšetření oblasti hodnocené Mallampatiho skóre je důležitá především viditelnost měkkého patra, uvuly a patrových oblouků. Palatum durum tvoří přední část patra a odděluje dutinu ústní od dutiny nosní. Uvula je součást měkkého patra. Choanae a ostium pharyngeum tubae auditivae patří k nasopharyngu."
+      "explanation": "Epiglottis tvoří dolní hranici orofaryngu a představuje přechod mezi orofaryngem a laryngopharyngem."
     },
     "en": {
-      "stem": "A patient is evaluated before general anesthesia using the Mallampati score, which assesses the visibility of structures in the oral cavity and oropharynx. During examination, only the soft palate is visible and the hard palate is not covered by the tongue. Which anatomical structure is located between the soft palate and the root of the tongue and forms the inferior boundary of the oropharynx?",
+      "stem": "Which anatomical structure is located between the soft palate and the root of the tongue and forms the inferior boundary of the oropharynx?",
       "options": {
         "a": "Epiglottis",
         "b": "Hard palate",
@@ -12723,7 +12560,7 @@ id: 269,
         "e": "Pharyngeal opening of the auditory tube"
       },
       "correct": "a",
-      "explanation": "The epiglottis forms the inferior boundary of the oropharynx and represents the transition between the oropharynx and laryngopharynx. During examination of the region assessed by the Mallampati score, the visibility of the soft palate, uvula, and palatal arches is particularly important. The hard palate forms the anterior part of the palate and separates the oral cavity from the nasal cavity. The uvula is part of the soft palate. The choanae and pharyngeal opening of the auditory tube belong to the nasopharynx."
+      "explanation": "The epiglottis forms the inferior boundary of the oropharynx and represents the transition between the oropharynx and laryngopharynx."
     }
   },
 {
@@ -12792,7 +12629,7 @@ id: 269,
         "e": "Ostium venae cavae inferioris v bránici"
       },
       "correct": "a",
-      "explanation": "První fyziologické zúžení jícnu se nachází přibližně 15 cm od horních řezáků a vzniká v oblasti přechodu hltanu v jícen. Je tvořeno především musculus cricopharyngeus, který je součástí horního jícnového svěrače. Další zúžení jícnu vznikají při křížení s arcus aortae (přibližně 25 cm), při kontaktu s levým hlavním bronchus (přibližně 27–30 cm) a při průchodu skrze hiatus oesophageus (přibližně 40 cm)."
+      "explanation": "První fyziologické zúžení jícnu se nachází přibližně 15 cm od horních řezáků a vzniká v oblasti přechodu hltanu v jícen. Je tvořeno především musculus cricopharyngeus, který je součástí horního jícnového svěrače. Další zúžení jícnu vznikají při křížení s arcus aortae (přibližně 25 cm), při kontaktu s levým hlavním bronchem (přibližně 27–30 cm) a při průchodu skrze hiatus oesophageus (přibližně 40 cm)."
     },
     "en": {
       "stem": "A 58-year-old man undergoes esophagoscopy for suspected malignant narrowing of the esophagus. During insertion of the endoscope, the physician expects a physiological obstruction in the upper part of the esophagus approximately 15 cm from the upper incisors. Which anatomical structure is located in this region and creates the first physiological constriction of the esophagus?",
@@ -12967,33 +12804,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The pancreas lies in close anatomical relation to the posterior surface of the stomach, from which it is separated mainly by the omental bursa. During dissection of the posterior wall of the stomach, the pancreas may therefore be injured. The liver and gallbladder are located mainly to the right and superior to the stomach, the ascending colon lies on the right side of the abdominal cavity, and the right kidney is located retroperitoneally on the right, so none of these structures is in direct relation to the posterior surface of the stomach."
-    }
-  },
-  {
-    "id": 504,
-    "cz": {
-      "stem": "Pacient podstupuje operaci žaludku a chirurg identifikuje vazivovou strukturu spojující žaludek s játry. Tato struktura obsahuje cévy a nervy zásobující horní část žaludku a tvoří část omentum minus. Která struktura je správně identifikována?",
-      "options": {
-        "a": "Ligamentum hepatogastricum",
-        "b": "Ligamentum gastrosplenicum",
-        "c": "Ligamentum gastrocolicum",
-        "d": "Ligamentum phrenicocolicum",
-        "e": "Ligamentum hepatoduodenale"
-      },
-      "correct": "a",
-      "explanation": "Ligamentum hepatogastricum je část omentum minus spojující jaterní plochu s malým zakřivením žaludku. Obsahuje především cévy podél malého zakřivení žaludku, například a. gastrica sinistra a a. gastrica dextra, a také nervová vlákna. Ligamentum gastrosplenicum spojuje žaludek se slezinou a obsahuje aa. gastricae breves a a. gastroepiploica sinistra. Ligamentum hepatoduodenale obsahuje portální triádu."
-    },
-    "en": {
-      "stem": "A patient undergoes gastric surgery, and the surgeon identifies a ligamentous structure connecting the stomach to the liver. This structure contains vessels and nerves supplying the upper part of the stomach and forms part of the lesser omentum. Which structure has been correctly identified?",
-      "options": {
-        "a": "Hepatogastric ligament",
-        "b": "Gastrosplenic ligament",
-        "c": "Gastrocolic ligament",
-        "d": "Phrenicocolic ligament",
-        "e": "Hepatoduodenal ligament"
-      },
-      "correct": "a",
-      "explanation": "The hepatogastric ligament is a part of the lesser omentum connecting the liver to the lesser curvature of the stomach. It contains mainly vessels running along the lesser curvature of the stomach, such as the left gastric artery and right gastric artery, as well as nerve fibers. The gastrosplenic ligament connects the stomach to the spleen and contains the short gastric arteries and the left gastroepiploic artery. The hepatoduodenal ligament contains the portal triad."
     }
   },
   {
@@ -13483,60 +13293,6 @@ id: 269,
     }
   },
   {
-    "id": 524,
-    "cz": {
-      "stem": "Pacient podstupuje chirurgickou operaci rekta. Chirurg musí během výkonu chránit nervy uložené v blízkosti rekta, protože jejich poškození může vést k poruše parasympatické regulace pánevních orgánů. Které nervy jsou při této operaci nejvíce ohroženy?",
-      "options": {
-        "a": "Nervi splanchnici pelvici",
-        "b": "Nervi splanchnici thoracici",
-        "c": "Nervus pudendus",
-        "d": "Nervus ilioinguinalis",
-        "e": "Nervus obturatorius"
-      },
-      "correct": "a",
-      "explanation": "Nervi splanchnici pelvici obsahují parasympatická vlákna ze segmentů S2–S4 a zajišťují autonomní inervaci rekta a dalších pánevních orgánů. Při chirurgických výkonech v oblasti rekta mohou být tyto nervy poškozeny, což může způsobit poruchy funkce močového měchýře, rekta nebo sexuálních funkcí. Ostatní uvedené nervy nemají hlavní parasympatickou funkci v oblasti rekta."
-    },
-    "en": {
-      "stem": "A patient undergoes rectal surgery. During the procedure, the surgeon must protect nerves located near the rectum because their injury may cause impaired parasympathetic regulation of pelvic organs. Which nerves are most at risk during this operation?",
-      "options": {
-        "a": "Pelvic splanchnic nerves",
-        "b": "Thoracic splanchnic nerves",
-        "c": "Pudendal nerve",
-        "d": "Ilioinguinal nerve",
-        "e": "Obturator nerve"
-      },
-      "correct": "a",
-      "explanation": "The pelvic splanchnic nerves contain parasympathetic fibers from the S2–S4 segments and provide autonomic innervation to the rectum and other pelvic organs. During rectal surgery, these nerves may be damaged, leading to dysfunction of the urinary bladder, rectum, or sexual functions. The other listed nerves do not provide the main parasympathetic innervation of the rectum."
-    }
-  },
-  {
-    "id": 525,
-    "cz": {
-      "stem": "Pacient podstupuje chirurgický výkon v oblasti rekta. Chirurg identifikuje tepnu, která zásobuje horní část rekta. Z které tepny tato tepna přímo odstupuje?",
-      "options": {
-        "a": "A. mesenterica inferior",
-        "b": "A. mesenterica superior",
-        "c": "A. iliaca interna",
-        "d": "A. pudenda interna",
-        "e": "A. iliaca externa"
-      },
-      "correct": "a",
-      "explanation": "A. rectalis superior je přímým pokračováním a. mesenterica inferior po jejím rozdělení na konečné větve v oblasti pánve. Zajišťuje hlavní arteriální zásobení horní části rekta. A. rectalis media a a. rectalis inferior naopak odstupují z větví a. iliaca interna. A. mesenterica superior zásobuje především části tenkého a tlustého střeva před úrovní colon transversum."
-    },
-    "en": {
-      "stem": "A patient undergoes surgery in the rectal region. The surgeon identifies an artery supplying the upper part of the rectum. From which artery does this vessel directly arise?",
-      "options": {
-        "a": "Inferior mesenteric artery",
-        "b": "Superior mesenteric artery",
-        "c": "Internal iliac artery",
-        "d": "Internal pudendal artery",
-        "e": "External iliac artery"
-      },
-      "correct": "a",
-      "explanation": "The superior rectal artery is the direct continuation of the inferior mesenteric artery after its terminal branching in the pelvic region. It provides the main arterial supply to the upper part of the rectum. The middle and inferior rectal arteries arise from branches of the internal iliac artery. The superior mesenteric artery mainly supplies parts of the small intestine and the colon proximal to the distal transverse colon."
-    }
-  },
-  {
     "id": 526,
     "cz": {
       "stem": "Která část rekta je zcela extraperitoneálně uložena?",
@@ -13602,7 +13358,7 @@ id: 269,
         "e": "Vena rectalis inferior → vena mesenterica inferior → vena portae hepatis"
       },
       "correct": "a",
-      "explanation": "Horní část canalis analis je drenována prostřednictvím vena rectalis superior, která pokračuje do vena mesenterica inferior. Ta se následně spojuje se systémem vena portae hepatis (typicky přes vena lienalis). Tato oblast proto patří do portálního žilního systému. Naopak dolní část canalis analis je odváděna systémovými žilami prostřednictvím vena rectalis inferior a vena pudenda interna."
+      "explanation": "Horní část canalis analis je drenována prostřednictvím vena rectalis superior, která pokračuje do vena mesenterica inferior. Ta následně ústí do vena lienalis, která ústí do vena portae. Tato oblast proto patří do portálního žilního systému. Naopak dolní část canalis analis je odváděna systémovými žilami prostřednictvím vena rectalis inferior a vena pudenda interna."
     },
     "en": {
       "stem": "A patient has a carcinoma located in the upper part of the anal canal. During treatment planning, the physician evaluates possible routes of hematogenous tumor spread. Which combination correctly describes the vein draining this region and its subsequent venous connections?",
@@ -13614,7 +13370,7 @@ id: 269,
         "e": "Inferior rectal vein → inferior mesenteric vein → hepatic portal vein"
       },
       "correct": "a",
-      "explanation": "The upper part of the anal canal is drained by the superior rectal vein, which continues as the inferior mesenteric vein. The inferior mesenteric vein then joins the hepatic portal venous system, typically through the splenic vein. Therefore, this region belongs to the portal venous circulation. In contrast, the lower part of the anal canal drains into the systemic venous circulation through the inferior rectal vein and internal pudendal vein."
+      "explanation": "The upper part of the anal canal is drained by the superior rectal vein, which continues as the inferior mesenteric vein. The inferior mesenteric vein subsequently drains into the splenic vein, which drains into the portal vein. Therefore, this region belongs to the portal venous circulation. In contrast, the lower part of the anal canal drains into the systemic venous circulation through the inferior rectal vein and internal pudendal vein."
     }
   },
   {
@@ -13728,7 +13484,7 @@ id: 269,
   {
     "id": 533,
     "cz": {
-      "stem": "45letý pacient podstupuje chirurgické odstranění nádoru v oblasti caput pancreatis. Během operace chirurg identifikuje anatomické vztahy pankreatu. Která struktura přímo prochází za caput pancreatis a může být při resekci této oblasti ohrožena?",
+      "stem": "45letý pacient podstupuje chirurgické odstranění nádoru v oblasti hlavy pankreatu. Která struktura přímo prochází za caput pancreatis a může být při resekci této oblasti ohrožena?",
       "options": {
         "a": "V. mesenterica superior",
         "b": "A. splenica",
@@ -13737,10 +13493,10 @@ id: 269,
         "e": "V. portae hepatis"
       },
       "correct": "a",
-      "explanation": "Caput pancreatis je uložena v duodenální kličce a její zadní plocha těsně naléhá na velké cévní struktury. Za hlavou pankreatu probíhá v. mesenterica superior, která společně s v. splenica vytváří v. portae hepatis. Vztah k v. mesenterica superior je důležitý zejména při chirurgických výkonech v oblasti pankreatu, protože její poškození může vést k závažnému krvácení. A. splenica probíhá podél horního okraje corpus pancreatis a cauda pancreatis. V. cava inferior leží více dorzálně a vztahuje se zejména k processus uncinatus. A. mesenterica inferior nesouvisí přímo s pankreatem. V. portae hepatis vzniká za krčkem pankreatu spojením v. mesenterica superior a v. splenica."
+      "explanation": "Hlava pankreatu je uložena v duodenální kličce a její zadní plocha těsně naléhá na velké cévní struktury. Za hlavou pankreatu probíhá v. mesenterica superior, která společně s v. splenica vytváří v. portae hepatis. Vztah k v. mesenterica superior je důležitý zejména při chirurgických výkonech v oblasti pankreatu, protože její poškození může vést k závažnému krvácení. A. splenica probíhá podél horního okraje corpus pancreatis a cauda pancreatis. V. portae hepatis vzniká za krčkem pankreatu spojením v. mesenterica superior a v. splenica."
     },
     "en": {
-      "stem": "A 45-year-old patient undergoes surgical removal of a tumor located in the head of the pancreas. During the procedure, the surgeon identifies the anatomical relationships of the pancreas. Which structure directly passes posterior to the head of the pancreas and may be at risk during resection of this region?",
+      "stem": "A 45-year-old patient undergoes surgical removal of a tumor located in the head of the pancreas. Which structure directly passes posterior to the head of the pancreas and may be at risk during resection of this region?",
       "options": {
         "a": "Superior mesenteric vein",
         "b": "Splenic artery",
@@ -13749,7 +13505,7 @@ id: 269,
         "e": "Hepatic portal vein"
       },
       "correct": "a",
-      "explanation": "The head of the pancreas is located within the duodenal loop, and its posterior surface is closely related to major vascular structures. The superior mesenteric vein passes posterior to the head of the pancreas and, together with the splenic vein, forms the hepatic portal vein. This relationship is clinically important during pancreatic surgery because injury to the superior mesenteric vein can result in severe bleeding. The splenic artery runs along the superior border of the body and tail of the pancreas. The inferior vena cava lies more posteriorly and is mainly related to the uncinate process. The inferior mesenteric artery is not directly related to the pancreas. The hepatic portal vein is formed posterior to the neck of the pancreas by the union of the superior mesenteric vein and splenic vein."
+      "explanation": "The head of the pancreas is located within the duodenal loop, and its posterior surface is closely related to major vascular structures. The superior mesenteric vein passes posterior to the head of the pancreas and, together with the splenic vein, forms the hepatic portal vein. This relationship is clinically important during pancreatic surgery because injury to the superior mesenteric vein can result in severe bleeding. The splenic artery runs along the superior border of the body and tail of the pancreas. The hepatic portal vein is formed posterior to the neck of the pancreas by the union of the superior mesenteric vein and splenic vein."
     }
   },
   {
@@ -14036,7 +13792,7 @@ id: 269,
         e: "Celý jícen rovnoměrně"
     },
     correct: "a",
-    explanation: "Barrettův jícen se typicky vyvíjí v distálním jícnu v oblasti gastroezofageálního spojení, kde je sliznice dlouhodobě vystavena působení žaludečního obsahu při gastroezofageálním refluxu. Dochází zde k náhradě normálního vícevrstevného dlaždicového epitelu intestinálním typem cylindrického epitelu."
+    explanation: "Barrettův jícen se typicky vyvíjí v distálním jícnu v oblasti gastroezofageálního spojení, kde je sliznice dlouhodobě vystavena působení žaludečního obsahu při gastroezofageálním refluxu. Dochází zde k náhradě normálního vrstevnatého dlaždicového epitelu intestinálním typem cylindrického epitelu."
   },
   en: {
     stem: "A patient with long-standing gastroesophageal reflux is diagnosed with Barrett esophagus. Which part of the esophagus is most commonly affected by this metaplastic change?",
@@ -29320,6 +29076,34 @@ const LIVE_QUESTION_BANKS = {
     explanation: "Within Guyon’s canal, the ulnar nerve divides into the superficial branch (ramus superficialis), which is predominantly sensory and supplies the skin of the little finger and the ulnar half of the ring finger, and the deep branch (ramus profundus), which is purely motor and supplies the hypothenar muscles, interossei muscles, and adductor pollicis. Isolated injury to the deep branch results in a motor deficit (weakness of thumb adduction and finger abduction/adduction) without sensory impairment."
   }
 },
+{
+            id: 10274,
+            cz: {
+              stem: "Muž, který si při práci u stolu často opírá lokty o desku, si stěžuje na brnění na ulnární straně ruky (malík a polovina prsteníku) a slabost stisku. Vyšetření prokázalo pozitivní Tinelův příznak nad mediálním epikondylem humeru. Který nerv je nejpravděpodobněji komprimován?",
+              options: {
+                a: "n. medianus",
+                b: "n. radialis",
+                c: "n. ulnaris",
+                d: "n. musculocutaneus",
+                e: "n. interosseus anterior"
+              },
+              correct: "c",
+              explanation: "N. ulnaris probíhá v sulcus nervi ulnaris za mediálním epikondylem humeru (kubitální tunel), kde je při dlouhodobém opírání lokte nebo flexi v lokti náchylný ke kompresi. Postižení se projeví senzitivním deficitem na malíku a ulnární polovině prsteníku a oslabením svalů inervovaných n. ulnaris v ruce."
+            },
+            en: {
+              stem: "A man who frequently rests his elbows on his desk while working complains of tingling on the ulnar side of the hand (the little finger and half of the ring finger) and weak grip strength. Examination reveals a positive Tinel sign over the medial epicondyle of the humerus. Which nerve is most likely compressed?",
+              options: {
+                a: "Median nerve",
+                b: "Radial nerve",
+                c: "Ulnar nerve",
+                d: "Musculocutaneous nerve",
+                e: "Anterior interosseous nerve"
+              },
+              correct: "c",
+              explanation: "The ulnar nerve runs in the ulnar groove behind the medial epicondyle of the humerus (cubital tunnel), where it is susceptible to compression from prolonged elbow resting or flexion. Involvement causes sensory deficit in the little finger and ulnar half of the ring finger and weakness of the ulnar-innervated hand muscles."
+            }
+          },
+
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
@@ -30249,6 +30033,61 @@ const LIVE_QUESTION_BANKS = {
     explanation: "Canines usually erupt at approximately 9–12 years of age, second premolars at approximately 10–12 years, and second molars at approximately 11–13 years. Third molars erupt last, usually at approximately 17–21 years of age. Their eruption is highly variable, and they may fail to erupt altogether.\nThe typical order is therefore B → D → A → C, i.e. canine → second premolar → second molar → third molar."
   }
 },
+{
+  id: 10275,
+  cz: {
+    stem: "Při vyšetření dutiny ústní lékař identifikuje ústí ductus parotideus (Stensenův vývod). Kde se toto ústí za normálních okolností nachází?",
+    options: {
+        a: "Na sliznici tváře proti druhému hornímu moláru.",
+        b: "Na caruncula sublingualis po stranách frenulum linguae.",
+        c: "Na plica sublingualis pod jazykem.",
+        d: "Na sliznici tváře proti druhému dolnímu moláru.",
+        e: "Ve vestibulum oris proti horním řezákům."
+    },
+    correct: "a",
+    explanation: "Ductus parotideus (Stensenův vývod) probíhá přes m. masseter, následně se stáčí mediálně, proráží m. buccinator a ústí do vestibulum oris na papilla parotidea, která se nachází naproti druhému hornímu moláru. Toto místo je důležitým orientačním bodem při vyšetření příušní žlázy i při endoskopii slinných vývodů."
+  },
+  en: {
+    stem: "During an oral examination, a physician identifies the opening of the parotid duct (Stensen's duct). Where is this duct normally located?",
+    options: {
+        a: "On the buccal mucosa opposite the maxillary second molar.",
+        b: "On the sublingual caruncle on either side of the lingual frenulum.",
+        c: "Along the sublingual fold beneath the tongue.",
+        d: "On the buccal mucosa opposite the mandibular second molar.",
+        e: "In the oral vestibule opposite the maxillary incisors."
+    },
+    correct: "a",
+    explanation: "The parotid duct (Stensen's duct) courses across the masseter muscle, turns medially, pierces the buccinator muscle, and opens into the oral vestibule at the parotid papilla, located opposite the maxillary second molar. This anatomical landmark is important during oral examination and in procedures involving the parotid gland and its duct."
+  }
+},
+{
+    "id": 10276,
+    "cz": {
+      "stem": "Pacient podstupuje chirurgický výkon v oblasti rekta. Chirurg identifikuje tepnu, která zásobuje horní část rekta. Z které tepny tato tepna přímo odstupuje?",
+      "options": {
+        "a": "A. mesenterica inferior",
+        "b": "A. mesenterica superior",
+        "c": "A. iliaca interna",
+        "d": "A. pudenda interna",
+        "e": "A. iliaca externa"
+      },
+      "correct": "a",
+      "explanation": "A. rectalis superior je přímým pokračováním a. mesenterica inferior po jejím rozdělení na konečné větve v oblasti pánve. Zajišťuje hlavní arteriální zásobení horní části rekta. A. rectalis media odstupuje přímo z a. iliaca interna, zatímco a. rectalis inferior odstupuje z a. pudenda interna (větev a. iliaca interna). A. mesenterica superior zásobuje především části tenkého a tlustého střeva před úrovní colon transversum."
+    },
+    "en": {
+      "stem": "A patient undergoes surgery in the rectal region. The surgeon identifies an artery supplying the upper part of the rectum. From which artery does this vessel directly arise?",
+      "options": {
+        "a": "Inferior mesenteric artery",
+        "b": "Superior mesenteric artery",
+        "c": "Internal iliac artery",
+        "d": "Internal pudendal artery",
+        "e": "External iliac artery"
+      },
+      "correct": "a",
+      "explanation": "The superior rectal artery is the direct continuation of the inferior mesenteric artery after its terminal branching in the pelvic region. It provides the main arterial supply to the upper part of the rectum. The middle rectal artery arises directly from the internal iliac artery, whereas the inferior rectal artery arises from the internal pudendal artery (a branch of the internal iliac artery). The superior mesenteric artery mainly supplies parts of the small intestine and the colon proximal to the distal transverse colon."
+    }
+  },
+
     ]
     // =ANATOMIE_2_VERZE_1_END=
   },
