@@ -2888,6 +2888,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1103_custom", source: "Dr. Harry Gouvas, MD, PhD. Untreated Carpal Tunnel Syndrome.JPG. Wikimedia Commons. Available from: Wikimedia Commons. Public domain. Accessed 4 September 2026.", type: "image" }
 },
+{
+  id: 1111,
+  cz: {
+    stem: "Zlomenina jaké kosti je zobrazena?",
+    options: {
+        a: "Os scaphoideum",
+        b: "Os lunatum",
+        c: "Os triquetrum",
+        d: "Os hamatum",
+        e: "Os capitatum"
+    },
+    correct: "d",
+    explanation: "Na přiloženém obrázku je zobrazena fraktura os hamatum. Os hamatum se nachází v distální řadě karpálních kostí na ulnární straně zápěstí a leží distálně od os triquetrum. Os hamatum je výrazně větší než os triquetrum a její tělo artikuluje zejména s os capitatum, os triquetrum a IV. a V. metakarpem."
+  },
+  en: {
+    stem: "Which bone is fractured in the image?",
+    options: {
+        a: "Scaphoid bone",
+        b: "Lunate bone",
+        c: "Triquetrum bone",
+        d: "Hamate bone",
+        e: "Capitate bone"
+    },
+    correct: "d",
+    explanation: "The image shows a fracture of the hamate bone. The hamate bone is located in the distal row of the carpal bones on the ulnar side of the wrist and lies distal to the triquetrum bone. The hamate bone is considerably larger than the triquetrum, and its body articulates mainly with the capitate bone, triquetrum bone, and the fourth and fifth metacarpal bones."
+  },
+  image: { key: "q1111_custom", source: "Hellerhoff. Fraktur des Os hamatum 27M - CR CT - 001.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Fraktur_des_Os_hamatum_27M_-_CR_CT_-_001.jpg. CC BY-SA 4.0. Accessed 11 September 2026.", type: "image" }
+},
 
           {
             id: 12,
