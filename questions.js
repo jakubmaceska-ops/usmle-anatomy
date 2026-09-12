@@ -3007,7 +3007,7 @@ const QUESTION_DATA = {
 {
   id: 31,
   cz: {
-    stem: "Po totální endoprotéze kyčelního kloubu předním přístupem si pacient stěžuje na pokles pánve na kontralaterální straně při stoji na operované končetině (pozitivní Trendelenburgův příznak). Který nerv byl pravděpodobně poškozen?",
+    stem: "Po totální endoprotéze kyčelního kloubu anterolaterálním přístupem si pacient stěžuje na pokles pánve na kontralaterální straně při stoji na operované končetině (pozitivní Trendelenburgův příznak). Který nerv byl pravděpodobně poškozen?",
     options: {
         a: "n. ischiadicus",
         b: "n. gluteus inferior",
@@ -3019,7 +3019,7 @@ const QUESTION_DATA = {
     explanation: "N. gluteus superior inervuje m. gluteus medius a m. gluteus minimus, klíčové abduktory kyčle stabilizující pánev ve frontální rovině při stoji na jedné noze. Jeho poškození (např. iatrogenně při operačních přístupech ke kyčli) vede k oslabení abdukce a poklesu pánve na kontralaterální straně při stoji na postižené straně – pozitivnímu Trendelenburgovu příznaku."
   },
   en: {
-    stem: "After total hip arthroplasty performed via an anterior approach, a patient complains of pelvic drop on the contralateral side when standing on the operated limb (positive Trendelenburg sign). Which nerve was most likely injured?",
+    stem: "After total hip arthroplasty performed via an anterolateral approach, a patient complains of pelvic drop on the contralateral side when standing on the operated limb (positive Trendelenburg sign). Which nerve was most likely injured?",
     options: {
         a: "sciatic nerve",
         b: "inferior gluteal nerve",
@@ -3491,33 +3491,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 58,
-  cz: {
-    stem: "Běžec si stěžuje na bolest v oblasti paty na plantární straně patní kosti. Postižená struktura se upíná na tuber calcanei a tvoří hlavní pasivní podpůrný prvek longitudinální klenby nohy. Která struktura je nejpravděpodobněji postižena?",
-    options: {
-        a: "tendo calcaneus",
-        b: "fascia plantaris",
-        c: "lig. deltoideum",
-        d: "retinaculum musculorum flexorum",
-        e: "m. flexor digitorum brevis"
-    },
-    correct: "b",
-    explanation: "Fascia plantaris (plantární aponeuróza) je silná vazivová struktura plosky nohy, která vychází z tuber calcanei a distálně se rozbíhá do prstců. Hlavní funkcí je pasivní stabilizace longitudinální klenby nohy a podíl na přenosu sil při chůzi. Úpon této struktury je na tuber calcanei (mediální část)."
-  },
-  en: {
-    stem: "A runner reports pain on the plantar aspect of the heel. The affected structure inserts onto the calcaneal tuberosity and serves as the main passive support of the longitudinal arch of the foot. Which structure is most likely affected?",
-    options: {
-        a: "calcaneal tendon",
-        b: "plantar fascia",
-        c: "deltoid ligament",
-        d: "flexor retinaculum",
-        e: "flexor digitorum brevis muscle"
-    },
-    correct: "b",
-    explanation: "The plantar fascia (plantar aponeurosis) is a strong fibrous structure of the sole of the foot that originates from the calcaneal tuberosity and extends distally toward the toes. Its main function is passive support of the longitudinal arch of the foot and contribution to gait mechanics. Its insertion is at the medial calcaneal tubercle."
-  }
-},
-{
   id: 59,
   cz: {
     stem: "Při poranění periferního nervu na horní končetině je někdy nutné nahradit chybějící úsek nervu štěpem. K tomuto účelu se často používá čistě senzitivní nerv dolní končetiny, který inervuje kůži laterální strany bérce a laterální hrany nohy a nemá motorickou funkci. Který nerv je pro tento odběr nejčastěji využíván?",
@@ -3709,7 +3682,7 @@ const QUESTION_DATA = {
 {
   id: 248,
   cz: {
-    stem: "Fotbalista byl během zápasu zasažen do oblasti pánve a stěžuje si na silnou bolest v oblasti kyčle. Fyzikální vyšetření odhaluje izolovanou zlomeninu spina iliaca anterior inferior na pravé os coxae. Který z následujících svalů způsobil svým prudkým stahem toto odtržení kostního fragmentu?",
+    stem: "Mladý fotbalista při prudkém kopu do míče náhle pocítil silnou bolest v oblasti pravého kyčelního kloubu. Zobrazovací vyšetření prokázalo izolovanou avulzní zlomeninu spina iliaca anterior inferior pravé os coxae. Který z následujících svalů způsobil svým prudkým stahem odtržení kostního fragmentu?",
     options: {
         a: "Musculus rectus femoris",
         b: "Musculus sartorius",
@@ -3718,10 +3691,10 @@ const QUESTION_DATA = {
         e: "Musculus pectineus"
     },
     correct: "a",
-    explanation: "Spina iliaca anterior inferior na os coxae slouží jako začátek pro caput rectum svalu musculus rectus femoris, který při prudkém kopu nebo nápřahu může způsobit tuto avulzní zlomeninu. Naopak musculus sartorius začíná kraniálněji na spina iliaca anterior superior, což je typické místo avulze u sprinterů."
+    explanation: "Spina iliaca anterior inferior na os coxae slouží jako začátek pro musculus rectus femoris, který při prudkém kopu nebo nápřahu může způsobit tuto avulzní zlomeninu. Naopak musculus sartorius začíná na spina iliaca anterior superior."
   },
   en: {
-    stem: "A soccer player was struck in the pelvic region during a match and complains of severe pain in the hip area. Physical examination reveals an isolated fracture of the spina iliaca anterior inferior on the right os coxae. Which of the following muscles caused this bone fragment avulsion through its forceful contraction?",
+    stem: "A young football player suddenly experienced severe pain in the right hip region while forcefully kicking the ball. Imaging revealed an isolated avulsion fracture of the anterior inferior iliac spine of the right hip bone. Which of the following muscles caused the avulsion of the bone fragment through a forceful contraction?",
     options: {
         a: "Rectus femoris muscle",
         b: "Sartorius muscle",
@@ -3730,7 +3703,7 @@ const QUESTION_DATA = {
         e: "Pectineus muscle"
     },
     correct: "a",
-    explanation: "The spina iliaca anterior inferior on the os coxae serves as the origin for the straight head (caput rectum) of the musculus rectus femoris, which during a forceful kick or backswing can cause this avulsion fracture. In contrast, the musculus sartorius originates more cranially, at the spina iliaca anterior superior, which is the typical avulsion site in sprinters."
+    explanation: "The anterior inferior iliac spine of the hip bone serves as the origin of the rectus femoris muscle, which can cause this type of avulsion fracture during a forceful kick or sudden movement. In contrast, the sartorius muscle originates from the anterior superior iliac spine."
   }
 },
 {
@@ -3947,33 +3920,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The m. iliopsoas is the strongest flexor of the hip joint, and because of its insertion onto the trochanter minor, which lies posteromedially on the femur, its contraction pulls the femur in a way that simultaneously produces its external rotation."
-  }
-},
-{
-  id: 259,
-  cz: {
-    stem: "Běžkyně si stěžuje na ostrou bolest v přední části pánve, která se zhoršuje při běhu, stoji na jedné noze a při zvedání z postele. Palpometrické vyšetření odhaluje lokalizovanou citlivost přesně v místě předního spojení pánevních kostí. Rentgenový snímek ukazuje mírnou nepravidelnost kloubních ploch a rozšíření tohoto spoje, což svědčí pro diagnózu symfyziolýzy (rozestupu) spony stydké. Jakým typem kloubního spojení je z anatomického hlediska spona stydká, která je postižena u této pacientky?",
-    options: {
-        a: "Sekundární chrupavčité spojení, kde jsou kosti propojeny tlustým diskem z vazivové chrupavky (amfiartróza).",
-        b: "Pevný kostní srůst bez přítomnosti jakékoliv chrupavčité či vazivové tkáně (synostóza).",
-        c: "Nepohyblivý vazivový spoj, kde jsou kosti pevně sblíženy interoseální membránou (syndesmóza).",
-        d: "Synoviální spojení s kloubní dutinou, pouzdrem a vazivovým diskem uzpůsobeným pro rotaci (diarthróza).",
-        e: "Spojení tvořené výhradně hyalinní chrupavkou, která v dospělosti kompletně osifikuje (synchondróza)."
-    },
-    correct: "a",
-    explanation: "Spona stydká (symphysis pubica) je sekundární chrupavčité spojení (označované též jako amfiartróza), kde kloubní plochy kryje hyalinní chrupavka, ale hlavní spojení tvoří silný mezikostní disk z vazivové chrupavky (discus interpubicus), nikoliv chrupavky hyalinní, a v dospělosti neosifikuje."
-  },
-  en: {
-    stem: "A female runner complains of sharp pain in the front of the pelvis that worsens with running, standing on one leg, and getting up from bed. Palpation reveals localized tenderness exactly at the site of the anterior junction of the pelvic bones. X-ray shows mild irregularity of the joint surfaces and widening of this joint, suggestive of a diagnosis of symphysiolysis (separation) of the pubic symphysis. Anatomically, what type of joint is the pubic symphysis affected in this patient?",
-    options: {
-        a: "A secondary cartilaginous joint, in which the bones are connected by a thick disc of fibrocartilage (amphiarthrosis).",
-        b: "A solid bony fusion without the presence of any cartilaginous or fibrous tissue (synostosis).",
-        c: "An immobile fibrous joint, in which the bones are firmly joined by an interosseous membrane (syndesmosis).",
-        d: "A synovial joint with a joint cavity, capsule, and fibrous disc adapted for rotation (diarthrosis).",
-        e: "A joint formed exclusively by hyaline cartilage, which completely ossifies in adulthood (synchondrosis)."
-    },
-    correct: "a",
-    explanation: "The pubic symphysis (symphysis pubica) is a secondary cartilaginous joint (also called an amphiarthrosis), in which the articular surfaces are covered by hyaline cartilage, but the main connection is formed by a thick interosseous disc of fibrocartilage (discus interpubicus), not hyaline cartilage, and it does not ossify in adulthood."
   }
 },
 {
@@ -4247,33 +4193,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 289,
-  cz: {
-    stem: "Při neurochirurgickém výkonu v oblasti beder a hýždí je nutné brát zřetel na senzorické nervy této krajiny (nervi clunium), jejichž poranění může způsobit chronickou neuralgii (tzv. pseudoradikulární syndrom). Tyto nervy mají specifický a odlišný anatomický původ. Která z následujících možností správně popisuje původ jednotlivých skupin nervi clunium?",
-    options: {
-        a: "Nn. clunium superiores odstupují ze zadních větví (rami posteriores) bederních nervů | nn. clunium medii ze zadních větví (rami posteriores) křížových nervů | nn. clunium inferiores z plexus sacralis.",
-        b: "Nn. clunium superiores odstupují z předních větví (rami anteriores) bederních nervů | nn. clunium medii ze zadních větví (rami posteriores) křížových nervů | nn. clunium inferiores z plexus sacralis.",
-        c: "Nn. clunium superiores odstupují ze zadních větví (rami posteriores) bederních nervů | nn. clunium medii z předních větví (rami anteriores) křížových nervů | nn. clunium inferiores z plexus lumbalis.",
-        d: "Nn. clunium superiores odstupují z plexus lumbalis | nn. clunium medii z plexus sacralis | nn. clunium inferiores ze zadních větví (rami posteriores) kostrčních nervů.",
-        e: "Nn. clunium superiores odstupují z předních větví (rami anteriores) bederních nervů | nn. clunium medii z předních větví (rami anteriores) křížových nervů | nn. clunium inferiores z plexus sacralis."
-    },
-    correct: "a",
-    explanation: "Nn. clunium superiores odstupují ze zadních větví (rami posteriores) bederních nervů, nn. clunium medii rovněž ze zadních větví křížových nervů a pouze nn. clunium inferiores pocházejí z předních větví prostřednictvím plexus sacralis jako odbočky z nervus cutaneus femoris posterior."
-  },
-  en: {
-    stem: "During a neurosurgical procedure in the lumbar and gluteal regions, it is necessary to consider the sensory nerves of this area (nervi clunium), as their injury may cause chronic neuralgia (so-called pseudoradicular syndrome). These nerves have a specific and distinct anatomical origin. Which of the following options correctly describes the origin of the individual groups of nervi clunium?",
-    options: {
-        a: "Superior cluneal nerves arise from the posterior branches (rami posteriores) of the lumbar nerves | middle cluneal nerves from the posterior branches (rami posteriores) of the sacral nerves | inferior cluneal nerves from the sacral plexus.",
-        b: "Superior cluneal nerves arise from the anterior branches (rami anteriores) of the lumbar nerves | middle cluneal nerves from the posterior branches (rami posteriores) of the sacral nerves | inferior cluneal nerves from the sacral plexus.",
-        c: "Superior cluneal nerves arise from the posterior branches (rami posteriores) of the lumbar nerves | middle cluneal nerves from the anterior branches (rami anteriores) of the sacral nerves | inferior cluneal nerves from the lumbar plexus.",
-        d: "Superior cluneal nerves arise from the lumbar plexus | middle cluneal nerves from the sacral plexus | inferior cluneal nerves from the posterior branches (rami posteriores) of the coccygeal nerves.",
-        e: "Superior cluneal nerves arise from the anterior branches (rami anteriores) of the lumbar nerves | middle cluneal nerves from the anterior branches (rami anteriores) of the sacral nerves | inferior cluneal nerves from the sacral plexus."
-    },
-    correct: "a",
-    explanation: "The superior cluneal nerves arise from the posterior branches (rami posteriores) of the lumbar nerves, the middle cluneal nerves also arise from the posterior branches of the sacral nerves, and only the inferior cluneal nerves originate from the anterior branches through the sacral plexus as branches of the posterior femoral cutaneous nerve."
-  }
-},
-{
   id: 290,
   cz: {
     stem: "34letý pacient s těžkou dysplazií kyčelního kloubu podstoupil periacetabulární osteotomii, při které došlo k lézi nervus obturatorius. Která z následujících možností obsahuje výhradně svaly, které jsou inervovány pouze tímto nervem (a nemají duální inervaci z jiného nervového zdroje)?",
@@ -4303,7 +4222,7 @@ const QUESTION_DATA = {
 {
   id: 291,
   cz: {
-    stem: "Při operačních přístupech k femorální hernie nebo při resekcích v oblasti trigonum femorale je nutné brát zřetel na to, že některé svaly mediální skupiny stehna mají takzvanou diploinervaci (duální nervové zásobení ze dvou různých periferních nervů). Která z následujících dvojic obsahuje svaly mediální skupiny, které mají toto duální nervové zásobení?",
+    stem: "Které svaly mediální skupiny stehna mají duální nervové zásobení?",
     options: {
         a: "M. adductor magnus a m. pectineus",
         b: "M. adductor longus a m. adductor brevis",
@@ -4312,19 +4231,19 @@ const QUESTION_DATA = {
         e: "M. adductor brevis a m. pectineus"
     },
     correct: "a",
-    explanation: "M. adductor magnus je inervován z nervus obturatorius (pro addukční část) a z nervus ischiadicus (pro extenzorovou část), zatímco m. pectineus má duální zásobení z nervus femoralis a z nervus obturatorius."
+    explanation: "M. adductor magnus je inervován z nervus obturatorius a z nervus ischiadicus, zatímco m. pectineus má duální zásobení z nervus femoralis a z nervus obturatorius."
   },
   en: {
-    stem: "During surgical approaches to a femoral hernia or resections in the region of the femoral triangle, it is necessary to consider that some muscles of the medial compartment of the thigh have so-called dual innervation (dual nerve supply from two different peripheral nerves). Which of the following pairs contains muscles of the medial compartment that have this dual nerve supply?",
+    stem: "Which muscles of the medial thigh compartment have dual innervation?",
     options: {
-        a: "M. adductor magnus and m. pectineus",
-        b: "M. adductor longus and m. adductor brevis",
-        c: "M. gracilis and m. adductor magnus",
-        d: "M. pectineus and m. obturatorius externus",
-        e: "M. adductor brevis and m. pectineus"
+        a: "Adductor magnus muscle and pectineus muscle",
+        b: "Adductor longus muscle and adductor brevis muscle",
+        c: "Gracilis muscle and adductor magnus muscle",
+        d: "Pectineus muscle and obturator externus muscle",
+        e: "Adductor brevis muscle and pectineus muscle"
     },
     correct: "a",
-    explanation: "M. adductor magnus is innervated by the obturator nerve (for the adductor part) and by the sciatic nerve (for the extensor part), while m. pectineus has dual innervation from the femoral nerve and the obturator nerve."
+    explanation: "The adductor magnus muscle is innervated by the obturator nerve and the sciatic nerve, while the pectineus muscle has dual innervation from the femoral nerve and the obturator nerve."
   }
 },
 {
@@ -4352,33 +4271,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "M. pectineus is innervated by the femoral nerve and the obturator nerve, with both of these nerves originating from the lumbar plexus (plexus lumbalis)."
-  }
-},
-{
-  id: 293,
-  cz: {
-    stem: "Během ortopedické operace na stehně lékař identifikuje m. adductor magnus, u kterého je známo, že vykazuje duální nervové zásobení. Z které kombinace nervů a jejich mateřských pletení je tento sval inervován?",
-    options: {
-        a: "Nervus obturatorius (plexus lumbalis) a nervus ischiadicus (plexus sacralis)",
-        b: "Nervus obturatorius (plexus lumbalis) a nervus femoralis (plexus lumbalis)",
-        c: "Nervus obturatorius (plexus sacralis) a nervus ischiadicus (plexus sacralis)",
-        d: "Nervus femoralis (plexus lumbalis) a nervus ischiadicus (plexus sacralis)",
-        e: "Nervus obturatorius (plexus lumbalis) a nervus gluteus inferior (plexus sacralis)"
-    },
-    correct: "a",
-    explanation: "M. adductor magnus je inervován z nervus obturatorius, který odstupuje z bederní pleteně (plexus lumbalis), a z nervus ischiadicus, který pochází z křížové pleteně (plexus sacralis)."
-  },
-  en: {
-    stem: "During an orthopedic surgery on the thigh, the physician identifies m. adductor magnus, which is known to have dual nerve supply. From which combination of nerves and their parent plexuses is this muscle innervated?",
-    options: {
-        a: "Obturator nerve (lumbar plexus) and sciatic nerve (sacral plexus)",
-        b: "Obturator nerve (lumbar plexus) and femoral nerve (lumbar plexus)",
-        c: "Obturator nerve (sacral plexus) and sciatic nerve (sacral plexus)",
-        d: "Femoral nerve (lumbar plexus) and sciatic nerve (sacral plexus)",
-        e: "Obturator nerve (lumbar plexus) and inferior gluteal nerve (sacral plexus)"
-    },
-    correct: "a",
-    explanation: "M. adductor magnus is innervated by the obturator nerve, which originates from the lumbar plexus (plexus lumbalis), and by the sciatic nerve, which originates from the sacral plexus (plexus sacralis)."
   }
 },
 {
@@ -4460,33 +4352,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The femoral triangle (trigonum femorale) is bounded proximally by the inguinal ligament, laterally by the border of m. sartorius, and medially by the border of m. adductor longus. M. sartorius runs from the lateral side toward the knee, so it forms the lateral boundary of the space. The medial boundary on the inner side of the thigh is therefore formed by the adductor muscle m. adductor longus."
-  }
-},
-{
-  id: 299,
-  cz: {
-    stem: "Devětadvacetiletý cyklista byl po pádu z kola zasažen řídítky do třísla a stěžuje si na silnou bolest v oblasti trigonum femorale. Vyšetření odhalilo hluboký hematom zasahující až do dna tohoto prostoru. Která dvojice svalů tvoří toto anatomické dno?",
-    options: {
-        a: "M. iliopsoas a m. pectineus",
-        b: "M. adductor longus a m. gracilis",
-        c: "M. rectus femoris a m. sartorius",
-        d: "M. pectineus a m. adductor magnus",
-        e: "M. iliopsoas a m. adductor brevis"
-    },
-    correct: "a",
-    explanation: "Trigonum femorale je povrchový topografický trojúhelník v horní třetině přední strany stehna, jehož dno se hluboko propadá jako fossa iliopectinea a je vystláno laterálně uloženým svalem m. iliopsoas a mediálně ležícím m. pectineus."
-  },
-  en: {
-    stem: "A 29-year-old cyclist was hit in the groin by the handlebars after falling off his bike and complains of severe pain in the region of the femoral triangle (trigonum femorale). Examination revealed a deep hematoma extending to the floor of this space. Which pair of muscles forms this anatomical floor?",
-    options: {
-        a: "M. iliopsoas and m. pectineus",
-        b: "M. adductor longus and m. gracilis",
-        c: "M. rectus femoris and m. sartorius",
-        d: "M. pectineus and m. adductor magnus",
-        e: "M. iliopsoas and m. adductor brevis"
-    },
-    correct: "a",
-    explanation: "The femoral triangle (trigonum femorale) is a superficial topographic triangle in the upper third of the anterior thigh, whose floor extends deeply as the iliopectineal fossa (fossa iliopectinea) and is formed by the laterally located m. iliopsoas and the medially located m. pectineus."
   }
 },
 {
@@ -4763,33 +4628,6 @@ const QUESTION_DATA = {
   },
   image: { key: "q310_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
-{
-    "id": 314,
-    "cz": {
-      "stem": "23letý sprinter během závodu náhle pocítí ostrou bolest v oblasti pravého hýždě při maximálním zrychlení. MRI prokazuje parciální rupturu šlachy odstupující z tuber ischiadicum. Při fyzikálním vyšetření je zachována flexe kolene, ale je oslabena extenze v kyčelním kloubu. Lékař studentům připomíná, že postižený sval má dvě hlavy s odlišným začátkem. Která z následujících kombinací správně popisuje začátek obou hlav m. biceps femoris?",
-      "options": {
-        "a": "Caput longum – tuber ischiadicum; caput breve – labium laterale lineae asperae femoris",
-        "b": "Caput longum – spina iliaca anterior inferior; caput breve – tuber ischiadicum",
-        "c": "Caput longum – tuber ischiadicum; caput breve – facies posterior tibiae",
-        "d": "Caput longum – ramus inferior ossis pubis; caput breve – linea pectinea femoris",
-        "e": "Caput longum – spina iliaca anterior superior; caput breve – corpus fibulae"
-      },
-      "correct": "a",
-      "explanation": "M. biceps femoris má dvě hlavy. Dlouhá hlava začíná na tuber ischiadicum, krátká hlava na femuru v oblasti lineae asperae. Obě se upínají na caput fibulae. Dlouhá hlava provádí extenzi v kyčli a flexi kolene, krátká hlava pouze flexi kolene."
-    },
-    "en": {
-      "stem": "A 23-year-old sprinter suddenly experiences sharp pain in the region of the right buttock during maximal acceleration. MRI reveals a partial rupture of the tendon originating from the ischial tuberosity. On physical examination, knee flexion is preserved, but hip extension is weakened. The physician reminds the students that the affected muscle has two heads with different origins. Which of the following combinations correctly describes the origin of both heads of m. biceps femoris?",
-      "options": {
-        "a": "Long head – ischial tuberosity; short head – lateral lip of the linea aspera of the femur",
-        "b": "Long head – anterior inferior iliac spine; short head – ischial tuberosity",
-        "c": "Long head – ischial tuberosity; short head – posterior surface of the tibia",
-        "d": "Long head – inferior ramus of the pubis; short head – pectineal line of the femur",
-        "e": "Long head – anterior superior iliac spine; short head – body of the fibula"
-      },
-      "correct": "a",
-      "explanation": "M. biceps femoris has two heads. The long head originates from the ischial tuberosity, while the short head originates from the femur in the region of the linea aspera. Both heads insert onto the head of the fibula. The long head performs hip extension and knee flexion, while the short head only performs knee flexion."
-    }
-  },
   {
     "id": 315,
     "cz": {
@@ -4869,33 +4707,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The medial wall of the adductor canal is formed by the adductor longus muscle, which belongs to the medial compartment of the thigh. It is innervated by the obturator nerve."
-    }
-  },
-  {
-    "id": 318,
-    "cz": {
-      "stem": "60letý pacient podstupuje operaci v oblasti distálního stehna. Během zákroku chirurg identifikuje canalis adductorius, který slouží jako průchod mezi přední a zadní oblastí stehna. Poranění struktur procházejících tímto kanálem může ovlivnit cévní zásobení dolní končetiny i kožní citlivost mediální strany bérce. Které struktury normálně procházejí canalis adductorius?",
-      "options": {
-        "a": "a. femoralis, v. femoralis a n. saphenus",
-        "b": "a. profunda femoris, n. femoralis a v. saphena magna",
-        "c": "a. poplitea, n. tibialis a v. poplitea",
-        "d": "n. obturatorius, a. obturatoria a v. obturatoria",
-        "e": "a. tibialis anterior, n. fibularis profundus a v. femoralis"
-      },
-      "correct": "a",
-      "explanation": "Canalis adductorius je kanál v distální části stehna, kterým procházejí a. femoralis, v. femoralis a n. saphenus. Následně a. a v. femoralis pokračují přes hiatus adductorius do podkolenní jámy, kde pokračují jako a. a v. poplitea, zatímco n. saphenus vystupuje z kanálu a pokračuje do oblasti mediální strany bérce."
-    },
-    "en": {
-      "stem": "A 60-year-old patient undergoes surgery in the region of the distal thigh. During the procedure, the surgeon identifies the adductor canal (canalis adductorius), which serves as a passageway between the anterior and posterior regions of the thigh. Injury to the structures passing through this canal may affect the blood supply of the lower limb as well as cutaneous sensation on the medial side of the lower leg. Which structures normally pass through the adductor canal (canalis adductorius)?",
-      "options": {
-        "a": "Femoral artery, femoral vein, and saphenous nerve",
-        "b": "Deep femoral artery, femoral nerve, and great saphenous vein",
-        "c": "Popliteal artery, tibial nerve, and popliteal vein",
-        "d": "Obturator nerve, obturator artery, and obturator vein",
-        "e": "Anterior tibial artery, deep fibular nerve, and femoral vein"
-      },
-      "correct": "a",
-      "explanation": "The adductor canal (canalis adductorius) is a canal in the distal part of the thigh through which the femoral artery, femoral vein, and saphenous nerve pass. Subsequently, the femoral artery and vein continue through the adductor hiatus into the popliteal fossa, where they continue as the popliteal artery and vein, while the saphenous nerve exits the canal and continues to the medial side of the lower leg."
     }
   },
   {
@@ -5142,33 +4953,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 333,
-    "cz": {
-      "stem": "29letý pacient utrpěl poranění v oblasti mediální strany stehna. Při vyšetření je zjištěno oslabení addukce v kyčelním kloubu a současně výrazné oslabení flexe kolenního kloubu a vnitřní rotace bérce. Který sval mediální skupiny stehna byl pravděpodobně nejvíce postižen?",
-      "options": {
-        "a": "M. gracilis",
-        "b": "M. adductor longus",
-        "c": "M. adductor brevis",
-        "d": "M. adductor magnus",
-        "e": "M. pectineus"
-      },
-      "correct": "a",
-      "explanation": "M. gracilis se od většiny adduktorů liší tím, že jako jediný sval mediální skupiny stehna překračuje kolenní kloub. Kromě addukce stehna tedy provádí také flexi kolene a pomáhá s mediální rotací bérce. Ostatní adduktory působí pouze v oblasti kyčelního kloubu."
-    },
-    "en": {
-      "stem": "A 29-year-old patient sustained an injury to the medial side of the thigh. Examination reveals weakness of hip adduction together with marked weakness of knee flexion and internal rotation of the leg. Which muscle of the medial compartment of the thigh was most likely affected?",
-      "options": {
-        "a": "Gracilis muscle (m. gracilis)",
-        "b": "Adductor longus muscle (m. adductor longus)",
-        "c": "Adductor brevis muscle (m. adductor brevis)",
-        "d": "Adductor magnus muscle (m. adductor magnus)",
-        "e": "Pectineus muscle (m. pectineus)"
-      },
-      "correct": "a",
-      "explanation": "The gracilis muscle (m. gracilis) differs from most adductors because it is the only muscle of the medial thigh compartment that crosses the knee joint. Therefore, in addition to thigh adduction, it also performs knee flexion and assists with medial rotation of the leg. The other adductor muscles act only at the hip joint."
-    }
-  },
-  {
     id: 343,
     cz: {
       stem: "31letý lyžař utrpěl poranění kolene při prudké změně směru pohybu s fixovaným chodidlem. Při fyzikálním vyšetření lze tibii posunout výrazně více dopředu vůči femuru než na zdravé končetině. Která struktura byla s největší pravděpodobností poraněna?",
@@ -5193,33 +4977,6 @@ const QUESTION_DATA = {
       },
       correct: "a",
       explanation: "The anterior cruciate ligament prevents anterior translation of the tibia relative to the femur and also limits excessive internal rotation of the tibia. It is commonly injured during a sudden change in direction or a rotational mechanism with the foot firmly planted, resulting in increased anteroposterior instability of the knee joint."
-    }
-  },
-  {
-    id: 345,
-    cz: {
-      stem: "Profesor se při zkoušení anatomie dolní končetiny ptá studenta na charakteristiku articulatio genus. Jaký typ kloubu představuje kolenní kloub podle anatomického názvosloví?",
-      options: {
-        a: "Articulatio composita",
-        b: "Articulatio spheroidea",
-        c: "Articulatio trochoidea",
-        d: "Articulatio simplex",
-        e: "Articulatio sellaris"
-      },
-      correct: "a",
-      explanation: "Articulatio genus je složený kloub (articulatio composita), protože jej tvoří více kloubních spojení mezi femurem, tibií a patellou. Díky komplexnímu uspořádání umožňuje zejména flexi a extenzi, ale také omezené rotační pohyby."
-    },
-    en: {
-      stem: "During an anatomy examination of the lower limb, a professor asks a student about the characteristics of the articulatio genus. What type of joint is the knee joint according to anatomical terminology?",
-      options: {
-        a: "Compound joint",
-        b: "Ball-and-socket joint",
-        c: "Pivot joint",
-        d: "Simple joint",
-        e: "Saddle joint"
-      },
-      correct: "a",
-      explanation: "The articulatio genus is a compound joint (articulatio composita) because it consists of multiple joint articulations between the femur, tibia, and patella. Due to its complex arrangement, it primarily allows flexion and extension, but also limited rotational movements."
     }
   },
   {
@@ -5682,33 +5439,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 367,
-    "cz": {
-      "stem": "Při hodnocení cévního zásobení jednotlivých kompartmentů bérce je zjišťováno, která tepna přivádí krev do laterální skupiny svalů bérce. Která z následujících možností správně popisuje hlavní cévní zásobení této svalové skupiny?",
-      "options": {
-        "a": "Arteria fibularis, odstupuje z arteria tibialis posterior",
-        "b": "Arteria tibialis anterior, odstupuje z arteria poplitea",
-        "c": "Arteria tibialis posterior, odstupuje z arteria poplitea",
-        "d": "Arteria poplitea, odstupuje z arteria femoralis",
-        "e": "Arteria fibularis, odstupuje z arteria tibialis anterior"
-      },
-      "correct": "a",
-      "explanation": "Laterální skupinu svalů bérce zásobuje především arteria fibularis (peronea), která odstupuje z arteria tibialis posterior. Arteria fibularis probíhá v zadním kompartmentu bérce, ale její větve zásobují také laterální skupinu svalů."
-    },
-    "en": {
-      "stem": "When evaluating the vascular supply of the individual compartments of the leg, the artery supplying the lateral compartment muscles of the leg is assessed. Which of the following options correctly describes the main vascular supply of this muscle group?",
-      "options": {
-        "a": "Fibular artery, arises from the posterior tibial artery",
-        "b": "Anterior tibial artery, arises from the popliteal artery",
-        "c": "Posterior tibial artery, arises from the popliteal artery",
-        "d": "Popliteal artery, arises from the femoral artery",
-        "e": "Fibular artery, arises from the anterior tibial artery"
-      },
-      "correct": "a",
-      "explanation": "The lateral compartment muscles of the leg are primarily supplied by the fibular (peroneal) artery, which arises from the posterior tibial artery. The fibular artery runs in the posterior compartment of the leg, but its branches also supply the lateral compartment muscles."
-    }
-  },
-  {
     "id": 368,
     "cz": {
       "stem": "Při vyšetření povrchového žilního systému dolní končetiny lékař hodnotí průběh a lokalizaci hlavních povrchových žil, které odvádějí krev z oblasti nohy a bérce. Tyto žíly se liší nejen svým průběhem, ale také místem, kde se na dolní končetině nacházejí. Která z následujících možností správně popisuje jejich uložení?",
@@ -5760,33 +5490,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The saphenous nerve is a sensory branch of the femoral nerve and in the region of the leg runs together with the great saphenous vein on the medial side of the lower limb. The sural nerve, in contrast, accompanies the small saphenous vein, especially in the region of the posterior aspect of the leg."
-    }
-  },
-  {
-    "id": 373,
-    "cz": {
-      "stem": "Při výstupu do prudkého kopce si mladý muž všimne, že se není schopen účinně odrazit od podložky na postižené končetině. Při vyšetření je patrné výrazné oslabení plantární flexe v hlezenním kloubu i flexe prstů nohy, zatímco dorzální flexe a everze jsou zachovány. Který z následujících nervů je nejpravděpodobněji postižen a z jakého plexu vychází?",
-      "options": {
-        "a": "Nervus tibialis, plexus sacralis",
-        "b": "Nervus fibularis profundus, plexus sacralis",
-        "c": "Nervus fibularis superficialis, plexus sacralis",
-        "d": "Nervus femoralis, plexus lumbalis",
-        "e": "Nervus tibialis, plexus lumbalis"
-      },
-      "correct": "a",
-      "explanation": "Zadní skupina svalů bérce zahrnuje povrchovou i hlubokou vrstvu a zajišťuje především plantární flexi v hlezenním kloubu, flexi prstů a podílí se na inverzi nohy. Všechny svaly této skupiny jsou motoricky inervovány nervus tibialis, který je terminální větví nervus ischiadicus pocházejícího z plexus sacralis."
-    },
-    "en": {
-      "stem": "During climbing a steep hill, a young man notices that he is unable to effectively push off the ground with the affected limb. Examination reveals marked weakness of plantar flexion at the ankle joint and flexion of the toes, while dorsiflexion and eversion are preserved. Which of the following nerves is most likely affected, and from which plexus does it originate?",
-      "options": {
-        "a": "Tibial nerve, sacral plexus",
-        "b": "Deep fibular nerve, sacral plexus",
-        "c": "Superficial fibular nerve, sacral plexus",
-        "d": "Femoral nerve, lumbar plexus",
-        "e": "Tibial nerve, lumbar plexus"
-      },
-      "correct": "a",
-      "explanation": "The posterior compartment of the leg includes both superficial and deep layers and primarily performs plantar flexion at the ankle joint, flexion of the toes, and contributes to inversion of the foot. All muscles of this compartment are motorically innervated by the tibial nerve, which is a terminal branch of the sciatic nerve originating from the sacral plexus."
     }
   },
   {
@@ -6008,7 +5711,7 @@ const QUESTION_DATA = {
   {
     "id": 387,
     "cz": {
-      "stem": "Pacient po úrazu v oblasti kolene udává poruchu citlivosti na různých částech bérce. Při vyšetření lékař mapuje kožní inervaci bérce a hodnotí jednotlivé periferní nervy. Která z následujících možností správně popisuje senzorickou inervaci bérce?",
+      "stem": "Která z následujících možností správně popisuje senzorickou inervaci bérce?",
       "options": {
         "a": "Nervus saphenus – mediální strana bérce, nervus suralis – laterální okraj a zadní část bérce",
         "b": "Nervus fibularis superficialis – mediální strana bérce; nervus fibularis profundus – přední strana bérce",
@@ -6020,7 +5723,7 @@ const QUESTION_DATA = {
       "explanation": "Senzorickou inervaci bérce zajišťují hlavně nervus saphenus (mediální strana bérce), nervus suralis (laterální okraj a zadní část distálního bérce) a nervus fibularis superficialis (většina hřbetu nohy a dolní část anterolaterálního bérce). Nervus fibularis profundus je převážně motorický a senzitivně zásobuje pouze malou oblast mezi 1. a 2. prstem nohy. Nervus tibialis zajišťuje hlavně motorickou inervaci zadní skupiny svalů bérce a senzitivitu plosky nohy."
     },
     "en": {
-      "stem": "A patient after a knee injury reports sensory disturbances in different areas of the leg. During examination, the physician maps the cutaneous innervation of the leg and evaluates individual peripheral nerves. Which of the following options correctly describes the sensory innervation of the leg?",
+      "stem": "Which of the following options correctly describes the sensory innervation of the leg?",
       "options": {
         "a": "Saphenous nerve – medial side of the leg, sural nerve – lateral border and posterior part of the leg",
         "b": "Superficial fibular nerve – medial side of the leg; deep fibular nerve – anterior side of the leg",
@@ -6438,60 +6141,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 482,
-    "cz": {
-      "stem": "Pacient po poranění plantární strany nohy podstupuje neurologické vyšetření. Lékař hodnotí svaly palce, které jsou zásobeny různými větvemi nervus plantaris. Mezi testované svaly patří musculus flexor hallucis brevis a musculus adductor hallucis, přičemž u musculus adductor hallucis jsou hodnoceny obě jeho hlavy. Které tvrzení o jejich inervaci je správné?",
-      "options": {
-        "a": "Musculus flexor hallucis brevis je inervován nervus plantaris medialis, zatímco obě hlavy musculus adductor hallucis jsou inervovány nervus plantaris lateralis",
-        "b": "Musculus flexor hallucis brevis je inervován nervus plantaris lateralis, zatímco caput obliquum a caput transversum musculus adductor hallucis jsou inervovány nervus plantaris medialis",
-        "c": "Musculus flexor hallucis brevis je inervován nervus plantaris medialis, caput obliquum musculus adductor hallucis je inervováno nervus plantaris lateralis a caput transversum musculus adductor hallucis nervus plantaris medialis",
-        "d": "Musculus flexor hallucis brevis a caput obliquum musculus adductor hallucis jsou inervovány pomocí nervus plantaris medialis, caput transversum musculus adductor hallucis nervus plantaris lateralis",
-        "e": "Musculus flexor hallucis brevis i obě hlavy musculus adductor hallucis jsou inervovány nervus plantaris medialis"
-      },
-      "correct": "a",
-      "explanation": "Musculus flexor hallucis brevis je inervován nervus plantaris medialis. Obě hlavy musculus adductor hallucis (caput obliquum i caput transversum) jsou inervovány hlubokou větví nervus plantaris lateralis."
-    },
-    "en": {
-      "stem": "A patient after an injury to the plantar side of the foot undergoes a neurological examination. The physician evaluates the muscles of the great toe, which are supplied by different branches of the plantar nerve. The tested muscles include the flexor hallucis brevis muscle and the adductor hallucis muscle, with both heads of the adductor hallucis muscle being assessed. Which statement about their innervation is correct?",
-      "options": {
-        "a": "The flexor hallucis brevis muscle is innervated by the medial plantar nerve, whereas both heads of the adductor hallucis muscle are innervated by the lateral plantar nerve",
-        "b": "The flexor hallucis brevis muscle is innervated by the lateral plantar nerve, whereas the oblique head and transverse head of the adductor hallucis muscle are innervated by the medial plantar nerve",
-        "c": "The flexor hallucis brevis muscle is innervated by the medial plantar nerve, the oblique head of the adductor hallucis muscle is innervated by the lateral plantar nerve, and the transverse head of the adductor hallucis muscle by the medial plantar nerve",
-        "d": "The flexor hallucis brevis muscle and the oblique head of the adductor hallucis muscle are innervated by the medial plantar nerve, while the transverse head of the adductor hallucis muscle is innervated by the lateral plantar nerve",
-        "e": "Both the flexor hallucis brevis muscle and both heads of the adductor hallucis muscle are innervated by the medial plantar nerve"
-      },
-      "correct": "a",
-      "explanation": "The flexor hallucis brevis muscle is innervated by the medial plantar nerve. Both heads of the adductor hallucis muscle (the oblique head and the transverse head) are innervated by the deep branch of the lateral plantar nerve."
-    }
-  },
-  {
-    "id": 484,
-    "cz": {
-      "stem": "Který z následujících svalů z anatomického hlediska neexistuje jako normální součást svalů nohy?",
-      "options": {
-        "a": "Musculus opponens hallucis",
-        "b": "Musculus opponens digiti minimi",
-        "c": "Musculus flexor halucis brevis",
-        "d": "Musculus abductor hallucis",
-        "e": "Musculus abductor digiti minimi"
-      },
-      "correct": "a",
-      "explanation": "Musculus opponens hallucis se u člověka na rozdíl od ruky nevyskytuje. V oblasti palce nohy existují svaly abductor hallucis, flexor hallucis brevis a adductor hallucis, ale samostatný sval zajišťující opozici palce není anatomicky přítomen. Musculus opponens digiti minimi je naopak součástí svalů planty."
-    },
-    "en": {
-      "stem": "Which of the following muscles does not exist anatomically as a normal component of the muscles of the foot?",
-      "options": {
-        "a": "Opponens hallucis muscle",
-        "b": "Opponens digiti minimi muscle",
-        "c": "Flexor hallucis brevis muscle",
-        "d": "Abductor hallucis muscle",
-        "e": "Abductor digiti minimi muscle"
-      },
-      "correct": "a",
-      "explanation": "The opponens hallucis muscle does not occur in humans unlike in the hand. In the region of the great toe, the muscles abductor hallucis, flexor hallucis brevis, and adductor hallucis are present, but a separate muscle responsible for opposition of the great toe is not anatomically present. The opponens digiti minimi muscle, on the other hand, is a component of the plantar muscles."
-    }
-  },
-  {
     "id": 486,
     "cz": {
       "stem": "Pacient po hlubokém poranění plantární strany nohy podstoupil rekonstrukční výkon v oblasti druhé vrstvy planty. Při následném vyšetření je hodnocena funkce jednotlivých svalů této oblasti. Které tvrzení nejpřesněji popisuje funkci musculus quadratus plantae?",
@@ -6543,60 +6192,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The lumbrical muscles insert into the dorsal aponeurosis of the 2nd–5th toes, therefore they act on the extensor apparatus and enable extension of the interphalangeal joints. At the same time, they flex the toes at the metatarsophalangeal joints."
-    }
-  },
-  {
-    "id": 488,
-    "cz": {
-      "stem": "Při anatomické pitvě plantární a dorzální strany nohy student hodnotí drobné svaly uložené mezi metatarsy – mm. interossei. Tyto svaly se podílejí na jemné koordinaci pohybů prstů a jejich postavení při stoji a chůzi. Paní docentka se ptá na počet těchto svalů a jejich hlavní funkci. Která kombinace je správná?",
-      "options": {
-        "a": "Musculi interossei dorsales – 4 svaly, hlavní funkce abdukce prstů; musculi interossei plantares – 3 svaly, hlavní funkce addukce prstů",
-        "b": "Musculi interossei dorsales – 3 svaly, hlavní funkce addukce prstů; musculi interossei plantares – 4 svaly, hlavní funkce abdukce prstů",
-        "c": "Musculi interossei dorsales – 4 svaly, hlavní funkce addukce prstů; musculi interossei plantares – 3 svaly, hlavní funkce abdukce prstů",
-        "d": "Musculi interossei dorsales – 4 svaly, hlavní funkce abdukce palce; musculi interossei plantares – 3 svaly, hlavní funkce flexe 2.–5. prstu",
-        "e": "Musculi interossei dorsales – 3 svaly, hlavní funkce abdukce prstů; musculi interossei plantares – 4 svaly, hlavní funkce addukce prstů"
-      },
-      "correct": "a",
-      "explanation": "Musculi interossei dorsales jsou 4 svaly a provádějí abdukci prstů od osy nohy, která prochází druhým prstem. Musculi interossei plantares jsou 3 svaly a zajišťují addukci 3.–5. prstu směrem k druhému prstu. Obě skupiny jsou inervovány nervus plantaris lateralis."
-    },
-    "en": {
-      "stem": "During an anatomical dissection of the plantar and dorsal sides of the foot, a student evaluates the small muscles located between the metatarsals – the interosseous muscles. These muscles contribute to fine coordination of toe movements and their position during standing and walking. The lecturer asks about the number of these muscles and their main function. Which combination is correct?",
-      "options": {
-        "a": "Dorsal interossei muscles – 4 muscles, main function is abduction of the toes; plantar interossei muscles – 3 muscles, main function is adduction of the toes",
-        "b": "Dorsal interossei muscles – 3 muscles, main function is adduction of the toes; plantar interossei muscles – 4 muscles, main function is abduction of the toes",
-        "c": "Dorsal interossei muscles – 4 muscles, main function is adduction of the toes; plantar interossei muscles – 3 muscles, main function is abduction of the toes",
-        "d": "Dorsal interossei muscles – 4 muscles, main function is abduction of the great toe; plantar interossei muscles – 3 muscles, main function is flexion of the 2nd–5th toes",
-        "e": "Dorsal interossei muscles – 3 muscles, main function is abduction of the toes; plantar interossei muscles – 4 muscles, main function is adduction of the toes"
-      },
-      "correct": "a",
-      "explanation": "The dorsal interosseous muscles are 4 muscles and perform abduction of the toes away from the axis of the foot, which passes through the second toe. The plantar interosseous muscles are 3 muscles and provide adduction of the 3rd–5th toes toward the second toe. Both groups are innervated by the lateral plantar nerve."
-    }
-  },
-  {
-    "id": 489,
-    "cz": {
-      "stem": "Při anatomickém vyšetření hlubokých svalů planty student hodnotí drobné svaly uložené mezi metatarsy – mm. interossei. Vyšetřující porovnává jednotlivé skupiny podle jejich počtu a motorické inervace. Která kombinace je správná?",
-      "options": {
-        "a": "Musculi interossei dorsales – 4 svaly, nervus plantaris lateralis; musculi interossei plantares – 3 svaly, nervus plantaris lateralis",
-        "b": "Musculi interossei dorsales – 3 svaly, nervus plantaris medialis; musculi interossei plantares – 4 svaly, nervus plantaris lateralis",
-        "c": "Musculi interossei dorsales – 4 svaly, nervus plantaris medialis; musculi interossei plantares – 3 svaly, nervus plantaris lateralis",
-        "d": "Musculi interossei dorsales – 4 svaly, nervus plantaris lateralis; musculi interossei plantares – 3 svaly, nervus plantaris medialis",
-        "e": "Musculi interossei dorsales – 3 svaly, nervus plantaris lateralis; musculi interossei plantares – 4 svaly, nervus plantaris medialis"
-      },
-      "correct": "a",
-      "explanation": "Musculi interossei dorsales jsou 4 svaly a jsou inervovány nervus plantaris lateralis. Musculi interossei plantares jsou 3 svaly a také jsou inervovány nervus plantaris lateralis. Rozdíl mezi nimi je hlavně ve funkci – dorsales provádějí abdukci prstů, plantares addukci prstů k ose nohy."
-    },
-    "en": {
-      "stem": "During an anatomical examination of the deep muscles of the plantar region, a student evaluates the small muscles located between the metatarsals – the interosseous muscles. The examiner compares the individual groups according to their number and motor innervation. Which combination is correct?",
-      "options": {
-        "a": "Dorsal interossei muscles – 4 muscles, lateral plantar nerve; plantar interossei muscles – 3 muscles, lateral plantar nerve",
-        "b": "Dorsal interossei muscles – 3 muscles, medial plantar nerve; plantar interossei muscles – 4 muscles, lateral plantar nerve",
-        "c": "Dorsal interossei muscles – 4 muscles, medial plantar nerve; plantar interossei muscles – 3 muscles, lateral plantar nerve",
-        "d": "Dorsal interossei muscles – 4 muscles, lateral plantar nerve; plantar interossei muscles – 3 muscles, medial plantar nerve",
-        "e": "Dorsal interossei muscles – 3 muscles, lateral plantar nerve; plantar interossei muscles – 4 muscles, medial plantar nerve"
-      },
-      "correct": "a",
-      "explanation": "The dorsal interosseous muscles are 4 muscles and are innervated by the lateral plantar nerve. The plantar interosseous muscles are 3 muscles and are also innervated by the lateral plantar nerve. The main difference between them is their function – the dorsal interossei perform abduction of the toes, while the plantar interossei perform adduction of the toes toward the axis of the foot."
     }
   },
   {
@@ -6765,7 +6360,7 @@ const QUESTION_DATA = {
 {
   id: 1080,
   cz: {
-    stem: "Na obrázku je patrná kalcifikace v oblasti úponové šlachy svalu. O který sval se jedná?",
+    stem: "Na obrázku je patrná kalcifikace v oblasti úponové šlachy svalu. O šlachu kterého svalu se jedná?",
     options: {
         a: "m. triceps surae",
         b: "m. tibialis anterior",
@@ -6777,7 +6372,7 @@ const QUESTION_DATA = {
     explanation: "Achillova šlacha (tendo calcaneus) je společná úponová šlacha m. triceps surae, který je tvořen m. gastrocnemius medialis et lateralis a m. soleus. Upíná se na tuber calcanei a jeho kontrakce způsobuje plantární flexi nohy."
   },
   en: {
-    stem: "The image shows calcification in the insertional tendon of a muscle. Which muscle is involved?",
+    stem: "The image shows calcification in the insertional tendon of a muscle. Which muscle does this tendon belong to?",
     options: {
         a: "triceps surae muscle",
         b: "tibialis anterior muscle",
@@ -7101,6 +6696,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1115_custom", source: "Anatomist90. Slide2EA.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" },
   explanationImage: { key: "e1115_custom", source: "Anatomist90. Slide2EA.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
+},
+{
+  id: 1116,
+  cz: {
+    stem: "Při vyšetření laterální skupiny svalů bérce je hodnocena nervová struktura, která zajišťuje motorickou inervaci svalů provádějících everzi nohy. Která z následujících možností správně popisuje jejich inervaci a původ nervu?",
+    options: {
+        a: "Nervus fibularis superficialis, plexus sacralis",
+        b: "Nervus fibularis profundus, plexus lumbalis",
+        c: "Nervus fibularis profundus, plexus sacralis",
+        d: "Nervus fibularis superficialis, plexus lumbalis",
+        e: "Nervus suralis, plexus sacralis"
+    },
+    correct: "a",
+    explanation: "Laterální skupinu svalů bérce tvoří m. fibularis longus a m. fibularis brevis, které jsou motoricky inervovány z nervus fibularis superficialis. Tento nerv je terminální větví nervus fibularis communis, který vzniká z nervus ischiadicus pocházejícího z plexus sacralis."
+  },
+  en: {
+    stem: "During examination of the lateral compartment muscles of the leg, a nerve structure providing motor innervation to the muscles responsible for eversion of the foot is evaluated. Which of the following options correctly describes their innervation and the origin of the nerve?",
+    options: {
+        a: "Superficial fibular nerve, sacral plexus",
+        b: "Deep fibular nerve, lumbar plexus",
+        c: "Deep fibular nerve, sacral plexus",
+        d: "Superficial fibular nerve, lumbar plexus",
+        e: "Sural nerve, sacral plexus"
+    },
+    correct: "a",
+    explanation: "The lateral compartment muscles of the leg consist of the fibularis longus and fibularis brevis muscles, which are motorically innervated by the superficial fibular nerve. This nerve is a terminal branch of the common fibular nerve, which arises from the sciatic nerve originating from the sacral plexus."
+  },
+  image: { key: "q1116_custom", source: "Connexions. Eversion and inversion.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Eversion_and_inversion.jpg. CC BY 3.0. Accessed 12 September 2026.", type: "image" }
 },
 ]
       },
@@ -28599,6 +28222,33 @@ const LIVE_QUESTION_BANKS = {
       explanation: "The unhappy triad includes injury to the anterior cruciate ligament, tibial collateral ligament, and medial meniscus. These structures are connected by their anatomical proximity and the mechanism of injury involving valgus and rotational forces applied to the knee."
     }
   },
+  {
+  id: 10280,
+  cz: {
+    stem: "Během ortopedické operace na stehně lékař identifikuje m. adductor magnus, u kterého je známo, že vykazuje duální nervové zásobení. Z které kombinace nervů a jejich mateřských pletení je tento sval inervován?",
+    options: {
+        a: "Nervus obturatorius (plexus lumbalis) a nervus ischiadicus (plexus sacralis)",
+        b: "Nervus obturatorius (plexus lumbalis) a nervus femoralis (plexus lumbalis)",
+        c: "Nervus obturatorius (plexus sacralis) a nervus ischiadicus (plexus sacralis)",
+        d: "Nervus femoralis (plexus lumbalis) a nervus ischiadicus (plexus sacralis)",
+        e: "Nervus obturatorius (plexus lumbalis) a nervus gluteus inferior (plexus sacralis)"
+    },
+    correct: "a",
+    explanation: "M. adductor magnus je inervován z nervus obturatorius, který odstupuje z bederní pleteně (plexus lumbalis), a z nervus ischiadicus, který pochází z křížové pleteně (plexus sacralis)."
+  },
+  en: {
+    stem: "During an orthopedic surgery on the thigh, the physician identifies the adductor magnus muscle, which is known to have dual innervation. Which combination of nerves and their parent plexuses provides the innervation of this muscle?",
+    options: {
+        a: "Obturator nerve (lumbar plexus) and sciatic nerve (sacral plexus)",
+        b: "Obturator nerve (lumbar plexus) and femoral nerve (lumbar plexus)",
+        c: "Obturator nerve (sacral plexus) and sciatic nerve (sacral plexus)",
+        d: "Femoral nerve (lumbar plexus) and sciatic nerve (sacral plexus)",
+        e: "Obturator nerve (lumbar plexus) and inferior gluteal nerve (sacral plexus)"
+    },
+    correct: "a",
+    explanation: " The adductor magnus muscle is innervated by the obturator nerve, which arises from the lumbar plexus, and the sciatic nerve, which arises from the sacral plexus."
+  }
+},
 
     ]
     // =ANATOMIE_1_VERZE_3_END=
