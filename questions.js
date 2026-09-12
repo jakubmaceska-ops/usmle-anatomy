@@ -7773,6 +7773,64 @@ const QUESTION_DATA = {
   image: { key: "q1113_custom", source: "Anatomist90. Slide2EA.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" },
   explanationImage: { key: "e1113_custom", source: "Anatomist90. Slide2EA.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
 },
+{
+  id: 1114,
+  cz: {
+    stem: "Jaký sval je vyznačen na řezu stehnem?",
+    options: {
+        a: "Musculus gracilis",
+        b: "Musculus sartorius",
+        c: "Musculus adductor longus",
+        d: "Musculus adductor magnus",
+        e: "Musculus vastus medialis"
+    },
+    correct: "c",
+    explanation: "Vyznačeným svalem je musculus adductor longus, který patří do mediální skupiny svalů stehna. Na příčném řezu se nachází v anteromediální části stehna a typicky leží laterálně od musculus gracilis a mediálně od musculus vastus medialis."
+  },
+  en: {
+    stem: "Which muscle is indicated on the cross-section of the thigh?",
+    options: {
+        a: "Gracilis muscle",
+        b: "Sartorius muscle",
+        c: "Adductor longus muscle",
+        d: "Adductor magnus muscle",
+        e: "Vastus medialis muscle"
+    },
+    correct: "c",
+    explanation: "The indicated muscle is the adductor longus muscle, which belongs to the medial compartment of the thigh. On a cross-section, it is located in the anteromedial part of the thigh and typically lies lateral to the gracilis muscle and medial to the vastus medialis muscle."
+  },
+  image: { key: "q1114_custom", source: "Anatomist90. Slide2EA.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" },
+  explanationImage: { key: "e1114_custom", source: "Anatomist90. Slide2EA.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
+},
+{
+  id: 1115,
+  cz: {
+    stem: "Na přiloženém řezu stehnem je vyznačena žíla. O jakou žílu se jedná a kam se vlévá?",
+    options: {
+        a: "Vena saphena magna → vena femoralis",
+        b: "Vena femoralis → vena iliaca externa",
+        c: "Vena saphena magna → vena iliaca externa",
+        d: "Vena femoralis → vena iliaca interna",
+        e: "Vena saphena magna → vena poplitea"
+    },
+    correct: "b",
+    explanation: "Vyznačenou žílou je vena femoralis. Pokračuje proximálně pod ligamentum inguinale, kde se vlévá do vena iliaca externa. Vena saphena magna se do vena femoralis vlévá v oblasti hiatus saphenus."
+  },
+  en: {
+    stem: "Which vein is indicated on the cross-section of the thigh, and where does it drain?",
+    options: {
+        a: "Great saphenous vein → femoral vein",
+        b: "Femoral vein → external iliac vein",
+        c: "Great saphenous vein → external iliac vein",
+        d: "Femoral vein → internal iliac vein",
+        e: "Great saphenous vein → popliteal vein"
+    },
+    correct: "b",
+    explanation: "The indicated vein is the femoral vein. It continues proximally beneath the inguinal ligament, where it becomes the external iliac vein. The great saphenous vein drains into the femoral vein at the saphenous opening."
+  },
+  image: { key: "q1115_custom", source: "Anatomist90. Slide2EA.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" },
+  explanationImage: { key: "e1115_custom", source: "Anatomist90. Slide2EA.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
+},
 ]
       },
 
