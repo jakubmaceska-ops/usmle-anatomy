@@ -7741,7 +7741,8 @@ const QUESTION_DATA = {
     correct: "c",
     explanation: "The indicated muscle is the tibialis posterior muscle, which belongs to the deep posterior compartment of the leg and is innervated by the tibial nerve. It originates from the posterior surfaces of the tibia and fibula and the interosseous membrane. It inserts onto the navicular tuberosity, all cuneiform bones, cuboid bone, and the bases of the second to fourth metatarsal bones. (*https://www.kenhub.com/en/library/anatomy/tibialis-posterior-muscle)\nOn a cross-section of the leg, the tibialis posterior muscle is located in the deep posterior compartment between the tibia and fibula, with the tibia positioned medially and the fibula laterally. The tibial nerve and accompanying neurovascular structures pass posteriorly to the tibialis posterior muscle within the deep posterior compartment."
   },
-  image: { key: "q1112_custom", source: "Ruth Semple, George S. Murley, James Woodburn, Deborah E. Turner. Cross section of cadaver limb.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_cadaver_limb.png. CC BY 2.0. Accessed 12 September 2026.", type: "image" }
+  image: { key: "q1112_custom", source: "Ruth Semple, George S. Murley, James Woodburn, Deborah E. Turner. Cross section of cadaver limb.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_cadaver_limb.png. CC BY 2.0. Accessed 12 September 2026.", type: "image" },
+  explanationImage: { key: "e1112_custom", source: "Hermann Braus. Braus 1921 293.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Braus_1921_293.png. Public domain. Accessed 12 September 2026.", type: "image" }
 },
 ]
       },
