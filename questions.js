@@ -2003,7 +2003,7 @@ const QUESTION_DATA = {
         "e": "Extension in the metacarpophalangeal joints and flexion in the interphalangeal joints"
       },
       "correct": "a",
-      "explanation": "The mm. lumbricales insert into the dorsal aponeurosis of the fingers. Due to this anatomical course, they pull the base of the proximal phalanx into flexion at the metacarpophalangeal joint, but simultaneously pull and extend the middle and distal phalanges of the finger into extension at the interphalangeal joint via the dorsal aponeurosis."
+      "explanation": "The lumbrical muscles insert into the dorsal aponeurosis of the fingers. Due to this anatomical course, they pull the base of the proximal phalanx into flexion at the metacarpophalangeal joint, but simultaneously pull and extend the middle and distal phalanges of the finger into extension at the interphalangeal joint via the dorsal aponeurosis."
     }
   },
   {
@@ -3086,33 +3086,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 34,
-  cz: {
-    stem: "Femorální trojúhelník (trigonum femorale) je shora ohraničen lig. inguinale, laterálně m. sartorius a mediálně m. adductor longus. V jakém pořadí jsou ve femorálním trojúhelníku uloženy struktury od laterální ke mediální straně?",
-    options: {
-        a: "nerv, žíla, arterie, lymfatické uzliny",
-        b: "nerv, arterie, žíla, lymfatické uzliny",
-        c: "žíla, arterie, nerv, lymfatické uzliny",
-        d: "arterie, nerv, žíla, lymfatické uzliny",
-        e: "lymfatické uzliny, žíla, arterie, nerv"
-    },
-    correct: "b",
-    explanation: "Ve femorálním trojúhelníku jsou struktury uloženy v pořadí od laterální ke mediální straně: n. femoralis, a. femoralis, v. femoralis a nejmediálněji nodi lymphatici inguinales profundi (mnemotechnicky „NAVEL“ – Nerve, Artery, Vein, Empty space, Lymphatics, kde „empty space“ odpovídá femorálnímu kanálu mediálně od žíly)."
-  },
-  en: {
-    stem: "The femoral triangle (trigonum femorale) is bounded superiorly by the inguinal ligament, laterally by the sartorius muscle, and medially by the adductor longus muscle. In what order are the structures arranged within the femoral triangle from lateral to medial?",
-    options: {
-        a: "nerve, vein, artery, lymph nodes",
-        b: "nerve, artery, vein, lymph nodes",
-        c: "vein, artery, nerve, lymph nodes",
-        d: "artery, nerve, vein, lymph nodes",
-        e: "lymph nodes, vein, artery, nerve"
-    },
-    correct: "b",
-    explanation: "Within the femoral triangle, the structures are arranged from lateral to medial as follows: femoral nerve, femoral artery, femoral vein, and most medially the deep inguinal lymph nodes. This can be remembered by the mnemonic “NAVEL” (Nerve, Artery, Vein, Empty space, Lymphatics), where the “empty space” corresponds to the femoral canal located medial to the vein."
-  }
-},
-{
   id: 36,
   cz: {
     stem: "Adduktorový kanál (canalis adductorius, Hunterův kanál) probíhá pod m. sartorius mezi m. vastus medialis a adduktory stehna. Které struktury tímto kanálem procházejí?",
@@ -3169,7 +3142,7 @@ const QUESTION_DATA = {
 {
   id: 46,
   cz: {
-    stem: "Na mediální straně proximální tibie se upínají tři šlachy tvořící tzv. pes anserinus („husí noha“). Které svaly tyto šlachy tvoří?",
+    stem: "Na mediální straně proximální tibie se upínají tři šlachy tvořící tzv. pes anserinus. O jaké svaly se jedná?",
     options: {
         a: "m. sartorius, m. gracilis, m. semitendinosus",
         b: "m. sartorius, m. gracilis, m. semimembranosus",
@@ -3181,16 +3154,16 @@ const QUESTION_DATA = {
     explanation: "Pes anserinus je tvořen úponovými šlachami m. sartorius, m. gracilis a m. semitendinosus na mediální straně proximální tibie, pod úrovní kolenního kloubu. Tyto tři svaly, ač inervované různými nervy (n. femoralis, n. obturatorius a n. ischiadicus), se shodují v anatomickém uložení úponu."
   },
   en: {
-    stem: "On the medial side of the proximal tibia, three tendons attach, forming the so-called pes anserinus (“goose’s foot”). Which muscles form these tendons?",
+    stem: "On the medial side of the proximal tibia, three tendons attach, forming the so-called pes anserinus. Which muscles do these tendons belong to",
     options: {
-        a: "m. sartorius, m. gracilis, m. semitendinosus",
-        b: "m. sartorius, m. gracilis, m. semimembranosus",
-        c: "m. gracilis, m. semitendinosus, m. biceps femoris",
-        d: "m. sartorius, m. semitendinosus, m. biceps femoris",
-        e: "m. gracilis, m. adductor longus, m. semitendinosus"
+        a: "Sartorius muscle, gracilis muscle, semitendinosus muscle",
+        b: "Sartorius muscle, gracilis muscle, semimembranosus muscle",
+        c: "Gracilis muscle, semitendinosus muscle, biceps femoris muscle",
+        d: "Sartorius muscle, semitendinosus muscle, biceps femoris muscle",
+        e: "Gracilis muscle, adductor longus muscle, semitendinosus muscle"
     },
     correct: "a",
-    explanation: "The pes anserinus is formed by the insertion tendons of the sartorius, gracilis, and semitendinosus muscles on the medial side of the proximal tibia, below the level of the knee joint. These three muscles, although innervated by different nerves (femoral nerve, obturator nerve, and sciatic nerve), share a common anatomical insertion site."
+    explanation: "The pes anserinus is formed by the tendons of the sartorius muscle, gracilis muscle, and semitendinosus muscle, which attach to the medial surface of the proximal tibia below the knee joint. Although these muscles are innervated by different nerves—the femoral, obturator, and sciatic nerves, respectively—they share the same insertion region."
   }
 },
 {
@@ -3250,7 +3223,7 @@ const QUESTION_DATA = {
 {
   id: 50,
   cz: {
-    stem: "U fotbalisty při bočním nárazu na extendované koleno byla diagnostikována tzv. „nešťastná trojice“ (unhappy triad). Které tři struktury jsou touto kombinací poraněny?",
+    stem: "U fotbalisty při bočním nárazu na extendované koleno byla diagnostikována tzv. nešťastná triáda (unhappy triad). Které tři struktury jsou touto kombinací poraněny?",
     options: {
         a: "lig. cruciatum posterius, lig. collaterale fibulare, meniscus lateralis",
         b: "lig. cruciatum anterius, lig. collaterale tibiale, meniscus medialis",
@@ -3259,7 +3232,7 @@ const QUESTION_DATA = {
         e: "lig. collaterale tibiale, lig. collaterale fibulare, lig. cruciatum anterius"
     },
     correct: "b",
-    explanation: "Tzv. „nešťastná trojice“ zahrnuje současné poranění lig. cruciatum anterius, lig. collaterale tibiale a medálního menisku. Valgózní síla s rotační komponentou působící na semiflektované koleno přetíží mediální postranní vaz, který přenese sílu na ACL a (díky srůstu s mediálním meniskem) i na meniscus medialis."
+    explanation: "Tzv. nešťastná triáda zahrnuje současné poranění lig. cruciatum anterius, lig. collaterale tibiale a medálního menisku. Valgózní síla s rotační komponentou působící na semiflektované koleno přetíží mediální postranní vaz, který přenese sílu na lig. cruciatum anterius a - díky srůstu s mediálním meniskem - i na meniscus medialis."
   },
   en: {
     stem: "In a football player who sustained a lateral blow to an extended knee, the so-called “unhappy triad” was diagnosed. Which three structures are injured in this combination?",
@@ -3302,33 +3275,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 52,
-  cz: {
-    stem: "Laterální kompartment bérce obsahuje m. fibularis (peroneus) longus a brevis, zajišťující everzi nohy. Který nerv tento kompartment inervuje?",
-    options: {
-        a: "n. fibularis profundus",
-        b: "n. fibularis superficialis",
-        c: "n. tibialis",
-        d: "n. suralis",
-        e: "n. saphenus"
-    },
-    correct: "b",
-    explanation: "Laterální kompartment bérce je inervován n. fibularis (peroneus) superficialis, který zajišťuje motoriku mm. fibulares (everzi nohy) a senzitivně zásobuje většinu dorzální strany nohy, s výjimkou prvního meziprstního prostoru (n. fibularis profundus) a laterálního okraje nohy (n. suralis)."
-  },
-  en: {
-    stem: "The lateral compartment of the leg contains the fibularis (peroneus) longus and brevis muscles, which are responsible for eversion of the foot. Which nerve innervates this compartment?",
-    options: {
-        a: "deep fibular (peroneal) nerve",
-        b: "superficial fibular (peroneal) nerve",
-        c: "tibial nerve",
-        d: "sural nerve",
-        e: "saphenous nerve"
-    },
-    correct: "b",
-    explanation: "The lateral compartment of the leg is innervated by the superficial fibular (peroneal) nerve, which provides motor innervation to the fibular muscles (foot evertors) and sensory innervation to most of the dorsum of the foot, except the first interdigital cleft (deep fibular nerve) and the lateral border of the foot (sural nerve)."
-  }
-},
-{
   id: 54,
   cz: {
     stem: "U pacienta po zlomenině tibie se rozvíjí akutní kompartment syndrom předního kompartmentu bérce. Objevuje se silná bolest, která se zhoršuje při pohybu prstů nohy, a časně také porucha citlivosti v oblasti mezi palcem a druhým prstem. Který nerv je nejpravděpodobněji postižen?",
@@ -3340,7 +3286,7 @@ const QUESTION_DATA = {
         e: "n. saphenus"
     },
     correct: "d",
-    explanation: "Přední kompartment bérce je zásoben nervem n. fibularis profundus.\nJeho komprese při akutním kompartment syndromu vede k:\n- bolesti při pohybu prstů (extenzory v předním kompartmentu)\n- časné poruše citlivosti v první meziprstní mezeře (mezi palcem a 2. prstem)"
+    explanation: "Přední kompartment bérce je zásoben nervem n. fibularis profundus.\nJeho komprese při akutním kompartment syndromu vede k:\n- bolesti při pohybu prstů (extenzory v předním kompartmentu), a \n- časné poruše citlivosti v prvním meziprstním prostoru (mezi palcem a 2. prstem)"
   },
   en: {
     stem: "A patient develops acute compartment syndrome of the anterior compartment of the lower leg after a tibial fracture. The patient has severe pain worsened by toe movement and early sensory loss in the first web space between the great toe and the second toe. Which nerve is most likely affected?",
@@ -3352,7 +3298,7 @@ const QUESTION_DATA = {
         e: "saphenous nerve"
     },
     correct: "d",
-    explanation: "The anterior compartment of the leg is innervated by the deep fibular nerve (n. fibularis profundus).\nCompression in acute compartment syndrome leads to:\n- pain on toe movement\n- early sensory deficit in the first web space (deep fibular nerve territory)"
+    explanation: "The anterior compartment of the leg is innervated by the deep fibular nerve (n. fibularis profundus).\nCompression in acute compartment syndrome leads to:\n- pain on toe movement,and \n- early sensory deficit in the first web space (deep fibular nerve territory)."
   }
 },
 {
@@ -3407,33 +3353,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The triceps surae (gastrocnemius + soleus) forms the calcaneal (Achilles) tendon.\nFunction: plantar flexion at the ankle joint"
-  }
-},
-{
-  id: 57,
-  cz: {
-    stem: "Mediální (deltoidní) komplex vazů kotníku je výrazně silnější než laterální komplex, proto jsou eversní poranění kotníku méně častá, ale často spojená se zlomeninou fibuly. Z kolika částí se deltoidní vaz skládá a od které kosti vychází?",
-    options: {
-        a: "ze dvou částí, vycházejících z calcaneus",
-        b: "ze čtyř částí, vycházejících z malleolus medialis",
-        c: "ze tří částí, vycházejících z talus",
-        d: "z jedné homogenní části, vycházející z malleolus medialis",
-        e: "ze čtyř částí, vycházejících z os naviculare"
-    },
-    correct: "b",
-    explanation: "Lig. deltoideum (mediální komplex vazů) se skládá ze čtyř částí vycházejících z malleolus medialis tibiae k talu, calcaneu a os naviculare (pars tibiotalaris anterior et posterior, pars tibiocalcanea, pars tibionavicularis). Jeho výrazná síla chrání mediální stranu kotníku, takže eversní trauma často spíše způsobí zlomeninu fibuly než rupturu tohoto vazu."
-  },
-  en: {
-    stem: "The medial (deltoid) ligament complex of the ankle is significantly stronger than the lateral complex; therefore, eversion injuries of the ankle are less common but often associated with fibular fractures. Into how many parts is the deltoid ligament divided, and from which bone does it originate?",
-    options: {
-        a: "two parts, originating from the calcaneus",
-        b: "four parts, originating from the medial malleolus",
-        c: "three parts, originating from the talus",
-        d: "one single homogeneous part, originating from the medial malleolus",
-        e: "four parts, originating from the navicular bone"
-    },
-    correct: "b",
-    explanation: "The deltoid ligament (medial ligament complex) consists of four parts arising from the medial malleolus of the tibia and inserting into the talus, calcaneus, and navicular bone (anterior and posterior tibiotalar parts, tibiocalcaneal part, and tibionavicular part). Its strong structure protects the medial ankle, so eversion trauma more commonly results in fibular fracture than ligament rupture."
   }
 },
 {
@@ -3518,33 +3437,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 62,
-  cz: {
-    stem: "Chopartův kloub tvoří důležitou spojovací oblast mezi tarzální a metatarzální částí nohy. Jaké struktury tento kloub anatomicky tvoří?",
-    options: {
-        a: "talus a calcaneus",
-        b: "calcaneus a talus proximálně, os naviculare a os cuboideum distálně",
-        c: "os cuneiforme mediale, intermedium et laterale a metatarsy",
-        d: "talus, os cuneiforme interedium a os naviculare",
-        e: "pouze calcaneus a os cuboideum"
-    },
-    correct: "b",
-    explanation: "Chopartův kloub (articulatio tarsi transversa) tvoří dvě části: mediálně talonavikulární kloub (talus + os naviculare) a laterálně calcaneocuboidní kloub (calcaneus + os cuboideum). Proto propojuje zadní a střední část nohy."
-  },
-  en: {
-    stem: "The Chopart joint is an important transverse tarsal joint of the foot. Which structures form this joint?",
-    options: {
-        a: "talus and calcaneus",
-        b: "calcaneus and talus proximally, navicular and cuboid distally",
-        c: "medial cuneiform bone and metatarsals",
-        d: "talus, intermediate cuneiform bone and navicular",
-        e: "calcaneus and cuboid only"
-    },
-    correct: "b",
-    explanation: "The Chopart (transverse tarsal) joint consists of the talonavicular and calcaneocuboid joints, connecting the hindfoot with the midfoot."
-  }
-},
-{
   id: 63,
   cz: {
     stem: "Lisfrankův kloub (tarsometatarzální kloub) spojuje tarzální kosti s metatarzy. Kterou z následujících struktur tento kloub NEZAHRNUJE?",
@@ -3556,7 +3448,7 @@ const QUESTION_DATA = {
         e: "ligamenta tarsometatarsalia"
     },
     correct: "d",
-    explanation: "Lisfrankův kloub tvoří spojení mezi distální řadou tarzálních kostí (ossa cuneiformia a os cuboideum) a bázemi metatarzů. Proto se na jeho tvorbě podílejí i příslušné tarsometatarzální vazy.\nOs naviculare je součástí proximální řady tarzálních kostí a podílí se na Chopartově kloubu (talonavikulární část)"
+    explanation: "Lisfrankův kloub tvoří spojení mezi distální řadou tarzálních kostí a bázemi metatarzů. Patří do něj ossa cuneiformia, os cuboideum, basis metatarsalium a ligamenta tarsometatarsalia. Os naviculare se na jeho tvorbě nepodílí."
   },
   en: {
     stem: "The Lisfranc (tarsometatarsal) joint connects the tarsal bones with the metatarsals. Which of the following structures is NOT part of this joint?",
@@ -3568,13 +3460,13 @@ const QUESTION_DATA = {
         e: "tarsometatarsal ligaments"
     },
     correct: "d",
-    explanation: "The Lisfranc joint is formed by the distal tarsal bones (cuneiforms and cuboid) articulating with the bases of the metatarsals, together with the supporting tarsometatarsal ligaments.\nThe navicular bone belongs to the proximal tarsal row and is part of the Chopart joint (talonavicular component)"
+    explanation: "The Lisfranc joint connects the distal row of tarsal bones with the bases of the metatarsals. It includes the cuneiform bones, cuboid bone, metatarsal bases, and tarsometatarsal ligaments. The navicular bone does not contribute to its formation."
   }
 },
 {
   id: 64,
   cz: {
-    stem: "Druhé standardní místo pro palpaci periferního pulzu na noze se nachází za mediálním kotníkem, mezi šlachami m. flexor digitorum longus a m. flexor hallucis longus. O kterou tepnu se jedná?",
+    stem: "Pulz lze na noze palpačně vyšetřit za mediálním kotníkem, mezi šlachami m. flexor digitorum longus a m. flexor hallucis longus. Která tepna se zde palpuje?  ",
     options: {
         a: "a. dorsalis pedis",
         b: "a. tibialis posterior",
@@ -3583,10 +3475,10 @@ const QUESTION_DATA = {
         e: "a. tarsalis medialis"
     },
     correct: "b",
-    explanation: "A. tibialis posterior se palpuje za mediálním kotníkem (malleolus medialis), v místě, kde vstupuje do tarzálního tunelu mezi šlachami m. flexor digitorum longus a m. flexor hallucis longus. Spolu s a. dorsalis pedis tvoří dvojici standardně vyšetřovaných periferních pulzů na noze."
+    explanation: "A. tibialis posterior se palpuje za mediálním kotníkem, v místě, kde vstupuje do tarzálního tunelu mezi šlachami m. flexor digitorum longus a m. flexor hallucis longus. Spolu s a. dorsalis pedis tvoří dvojici standardně vyšetřovaných periferních pulzů na noze."
   },
   en: {
-    stem: "The second standard site for palpation of a peripheral pulse in the foot is located posterior to the medial malleolus, between the tendons of the flexor digitorum longus and flexor hallucis longus muscles. Which artery is being referred to?",
+    stem: "The pulse can be palpated behind the medial malleolus, between the tendons of the flexor digitorum longus muscle and flexor hallucis longus muscle. Which artery is palpated here?",
     options: {
         a: "dorsalis pedis artery",
         b: "posterior tibial artery",
@@ -3680,33 +3572,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 250,
-  cz: {
-    stem: "Která z následujících možností správně popisuje hlavní funkce gluteálních svalů?",
-    options: {
-        a: "M. gluteus maximus: extenze a zevní rotace kyčle; M. gluteus medius: abdukce a vnitřní rotace kyčle; M. gluteus minimus: abdukce a vnitřní rotace kyčle",
-        b: "M. gluteus maximus: flexe kyčle; M. gluteus medius: addukce kyčle; M. gluteus minimus: zevní rotace kyčle",
-        c: "M. gluteus maximus: extenze a vnitřní rotace kyčle; M. gluteus medius: zevní rotace kyčle; M. gluteus minimus: addukce kyčle",
-        d: "M. gluteus maximus: flexe a zevní rotace kyčle; M. gluteus medius: abdukce a zevní rotace kyčle; M. gluteus minimus: extenze kyčle",
-        e: "M. gluteus maximus: addukce kyčle; M. gluteus medius: flexe kyčle; M. gluteus minimus: zevní rotace kyčle"
-    },
-    correct: "a",
-    explanation: "M. gluteus maximus je nejsilnějším extenzorem a zevním rotátorem v kyčelním kloubu, což je klíčové pro chůzi do schodů nebo vstávání ze židle. M. gluteus medius a M. gluteus minimus fungují jako synergisté, přičemž oba zajišťují abdukce pánve a jejich přední snopce provádějí vnitřní rotaci v kyčelním kloubu. Ostatní možnosti uvádějí nesprávné pohyby, jako je flexe nebo addukce, které tyto svaly nevykonávají."
-  },
-  en: {
-    stem: "Which of the following options correctly describes the main functions of the gluteal muscles?",
-    options: {
-        a: "M. gluteus maximus: hip extension and external rotation; M. gluteus medius: hip abduction and internal rotation; M. gluteus minimus: hip abduction and internal rotation",
-        b: "M. gluteus maximus: hip flexion; M. gluteus medius: hip adduction; M. gluteus minimus: hip external rotation",
-        c: "M. gluteus maximus: hip extension and internal rotation; M. gluteus medius: hip external rotation; M. gluteus minimus: hip adduction",
-        d: "M. gluteus maximus: hip flexion and external rotation; M. gluteus medius: hip abduction and external rotation; M. gluteus minimus: hip extension",
-        e: "M. gluteus maximus: hip adduction; M. gluteus medius: hip flexion; M. gluteus minimus: hip external rotation"
-    },
-    correct: "a",
-    explanation: "M. gluteus maximus is the strongest extensor and external rotator of the hip joint, which is essential for climbing stairs or rising from a chair. M. gluteus medius and M. gluteus minimus act as synergists, both providing pelvic abduction, and their anterior fibers perform internal rotation of the hip joint. The other options list incorrect movements, such as flexion or adduction, which these muscles do not perform."
-  }
-},
-{
   id: 252,
   cz: {
     stem: "Sprinter pocítil při startu závodu ostrou bolest na laterální straně kyčle. Vyšetření ukázalo parciální rupturu musculus tensor fasciae latae. Který z následujících svalů sdílí s poškozeným svalem stejnou inervaci ze stejného periferního nervu?",
@@ -3745,10 +3610,10 @@ const QUESTION_DATA = {
         e: "Spatium subinguinale"
     },
     correct: "a",
-    explanation: "M. piriformis odstupuje od facies pelvica os sacrum, prochází skrze foramen ischiadicum majus a rozděluje tento otvor na foramen suprapiriforme a foramen infrapiriforme. Těmito nově vzniklými prostory procházejí klíčové cévy a nervy plexus sacralis do hýžďové oblasti."
+    explanation: "M. piriformis odstupuje od facies pelvina ossis sacri, prochází skrze foramen ischiadicum majus a rozděluje tento otvor na foramen suprapiriforme a foramen infrapiriforme. Těmito nově vzniklými prostory procházejí klíčové cévy a nervy plexus sacralis do hýžďové oblasti."
   },
   en: {
-    stem: "Which of the following anatomical structures is divided by the course of the m. piriformis into two separate topographic spaces, through which vessels and nerves pass from the pelvis to the thigh and gluteal region?",
+    stem: "Which of the following anatomical structures is divided by the piriformis muscle into two separate spaces through which vessels and nerves pass from the pelvis to the thigh and gluteal region?",
     options: {
         a: "Greater sciatic foramen",
         b: "Lesser sciatic foramen",
@@ -3757,7 +3622,7 @@ const QUESTION_DATA = {
         e: "Subinguinal space"
     },
     correct: "a",
-    explanation: "M. piriformis originates from the facies pelvica ossis sacri, passes through the foramen ischiadicum majus, and divides this opening into the foramen suprapiriforme and foramen infrapiriforme. Through these newly formed spaces pass the key vessels and nerves of the plexus sacralis into the gluteal region."
+    explanation: "The piriformis muscle originates from the pelvic surface of the sacrum, passes through the greater sciatic foramen, and divides this opening into the suprapiriform and infrapiriform foramina. These newly formed spaces transmit important vessels and nerves from the sacral plexus to the gluteal region."
   }
 },
 {
@@ -3815,33 +3680,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 256,
-  cz: {
-    stem: "Které z následujících tvrzení nejlépe popisuje anatomický nebo funkční vztah mezi m. psoas major a m. iliopsoas?",
-    options: {
-        a: "M. iliopsoas je funkční jednotka vznikající spojením m. psoas major a m. iliacus, které se společně upínají na trochanter minor femuru.",
-        b: "M. iliopsoas je funkční jednotka vznikající spojením m. psoas major a m. iliacus, které se společně upínají na trochanter major femuru.",
-        c: "M. psoas major je inervován výhradně z nervus femoralis, zatímco m. iliacus je inervován přímo z plexus lumbalis.",
-        d: "Hlavní funkcí m. iliopsoas je extenze v kyčelním kloubu a rotace pánve vzad.",
-        e: "M. psoas major neprochází skrz lacuna musculorum, na rozdíl od m. iliacus."
-    },
-    correct: "a",
-    explanation: "M. iliopsoas vzniká spojením m. psoas major a m. iliacus, které po průchodu pod tříselným vazem (lacuna musculorum) společně splývají a upínají se na trochanter minor stehenní kosti, kde fungují jako hlavní ohybač kyčelního kloubu."
-  },
-  en: {
-    stem: "Which of the following statements best describes the anatomical or functional relationship between the m. psoas major and the m. iliopsoas?",
-    options: {
-        a: "The m. iliopsoas is a functional unit formed by the union of the m. psoas major and m. iliacus, which insert together onto the trochanter minor of the femur.",
-        b: "The m. iliopsoas is a functional unit formed by the union of the m. psoas major and m. iliacus, which insert together onto the trochanter major of the femur.",
-        c: "The m. psoas major is innervated exclusively by the nervus femoralis, while the m. iliacus is innervated directly by the plexus lumbalis.",
-        d: "The main function of the m. iliopsoas is hip extension and posterior rotation of the pelvis.",
-        e: "The m. psoas major does not pass through the lacuna musculorum, unlike the m. iliacus."
-    },
-    correct: "a",
-    explanation: "The m. iliopsoas arises from the union of the m. psoas major and m. iliacus, which, after passing beneath the inguinal ligament (lacuna musculorum), merge together and insert onto the trochanter minor of the femur, where they function as the main flexor of the hip joint."
-  }
-},
-{
   id: 258,
   cz: {
     stem: "Která z následujících možností správně popisuje hlavní funkci m. iliopsoas při volném pohybu dolní končetiny?",
@@ -3850,10 +3688,10 @@ const QUESTION_DATA = {
         b: "Flexe v kyčelním kloubu a vnitřní rotace stehna.",
         c: "Extenze v kyčelním kloubu a vnitřní rotace stehna.",
         d: "Extenze v kyčelním kloubu a vnější rotace stehna.",
-        e: "Čistá addukce stehna."
+        e: "Addukce stehna."
     },
     correct: "a",
-    explanation: "M. iliopsoas je nejsilnějším ohybačem (flexorem) v kyčelním kloubu a díky svému úponu na trochanter minor, který leží posteromediálně na kosti stehenní, táhne při kontrakci femur tak, že současně vyvolává jeho vnější (externí) rotaci."
+    explanation: "M. iliopsoas je nejsilnějším flexorem v kyčelním kloubu a díky svému úponu na trochanter minor, který leží posteromediálně na kosti stehenní, táhne při kontrakci femur tak, že současně vyvolává jeho vnější (externí) rotaci."
   },
   en: {
     stem: "Which of the following options correctly describes the main function of the m. iliopsoas during free movement of the lower limb?",
@@ -3862,37 +3700,10 @@ const QUESTION_DATA = {
         b: "Hip flexion and internal rotation of the thigh.",
         c: "Hip extension and internal rotation of the thigh.",
         d: "Hip extension and external rotation of the thigh.",
-        e: "Pure adduction of the thigh."
+        e: "Adduction of the thigh."
     },
     correct: "a",
-    explanation: "The m. iliopsoas is the strongest flexor of the hip joint, and because of its insertion onto the trochanter minor, which lies posteromedially on the femur, its contraction pulls the femur in a way that simultaneously produces its external rotation."
-  }
-},
-{
-  id: 260,
-  cz: {
-    stem: "Muž byl po pádu z výšky přivezen na urgentní příjem se zlomeninou pánve. RTG snímek odhaluje masivní dislokaci v oblasti sakroiliakálního skloubení a kompletní rupturu vazů, které stabilizují zadní segment pánevního kruhu proti vertikálnímu a rotačnímu posunu. Který z následujících vazů je nejsilnějším vazem lidského těla a klíčovým statickým stabilizátorem tohoto zadního segmentu, jehož oboustranné porušení vede k těžké vertikální instabilitě pánve?",
-    options: {
-        a: "Ligamentum interosseum sacroiliacum",
-        b: "Ligamentum sacrospinale",
-        c: "Ligamentum sacrotuberale",
-        d: "Ligamentum iliolumbale",
-        e: "Ligamentum sacroiliacum anterius"
-    },
-    correct: "a",
-    explanation: "Ligamenta sacroiliaca interossea jsou nejmohutnější a nejsilnější vazy v lidském těle. Jsou uložena hluboko za kloubními plochami sakroiliakálního kloubu, kde vyplňují drsnatiny (tuberositas ossis sacri a tuberositas iliaca), a tvoří naprosto klíčový prvek pro vertikální stabilitu celého pánevního kruhu."
-  },
-  en: {
-    stem: "A man was brought to the emergency department with a pelvic fracture after a fall from height. X-ray reveals massive dislocation in the region of the sacroiliac joint and complete rupture of the ligaments that stabilize the posterior segment of the pelvic ring against vertical and rotational displacement. Which of the following ligaments is the strongest ligament in the human body and a key static stabilizer of this posterior segment, whose bilateral disruption leads to severe vertical instability of the pelvis?",
-    options: {
-        a: "Ligamentum interosseum sacroiliacum",
-        b: "Ligamentum sacrospinale",
-        c: "Ligamentum sacrotuberale",
-        d: "Ligamentum iliolumbale",
-        e: "Ligamentum sacroiliacum anterius"
-    },
-    correct: "a",
-    explanation: "The ligamenta sacroiliaca interossea are the most massive and strongest ligaments in the human body. They are located deep behind the articular surfaces of the sacroiliac joint, where they fill the roughened areas (tuberositas ossis sacri and tuberositas iliaca), and form an absolutely key element for the vertical stability of the entire pelvic ring."
+    explanation: "The iliopsoas muscle is the strongest flexor of the hip joint. Because it attaches to the lesser trochanter, which is located posteromedially on the femur, its contraction also produces external rotation of the femur."
   }
 },
 {
@@ -3950,33 +3761,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 263,
-  cz: {
-    stem: "Ligamentum inguinale je klíčovým topografickým mezníkem, pod nímž se nachází prostor pro průchod struktur z pánve na stehno. Tento prostor je rozdělen specifickou strukturou na dva samostatné oddíly. Která z následujících možností správně popisuje anatomické názvy těchto dvou oddílů, jejich vzájemnou polohu a strukturu, která je od sebe přímo odděluje?",
-    options: {
-        a: "Mediálně leží lacuna vasorum, laterálně leží lacuna musculorum a jsou od sebe odděleny pomocí arcus iliopectineus.",
-        b: "Mediálně leží lacuna musculorum, laterálně leží lacuna vasorum a jsou od sebe odděleny pomocí arcus iliopectineus.",
-        c: "Mediálně leží lacuna vasorum, laterálně leží lacuna musculorum a jsou od sebe odděleny pomocí ligamentum lacunare (Gimbernati).",
-        d: "Mediálně leží lacuna musculorum, laterálně leží lacuna vasorum a jsou od sebe odděleny pomocí ligamentum lacunare (Gimbernati).",
-        e: "Oba prostory leží paralelně nad sebou, přičemž jsou horizontálně rozděleny pomocí ligamentum pectineum (Cooperi)."
-    },
-    correct: "a",
-    explanation: "Arcus iliopectineus je vazivové větvení, které se táhne od tříselného vazu k eminentia iliopubica a rozděluje prostor na mediální lacuna vasorum (pro cévy) a laterální lacuna musculorum (pro sval a nerv). Ligamentum lacunare (Gimbernati) v tomto dělení nefiguruje, jelikož tvoří až samotnou mediální hranici celého prostoru lacuna vasorum."
-  },
-  en: {
-    stem: "The ligamentum inguinale is a key topographic landmark, beneath which lies a space for structures passing from the pelvis to the thigh. This space is divided by a specific structure into two separate compartments. Which of the following options correctly describes the anatomical names of these two compartments, their mutual position, and the structure that directly separates them?",
-    options: {
-        a: "The lacuna vasorum lies medially, the lacuna musculorum lies laterally, and they are separated from each other by the arcus iliopectineus.",
-        b: "The lacuna musculorum lies medially, the lacuna vasorum lies laterally, and they are separated from each other by the arcus iliopectineus.",
-        c: "The lacuna vasorum lies medially, the lacuna musculorum lies laterally, and they are separated from each other by the ligamentum lacunare (of Gimbernat).",
-        d: "The lacuna musculorum lies medially, the lacuna vasorum lies laterally, and they are separated from each other by the ligamentum lacunare (of Gimbernat).",
-        e: "Both spaces lie parallel to one another, being horizontally divided by the ligamentum pectineum (of Cooper)."
-    },
-    correct: "a",
-    explanation: "The arcus iliopectineus is a fibrous band that stretches from the inguinal ligament to the eminentia iliopubica and divides the space into the medial lacuna vasorum (for vessels) and the lateral lacuna musculorum (for muscle and nerve). The ligamentum lacunare (of Gimbernat) does not feature in this division, since it forms only the medial boundary of the entire lacuna vasorum space itself."
-  }
-},
-{
   id: 264,
   cz: {
     stem: "Která z následujících možností správně a kompletně vyjmenovává struktury, které procházejí skrze lacuna musculorum?",
@@ -4001,33 +3785,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "Through the muscular lacuna (the lateral space) passes the iliopsoas muscle, accompanied by two nerves: the substantial femoral nerve and the thin, purely sensory lateral femoral cutaneous nerve, which runs close to the anterior superior iliac spine (it may variably pass outside the muscular lacuna, above the inguinal ligament)."
-  }
-},
-{
-  id: 265,
-  cz: {
-    stem: "Při preparaci v oblasti lacuna vasorum za účelem revize femorální kýly je nutné bezpečně identifikovat topografické uspořádání struktur v tomto prostoru. Která z následujících možností správně popisuje anatomické struktury procházející skrze lacuna vasorum v pořadí od laterální strany k mediální (z vnějšku dovnitř)?",
-    options: {
-        a: "Ramus femoralis nervi genitofemoralis, arteria femoralis, vena femoralis, anulus femoralis (s nodi inguinales profundi Cloqueti)",
-        b: "Vena femoralis, arteria femoralis, ramus femoralis nervi genitofemoralis, anulus femoralis (s nodi inguinales profundi Cloqueti)",
-        c: "Arteria femoralis, vena femoralis, ramus femoralis nervi genitofemoralis, anulus femoralis (s nodi inguinales profundi Cloqueti)",
-        d: "Arteria femoralis, vena femoralis, nervus femoralis, ramus femoralis nervi genitofemoralis",
-        e: "Nervus femoralis, arteria femoralis, vena femoralis, anulus femoralis (s nodi inguinales profundi Cloqueti)"
-    },
-    correct: "a",
-    explanation: "Při směru od laterálního k mediálnímu okraji je uspořádání v lacuna vasorum následující: nejvíce laterálně leží ramus femoralis nervi genitofemoralis, následuje tepna (arteria femoralis), poté žíla (vena femoralis) a nejvíce mediálně je volný prostor anulus femoralis s s nodi inguinales profundi Cloqueti. Mnemotechnická pomůcka v opačném směru (od středu ven) je V-A-N (Vena, Arteria, Nervus/ramus)."
-  },
-  en: {
-    stem: "During dissection in the region of the lacuna vasorum for revision of a femoral hernia, it is necessary to reliably identify the topographic arrangement of structures in this space. Which of the following options correctly describes the anatomical structures passing through the lacuna vasorum in order from the lateral to the medial side (from outside inward)?",
-    options: {
-        a: "Ramus femoralis nervi genitofemoralis, arteria femoralis, vena femoralis, anulus femoralis (with Cloquet's node)",
-        b: "Vena femoralis, arteria femoralis, ramus femoralis nervi genitofemoralis, anulus femoralis (with Cloquet's node)",
-        c: "Arteria femoralis, vena femoralis, ramus femoralis nervi genitofemoralis, anulus femoralis (with Cloquet's node)",
-        d: "Arteria femoralis, vena femoralis, nervus femoralis, ramus femoralis nervi genitofemoralis",
-        e: "Nervus femoralis, arteria femoralis, vena femoralis, anulus femoralis (with Cloquet's node)"
-    },
-    correct: "a",
-    explanation: "Going from the lateral to the medial edge, the arrangement within the lacuna vasorum is as follows: most laterally lies the ramus femoralis nervi genitofemoralis, followed by the artery (arteria femoralis), then the vein (vena femoralis), and most medially is the free space of the anulus femoralis with Cloquet's lymph node. A mnemonic in the opposite direction (from the center outward) is V-A-N (Vein, Artery, Nerve/branch)."
   }
 },
 {
@@ -4085,33 +3842,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 286,
-  cz: {
-    stem: "27letý profesionální fotbalista pocítil během prudkého sprintu náhlou ostrou bolest na zadní straně stehna, pro kterou musel zápas okamžitě přerušit. Při fyzikálním vyšetření je patrný otok a palpační citlivost v oblasti tuber ischiadicum. Lékař konstatuje parciální rupturu hamstringů. Která z následujících možností obsahuje výhradně svaly, které patří do této poškozené skupiny (hamstringů), a jsou tedy postiženy tímto zraněním?",
-    options: {
-        a: "M. biceps femoris (caput longum), m. semitendinosus, m. semimembranosus",
-        b: "M. biceps femoris (caput longum), m. semitendinosus, m. adductor magnus",
-        c: "M. semimembranosus, m. semitendinosus, m. rectus femoris",
-        d: "M. biceps femoris (caput breve), m. semitendinosus, m. semimembranosus",
-        e: "M. gracilis, m. semimembranosus, m. biceps femoris (caput longum)"
-    },
-    correct: "a",
-    explanation: "Svaly označované jako hamstringy splňují dvě podmínky: začínají na tuber ischiadicum a jsou inervovány z nervus ischiadicus. Patří sem m. biceps femoris (caput longum), m. semitendinosus a m. semimembranosus."
-  },
-  en: {
-    stem: "A 27-year-old professional soccer player experienced a sudden sharp pain in the back of his thigh during a powerful sprint, forcing him to stop playing immediately. On physical examination, swelling and tenderness on palpation are present in the region of the ischial tuberosity. The physician diagnoses a partial rupture of the hamstring muscles. Which of the following options contains only muscles that belong to the injured hamstring group and are therefore affected by this injury?",
-    options: {
-        a: "M. biceps femoris (long head), m. semitendinosus, m. semimembranosus",
-        b: "M. biceps femoris (long head), m. semitendinosus, m. adductor magnus",
-        c: "M. semimembranosus, m. semitendinosus, m. rectus femoris",
-        d: "M. biceps femoris (short head), m. semitendinosus, m. semimembranosus",
-        e: "M. gracilis, m. semimembranosus, m. biceps femoris (long head)"
-    },
-    correct: "a",
-    explanation: "The muscles referred to as hamstrings meet two criteria: they originate from the ischial tuberosity and are innervated by the sciatic nerve. They include the m. biceps femoris (long head), m. semitendinosus, and m. semimembranosus."
-  }
-},
-{
   id: 288,
   cz: {
     stem: "Při neurologickém vyšetření pacienta po těžkém traumatu pánve lékař testuje motorické funkce dolních končetin a zjišťuje kompletní výpadek aktivní extenze v kolenním kloubu. Z kterého periferního nervu a z jaké nervové pleteně (plexu) je inervována skupina svalů zajišťující tuto funkci?",
@@ -4128,14 +3858,14 @@ const QUESTION_DATA = {
   en: {
     stem: "During a neurological examination of a patient after severe pelvic trauma, the physician tests the motor functions of the lower limbs and detects a complete loss of active knee extension. Which peripheral nerve and which nerve plexus innervate the muscle group responsible for this function?",
     options: {
-        a: "Nervus femoralis | lumbar plexus",
+        a: "Femoral nerve | lumbar plexus",
         b: "Superior gluteal nerve | sacral plexus",
-        c: "Nervus femoralis | sacral plexus",
+        c: "Femoral nerve | sacral plexus",
         d: "Obturator nerve | lumbar plexus",
         e: "Sciatic nerve | sacral plexus"
     },
     correct: "a",
-    explanation: "The anterior compartment of the thigh muscles (m. quadriceps femoris and m. sartorius) is innervated by the femoral nerve, which is the main branch originating from the lumbar plexus (plexus lumbalis, specifically from the L2–L4 nerve roots)."
+    explanation: "The anterior compartment of the thigh (quadriceps femoris muscle and sartorius muscle) is innervated by the femoral nerve, which is the main branch arising from the lumbar plexus (specifically from the L2–L4 roots)."
   }
 },
 {
@@ -4216,7 +3946,7 @@ const QUESTION_DATA = {
         e: "Sciatic nerve (sacral plexus) and obturator nerve (lumbar plexus)"
     },
     correct: "a",
-    explanation: "M. pectineus is innervated by the femoral nerve and the obturator nerve, with both of these nerves originating from the lumbar plexus (plexus lumbalis)."
+    explanation: "The pectineus muscle is innervated by the femoral nerve and the obturator nerve, with both of these nerves originating from the lumbar plexus (plexus lumbalis)."
   }
 },
 {
@@ -4288,7 +4018,7 @@ const QUESTION_DATA = {
     explanation: "Trigonum femorale je ohraničeno proximálně ligamentum inguinale, zvenčí krajem m. sartorius a zevnitř krajem m. adductor longus. M. sartorius běží z vnějšího boku směrem ke koleni, takže celý prostor uzavírá z laterální strany. Mediální hranici na vnitřní straně stehna proto logicky tvoří přitahovač m. adductor longus."
   },
   en: {
-    stem: "During surgery in the groin region, the surgeon dissects the anatomical area known as the femoral triangle (trigonum femorale). Which anatomical structure forms the medial boundary of this space?",
+    stem: "During surgery in the groin region, the surgeon dissects the anatomical area known as the femoral triangle. Which anatomical structure forms the medial boundary of this space?",
     options: {
         a: "Adductor longus muscle",
         b: "Adductor magnus muscle",
@@ -4297,7 +4027,7 @@ const QUESTION_DATA = {
         e: "Pectineus muscle"
     },
     correct: "a",
-    explanation: "The femoral triangle (trigonum femorale) is bounded proximally by the inguinal ligament, laterally by the border of m. sartorius, and medially by the border of m. adductor longus. M. sartorius runs from the lateral side toward the knee, so it forms the lateral boundary of the space. The medial boundary on the inner side of the thigh is therefore formed by the adductor muscle m. adductor longus."
+    explanation: "The femoral triangle is bounded proximally by the inguinal ligament, laterally by the border of the sartorius muscle, and medially by the border of the adductor longus muscle. The sartorius muscle runs from the lateral side toward the knee, forming the lateral boundary of the space. The medial boundary on the inner side of the thigh is therefore formed by the adductor longus muscle."
   }
 },
 {
@@ -4382,33 +4112,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 303,
-  cz: {
-    stem: "Čtyřiadvacetiletá žena podstupuje chirurgické odstranění varixů v oblasti třísla. Operatér v úrovni hiatus saphenus izoluje Cockettovu žilní hvězdici a postupně přerušuje jednotlivé drobné přítoky ústící do terminálního úseku vena saphena magna. Která z následujících cév představuje povrchový přítok, který do této hvězdice přivádí krev z mediální strany stehna a zevního genitálu?",
-    options: {
-        a: "Venae pudendae externae",
-        b: "Vena epigastrica superficialis",
-        c: "Vena circumflexa ilium superficialis",
-        d: "Vena saphena accessoria anterior",
-        e: "Vena circumflexa femoris medialis"
-    },
-    correct: "a",
-    explanation: "Vv. pudendae externae jsou povrchové přítoky v. saphena magna, které přivádějí krev z oblasti zevního genitálu a mediální strany stehna do Cockettovy žilní hvězdice."
-  },
-  en: {
-    stem: "A 24-year-old woman undergoes surgical removal of varicose veins in the groin region. At the level of the hiatus saphenus, the surgeon isolates Cockett’s venous star and gradually interrupts the individual small tributaries draining into the terminal part of the great saphenous vein (vena saphena magna). Which of the following vessels represents a superficial tributary that brings blood from the medial aspect of the thigh and the external genitalia into this venous star?",
-    options: {
-        a: "External pudendal veins",
-        b: "Superficial epigastric vein",
-        c: "Superficial circumflex iliac vein",
-        d: "Anterior accessory saphenous vein",
-        e: "Medial circumflex femoral vein"
-    },
-    correct: "a",
-    explanation: "The external pudendal veins are superficial tributaries of the great saphenous vein (v. saphena magna), which carry blood from the external genital region and the medial aspect of the thigh into Cockett’s venous star."
-  }
-},
-{
   id: 304,
   cz: {
     stem: "Která povrchová žíla odvádí krev z oblasti laterálního třísla v blízkosti spina iliaca anterior superior?",
@@ -4433,33 +4136,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The superficial circumflex iliac vein is a superficial vein that runs in the subcutaneous tissue parallel to the inguinal ligament toward the anterior superior iliac spine. It drains blood from the lateral part of the groin region, superficial tissues over the iliac crest, and the area surrounding the ASIS. It then turns medially and enters the terminal part of the great saphenous vein as one of its tributaries in the region of the hiatus saphenus, where it joins the great saphenous vein together with other superficial tributaries near the saphenofemoral junction."
-  }
-},
-{
-  id: 305,
-  cz: {
-    stem: "16letý fotbalista přichází pro bolest a výraznou kostní prominenci na přední straně proximální tibie. Obtíže se zhoršují při běhu, skocích a extenzi kolene proti odporu. Která anatomická struktura se upíná do místa postižení a je hlavní příčinou vzniku tohoto onemocnění?",
-    options: {
-        a: "Šlacha m. adductor longus",
-        b: "Ligamentum patellae",
-        c: "Ligamentum collaterale tibiale",
-        d: "Ligamentum cruciatum anterius",
-        e: "Tractus iliotibialis"
-    },
-    correct: "b",
-    explanation: "Osgoodova–Schlatterova choroba je trakční apofyzitida tuberositas tibiae, kam se upíná ligamentum patellae. Opakovaný tah přenášený z m. quadriceps femoris přes čéšku a ligamentum patellae vede u dospívajících k zánětu apofýzy a může vyústit ve vznik trvalé kostní prominence (exostózy)."
-  },
-  en: {
-    stem: "A 16-year-old soccer player presents with anterior knee pain and a prominent bony swelling over the anterior aspect of the proximal tibia. The symptoms worsen with running, jumping, and resisted knee extension. Which anatomical structure inserts at the affected site and is the primary contributor to the development of this condition?",
-    options: {
-        a: "Tendon of the adductor longus muscle",
-        b: "Patellar ligament",
-        c: "Tibial (medial) collateral ligament",
-        d: "Anterior cruciate ligament",
-        e: "Iliotibial tract"
-    },
-    correct: "b",
-    explanation: "Osgood–Schlatter disease is a traction apophysitis of the tibial tuberosity, the site of insertion of the patellar ligament. Repetitive traction generated by the quadriceps femoris muscle and transmitted through the patella and patellar ligament causes inflammation of the tibial apophysis in adolescents. Over time, this may result in a permanent bony prominence (exostosis) of the tibial tuberosity."
   }
 },
 {
@@ -4507,14 +4183,14 @@ const QUESTION_DATA = {
   en: {
     stem: "Which of the following combinations correctly describes the innervation and function of the indicated muscle?",
     options: {
-        a: "N. obturatorius – adduction of the thigh",
-        b: "N. obturatorius – abduction of the thigh",
-        c: "N. femoralis – knee flexion",
-        d: "N. femoralis – flexion of the knee joint",
-        e: "N. ischiadicus – adduction of the thigh"
+        a: "Obturator nerve – thigh adduction",
+        b: "Obturator nerve – thigh abduction",
+        c: "Femoral nerve – knee flexion",
+        d: "Femoral nerve – knee joint flexion",
+        e: "Sciatic nerve – thigh adduction"
     },
     correct: "a",
-    explanation: "M. gracilis belongs to the group of thigh adductors and is innervated by the n. obturatorius (L2–L4). Its main function is adduction of the thigh at the hip joint."
+    explanation: "The gracilis muscle is one of the thigh adductors and is innervated by the obturator nerve (L2–L4). Its main function is adduction of the thigh at the hip joint."
   },
   image: { key: "q308_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
@@ -4533,16 +4209,16 @@ const QUESTION_DATA = {
     explanation: "M. biceps femoris – m. tibialis anterior – m. gastrocnemius jsou všechno svaly závislé na n. ischiadicus."
   },
   en: {
-    stem: "Following a proximal lesion of the indicated nerve, which muscles will the patient be unable to contract?",
+    stem: "After a proximal lesion of the indicated nerve, which muscles will the patient be unable to contract?",
     options: {
-        a: "M. biceps femoris – m. tibialis anterior – m. gastrocnemius",
-        b: "M. quadriceps femoris – m. semimembranosus – m. soleus",
-        c: "M. gracilis – m. semitendinosus – m. gluteus maximus",
-        d: "M. adductor magnus – m. sartorius – m. gastrocnemius",
-        e: "M. iliopsoas – m. biceps femoris – m. tibialis anterior"
+        a: "Biceps femoris muscle – tibialis anterior muscle – gastrocnemius muscle",
+        b: "Quadriceps femoris muscle – semimembranosus muscle – soleus muscle",
+        c: "Gracilis muscle – semitendinosus muscle – gluteus maximus muscle",
+        d: "Adductor magnus muscle – sartorius muscle – gastrocnemius muscle",
+        e: "Iliopsoas muscle – biceps femoris muscle – tibialis anterior muscle"
     },
     correct: "a",
-    explanation: "M. biceps femoris, m. tibialis anterior, and m. gastrocnemius are all muscles dependent on the n. ischiadicus."
+    explanation: "The biceps femoris muscle, tibialis anterior muscle, and gastrocnemius muscle are all innervated by nerves derived from the sciatic nerve."
   },
   image: { key: "q309_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
@@ -4558,19 +4234,19 @@ const QUESTION_DATA = {
         e: "Odvádí krev pouze z hlubokého žilního systému dolní končetiny"
     },
     correct: "c",
-    explanation: "V. saphena magna je největší povrchová žíla dolní končetiny. Vzniká jako pokračování v. marginalis medialis na mediální straně nohy. Probíhá před mediálním kotníkem, pokračuje po mediální straně bérce a stehna, prochází skrze hiatus saphenus ve fascia lata a ústí do v. femoralis v oblasti saphenofemorální junkce."
+    explanation: "V. saphena magna je největší povrchová žíla dolní končetiny. Probíhá před mediálním kotníkem, pokračuje po mediální straně bérce a stehna, prochází skrze hiatus saphenus ve fascia lata a ústí do v. femoralis v oblasti saphenofemorální junkce."
   },
   en: {
     stem: "A patient presents to a physician with varicose veins on the medial side of the lower limb. During examination, the physician identifies insufficiency of the superficial venous system. Which of the following statements about the affected vein is correct? The described vein is indicated by an arrow in the image.",
     options: {
-        a: "Drains into the v. poplitea in the popliteal fossa",
-        b: "Arises from the union of veins on the lateral side of the foot and passes posterior to the lateral malleolus",
-        c: "Passes anterior to the medial malleolus and passes through the saphenous hiatus, where it drains into the v. femoralis",
-        d: "Accompanies the a. femoralis in the adductor canal",
+        a: "Drains into the popliteal vein in the popliteal fossa",
+        b: "Is formed by the union of veins on the lateral side of the leg and passes behind the lateral malleolus",
+        c: "Passes anterior to the medial malleolus and passes through the saphenous hiatus, where it drains into the femoral vein",
+        d: "Accompanies the femoral artery in the adductor canal",
         e: "Drains blood only from the deep venous system of the lower limb"
     },
     correct: "c",
-    explanation: "The great saphenous vein is the largest superficial vein of the lower limb. It arises as a continuation of the medial marginal vein of the foot on the medial side of the foot. It passes anterior to the medial malleolus, continues along the medial aspect of the leg and thigh, passes through the saphenous hiatus in the fascia lata, and drains into the femoral vein at the saphenofemoral junction."
+    explanation: "The great saphenous vein is the largest superficial vein of the lower limb. It passes anterior to the medial malleolus, continues along the medial aspect of the leg and thigh, passes through the saphenous hiatus in the fascia lata, and drains into the femoral vein at the saphenofemoral junction."
   },
   image: { key: "q310_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
@@ -4656,60 +4332,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 319,
-    "cz": {
-      "stem": "Pacient po traumatu v oblasti stehna má oslabenou addukci stehna a poruchu extenze v kyčelním kloubu. Léze postihuje část m. adductor magnus s odlišnou inervací od ostatních adduktorů. Který nerv inervuje postiženou část svalu?",
-      "options": {
-        "a": "n. ischiadicus",
-        "b": "n. obturatorius",
-        "c": "n. femoralis",
-        "d": "n. gluteus inferior",
-        "e": "n. fibularis communis"
-      },
-      "correct": "a",
-      "explanation": "M. adductor magnus má dvě části s odlišnou inervací. Pars hamstringa začíná na tuber ischiadicum, podílí se na extenzi stehna v kyčli a je inervována tibiální částí n. ischiadicus. Pars adductoria je inervována n. obturatorius a zajišťuje hlavně addukci stehna."
-    },
-    "en": {
-      "stem": "A patient after trauma to the thigh region has weakened thigh adduction and impaired hip extension. The lesion affects a part of m. adductor magnus with different innervation from the other adductors. Which nerve innervates the affected part of the muscle?",
-      "options": {
-        "a": "Sciatic nerve",
-        "b": "Obturator nerve",
-        "c": "Femoral nerve",
-        "d": "Inferior gluteal nerve",
-        "e": "Common fibular nerve"
-      },
-      "correct": "a",
-      "explanation": "M. adductor magnus has two parts with different innervation. The hamstring part (pars hamstringa) originates from the ischial tuberosity, contributes to hip extension, and is innervated by the tibial division of the sciatic nerve. The adductor part (pars adductoria) is innervated by the obturator nerve and mainly performs thigh adduction."
-    }
-  },
-  {
-    "id": 320,
-    "cz": {
-      "stem": "66letý pacient po úrazu distální části stehna podstupuje zobrazovací vyšetření. Lékař hodnotí oblast otvoru v distální části m. adductor magnus, který představuje komunikaci mezi canalis adductorius a fossa poplitea. Které struktury procházejí skrz tento prostor, jinak známý jako hiatus adductorius?",
-      "options": {
-        "a": "a. femoralis, v. femoralis",
-        "b": "a. femoralis, v. femoralis a n. saphenus",
-        "c": "a. profunda femoris a v. profunda femoris",
-        "d": "n. obturatorius, a. obturatoria a v. obturatoria",
-        "e": "a. femoralis a n. femoralis"
-      },
-      "correct": "a",
-      "explanation": "Hiatus adductorius is an opening in the distal part of m. adductor magnus that connects the adductor canal (canalis adductorius) with the popliteal fossa. The femoral artery and femoral vein pass through it and continue as the popliteal vessels. The saphenous nerve does not pass through the adductor hiatus but exits the adductor canal before its termination."
-    },
-    "en": {
-      "stem": "A 66-year-old patient after an injury to the distal thigh undergoes imaging examination. The physician evaluates the region of the opening in the distal part of m. adductor magnus, which represents a communication between the adductor canal (canalis adductorius) and the popliteal fossa. Which structures pass through this space, also known as the adductor hiatus?",
-      "options": {
-        "a": "Femoral artery, femoral vein",
-        "b": "Femoral artery, femoral vein, and saphenous nerve",
-        "c": "Deep femoral artery and deep femoral vein",
-        "d": "Obturator nerve, obturator artery, and obturator vein",
-        "e": "Femoral artery and femoral nerve"
-      },
-      "correct": "a",
-      "explanation": "The adductor hiatus is an opening in the distal part of m. adductor magnus that connects the adductor canal (canalis adductorius) with the popliteal fossa. The femoral artery and femoral vein pass through it and continue as the popliteal vessels. The saphenous nerve does not pass through the adductor hiatus but exits the adductor canal before its termination."
-    }
-  },
-  {
     "id": 324,
     "cz": {
       "stem": "34letý pacient po operaci v oblasti gluteální krajiny udává ztrátu čití na zadní straně stehna a v oblasti dolní části hýždě. Motorická funkce dolní končetiny je plně zachována. Jaká z možností správně odpovídá nervu inervující tuto krajinu a pleteně, ze které odstupuje?",
@@ -4788,33 +4410,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The semitendinosus muscle is one of the hamstring muscles and contributes to knee flexion. It also assists with medial rotation of the leg when the knee is flexed."
-    }
-  },
-  {
-    "id": 328,
-    "cz": {
-      "stem": "27letý pacient přichází na ortopedické vyšetření kvůli chronické bolesti v oblasti kyčelního kloubu. Při vyšetření lékař hodnotí rozsah pohybů v kloubu, který umožňuje flexi, extenzi, abdukci, addukci a rotace dolní končetiny. Jaký typ synoviálního kloubu představuje articulatio coxae?",
-      "options": {
-        "a": "Articulatio spheroidea",
-        "b": "Articulatio ellipsoidea",
-        "c": "Articulatio plana",
-        "d": "Articulatio ginglymus",
-        "e": "Articulatio trochoidea"
-      },
-      "correct": "a",
-      "explanation": "Articulatio coxae je articulatio spheroidea (kulový kloub), protože hlavice femuru má tvar koule a zapadá do acetabula. Tento typ kloubu umožňuje pohyb ve více osách, tedy flexi, extenzi, abdukci, addukci a vnitřní i zevní rotaci."
-    },
-    "en": {
-      "stem": "A 27-year-old patient presents for an orthopedic examination due to chronic hip joint pain. During the examination, the physician evaluates the range of movements in the joint, which allows flexion, extension, abduction, adduction, and rotation of the lower limb. What type of synovial joint is represented by the hip joint (articulatio coxae)?",
-      "options": {
-        "a": "Ball-and-socket joint (articulatio spheroidea)",
-        "b": "Ellipsoid joint (articulatio ellipsoidea)",
-        "c": "Plane joint (articulatio plana)",
-        "d": "Hinge joint (articulatio ginglymus)",
-        "e": "Pivot joint (articulatio trochoidea)"
-      },
-      "correct": "a",
-      "explanation": "The hip joint (articulatio coxae) is an articulatio spheroidea (ball-and-socket joint) because the head of the femur has a spherical shape and fits into the acetabulum. This type of joint allows movement in multiple axes, including flexion, extension, abduction, adduction, and internal and external rotation."
     }
   },
   {
@@ -4899,36 +4494,9 @@ const QUESTION_DATA = {
     }
   },
   {
-    id: 343,
-    cz: {
-      stem: "31letý lyžař utrpěl poranění kolene při prudké změně směru pohybu s fixovaným chodidlem. Při fyzikálním vyšetření lze tibii posunout výrazně více dopředu vůči femuru než na zdravé končetině. Která struktura byla s největší pravděpodobností poraněna?",
-      options: {
-        a: "Ligamentum cruciatum anterius",
-        b: "Ligamentum cruciatum posterius",
-        c: "Ligamentum collaterale tibiale",
-        d: "Ligamentum collaterale fibulare",
-        e: "Ligamentum patellae"
-      },
-      correct: "a",
-      explanation: "Ligamentum cruciatum anterius brání přednímu posunu tibie vůči femuru a zároveň omezuje nadměrnou vnitřní rotaci tibie. K jeho poranění často dochází při náhlé změně směru pohybu nebo rotačním mechanismu s fixovaným chodidlem, což vede ke zvýšené předozadní nestabilitě kolenního kloubu."
-    },
-    en: {
-      stem: "A 31-year-old skier sustained a knee injury during a sudden change in direction with the foot firmly planted. On physical examination, the tibia can be translated significantly farther anteriorly relative to the femur compared with the uninjured limb. Which structure was most likely injured?",
-      options: {
-        a: "Anterior cruciate ligament",
-        b: "Posterior cruciate ligament",
-        c: "Tibial collateral ligament",
-        d: "Fibular collateral ligament",
-        e: "Patellar ligament"
-      },
-      correct: "a",
-      explanation: "The anterior cruciate ligament prevents anterior translation of the tibia relative to the femur and also limits excessive internal rotation of the tibia. It is commonly injured during a sudden change in direction or a rotational mechanism with the foot firmly planted, resulting in increased anteroposterior instability of the knee joint."
-    }
-  },
-  {
     id: 346,
     cz: {
-      stem: "Kolenní kloub je sofistikovaný komplexní kloub, jehož stabilita je zajištěna nejen vazy, ale také strukturami uvnitř kloubní dutiny. Které z následujících tvrzení o kolenním kloubu je správné?",
+      stem: "Které z následujících tvrzení o kolenním kloubu je správné?",
       options: {
         a: "Meniscus medialis je větší než meniscus lateralis a je méně pohyblivý, protože je pevně spojen s ligamentum collaterale tibiale",
         b: "Meniscus lateralis je větší než meniscus medialis a je méně pohyblivý kvůli spojení s ligamentum collaterale fibulare",
@@ -4940,7 +4508,7 @@ const QUESTION_DATA = {
       explanation: "Meniscus medialis je větší než meniscus lateralis a má menší pohyblivost, protože je pevně spojen s ligamentum collaterale tibiale a kloubním pouzdrem. Meniscus lateralis je naopak menší, více pohyblivý a není spojen s ligamentum collaterale fibulare, což mu umožňuje lépe se přizpůsobovat pohybům kolene."
     },
     en: {
-      stem: "The knee joint is a sophisticated complex joint whose stability is ensured not only by ligaments but also by structures within the joint cavity. Which of the following statements about the knee joint is correct?",
+      stem: "Which of the following statements about the knee joint is correct?",
       options: {
         a: "The medial meniscus is larger than the lateral meniscus and is less mobile because it is firmly attached to the tibial collateral ligament",
         b: "The lateral meniscus is larger than the medial meniscus and is less mobile due to its connection with the fibular collateral ligament",
@@ -4955,7 +4523,7 @@ const QUESTION_DATA = {
   {
     id: 347,
     cz: {
-      stem: "Při úrazech kolenního kloubu dochází k poškození některých struktur výrazně častěji než u jiných. Která struktura z nabídky bude při poranění kolenního kloubu nejčastěji poškozena?",
+      stem: "Která struktura z nabídky bývá při poranění kolenního kloubu nejčastěji poškozena?",
       options: {
         a: "Meniscus medialis",
         b: "Meniscus lateralis",
@@ -4967,7 +4535,7 @@ const QUESTION_DATA = {
       explanation: "Meniscus medialis je nejčastěji poškozovanou strukturou kolenního kloubu, protože je méně pohyblivý než meniscus lateralis. Je pevně spojen s ligamentum collaterale tibiale a kloubním pouzdrem, takže při rotačním nebo valgozním násilí dochází snadněji k jeho natržení. Meniscus lateralis je pohyblivější a lépe se přizpůsobuje pohybům kolene."
     },
     en: {
-      stem: "Injuries to the knee joint result in damage to some structures much more frequently than others. Which structure from the options will be most commonly injured in a knee joint injury?",
+      stem: "Which of the following structures is most commonly injured in a knee joint injury?",
       options: {
         a: "Medial meniscus",
         b: "Lateral meniscus",
@@ -5007,60 +4575,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    id: 349,
-    cz: {
-      stem: "Articulatio genus je komplexní kloub dolní končetiny, který umožňuje především flexi a extenzi, ale díky svému uspořádání dovoluje také omezenou rotaci bérce při flektovaném koleni. Jaký typ kloubu nejlépe odpovídá jeho anatomickému zařazení?",
-      options: {
-        a: "Articulatio trochoginglymus",
-        b: "Articulatio spheroidea",
-        c: "Articulatio plana",
-        d: "Articulatio trochoidea",
-        e: "Articulatio sellaris"
-      },
-      correct: "a",
-      explanation: "Articulatio genus je articulatio trochoginglymus, tedy kombinace kladkového a válcového kloubu. Převládajícím pohybem je flexe a extenzi jako u ginglymu, ale při flektovaném koleni umožňuje také omezenou rotaci kolem podélné osy tibie díky komponentě trochoidea."
-    },
-    en: {
-      stem: "The knee joint is a complex joint of the lower limb that primarily allows flexion and extension, but due to its structure also permits limited rotation of the lower leg when the knee is flexed. Which type of joint best corresponds to its anatomical classification?",
-      options: {
-        a: "Modified hinge joint",
-        b: "Ball-and-socket joint",
-        c: "Plane joint",
-        d: "Pivot joint",
-        e: "Saddle joint"
-      },
-      correct: "a",
-      explanation: "The knee joint is a modified hinge joint, i.e., a combination of a hinge joint and a pivot joint. The predominant movement is flexion and extension, as with a hinge joint, but when the knee is flexed, it also allows limited rotation around the longitudinal axis of the shin bone thanks to the pivot-joint component."
-    }
-  },
-  {
-    id: 351,
-    cz: {
-      stem: "Pacient utrpěl poranění extenzorového aparátu kolenního kloubu při sportovním úrazu. Při anatomickém vyšetření lékař hodnotí průběh ligamentum patellae. Které z následujících tvrzení správně popisuje jeho úpon?",
-      options: {
-        a: "Vede od apex patellae k tuberositas tibiae",
-        b: "Vede od basis patellae k epicondylus medialis femoris",
-        c: "Vede od tuberositas tibiae k caput fibulae",
-        d: "Vede od basis patellae k condylus medialis femoris",
-        e: "Vede od apex patellae k condylus medialis femoris"
-      },
-      correct: "a",
-      explanation: "Ligamentum patellae je pokračováním šlachy m. quadriceps femoris pod patellou. Probíhá od apex patellae k tuberositas tibiae, kde se upíná na přední ploše proximální tibie. Společně s patellou tvoří důležitou součást extenzorového aparátu kolenního kloubu, který umožňuje přenos síly m. quadriceps femoris při extenzi kolene."
-    },
-    en: {
-      stem: "A patient sustained an injury to the extensor apparatus of the knee joint during a sports injury. During an anatomical examination, a physician evaluates the course of the patellar ligament. Which of the following statements correctly describes its attachment?",
-      options: {
-        a: "Runs from the apex of the patella to the tibial tuberosity",
-        b: "Runs from the base of the patella to the medial epicondyle of the femur",
-        c: "Runs from the tibial tuberosity to the head of the fibula",
-        d: "Runs from the base of the patella to the medial femoral condyle",
-        e: "Runs from the apex of the patella to the medial femoral condyle"
-      },
-      correct: "a",
-      explanation: "The patellar ligament is a continuation of the tendon of the quadriceps femoris muscle below the patella. It extends from the apex of the patella to the tibial tuberosity, where it attaches to the anterior surface of the proximal tibia. Together with the patella, it forms an important part of the extensor mechanism of the knee joint, allowing transmission of the force generated by the quadriceps femoris muscle during knee extension."
-    }
-  },
-  {
     id: 352,
     cz: {
       stem: "Pacient utrpěl poranění v oblasti přední skupiny svalů bérce. Při vyšetření je zjištěno oslabení dorzální flexe nohy v hlezenním kloubu a zároveň porucha pohybu, při kterém se chodidlo otáčí směrem mediálně. Který sval přední skupiny bérce je nejpravděpodobněji postižen?",
@@ -5072,7 +4586,7 @@ const QUESTION_DATA = {
         e: "M. gastrocnemius"
       },
       correct: "a",
-      explanation: "M. tibialis anterior is hlavním svalem přední skupiny bérce a zajišťuje dorzální flexi nohy v hlezenním kloubu a zároveň inverzi nohy. Jeho šlacha probíhá před hlezenním kloubem a upíná se na mediální straně nohy, proto umožňuje přitažení chodidla mediálně."
+      explanation: "M. tibialis anterior je hlavním svalem přední skupiny bérce a zajišťuje dorzální flexi nohy v hlezenním kloubu a zároveň inverzi nohy. Jeho šlacha probíhá před hlezenním kloubem a upíná se na mediální straně nohy, proto umožňuje přitažení chodidla mediálně."
     },
     en: {
       stem: "A patient sustained an injury in the area of the anterior compartment muscles of the leg. Examination reveals weakness of dorsiflexion of the foot at the ankle joint and impaired movement in which the foot rotates medially. Which muscle of the anterior compartment of the leg is most likely affected?",
@@ -5080,92 +4594,11 @@ const QUESTION_DATA = {
         a: "Tibialis anterior muscle",
         b: "Extensor hallucis longus muscle",
         c: "Extensor digitorum longus muscle",
-        d: "Fibularus longus muscle",
+        d: "Fibularis longus muscle",
         e: "Gastrocnemius muscle"
       },
       correct: "a",
       explanation: "The tibialis anterior muscle is the main muscle of the anterior compartment of the leg and performs dorsiflexion of the foot at the ankle joint as well as inversion of the foot. Its tendon passes anterior to the ankle joint and attaches on the medial side of the foot, allowing it to move the foot medially."
-    }
-  },
-  {
-    id: 353,
-    cz: {
-      stem: "Pacient utrpěl poranění v oblasti přední části bérce a hřbetu nohy. Při vyšetření má obtíže s aktivním natažením palce nohy a zároveň je oslabena dorzální flexe v hlezenním kloubu. Který sval je nejpravděpodobněji postižen?",
-      options: {
-        a: "M. extensor hallucis longus",
-        b: "M. extensor hallucis brevis",
-        c: "M. extensor digitorum longus",
-        d: "M. flexor hallucis longus",
-        e: "M. flexor digitorum longus"
-      },
-      correct: "a",
-      explanation: "M. extensor hallucis longus patří do přední skupiny svalů bérce a zajišťuje extenzi palce nohy a současně pomáhá s dorzální flexí v hlezenním kloubu. Na rozdíl od svalů uložených na noze má svůj začátek na přední ploše tibie a fibuly a jeho šlacha přechází přes hlezenní kloub na palec."
-    },
-    en: {
-      stem: "A patient sustained an injury in the anterior region of the leg and dorsum of the foot. Examination reveals difficulty with active extension of the great toe and weakened dorsiflexion at the ankle joint. Which muscle is most likely affected?",
-      options: {
-        a: "Extensor hallucis longus muscle",
-        b: "Extensor hallucis brevis muscle",
-        c: "Extensor digitorum longus muscle",
-        d: "Flexor hallucis longus muscle",
-        e: "Flexor digitorum longus muscle"
-      },
-      correct: "a",
-      explanation: "The extensor hallucis longus muscle belongs to the anterior compartment of the leg and performs extension of the great toe while also assisting with dorsiflexion at the ankle joint. Unlike muscles located in the foot, it originates from the anterior surfaces of the tibia and fibula, and its tendon passes over the ankle joint to the great toe."
-    }
-  },
-  {
-    id: 354,
-    cz: {
-      stem: "Pacient utrpěl poranění v oblasti přední skupiny svalů bérce. Při vyšetření je zjištěno oslabení natažení prstů nohy a současně porucha dorzální flexe v hlezenním kloubu. Který sval je nejpravděpodobněji postižen?",
-      options: {
-        a: "M. extensor digitorum longus",
-        b: "M. extensor hallucis longus",
-        c: "M. tibialis anterior",
-        d: "M. flexor digitorum longus",
-        e: "M. tibialis posterior"
-      },
-      correct: "a",
-      explanation: "M. extensor digitorum longus patří do přední skupiny svalů bérce a zajišťuje extenzi prstů nohy a zároveň pomáhá s dorzální flexí v hlezenním kloubu. Jeho šlacha prochází na hřbetu nohy a rozděluje se k laterálním čtyřem prstům."
-    },
-    en: {
-      stem: "A patient sustained an injury in the area of the anterior compartment muscles of the leg. Examination reveals weakness of toe extension and impaired dorsiflexion at the ankle joint. Which muscle is most likely affected?",
-      options: {
-        a: "Extensor digitorum longus muscle",
-        b: "Extensor hallucis longus muscle",
-        c: "Tibialis anterior muscle",
-        d: "Flexor digitorum longus muscle",
-        e: "Tibialis posterior muscle"
-      },
-      correct: "a",
-      explanation: "The extensor digitorum longus muscle belongs to the anterior compartment of the leg and performs extension of the toes while also assisting with dorsiflexion at the ankle joint. Its tendon passes over the dorsum of the foot and divides into branches to the lateral four toes."
-    }
-  },
-  {
-    id: 356,
-    cz: {
-      stem: "Pacient utrpěl úraz v oblasti laterální strany kolene. Poškození této struktury může vést k poruše dorzální flexe nohy a oslabení everze. Která z následujících možností správně popisuje postižený nerv?",
-      options: {
-        a: "Nervus fibularis communis – odstupuje jako větev nervus ischiadicus, probíhá podél mediálního okraje m. biceps femoris, obtáčí collum fibulae a dělí se na nervus fibularis profundus a nervus fibularis superficialis",
-        b: "Nervus fibularis communis – odstupuje z nervus femoralis, probíhá mediálně od arteria poplitea, obtáčí collum fibulae a dělí se na nervus fibularis profundus a nervus fibularis superficialis",
-        c: "Nervus fibularis communis – odstupuje z plexus lumbalis, prochází podél mediálního okraje m. biceps femoris, obtáčí collum fibulae a dělí se na nervus fibularis profundus a nervus fibularis superficialis",
-        d: "Nervus fibularis profundus – odstupuje z nervus ischiadicus, obtáčí collum fibulae a inervuje laterální skupinu svalů bérce",
-        e: "Nervus fibularis superficialis – odstupuje z nervus tibialis, prochází zadním kompartmentem bérce a inervuje přední skupinu svalů bérce"
-      },
-      correct: "a",
-      explanation: "Nervus fibularis communis je terminální větev nervus ischiadicus. V oblasti collum fibulae probíhá povrchově a zde se dělí na nervus fibularis profundus a nervus fibularis superficialis, které dále zajišťují inervaci předního a laterálního kompartmentu bérce."
-    },
-    en: {
-      stem: "A patient sustained an injury to the lateral aspect of the knee. Damage to this structure may lead to impaired dorsiflexion of the foot and weakened eversion. Which of the following options correctly describes the affected nerve?",
-      options: {
-        a: "Common fibular nerve – arises as a branch of the sciatic nerve, runs along the medial border of the biceps femoris muscle, winds around the fibular neck, and divides into the deep fibular nerve and superficial fibular nerve",
-        b: "Common fibular nerve – arises from the femoral nerve, runs medially to the popliteal artery, winds around the fibular neck, and divides into the deep fibular nerve and superficial fibular nerve",
-        c: "Common fibular nerve – arises from the lumbar plexus, runs along the medial border of the biceps femoris muscle, winds around the fibular neck, and divides into the deep fibular nerve and superficial fibular nerve",
-        d: "Deep fibular nerve – arises from the sciatic nerve, winds around the fibular neck, and innervates the lateral compartment muscles of the leg",
-        e: "Superficial fibular nerve – arises from the tibial nerve, passes through the posterior compartment of the leg, and innervates the anterior compartment muscles of the leg"
-      },
-      correct: "a",
-      explanation: "The common fibular nerve is a terminal branch of the sciatic nerve. In the region of the fibular neck, it runs superficially and divides into the deep fibular nerve and the superficial fibular nerve, which then provide innervation to the anterior and lateral compartments of the leg."
     }
   },
   {
@@ -5196,36 +4629,9 @@ const QUESTION_DATA = {
     }
   },
   {
-    id: 359,
-    cz: {
-      stem: "Při anatomickém vyšetření dolní končetiny je hodnocen sval, který zajišťuje extenzi v distálních interfalangeálních kloubech druhého až pátého prstu nohy. Která z následujících kombinací správně popisuje jeho motorickou inervaci?",
-      options: {
-        a: "Nervus fibularis profundus pro všechny prsty",
-        b: "Nervus fibularis profundus pro 2.–3. prst a nervus fibularis superficialis pro 4.–5. prst",
-        c: "Nervus tibialis pro 2.–3. prst a nervus fibularis profundus pro 4.–5. prst",
-        d: "Nervus fibularis superficialis pro všechny prsty",
-        e: "Nervus tibialis pro všechny prsty"
-      },
-      correct: "a",
-      explanation: "Extenzi v distálních interfalangeálních kloubech prstů 2.–5. zajišťuje m. extensor digitorum longus, který patří do přední skupiny svalů bérce a je motoricky inervován nervus fibularis profundus."
-    },
-    en: {
-      stem: "During an anatomical examination of the lower limb, a muscle responsible for extension at the distal interphalangeal joints of the second to fifth toes is evaluated. Which of the following combinations correctly describes its motor innervation?",
-      options: {
-        a: "Deep fibular nerve for all toes",
-        b: "Deep fibular nerve for the 2nd–3rd toes and superficial fibular nerve for the 4th–5th toes",
-        c: "Tibial nerve for the 2nd–3rd toes and deep fibular nerve for the 4th–5th toes",
-        d: "Superficial fibular nerve for all toes",
-        e: "Tibial nerve for all toes"
-      },
-      correct: "a",
-      explanation: "Extension at the distal interphalangeal joints of the 2nd–5th toes is performed by the extensor digitorum longus muscle, which belongs to the anterior compartment of the leg and is motorically innervated by the deep fibular nerve."
-    }
-  },
-  {
     id: 360,
     cz: {
-      stem: "Při anatomickém vyšetření nohy je hodnocena kost, na kterou se upínají dva svaly významné pro stabilizaci mediálního oblouku nohy. Která dvojice svalů se upíná na os cuneiforme mediale?",
+      stem: "Která dvojice svalů se upíná na os cuneiforme mediale?",
       options: {
         a: "M. tibialis anterior a m. fibularis longus",
         b: "M. tibialis anterior a m. tibialis posterior",
@@ -5237,7 +4643,7 @@ const QUESTION_DATA = {
       explanation: "Os cuneiforme mediale je významným místem úponu m. tibialis anterior a m. fibularis longus. Tyto svaly se podílejí na stabilizaci mediální a příčné klenby nohy, přičemž m. tibialis anterior provádí hlavně dorzální flexi a inverzi a m. fibularis longus everzi a podporu příčné klenby."
     },
     en: {
-      stem: "During an anatomical examination of the foot, a bone to which two muscles important for stabilizing the medial arch of the foot attach is evaluated. Which pair of muscles attaches to the medial cuneiform bone?",
+      stem: "Which muscles attach to the medial cuneiform bone?",
       options: {
         a: "Tibialis anterior muscle and fibularis longus muscle",
         b: "Tibialis anterior muscle and tibialis posterior muscle",
@@ -5247,33 +4653,6 @@ const QUESTION_DATA = {
       },
       correct: "a",
       explanation: "The medial cuneiform bone is an important attachment site for the tibialis anterior muscle and the fibularis longus muscle. These muscles contribute to the stabilization of the medial and transverse arches of the foot, with the tibialis anterior mainly performing dorsiflexion and inversion, and the fibularis longus performing eversion and supporting the transverse arch."
-    }
-  },
-  {
-    "id": 361,
-    "cz": {
-      "stem": "Při anatomickém vyšetření dolní končetiny je hodnocena anterolaterální skupina svalů bérce. Její poranění vede především k oslabení everze nohy a současně k oslabení pomocné plantární flexe v hlezenním kloubu. Který sval této skupiny je nejpravděpodobněji postižen?",
-      "options": {
-        "a": "M. fibularis longus",
-        "b": "M. tibialis anterior",
-        "c": "M. tibialis posterior",
-        "d": "M. fibularis brevis",
-        "e": "M. flexor hallucis longus"
-      },
-      "correct": "a",
-      "explanation": "Laterální skupinu svalů bérce tvoří m. fibularis longus a m. fibularis brevis. Jejich hlavní funkcí je everze nohy, přičemž pomáhají také s plantární flexí v hlezenním kloubu. Jsou inervovány nervus fibularis superficialis."
-    },
-    "en": {
-      "stem": "During an anatomical examination of the lower limb, the anterolateral group of muscles of the leg is evaluated. Injury to this compartment primarily results in weakened eversion of the foot and impaired accessory plantar flexion at the ankle joint. Which muscle of this compartment is most likely affected?",
-      "options": {
-        "a": "Fibularis longus muscle",
-        "b": "Tibialis anterior muscle",
-        "c": "Tibialis posterior muscle",
-        "d": "Fibularis brevis muscle",
-        "e": "Flexor hallucis longus muscle"
-      },
-      "correct": "a",
-      "explanation": "The lateral compartment of the leg consists of the fibularis longus and fibularis brevis muscles. Their primary function is eversion of the foot, and they also assist with plantar flexion at the ankle joint. They are innervated by the superficial fibular nerve."
     }
   },
   {
@@ -5304,141 +4683,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 363,
-    "cz": {
-      "stem": "Šlacha svalu probíhajícího za laterálním kotníkem pokračuje napříč přes plantární stranu nohy a upíná se zde nacházející se struktury. Který z následujících úponů odpovídá tomuto svalu?",
-      "options": {
-        "a": "Os cuneiforme mediale a basis ossis metatarsalis I",
-        "b": "Tuberositas ossis metatarsalis V",
-        "c": "Tuberositas ossis navicularis",
-        "d": "Basis ossis metatarsalis II–IV",
-        "e": "Os cuneiforme mediale a basis ossis metatarsalis II"
-      },
-      "correct": "a",
-      "explanation": "M. fibularis longus probíhá za laterálním kotníkem, kříží plantární stranu nohy a upíná se na os cuneiforme mediale a basis ossis metatarsalis I. Tento průběh mu umožňuje podporovat příčnou klenbu nohy a provádět everzi."
-    },
-    "en": {
-      "stem": "The tendon of a muscle passing posterior to the lateral malleolus continues across the plantar aspect of the foot and inserts onto the structures located there. Which of the following insertions corresponds to this muscle?",
-      "options": {
-        "a": "Medial cuneiform bone and base of the first metatarsal bone",
-        "b": "Tuberosity of the fifth metatarsal bone",
-        "c": "Navicular tuberosity",
-        "d": "Bases of the second through fourth metatarsal bones",
-        "e": "Medial cuneiform bone and base of the second metatarsal bone"
-      },
-      "correct": "a",
-      "explanation": "The fibularis longus muscle passes posterior to the lateral malleolus, crosses the plantar aspect of the foot, and inserts on the medial cuneiform bone and the base of the first metatarsal. This course enables it to support the transverse arch of the foot and perform eversion."
-    }
-  },
-  {
-    "id": 364,
-    "cz": {
-      "stem": "Při hodnocení úponů svalů laterální skupiny bérce je nutné rozlišit jejich odlišné zakončení na skeletu nohy. Která z následujících kombinací správně uvádí úpony m. fibularis longus a m. fibularis brevis?",
-      "options": {
-        "a": "M. fibularis longus – os cuneiforme mediale a basis ossis metatarsalis I; m. fibularis brevis – tuberositas ossis metatarsalis V",
-        "b": "M. fibularis longus – tuberositas ossis metatarsalis V; m. fibularis brevis – os cuneiforme mediale a basis ossis metatarsalis I",
-        "c": "M. fibularis longus – tuberositas ossis navicularis; m. fibularis brevis – basis ossis metatarsalis V",
-        "d": "M. fibularis longus – basis ossis metatarsalis V; m. fibularis brevis – os cuneiforme laterale",
-        "e": "M. fibularis longus – talus; m. fibularis brevis – phalanx proximalis hallucis"
-      },
-      "correct": "a",
-      "explanation": "M. fibularis longus se upíná na os cuneiforme mediale a basis ossis metatarsalis I, zatímco m. fibularis brevis na tuberositas ossis metatarsalis V. Rozdílné úpony vysvětlují jejich rozdílný vliv na stabilizaci klenby nohy, přestože oba mají hlavní funkci everze."
-    },
-    "en": {
-      "stem": "When evaluating the insertions of the lateral compartment muscles of the leg, it is important to distinguish their different attachment sites on the bones of the foot. Which of the following combinations correctly lists the insertions of the fibularis longus and fibularis brevis muscles?",
-      "options": {
-        "a": "Fibularis longus muscle – medial cuneiform bone and base of the first metatarsal bone; fibularis brevis muscle – tuberosity of the fifth metatarsal bone",
-        "b": "Fibularis longus muscle – tuberosity of the fifth metatarsal bone; fibularis brevis muscle – medial cuneiform bone and base of the first metatarsal bone",
-        "c": "Fibularis longus muscle – navicular tuberosity; fibularis brevis muscle – base of the fifth metatarsal bone",
-        "d": "Fibularis longus muscle – base of the fifth metatarsal bone; fibularis brevis muscle – lateral cuneiform bone",
-        "e": "Fibularis longus muscle – talus; fibularis brevis muscle – proximal phalanx of the great toe"
-      },
-      "correct": "a",
-      "explanation": "The fibularis longus muscle inserts on the medial cuneiform bone and the base of the first metatarsal bone, whereas the fibularis brevis muscle inserts on the tuberosity of the fifth metatarsal bone. Their different insertions explain their different roles in stabilizing the arches of the foot, although both primarily function in eversion."
-    }
-  },
-  {
-    "id": 366,
-    "cz": {
-      "stem": "Během stoje a chůze dochází k zatěžování příčné klenby nohy, která musí být aktivně stabilizována, aby nedocházelo k jejímu oploštění. Na její udržení se podílí řada svalů. Která z následujících možností obsahuje svaly bérce významně se podílející na stabilizaci proximální příčné klenby planty?",
-      "options": {
-        "a": "M. fibularis longus a m. tibialis anterior",
-        "b": "M. fibularis brevis a m. tibialis posterior",
-        "c": "M. tibialis posterior a m. flexor hallucis longus",
-        "d": "M. extensor hallucis longus a m. extensor digitorum longus",
-        "e": "M. fibularis brevis a m. flexor digitorum longus"
-      },
-      "correct": "a",
-      "explanation": "Proximální příčnou klenbu planty stabilizují především m. fibularis longus a m. tibialis anterior. M. fibularis longus probíhá plantárně z laterální strany nohy na mediální stranu a svým tahem podporuje příčnou klenbu. M. tibialis posterior má rozsáhlý úpon na tarzálních kostech a podílí se na stabilizaci klenby nohy."
-    },
-    "en": {
-      "stem": "During standing and walking, the transverse arch of the foot is loaded and must be actively stabilized to prevent flattening. Several muscles contribute to its maintenance. Which of the following options contains the leg muscles that significantly contribute to the stabilization of the proximal transverse arch of the sole?",
-      "options": {
-        "a": "Fibularis longus muscle and tibialis anterior muscle",
-        "b": "Fibularis brevis muscle and tibialis posterior muscle",
-        "c": "Tibialis posterior muscle and flexor hallucis longus muscle",
-        "d": "Extensor hallucis longus muscle and extensor digitorum longus muscle",
-        "e": "Fibularis brevis muscle and flexor digitorum longus muscle"
-      },
-      "correct": "a",
-      "explanation": "The proximal transverse arch of the sole is primarily stabilized by the fibularis longus and tibialis anterior muscles. The fibularis longus runs plantarly from the lateral side of the foot to the medial side and supports the transverse arch through its traction. The tibialis posterior has an extensive attachment on the tarsal bones and contributes to the stabilization of the arch of the foot."
-    }
-  },
-  {
-    "id": 368,
-    "cz": {
-      "stem": "Při vyšetření povrchového žilního systému dolní končetiny lékař hodnotí průběh a lokalizaci hlavních povrchových žil, které odvádějí krev z oblasti nohy a bérce. Tyto žíly se liší nejen svým průběhem, ale také místem, kde se na dolní končetině nacházejí. Která z následujících možností správně popisuje jejich uložení?",
-      "options": {
-        "a": "Vena saphena magna probíhá po mediální straně bérce, vena saphena parva po laterální straně bérce",
-        "b": "Vena saphena magna probíhá po laterální straně bérce, vena saphena parva po mediální straně bérce",
-        "c": "Vena saphena magna probíhá po zadní straně bérce, vena saphena parva po přední straně bérce",
-        "d": "Vena saphena magna probíhá v hlubokém kompartmentu bérce, vena saphena parva v povrchovém kompartmentu",
-        "e": "Vena saphena magna je jediná povrchová žíla bérce a odvádí veškerou povrchovou krev z nohy a bérce"
-      },
-      "correct": "a",
-      "explanation": "Vena saphena magna a vena saphena parva jsou dvě hlavní povrchové žíly dolní končetiny. Vena saphena magna odvádí krev především z mediální části nohy a dolní končetiny a ústí do vena femoralis. Vena saphena parva odvádí krev z laterální části nohy, probíhá za laterálním kotníkem a po zadní straně bérce, kde obvykle ústí do vena poplitea."
-    },
-    "en": {
-      "stem": "During examination of the superficial venous system of the lower limb, a physician evaluates the course and localization of the main superficial veins, which drain blood from the foot and leg. These veins differ not only in their course but also in their anatomical location on the lower limb. Which of the following options correctly describes their arrangement?",
-      "options": {
-        "a": "Great saphenous vein runs along the medial side of the leg, small saphenous vein runs along the lateral side of the leg",
-        "b": "Great saphenous vein runs along the lateral side of the leg, small saphenous vein runs along the medial side of the leg",
-        "c": "Great saphenous vein runs along the posterior side of the leg, small saphenous vein runs along the anterior side of the leg",
-        "d": "Great saphenous vein runs in the deep compartment of the leg, small saphenous vein runs in the superficial compartment",
-        "e": "Great saphenous vein is the only superficial vein of the leg and drains all superficial blood from the foot and leg"
-      },
-      "correct": "a",
-      "explanation": "The great saphenous vein and the small saphenous vein are the two main superficial veins of the lower limb. The great saphenous vein drains blood mainly from the medial part of the foot and lower limb and empties into the femoral vein. The small saphenous vein drains blood from the lateral part of the foot, passes posterior to the lateral malleolus and along the posterior aspect of the leg, where it usually empties into the popliteal vein."
-    }
-  },
-  {
-    "id": 369,
-    "cz": {
-      "stem": "Během chirurgického zákroku v oblasti bérce může dojít k poranění kožního nervu, který probíhá v těsné blízkosti povrchové žíly. Která kombinace nervu a žíly odpovídá tomuto anatomickému vztahu?",
-      "options": {
-        "a": "Nervus suralis – vena saphena parva",
-        "b": "Nervus suralis – vena saphena magna",
-        "c": "Nervus saphenus – vena saphena parva",
-        "d": "Nervus fibularis superficialis – vena saphena parva",
-        "e": "Nervus fibularis profundus – vena saphena magna"
-      },
-      "correct": "a",
-      "explanation": "Nervus saphenus je senzitivní větev nervus femoralis a v oblasti bérce probíhá společně s vena saphena magna na mediální straně dolní končetiny. Nervus suralis naopak doprovází vena saphena parva, zejména v oblasti zadní strany bérce."
-    },
-    "en": {
-      "stem": "During a surgical procedure in the region of the leg, a cutaneous nerve running in close proximity to a superficial vein may be injured. Which combination of nerve and vein corresponds to this anatomical relationship?",
-      "options": {
-        "a": "Sural nerve – small saphenous vein",
-        "b": "Sural nerve – great saphenous vein",
-        "c": "Saphenous nerve – small saphenous vein",
-        "d": "Superficial fibular nerve – small saphenous vein",
-        "e": "Deep fibular nerve – great saphenous vein"
-      },
-      "correct": "a",
-      "explanation": "The saphenous nerve is a sensory branch of the femoral nerve and in the region of the leg runs together with the great saphenous vein on the medial side of the lower limb. The sural nerve, in contrast, accompanies the small saphenous vein, especially in the region of the posterior aspect of the leg."
-    }
-  },
-  {
     "id": 374,
     "cz": {
       "stem": "Při chůzi do schodů má pacient výrazné obtíže s odrazem od podložky. Vyšetření prokáže oslabení plantární flexe v hlezenním kloubu i flexe prstů nohy, zatímco dorzální flexe a everze jsou zachovány. Která z následujících možností správně uvádí nerv inervující postiženou svalovou skupinu a nerv, ze kterého odstupuje?",
@@ -5463,60 +4707,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "All muscles of the posterior compartment of the leg are motorically innervated by the tibial nerve. The tibial nerve is one of the two terminal branches of the sciatic nerve, from which it separates in the region of the popliteal fossa. Injury to the tibial nerve leads to weakness of plantar flexion and flexion of the toes."
-    }
-  },
-  {
-    "id": 376,
-    "cz": {
-      "stem": "Při běhu dochází během odrazové fáze k výrazné aktivaci svalové skupiny na zadní straně bérce. U běžce s poraněním této svalové skupiny je výrazně oslaben odraz špičky od podložky a stoj na špičkách není možný. Která z následujících možností správně popisuje tuto svalovou skupinu?",
-      "options": {
-        "a": "M. triceps surae (m. gastrocnemius a m. soleus), inervace nervus tibialis",
-        "b": "M. triceps surae (m. gastrocnemius a m. plantaris), inervace nervus tibialis",
-        "c": "M. triceps surae (m. tibialis posterior a m. flexor digitorum longus), inervace nervus tibialis",
-        "d": "M. tibialis posterior, inervace nervus tibialis",
-        "e": "M. tibialis posterior a m. fibularis longus, inervace nervus tibialis"
-      },
-      "correct": "a",
-      "explanation": "M. triceps surae tvoří m. gastrocnemius a m. soleus. Jedná se o hlavní svalovou skupinu povrchové vrstvy zadní skupiny bérce. Oba svaly jsou inervovány nervus tibialis a jejich šlacha (tendo calcaneus) se upíná na tuber calcanei."
-    },
-    "en": {
-      "stem": "During running, the push-off phase involves strong activation of a muscle group located on the posterior aspect of the leg. In a runner with an injury to this muscle group, push-off from the toes is significantly weakened and standing on tiptoes is impossible. Which of the following options correctly describes this muscle group?",
-      "options": {
-        "a": "Triceps surae muscle (gastrocnemius muscle and soleus muscle), innervated by the tibial nerve",
-        "b": "Triceps surae muscle (gastrocnemius muscle and plantaris muscle), innervated by the tibial nerve",
-        "c": "Triceps surae muscle (tibialis posterior muscle and flexor digitorum longus muscle), innervated by the tibial nerve",
-        "d": "Tibialis posterior muscle, innervated by the tibial nerve",
-        "e": "Tibialis posterior muscle and fibularis longus muscle, innervated by the tibial nerve"
-      },
-      "correct": "a",
-      "explanation": "The triceps surae muscle consists of the gastrocnemius muscle and soleus muscle. It represents the main muscle group of the superficial layer of the posterior compartment of the leg. Both muscles are innervated by the tibial nerve, and their common tendon (calcaneal tendon / tendo calcaneus, Achilles tendon) inserts onto the calcaneal tuberosity."
-    }
-  },
-  {
-    "id": 377,
-    "cz": {
-      "stem": "M. plantaris je drobný sval zadní skupiny svalů bérce, který se podílí na plantární flexi v hlezenním kloubu a bývá významný především z anatomického hlediska. Která z následujících možností správně popisuje jeho začátek, průběh a úpon?",
-      "options": {
-        "a": "Začíná na epicondylus lateralis femoris, šlacha probíhá mezi m. gastrocnemius a m. soleus a upíná se mediálně od tendo calcaneus na tuber calcanei",
-        "b": "Začíná na epicondylus medialis femoris, šlacha probíhá mezi m. gastrocnemius a m. soleus a upíná se laterálně od tendo calcaneus na tuber calcanei",
-        "c": "Začíná na caput fibulae, šlacha probíhá za mediálním kotníkem a upíná se na os cuneiforme mediale",
-        "d": "Začíná na epicondylus lateralis femoris, šlacha probíhá mezi m. gastrocnemius a m. soleus a upíná se laterálně od tendo calcaneus na tuber calcanei",
-        "e": "Začíná na facies posterior tibiae, šlacha probíhá pod m. soleus a upíná se laterálně na tuber calcanei"
-      },
-      "correct": "a",
-      "explanation": "M. plantaris začíná na epicondylus lateralis femoris. Jeho šlacha probíhá mezi m. gastrocnemius a m. soleus a pokračuje mediálně k Achillově šlaše, kde se upíná na mediální stranu tuber calcanei."
-    },
-    "en": {
-      "stem": "The plantaris muscle is a small muscle of the posterior compartment of the leg that assists in plantar flexion at the ankle joint and is of particular importance from an anatomical perspective. Which of the following options correctly describes its origin, course, and insertion?",
-      "options": {
-        "a": "Originates from the lateral epicondyle of the femur, its tendon passes between the gastrocnemius and soleus muscles, and inserts on the calcaneal tuberosity medial to the calcaneal (Achilles) tendon",
-        "b": "Originates from the medial epicondyle of the femur, its tendon passes between the gastrocnemius and soleus muscles, and inserts on the calcaneal tuberosity lateral to the calcaneal tendon",
-        "c": "Originates from the head of the fibula, its tendon passes posterior to the medial malleolus and inserts on the medial cuneiform bone",
-        "d": "Originates from the lateral epicondyle of the femur, its tendon passes between the gastrocnemius and soleus muscles, and inserts on the calcaneal tuberosity lateral to the calcaneal tendon",
-        "e": "Originates from the posterior surface of the tibia, its tendon passes deep to the soleus muscle and inserts on the lateral aspect of the calcaneal tuberosity"
-      },
-      "correct": "a",
-      "explanation": "The plantaris muscle originates from the lateral epicondyle of the femur. Its tendon passes between the gastrocnemius and soleus muscles and continues medially alongside the calcaneal (Achilles) tendon, inserting on the medial aspect of the calcaneal tuberosity."
     }
   },
   {
@@ -5574,33 +4764,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 384,
-    "cz": {
-      "stem": "Devatenáctiletý fotbalista utrpěl hluboké poranění v oblasti zadní strany bérce, při vyšetření je odhalena léze m. flexor digitorum longus. Po zhojení rány přetrvává porucha některých pohybů. Která z následujících funkcí bude při poškození tohoto konkrétního svalu nejvíce narušena?",
-      "options": {
-        "a": "Flexe distálních interfalangeálních kloubů 2.–5. prstu a pomocná plantární flexe v hlezenním kloubu",
-        "b": "Flexe distálních i proximálních interfalangeálních kloubů 2.–5. prstu a pomocná plantární flexe v hlezenním kloubu",
-        "c": "Flexe metatarzofalangeálních kloubů 2.–5. prstu a dorzální flexe nohy",
-        "d": "Flexe proximálních interfalangeálních kloubů 2.–5. prstu a inverze nohy",
-        "e": "Extenze distálních interfalangeálních kloubů 2.–5. prstu a plantární flexe v hlezenním kloubu"
-      },
-      "correct": "a",
-      "explanation": "M. flexor digitorum longus je hlavním flexorem distálních interfalangeálních kloubů prstů 2.–5. Flexe proximálních interfalangeálních kloubů je částečně zachována díky m. flexor digitorum brevis, který se upíná na střední články prstů. M. flexor digitorum longus se dále podílí na plantární flexi v hleznu a inverzi nohy."
-    },
-    "en": {
-      "stem": "A 19-year-old football player sustained a deep injury to the posterior aspect of the leg. Examination revealed a lesion of the flexor digitorum longus muscle. After healing of the wound, impairment of certain movements persists. Which of the following functions will be most affected by damage to this specific muscle?",
-      "options": {
-        "a": "Flexion of the distal interphalangeal joints of toes 2–5 and assistance with plantar flexion at the ankle joint",
-        "b": "Flexion of the distal and proximal interphalangeal joints of toes 2–5 and assistance with plantar flexion at the ankle joint",
-        "c": "Flexion of the metatarsophalangeal joints of toes 2–5 and dorsiflexion of the foot",
-        "d": "Flexion of the proximal interphalangeal joints of toes 2–5 and inversion of the foot",
-        "e": "Extension of the distal interphalangeal joints of toes 2–5 and plantar flexion at the ankle joint"
-      },
-      "correct": "a",
-      "explanation": "The flexor digitorum longus muscle is the main flexor of the distal interphalangeal joints of toes 2–5. Flexion of the proximal interphalangeal joints is partially preserved due to the flexor digitorum brevis muscle, which inserts on the middle phalanges of the toes. The flexor digitorum longus muscle also contributes to plantar flexion at the ankle joint and inversion of the foot."
-    }
-  },
-  {
     "id": 385,
     "cz": {
       "stem": "U pacienta s postupně vznikajícím plochonožím dochází k oslabení dynamické podpory mediální podélné klenby nohy. Vyšetření ukáže poruchu funkce svalu, který za normálních okolností pomáhá udržovat postavení tarzálních kostí a brání poklesu klenby při zatížení. Který sval je hlavním dynamickým stabilizátorem podélné klenby nohy?",
@@ -5635,7 +4798,7 @@ const QUESTION_DATA = {
         "a": "Arteria tibialis posterior – odstupuje z arteria poplitea",
         "b": "Arteria tibialis posterior – odstupuje z arteria femoralis",
         "c": "Arteria tibialis– odstupuje z arteria poplitea",
-        "d": "Arteria poplitea – odstupuje z arteria femoralis profunda",
+        "d": "Arteria fibularis – odstupuje z arteria femoralis",
         "e": "Arteria tibialis profunda– odstupuje z arteria femoralis"
       },
       "correct": "a",
@@ -5647,7 +4810,7 @@ const QUESTION_DATA = {
         "a": "Posterior tibial artery – arises from the popliteal artery",
         "b": "Posterior tibial artery – arises from the femoral artery",
         "c": "Tibial artery – arises from the popliteal artery",
-        "d": "Popliteal artery – arises from the deep femoral artery",
+        "d": "Fibular artery – arises from the femoral artery",
         "e": "Deep tibial artery – arises from the femoral artery"
       },
       "correct": "a",
@@ -5693,7 +4856,7 @@ const QUESTION_DATA = {
         "e": "Mediální strana bérce a mediální okraj nohy; větev nervus ischiadicus; plexus sacralis"
       },
       "correct": "a",
-      "explanation": "Nervus saphenus je senzitivní terminální větev nervus femoralis, který pochází z plexus lumbalis (L2–L4). Zajišťuje citlivost mediální strany bérce a mediálního okraje nohy. Ostatní uvedené nervy patří převážně k větvím plexus sacralis a zásobují jiné oblasti dolní končetiny."
+      "explanation": "Nervus saphenus je senzitivní terminální větev nervus femoralis, který pochází z plexus lumbalis (L2–L4). Zajišťuje citlivost mediální strany bérce a mediálního okraje nohy."
     },
     "en": {
       "stem": "The saphenous nerve is a purely sensory nerve running from the thigh to the leg. Which of the following options correctly describes its sensory distribution, origin, and the plexus from which it arises?",
@@ -5705,7 +4868,7 @@ const QUESTION_DATA = {
         "e": "Medial side of the leg and medial border of the foot; branch of the sciatic nerve; sacral plexus"
       },
       "correct": "a",
-      "explanation": "The saphenous nerve is a sensory terminal branch of the femoral nerve, which originates from the lumbar plexus (L2–L4). It provides sensory innervation to the medial side of the leg and the medial border of the foot. The other mentioned nerves mainly belong to branches of the sacral plexus and supply different regions of the lower limb."
+      "explanation": "The saphenous nerve is a sensory terminal branch of the femoral nerve, which originates from the lumbar plexus (L2–L4). It provides sensory innervation to the medial side of the leg and the medial border of the foot."
     }
   },
   {
@@ -5733,33 +4896,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The sural nerve is formed by the union of the medial sural cutaneous branch from the tibial nerve and the fibular communicating branch from the common fibular nerve. Both the tibial nerve and common fibular nerve are terminal branches of the sciatic nerve, which originates from the sacral plexus."
-    }
-  },
-  {
-    "id": 390,
-    "cz": {
-      "stem": "Čtyřiadvacetiletý pacient podstupuje chirurgické ošetření poranění v oblasti za mediálním kotníkem. Při výkonu je nutné zachovat nervové struktury probíhající společně s cévami do plosky nohy. Která z následujících možností správně popisuje vztah nervu a cévy v této oblasti?",
-      "options": {
-        "a": "Nervus tibialis probíhá spolu s arteria tibialis posterior za mediálním kotníkem",
-        "b": "Nervus fibularis profundus probíhá spolu s arteria tibialis anterior za mediálním kotníkem",
-        "c": "Nervus saphenus probíhá spolu s arteria tibialis posterior za mediálním kotníkem",
-        "d": "Nervus suralis probíhá spolu s arteria dorsalis pedis za mediálním kotníkem",
-        "e": "Nervus fibularis superficialis probíhá spolu s arteria fibularis za mediálním kotníkem"
-      },
-      "correct": "a",
-      "explanation": "Nervus tibialis spolu s arteria tibialis posterior prochází za mediálním kotníkem do oblasti plosky nohy. V této oblasti jsou struktury uspořádány zepředu dozadu přibližně: m. tibialis posterior, m. flexor digitorum longus, arteria tibialis posterior, nervus tibialis, m. flexor hallucis longus. Ostatní uvedené nervy a cévy mají odlišný průběh."
-    },
-    "en": {
-      "stem": "A 24-year-old patient undergoes surgical treatment of an injury in the region posterior to the medial malleolus. During the procedure, it is necessary to preserve the nerve structures running together with vessels to the sole of the foot. Which of the following options correctly describes the relationship between the nerve and vessel in this area?",
-      "options": {
-        "a": "The tibial nerve runs together with the posterior tibial artery behind the medial malleolus",
-        "b": "The deep fibular nerve runs together with the anterior tibial artery behind the medial malleolus",
-        "c": "The saphenous nerve runs together with the posterior tibial artery behind the medial malleolus",
-        "d": "The sural nerve runs together with the dorsalis pedis artery behind the medial malleolus",
-        "e": "The superficial fibular nerve runs together with the fibular artery behind the medial malleolus"
-      },
-      "correct": "a",
-      "explanation": "The tibial nerve runs together with the posterior tibial artery behind the medial malleolus and continues into the plantar region of the foot. In this area, the structures are arranged approximately from anterior to posterior as follows: tibialis posterior muscle, flexor digitorum longus muscle, posterior tibial artery, tibial nerve, flexor hallucis longus muscle. The other mentioned nerves and vessels have different anatomical courses."
     }
   },
   {
@@ -5873,7 +5009,7 @@ const QUESTION_DATA = {
   {
     "id": 399,
     "cz": {
-      "stem": "Po podvrtnutí hlezenního kloubu je při vyšetření hodnocena oblast laterálního kotníku, kde mohou být poškozeny struktury probíhající za zevním kotníkem. Která z následujících možností správně popisuje struktury procházející za laterálním kotníkem?",
+      "stem": "Která z následujících možností správně popisuje struktury procházející za laterálním kotníkem?",
       "options": {
         "a": "M. fibularis longus, m. fibularis brevis",
         "b": "M. fibularis longus, m. fibularis brevis, n. fibularis superficialis",
@@ -5885,7 +5021,7 @@ const QUESTION_DATA = {
       "explanation": "Za laterálním kotníkem probíhají šlachy laterální skupiny svalů bérce, tedy m. fibularis longus a m. fibularis brevis. Jsou uloženy v sulcus malleolaris lateralis na fibule a stabilizovány retinaculum musculorum fibularium. Dále zde probíhá vena saphena parva v doprovodu nervus suralis."
     },
     "en": {
-      "stem": "After an ankle sprain, the lateral malleolus region is examined, where structures passing behind the lateral malleolus may be damaged. Which of the following options correctly describes the structures passing behind the lateral malleolus?",
+      "stem": "Which of the following options correctly describes the structures passing behind the lateral malleolus?",
       "options": {
         "a": "Fibularis longus muscle, fibularis brevis muscle",
         "b": "Fibularis longus muscle, fibularis brevis muscle, superficial fibular nerve",
@@ -5900,7 +5036,7 @@ const QUESTION_DATA = {
   {
     "id": 403,
     "cz": {
-      "stem": "Při vyšetření subtalárního kloubu je hodnocena oblast sinus tarsi, která obsahuje důležité anatomické struktury. Která z následujících možností správně popisuje struktury procházející sinus tarsi?",
+      "stem": "Která z následujících možností správně popisuje struktury procházející sinus tarsi?",
       "options": {
         "a": "Ligamentum talocalcaneum interosseum, drobné cévy",
         "b": "Nervus fibularis profundus, arteria dorsalis pedis",
@@ -5912,7 +5048,7 @@ const QUESTION_DATA = {
       "explanation": "Sinus tarsi je prostor mezi talem a calcaneem, kterým prochází především ligamentum talocalcaneum interosseum, dále cévy a tuková tkáň. Stabilizuje spojení mezi talem a calcaneem v oblasti subtalárního kloubu. Ostatní uvedené struktury probíhají v jiných oblastech nohy a hlezna."
     },
     "en": {
-      "stem": "When examining the subtalar joint, the sinus tarsi region is evaluated, as it contains important anatomical structures. Which of the following options correctly describes the structures passing through the sinus tarsi?",
+      "stem": "Which of the following options correctly describes the structures passing through the sinus tarsi?",
       "options": {
         "a": "Interosseous talocalcaneal ligament, small vessels",
         "b": "Deep fibular nerve, dorsalis pedis artery",
@@ -5952,33 +5088,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 407,
-    "cz": {
-      "stem": "Mladý fotbalista si při zápase při prudké změně směru a následném špatném došlapu poraní nohu. Následně přichází k lékaři s bolestí při zatížení a omezenou funkcí postižené končetiny. Zobrazovací vyšetření potvrdí poranění oblasti Lisfrancova kloubu. Mezi kterými strukturami se tento kloub nachází?",
-      "options": {
-        "a": "Mezi ossa cuneiformia a bases ossium metatarsorum I–III a mezi os cuboideum a basis ossis metatarsi IV–V",
-        "b": "Mezi talem a calcaneem v oblasti articulatio subtalaris",
-        "c": "Mezi hlavicí talu a os naviculare v oblasti articulatio talonavicularis",
-        "d": "Mezi malleolus medialis tibiae a talem v oblasti articulatio talocruralis",
-        "e": "Mezi ossa metatarsalia a phalangy prstů v oblasti articulationes metatarsophalangeae"
-      },
-      "correct": "a",
-      "explanation": "Lisfrancův kloub tvoří spojení mezi distální řadou kostí tarzálních (ossa cuneiformia a os cuboideum) a bázemi metatarzů. Mediálně jde o spojení klínovitých kostí s metatarsy I–III, laterálně o spojení kosti krychlové s metatarsy IV–V. Jeho stabilita je významná pro udržení klenby nohy a přenos zatížení při stoji a chůzi."
-    },
-    "en": {
-      "stem": "A young football player injures his foot during a match after a sudden change of direction followed by an improper landing. He subsequently presents to a physician with pain during weight-bearing and limited function of the affected limb. Imaging confirms an injury to the region of the Lisfranc joint. Between which structures is this joint located?",
-      "options": {
-        "a": "Between the cuneiform bones and the bases of metatarsal bones I–III, and between the cuboid bone and the base of metatarsal bones IV–V",
-        "b": "Between the talus and calcaneus in the region of the subtalar joint",
-        "c": "Between the head of the talus and the navicular bone in the region of the talonavicular joint",
-        "d": "Between the medial malleolus of the tibia and the talus in the region of the talocrural joint",
-        "e": "Between the metatarsal bones and the phalanges of the toes in the region of the metatarsophalangeal joints"
-      },
-      "correct": "a",
-      "explanation": "The Lisfranc joint is formed by the connection between the distal row of tarsal bones (cuneiform bones and cuboid bone) and the bases of the metatarsal bones. Medially, it involves the connection of the cuneiform bones with metatarsals I–III, and laterally, the connection of the cuboid bone with metatarsals IV–V. Its stability is important for maintaining the foot arches and transferring weight during standing and walking."
-    }
-  },
-  {
     "id": 408,
     "cz": {
       "stem": "Mladý sportovec si při doskoku po výskoku poraní nohu a následně udává bolest při pohybu a zatížení postižené končetiny. Klinické vyšetření a zobrazovací metody potvrdí poranění oblasti Chopartova kloubu. Mezi kterými strukturami se nachází Chopartův kloub?",
@@ -6008,7 +5117,7 @@ const QUESTION_DATA = {
   {
     "id": 479,
     "cz": {
-      "stem": "Při operaci plantární fascie chirurg pronikne do třetí svalové vrstvy planta pedis. Nechtěně poraní sval, který má dvě hlavy odstupující z různých útvarů tarzální oblasti a jehož kontrakce významně přispívá ke stabilizaci příčné klenby nohy. Který sval byl poraněn?",
+      "stem": "Při operaci plantární fascie chirurg pronikne do třetí svalové vrstvy planta pedis. Nechtěně poraní sval, který má dvě hlavy a jehož kontrakce  významně přispívá ke stabilizaci příčné klenby nohy. Který sval byl poraněn?",
       "options": {
         "a": "Musculus adductor hallucis",
         "b": "Musculus abductor hallucis",
@@ -6020,7 +5129,7 @@ const QUESTION_DATA = {
       "explanation": "M. adductor hallucis se nachází ve třetí svalové vrstvě planta pedis a skládá se ze dvou hlav – caput obliquum a caput transversum. Obě hlavy se spojují a upínají se na laterální stranu báze proximálního článku palce. Jeho hlavní funkcí je addukce palce a významně se podílí na stabilizaci příčné klenby nohy, zejména v oblasti hlaviček metatarzů."
     },
     "en": {
-      "stem": "During plantar fascia surgery, the surgeon penetrates into the third muscular layer of the planta pedis. He accidentally injures a muscle that has two heads arising from different structures of the tarsal region and whose contraction significantly contributes to the stabilization of the transverse arch of the foot. Which muscle was injured?",
+      "stem": "During plantar fascia surgery, the surgeon penetrates into the third muscular layer of the planta pedis. He accidentally injures a muscle that has two heads and whose contraction significantly contributes to the stabilization of the transverse arch of the foot. Which muscle was injured?",
       "options": {
         "a": "Adductor hallucis muscle",
         "b": "Abductor hallucis muscle",
@@ -6087,33 +5196,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 487,
-    "cz": {
-      "stem": "Při anatomické pitvě plantární strany nohy student identifikuje drobné svaly uložené v hlubší části první vrstvy planty. Tyto svaly vycházejí ze šlach musculus flexor digitorum longus a jejich šlachy dále pokračují a upínají se na distální struktury. Vyučující se ptá na hlavní biomechanickou úlohu těchto svalů (musculi lumbricales). Které tvrzení nejlépe popisuje jejich funkci?",
-      "options": {
-        "a": "Flexe v metatarzofalangeálních kloubech a současně extenze v interfalangeálních kloubech 2.–5. prstu",
-        "b": "Flexe v proximálních a distálních interfalangeálních kloubech 2.–5. prstu",
-        "c": "Addukce 2.–5. prstu směrem k ose nohy prostřednictvím úponu na proximální články",
-        "d": "Izolovaná flexe distálních článků 2.–5. prstu prostřednictvím šlach musculus flexor digitorum longus",
-        "e": "Abdukce prstů při zachování extenze v interfalangeálních kloubech"
-      },
-      "correct": "a",
-      "explanation": "Musculi lumbricales se upínají do dorzální aponeurózy 2.–5. prstu, proto působí na extenzorový aparát a umožňují extenzi interfalangeálních kloubů. Současně flexují prsty v metatarzofalangeálních kloubech."
-    },
-    "en": {
-      "stem": "During an anatomical dissection of the plantar side of the foot, a student identifies small muscles located in the deeper part of the first layer of the plantar muscles. These muscles originate from the tendons of the flexor digitorum longus muscle, and their tendons continue further and insert on distal structures. The instructor asks about the main biomechanical role of these muscles (lumbrical muscles). Which statement best describes their function?",
-      "options": {
-        "a": "Flexion at the metatarsophalangeal joints and simultaneous extension at the interphalangeal joints of the 2nd–5th toes",
-        "b": "Flexion at the proximal and distal interphalangeal joints of the 2nd–5th toes",
-        "c": "Adduction of the 2nd–5th toes toward the axis of the foot through insertion on the proximal phalanges",
-        "d": "Isolated flexion of the distal phalanges of the 2nd–5th toes through the tendons of the flexor digitorum longus muscle",
-        "e": "Abduction of the toes while maintaining extension at the interphalangeal joints"
-      },
-      "correct": "a",
-      "explanation": "The lumbrical muscles insert into the dorsal aponeurosis of the 2nd–5th toes, therefore they act on the extensor apparatus and enable extension of the interphalangeal joints. At the same time, they flex the toes at the metatarsophalangeal joints."
-    }
-  },
-  {
     "id": 491,
     "cz": {
       "stem": "Pacient podstupuje neurologické vyšetření po úrazu v oblasti bérce. Lékař hodnotí citlivost hlavní části dorsum pedis, která je zásobena jedním z hlavních periferních nervů dolní končetiny. Které tvrzení správně popisuje hlavní senzorickou inervaci většiny dorsum pedis a jeho originální původ z nervové pleteně?",
@@ -6170,7 +5252,7 @@ const QUESTION_DATA = {
   {
     "id": 493,
     "cz": {
-      "stem": "Při chirurgickém přístupu v planta pedis lékař postupuje přes jednotlivé anatomické vrstvy. Student anatomie hodnotí uložení svalů planty podle jejich vztahu ke kůži a hlubším strukturám. Jednotlivé svalové skupiny jsou porovnávány podle toho, v jaké vrstvě planty se nacházejí. Které pořadí struktur odpovídá správnému uložení od povrchu do hloubky?",
+      "stem": "Které pořadí svalů plosky nohy odpovídá jejich uložení od povrchu do hloubky?",
       "options": {
         "a": "Aponeurosis plantaris → musculus flexor digitorum brevis → musculus quadratus plantae → musculus adductor hallucis → musculi interossei plantares",
         "b": "Musculus flexor digitorum brevis → aponeurosis plantaris → musculus quadratus plantae → musculus adductor hallucis → musculi interossei plantares",
@@ -6182,9 +5264,9 @@ const QUESTION_DATA = {
       "explanation": "Při postupu od povrchu do hloubky na planta pedis se nachází nejprve aponeurosis plantaris, pod ní následuje první vrstva svalů planty s musculus flexor digitorum brevis. Ve druhé vrstvě jsou uloženy šlachy musculus flexor digitorum longus a musculus quadratus plantae, dále následuje třetí vrstva s musculus adductor hallucis a nejhlouběji čtvrtá vrstva tvořená musculi interossei plantares et dorsales."
     },
     "en": {
-      "stem": "During a surgical approach to the planta pedis, the surgeon proceeds through individual anatomical layers. An anatomy student evaluates the arrangement of the plantar muscles according to their relationship to the skin and deeper structures. Individual muscle groups are compared according to the layer of the plantar region in which they are located. Which order of structures corresponds to the correct arrangement from superficial to deep?",
+      "stem": "Which order of the foot muscles corresponds to their arrangement from superficial to deep?",
       "options": {
-        "a": "Plantary aponeurosis → flexor digitorum brevis muscle → quadratus plantae muscle → adductor hallucis muscle → plantar interosseous muscles",
+        "a": "Plantar aponeurosis → flexor digitorum brevis muscle → quadratus plantae muscle → adductor hallucis muscle → plantar interosseous muscles",
         "b": "Flexor digitorum brevis muscle → plantar aponeurosis → quadratus plantae muscle → adductor hallucis muscle → plantar interosseous muscles",
         "c": "Plantar aponeurosis → quadratus plantae muscle → flexor digitorum brevis muscle → adductor hallucis muscle → plantar interosseous muscles",
         "d": "Flexor digitorum longus muscle → flexor digitorum brevis muscle → quadratus plantae muscle → plantar aponeurosis → adductor hallucis muscle → plantar interosseous muscles",
@@ -6192,33 +5274,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "When proceeding from superficial to deep in the planta pedis, the first structure encountered is the plantar aponeurosis, followed by the first layer of plantar muscles containing the flexor digitorum brevis muscle. The second layer contains the tendons of the flexor digitorum longus muscle and the quadratus plantae muscle, followed by the third layer with the adductor hallucis muscle, and the deepest fourth layer formed by the plantar and dorsal interosseous muscles."
-    }
-  },
-  {
-    "id": 494,
-    "cz": {
-      "stem": "Pacient po tupém poranění v oblasti přední strany hlezna podstupuje vyšetření perfuze dolní končetiny. Lékař palpuje pulzace v oblasti hřbetu nohy a sleduje průběh hlavní tepny, která zásobuje tuto oblast. Student anatomie má určit správný vztah mezi tepnami dolní končetiny a jejich pokračováním.",
-      "options": {
-        "a": "Arteria tibialis anterior pokračuje přes hlezenní kloub jako arteria dorsalis pedis a podílí se na zásobení dorsum pedis",
-        "b": "Arteria tibialis posterior pokračuje přes hlezenní kloub jako arteria dorsalis pedis a zásobuje především dorsum pedis",
-        "c": "Arteria fibularis pokračuje jako arteria dorsalis pedis a zásobuje většinu hřbetu nohy",
-        "d": "Arteria poplitea přechází přímo v arteria plantaris medialis a zásobuje mediální část plosky nohy",
-        "e": "Arteria femoralis pokračuje bez rozdělení do oblasti nohy jako hlavní tepna dorsum pedis"
-      },
-      "correct": "a",
-      "explanation": "Arteria tibialis anterior prochází z předního kompartmentu bérce přes oblast hlezenního kloubu a pokračuje na hřbetu nohy jako arteria dorsalis pedis, která zajišťuje hlavní arteriální zásobení dorsum pedis. Arteria tibialis posterior pokračuje za mediálním kotníkem a dělí se na arteria plantaris medialis et lateralis, které zásobují především planta pedis."
-    },
-    "en": {
-      "stem": "A patient after a blunt injury to the anterior region of the ankle undergoes an examination of lower limb perfusion. The physician palpates the pulses on the dorsum of the foot and follows the course of the main artery supplying this area. An anatomy student must determine the correct relationship between the arteries of the lower limb and their continuation.",
-      "options": {
-        "a": "The anterior tibial artery continues across the ankle joint as the dorsalis pedis artery and contributes to the blood supply of the dorsum pedis",
-        "b": "The posterior tibial artery continues across the ankle joint as the dorsalis pedis artery and mainly supplies the dorsum pedis",
-        "c": "The fibular artery continues as the dorsalis pedis artery and supplies most of the dorsum of the foot",
-        "d": "The popliteal artery continues directly into the medial plantar artery and supplies the medial part of the sole of the foot",
-        "e": "The femoral artery continues without branching into the foot region as the main artery of the dorsum pedis"
-      },
-      "correct": "a",
-      "explanation": "The anterior tibial artery passes from the anterior compartment of the leg across the region of the ankle joint and continues on the dorsum of the foot as the dorsalis pedis artery, which provides the main arterial supply to the dorsum pedis. The posterior tibial artery continues behind the medial malleolus and divides into the medial and lateral plantar arteries, which mainly supply the planta pedis."
     }
   },
 {
@@ -6475,7 +5530,7 @@ const QUESTION_DATA = {
 {
   id: 1090,
   cz: {
-    stem: "Při vyšetření kolene je pacient v poloze vleže na zádech s kolenem flektovaným přibližně do 90°. Vyšetřující stabilizuje dolní končetinu a uchopí proximální část bérce, kterou následně táhne směrem dopředu (viz schéma). Nadměrný posun tibie vůči femuru oproti zdravé končetině je považován za pozitivní nález.",
+    stem: "Při vyšetření kolene je pacient v poloze vleže na zádech s kolenem flektovaným přibližně do 90°. Vyšetřující stabilizuje dolní končetinu a uchopí proximální část bérce, kterou následně táhne směrem dopředu (viz schéma). Nadměrný posun tibie vůči femuru oproti zdravé končetině je považován za pozitivní nález. Která z následujících struktur je tímto testem primárně hodnocena?",
     options: {
         a: "Ligamentum cruciatum anterius",
         b: "Ligamentum cruciatum posterius",
@@ -28196,6 +27251,60 @@ const LIVE_QUESTION_BANKS = {
     explanation: " The adductor magnus muscle is innervated by the obturator nerve, which arises from the lumbar plexus, and the sciatic nerve, which arises from the sacral plexus."
   }
 },
+{
+  id: 10281,
+  cz: {
+    stem: "Trigonum femorale je shora ohraničeno lig. inguinale, laterálně m. sartorius a mediálně m. adductor longus. V jakém pořadí jsou v trigonum femorale uloženy struktury od laterální k mediální straně?",
+    options: {
+        a: "nerv, žíla, arterie, lymfatické uzliny",
+        b: "nerv, arterie, žíla, lymfatické uzliny",
+        c: "žíla, arterie, nerv, lymfatické uzliny",
+        d: "arterie, nerv, žíla, lymfatické uzliny",
+        e: "lymfatické uzliny, žíla, arterie, nerv"
+    },
+    correct: "b",
+    explanation: "V trigonum femorale jsou struktury uloženy v pořadí od laterální k mediální straně: n. femoralis, a. femoralis, v. femoralis a nejmediálněji nodi lymphatici inguinales profundi."
+  },
+  en: {
+    stem: " The femoral triangle is bounded superiorly by the inguinal ligament, laterally by the sartorius muscle, and medially by the adductor longus muscle. In what order are the structures in the femoral triangle arranged from lateral to medial?",
+    options: {
+        a: "nerve, vein, artery, lymph nodes",
+        b: "nerve, artery, vein, lymph nodes",
+        c: "vein, artery, nerve, lymph nodes",
+        d: "artery, nerve, vein, lymph nodes",
+        e: "lymph nodes, vein, artery, nerve"
+    },
+    correct: "b",
+    explanation: " In the femoral triangle, the structures are arranged from lateral to medial as follows: the femoral nerve, femoral artery, femoral vein, and, most medially, the deep inguinal lymph nodes."
+  }
+},
+{
+    id: 10282,
+    cz: {
+      stem: "31letý lyžař utrpěl poranění kolene při prudké změně směru pohybu s fixovaným chodidlem. Při fyzikálním vyšetření lze tibii posunout výrazně více dopředu vůči femuru než na zdravé končetině. Která struktura byla s největší pravděpodobností poraněna?",
+      options: {
+        a: "Ligamentum cruciatum anterius",
+        b: "Ligamentum cruciatum posterius",
+        c: "Ligamentum collaterale tibiale",
+        d: "Ligamentum collaterale fibulare",
+        e: "Ligamentum patellae"
+      },
+      correct: "a",
+      explanation: "V zadání je popsán pozitivní přední zásuvkový test. Ligamentum cruciatum anterius brání přednímu posunu tibie vůči femuru a zároveň omezuje nadměrnou vnitřní rotaci tibie. K jeho poranění často dochází při náhlé změně směru pohybu nebo rotačním mechanismu s fixovaným chodidlem, což vede ke zvýšené předozadní nestabilitě kolenního kloubu."
+    },
+    en: {
+      stem: "A 31-year-old skier sustained a knee injury during a sudden change in direction with the foot firmly planted. On physical examination, the tibia can be translated significantly farther anteriorly relative to the femur compared with the uninjured limb. Which structure was most likely injured?",
+      options: {
+        a: "Anterior cruciate ligament",
+        b: "Posterior cruciate ligament",
+        c: "Tibial collateral ligament",
+        d: "Fibular collateral ligament",
+        e: "Patellar ligament"
+      },
+      correct: "a",
+      explanation: "The findings are consistent with a positive anterior drawer test. The anterior cruciate ligament prevents anterior translation of the tibia relative to the femur and also limits excessive internal rotation of the tibia. It is commonly injured during a sudden change in direction or a rotational mechanism with the foot planted, resulting in increased anteroposterior instability of the knee joint."
+    }
+  },
 
     ]
     // =ANATOMIE_1_VERZE_3_END=
