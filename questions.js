@@ -7744,6 +7744,35 @@ const QUESTION_DATA = {
   image: { key: "q1112_custom", source: "Ruth Semple, George S. Murley, James Woodburn, Deborah E. Turner. Cross section of cadaver limb.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_cadaver_limb.png. CC BY 2.0. Accessed 12 September 2026.", type: "image" },
   explanationImage: { key: "e1112_custom", source: "Hermann Braus. Braus 1921 293.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Braus_1921_293.png. Public domain. Accessed 12 September 2026.", type: "image" }
 },
+{
+  id: 1113,
+  cz: {
+    stem: "Jaký sval je vyznačen na řezu stehnem a jaká je jeho inervace?",
+    options: {
+        a: "Musculus sartorius – nervus femoralis",
+        b: "Musculus gracilis – nervus obturatorius",
+        c: "Musculus adductor longus – nervus obturatorius",
+        d: "Musculus sartorius – nervus obturatorius",
+        e: "Musculus gracilis – nervus femoralis"
+    },
+    correct: "b",
+    explanation: "Vyznačeným svalem je musculus gracilis, který patří do mediální skupiny svalů stehna a je inervován nervus obturatorius. Na příčném řezu stehnem se nachází povrchově na mediální straně stehna, mediálně od musculus adductor longus. Musculus sartorius je uložen spíše anteromediálně a probíhá šikmo přes stehno."
+  },
+  en: {
+    stem: "Which muscle is indicated on the cross-section of the thigh, and what is its innervation?",
+    options: {
+        a: "Sartorius muscle – femoral nerve",
+        b: "Gracilis muscle – obturator nerve",
+        c: "Adductor longus muscle – obturator nerve",
+        d: "Sartorius muscle – obturator nerve",
+        e: "Gracilis muscle – femoral nerve"
+    },
+    correct: "b",
+    explanation: "The indicated muscle is the gracilis muscle, which belongs to the medial compartment of the thigh and is innervated by the obturator nerve. On a cross-section of the thigh, it is located superficially on the medial side of the thigh, medial to the adductor longus muscle. The sartorius muscle is located more anteromedially and runs obliquely across the thigh."
+  },
+  image: { key: "q1113_custom", source: "Anatomist90. Slide2EA.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" },
+  explanationImage: { key: "e1113_custom", source: "Anatomist90. Slide2EA.JPG. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Slide2EA.JPG. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
+},
 ]
       },
 
