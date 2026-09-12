@@ -7715,6 +7715,34 @@ const QUESTION_DATA = {
   },
   image: { key: "q1090_custom", source: "Own work. Created with Gemini AI.", type: "image" }
 },
+{
+  id: 1112,
+  cz: {
+    stem: "Jakým nervem je inervovaný vyznačený sval?",
+    options: {
+        a: "Nervus fibularis profundus",
+        b: "Nervus fibularis superficialis",
+        c: "Nervus tibialis",
+        d: "Nervus suralis",
+        e: "Nervus saphenus"
+    },
+    correct: "c",
+    explanation: "Vyznačeným svalem je musculus tibialis posterior, který patří do hluboké zadní svalové skupiny lýtka a je inervován nervus tibialis. Začíná na zadních plochách tibie a fibuly a na membrana interossea. Upíná se na tuberositas ossis navicularis, všechny ossa cuneiformia, os cuboideum a báze II.–IV. metatarzů. (*https://www.kenhub.com/en/library/anatomy/tibialis-posterior-muscle)\nNa příčném řezu lýtkem se musculus tibialis posterior nachází v hlubokém zadním kompartmentu mezi tibií a fibulou, přičemž tibie leží mediálně a fibula laterálně. Nervus tibialis a doprovodné nervově-cévní struktury probíhají posteriorně od musculus tibialis posterior, v hlubokém zadním kompartmentu."
+  },
+  en: {
+    stem: "Which nerve innervates the indicated muscle?",
+    options: {
+        a: "Deep fibular nerve",
+        b: "Superficial fibular nerve",
+        c: "Tibial nerve",
+        d: "Sural nerve",
+        e: "Saphenous nerve"
+    },
+    correct: "c",
+    explanation: "The indicated muscle is the tibialis posterior muscle, which belongs to the deep posterior compartment of the leg and is innervated by the tibial nerve. It originates from the posterior surfaces of the tibia and fibula and the interosseous membrane. It inserts onto the navicular tuberosity, all cuneiform bones, cuboid bone, and the bases of the second to fourth metatarsal bones. (*https://www.kenhub.com/en/library/anatomy/tibialis-posterior-muscle)\nOn a cross-section of the leg, the tibialis posterior muscle is located in the deep posterior compartment between the tibia and fibula, with the tibia positioned medially and the fibula laterally. The tibial nerve and accompanying neurovascular structures pass posteriorly to the tibialis posterior muscle within the deep posterior compartment."
+  },
+  image: { key: "q1112_custom", source: "Ruth Semple, George S. Murley, James Woodburn, Deborah E. Turner. Cross section of cadaver limb.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_cadaver_limb.png. CC BY 2.0. Accessed 12 September 2026.", type: "image" }
+},
 ]
       },
 
