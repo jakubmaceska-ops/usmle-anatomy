@@ -4123,7 +4123,7 @@ const QUESTION_DATA = {
         e: "M. tensor fasciae latae — nervus gluteus inferior"
     },
     correct: "a",
-    explanation: "Ze spina iliaca anterior superior odstupuje m. sartorius, který je motoricky inervován prostřednictvivím nervus femoralis (z kořenů L2–L4)."
+    explanation: "Ze spina iliaca anterior superior odstupuje m. sartorius, který je motoricky inervován prostřednictvím nervus femoralis (z kořenů L2–L4)."
   },
   en: {
     stem: "A 19-year-old soccer player felt sharp pain in the front of the pelvis during a forceful kick of the ball, and subsequent examination confirmed an avulsion fracture at the spina iliaca anterior superior. Which of the following options correctly states the muscle that originates from this bony process, together with the nerve that innervates it?",
@@ -4393,19 +4393,19 @@ const QUESTION_DATA = {
         e: "M. obturatorius externus, m. adductor brevis, m. adductor magnus, m. pectineus"
     },
     correct: "a",
-    explanation: "M. adductor longus, m. adductor brevis, m. gracilis a m. obturatorius externus jsou inervovány čistě z nervus obturatorius, zatímco svaly v ostatních možnostech mají duální inervaci nebo jiný hlavní nerv, jako je m. adductor magnus (inervovaný i z n. ischiadicus) a m. pectineus (inervovaný primárně z n. femoralis)."
+    explanation: "M. adductor longus, m. adductor brevis, m. gracilis a m. obturatorius externus jsou inervovány čistě z nervus obturatorius, zatímco svaly v ostatních možnostech mají duální inervaci - m. adductor magnus (inervovaný z n. obturatorius a n. ischiadicus) a m. pectineus (inervovaný z n. femoralis a n. obturatorius)."
   },
   en: {
     stem: "A 34-year-old patient with severe hip dysplasia underwent periacetabular osteotomy, during which an injury to the obturator nerve occurred. Which of the following options contains only muscles that are innervated exclusively by this nerve (and do not have dual innervation from another nerve source)?",
     options: {
-        a: "M. adductor longus, m. adductor brevis, m. gracilis, m. obturatorius externus",
-        b: "M. adductor magnus, m. adductor brevis, m. pectineus, m. adductor longus",
-        c: "M. adductor longus, m. gracilis, m. adductor magnus, m. obturatorius externus",
-        d: "M. adductor brevis, m. adductor longus, m. pectineus, m. gracilis",
-        e: "M. obturatorius externus, m. adductor brevis, m. adductor magnus, m. pectineus"
+        a: "Adductor longus muscle, adductor brevis muscle, gracilis muscle, external obturator muscle",
+        b: "Adductor magnus muscle, adductor brevis muscle, pectineus muscle, adductor longus muscle",
+        c: "Adductor longus muscle, gracilis muscle, adductor magnus muscle, external obturator muscle",
+        d: "Adductor brevis muscle, adductor longus muscle, pectineus muscle, gracilis muscle",
+        e: "External obturator muscle, adductor brevis muscle, adductor magnus muscle, pectineus muscle"
     },
     correct: "a",
-    explanation: "M. adductor longus, m. adductor brevis, m. gracilis, and m. obturatorius externus are innervated exclusively by the obturator nerve, whereas the muscles in the other options have dual innervation or a different primary nerve supply, such as m. adductor magnus (also innervated by the sciatic nerve) and m. pectineus (primarily innervated by the femoral nerve)."
+    explanation: "The adductor longus muscle, adductor brevis muscle, gracilis muscle, and external obturator muscle are innervated exclusively by the obturator nerve, whereas the muscles in the other options have dual innervation: the adductor magnus muscle (innervated by the obturator nerve and sciatic nerve) and the pectineus muscle (innervated by the femoral nerve and obturator nerve)."
   }
 },
 {
@@ -4514,33 +4514,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "Pes anserinus superficialis refers to the attachment of muscles on the medial condyle of the tibia (specifically just below it on the medial surface of the tibia) and is formed by the tendons of the muscles m. sartorius, m. gracilis, and m. semitendinosus."
-  }
-},
-{
-  id: 295,
-  cz: {
-    stem: "Při rekonstrukci mediálního stabilizačního systému kolenního kloubu operatér identifikuje šlachy, které tvoří strukturu pes anserinus. Která z následujících kombinací svalů se společně upíná do této struktury?",
-    options: {
-        a: "M. sartorius, m. gracilis, m. semitendinosus",
-        b: "M. sartorius, m. gracilis, m. semimembranosus",
-        c: "M. rectus femoris, m. gracilis, m. semitendinosus",
-        d: "M. sartorius, m. adductor longus, m. semitendinosus",
-        e: "M. biceps femoris, m. gracilis, m. semimembranosus"
-    },
-    correct: "a",
-    explanation: "Pes anserinus je společný úpon svalů m. sartorius, m. gracilis a m. semitendinosus na vnitřní stranu kolene. Tyto svaly jsou postupně inervovány z n. femoralis, n. obturatorius a n. ischiadicus. Celá struktura slouží jako dynamický stabilizátor kolene."
-  },
-  en: {
-    stem: "During reconstruction of the medial stabilizing system of the knee joint, the surgeon identifies the tendons that form the structure known as pes anserinus. Which of the following combinations of muscles insert together into this structure?",
-    options: {
-        a: "Sartorius muscle, gracilis muscle, semitendinosus muscle",
-        b: "Sartorius muscle, gracilis muscle, semimembranosus muscle",
-        c: "Rectus femoris muscle, gracilis muscle, semitendinosus muscle",
-        d: "Sartorius muscle, adductor longus muscle, semitendinosus muscle",
-        e: "Biceps femoris muscle, gracilis muscle, semimembranosus muscle"
-    },
-    correct: "a",
-    explanation: "Pes anserinus is the common insertion of the muscles sartorius, gracilis, and semitendinosus on the medial side of the knee. These muscles are innervated by the femoral nerve, obturator nerve, and sciatic nerve, respectively. The entire structure serves as a dynamic stabilizer of the knee joint."
   }
 },
 {
@@ -4693,7 +4666,7 @@ const QUESTION_DATA = {
     explanation: "Cockettova žilní hvězdice představuje řadu venózních přítoků ústících do terminálního úseku v saphena magna, která v oblasti hiatus saphenus proráží fascia lata a ústí do v. femoralis v trigonum femorale."
   },
   en: {
-    stem: "A 50-year-old patient with varicose disease of the lower limb undergoes a surgical procedure. In the region of the saphenous opening (hiatus saphenus), which is located in the fascia lata covering the femoral triangle (trigonum femorale), the surgeon identifies the confluence of superficial veins known as Cockett’s venous star. Into which deep vessel does this system drain?",
+    stem: "A 50-year-old patient with varicose disease of the lower limb undergoes a surgical procedure. In the region of the saphenofemoral junction, located in the fascia lata covering the femoral triangle, the surgeon identifies the confluence of superficial veins. Into which deep vessel does this system drain?",
     options: {
         a: "Femoral vein",
         b: "Deep femoral vein",
@@ -4702,7 +4675,7 @@ const QUESTION_DATA = {
         e: "Accessory saphenous vein"
     },
     correct: "a",
-    explanation: "Cockett’s venous star represents a group of venous tributaries draining into the terminal portion of the great saphenous vein, which perforates the fascia lata at the hiatus saphenus and drains into the femoral vein in the femoral triangle (trigonum femorale)."
+    explanation: "At the saphenofemoral junction, the terminal part of the great saphenous vein drains into the femoral vein. The great saphenous vein passes through the saphenous opening in the fascia lata and drains into the femoral vein in the femoral triangle."
   }
 },
 {
@@ -4720,7 +4693,7 @@ const QUESTION_DATA = {
     explanation: "Vena saphena accessoria anterior je velký a konstantní povrchový přítok z předně-vnější strany stehna, který do Cockettovy hvězdice podkožím přitéká zdola a ústí přímo do terminálního úseku vena saphena magna před jejím zanořením do hlubokého systému."
   },
   en: {
-    stem: "A 32-year-old female patient undergoes a crossectomy (ligation of venous tributaries) in the groin region due to severe valvular insufficiency. At the level of the hiatus saphenus, the surgeon isolates Cockett’s venous star, where smaller superficial veins drain into the terminal part of the great saphenous vein (vena saphena magna). Which of the following vessels represents a constant and clinically significant superficial tributary that brings blood from the anterior and lateral aspects of the thigh into this venous star?",
+    stem: "A 32-year-old female patient undergoes a crossectomy (ligation of venous tributaries) in the groin region due to severe valvular insufficiency. At the level of the saphenofemoral junction, the surgeon identifies several superficial venous tributaries draining into the terminal part of the great saphenous vein. Which of the following vessels represents a constant and clinically significant superficial tributary that brings blood from the anterior and lateral aspects of the thigh into the saphenofemoral junction?",
     options: {
         a: "Anterior accessory saphenous vein",
         b: "Small saphenous vein",
@@ -4729,7 +4702,7 @@ const QUESTION_DATA = {
         e: "Deep inferior epigastric vein"
     },
     correct: "a",
-    explanation: "The anterior accessory saphenous vein is a large and constant superficial tributary from the anterolateral aspect of the thigh, which reaches Cockett’s venous star through the subcutaneous tissue from below and drains directly into the terminal part of the great saphenous vein before it enters the deep venous system."
+    explanation: "The anterior accessory saphenous vein is a relatively large and clinically important superficial tributary draining the anterolateral aspect of the thigh. It courses through the subcutaneous tissue and drains into the terminal part of the great saphenous vein near the saphenofemoral junction, before the great saphenous vein joins the femoral vein."
   }
 },
 {
@@ -4825,7 +4798,7 @@ const QUESTION_DATA = {
         e: "Vnitřní rotace bérce"
     },
     correct: "a",
-    explanation: "Na obrázku jsou vyznačeny m. biceps femoris, m. semitendinosus, m. semimembranosus. Všechny překračují zadní stranu kolenního kloubu, a proto mají společnou funkci flexe kolene."
+    explanation: "Na obrázku jsou vyznačeny m. biceps femoris, m. semitendinosus, m. semimembranosus. Všechny překračují zadní stranu kolenního kloubu a mají společnou funkci flexe kolene."
   },
   en: {
     stem: "The image shows three muscles indicated by arrows that share a common function. What movement do these muscles perform?",
@@ -4837,7 +4810,7 @@ const QUESTION_DATA = {
         e: "Internal rotation of the leg"
     },
     correct: "a",
-    explanation: "The image shows the m. biceps femoris, m. semitendinosus, and m. semimembranosus. All of these muscles cross the posterior aspect of the knee joint and therefore share the common function of knee flexion."
+    explanation: "The image shows the m. biceps femoris, m. semitendinosus, and m. semimembranosus. All of these muscles cross the posterior aspect of the knee joint and share the common function of knee flexion."
   },
   image: { key: "q307_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
@@ -5142,60 +5115,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 322,
-    "cz": {
-      "stem": "Jaké je správné uspořádání struktur ve fossa poplitea z povrchu do hloubky?",
-      "options": {
-        "a": "n. tibialis – v. poplitea – a. poplitea",
-        "b": "a. poplitea – v. poplitea – n. tibialis",
-        "c": "v. poplitea – n. tibialis – a. poplitea",
-        "d": "n. tibialis – a. poplitea – v. poplitea",
-        "e": "n. tibialis – v. poplitea – n. fibularis communis"
-      },
-      "correct": "a",
-      "explanation": "Ve fossa poplitea jsou hlavní struktury uspořádány z povrchu do hloubky jako nervus tibialis → vena poplitea → arteria poplitea. Arterie leží nejhlouběji přímo na femuru a pouzdru kolenního kloubu, zatímco nerv je nejpovrchnější a nejvíce ohrožený při traumatech v této oblasti."
-    },
-    "en": {
-      "stem": "What is the correct arrangement of the structures in the popliteal fossa from superficial to deep?",
-      "options": {
-        "a": "Tibial nerve – popliteal vein – popliteal artery",
-        "b": "Popliteal artery – popliteal vein – tibial nerve",
-        "c": "Popliteal vein – tibial nerve – popliteal artery",
-        "d": "Tibial nerve – popliteal artery – popliteal vein",
-        "e": "Tibial nerve – popliteal vein – common fibular nerve"
-      },
-      "correct": "a",
-      "explanation": "In the popliteal fossa, the main structures are arranged from superficial to deep as follows: tibial nerve → popliteal vein → popliteal artery. The artery lies the deepest, directly on the femur and the capsule of the knee joint, while the nerve is the most superficial and therefore most vulnerable to trauma in this region."
-    }
-  },
-  {
-    "id": 323,
-    "cz": {
-      "stem": "27letý pacient podstupuje operaci v oblasti třísla. Po výkonu udává poruchu čití na anterolaterální straně stehna, bez oslabení svalové síly. Vyšetření ukáže postižení nervu, který probíhá v blízkosti spina iliaca anterior superior a zajišťuje pouze senzorickou inervaci kůže této oblasti. Který nerv je nejpravděpodobněji poškozen?",
-      "options": {
-        "a": "n. cutaneus femoris lateralis (plexus lumbalis)",
-        "b": "n. cutaneus femoris posterior (plexus sacralis)",
-        "c": "n. saphenus (plexus lumbalis)",
-        "d": "n. saphenus (plexus sacralis)",
-        "e": "n. obturatorius (plexus lumbalis)"
-      },
-      "correct": "a",
-      "explanation": "N. cutaneus femoris lateralis je větev plexus lumbalis (L2–L3) a zajišťuje senzorickou inervaci laterální strany stehna. Probíhá v blízkosti spina iliaca anterior superior, kde může být utlačen například při zvýšeném tlaku v oblasti třísla. Ostatní kožní nervy stehna pocházejí převážně z jiných oblastí a mají odlišné senzitivní teritorium."
-    },
-    "en": {
-      "stem": "A 27-year-old patient undergoes surgery in the groin region. After the procedure, he reports sensory disturbance on the anterolateral side of the thigh, without any loss of muscle strength. Examination reveals damage to a nerve that runs near the anterior superior iliac spine and provides only sensory innervation to the skin of this region. Which nerve is most likely damaged?",
-      "options": {
-        "a": "Lateral femoral cutaneous nerve (lumbar plexus)",
-        "b": "Posterior femoral cutaneous nerve (sacral plexus)",
-        "c": "Saphenous nerve (lumbar plexus)",
-        "d": "Saphenous nerve (sacral plexus)",
-        "e": "Obturator nerve (lumbar plexus)"
-      },
-      "correct": "a",
-      "explanation": "The lateral femoral cutaneous nerve is a branch of the lumbar plexus (L2–L3) and provides sensory innervation to the lateral aspect of the thigh. It runs near the anterior superior iliac spine, where it can be compressed, for example, by increased pressure in the groin region. The other cutaneous nerves of the thigh originate mainly from different regions and have distinct sensory territories."
-    }
-  },
-  {
     "id": 324,
     "cz": {
       "stem": "34letý pacient po operaci v oblasti gluteální krajiny udává ztrátu čití na zadní straně stehna a v oblasti dolní části hýždě. Motorická funkce dolní končetiny je plně zachována. Jaká z možností správně odpovídá nervu inervující tuto krajinu a pleteně, ze které odstupuje?",
@@ -5220,33 +5139,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The posterior femoral cutaneous nerve is a branch of the sacral plexus (S1–S3) and provides sensory innervation to the skin of the posterior thigh and the lower gluteal region. It runs together with the sciatic nerve beneath the gluteus maximus muscle, but unlike the sciatic nerve, it has no motor function."
-    }
-  },
-  {
-    "id": 325,
-    "cz": {
-      "stem": "72letý pacient přichází po pádu z výšky s bolestí levého stehna a nemožností zatížit dolní končetinu. Rentgenový snímek ukazuje patologickou frakturu v oblasti diafýzy femuru (viz obrázek). Během vyšetření lékař upozorňuje, že u zlomenin femuru může dojít k poškození cév zásobujících kost a následné poruše hojení. Která tepna poskytuje hlavní cévní zásobení diafýzy femuru?",
-      "options": {
-        "a": "a. nutricia femoris z větví a. profunda femoris",
-        "b": "a. circumflexa femoris medialis",
-        "c": "a. obturatoria",
-        "d": "a. genicularis superior lateralis",
-        "e": "a. circumflexa femoris lateralis"
-      },
-      "correct": "a",
-      "explanation": "Diafýza femuru je zásobována hlavně a. nutricia femoris, která obvykle odstupuje z a. profunda femoris. Tato tepna vstupuje do kosti přes foramen nutricium a zásobuje především dřeň a vnitřní části kortikální kosti. Periostální zásobení zajišťují zejména větve okolních svalových a femorálních tepen."
-    },
-    "en": {
-      "stem": "A 72-year-old patient presents after a fall from a height with pain in the left thigh and inability to bear weight on the lower limb. An X-ray shows a pathological fracture in the region of the femoral shaft (diaphysis of the femur) (see image). During the examination, the physician explains that femoral fractures can damage the vessels supplying the bone and lead to impaired healing. Which artery provides the main blood supply to the diaphysis of the femur?",
-      "options": {
-        "a": "Nutrient artery of the femur (a. nutricia femoris) arising from branches of the deep femoral artery (a. profunda femoris)",
-        "b": "Medial circumflex femoral artery (a. circumflexa femoris medialis)",
-        "c": "Obturator artery (a. obturatoria)",
-        "d": "Lateral superior genicular artery (a. genicularis superior lateralis)",
-        "e": "Lateral circumflex femoral artery (a. circumflexa femoris lateralis)"
-      },
-      "correct": "a",
-      "explanation": "The diaphysis of the femur is mainly supplied by the nutrient artery of the femur (a. nutricia femoris), which usually originates from the deep femoral artery (a. profunda femoris). This artery enters the bone through the nutrient foramen (foramen nutricium) and supplies mainly the bone marrow and the inner parts of the cortical bone. Periosteal blood supply is provided mainly by branches of the surrounding muscular and femoral arteries."
     }
   },
   {
@@ -5333,7 +5225,7 @@ const QUESTION_DATA = {
   {
     "id": 329,
     "cz": {
-      "stem": "30letý pacient je vyšetřován po úrazu kyčelního kloubu. Při hodnocení anatomie kloubu lékař popisuje spojení mezi hlavicí femuru a acetabulem, které umožňuje pohyb ve třech osách. Jaký typ kloubu představuje articulatio coxae podle tradičního anatomického názvosloví?",
+      "stem": "Jaký typ kloubu je articulatio coxae?",
       "options": {
         "a": "Enarthrosis",
         "b": "Arthrodia",
@@ -5345,16 +5237,16 @@ const QUESTION_DATA = {
       "explanation": "Enarthrosis je speciální typ kulového kloubu, kde je hlavice výrazně zapuštěná do hluboké jamky, což zvyšuje stabilitu, ale omezuje rozsah pohybu. Typickým příkladem je právě articulatio coxae, kde hluboké acetabulum a labrum acetabulare stabilizují hlavici femuru."
     },
     "en": {
-      "stem": "A 30-year-old patient is examined after a hip joint injury. During evaluation of the joint anatomy, the physician describes the connection between the head of the femur and the acetabulum, which allows movement in three axes. What type of joint does the hip joint (articulatio coxae) represent according to traditional anatomical terminology?",
+      "stem": "What type of joint is the hip joint",
       "options": {
-        "a": "Enarthrosis",
-        "b": "Arthrodia",
-        "c": "Articulatio trochoidea",
-        "d": "Articulatio sellaris",
-        "e": "Articulatio ellipsoidea"
+        "a": "Enarthrosis (ball-and-socket joint)",
+        "b": "Arthrodia (plane joint)",
+        "c": "Pivot joint",
+        "d": "Saddle joint",
+        "e": "Ellipsoid joint"
       },
       "correct": "a",
-      "explanation": "Enarthrosis is a special type of ball-and-socket joint in which the head is deeply enclosed within a socket, increasing stability but limiting the range of motion. A typical example is the hip joint (articulatio coxae), where the deep acetabulum and the acetabular labrum stabilize the femoral head."
+      "explanation": "Enarthrosis is a special type of ball-and-socket joint in which the head is deeply enclosed within a socket, increasing stability but limiting the range of motion. A typical example is the hip joint, where the deep acetabulum and the acetabular labrum stabilize the femoral head."
     }
   },
   {
@@ -5841,33 +5733,6 @@ const QUESTION_DATA = {
       },
       correct: "a",
       explanation: "The muscle of the anterior compartment of the leg that performs dorsiflexion and inversion of the foot is the tibialis anterior muscle. It inserts on the medial side of the foot at the level of the medial cuneiform bone and the base of the first metatarsal. This tendon attachment explains its ability to move the foot medially."
-    }
-  },
-  {
-    id: 358,
-    cz: {
-      stem: "Při vyšetření dolní končetiny je hodnocen sval přední skupiny bérce, který začíná na laterální ploše tibie a membrana interossea cruris. Který z následujících úponů odpovídá tomuto svalu?",
-      options: {
-        a: "Os cuneiforme mediale a basis ossis metatarsalis I",
-        b: "Tuberositas ossis navicularis a os cuneiforme intermedium",
-        c: "Basis ossis metatarsalis V a os cuboideum",
-        d: "Tuberositas calcanei prostřednictvím tendo calcaneus",
-        e: "Phalanx distalis hallucis"
-      },
-      correct: "a",
-      explanation: "Sval přední skupiny bérce začínající od laterální plochy tibie a membrana interossea cruris je m. tibialis anterior. Upíná se na mediální straně nohy v oblasti os cuneiforme mediale a baze prvního metatarzu."
-    },
-    en: {
-      stem: "During examination of the lower limb, a muscle of the anterior compartment of the leg is evaluated, which originates from the lateral surface of the tibia and the interosseous membrane of the leg. Which of the following insertions corresponds to this muscle?",
-      options: {
-        a: "Medial cuneiform bone and base of the first metatarsal bone",
-        b: "Navicular tuberosity and intermediate cuneiform bone",
-        c: "Base of the fifth metatarsal bone and cuboid bone",
-        d: "Calcaneal tuberosity through the calcaneal tendon",
-        e: "Distal phalanx of the great toe"
-      },
-      correct: "a",
-      explanation: "The muscle of the anterior compartment of the leg originating from the lateral surface of the tibia and the interosseous membrane of the leg is the tibialis anterior muscle. It inserts on the medial side of the foot at the level of the medial cuneiform bone and the base of the first metatarsal."
     }
   },
   {
@@ -6440,28 +6305,28 @@ const QUESTION_DATA = {
   {
     "id": 383,
     "cz": {
-      "stem": "U pacienta s oslabením svalů zadní skupiny bérce dochází postupně k poruše stability mediální podélné klenby nohy a změně postavení nožní klenby. Který sval zadní skupiny bérce se na udržení klenby nohy podílí nejvýznamněji?",
+      "stem": "Který sval zadní skupiny bérce nejvíce přispívá k udržení klenby nohy?",
       "options": {
         "a": "M. tibialis posterior",
         "b": "M. gastrocnemius",
         "c": "M. soleus",
-        "d": "M. flexor hallucis longus",
-        "e": "M. popliteus"
+        "d": "M. fibularis brevis",
+        "e": "M. tibialis anterior"
       },
       "correct": "a",
       "explanation": "M. tibialis posterior je hlavním svalem zadní skupiny bérce podílejícím se na udržení mediální podélné klenby nohy. Jeho šlacha se upíná především na tuberositas ossis navicularis a dále na další tarzální kosti, čímž stabilizuje postavení nohy."
     },
     "en": {
-      "stem": "In a patient with weakness of the posterior compartment muscles of the leg, there is a gradual loss of stability of the medial longitudinal arch of the foot and a change in the position of the foot arch. Which muscle of the posterior compartment of the leg contributes most significantly to maintaining the foot arch?",
+      "stem": "Which muscle of the posterior compartment of the leg contributes most to maintaining the foot arch?",
       "options": {
         "a": "Tibialis posterior muscle",
         "b": "Gastrocnemius muscle",
         "c": "Soleus muscle",
-        "d": "Flexor hallucis longus muscle",
-        "e": "Popliteus muscle"
+        "d": "Fibularis brevis muscle",
+        "e": "Tibialis anterior muscle"
       },
       "correct": "a",
-      "explanation": "The tibialis posterior muscle is the main muscle of the posterior compartment of the leg involved in maintaining the medial longitudinal arch of the foot. Its tendon inserts primarily on the tuberosity of the navicular bone (tuberositas ossis navicularis) and additionally on other tarsal bones, thereby stabilizing the position and structure of the foot."
+      "explanation": "The tibialis posterior muscle is the main muscle of the posterior compartment of the leg involved in maintaining the medial longitudinal arch of the foot. Its tendon inserts primarily on the tuberosity of the navicular bone and additionally on other tarsal bones, thereby stabilizing the position and structure of the foot."
     }
   },
   {
@@ -6692,7 +6557,7 @@ const QUESTION_DATA = {
         "e": "Kraniolaterálně m. semimembranosus, kraniomediálně m. semitendinosus, kaudolaterálně caput laterale m. gastrocnemii, kaudomediálně caput mediale m. gastrocnemii"
       },
       "correct": "a",
-      "explanation": "Fossa poplitea je kraniolaterálně ohraničena m. biceps femoris, kraniomediálně m. semimembranosus a m. semitendinosus, kaudolaterálně caput laterale m. gastrocnemii a kaudomediálně caput mediale m. gastrocnemii. Toto ohraničení je důležité pro orientaci při chirurgických výkonech i při hodnocení poranění v oblasti zákolenní jamky."
+      "explanation": "Fossa poplitea je kraniolaterálně ohraničena m. biceps femoris, kraniomediálně m. semimembranosus a m. semitendinosus, kaudolaterálně caput laterale m. gastrocnemii a kaudomediálně caput mediale m. gastrocnemii."
     },
     "en": {
       "stem": "Which of the following correctly describes the boundaries of the popliteal fossa?",
@@ -6704,61 +6569,7 @@ const QUESTION_DATA = {
         "e": "Craniolaterally, the semimembranosus muscle; craniomedially, the semitendinosus muscle; caudolaterally, the lateral head of the gastrocnemius muscle; caudomedially, the medial head of the gastrocnemius muscle."
       },
       "correct": "a",
-      "explanation": "The popliteal fossa is bounded craniolaterally by the biceps femoris muscle, craniomedially by the semimembranosus and semitendinosus muscles, caudolaterally by the lateral head of the gastrocnemius muscle, and caudomedially by the medial head of the gastrocnemius muscle. This anatomical delimitation is important for orientation during surgical procedures and for the assessment of injuries in the popliteal region."
-    }
-  },
-  {
-    "id": 393,
-    "cz": {
-      "stem": "Při preparaci fossa poplitea identifikuje student sval tvořící její kaudomediální ohraničení. Která z následujících možností správně popisuje jeho motorickou inervaci?",
-      "options": {
-        "a": "Nervus tibialis, větev nervus ischiadicus z plexus sacralis",
-        "b": "Nervus fibularis communis, větev nervus ischiadicus z plexus sacralis",
-        "c": "Nervus fibularis superficialis, větev nervus ischiadicus z plexus sacralis",
-        "d": "Nervus fibularis profundus, větev nervus ischiadicus z plexus sacralis",
-        "e": "Nervus obturatorius z plexus lumbalis"
-      },
-      "correct": "a",
-      "explanation": "Kaudomediální ohraničení fossa poplitea tvoří caput mediale m. gastrocnemii. M. gastrocnemius je součástí m. triceps surae a je kompletně inervován nervus tibialis, který je terminální větví nervus ischiadicus pocházející z plexus sacralis."
-    },
-    "en": {
-      "stem": "During dissection of the popliteal fossa, a student identifies the muscle forming its caudomedial boundary. Which of the following correctly describes its motor innervation?",
-      "options": {
-        "a": "Tibial nerve, a branch of the sciatic nerve from the sacral plexus",
-        "b": "Common fibular nerve, a branch of the sciatic nerve from the sacral plexus",
-        "c": "Superficial fibular nerve, a branch of the sciatic nerve from the sacral plexus",
-        "d": "Deep fibular nerve, a branch of the sciatic nerve from the sacral plexus",
-        "e": "Obturator nerve from the lumbar plexus"
-      },
-      "correct": "a",
-      "explanation": "The caudomedial boundary of the popliteal fossa is formed by the medial head of the gastrocnemius muscle. The gastrocnemius muscle is part of the triceps surae muscle group and is completely innervated by the tibial nerve, which is the terminal branch of the sciatic nerve originating from the sacral plexus."
-    }
-  },
-  {
-    "id": 394,
-    "cz": {
-      "stem": "Při chirurgickém ošetření poranění v oblasti mediálního kotníku je nutné znát uspořádání struktur procházejících za mediálním kotníkem. Která z následujících kombinací obsahuje pouze struktury, které touto oblastí skutečně procházejí?",
-      "options": {
-        "a": "M. tibialis posterior, arteria tibialis posterior, nervus tibialis",
-        "b": "M. tibialis anterior, vena saphena magna, nervus tibialis",
-        "c": "M. flexor hallucis longus, arteria dorsalis pedis, nervus saphenus",
-        "d": "M. flexor digitorum longus, arteria tibialis anterior, nervus fibularis profundus",
-        "e": "M. fibularis longus, nervus suralis, arteria fibularis"
-      },
-      "correct": "a",
-      "explanation": "Za mediálním kotníkem procházejí šlachy hluboké zadní skupiny bérce spolu s cévami a nervy do plosky nohy. Zepředu dozadu jsou uspořádány: m. tibialis posterior, m. flexor digitorum longus, arteria tibialis posterior, nervus tibialis a m. flexor hallucis longus. Nervus tibialis a arteria tibialis posterior pokračují do planty, zatímco struktury přední a laterální skupiny touto oblastí neprocházejí."
-    },
-    "en": {
-      "stem": "During surgical treatment of an injury in the medial malleolus region, it is necessary to know the arrangement of structures passing behind the medial malleolus. Which of the following combinations contains only structures that actually pass through this area?",
-      "options": {
-        "a": "Tibialis posterior muscle, posterior tibial artery, tibial nerve",
-        "b": "Tibialis anterior muscle, great saphenous vein, tibial nerve",
-        "c": "Flexor hallucis longus muscle, dorsalis pedis artery, saphenous nerve",
-        "d": "Flexor digitorum longus muscle, anterior tibial artery, deep fibular nerve",
-        "e": "Fibularis longus muscle, sural nerve, fibular artery"
-      },
-      "correct": "a",
-      "explanation": "Behind the medial malleolus, the tendons of the deep posterior compartment of the leg pass together with vessels and nerves to the sole of the foot. From anterior to posterior, they are arranged as follows: tibialis posterior muscle, flexor digitorum longus muscle, posterior tibial artery, tibial nerve, and flexor hallucis longus muscle. The tibial nerve and posterior tibial artery continue into the plantar region, whereas structures of the anterior and lateral compartments do not pass through this area."
+      "explanation": "The popliteal fossa is bounded craniolaterally by the biceps femoris muscle, craniomedially by the semimembranosus and semitendinosus muscles, caudolaterally by the lateral head of the gastrocnemius muscle, and caudomedially by the medial head of the gastrocnemius muscle."
     }
   },
   {
@@ -6845,7 +6656,7 @@ const QUESTION_DATA = {
   {
     "id": 398,
     "cz": {
-      "stem": "Při vyšetření oblasti mediální strany hlezna je nutné znát nejen struktury probíhající za mediálním kotníkem, ale také struktury nacházející se před ním. Která z následujících možností správně popisuje struktury procházející před mediálním kotníkem?",
+      "stem": "Která z následujících možností správně popisuje struktury procházející před mediálním kotníkem?",
       "options": {
         "a": "Vena saphena magna, nervus saphenus",
         "b": "M. tibialis anterior, arteria tibialis anterior, nervus fibularis profundus",
@@ -6857,7 +6668,7 @@ const QUESTION_DATA = {
       "explanation": "Před mediálním kotníkem probíhá především vena saphena magna a nervus saphenus, který zajišťuje senzitivní inervaci mediální strany bérce. Za mediálním kotníkem naopak probíhají šlachy hluboké zadní skupiny svalů bérce spolu s arteria tibialis posterior a nervus tibialis."
     },
     "en": {
-      "stem": "During examination of the medial side of the ankle, it is necessary to know not only the structures passing behind the medial malleolus but also the structures located anterior to it. Which of the following options correctly describes the structures passing in front of the medial malleolus?",
+      "stem": "Which of the following options correctly describes the structures passing in front of the medial malleolus?",
       "options": {
         "a": "Great saphenous vein, saphenous nerve",
         "b": "Tibialis anterior muscle, anterior tibial artery, deep fibular nerve",
@@ -6982,11 +6793,11 @@ const QUESTION_DATA = {
     "cz": {
       "stem": "Při vyšetření pacienta po poranění v oblasti hlezna je zjišťována funkce svalů na dorsum pedis. Který nerv zajišťuje jejich motorickou inervaci?",
       "options": {
-        "a": "Nervus fibularis profundus, větev nervus fibularis communis z plexus sacralis",
-        "b": "Nervus fibularis superficialis, větev nervus fibularis communis z plexus sacralis",
-        "c": "Nervus tibialis, větev nervus ischiadicus z plexus sacralis",
-        "d": "Nervus saphenus, větev nervus femoralis z plexus lumbalis",
-        "e": "Nervus suralis, větev nervus tibialis a nervus fibularis communis z plexus sacralis"
+        "a": "Nervus fibularis profundus",
+        "b": "Nervus fibularis superficialis",
+        "c": "Nervus tibialis",
+        "d": "Nervus plantaris medialis",
+        "e": "Nervus plantaris lateralis"
       },
       "correct": "a",
       "explanation": "Svaly na dorsum pedis jsou inervovány nervus fibularis profundus, který je větví nervus fibularis communis. Nervus fibularis communis je terminální větev nervus ischiadicus pocházející z plexus sacralis. Mezi hlavní svaly dorsum pedis patří m. extensor digitorum brevis a m. extensor hallucis brevis."
@@ -6994,11 +6805,11 @@ const QUESTION_DATA = {
     "en": {
       "stem": "When examining a patient after an ankle injury, the function of the muscles on the dorsum of the foot is assessed. Which nerve provides their motor innervation?",
       "options": {
-        "a": "Deep fibular nerve, a branch of the common fibular nerve from the sacral plexus",
-        "b": "Superficial fibular nerve, a branch of the common fibular nerve from the sacral plexus",
-        "c": "Tibial nerve, a branch of the sciatic nerve from the sacral plexus",
-        "d": "Saphenous nerve, a branch of the femoral nerve from the lumbar plexus",
-        "e": "Sural nerve, a branch of the tibial nerve and common fibular nerve from the sacral plexus"
+        "a": "Deep fibular nerve",
+        "b": "Superficial fibular nerve",
+        "c": "Tibial nerve",
+        "d": "Medial plantar nerve",
+        "e": "Lateral plantar nerve"
       },
       "correct": "a",
       "explanation": "The muscles on the dorsum of the foot are innervated by the deep fibular nerve, which is a branch of the common fibular nerve. The common fibular nerve is a terminal branch of the sciatic nerve originating from the sacral plexus. The main muscles of the dorsum of the foot include the extensor digitorum brevis and extensor hallucis brevis muscles."
@@ -7043,7 +6854,7 @@ const QUESTION_DATA = {
         "e": "Mezi malleolus medialis tibiae a talem a mezi malleolus lateralis fibulae a talem"
       },
       "correct": "a",
-      "explanation": "Chopartův kloub neboli articulatio transversa tarsi tvoří dvě samostatná kloubní spojení: articulatio talonavicularis mezi talem a os naviculare a articulatio calcaneocuboidea mezi calcaneem a os cuboideum. Nachází se mezi zadním a předním oddílem nohy a významně se podílí na adaptaci nohy při chůzi po nerovném terénu."
+      "explanation": "Chopartův kloub neboli articulatio tarsi transversa tvoří dvě samostatná kloubní spojení: articulatio talonavicularis mezi talem a os naviculare a articulatio calcaneocuboidea mezi calcaneem a os cuboideum. Nachází se mezi zadním a předním oddílem nohy a významně se podílí na adaptaci nohy při chůzi po nerovném terénu."
     },
     "en": {
       "stem": "A young athlete injures his foot during landing after a jump and subsequently reports pain during movement and weight-bearing of the affected limb. Clinical examination and imaging methods confirm an injury to the region of the Chopart joint. Between which structures is the Chopart joint located?",
@@ -7302,33 +7113,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 490,
-    "cz": {
-      "stem": "Pacient po poranění v oblasti hlezenního kloubu podstupuje neurologické vyšetření. Lékař hodnotí kožní senzorickou inervaci hřbetu nohy (dorsum pedis) pomocí vyšetření jednotlivých kožních oblastí a porovnává jejich vztah k periferním nervům. Která kombinace správně popisuje senzorickou inervaci kůže dorsum pedis?",
-      "options": {
-        "a": "Nervus fibularis superficialis – většiny dorsum pedis; nervus fibularis profundus – prostor mezi 1. a 2. prstem; nervus saphenus – mediální okraj nohy; nervus suralis – laterální okraj nohy",
-        "b": "Nervus fibularis profundus – většina dorsum pedis; nervus fibularis superficialis – prostor mezi 1. a 2. prstem; nervus saphenus – laterální okraj nohy; nervus suralis – mediální okraj nohy",
-        "c": "Nervus tibialis – většina dorsum pedis; nervus fibularis profundus – mediální okraj nohy; nervus saphenus – laterální okraj nohy; nervus suralis – prostor mezi 1. a 2. prstem",
-        "d": "Nervus fibularis superficialis – většina dorsum pedis; nervus tibialis – prostor mezi 1. a 2. prstem; nervus suralis – mediální okraj nohy; nervus saphenus – laterální okraj nohy",
-        "e": "Nervus fibularis profundus – většina dorsum pedis; nervus fibularis superficialis – prostor mezi 1. a 2. prstem; nervus tibialis – laterální okraj nohy; nervus saphenus – pata"
-      },
-      "correct": "a",
-      "explanation": "Kožní senzorickou inervaci většiny dorsum pedis zajišťuje nervus fibularis superficialis. Oblast mezi 1. a 2. prstem (spatium interdigitale I) je výjimka, kterou zásobuje nervus fibularis profundus. Mediální okraj nohy je inervován nervus saphenus a laterální okraj nohy nervus suralis."
-    },
-    "en": {
-      "stem": "A patient after an injury in the region of the ankle joint undergoes a neurological examination. The physician evaluates the cutaneous sensory innervation of the dorsum of the foot (dorsum pedis) by examining individual skin areas and comparing their relationship to peripheral nerves. Which combination correctly describes the sensory innervation of the skin of the dorsum pedis?",
-      "options": {
-        "a": "Superficial fibular nerve – most of the dorsum pedis; deep fibular nerve – space between the 1st and 2nd toes; saphenous nerve – medial border of the foot; sural nerve – lateral border of the foot",
-        "b": "Deep fibular nerve – most of the dorsum pedis; superficial fibular nerve – space between the 1st and 2nd toes; saphenous nerve – lateral border of the foot; sural nerve – medial border of the foot",
-        "c": "Tibial nerve – most of the dorsum pedis; deep fibular nerve – medial border of the foot; saphenous nerve – lateral border of the foot; sural nerve – space between the 1st and 2nd toes",
-        "d": "Superficial fibular nerve – most of the dorsum pedis; tibial nerve – space between the 1st and 2nd toes; sural nerve – medial border of the foot; saphenous nerve – lateral border of the foot",
-        "e": "Deep fibular nerve – most of the dorsum pedis; superficial fibular nerve – space between the 1st and 2nd toes; tibial nerve – lateral border of the foot; saphenous nerve – heel"
-      },
-      "correct": "a",
-      "explanation": "The cutaneous sensory innervation of most of the dorsum pedis is provided by the superficial fibular nerve. The area between the 1st and 2nd toes (first interdigital space) is an exception, as it is supplied by the deep fibular nerve. The medial border of the foot is innervated by the saphenous nerve and the lateral border of the foot by the sural nerve."
-    }
-  },
-  {
     "id": 491,
     "cz": {
       "stem": "Pacient podstupuje neurologické vyšetření po úrazu v oblasti bérce. Lékař hodnotí citlivost hlavní části dorsum pedis, která je zásobena jedním z hlavních periferních nervů dolní končetiny. Které tvrzení správně popisuje hlavní senzorickou inervaci většiny dorsum pedis a jeho originální původ z nervové pleteně?",
@@ -7358,7 +7142,7 @@ const QUESTION_DATA = {
   {
     "id": 492,
     "cz": {
-      "stem": "Při chirurgickém zákroku v oblasti planta pedis lékař postupuje přes jednotlivé anatomické vrstvy. Student anatomie má určit, která struktura se nachází nejpovrchněji při pohledu od kůže směrem do hloubky. Která z následujících struktur se nachází nejvíce povrchově?",
+      "stem": "Který z následujících svalů plosky nohy se nachází nejpovrchněji?",
       "options": {
         "a": "Musculus flexor digitorum brevis",
         "b": "Musculus flexor digitorum longus",
@@ -7367,10 +7151,10 @@ const QUESTION_DATA = {
         "e": "Musculus adductor hallucis"
       },
       "correct": "a",
-      "explanation": "Musculus flexor digitorum brevis patří do první vrstvy svalů planty, která je uložena nejpovrchněji pod plantární aponeurózou. Ostatní uvedené struktury jsou uloženy v hlubších vrstvách: šlacha musculus flexor digitorum longus, musculus quadratus plantae a musculi lumbricales patří do druhé vrstvy, zatímco musculus adductor hallucis patří do třetí vrstvy planty. Při postupu od kůže do hloubky tedy chirurg nejprve narazí na svaly první vrstvy, mezi nimi právě na musculus flexor digitorum brevis."
+      "explanation": "Musculus flexor digitorum brevis patří do první vrstvy svalů planty, která je uložena nejpovrchněji pod plantární aponeurózou. Ostatní uvedené struktury jsou uloženy v hlubších vrstvách: šlacha musculus flexor digitorum longus, musculus quadratus plantae a musculi lumbricales patří do druhé vrstvy, zatímco musculus adductor hallucis patří do třetí vrstvy planty."
     },
     "en": {
-      "stem": "During a surgical procedure in the region of the planta pedis, the surgeon proceeds through individual anatomical layers. An anatomy student must determine which structure is located most superficially when moving from the skin toward deeper structures. Which of the following structures is located the most superficially?",
+      "stem": "Which of the following muscles of the foot is located most superficially?",
       "options": {
         "a": "Flexor digitorum brevis muscle",
         "b": "Flexor digitorum longus muscle",
@@ -7379,7 +7163,7 @@ const QUESTION_DATA = {
         "e": "Adductor hallucis muscle"
       },
       "correct": "a",
-      "explanation": "The flexor digitorum brevis muscle belongs to the first layer of the plantar muscles, which is located most superficially beneath the plantar aponeurosis. The other listed structures are located in deeper layers: the tendon of the flexor digitorum longus muscle, the quadratus plantae muscle, and the lumbrical muscles belong to the second layer, whereas the adductor hallucis muscle belongs to the third layer of the plantar muscles. When proceeding from the skin toward deeper structures, the surgeon will therefore first encounter the muscles of the first layer, including the flexor digitorum brevis muscle."
+      "explanation": "The flexor digitorum brevis muscle belongs to the first layer of the plantar muscles, which is located most superficially beneath the plantar aponeurosis. The other listed structures are located in deeper layers: the tendon of the flexor digitorum longus muscle, the quadratus plantae muscle, and the lumbrical muscles belong to the second layer, whereas the adductor hallucis muscle belongs to the third layer of the plantar muscles."
     }
   },
   {
@@ -29247,6 +29031,60 @@ const LIVE_QUESTION_BANKS = {
               explanation: "The ulnar nerve runs in the ulnar groove behind the medial epicondyle of the humerus (cubital tunnel), where it is susceptible to compression from prolonged elbow resting or flexion. Involvement causes sensory deficit in the little finger and ulnar half of the ring finger and weakness of the ulnar-innervated hand muscles."
             }
           },
+           {
+    "id": 10277,
+    "cz": {
+      "stem": "27letý pacient podstupuje operaci v oblasti třísla. Po výkonu udává poruchu čití na anterolaterální straně stehna, bez oslabení svalové síly. Vyšetření ukáže postižení nervu, který probíhá v blízkosti spina iliaca anterior superior a zajišťuje pouze senzorickou inervaci kůže této oblasti. Který nerv je nejpravděpodobněji poškozen?",
+      "options": {
+        "a": "n. cutaneus femoris lateralis",
+        "b": "n. cutaneus femoris posterior",
+        "c": "n. femoralis",
+        "d": "n. saphenus",
+        "e": "n. obturatorius"
+      },
+      "correct": "a",
+      "explanation": "N. cutaneus femoris lateralis je větev plexus lumbalis (L2–L3) a zajišťuje senzorickou inervaci laterální strany stehna. Probíhá v blízkosti spina iliaca anterior superior, kde může být utlačen například při zvýšeném tlaku v oblasti třísla. Ostatní kožní nervy stehna pocházejí převážně z jiných oblastí a mají odlišné senzitivní teritorium."
+    },
+    "en": {
+      "stem": "A 27-year-old patient undergoes surgery in the groin region. After the procedure, he reports sensory disturbance on the anterolateral side of the thigh, without any loss of muscle strength. Examination reveals damage to a nerve that runs near the anterior superior iliac spine and provides only sensory innervation to the skin of this region. Which nerve is most likely damaged?",
+      "options": {
+        "a": "Lateral femoral cutaneous nerve",
+        "b": "Posterior femoral cutaneous nerve",
+        "c": "Femoral nerve",
+        "d": "Saphenous nerve",
+        "e": "Obturator nerve"
+      },
+      "correct": "a",
+      "explanation": "The lateral femoral cutaneous nerve is a branch of the lumbar plexus (L2–L3) and provides sensory innervation to the lateral aspect of the thigh. It runs near the anterior superior iliac spine, where it can be compressed, for example, by increased pressure in the groin region. The other cutaneous nerves of the thigh originate mainly from different regions and have distinct sensory territories."
+    }
+  },
+  {
+    "id": 10278,
+    "cz": {
+      "stem": "Jaké je správné uspořádání struktur ve fossa poplitea z povrchu do hloubky?",
+      "options": {
+        "a": "n. tibialis – v. poplitea – a. poplitea",
+        "b": "a. poplitea – v. poplitea – n. tibialis",
+        "c": "v. poplitea – n. tibialis – a. poplitea",
+        "d": "n. tibialis – a. poplitea – v. poplitea",
+        "e": "n. tibialis – v. poplitea – n. fibularis communis"
+      },
+      "correct": "a",
+      "explanation": "Ve fossa poplitea jsou hlavní struktury uspořádány z povrchu do hloubky jako nervus tibialis → vena poplitea → arteria poplitea. Arterie leží nejhlouběji přímo na femuru a pouzdru kolenního kloubu, zatímco nerv je nejpovrchnější a nejvíce ohrožený při traumatech v této oblasti."
+    },
+    "en": {
+      "stem": "What is the correct arrangement of the structures in the popliteal fossa from superficial to deep?",
+      "options": {
+        "a": "Tibial nerve – popliteal vein – popliteal artery",
+        "b": "Popliteal artery – popliteal vein – tibial nerve",
+        "c": "Popliteal vein – tibial nerve – popliteal artery",
+        "d": "Tibial nerve – popliteal artery – popliteal vein",
+        "e": "Tibial nerve – popliteal vein – common fibular nerve"
+      },
+      "correct": "a",
+      "explanation": "In the popliteal fossa, the main structures are arranged from superficial to deep as follows: tibial nerve → popliteal vein → popliteal artery. The artery lies the deepest, directly on the femur and the capsule of the knee joint, while the nerve is the most superficial and therefore most vulnerable to trauma in this region."
+    }
+  },
 
     ]
     // =ANATOMIE_1_VERZE_3_END=
