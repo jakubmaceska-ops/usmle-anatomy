@@ -7819,6 +7819,33 @@ id: 269,
   },
   image: { key: "q1108_custom", source: "Immanueltjahjadi. 12893 2021 1125 Fig1 HTML.webp. Wikimedia Commons. Available from: Wikimedia Commons. CC BY-SA 4.0. Accessed 5 September 2026.", type: "image" }
 },
+{
+  id: 1118,
+  cz: {
+    stem: "42letá žena podstupuje operaci tříselné kýly. Během výkonu dojde k poranění nervu v canalis inguinalis. Po operaci se u pacientky objeví ztráta citlivosti kůže v oblasti přední části labium majus. Který nerv byl s největší pravděpodobností poraněn?",
+    options: {
+        a: "Nervus ilioinguinalis",
+        b: "Nervus iliohypogastricus",
+        c: "Nervus femoralis",
+        d: "Nervus obturatorius",
+        e: "Nervus cutaneus femoris lateralis"
+    },
+    correct: "a",
+    explanation: "Nervus ilioinguinalis vstupuje do canalis inguinalis a vystupuje přes anulus inguinalis superficialis. Zajišťuje senzitivní inervaci kůže mons pubis a přední části labium majus u žen."
+  },
+  en: {
+    stem: "A 42-year-old woman undergoes surgery for an inguinal hernia. During the procedure, a nerve is accidentally injured within the inguinal canal. After surgery, she develops numbness of the skin over the anterior aspect of the labia majora. Which nerve was most likely injured?",
+    options: {
+        a: "Ilioinguinal nerve",
+        b: "Iliohypogastric nerve",
+        c: "Femoral nerve",
+        d: "Obturator nerve",
+        e: "Lateral femoral cutaneous nerve"
+    },
+    correct: "a",
+    explanation: "The ilioinguinal nerve enters the inguinal canal and exits through the superficial inguinal ring. It provides sensory innervation to the skin of the mons pubis and anterior labia majora in females."
+  }
+},
 ]
       }
 
@@ -17836,6 +17863,33 @@ id: 269,
   },
   image: { key: "q1109_custom", source: "Mikael Häggström. Ultrasonography of inguinal hernia (annotated).jpg. Wikimedia Commons. Available from: Wikimedia Commons. CC0 1.0. Accessed 6 September 2026.", type: "image" },
   explanationImage: { key: "e1109_custom", source: "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK), National Institutes of Health. An inguinal hernia with the small intestine, internal inguinal ring, external inguinal ring, pubic bone, penis, spermatic cord, and testes labeled. NIDDK Media Library. Available from: https://www.niddk.nih.gov/news/media-library/17832. Public domain (U.S. Government work). Accessed 5 September 2026.", type: "image" }
+},
+{
+  id: 1119,
+  cz: {
+    stem: "29letý muž podstupuje operaci varikokély. Během výkonu dojde k náhodnému podvazu cévy ve funiculus spermaticus. O několik měsíců později nemá pacient známky atrofie varlete, ale Dopplerovské vyšetření ukazuje snížený arteriální průtok varletem. Která tepna byla s největší pravděpodobností poraněna?",
+    options: {
+        a: "A. testicularis",
+        b: "A. cremasterica",
+        c: "A. ductus deferentis",
+        d: "A. pudenda interna",
+        e: "A. epigastrica inferior"
+    },
+    correct: "a",
+    explanation: "A. testicularis odstupuje z aorta abdominalis a prochází canalis inguinalis ve funiculus spermaticus. A. testicularis je hlavním zdrojem arteriálního zásobení varlete, zatímco a. cremasterica a a. ductus deferentis zajišťují další kolaterální průtok. Díky kolaterálnímu zásobení nedošlo k atrofii varlete."
+  },
+  en: {
+    stem: "A 29-year-old man undergoes surgery for a varicocele. During the procedure, a vessel within the spermatic cord is accidentally ligated. Several months later, the patient has no signs of testicular atrophy, but Doppler examination shows reduced arterial blood flow to the testis. Which artery was most likely injured?",
+    options: {
+        a: "Testicular artery",
+        b: "Cremasteric artery",
+        c: "Artery of the ductus deferens",
+        d: "Internal pudendal artery",
+        e: "Inferior epigastric artery"
+    },
+    correct: "a",
+    explanation: "The testicular artery arises from the abdominal aorta and passes through the inguinal canal within the spermatic cord. It is the main source of arterial blood supply to the testis, while the cremasteric artery and artery of the ductus deferens provide additional collateral blood flow. Because of this collateral supply, testicular atrophy did not occur."
+  }
 },
         ]
       },
