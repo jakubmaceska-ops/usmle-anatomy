@@ -3248,33 +3248,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 49,
-  cz: {
-    stem: "U pacienta s Bakerovou cystou (synoviální cystou v popliteální jamce) může komprese způsobit parestézie a slabost plantární flexe nohy. Který nerv je v popliteální jamce nejvíce ohrožen kompresí Bakerovou cystou?",
-    options: {
-        a: "n. fibularis communis",
-        b: "n. tibialis",
-        c: "n. saphenus",
-        d: "n. cutaneus femoris posterior",
-        e: "n. obturatorius"
-    },
-    correct: "b",
-    explanation: "N. tibialis probíhá povrchově v popliteální jamce a inervuje svaly zadní skupiny bérce zajišťující plantární flexi a inverzi nohy. Expandující Bakerova cysta v popliteální jamce může tento nerv komprimovat, což vede k parestéziím a slabosti plantární flexe."
-  },
-  en: {
-    stem: "In a patient with a Baker’s cyst (synovial cyst in the popliteal fossa), compression may cause paresthesias and weakness of plantar flexion of the foot. Which nerve in the popliteal fossa is most at risk of compression by a Baker’s cyst?",
-    options: {
-        a: "common fibular nerve",
-        b: "tibial nerve",
-        c: "saphenous nerve",
-        d: "posterior femoral cutaneous nerve",
-        e: "obturator nerve"
-    },
-    correct: "b",
-    explanation: "The tibial nerve runs relatively superficially in the popliteal fossa and supplies the muscles of the posterior compartment of the leg responsible for plantar flexion and inversion of the foot. An expanding Baker’s cyst in the popliteal region may compress this nerve, leading to paresthesias and weakness of plantar flexion."
-  }
-},
-{
   id: 50,
   cz: {
     stem: "U fotbalisty při bočním nárazu na extendované koleno byla diagnostikována tzv. „nešťastná trojice“ (unhappy triad). Které tři struktury jsou touto kombinací poraněny?",
@@ -3353,33 +3326,6 @@ const QUESTION_DATA = {
     },
     correct: "b",
     explanation: "The lateral compartment of the leg is innervated by the superficial fibular (peroneal) nerve, which provides motor innervation to the fibular muscles (foot evertors) and sensory innervation to most of the dorsum of the foot, except the first interdigital cleft (deep fibular nerve) and the lateral border of the foot (sural nerve)."
-  }
-},
-{
-  id: 53,
-  cz: {
-    stem: "Hluboký zadní kompartment bérce obsahuje m. tibialis posterior, m. flexor digitorum longus a m. flexor hallucis longus. Kterým nervem a tepnou je tento kompartment zásoben?",
-    options: {
-        a: "n. fibularis profundus a a. tibialis anterior",
-        b: "n. tibialis a a. tibialis posterior",
-        c: "n. fibularis superficialis a a. fibularis",
-        d: "n. suralis a a. tibialis posterior",
-        e: "n. saphenus a a. tibialis posterior"
-    },
-    correct: "b",
-    explanation: "Hluboký zadní kompartment bérce je inervován n. tibialis a zásoben a. tibialis posterior (a a. fibularis). Tyto struktury pak pokračují přes tarzální tunel za mediálním kotníkem k plantární straně nohy."
-  },
-  en: {
-    stem: "The deep posterior compartment of the leg contains the tibialis posterior muscle, flexor digitorum longus, and flexor hallucis longus. Which nerve and artery supply this compartment?",
-    options: {
-        a: "deep fibular nerve and anterior tibial artery",
-        b: "tibial nerve and posterior tibial artery",
-        c: "superficial fibular nerve and fibular artery",
-        d: "sural nerve and posterior tibial artery",
-        e: "saphenous nerve and posterior tibial artery"
-    },
-    correct: "b",
-    explanation: "The deep posterior compartment of the leg is innervated by the tibial nerve and supplied mainly by the posterior tibial artery (with contribution from the fibular artery). These structures continue through the tarsal tunnel behind the medial malleolus to the plantar aspect of the foot."
   }
 },
 {
@@ -4635,24 +4581,24 @@ const QUESTION_DATA = {
       "options": {
         "a": "Caput longum m. bicipitis femoris",
         "b": "Caput breve m. bicipitis femoris",
-        "c": "M. sartorius",
+        "c": "M. semitendinosus",
         "d": "M. gastrocnemius",
         "e": "M. adductor magnus"
       },
       "correct": "a",
-      "explanation": "Caput longum m. biceps femoris začíná na tuber ischiadicum a překračuje kyčelní i kolenní kloub. Proto zajišťuje extenzi v kyčli a flexi kolene. Caput breve překračuje pouze kolenní kloub, takže se na extenzi kyčle nepodílí."
+      "explanation": "Caput longum m. bicipitis femoris začíná na tuber ischiadicum a překračuje kyčelní i kolenní kloub. Proto zajišťuje extenzi v kyčli a flexi kolene. Caput breve překračuje pouze kolenní kloub, takže se na extenzi kyčle nepodílí."
     },
     "en": {
       "stem": "A 28-year-old soccer player experiences sudden pain in the posterior thigh during a powerful sprint. Examination reveals significant weakness of hip extension and knee flexion. Neurological examination shows no signs of nerve damage, and sensation is preserved. MRI reveals a rupture of a muscle of the posterior thigh compartment. Which muscle is involved?",
       "options": {
-        "a": "Long head of m. biceps femoris",
-        "b": "Short head of m. biceps femoris",
-        "c": "M. sartorius",
-        "d": "M. gastrocnemius",
-        "e": "M. adductor magnus"
+        "a": "Long head of biceps femoris muscle",
+        "b": "Short head of biceps femoris muscle",
+        "c": "Semitendinosus muscle",
+        "d": "Gastrocnemius muscle",
+        "e": "Adductor magnus muscle"
       },
       "correct": "a",
-      "explanation": "The long head of m. biceps femoris originates from the ischial tuberosity and crosses both the hip and knee joints. Therefore, it performs hip extension and knee flexion. The short head crosses only the knee joint, so it does not contribute to hip extension."
+      "explanation": "The long head of the biceps femoris muscle originates from the ischial tuberosity and crosses both the hip and knee joints. Therefore, it performs hip extension and knee flexion. The short head crosses only the knee joint, so it does not contribute to hip extension."
     }
   },
   {
@@ -5979,33 +5925,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 404,
-    "cz": {
-      "stem": "Po distorzi hlezenního kloubu je při vyšetření hodnocen vazivový aparát articulatio talocruralis. Která z následujících možností správně popisuje složení jednoho z vazů zpevňujících tento kloub?",
-      "options": {
-        "a": "Ligamentum collaterale mediale: pars tibionavicularis, pars tibiocalcanea, pars tibiotalaris anterior et posterior",
-        "b": "Ligamentum deltoideum: pars talofibularis anterior, pars calcaneofibularis, pars talofibularis posterior",
-        "c": "Lig. collaterale mediale: lig. talofibulare anterius et posterius, lig. calcaneofibulare",
-        "d": "Ligamentum talocalcaneum interosseum: pars tibionavicularis, pars tibiocalcanea, pars tibiotalaris anterior",
-        "e": "Ligamentum collaterale laterale: pars tibionavicularis, pars tibiocalcanea, pars tibiotalaris posterior"
-      },
-      "correct": "a",
-      "explanation": "Ligamentum deltoideum seu lig. collaterale mediale zpevňuje mediální stranu articulatio talocruralis a skládá se z pars tibionavicularis, pars tibiocalcanea a pars tibiotalaris anterior et posterior. Laterální vazivový komplex tvoří ligamentum talofibulare anterius, ligamentum calcaneofibulare a ligamentum talofibulare posterius."
-    },
-    "en": {
-      "stem": "After an ankle joint sprain, the ligamentous apparatus of the talocrural joint is evaluated during examination. Which of the following options correctly describes the composition of one of the ligaments reinforcing this joint?",
-      "options": {
-        "a": "Medial collateral ligament: tibionavicular part, tibiocalcaneal part, anterior and posterior tibiotalar parts",
-        "b": "Deltoid ligament: anterior talofibular part, calcaneofibular part, posterior talofibular part",
-        "c": "Medial collateral ligament: anterior and posterior talofibular ligaments, calcaneofibular ligament",
-        "d": "Interosseous talocalcaneal ligament: tibionavicular part, tibiocalcaneal part, anterior tibiotalar part",
-        "e": "Lateral collateral ligament: tibionavicular part, tibiocalcaneal part, posterior tibiotalar part"
-      },
-      "correct": "a",
-      "explanation": "The deltoid ligament, also known as the medial collateral ligament, reinforces the medial side of the talocrural joint and consists of the tibionavicular part, tibiocalcaneal part, and anterior and posterior tibiotalar parts. The lateral ligament complex consists of the anterior talofibular ligament, calcaneofibular ligament, and posterior talofibular ligament."
-    }
-  },
-  {
     "id": 405,
     "cz": {
       "stem": "Při vyšetření pacienta po poranění v oblasti hlezna je zjišťována funkce svalů na dorsum pedis. Který nerv zajišťuje jejich motorickou inervaci?",
@@ -6724,6 +6643,34 @@ const QUESTION_DATA = {
     explanation: "The lateral compartment muscles of the leg consist of the fibularis longus and fibularis brevis muscles, which are motorically innervated by the superficial fibular nerve. This nerve is a terminal branch of the common fibular nerve, which arises from the sciatic nerve originating from the sacral plexus."
   },
   image: { key: "q1116_custom", source: "Connexions. Eversion and inversion.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Eversion_and_inversion.jpg. CC BY 3.0. Accessed 12 September 2026.", type: "image" }
+},
+{
+  id: 1117,
+  cz: {
+    stem: "U pacienta s Bakerovou cystou (synoviální cystou v popliteální jamce – viz MRI) může komprese způsobit parestézie a slabost plantární flexe nohy. Který nerv je v popliteální jamce nejvíce ohrožen kompresí Bakerovou cystou?",
+    options: {
+        a: "n. fibularis communis",
+        b: "n. tibialis",
+        c: "n. saphenus",
+        d: "n. cutaneus femoris posterior",
+        e: "n. obturatorius"
+    },
+    correct: "b",
+    explanation: "N. tibialis probíhá povrchově v popliteální jamce a inervuje svaly zadní skupiny bérce zajišťující plantární flexi a inverzi nohy. Expandující Bakerova cysta v popliteální jamce může tento nerv komprimovat, což vede k parestéziím a slabosti plantární flexe."
+  },
+  en: {
+    stem: "A patient with a Baker's cyst (a synovial cyst in the popliteal fossa – see MRI) may develop paresthesia and weakness of plantar flexion of the foot due to compression. Which nerve in the popliteal fossa is most vulnerable to compression by a Baker's cyst?",
+    options: {
+        a: "Common fibular nerve",
+        b: "Tibial nerve",
+        c: "Saphenous nerve",
+        d: "Posterior femoral cutaneous nerve",
+        e: "Obturator nerve"
+    },
+    correct: "b",
+    explanation: "The tibial nerve runs superficially in the popliteal fossa and innervates the muscles of the posterior compartment of the leg responsible for plantar flexion and inversion of the foot. An enlarging Baker's cyst in the popliteal fossa can compress this nerve, leading to paresthesia and weakness of plantar flexion."
+  },
+  image: { key: "q1117_custom", source: "Hellerhoff. Bakerzyste MRT ax.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Bakerzyste_MRT_ax.jpg. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
 },
 ]
       },
