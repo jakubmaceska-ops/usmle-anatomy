@@ -2956,25 +2956,25 @@ const QUESTION_DATA = {
     stem: "Obézní pacient nosící těsný opasek si stěžuje na pálivou bolest a parestézie na anterolaterální straně stehna, bez motorického deficitu. Který nerv je komprimován v místě průchodu pod (nebo přes) lig. inguinale poblíž spina iliaca anterior superior?",
     options: {
         a: "n. femoralis",
-        b: "n. obturatorius",
+        b: "n. cutaneus femoris posterior",
         c: "n. cutaneus femoris lateralis",
         d: "n. ilioinguinalis",
         e: "n. genitofemoralis"
     },
     correct: "c",
-    explanation: "N. cutaneus femoris lateralis je čistě senzorický nerv, který prochází pod nebo přes lig. inguinale v blízkosti spina iliaca anterior superior. Komprese v tomto místě (např. těsným opaskem, obezitou, těhotenstvím) způsobuje tzv. meralgia paresthetica – bolest a parestézie na anterolaterální straně stehna bez motorického deficitu, protože nerv neobsahuje motorická vlákna."
+    explanation: "N. cutaneus femoris lateralis je čistě senzorický nerv, který prochází pod nebo přes lig. inguinale v blízkosti spina iliaca anterior superior. Komprese v tomto místě způsobuje bolest a parestézie na anterolaterální straně stehna bez motorického deficitu, protože nerv neobsahuje motorická vlákna."
   },
   en: {
     stem: "An obese patient wearing a tight belt complains of burning pain and paresthesia on the anterolateral aspect of the thigh, without any motor deficit. Which nerve is being compressed at the site where it passes under (or through) the inguinal ligament near the anterior superior iliac spine?",
     options: {
-        a: "n. femoralis",
-        b: "n. obturatorius",
-        c: "n. cutaneus femoris lateralis",
-        d: "n. ilioinguinalis",
-        e: "n. genitofemoralis"
+        a: "Femoral nerve",
+        b: "Posterior cutaneous nerve of thigh",
+        c: "Lateral femoral cutaneous nerve",
+        d: "Ilioinguinal nerve",
+        e: "Genitofemoral nerve"
     },
     correct: "c",
-    explanation: "The lateral femoral cutaneous nerve is a purely sensory nerve that passes under or through the inguinal ligament near the anterior superior iliac spine. Compression at this site (e.g., by a tight belt, obesity, or pregnancy) causes meralgia paresthetica – pain and paresthesia on the anterolateral aspect of the thigh without any motor deficit, since the nerve contains no motor fibers."
+    explanation: "The lateral femoral cutaneous nerve is a purely sensory nerve that passes under or through the inguinal ligament near the anterior superior iliac spine. Compression at this site causes pain and paresthesia on the anterolateral aspect of the thigh without motor deficits, because the nerve contains no motor fibers."
   }
 },
 {
@@ -3073,7 +3073,7 @@ const QUESTION_DATA = {
     explanation: "N. obturatorius prochází canalis obturatorius a inervuje adduktory stehna (m. adductor longus, brevis, magnus, m. gracilis, m. obturatorius externus) a senzitivně kůži na vnitřní straně stehna. Jeho poškození vede k oslabení addukce a poruše citlivosti v této oblasti."
   },
   en: {
-    stem: "After hip surgery, a female patient complains of weakness of thigh adduction and sensory loss on the medial aspect of the thigh. Which nerve was most likely injured?",
+    stem: "After hip surgery, a patient complains of weakness of thigh adduction and sensory loss on the medial aspect of the thigh. Which nerve was most likely injured?",
     options: {
         a: "femoral nerve",
         b: "sciatic nerve",
@@ -3110,33 +3110,6 @@ const QUESTION_DATA = {
     },
     correct: "b",
     explanation: "Within the femoral triangle, the structures are arranged from lateral to medial as follows: femoral nerve, femoral artery, femoral vein, and most medially the deep inguinal lymph nodes. This can be remembered by the mnemonic “NAVEL” (Nerve, Artery, Vein, Empty space, Lymphatics), where the “empty space” corresponds to the femoral canal located medial to the vein."
-  }
-},
-{
-  id: 35,
-  cz: {
-    stem: "V. saphena magna vstupuje do v. femoralis přes otvor ve fascia lata stehna, lokalizovaný cca 3–4 cm laterálně a kaudálně od tuberculum pubicum. O který otvor se jedná?",
-    options: {
-        a: "anulus femoralis",
-        b: "hiatus saphenus",
-        c: "canalis adductorius",
-        d: "foramen obturatum",
-        e: "anulus inguinalis superficialis"
-    },
-    correct: "b",
-    explanation: "Hiatus saphenus (fossa ovalis) je otvor ve fascia lata stehna, krytý cribriformní fascií, kterým v. saphena magna prostupuje k soutoku s v. femoralis. Tato lokalizace je důležitým chirurgickým landmarkem, např. při operacích varixů nebo při punkci femorální žíly."
-  },
-  en: {
-    stem: "The great saphenous vein (v. saphena magna) enters the femoral vein (v. femoralis) through an opening in the fascia lata of the thigh, located approximately 3–4 cm laterally and inferiorly to the pubic tubercle. Which opening is this?",
-    options: {
-        a: "femoral ring (anulus femoralis)",
-        b: "saphenous opening (hiatus saphenus)",
-        c: "adductor canal (canalis adductorius)",
-        d: "obturator foramen (foramen obturatum)",
-        e: "superficial inguinal ring (anulus inguinalis superficialis)"
-    },
-    correct: "b",
-    explanation: "The saphenous opening (hiatus saphenus, also known as the fossa ovalis) is an opening in the fascia lata of the thigh, covered by the cribriform fascia, through which the great saphenous vein passes to join the femoral vein. This anatomical landmark is important in surgery, for example in the treatment of varicose veins or during femoral vein puncture."
   }
 },
 {
@@ -3223,7 +3196,7 @@ const QUESTION_DATA = {
 {
   id: 47,
   cz: {
-    stem: "Při disekci popliteální jamky byly identifikovány struktury uložené v pořadí od povrchu do hloubky (od dorzální ke ventrální straně). Které pořadí je správné?",
+    stem: "Při disekci popliteální jamky byly identifikovány struktury uložené v pořadí od povrchu do hloubky (od dorzální k ventrální straně). Které pořadí je správné?",
     options: {
         a: "n. tibialis, v. poplitea, a. poplitea",
         b: "a. poplitea, v. poplitea, n. tibialis",
@@ -3842,33 +3815,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 251,
-  cz: {
-    stem: "Která z následujících možností správně uvádí úpony gluteálních svalů na kosti?",
-    options: {
-        a: "M. gluteus maximus: hluboké snopce do tuberositas glutea a povrchové do tractus iliotibialis; M. gluteus medius: laterální povrch trochanter major; M. gluteus minimus: přední okraj trochanter major",
-        b: "M. gluteus maximus: hluboké snopce do tuberositas glutea a povrchové do tractus iliotibialis; M. gluteus medius: ventrální povrch trochanter major; M. gluteus minimus: laterální povrch trochanter minor",
-        c: "M. gluteus maximus: úpon výhradně do trochanter major; M. gluteus medius: fossa trochanterica; M. gluteus minimus: přední okraj trochanter minor",
-        d: "M. gluteus maximus: hluboké snopce do tuberositas glutea a povrchové do tractus iliotibialis; M. gluteus medius: fossa trochanterica; M. gluteus minimus: kraniální hrot trochanter major",
-        e: "M. gluteus maximus: úpon výhradně podél linea aspera; M. gluteus medius: zadní okraj trochanter major; M. gluteus minimus: linea intertrochanterica"
-    },
-    correct: "a",
-    explanation: "M. gluteus maximus se upíná hlubokými snopci do tuberositas glutea a povrchovými do tractus iliotibialis. M. gluteus medius se upíná na laterální povrch trochanter major, zatímco hlouběji uložený m. gluteus minimus směřuje ventrálně a upíná se na jeho přední okraj."
-  },
-  en: {
-    stem: "Which of the following options correctly states the bony insertions of the gluteal muscles?",
-    options: {
-        a: "M. gluteus maximus: deep fibers into the tuberositas glutea and superficial fibers into the tractus iliotibialis; M. gluteus medius: lateral surface of the trochanter major; M. gluteus minimus: anterior border of the trochanter major",
-        b: "M. gluteus maximus: deep fibers into the tuberositas glutea and superficial fibers into the tractus iliotibialis; M. gluteus medius: ventral surface of the trochanter major; M. gluteus minimus: lateral surface of the trochanter minor",
-        c: "M. gluteus maximus: insertion exclusively into the trochanter major; M. gluteus medius: fossa trochanterica; M. gluteus minimus: anterior border of the trochanter minor",
-        d: "M. gluteus maximus: deep fibers into the tuberositas glutea and superficial fibers into the tractus iliotibialis; M. gluteus medius: fossa trochanterica; M. gluteus minimus: cranial tip of the trochanter major",
-        e: "M. gluteus maximus: insertion exclusively along the linea aspera; M. gluteus medius: posterior border of the trochanter major; M. gluteus minimus: linea intertrochanterica"
-    },
-    correct: "a",
-    explanation: "M. gluteus maximus inserts by deep fibers into the tuberositas glutea and by superficial fibers into the tractus iliotibialis. M. gluteus medius inserts onto the lateral surface of the trochanter major, while the deeper-lying m. gluteus minimus runs ventrally and inserts onto its anterior border."
-  }
-},
-{
   id: 252,
   cz: {
     stem: "Pětadvacetiletý sprinter pocítil při startu závodu ostrou bolest na laterální straně kyčle. Vyšetření ukázalo parciální rupturu musculus tensor fasciae latae. Který z následujících svalů sdílí s poškozeným svalem stejnou inervaci ze stejného periferního nervu?",
@@ -3929,24 +3875,24 @@ const QUESTION_DATA = {
     options: {
         a: "Porucha citlivosti kůže v oblasti hráze a zevního genitálu, doprovázená erektilní dysfunkcí nebo inkontinencí",
         b: "Snížená citlivost kůže na mediální straně stehna a oslabení addukce stehna v kyčelním kloubu",
-        c: "Ostrá bolest střílející po zadní straně stehna do bérce, doprovázená oslabením plantární flexe nohy",
+        c: "Ostrá bolest vystřelující po zadní straně stehna do bérce, doprovázená oslabením plantární flexe nohy",
         d: "Porucha citlivosti kůže v oblasti hráze a zevního genitálu, doprovázená ztrátou kožního citu na mediální straně stehna",
-        e: "Výrazné oslabení extenze v kyčelním kloubu, projevující se potížemi při vstávání ze židle, a anestézie mediální strany stehna"
+        e: "Výrazné oslabení extenze v kyčelním kloubu, projevující se potížemi při vstávání ze židle a anestezie mediální strany stehna"
     },
     correct: "a",
     explanation: "Struktura uložená ve foramen infrapiriforme nejmediálněji je nervus pudendus (společně s vasa pudenda interna). Tento nerv inervuje kůži hráze a zevního genitálu a podílí se na kontrole svěračů. Kůže na mediální straně stehna je však inervována z úplně jiných zdrojů (především nervus obturatorius z plexus lumbalis a větve nervus femoralis), které touto oblastí vůbec neprocházejí."
   },
   en: {
-    stem: "A patient developed hypertrophy of the m. piriformis, which caused isolated compression of the structure running the most medially in the foramen infrapiriforme. Which of the following clinical presentations will be present in this patient?",
+    stem: "A patient developed hypertrophy of the piriformis muscle, causing isolated compression of the structure passing most medially through the infrapiriform foramen. Which of the following clinical presentations would be expected in this patient?",
     options: {
-        a: "Sensory disturbance of the skin of the perineum and external genitalia, accompanied by erectile dysfunction or incontinence",
-        b: "Decreased sensation of the skin on the medial thigh and weakened thigh adduction at the hip joint",
-        c: "Sharp pain shooting down the posterior thigh into the lower leg, accompanied by weakened plantar flexion of the foot",
-        d: "Sensory disturbance of the skin of the perineum and external genitalia, accompanied by loss of skin sensation on the medial thigh",
-        e: "Marked weakness of hip extension, manifesting as difficulty rising from a chair, and anesthesia of the medial thigh"
+        a: "Impaired sensation in the skin of the perineum and external genitalia, accompanied by erectile dysfunction or incontinence",
+        b: "Reduced skin sensation on the medial side of the thigh and weakness of thigh adduction at the hip joint",
+        c: "Sharp shooting pain radiating along the posterior thigh into the leg, accompanied by weakness of plantar flexion of the foot",
+        d: "Impaired sensation in the skin of the perineum and external genitalia, accompanied by loss of cutaneous sensation on the medial side of the thigh",
+        e: "Marked weakness of hip extension, causing difficulty when rising from a chair, and anesthesia of the medial side of the thigh"
     },
     correct: "a",
-    explanation: "The structure located the most medially in the foramen infrapiriforme is the nervus pudendus (together with the vasa pudenda interna). This nerve innervates the skin of the perineum and external genitalia and participates in sphincter control. The skin of the medial thigh, however, is innervated from entirely different sources (primarily the nervus obturatorius from the plexus lumbalis and branches of the nervus femoralis), which do not pass through this region at all."
+    explanation: "The structure located most medially in the infrapiriform foramen is the pudendal nerve, together with the internal pudendal vessels. This nerve supplies the skin of the perineum and external genitalia and contributes to the control of the sphincters. However, the skin on the medial side of the thigh is innervated by completely different sources, primarily the obturator nerve from the lumbar plexus and branches of the femoral nerve, which do not pass through this region."
   }
 },
 {
@@ -3958,22 +3904,22 @@ const QUESTION_DATA = {
         b: "Arteria iliaca interna (přes a. glutea inferior) a arteria femoralis (přes a. circumflexa femoris medialis)",
         c: "Arteria iliaca externa (přes a. pudenda externa) a arteria iliaca interna (přes a. pudenda interna)",
         d: "Arteria epigastrica superficialis a arteria obturatoria accessoria",
-        e: "Arteria profunda femoris (přes a. perforanta prima) a arteria iliaca interna (přes a. iliaca interna samotnou)"
+        e: "Arteria profunda femoris (přes a. perforans prima) a arteria iliaca interna (přes a. iliaca interna)"
     },
     correct: "a",
     explanation: "Corona mortis je anastomóza mezi raménkem a. obturatoria (z a. iliaca interna) a a. epigastrica inferior (z a. iliaca externa). Chirurgicky nebezpečná je zejména její varianta, kdy a. obturatoria odstupuje celá přímo z a. epigastrica inferior a kříží linea terminalis."
   },
   en: {
-    stem: "During inguinal hernia surgery or acetabular fixation, there is a risk of massive bleeding from a vascular anomaly called corona mortis. This anastomosis, running across the superior pubic ramus, most commonly arises as a communication (or a direct atypical origin) between which two arterial trunks?",
+    stem: "During inguinal hernia surgery or acetabular fixation, there is a risk of massive bleeding from a vascular anomaly known as the corona mortis. This anastomosis, which runs across the superior pubic ramus, most commonly arises as a communication (or a direct atypical origin) between which two arterial vessels?",
     options: {
-        a: "Arteria iliaca interna (via the a. obturatoria) and arteria iliaca externa (via the a. epigastrica inferior)",
-        b: "Arteria iliaca interna (via the a. glutea inferior) and arteria femoralis (via the a. circumflexa femoris medialis)",
-        c: "Arteria iliaca externa (via the a. pudenda externa) and arteria iliaca interna (via the a. pudenda interna)",
-        d: "Arteria epigastrica superficialis and arteria obturatoria accessoria",
-        e: "Arteria profunda femoris (via the a. perforans prima) and arteria iliaca interna (via the a. iliaca interna itself)"
+        a: "Internal iliac artery (via the obturator artery) and external iliac artery (via the inferior epigastric artery)",
+        b: "Internal iliac artery (via the inferior gluteal artery) and femoral artery (via the medial circumflex femoral artery)",
+        c: "External iliac artery (via the external pudendal artery) and internal iliac artery (via the internal pudendal artery)",
+        d: "Superficial epigastric artery and accessory obturator artery",
+        e: "Deep femoral artery (via the first perforating artery) and internal iliac artery (via the internal iliac artery)"
     },
     correct: "a",
-    explanation: "Corona mortis is an anastomosis between a branch of the a. obturatoria (from the a. iliaca interna) and the a. epigastrica inferior (from the a. iliaca externa). Surgically dangerous is especially its variant in which the entire a. obturatoria arises directly from the a. epigastrica inferior and crosses the linea terminalis."
+    explanation: "The corona mortis is an anastomosis between a branch of the obturator artery (from the internal iliac artery) and the inferior epigastric artery (from the external iliac artery). It is particularly dangerous during surgery when the obturator artery arises directly from the inferior epigastric artery and crosses the terminal line."
   }
 },
 {
@@ -4001,33 +3947,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The m. iliopsoas arises from the union of the m. psoas major and m. iliacus, which, after passing beneath the inguinal ligament (lacuna musculorum), merge together and insert onto the trochanter minor of the femur, where they function as the main flexor of the hip joint."
-  }
-},
-{
-  id: 257,
-  cz: {
-    stem: "Které z následujících tvrzení správně popisuje inervaci m. psoas major a m. iliacus?",
-    options: {
-        a: "M. psoas major je inervován přímo z větví plexus lumbalis (L1–L3), zatímco m. iliacus je inervován z nervus femoralis (L2–L4).",
-        b: "Oba svaly jsou inervovány výhradně z nervus femoralis.",
-        c: "M. psoas major je inervován z nervus obturatorius a m. iliacus z nervus femoralis.",
-        d: "Oba svaly jsou inervovány přímo z plexus lumbalis.",
-        e: "M. psoas major je inervován z nervus femoralis, zatímco m. iliacus dostává inervaci z nervus ischiadicus."
-    },
-    correct: "a",
-    explanation: "M. psoas major je inervován přímo ze svalových větví (rami musculares) bederní pleteně (plexus lumbalis z kořenů L1–L3), zatímco m. iliacus inervuje nervus femoralis (z kořenů L2–L4)."
-  },
-  en: {
-    stem: "Which of the following statements correctly describes the innervation of the m. psoas major and m. iliacus?",
-    options: {
-        a: "The m. psoas major is innervated directly by branches of the plexus lumbalis (L1–L3), while the m. iliacus is innervated by the nervus femoralis (L2–L4).",
-        b: "Both muscles are innervated exclusively by the nervus femoralis.",
-        c: "The m. psoas major is innervated by the nervus obturatorius, and the m. iliacus by the nervus femoralis.",
-        d: "Both muscles are innervated directly by the plexus lumbalis.",
-        e: "The m. psoas major is innervated by the nervus femoralis, while the m. iliacus receives its innervation from the nervus ischiadicus."
-    },
-    correct: "a",
-    explanation: "The m. psoas major is innervated directly by muscular branches (rami musculares) of the plexus lumbalis (from roots L1–L3), while the m. iliacus is innervated by the nervus femoralis (from roots L2–L4)."
   }
 },
 {
@@ -4276,7 +4195,7 @@ const QUESTION_DATA = {
 {
   id: 267,
   cz: {
-    stem: "Která z následujících možností obsahuje výhradně nervy, které odstupují z křížové pleteně (plexus sacralis)?",
+    stem: "Která z následujících možností obsahuje výhradně nervy, které odstupují z plexus sacralis?",
     options: {
         a: "Nervus ischiadicus, nervus gluteus superior, nervus pudendus",
         b: "Nervus pudendus, nervus gluteus inferior, nervus obturatorius",
@@ -4285,10 +4204,10 @@ const QUESTION_DATA = {
         e: "Nervus genitofemoralis, nervus ischiadicus, nervus gluteus inferior"
     },
     correct: "a",
-    explanation: "Nervus ischiadicus, nervus gluteus superior i nervus pudendus (který odstupuje z pars pudenda plexus sacralis) patří kompletně pod křížovou pleteň. Chytáky z bederní pleteně zůstaly v ostatních možnostech stejné jako v předchozí otázce."
+    explanation: "Nervus ischiadicus, nervus gluteus superior a nervus pudendus odstupují z plexus sacralis."
   },
   en: {
-    stem: "Which of the following options contains exclusively nerves that arise from the sacral plexus (plexus sacralis)?",
+    stem: "Which of the following options contains exclusively nerves that arise from the sacral plexus?",
     options: {
         a: "Sciatic nerve, superior gluteal nerve, pudendal nerve",
         b: "Pudendal nerve, inferior gluteal nerve, obturator nerve",
@@ -4297,7 +4216,7 @@ const QUESTION_DATA = {
         e: "Genitofemoral nerve, sciatic nerve, inferior gluteal nerve"
     },
     correct: "a",
-    explanation: "Nervus ischiadicus, nervus gluteus superior and nervus pudendus (which arises from the pudendal part of the plexus sacralis) all belong entirely to the sacral plexus. The distractors from the lumbar plexus in the other options remain the same as in the previous question."
+    explanation: "The sciatic nerve, superior gluteal nerve, and pudendal nerve arise from the sacral plexus."
   }
 },
 {
@@ -4492,7 +4411,7 @@ const QUESTION_DATA = {
 {
   id: 294,
   cz: {
-    stem: "Při ortopedické rekonstrukci vnitřní strany kolene operatér preparuje šlachy tvořící úponovou strukturu zvanou pes anserinus superficialis. Na jakou konkrétní anatomickou strukturu se tyto svalové šlachy společně upínají?",
+    stem: "Při ortopedické rekonstrukci vnitřní strany kolene operatér preparuje šlachy tvořící úponovou strukturu zvanou pes anserinus. Na jakou konkrétní anatomickou strukturu se tyto svalové šlachy společně upínají?",
     options: {
         a: "Condylus medialis tibiae",
         b: "Condylus lateralis tibiae",
@@ -4501,10 +4420,10 @@ const QUESTION_DATA = {
         e: "Linea aspera femoris"
     },
     correct: "a",
-    explanation: "Pes anserinus superficialis označuje úpon svalů na condylus medialis tibiae (respektive těsně pod ním na mediální plochu tibie) a tvoří ho šlachy svalů m. sartorius, m. gracilis a m. semitendinosus."
+    explanation: "Pes anserinus označuje úpon svalů na condylus medialis tibiae (respektive těsně pod ním na mediální plochu tibie) a tvoří ho šlachy svalů m. sartorius, m. gracilis a m. semitendinosus."
   },
   en: {
-    stem: "During an orthopedic reconstruction of the medial side of the knee, the surgeon dissects the tendons forming the attachment structure known as the pes anserinus superficialis. To which specific anatomical structure do these muscle tendons collectively attach?",
+    stem: "During an orthopedic reconstruction of the medial side of the knee, the surgeon dissects the tendons forming the attachment structure known as the pes anserinus. To which specific anatomical structure do these muscle tendons insert?",
     options: {
         a: "Medial condyle of the tibia",
         b: "Lateral condyle of the tibia",
@@ -4513,7 +4432,7 @@ const QUESTION_DATA = {
         e: "Linea aspera of the femur"
     },
     correct: "a",
-    explanation: "Pes anserinus superficialis refers to the attachment of muscles on the medial condyle of the tibia (specifically just below it on the medial surface of the tibia) and is formed by the tendons of the muscles m. sartorius, m. gracilis, and m. semitendinosus."
+    explanation: "The pes anserinus refers to the attachment of muscles to the medial condyle of the tibia (more precisely, just below it on the medial surface of the tibia) and is formed by the tendons of the sartorius muscle, gracilis muscle, and semitendinosus muscle."
   }
 },
 {
@@ -4568,33 +4487,6 @@ const QUESTION_DATA = {
     },
     correct: "a",
     explanation: "The femoral triangle (trigonum femorale) is bounded proximally by the inguinal ligament, laterally by the border of m. sartorius, and medially by the border of m. adductor longus. M. sartorius runs from the lateral side toward the knee, so it forms the lateral boundary of the space. The medial boundary on the inner side of the thigh is therefore formed by the adductor muscle m. adductor longus."
-  }
-},
-{
-  id: 298,
-  cz: {
-    stem: "Dvaatřicetiletý fotbalista utrpěl tržnou ránu v oblasti tříselného záhybu a je vyšetřován na urgentním příjmu. Lékař potřebuje komprimovat femorální tepnu v oblasti trigonum femorale, aby zastavil krvácení. Která z následujících trojic struktur představuje přesné anatomické ohraničení tohoto topografického prostoru?",
-    options: {
-        a: "Proximálně: ligamentum inguinale; Laterálně: m. sartorius; Mediálně: m. adductor longus",
-        b: "Proximálně: ligamentum inguinale; Laterálně: m. adductor longus; Mediálně: m. sartorius",
-        c: "Proximálně: ligamentum inguinale; Laterálně: m. tensor fasciae latae; Mediálně: m. sartorius",
-        d: "Proximálně: m. pectineus; Laterálně: m. sartorius; Mediálně: m. adductor magnus",
-        e: "Proximálně: m. iliopsoas; Laterálně: m. sartorius; Mediálně: m. adductor longus"
-    },
-    correct: "a",
-    explanation: "Trigonum femorale je shora ohraničeno ligamentum inguinale, které slouží jako jeho proximální báze, z vnější strany ho limituje šikmo probíhající m. sartorius a z vnitřní strany pak m. adductor longus, přičemž tyto svaly se v dolním vrcholu trojúhelníku setkávají."
-  },
-  en: {
-    stem: "A 22-year-old soccer player sustained a laceration in the region of the inguinal fold and is examined in the emergency department. The physician needs to compress the femoral artery in the region of the femoral triangle (trigonum femorale) to stop the bleeding. Which of the following triads of structures represents the exact anatomical boundaries of this topographic space?",
-    options: {
-        a: "Proximally: inguinal ligament; Laterally: m. sartorius; Medially: m. adductor longus",
-        b: "Proximally: inguinal ligament; Laterally: m. adductor longus; Medially: m. sartorius",
-        c: "Proximally: inguinal ligament; Laterally: m. tensor fasciae latae; Medially: m. sartorius",
-        d: "Proximally: m. pectineus; Laterally: m. sartorius; Medially: m. adductor magnus",
-        e: "Proximally: m. iliopsoas; Laterally: m. sartorius; Medially: m. adductor longus"
-    },
-    correct: "a",
-    explanation: "The femoral triangle (trigonum femorale) is bounded superiorly by the inguinal ligament, which serves as its proximal base, laterally by the obliquely running m. sartorius, and medially by m. adductor longus, with these muscles meeting at the inferior apex of the triangle."
   }
 },
 {
@@ -4955,7 +4847,7 @@ const QUESTION_DATA = {
   {
     "id": 316,
     "cz": {
-      "stem": "65letý pacient podstupuje chirurgický výkon na dolní končetině. Během zákroku v oblasti distálního stehna je nutné vyhnout se poranění neurovaskulárních struktur probíhajících v kanálu mezi svaly stehna. Tento kanál slouží jako průchod pro hlavní cévní svazek mezi přední a zadní stranou stehna a končí průchodem přes hiatus adductorius. Která struktura tvoří laterální ohraničení canalis adductorius?",
+      "stem": "Která struktura tvoří laterální ohraničení canalis adductorius (Hunterův kanál)?",
       "options": {
         "a": "M. vastus medialis",
         "b": "M. adductor longus",
@@ -4964,19 +4856,19 @@ const QUESTION_DATA = {
         "e": "M. gracilis"
       },
       "correct": "a",
-      "explanation": "Canalis adductorius je vazivově-svalový kanál v distální části stehna, kterým prochází a. femoralis, v. femoralis a n. saphenus. Jeho laterální stěnu tvoří m. vastus medialis, zatímco zadní stěnu tvoří hlavně m. adductor longus a m. adductor magnus a kryt tvoří m. sartorius s lamina vastoadductoria. Správné určení hranic je důležité při poranění femorálních cév a nervů v oblasti stehna."
+      "explanation": "Canalis adductorius je vazivově-svalový kanál v distální části stehna, kterým prochází a. femoralis, v. femoralis a n. saphenus. Jeho laterální stěnu tvoří m. vastus medialis, zatímco zadní stěnu tvoří hlavně m. adductor longus a m. adductor magnus a kryt tvoří m. sartorius s lamina vastoadductoria."
     },
     "en": {
-      "stem": "A 65-year-old patient undergoes a surgical procedure on the lower limb. During the operation in the region of the distal thigh, it is necessary to avoid injury to the neurovascular structures passing through the canal between the thigh muscles. This canal serves as a passageway for the main vascular bundle between the anterior and posterior compartments of the thigh and ends by passing through the adductor hiatus. Which structure forms the lateral boundary of the adductor canal (canalis adductorius)?",
+      "stem": "Which structure forms the lateral boundary of the adductor canal (Hunter’s canal)?",
       "options": {
-        "a": "M. vastus medialis",
-        "b": "M. adductor longus",
-        "c": "M. sartorius",
-        "d": "M. pectineus",
-        "e": "M. gracilis"
+        "a": "Vastus medialis muscle",
+        "b": "Adductor longus muscle",
+        "c": "Sartorius muscle",
+        "d": "Pectineus muscle",
+        "e": "Gracilis muscle"
       },
       "correct": "a",
-      "explanation": "The adductor canal (canalis adductorius) is a fibromuscular canal in the distal part of the thigh through which the femoral artery, femoral vein, and saphenous nerve pass. Its lateral wall is formed by m. vastus medialis, while the posterior wall is mainly formed by m. adductor longus and m. adductor magnus, and the roof is formed by m. sartorius with the vastoadductor membrane (lamina vastoadductoria). Correct identification of its boundaries is important in cases of injury to the femoral vessels and nerves in the thigh region."
+      "explanation": "The adductor canal is a musculofascial canal in the distal thigh through which the femoral artery, femoral vein, and saphenous nerve pass. Its lateral wall is formed by the vastus medialis muscle, while its posterior wall is mainly formed by the adductor longus and adductor magnus muscles. The roof is formed by the sartorius muscle and the vastoadductor membrane."
     }
   },
   {
@@ -5144,7 +5036,7 @@ const QUESTION_DATA = {
   {
     "id": 326,
     "cz": {
-      "stem": "29letý muž utrpěl zlomeninu krčku femuru při pádu z výšky. Při následném vyšetření bylo zjištěno riziko avaskulární nekrózy hlavice femuru v důsledku poranění cévního zásobení této oblasti. Která tepna je nejdůležitějším zdrojem krve pro hlavici femuru u dospělého člověka a z jaké tepny typicky odstupuje?",
+      "stem": "Která tepna je nejdůležitějším zdrojem krve pro hlavici femuru a z jaké tepny typicky odstupuje?",
       "options": {
         "a": "A. circumflexa femoris medialis, odstupující z a. profunda femoris",
         "b": "A. obturatoria, odstupující z a. iliaca interna",
@@ -5153,19 +5045,19 @@ const QUESTION_DATA = {
         "e": "A. circumflexa femoris medialis, odstupující z a. femoralis"
       },
       "correct": "a",
-      "explanation": "U dospělých je hlavním cévním zásobením hlavice femuru a. circumflexa femoris medialis, jejíž hluboké větve probíhají podél krčku femuru a vstupují do hlavice přes retinakulární cévy. Tato tepna nejčastěji odstupuje z a. profunda femoris, která je hlubokou větví a. femoralis. Při zlomeninách krčku femuru může dojít k poškození těchto cév, což vede k poruše výživy hlavice a riziku avaskulární nekrózy."
+      "explanation": "Hlavním cévním zásobením hlavice femuru je a. circumflexa femoris medialis, jejíž hluboké větve probíhají podél krčku femuru a vstupují do hlavice. Tato tepna nejčastěji odstupuje z a. profunda femoris, která je hlubokou větví a. femoralis. Při zlomeninách krčku femuru může dojít k poškození těchto cév, což vede k poruše výživy hlavice a riziku avaskulární nekrózy."
     },
     "en": {
-      "stem": "A 29-year-old man sustained a fracture of the femoral neck after a fall from a height. During subsequent examination, a risk of avascular necrosis of the femoral head was identified due to damage to the blood supply of this region. Which artery is the most important source of blood supply for the femoral head in adults, and from which artery does it typically arise?",
+      "stem": "Which artery is the most important source of blood supply for the femoral head, and from which artery does it typically arise?",
       "options": {
-        "a": "Medial circumflex femoral artery (a. circumflexa femoris medialis), arising from the deep femoral artery (a. profunda femoris)",
-        "b": "Obturator artery (a. obturatoria), arising from the internal iliac artery (a. iliaca interna)",
-        "c": "Superior gluteal artery (a. glutea superior), arising from the internal iliac artery (a. iliaca interna)",
-        "d": "Lateral circumflex femoral artery (a. circumflexa femoris lateralis), arising from the femoral artery (a. femoralis)",
-        "e": "Medial circumflex femoral artery (a. circumflexa femoris medialis), arising from the femoral artery (a. femoralis)"
+        "a": "Medial circumflex femoral artery, arising from the deep femoral artery",
+        "b": "Obturator artery, arising from the internal iliac artery",
+        "c": "Superior gluteal artery, arising from the internal iliac artery",
+        "d": "Lateral circumflex femoral artery, arising from the femoral artery",
+        "e": "Medial circumflex femoral artery, arising from the femoral artery"
       },
       "correct": "a",
-      "explanation": "In adults, the main blood supply to the femoral head is provided by the medial circumflex femoral artery (a. circumflexa femoris medialis). Its deep branches run along the femoral neck and enter the femoral head through the retinacular vessels. This artery most commonly arises from the deep femoral artery (a. profunda femoris), which is a deep branch of the femoral artery (a. femoralis). Fractures of the femoral neck can damage these vessels, leading to impaired blood supply of the femoral head and an increased risk of avascular necrosis."
+      "explanation": "The main arterial supply to the head of the femur is provided by the medial circumflex femoral artery, whose deep branches run along the femoral neck and enter the femoral head. This artery most commonly arises from the deep femoral artery, which is a deep branch of the femoral artery. Fractures of the femoral neck can damage these vessels, leading to impaired blood supply to the femoral head and an increased risk of avascular necrosis."
     }
   },
   {
@@ -5291,7 +5183,7 @@ const QUESTION_DATA = {
       "explanation": "Nervus femoralis zajišťuje motorickou inervaci svalů přední skupiny stehna, zejména m. quadriceps femoris, který provádí extenzi kolenního kloubu. Zároveň poskytuje senzitivní inervaci přední strany stehna prostřednictvím svých kožních větví a pokračuje jako nervus saphenus pro mediální část bérce."
     },
     "en": {
-      "stem": "A 21-year-old patient sustained a stab wound in the region of the femoral triangle (trigonum femorale). Examination reveals impaired sensation on the anterior surface of the thigh and weakness of knee extension. Which structure was most likely damaged?",
+      "stem": "A 21-year-old patient sustained a stab wound in the region of the femoral triangle. Examination reveals impaired sensation on the anterior surface of the thigh and weakness of knee extension. Which structure was most likely damaged?",
       "options": {
         "a": "Femoral nerve",
         "b": "Obturator nerve",
@@ -5300,34 +5192,7 @@ const QUESTION_DATA = {
         "e": "Tibial nerve"
       },
       "correct": "a",
-      "explanation": "The femoral nerve (nervus femoralis) provides motor innervation to the muscles of the anterior compartment of the thigh, especially the quadriceps femoris muscle, which performs extension of the knee joint. It also provides sensory innervation to the anterior surface of the thigh through its cutaneous branches and continues as the saphenous nerve (nervus saphenus) supplying the medial aspect of the leg"
-    }
-  },
-  {
-    "id": 332,
-    "cz": {
-      "stem": "34letý pacient podstoupil operaci v oblasti mediální strany stehna. Po zákroku má obtíže s přitažením dolní končetiny k tělu a při vyšetření je oslabena addukce v kyčelním kloubu. Který nerv byl pravděpodobně poškozen?",
-      "options": {
-        "a": "Nervus obturatorius",
-        "b": "Nervus femoralis",
-        "c": "Nervus gluteus superior",
-        "d": "Nervus cutaneus femoris lateralis",
-        "e": "Nervus ischiadicus"
-      },
-      "correct": "a",
-      "explanation": "Nervus obturatorius zajišťuje motorickou inervaci svalů mediální skupiny stehna, které provádějí především addukci v kyčelním kloubu. Prochází canalis obturatorius a při jeho poškození dochází k oslabení přitažení stehna k tělu."
-    },
-    "en": {
-      "stem": "A 34-year-old patient underwent surgery on the medial side of the thigh. After the procedure, the patient has difficulty bringing the lower limb toward the body, and examination reveals weakness of hip adduction. Which nerve was most likely damaged?",
-      "options": {
-        "a": "Obturator nerve",
-        "b": "Femoral nerve",
-        "c": "Superior gluteal nerve",
-        "d": "Lateral femoral cutaneous nerve",
-        "e": "Sciatic nerve"
-      },
-      "correct": "a",
-      "explanation": "The obturator nerve (nervus obturatorius) provides motor innervation to the muscles of the medial compartment of the thigh, which mainly perform adduction at the hip joint. It passes through the obturator canal (canalis obturatorius), and damage to it results in weakness of bringing the thigh toward the body (hip adduction)."
+      "explanation": "The femoral nerve provides motor innervation to the muscles of the anterior compartment of the thigh, particularly the quadriceps femoris muscle, which extends the knee joint. It also provides sensory innervation to the anterior thigh through its cutaneous branches and continues as the saphenous nerve, supplying the medial part of the leg."
     }
   },
   {
@@ -6087,33 +5952,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 375,
-    "cz": {
-      "stem": "Při vyšetření svalů zadní skupiny bérce je zjištěno oslabení plantární flexe v hlezenním kloubu a oslabení flexe prstů 2.–5. prstu. Funkce palce a inverze nohy jsou zachovány. Který sval je nejpravděpodobněji postižen?",
-      "options": {
-        "a": "M. flexor digitorum longus",
-        "b": "M. flexor digitorum brevis",
-        "c": "M. tibialis posterior",
-        "d": "M. gastrocnemius",
-        "e": "M. soleus"
-      },
-      "correct": "a",
-      "explanation": "M. flexor digitorum longus patří do hluboké vrstvy zadní skupiny svalů bérce. Jeho hlavní funkcí je flexe prstů 2.–5. prstu a pomocná plantární flexe v hlezenním kloubu. Je inervován nervus tibialis."
-    },
-    "en": {
-      "stem": "During examination of the posterior compartment muscles of the leg, weakness of plantar flexion at the ankle joint and flexion of toes 2–5 is observed. Function of the great toe and inversion of the foot are preserved. Which muscle is most likely affected?",
-      "options": {
-        "a": "Flexor digitorum longus muscle",
-        "b": "Flexor digitorum brevis muscle",
-        "c": "Tibialis posterior muscle",
-        "d": "Gastrocnemius muscle",
-        "e": "Soleus muscle"
-      },
-      "correct": "a",
-      "explanation": "The flexor digitorum longus muscle belongs to the deep layer of the posterior compartment of the leg. Its main function is flexion of toes 2–5 and it assists in plantar flexion at the ankle joint. It is innervated by the tibial nerve."
-    }
-  },
-  {
     "id": 376,
     "cz": {
       "stem": "Při běhu dochází během odrazové fáze k výrazné aktivaci svalové skupiny na zadní straně bérce. U běžce s poraněním této svalové skupiny je výrazně oslaben odraz špičky od podložky a stoj na špičkách není možný. Která z následujících možností správně popisuje tuto svalovou skupinu?",
@@ -6168,33 +6006,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 378,
-    "cz": {
-      "stem": "M. gastrocnemius je tvořen dvěma hlavami, které mají rozdílný začátek v oblasti kolenního kloubu. Která z následujících možností správně popisuje jejich odstup?",
-      "options": {
-        "a": "Caput mediale odstupuje z epicondylus medialis femoris a caput laterale z epicondylus lateralis femoris",
-        "b": "Caput mediale odstupuje z epicondylus medialis tibiae a caput laterale z caput fibulae",
-        "c": "Caput mediale odstupuje z condylus medialis tibiae a caput laterale z condylus lateralis tibiae",
-        "d": "Caput mediale odstupuje z facies posterior tibiae a caput laterale z facies posterior fibulae",
-        "e": "Obě hlavy m. gastrocnemius odstupují od arcus tendineus m. solei"
-      },
-      "correct": "a",
-      "explanation": "Obě hlavy m. gastrocnemius začínají na femuru. Caput mediale odstupuje z oblasti epicondylus medialis femoris a caput laterale z oblasti epicondylus lateralis femoris. Následně se obě hlavy spojují se šlachou m. soleus a vytvářejí tendo calcaneus, který se upíná na tuber calcanei."
-    },
-    "en": {
-      "stem": "The gastrocnemius muscle consists of two heads that have different origins around the knee joint. Which of the following options correctly describes their origins?",
-      "options": {
-        "a": "The medial head originates from the medial epicondyle of the femur, and the lateral head originates from the lateral epicondyle of the femur",
-        "b": "The medial head originates from the medial epicondyle of the tibia, and the lateral head originates from the head of the fibula",
-        "c": "The medial head originates from the medial condyle of the tibia, and the lateral head originates from the lateral condyle of the tibia",
-        "d": "The medial head originates from the posterior surface of the tibia, and the lateral head originates from the posterior surface of the fibula",
-        "e": "Both heads of the gastrocnemius muscle originate from the tendinous arch of the soleus muscle"
-      },
-      "correct": "a",
-      "explanation": "Both heads of the gastrocnemius muscle originate from the femur. The medial head arises from the region of the medial epicondyle of the femur, and the lateral head arises from the region of the lateral epicondyle of the femur. Subsequently, both heads join with the tendon of the soleus muscle to form the calcaneal tendon (tendo calcaneus/Achilles tendon), which inserts onto the calcaneal tuberosity."
-    }
-  },
-  {
     "id": 379,
     "cz": {
       "stem": "Dvaadvacetiletý atlet si při sprintu poranil svalovou skupinu zadní strany bérce. Po vyšetření byla potvrzena léze m. triceps surae na pravé dolní končetině. Pacient udává obtíže při odrazu od podložky a při některých pohybech dolní končetiny. Která z následujících kombinací pohybů bude u tohoto pacienta nejvíce oslabena?",
@@ -6246,60 +6057,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "The described muscle complex corresponds to the triceps surae muscle (gastrocnemius and soleus muscles). Its tendon (calcaneal tendon, tendo calcaneus/Achilles tendon) inserts onto the calcaneal tuberosity (tuber calcanei). It does not attach to the talus or other parts of the calcaneus. This insertion allows transmission of force during plantar flexion at the ankle joint and is essential for push-off during running."
-    }
-  },
-  {
-    "id": 381,
-    "cz": {
-      "stem": "M. popliteus tvoří významnou část dna fossa poplitea a nachází se v hluboké vrstvě zadní skupiny svalů bérce. Při vyšetření pacienta po poranění této oblasti je hodnocena funkce tohoto svalu a jeho nervové zásobení. Která z následujících možností správně popisuje jeho funkci a inervaci?",
-      "options": {
-        "a": "Flexe v kolenním kloubu – inervace nervus tibialis",
-        "b": "Flexe v kolenním kloubu a zevní rotace tibie – inervace nervus tibialis",
-        "c": "Flexe v kolenním kloubu, zevní rotace tibie a inervace nervus fibularis profundus",
-        "d": "Extenze v kolenním kloubu – inervace nervus tibialis",
-        "e": "Flexe v kolenním kloubu – inervace nervus fibularis profundus"
-      },
-      "correct": "a",
-      "explanation": "M. popliteus tvoří dno fossa poplitea a patří do hluboké vrstvy zadní skupiny svalů bérce. Jeho hlavní funkcí je flexe v kolenním kloubu a „odemknutí“ kolene při zahájení pohybu. Je motoricky inervován nervus tibialis."
-    },
-    "en": {
-      "stem": "The popliteus muscle forms an important part of the floor of the popliteal fossa and is located in the deep layer of the posterior compartment of the leg. During examination of a patient after injury to this region, the function of this muscle and its nerve supply are assessed. Which of the following options correctly describes its function and innervation?",
-      "options": {
-        "a": "Flexion at the knee joint – innervation by the tibial nerve",
-        "b": "Flexion at the knee joint and external rotation of the tibia – innervation by the tibial nerve",
-        "c": "Flexion at the knee joint, external rotation of the tibia, and innervation by the deep fibular nerve",
-        "d": "Extension at the knee joint – innervation by the tibial nerve",
-        "e": "Flexion at the knee joint – innervation by the deep fibular nerve"
-      },
-      "correct": "a",
-      "explanation": "The popliteus muscle forms the floor of the popliteal fossa and belongs to the deep layer of the posterior compartment of the leg. Its main function is flexion at the knee joint and “unlocking” the knee at the beginning of movement. It is motorically innervated by the tibial nerve (nervus tibialis)."
-    }
-  },
-  {
-    "id": 382,
-    "cz": {
-      "stem": "Při vyšetření hluboké vrstvy zadní skupiny svalů bérce je hodnocen sval, jehož šlacha prochází jako první za mediálním kotníkem. Tento sval se významně podílí na stabilizaci mediální podélné klenby nohy. Která z následujících možností správně popisuje jeho úpon?",
-      "options": {
-        "a": "Tuberositas ossis navicularis",
-        "b": "Tuber calcanei prostřednictvím tendo calcaneus",
-        "c": "Tuberositas ossis metatarsalis V",
-        "d": "Basis ossis metatarsalis I a os cuneiforme mediale",
-        "e": "Basis ossis metatarsalis I a os cuneiforme laterale"
-      },
-      "correct": "a",
-      "explanation": "M. tibialis posterior má šlachu, která prochází jako první za mediálním kotníkem. Jeho hlavní úpon je na tuberositas ossis navicularis, odkud pokračují další menší úpony na ossa cuneiformia, os cuboideum a baze některých metatarzů. Je významným stabilizátorem mediální podélné klenby nohy."
-    },
-    "en": {
-      "stem": "During examination of the deep layer of the posterior compartment muscles of the leg, a muscle is evaluated whose tendon passes first behind the medial malleolus. This muscle plays an important role in stabilizing the medial longitudinal arch of the foot. Which of the following options correctly describes its insertion?",
-      "options": {
-        "a": "Tuberosity of the navicular bone",
-        "b": "Calcaneal tuberosity through the calcaneal tendon",
-        "c": "Tuberosity of the fifth metatarsal bone",
-        "d": "Base of the first metatarsal bone and medial cuneiform bone",
-        "e": "Base of the first metatarsal bone and lateral cuneiform bone"
-      },
-      "correct": "a",
-      "explanation": "The tibialis posterior muscle has a tendon that passes first behind the medial malleolus. Its main insertion is at the tuberosity of the navicular bone (tuberositas ossis navicularis), with additional smaller insertions on the cuneiform bones, cuboid bone, and bases of some metatarsals. It is an important stabilizer of the medial longitudinal arch of the foot."
     }
   },
   {
@@ -6530,7 +6287,7 @@ const QUESTION_DATA = {
         e: "Centrální oblast hýždě"
     },
     correct: "a",
-    explanation: "Doporučeným místem pro intramuskulární injekci do hýžďové oblasti je horní zevní kvadrant hýždě. Tato oblast minimalizuje riziko poranění n. ischiadicus, který probíhá v dolní mediální části gluteální oblasti. Alternativním bezpečnějším přístupem je ventrogluteální místo, které zahrnuje oblast nad svaly m. gluteus medius a m. gluteus minimus."
+    explanation: "Doporučeným místem pro intramuskulární injekci do hýžďové oblasti je horní zevní kvadrant hýždě. Tato oblast minimalizuje riziko poranění n. ischiadicus, který probíhá v dolní mediální části gluteální oblasti. Alternativním přístupem je ventrogluteální místo, které zahrnuje oblast nad svaly m. gluteus medius a m. gluteus minimus."
   },
   en: {
     stem: "Patient requires an intramuscular injection into the gluteal region. The physician wants to choose the safest injection site to avoid injury to major nerves and blood vessels. Into which quadrant of the buttock should the injection be administered?",
@@ -6542,7 +6299,7 @@ const QUESTION_DATA = {
         e: "Central region of the buttock"
     },
     correct: "a",
-    explanation: "The recommended site for a gluteal intramuscular injection is the upper lateral quadrant of the buttock. This area minimizes the risk of injury to the sciatic nerve, which runs through the inferior medial region of the gluteal area. An alternative safer approach is the ventrogluteal site, which targets the region over the gluteus medius and gluteus minimus muscles."
+    explanation: "The recommended site for a gluteal intramuscular injection is the upper lateral quadrant of the buttock. This area minimizes the risk of injury to the sciatic nerve, which runs through the inferior medial region of the gluteal area. An alternative approach is the ventrogluteal site, which targets the region over the gluteus medius and gluteus minimus muscles."
   }
 },
 {
@@ -6627,33 +6384,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 397,
-    "cz": {
-      "stem": "Při poranění v oblasti mediálního kotníku je nutné znát nejen průběh měkkých struktur, ale také kostěné žlábky, které usměrňují jejich průchod. Která z následujících možností správně popisuje kost a žlábek související se strukturami procházejícími za mediálním kotníkem?",
-      "options": {
-        "a": "Sulcus malleolaris medialis na tibii",
-        "b": "Sulcus malleolaris medialis na fibule",
-        "c": "Sulcus malleolaris medialis na talu",
-        "d": "Sulcus calcanei na calcaneu",
-        "e": "Sulcus malleolaris medialis na calcaneu"
-      },
-      "correct": "a",
-      "explanation": "Sulcus malleolaris medialis se nachází na tibii za mediálním kotníkem a slouží k vedení šlach hluboké zadní skupiny svalů bérce. V této oblasti probíhají m. tibialis posterior, m. flexor digitorum longus, m. flexor hallucis longus spolu s arteria tibialis posterior a nervus tibialis. Ostatní možnosti uvádějí nesprávné žlábky nebo struktury, které touto oblastí neprocházejí."
-    },
-    "en": {
-      "stem": "In injuries to the medial malleolus region, it is necessary to know not only the course of soft tissue structures but also the bony grooves that guide their passage. Which of the following options correctly describes the bone and the groove (sulcus) associated with the structures passing behind the medial malleolus?",
-      "options": {
-        "a": "Medial malleolar groove on the tibia",
-        "b": "Medial malleolar groove on the fibula",
-        "c": "Medial malleolar groove on the talus",
-        "d": "Calcaneal groove on the calcaneus",
-        "e": "Medial malleolar groove on the calcaneus"
-      },
-      "correct": "a",
-      "explanation": "The medial malleolar groove is located on the tibia behind the medial malleolus and serves to guide the tendons of the deep posterior compartment muscles of the leg. In this region, the tibialis posterior muscle, flexor digitorum longus muscle, and flexor hallucis longus muscle pass together with the posterior tibial artery and tibial nerve. The other options describe incorrect grooves or structures that do not pass through this area."
-    }
-  },
-  {
     "id": 398,
     "cz": {
       "stem": "Která z následujících možností správně popisuje struktury procházející před mediálním kotníkem?",
@@ -6705,33 +6435,6 @@ const QUESTION_DATA = {
       },
       "correct": "a",
       "explanation": "Behind the lateral malleolus, the tendons of the lateral compartment muscles of the leg pass, namely the fibularis longus and fibularis brevis muscles. They are located in the lateral malleolar groove on the fibula and stabilized by the fibular retinacula. The small saphenous vein also passes through this region accompanied by the sural nerve."
-    }
-  },
-  {
-    "id": 401,
-    "cz": {
-      "stem": "Na které kosti se nachází sulcus malleolaris lateralis?",
-      "options": {
-        "a": "Fibula",
-        "b": "Tibia",
-        "c": "Talus",
-        "d": "Calcaneus",
-        "e": "Os naviculare"
-      },
-      "correct": "a",
-      "explanation": "Sulcus malleolaris lateralis se nachází na fibule za laterálním kotníkem. Je určen pro průchod šlach m. fibularis longus a m. fibularis brevis, které jsou v této oblasti vedeny a stabilizovány retinaculy fibulárních svalů."
-    },
-    "en": {
-      "stem": "Which bone contains the lateral malleolar groove?",
-      "options": {
-        "a": "Fibula",
-        "b": "Tibia",
-        "c": "Talus",
-        "d": "Calcaneus",
-        "e": "Navicular bone"
-      },
-      "correct": "a",
-      "explanation": "The lateral malleolar groove is located on the fibula behind the lateral malleolus. It serves as a passage for the tendons of the fibularis longus and fibularis brevis muscles, which are guided and stabilized in this region by the fibular muscle retinacula."
     }
   },
   {
@@ -6978,33 +6681,6 @@ const QUESTION_DATA = {
     }
   },
   {
-    "id": 485,
-    "cz": {
-      "stem": "Pacient má po poranění plantární strany nohy oslabenou flexi prstů. Vyšetření ukazuje postižení svalu první vrstvy planty. Které tvrzení nejpřesněji popisuje jeho funkci?",
-      "options": {
-        "a": "Flexe 2.–5. prstu v proximálních interfalangeálních kloubech",
-        "b": "Flexe 2.–5. prstu v distálních interfalangeálních kloubech",
-        "c": "Flexe 1.–5. prstu v distálních interfalangeálních kloubech",
-        "d": "Flexe 1.–5. prstu v proximálních interfalangeálních kloubech",
-        "e": "Flexe pouze 2.–4. prstu v distálních interfalangeálních kloubech"
-      },
-      "correct": "a",
-      "explanation": "Musculus flexor digitorum brevis provádí flexi 2.–5. prst v proximálních interfalangeálních kloubech. Nezasahuje do funkce palce a jeho šlachy se upínají na střední články prstů, zatímco flexi distálních článků zajišťuje především musculus flexor digitorum longus."
-    },
-    "en": {
-      "stem": "A patient has weakened toe flexion after an injury to the plantar side of the foot. Examination shows involvement of a muscle from the first layer of the plantar muscles. Which statement most accurately describes its function?",
-      "options": {
-        "a": "Flexion of the 2nd–5th toes at the proximal interphalangeal joints",
-        "b": "Flexion of the 2nd–5th toes at the distal interphalangeal joints",
-        "c": "Flexion of the 1st–5th toes at the distal interphalangeal joints",
-        "d": "Flexion of the 1st–5th toes at the proximal interphalangeal joints",
-        "e": "Flexion of only the 2nd–4th toes at the distal interphalangeal joints"
-      },
-      "correct": "a",
-      "explanation": "The flexor digitorum brevis muscle performs flexion of the 2nd–5th toes at the proximal interphalangeal joints. It does not affect the function of the great toe, and its tendons insert on the middle phalanges of the toes, whereas flexion of the distal phalanges is primarily performed by the flexor digitorum longus muscle."
-    }
-  },
-  {
     "id": 486,
     "cz": {
       "stem": "Pacient po hlubokém poranění plantární strany nohy podstoupil rekonstrukční výkon v oblasti druhé vrstvy planty. Při následném vyšetření je hodnocena funkce jednotlivých svalů této oblasti. Které tvrzení nejpřesněji popisuje funkci musculus quadratus plantae?",
@@ -7124,7 +6800,7 @@ const QUESTION_DATA = {
         "e": "Nervus suralis – plexus lumbalis"
       },
       "correct": "a",
-      "explanation": "Hlavní část kůže dorsum pedis je inervována nervus fibularis superficialis, který původně vychází z plexus sacralis. Tento nerv zajišťuje senzorickou inervaci většiny hřbetu nohy, zatímco menší oblasti jsou zásobeny například nervus fibularis profundus, nervus saphenus a nervus suralis."
+      "explanation": "Většinu kůže dorsum pedis senzitivně zásobuje nervus fibularis superficialis, který je větví nervus fibularis communis. Ten pochází z plexus sacralis (kořeny L4–S2). Nervus fibularis profundus zásobuje malou oblast kůže mezi I. a II. prstem, nervus saphenus mediální okraj nohy a nervus suralis laterální okraj nohy."
     },
     "en": {
       "stem": "A patient undergoes a neurological examination after an injury in the region of the leg. The physician evaluates the sensation of the main part of the dorsum pedis, which is supplied by one of the major peripheral nerves of the lower limb. Which statement correctly describes the main sensory innervation of most of the dorsum pedis and its original origin from the nerve plexus?",
@@ -7136,7 +6812,7 @@ const QUESTION_DATA = {
         "e": "Sural nerve – lumbar plexus"
       },
       "correct": "a",
-      "explanation": "The main part of the skin of the dorsum pedis is innervated by the superficial fibular nerve, which originally arises from the sacral plexus. This nerve provides sensory innervation to most of the dorsum of the foot, while smaller areas are supplied, for example, by the deep fibular nerve, saphenous nerve, and sural nerve."
+      "explanation": "Most of the skin of the dorsum of the foot is supplied by the superficial fibular nerve, which is a branch of the common fibular nerve. The common fibular nerve originates from the sacral plexus (roots L4–S2). The deep fibular nerve supplies the small area of skin between the first and second toes, the saphenous nerve supplies the medial border of the foot, and the sural nerve supplies the lateral border of the foot."
     }
   },
   {
