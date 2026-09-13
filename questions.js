@@ -20592,6 +20592,62 @@ id: 269,
   },
   image: { key: "q1075_custom", source: "Hellerhoff. Pinealiszyste 32jw - MRT T2 sag - Annotation - 001.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Pinealiszyste_32jw_-_MRT_T2_sag_-_Annotation_-_001.jpg. CC BY-SA 3.0. Accessed 23 August 2026.", type: "image" }
 },
+{
+  id: 1120,
+  cz: {
+    stem: "Z jakého embryonálního základu pochází struktura označená na MR číslem 1?",
+    options: {
+        a: "Neuroektoderm diencefala",
+        b: "Ektoderm stomodea – Rathkeho výchlipka",
+        c: "Endoderm předního střeva",
+        d: "Mezoderm paraxiálního původu",
+        e: "Ektoderm neurální trubice"
+    },
+    correct: "b",
+    explanation: "Na přiloženém MRI číslo 1 označuje adenohypofýzu (přední lalok podvěsku mozkového). Číslo 2 označuje neurohypofýzu (zadní lalok podvěsku mozkového). Číslo 3 označuje thalamus. Číslo 4 označuje corpus callosum a číslo 5 označuje sinus sphenoidalis. Adenohypofýza vzniká z Rathkeho výchlipky, která se vyvíjí z ektodermu embryonálního stomodea. Naopak neurohypofýza vzniká z neuroektodermu diencefala jako ventrální výběžek hypothalamu."
+  },
+  en: {
+    stem: "Which embryological structure gives rise to the structure labeled 1 on the MRI?",
+    options: {
+        a: "Neuroectoderm of the diencephalon",
+        b: "Ectoderm of the stomodeum – Rathke's pouch",
+        c: "Endoderm of the foregut",
+        d: "Paraxial mesoderm",
+        e: "Ectoderm of the neural tube"
+    },
+    correct: "b",
+    explanation: "On the MRI, structure 1 indicates the adenohypophysis (anterior pituitary gland). Structure 2 indicates the neurohypophysis (posterior pituitary gland). Structure 3 indicates the thalamus. Structure 4 indicates the corpus callosum, and structure 5 indicates the sphenoidal sinus. The anterior pituitary gland develops from Rathke's pouch, which arises from the ectoderm of the embryonic stomodeum. In contrast, the posterior pituitary gland develops from the neuroectoderm of the diencephalon."
+  },
+  image: { key: "q1120_custom", source: "Hellerhoff. Hypophyse MRT sag.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Hypophyse_MRT_sag.png. CC BY-SA 3.0. Accessed 13 September 2026.", type: "image" }
+},
+{
+  id: 1121,
+  cz: {
+    stem: "Jaká struktura je vyznačena šipkou na přiloženém MRI mozku?",
+    options: {
+        a: "Thalamus",
+        b: "Hypothalamus",
+        c: "Nucleus caudatus",
+        d: "Putamen",
+        e: "Hippocampus"
+    },
+    correct: "a",
+    explanation: "Na přiloženém MRI mozku v sagitální rovině šipka označuje thalamus, párovou strukturu tvořící významnou část laterální stěny třetí komory. Thalamus je součástí diencefala a představuje významnou přepojovací oblast pro většinu senzorických drah směřujících do mozkové kůry."
+  },
+  en: {
+    stem: "Which structure is indicated by the arrow on the attached brain MRI?",
+    options: {
+        a: "Thalamus",
+        b: "Hypothalamus",
+        c: "Caudate nucleus",
+        d: "Putamen",
+        e: "Hippocampus"
+    },
+    correct: "a",
+    explanation: "On the attached sagittal brain MRI, the arrow indicates the thalamus, a paired structure that forms a significant part of the lateral wall of the third ventricle. The thalamus is part of the diencephalon and serves as an important relay station for most sensory pathways projecting to the cerebral cortex."
+  },
+  image: { key: "q1121_custom", source: "Chrischn. Brain chrischan thalamus.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brain_chrischan_thalamus.jpg. CC BY-SA 3.0. Accessed 13 September 2026.", type: "image" }
+},
         ]
       },
       telencephalon: {
@@ -34017,6 +34073,34 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The lateral vestibulospinal tract is a descending motor pathway originating from the lateral vestibular nucleus. It primarily contributes to maintaining balance, upright posture, and activation of antigravity extensor muscles. It is part of the system that transmits information from the vestibular apparatus to spinal motor neurons. The lateral spinothalamic tract carries pain and temperature. Precise voluntary movements of the fingers are primarily controlled by the lateral corticospinal tract. Vibration and proprioception are mainly carried by the dorsal columns, while auditory information is transmitted through the auditory pathway."
     }
   },
+  {
+  id: 10283,
+  cz: {
+    stem: "Z jakého embryonálního základu pochází struktura označená na MR číslem 2?",
+    options: {
+        a: "Neuroektoderm diencefala",
+        b: "Ektoderm stomodea – Rathkeho výchlipka",
+        c: "Endoderm předního střeva",
+        d: "Mezoderm paraxiálního původu",
+        e: "Ektoderm neurální trubice"
+    },
+    correct: "a",
+    explanation: "Na přiloženém MRI číslo 1 označuje adenohypofýzu (přední lalok podvěsku mozkového). Číslo 2 označuje neurohypofýzu (zadní lalok podvěsku mozkového). Číslo 3 označuje thalamus. Číslo 4 označuje corpus callosum a číslo 5 označuje sinus sphenoidalis. Neurohypofýza vzniká z neuroektodermu diencefala jako ventrální výběžek hypothalamu. Naopak adenohypofýza vzniká z Rathkeho výchlipky, která se vyvíjí z ektodermu embryonálního stomodea."
+  },
+  en: {
+    stem: "Which embryological structure gives rise to the structure labeled 2 on the MRI?",
+    options: {
+        a: "Neuroectoderm of the diencephalon",
+        b: "Ectoderm of the stomodeum – Rathke's pouch",
+        c: "Endoderm of the foregut",
+        d: "Paraxial mesoderm",
+        e: "Ectoderm of the neural tube"
+    },
+    correct: "a",
+    explanation: "On the MRI, structure 1 indicates the adenohypophysis (anterior pituitary gland). Structure 2 indicates the neurohypophysis (posterior pituitary gland). Structure 3 indicates the thalamus. Structure 4 indicates the corpus callosum, and structure 5 indicates the sphenoidal sinus. The posterior pituitary gland develops from the neuroectoderm of the diencephalon as a ventral outgrowth of the hypothalamus. In contrast, the anterior pituitary gland develops from Rathke's pouch, which arises from the ectoderm of the embryonic stomodeum."
+  },
+  image: { key: "q1120_custom", source: "Hellerhoff. Hypophyse MRT sag.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Hypophyse_MRT_sag.png. CC BY-SA 3.0. Accessed 13 September 2026.", type: "image" }
+},
     ]
     // =ANATOMIE_3_VERZE_3_END=
   }
