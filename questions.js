@@ -5760,34 +5760,6 @@ const QUESTION_DATA = {
   }
 },
 { 
-  id: 80,
-  cz: {
-    stem: "Mladý muž ve věku 24 let utrpěl při práci na stavbě pád z výšky, při kterém dopadl na nataženou horní končetinu s prudkou flexí trupu dopředu. Následně udává silnou bolest v oblasti dolní části zad a neschopnost se narovnat. Při fyzikálním vyšetření je patrná bolestivost v oblasti thorakolumbální fascie a oslabení extenze trupu. Který sval je nejvýznamnějším extenzorem páteře v této oblasti a jaká je jeho hlavní funkce?",
-    options: {
-      a: "m. erector spinae – bilaterální extenze páteře a udržení vzpřímeného postoje",
-      b: "m. latissimus dorsi – extenze páteře a abdukce trupu",
-      c: "m. trapezius – extenze bederní páteře a flexe krku",
-      d: "m. quadratus lumborum – extenze hrudní páteře a rotace trupu",
-      e: "m. gluteus maximus – extenze páteře a stabilizace pánve"
-    },
-    correct: "a",
-    explanation: "Nejvýznamnější svalovou skupinou pro extenzi páteře je m. erector spinae (m. iliocostalis, m. longissimus, m. spinalis). Jeho hlavní funkcí je bilaterální extenze páteře a udržení vzpřímeného postoje."
-  },
-  en: {
-    stem: "A 24-year-old construction worker fell from a height and landed on an outstretched hand with sudden forward flexion of the trunk. He reports severe lower back pain and difficulty standing upright. Physical examination reveals tenderness along the thoracolumbar fascia and weakness of trunk extension. Which muscle group is the most important extensor of the vertebral column in this region, and what is its primary function?",
-    options: {
-      a: "erector spinae – bilateral extension of the spine and maintenance of upright posture",
-      b: "latissimus dorsi – spinal extension and trunk abduction",
-      c: "trapezius – lumbar extension and neck flexion",
-      d: "quadratus lumborum – thoracic extension and trunk rotation",
-      e: "gluteus maximus – spinal extension and pelvic stabilization"
-    },
-    correct: "a",
-    explanation: "The most important muscle group responsible for spinal extension is the erector spinae muscle group (iliocostalis, longissimus, spinalis). Its functions include bilateral contraction leading to extension of the vertebral column and maintenance of upright posture."
-  }
-},
-
-{ 
   id: 81,
   cz: {
     stem: "Muž ve věku 35 let má po poranění v oblasti šíje oslabení elevace lopatek a potíže s rotací hlavy proti odporu. Při vyšetření je patrná atrofie horní části trapézového svalu. Který nerv je nejpravděpodobněji postižen?",
@@ -5818,7 +5790,7 @@ const QUESTION_DATA = {
 { 
   id: 82,
   cz: {
-    stem: "Muž ve věku 28 let si při silovém tréninku stěžuje na bolest v oblasti zadní strany ramene a oslabení extenze a addukce paže. Klinicky je patrná atrofie širokého zádového svalu. Který nerv je nejpravděpodobněji postižen?",
+    stem: "Muž ve věku 28 let si při silovém tréninku stěžuje na oslabení extenze a addukce paže. Klinicky je patrná atrofie širokého zádového svalu. Který nerv je nejpravděpodobněji postižen?",
     options: {
       a: "n. thoracodorsalis",
       b: "n. subscapularis",
@@ -5830,7 +5802,7 @@ const QUESTION_DATA = {
     explanation: "n. thoracodorsalis inervuje m. latissimus dorsi. Tento sval zajišťuje extenzi, addukci a vnitřní rotaci paže. Léze vede k oslabení těchto pohybů a atrofii svalu."
   },
   en: {
-    stem: "A 28-year-old man reports posterior shoulder pain and weakness of arm extension and adduction after weight training. Examination reveals atrophy of the latissimus dorsi muscle. Which nerve is most likely affected?",
+    stem: "A 28-year-old man reports weakness of arm extension and adduction after weight training. Examination reveals atrophy of the latissimus dorsi muscle. Which nerve is most likely affected?",
     options: {
       a: "thoracodorsal nerve",
       b: "subscapular nerve",
@@ -5871,33 +5843,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 86,
-  cz: {
-    stem: "Který vaz fixuje dens axis k zadní ploše přední oblouku atlasu a zabraňuje jeho posteriornímu posunu?",
-    options: {
-      a: "lig. apicis dentis",
-      b: "lig. transversum atlantis",
-      c: "lig. alaria",
-      d: "lig. longitudinale anterius",
-      e: "membrana tectoria"
-    },
-    correct: "b",
-    explanation: "Lig. transversum atlantis probíhá mezi vnitřními ploškami massae laterales atlasu a fixuje dens axis zezadu k arcus anterior atlantis. Jeho ruptura (např. při traumatu nebo u revmatoidní artritidy) umožňuje posteriorní posun dens axis do canalis vertebralis s rizikem komprese míchy."
-  },
-  en: {
-    stem: "Which ligament anchors the dens of the axis to the posterior surface of the anterior arch of the atlas and prevents its posterior displacement?",
-    options: {
-      a: "apical ligament of the dens",
-      b: "transverse ligament of the atlas",
-      c: "alar ligaments",
-      d: "anterior longitudinal ligament",
-      e: "tectorial membrane"
-    },
-    correct: "b",
-    explanation: "The transverse ligament of the atlas runs between the medial surfaces of the lateral masses of the atlas and secures the dens of the axis posteriorly to the anterior arch of the atlas. Its rupture (e.g., in trauma or rheumatoid arthritis) allows posterior displacement of the dens into the vertebral canal with a risk of spinal cord compression."
-  }
-},
-{
   id: 87,
   cz: {
     stem: "Anulus fibrosus meziobratlové ploténky je v posterolaterální oblasti relativně slabší než vpředu, což predisponuje k tomuto směru herniace. Které struktury vpředu zpevňují anulus a brání anteriorní herniaci?",
@@ -5912,70 +5857,16 @@ const QUESTION_DATA = {
     explanation: "Lig. longitudinale anterius probíhá po přední ploše těl obratlů a je široké a pevné, čímž účinně brání anteriorní herniaci disku. Naproti tomu lig. longitudinale posterius je v lumbální oblasti užší, nepokrývá laterální okraje plotének v celé šíři, a proto je zadní (zejména posterolaterální) herniace disku mnohem častější."
   },
   en: {
-    stem: "The annulus fibrosus of the intervertebral disc is relatively weaker in the posterolateral region compared to the anterior aspect, predisposing disc herniation in this direction. Which anterior structure reinforces the annulus fibrosus and prevents anterior herniation?",
+    stem: "The annulus fibrosus of the intervertebral disc is relatively weaker in the posterolateral region than anteriorly, predisposing to herniation in this direction. Which structure reinforces the annulus anteriorly and helps prevent anterior disc herniation?",
     options: {
       a: "ligamentum flavum",
-      b: "anterior longitudinal ligament (ligamentum longitudinale anterius)",
-      c: "interspinous ligament (ligamentum interspinale)",
-      d: "supraspinous ligament (ligamentum supraspinale)",
+      b: "anterior longitudinal ligament",
+      c: "interspinous ligament",
+      d: "supraspinous ligament",
       e: "capsular ligament of facet joints"
     },
     correct: "b",
-    explanation: "The ligamentum longitudinale anterius runs along the anterior surfaces of the vertebral bodies and is broad and strong, effectively preventing anterior disc herniation. In contrast, the posterior longitudinal ligament is narrower (especially in the lumbar region) and does not fully cover the lateral disc margins, which explains why posterior and especially posterolateral disc herniations are much more common."
-  }
-},
-{
-  id: 88,
-  cz: {
-    stem: "Lig. flavum spojuje sousední laminae arcus vertebrae a je tvořeno převážně elastickými vlákny. Jaký je jeho hlavní funkční význam?",
-    options: {
-      a: "zabraňuje extenzi páteře",
-      b: "umožňuje návrat páteře do vzpřímené polohy po flexi a udržuje napětí během pohybu",
-      c: "tvoří hlavní oporu pro meziobratlovou ploténku",
-      d: "fixuje žebra k obratlům",
-      e: "nemá žádnou mechanickou funkci"
-    },
-    correct: "b",
-    explanation: "Lig. flavum je díky vysokému obsahu elastinu schopno se při flexi páteře natáhnout a poté pružně vrátit páteř do vzpřímené polohy, čímž šetří svalovou práci. Jeho hypertrofie (často degenerativní, s věkem) je jednou z hlavních příčin spinální stenózy, zejména v lumbální oblasti."
-  },
-  en: {
-    stem: "The ligamentum flavum connects adjacent laminae of the vertebral arches and is composed predominantly of elastic fibers. What is its main functional significance?",
-    options: {
-      a: "it prevents extension of the spine",
-      b: "it allows the spine to return to the upright position after flexion and maintains tension during movement",
-      c: "it provides the main support for the intervertebral disc",
-      d: "it anchors the ribs to the vertebrae",
-      e: "it has no mechanical function"
-    },
-    correct: "b",
-    explanation: "The ligamentum flavum, due to its high elastin content, is able to stretch during spinal flexion and then elastically recoil, helping to return the spine to the upright position and reducing the need for muscular effort. Its hypertrophy (often degenerative with age) is one of the main causes of spinal stenosis, especially in the lumbar region."
-  }
-},
-{
-  id: 89,
-  cz: {
-    stem: "M. latissimus dorsi se podílí na addukci, vnitřní rotaci a extenzi v ramenním kloubu. Kterým nervem je inervován?",
-    options: {
-      a: "n. axillaris",
-      b: "n. thoracodorsalis",
-      c: "n. dorsalis scapulae",
-      d: "n. subscapularis",
-      e: "n. musculocutaneus"
-    },
-    correct: "b",
-    explanation: "M. latissimus dorsi je inervován n. thoracodorsalis (z fasciculus posterior plexus brachialis, kořeny C6–C8), probíhajícím spolu s a. thoracodorsalis po jeho přední ploše. Tento nerv je klíčovým landmarkem při axilární lymfadenektomii, kde musí být šetřen."
-  },
-  en: {
-    stem: "The latissimus dorsi muscle contributes to adduction, internal rotation, and extension of the shoulder joint. Which nerve innervates it?",
-    options: {
-      a: "axillary nerve (n. axillaris)",
-      b: "thoracodorsal nerve (n. thoracodorsalis)",
-      c: "dorsal scapular nerve (n. dorsalis scapulae)",
-      d: "subscapular nerve (n. subscapularis)",
-      e: "musculocutaneous nerve (n. musculocutaneus)"
-    },
-    correct: "b",
-    explanation: "The latissimus dorsi is innervated by the thoracodorsal nerve (from the posterior cord of the brachial plexus, roots C6–C8), which runs together with the thoracodorsal vessels along its deep surface. This nerve is an important landmark in axillary lymph node dissection, where it must be preserved."
+    explanation: "The anterior longitudinal ligament runs along the anterior surface of the vertebral bodies and is broad and strong, effectively preventing anterior disc herniation. In contrast, the posterior longitudinal ligament is narrower in the lumbar region and does not fully cover the lateral margins of the discs, making posterior, particularly posterolateral, disc herniation much more common."
   }
 },
 {
@@ -6047,16 +5938,16 @@ const QUESTION_DATA = {
     explanation: "M. erector spinae se skládá ze tří sloupců uspořádaných od laterální k mediální straně: m. iliocostalis (nejlaterálněji), m. longissimus (intermediárně) a m. spinalis (nejmediálněji, nejblíže processus spinosi). Mnemotechnicky lze použít „I Love Spine“ (Iliocostalis, Longissimus, Spinalis) ve směru laterálně-mediálně."
   },
   en: {
-    stem: "The erector spinae muscle consists of three longitudinal columns arranged from medial to lateral. What is this order?",
+    stem: "The erector spinae muscle consists of three longitudinal columns of muscles arranged from medial to lateral. What is the correct order?",
     options: {
-      a: "m. iliocostalis – m. longissimus – m. spinalis",
-      b: "m. spinalis – m. iliocostalis – m. longissimus",
-      c: "m. spinalis – m. longissimus – m. iliocostalis",
-      d: "m. longissimus – m. spinalis – m. iliocostalis",
-      e: "m. longissimus – m. iliocostalis – m. spinalis"
+      a: "Iliocostalis muscle – longissimus muscle – spinalis muscle",
+      b: "Spinalis muscle – iliocostalis muscle – longissimus muscle",
+      c: "Spinalis muscle – longissimus muscle – iliocostalis muscle",
+      d: "Longissimus muscle – spinalis muscle – iliocostalis muscle",
+      e: "Longissimus muscle – iliocostalis muscle – spinalis muscle"
     },
     correct: "c",
-    explanation: "The erector spinae consists of three columns arranged from lateral to medial: m. iliocostalis (most lateral), m. longissimus (intermediate), and m. spinalis (most medial, closest to the spinous processes). A useful mnemonic is “I Love Spine” (Iliocostalis, Longissimus, Spinalis) in the lateral-to-medial direction."
+    explanation: "The erector spinae muscle consists of three columns arranged from lateral to medial: the iliocostalis muscle (most lateral), the longissimus muscle (intermediate), and the spinalis muscle (most medial, closest to the spinous processes). A useful mnemonic is “I Love Spine” (Iliocostalis, Longissimus, Spinalis), from lateral to medial."
   }
 },
 {
@@ -6089,7 +5980,7 @@ const QUESTION_DATA = {
 {
   id: 94,
   cz: {
-    stem: "Obratel s výrazně dlouhým a hmatným processus spinosus, který slouží jako důležitý povrchový orientační bod na krku a je snadno palpační i při flexi šíje. O jaký obratel se jedná?",
+    stem: "Obratel s výrazně dlouhým a hmatným processus spinosus, který slouží jako důležitý povrchový orientační bod na krku a je snadno palpovatelný i při flexi šíje. O jaký obratel se jedná?",
     options: {
       a: "C1",
       b: "C2",
@@ -6098,7 +5989,7 @@ const QUESTION_DATA = {
       e: "C7"
     },
     correct: "e",
-    explanation: "C7 „vertebra prominens“ má nejvýraznější processus spinosus z krčních obratlů, který je dlouhý, nezaniká při flexi krku a je dobře hmatný. Proto se využívá jako klíčový orientační bod na přechodu krční a hrudní páteře."
+    explanation: "C7 „vertebra prominens“ má nejvýraznější processus spinosus z krčních obratlů, který je dlouhý a dobře hmatný. Proto se využívá jako klíčový orientační bod na přechodu krční a hrudní páteře."
   },
   en: {
     stem: "A vertebra with a markedly long and palpable spinous process, which serves as an important superficial anatomical landmark in the neck and remains easily palpable even during neck flexion. Which vertebra is it?",
@@ -6110,7 +6001,7 @@ const QUESTION_DATA = {
       e: "C7"
     },
     correct: "e",
-    explanation: "C7 (“vertebra prominens”) has the most prominent spinous process among the cervical vertebrae. It is long and remains palpable even during neck flexion (unlike C6, whose spinous process tends to become less distinct). Therefore, it serves as a key landmark at the cervicothoracic transition."
+    explanation: "C7 (“vertebra prominens”) has the most prominent spinous process among the cervical vertebrae. It is long and remains palpable even during neck flexion. Therefore, it serves as a key landmark at the cervicothoracic transition."
   }
 },
 {
@@ -6141,33 +6032,6 @@ const QUESTION_DATA = {
   }
 },
 {
-  id: 96,
-  cz: {
-    stem: "Costovertebrální klouby spojují hlavičku žebra s tělem obratle (resp. těly dvou sousedních obratlů u žeber 2–10) a costotransverzální klouby spojují tuberculum žebra s processus transversus. Jaký je funkční význam těchto kloubů?",
-    options: {
-      a: "umožňují pouze flexi/extenzi páteře",
-      b: "umožňují pohyb žeber při dýchání (elevaci a depresi)",
-      c: "fixují lopatku k hrudníku",
-      d: "nemají žádnou pohybovou funkci, jsou pevně srostlé",
-      e: "umožňují pouze rotaci krční páteře"
-    },
-    correct: "b",
-    explanation: "Articulationes costovertebrales a costotransversariae umožňují drobné rotační pohyby žeber kolem osy procházející oběma klouby, čímž se při nádechu žebra elevují a rotují, zvětšujíc objem hrudníku (tzv. „pump-handle“ a „bucket-handle“ pohyb u horních, resp. dolních žeber). Tyto klouby jsou tedy klíčové pro mechaniku dýchání."
-  },
-  en: {
-    stem: "The costovertebral joints connect the head of a rib with the vertebral body (or the bodies of two adjacent vertebrae in ribs 2–10), and the costotransverse joints connect the tubercle of the rib with the transverse process. What is the functional significance of these joints?",
-    options: {
-      a: "they allow only flexion/extension of the spine",
-      b: "they allow movement of the ribs during respiration (elevation and depression)",
-      c: "they fix the scapula to the thorax",
-      d: "they have no movement function and are fused",
-      e: "they allow only rotation of the cervical spine"
-    },
-    correct: "b",
-    explanation: "The costovertebral and costotransverse joints allow small rotational movements of the ribs around an axis passing through both joints, enabling rib elevation and rotation during inspiration, which increases thoracic volume (the “pump-handle” mechanism in upper ribs and the “bucket-handle” mechanism in lower ribs). These joints are therefore essential for respiratory mechanics."
-  }
-},
-{
   id: 97,
   cz: {
     stem: "Atlantookcipitální kloub mezi condyli occipitales a fossae articulares superiores atlasu umožňuje primárně jaký pohyb hlavy?",
@@ -6179,7 +6043,7 @@ const QUESTION_DATA = {
       e: "žádný pohyb, jde o synostózu"
     },
     correct: "b",
-    explanation: "Articulatio atlantooccipitalis je kondylární kloub umožňující především flexi a extenzi hlavy (přikyvovací pohyb, tzv. „yes“ kloub). Naproti tomu rotace hlavy (přibližně polovina celkové rotace krční páteře, „no“ pohyb) se odehrává primárně v articulatio atlantoaxialis mediana mezi dens axis a atlasem."
+    explanation: "Articulatio atlantooccipitalis je kondylární kloub umožňující především flexi a extenzi hlavy (přikyvovací pohyb). Naproti tomu rotace hlavy (přibližně polovina celkové rotace krční páteře, „no“ pohyb) se odehrává primárně v articulatio atlantoaxialis mediana mezi dens axis a atlasem."
   },
   en: {
     stem: "The atlanto-occipital joint between the occipital condyles and the superior articular facets of the atlas primarily allows which head movement?",
@@ -6209,25 +6073,25 @@ const QUESTION_DATA = {
     explanation: "Trigonum suboccipitale je ohraničeno třemi svaly: m. rectus capitis posterior major (mediálně-superiorně), m. obliquus capitis superior (superolaterálně) a m. obliquus capitis inferior (inferolaterálně). Tvoří hluboký triangulární prostor, jehož dno je tvořeno zadním obloukem atlasu a membrana atlantooccipitalis posterior."
   },
   en: {
-    stem: "The suboccipital triangle is a deep region in the upper part of the neck through which the vertebral artery and the suboccipital nerve pass. Which of the following combinations correctly describes its boundaries?",
+    stem: "The suboccipital triangle is a deep region in the upper neck containing the vertebral artery and suboccipital nerve. Which of the following combinations correctly describes its boundaries?",
     options: {
-      a: "m. semispinalis capitis – m. longissimus capitis – m. splenius capitis",
-      b: "m. rectus capitis posterior major – m. obliquus capitis superior – m. semispinalis capitis",
-      c: "m. rectus capitis posterior major – m. obliquus capitis superior – m. obliquus capitis inferior",
-      d: "m. splenius capitis – m. obliquus capitis inferior – m. rectus capitis posterior minor",
-      e: "m. longissimus capitis – m. rectus capitis posterior minor – m. splenius cervicis"
+      a: "Semispinalis capitis muscle – longissimus capitis muscle – splenius capitis muscle",
+      b: "Rectus capitis posterior major muscle – obliquus capitis superior muscle – semispinalis capitis muscle",
+      c: "Rectus capitis posterior major muscle – obliquus capitis superior muscle – obliquus capitis inferior muscle",
+      d: "Splenius capitis muscle – obliquus capitis inferior muscle – rectus capitis posterior minor muscle",
+      e: "Longissimus capitis muscle – rectus capitis posterior minor muscle – splenius cervicis muscle"
     },
     correct: "c",
-    explanation: "The suboccipital triangle is bounded by three muscles: m. rectus capitis posterior major (medially and superiorly), m. obliquus capitis superior (superolaterally), and m. obliquus capitis inferior (inferolaterally). It forms a deep triangular space whose floor is the posterior arch of the atlas and the posterior atlanto-occipital membrane."
+    explanation: "The suboccipital triangle is bounded by three muscles: the rectus capitis posterior major muscle medially and superiorly, the obliquus capitis superior muscle superolaterally, and the obliquus capitis inferior muscle inferolaterally. It forms a deep triangular space whose floor is formed by the posterior arch of the atlas and the posterior atlanto-occipital membrane."
   }
 },
 {
   id: 99,
   cz: {
-    stem: "Trigonum suboccipitale je ohraničeno třemi krátkými svaly (mm. rectus capitis posterior major, obliquus capitis superior et inferior) a obsahuje a. vertebralis a nerv probíhající v jeho dně. O který nerv se jedná?",
+    stem: "Trigonum suboccipitale je ohraničeno třemi krátkými svaly (m. rectus capitis posterior major, m. obliquus capitis superior et inferior) a obsahuje a. vertebralis a nerv probíhající v jeho dně. O který nerv se jedná?",
     options: {
-      a: "n. occipitalis major (ramus dorsalis C2)",
-      b: "n. occipitalis minor (z plexus cervicalis)",
+      a: "n. occipitalis major",
+      b: "n. occipitalis minor",
       c: "n. accessorius",
       d: "n. vagus",
       e: "n. auricularis magnus"
@@ -6236,13 +6100,13 @@ const QUESTION_DATA = {
     explanation: "N. suboccipitalis (ramus dorsalis C1, čistě motorický) inervuje svaly suboccipitálního trojúhelníku, zatímco n. occipitalis major (ramus dorsalis C2) prochází přes nebo pod m. obliquus capitis inferior tímto trojúhelníkem a poskytuje senzorickou inervaci kůže záhlaví. Jeho komprese nebo iritace (např. svalovým spasmem) je jednou z příčin tzv. okcipitální neuralgie."
   },
   en: {
-    stem: "The suboccipital triangle is bounded by three short muscles (m. rectus capitis posterior major, m. obliquus capitis superior et inferior) and contains the vertebral artery and a nerve passing through its floor. Which nerve is it?",
+    stem: "The suboccipital triangle is bounded by three short muscles (rectus capitis posterior major, obliquus capitis superior et inferior) and contains the vertebral artery and a nerve passing through its floor. Which nerve is it?",
     options: {
-      a: "greater occipital nerve (n. occipitalis major; dorsal ramus of C2)",
-      b: "lesser occipital nerve (from the cervical plexus)",
-      c: "accessory nerve (n. accessorius)",
-      d: "vagus nerve (n. vagus)",
-      e: "great auricular nerve (n. auricularis magnus)"
+      a: "greater occipital nerve",
+      b: "lesser occipital nerve",
+      c: "accessory nerve",
+      d: "vagus nerve",
+      e: "great auricular nerve"
     },
     correct: "a",
     explanation: "The suboccipital nerve (dorsal ramus of C1) is purely motor and innervates the muscles of the suboccipital triangle. In contrast, the greater occipital nerve (dorsal ramus of C2) passes through or inferior to m. obliquus capitis inferior within this region and provides sensory innervation to the skin of the occiput. Its compression or irritation (e.g., due to muscle spasm) is a common cause of occipital neuralgia."
@@ -6290,13 +6154,13 @@ const QUESTION_DATA = {
     explanation: "Articulatio sacroiliaca je amfiartróza (kombinace synoviálního kloubu a silných vazů) s velmi omezeným rozsahem pohybu, jejíž hlavní funkcí je stabilní přenos váhy trupu z páteře přes pánev na dolní končetiny. Je zpevněna mohutnými vazy (lig. sacroiliacum anterius, interosseum, posterius) a bývá typickým místem postižení u ankylozující spondylitidy (sakroiliitida)."
   },
   en: {
-    stem: "The sacroiliac joint (articulatio sacroiliaca) connects the auricular surface of the sacrum and the ilium. What type of joint is it?",
+    stem: "The sacroiliac joint connects the auricular surface of the sacrum and the ilium. What type of joint is it?",
     options: {
-      a: "ellipsoid joint (articulatio ellipsoidea)",
+      a: "ellipsoid joint",
       b: "amphiarthrosis",
       c: "synostosis",
-      d: "hinge joint (ginglymus)",
-      e: "saddle joint (articulatio sellaris)"
+      d: "hinge joint",
+      e: "saddle joint"
     },
     correct: "b",
     explanation: "The sacroiliac joint is an amphiarthrosis (a combination of a synovial joint with strong ligaments) with very limited range of motion. Its main function is the stable transfer of body weight from the spine through the pelvis to the lower limbs. It is reinforced by strong ligaments (anterior, interosseous, and posterior sacroiliac ligaments) and is a typical site of involvement in ankylosing spondylitis (sacroiliitis)."
@@ -6319,11 +6183,11 @@ const QUESTION_DATA = {
   en: {
     stem: "The levator scapulae muscle originates from the transverse processes of C1–C4 and inserts on the superior angle of the scapula, thereby allowing scapular elevation. Which nerves innervate it?",
     options: {
-      a: "accessory nerve (n. accessorius)",
+      a: "accessory nerve",
       b: "dorsal scapular nerve and direct branches from the cervical plexus (C3–C4)",
       c: "long thoracic nerve and direct branches from the cervical plexus (C5–C6)",
       d: "only direct branches from the cervical plexus (C5–C6)",
-      e: "axillary nerve (n. axillaris)"
+      e: "axillary nerve"
     },
     correct: "b",
     explanation: "The levator scapulae muscle has dual innervation: the dorsal scapular nerve (from the C5 root) and direct branches from the cervical plexus (C3–C4). This reflects its transitional developmental position between the neck muscles and the muscles of the upper limb."
@@ -6441,7 +6305,7 @@ id: 269,
           {
     "id": 843,
     "cz": {
-      "stem": "Profesor anatomie během praktického cvičení ukazuje studentům kostěný preparát obratle. Upozorňuje na processus transversus, který je rozdělen na tuberculum anterius et tuberculum posterius. K jakému typu obratle tento preparát patří?",
+      "stem": "Který typ obratle má processus transversus rozdělený na tuberculum anterius a tuberculum posterius?",
       "options": {
         "a": "Vertebra cervicalis",
         "b": "Vertebra thoracica",
@@ -6453,7 +6317,7 @@ id: 269,
       "explanation": "Přítomnost tuberculum anterius et tuberculum posterius processus transversi je charakteristickým znakem typických krčních obratlů (C3–C6). Tyto struktury společně se sulcus nervi spinalis umožňují průchod míšního nervu přes processus transversus. Hrudní a bederní obratle tuto stavbu processus transversus nemají. Atlas a axis jsou atypické krční obratle se specifickou stavbou."
     },
     "en": {
-      "stem": "During a practical anatomy class, a professor shows students a skeletal vertebra specimen. He points out the processus transversus, which is divided into the tuberculum anterius and tuberculum posterius. Which type of vertebra does this specimen belong to?",
+      "stem": "Which type of vertebra has a transverse process divided into an anterior tubercle and a posterior tubercle?",
       "options": {
         "a": "Cervical vertebra",
         "b": "Thoracic vertebra",
@@ -6462,40 +6326,13 @@ id: 269,
         "e": "Axis (C2)"
       },
       "correct": "a",
-      "explanation": "The presence of tuberculum anterius and tuberculum posterius of the processus transversus is a characteristic feature of typical cervical vertebrae (C3–C6). These structures, together with the sulcus nervi spinalis, allow the passage of the spinal nerve through the processus transversus. Thoracic and lumbar vertebrae do not have this structure of the processus transversus. The atlas and axis are atypical cervical vertebrae with a specific structure."
-    }
-  },
-  {
-    "id": 844,
-    "cz": {
-      "stem": "Pacient podstupuje CT vyšetření krční páteře po traumatu. Radiolog popisuje přítomnost foramen transversarium v processus transversus krčního obratle. Která z následujících struktur tímto otvorem prochází a na úrovni kterého obratle vstupuje do tohoto prostoru?",
-      "options": {
-        "a": "Arteria vertebralis, která vstupuje do foramen transversarium vertebrae cervicalis VI (C6)",
-        "b": "Arteria vertebralis, která vstupuje do foramen transversarium vertebrae cervicalis VII (C7)",
-        "c": "Arteria spinalis anterior, která vstupuje do foramen transversarium vertebrae cervicalis I (C1)",
-        "d": "Arteria subclavia, která vstupuje do foramen transversarium vertebrae cervicalis VII (C7)",
-        "e": "Arteria occipitalis, která vstupuje do foramen transversarium vertebrae cervicalis II (C2)"
-      },
-      "correct": "a",
-      "explanation": "Arteria vertebralis vstupuje do foramen transversarium typicky na úrovni C6 a následně vystupuje kraniálně skrze otvory v processus transversi až k atlasu (C1), kde se stáčí a vstupuje do dutiny lební přes foramen magnum. Tato charakteristika je typická pro krční obratle."
-    },
-    "en": {
-      "stem": "A patient undergoes a CT examination of the cervical spine after trauma. The radiologist describes the presence of the foramen transversarium in the processus transversus of a cervical vertebra. Which of the following structures passes through this opening and at which vertebral level does it enter this space?",
-      "options": {
-        "a": "Arteria vertebralis, which enters the foramen transversarium of vertebra cervicalis VI (C6)",
-        "b": "Arteria vertebralis, which enters the foramen transversarium of vertebra cervicalis VII (C7)",
-        "c": "Arteria spinalis anterior, which enters the foramen transversarium of vertebra cervicalis I (C1)",
-        "d": "Arteria subclavia, which enters the foramen transversarium of vertebra cervicalis VII (C7)",
-        "e": "Arteria occipitalis, which enters the foramen transversarium of vertebra cervicalis II (C2)"
-      },
-      "correct": "a",
-      "explanation": "The arteria vertebralis typically enters the foramen transversarium at the level of C6 and then ascends cranially through the openings in the processus transversi up to the atlas (C1), where it turns and enters the cranial cavity through the foramen magnum. This characteristic is typical of cervical vertebrae."
+      "explanation": "The presence of an anterior tubercle and posterior tubercle of the transverse process is a characteristic feature of typical cervical vertebrae (C3–C6). Together with the spinal nerve groove, these structures allow the spinal nerve to pass through the transverse process. Thoracic and lumbar vertebrae do not have this structure of the transverse process. The atlas and axis are atypical cervical vertebrae with a distinct anatomical structure."
     }
   },
   {
     "id": 845,
     "cz": {
-      "stem": "Pacient podstupuje zobrazovací vyšetření páteře a lékař hodnotí jednotlivé charakteristiky nalezeného obratle. Která z následujících možností nejlépe odpovídá anatomickým znakům vertebrae cervicales?",
+      "stem": "Která z následujících možností nejlépe odpovídá anatomickým znakům vertebrae cervicales?",
       "options": {
         "a": "Malé corpus vertebrae, velké trojúhelníkové foramen vertebrale, foramen transversarium v processus transversus, processus spinosus s bifurkací",
         "b": "Velké corpus vertebrae, oválné foramen vertebrale, processus transversus s foramen processus transversi, dlouhý nevětvený processus spinosus",
@@ -6507,43 +6344,16 @@ id: 269,
       "explanation": "Typické vertebrae cervicales (C3–C6) se vyznačují malým corpus vertebrae, velkým trojúhelníkovým foramen vertebrale, přítomností foramen transversarium v processus transversus a často rozdvojeným (s bifurkací) processus spinosus. Orientace processus articulares je šikmá přibližně v úhlu 45°, což umožňuje velký rozsah pohybů krční páteře."
     },
     "en": {
-      "stem": "A patient undergoes imaging examination of the spine, and the physician evaluates the individual characteristics of the identified vertebra. Which of the following options best corresponds to the anatomical features of vertebrae cervicales?",
+      "stem": "Which of the following best describes the anatomical features of cervical vertebrae?",
       "options": {
-        "a": "Small corpus vertebrae, large triangular foramen vertebrale, foramen transversarium in processus transversus, processus spinosus with bifurcation",
-        "b": "Large corpus vertebrae, oval foramen vertebrale, processus transversus with foramen processus transversi, long non-bifid processus spinosus",
-        "c": "Small corpus vertebrae, oval foramen vertebrale, absence of foramen transversarium in processus transversus, processus spinosus with bifurcation",
-        "d": "Large corpus vertebrae, oval foramen vertebrale, absence of foramen transversarium in processus transversus, non-bifid processus spinosus",
-        "e": "Small corpus vertebrae, large triangular foramen vertebrale, processus articulares oriented mainly in the frontal plane, long caudally directed and non-bifid processus spinosus"
+        "a": "Small vertebral body, large triangular vertebral foramen, transverse foramen in the transverse process, bifid spinous process",
+        "b": "Large vertebral body, oval vertebral foramen, transverse process with a transverse foramen, long non-bifid spinous process",
+        "c": "Small vertebral body, oval vertebral foramen, absence of a transverse foramen in the transverse process, bifid spinous process",
+        "d": "Large vertebral body, oval vertebral foramen, absence of a transverse foramen in the transverse process, non-bifid spinous process",
+        "e": "Small vertebral body, large triangular vertebral foramen, articular processes oriented predominantly in the frontal plane, long caudally directed non-bifid spinous process"
       },
       "correct": "a",
-      "explanation": "Typical vertebrae cervicales (C3–C6) are characterized by a small corpus vertebrae, a large triangular foramen vertebrale, the presence of foramen transversarium in the processus transversus, and a frequently bifid processus spinosus. The orientation of the processus articulares is oblique at approximately a 45° angle, which allows a large range of motion in the cervical spine."
-    }
-  },
-  {
-    "id": 846,
-    "cz": {
-      "stem": "Pacient podstupuje vyšetření krční páteře po opakovaných bolestech v oblasti šíje. Při hodnocení anatomie obratlů radiolog popisuje charakteristickou orientaci facies articulares processus articularium. Která z následujících možností nejlépe odpovídá vertebrae cervicales (C3–C6)?",
-      "options": {
-        "a": "Facies articulares superiores směřují dorzokraniálně a facies articulares inferiores ventrokaudálně; jsou uloženy šikmo přibližně v úhlu 45°",
-        "b": "Facies articulares superiores směřují mediálně a facies articulares inferiores laterálně; jsou uloženy převážně v sagitální rovině",
-        "c": "Facies articulares superiores směřují dorzálně a facies articulares inferiores ventrálně; jsou uloženy převážně ve frontální rovině",
-        "d": "Facies articulares superiores a inferiores jsou orientovány horizontálně a umožňují především rotační pohyb mezi obratli",
-        "e": "Facies articulares superiores směřují laterálně a facies articulares inferiores mediálně; jsou téměř kolmé k rovině páteře"
-      },
-      "correct": "a",
-      "explanation": "U typických vertebrae cervicales (C3–C6) jsou facies articulares orientovány šikmo přibližně pod úhlem 45°. Facies articulares superiores směřují dorzokraniálně a facies articulares inferiores ventrokaudálně. Tato orientace umožňuje velký rozsah pohybů v krční páteři, zejména flexi, extenzi, lateroflexi a rotaci."
-    },
-    "en": {
-      "stem": "A patient undergoes examination of the cervical spine due to recurrent neck pain. When assessing the anatomy of the vertebrae, the radiologist describes the characteristic orientation of the facies articulares of the processus articulares. Which of the following options best corresponds to cervical vertebrae (C3–C6)?",
-      "options": {
-        "a": "Facies articulares superiores point dorsocranially and facies articulares inferiores point ventrocaudally; they are positioned obliquely at approximately a 45° angle",
-        "b": "Facies articulares superiores point medially and facies articulares inferiores point laterally; they are positioned mainly in the sagittal plane",
-        "c": "Facies articulares superiores point dorsally and facies articulares inferiores point ventrally; they are positioned mainly in the frontal plane",
-        "d": "Facies articulares superiores and inferiores are oriented horizontally and primarily allow rotational movement between vertebrae",
-        "e": "Facies articulares superiores point laterally and facies articulares inferiores point medially; they are almost perpendicular to the plane of the spine"
-      },
-      "correct": "a",
-      "explanation": "In typical vertebrae cervicales (C3–C6), the facies articulares are oriented obliquely at approximately a 45° angle. The facies articulares superiores point dorsocranially and the facies articulares inferiores point ventrocaudally. This orientation allows a large range of motion in the cervical spine, especially flexion, extension, lateral flexion, and rotation."
+      "explanation": "Typical cervical vertebrae (C3–C6) are characterized by a small vertebral body, a large triangular vertebral foramen, a transverse foramen in the transverse process, and often a bifid spinous process. The articular processes are oriented obliquely at approximately 45°, allowing a wide range of motion in the cervical spine."
     }
   },
   {
@@ -6561,7 +6371,7 @@ id: 269,
       "explanation": "Přítomnost foveae costales superiores et inferiores na corpus vertebrae a fovea costalis processus transversi je typická pro vertebrae thoracicae typicae (Th2–Th9). Th5 tedy odpovídá klasickému hrudnímu obratli. Th11–Th12 již nemají fovea costalis processus transversi."
     },
     "en": {
-      "stem": "A patient undergoes a CT examination of the spine after trauma. Imaging reveals a vertebra with a medium-sized corpus vertebrae, a relatively small round foramen vertebrale, and a long processus spinosus directed caudally. The corpus vertebrae contains foveae costales superior et inferior, and the processus transversus contains a fovea costalis processus transversi for articulation with the tuberculum costae. Which vertebra is it?",
+      "stem": "A patient undergoes a CT scan of the spine after an injury. The imaging shows a vertebra with a moderately sized vertebral body, a relatively small, round vertebral foramen, and a long, caudally directed spinous process. The vertebral body has superior and inferior costal facets, and the transverse process has a transverse costal facet for articulation with the tubercle of a rib. Which vertebra is this?",
       "options": {
         "a": "Th5",
         "b": "Th11",
@@ -6570,61 +6380,7 @@ id: 269,
         "e": "C7"
       },
       "correct": "a",
-      "explanation": "The presence of foveae costales superior et inferior on the corpus vertebrae and fovea costalis processus transversi is typical of vertebrae thoracicae typicae (T2–T9). Therefore, Th5 corresponds to a classic thoracic vertebra. Th11–Th12 no longer have a fovea costalis processus transversi."
-    }
-  },
-  {
-    "id": 870,
-    "cz": {
-      "stem": "Pacient po úrazu hrudníku podstupuje zobrazovací vyšetření, při kterém je nalezena fraktura horního žebra. Při anatomickém vyšetření lékař hodnotí charakteristické znaky prvního a druhého žebra, která se od ostatních žeber liší svými svalovými úpony.\nKteré z následujících tvrzení správně popisuje svalové úpony na prvním a druhém žebru?",
-      "options": {
-        "a": "První žebro slouží jako úpon musculus scalenus anterior a musculus scalenus medius, zatímco druhé žebro má úpon musculus serratus anterior a musculus scalenus posterior",
-        "b": "První žebro má úpon musculus serratus anterior a musculus scalenus posterior, zatímco druhé žebro slouží jako úpon musculus scalenus anterior a musculus scalenus medius",
-        "c": "Na prvním žebru se upíná pouze musculus scalenus anterior, zatímco druhé žebro slouží jako úpon musculus serratus posterior a musculus scalenus posterior",
-        "d": "Druhé žebro má úpony musculus scalenus anterior a musculus scalenus medius, zatímco první žebro slouží jako úpon musculus serratus anterior",
-        "e": "První žebro má úpon musculus serratus anterior a musculus scalenus posterior, zatímco druhé žebro má úpon musculus scalenus anterior a musculus scalenus medius"
-      },
-      "correct": "a",
-      "explanation": "První žebro je specifické svou horní plochou, kde se nachází úpony musculus scalenus anterior a musculus scalenus medius. Na druhém žebru se nachází drsnatina pro úpon musculus serratus anterior a zároveň se zde upíná musculus scalenus posterior. Tyto znaky odlišují první a druhé žebro od typických žeber."
-    },
-    "en": {
-      "stem": "A patient after a chest injury undergoes imaging examination, during which a fracture of an upper rib is detected. During anatomical examination, the physician evaluates the characteristic features of the first and second ribs, which differ from other ribs by their muscular attachments.\nWhich of the following statements correctly describes the muscular attachments on the first and second ribs?",
-      "options": {
-        "a": "The first rib serves as an attachment site for the anterior scalene muscle and the middle scalene muscle, while the second rib has attachments for the serratus anterior muscle and the posterior scalene muscle",
-        "b": "The first rib has attachments for the serratus anterior muscle and the posterior scalene muscle, while the second rib serves as an attachment site for the anterior scalene muscle and the middle scalene muscle",
-        "c": "Only the anterior scalene muscle attaches to the first rib, while the second rib serves as an attachment site for the serratus posterior muscle and the posterior scalene muscle",
-        "d": "The second rib has attachments for the anterior scalene muscle and the middle scalene muscle, while the first rib serves as an attachment site for the serratus anterior muscle",
-        "e": "The first rib has attachments for the serratus anterior muscle and the posterior scalene muscle, while the second rib has attachments for the anterior scalene muscle and the middle scalene muscle"
-      },
-      "correct": "a",
-      "explanation": "The first rib is characterized by its superior surface, where the attachments of the anterior scalene muscle and the middle scalene muscle are located. The second rib contains a roughened area for the attachment of the serratus anterior muscle and also serves as an attachment site for the posterior scalene muscle. These features distinguish the first and second ribs from typical ribs."
-    }
-  },
-  {
-    "id": 871,
-    "cz": {
-      "stem": "Při zavedení hrudního drénu musí lékař znát přesnou lokalizaci mezižeberního svazku, aby neporanil cévy a nerv. Jaké je správné kraniokaudální pořadí struktur v sulcus costae?",
-      "options": {
-        "a": "Vena intercostalis, arteria intercostalis, nervus intercostalis",
-        "b": "Nervus intercostalis, arteria intercostalis, vena intercostalis",
-        "c": "Arteria intercostalis, vena intercostalis, nervus intercostalis",
-        "d": "Vena intercostalis, nervus intercostalis, arteria intercostalis",
-        "e": "Nervus intercostalis, vena intercostalis, arteria intercostalis"
-      },
-      "correct": "a",
-      "explanation": "Mezižeberní svazek probíhá v sulcus costae na dolním okraji žebra a jeho struktury jsou ve směru od horní k dolní části prostoru uspořádány jako vena intercostalis, arteria intercostalis a nervus intercostalis. Při zavádění drénu se proto vstupuje těsně nad horní okraj dolního žebra."
-    },
-    "en": {
-      "stem": "When inserting a chest tube, the physician must know the exact location of the intercostal neurovascular bundle to avoid injuring the vessels and nerve. What is the correct craniocaudal order of the structures within the costal groove?",
-      "options": {
-        "a": "Intercostal vein, intercostal artery, intercostal nerve",
-        "b": "Intercostal nerve, intercostal artery, intercostal vein",
-        "c": "Intercostal artery, intercostal vein, intercostal nerve",
-        "d": "Intercostal vein, intercostal nerve, intercostal artery",
-        "e": "Intercostal nerve, intercostal vein, intercostal artery"
-      },
-      "correct": "a",
-      "explanation": "The intercostal neurovascular bundle runs within the costal groove along the inferior border of the rib, and its structures are arranged from superior to inferior as the intercostal vein, intercostal artery, and intercostal nerve. Therefore, when inserting a chest tube, the entry point should be immediately above the superior border of the lower rib."
+      "explanation": "The presence of superior and inferior costal facets on the vertebral body and a transverse costal facet on the transverse process is typical of typical thoracic vertebrae (T2–T9). Therefore, T5 corresponds to a typical thoracic vertebra. T11 and T12 do not have transverse costal facets."
     }
   },
   {
@@ -6639,7 +6395,7 @@ id: 269,
         "e": "Costa I"
       },
       "correct": "a",
-      "explanation": "Costa XI je atypické žebro, které má caput costae, collum costae a corpus costae, ale chybí mu tuberculum costae a sulcus costae. Jeho hlavice se spojuje pouze s tělem obratle Th11 a nemá spojení s processus transversus. Costa XII je vyloučeno, protože na rozdíl od costa XI postrádá také collum costae."
+      "explanation": "11. žebro je atypické žebro, které má caput costae, collum costae a corpus costae, ale chybí mu tuberculum costae a sulcus costae. Jeho hlavice se spojuje pouze s tělem obratle Th11 a nemá spojení s processus transversus. 12. žebro je vyloučeno, protože na rozdíl od 11. žebra postrádá také collum costae."
     },
     "en": {
       "stem": "During an anatomical examination of a rib, a bone is identified consisting of the head of the rib, neck of the rib, and shaft of the rib. Its head articulates with the body of only one vertebra, and the rib also lacks a tubercle and costal groove. Which structure is being described?",
@@ -6651,40 +6407,13 @@ id: 269,
         "e": "Rib I"
       },
       "correct": "a",
-      "explanation": "Rib XI is an atypical rib that has a head, neck, and shaft, but lacks a tubercle and costal groove. Its head articulates only with the body of the T11 vertebra and has no articulation with the transverse process. Rib XII is excluded because, unlike rib XI, it also lacks a neck."
-    }
-  },
-  {
-    "id": 873,
-    "cz": {
-      "stem": "Při anatomickém vyšetření hrudníku lékař hodnotí spojení jednotlivých částí sterna s žebry. Se kterými žebry se spojuje corpus sterni?",
-      "options": {
-        "a": "Costa II–VII",
-        "b": "Costa III–VII",
-        "c": "Costa III–VIII",
-        "d": "Costa IV–XII",
-        "e": "Costa I–VI"
-      },
-      "correct": "a",
-      "explanation": "Corpus tvoří největší část sterna a spojuje se s chrupavkami 2.–7. žebra. První žebro se upíná k manubrium sterni, zatímco 7. žebro se připojuje v oblasti přechodu mezi corpus sterni a processus xiphoideus."
-    },
-    "en": {
-      "stem": "During an anatomical examination of the thorax, the physician evaluates the connections between the individual parts of the sternum and the ribs. Which ribs articulate with the body of the sternum?",
-      "options": {
-        "a": "Ribs II–VII",
-        "b": "Ribs III–VII",
-        "c": "Ribs III–VIII",
-        "d": "Ribs IV–XII",
-        "e": "Ribs I–VI"
-      },
-      "correct": "a",
-      "explanation": "The body forms the largest part of the sternum and articulates with the costal cartilages of ribs 2–7. The first rib attaches to the manubrium of the sternum, while the seventh rib attaches at the junction between the body of the sternum and the xiphoid process."
+      "explanation": "11th rib is an atypical rib that has a head, neck, and shaft, but lacks a tubercle and costal groove. Its head articulates only with the body of the T11 vertebra and has no articulation with the transverse process. 12th rib is excluded because, unlike 11th rib, it also lacks a neck."
     }
   },
   {
     "id": 874,
     "cz": {
-      "stem": "Pacient po úrazu krční páteře podstupuje vyšetření horní krční oblasti. Lékař hodnotí spojení mezi atlas (C1) a os occipitale. Jaký typ kloubu představuje articulatio atlantooccipitalis?",
+      "stem": "Jaký typ kloubu představuje articulatio atlantooccipitalis?",
       "options": {
         "a": "Articulatio ellipsoidea",
         "b": "Articulatio trochoidea",
@@ -6696,7 +6425,7 @@ id: 269,
       "explanation": "Articulatio atlantooccipitalis je párový elipsoidní kloub, který vzniká mezi condyli occipitales a foveae articulares superiores atlantis. Umožňuje především flexi a extenzi hlavy (pohyb souhlasného přikývnutí) a omezeně lateroflexi."
     },
     "en": {
-      "stem": "A patient undergoes an examination of the upper cervical region following a cervical spine injury. The physician evaluates the articulation between the atlas (C1) and the occipital bone. What type of joint is the atlanto-occipital joint?",
+      "stem": "What type of joint is the atlanto-occipital joint?",
       "options": {
         "a": "Ellipsoid joint",
         "b": "Pivot joint",
@@ -6740,7 +6469,7 @@ id: 269,
     "cz": {
       "stem": "Pacient po úrazu páteře má poraněné ligamentum flavum. Mezi kterými strukturami tento vaz probíhá?",
       "options": {
-        "a": "Arcus vertebrarum sousedních obratlů (laminae)",
+        "a": "Arcus vertebrarum sousedních obratlů",
         "b": "Corpora vertebrarum sousedních obratlů",
         "c": "Processus spinosi sousedních obratlů",
         "d": "Processus transversi sousedních obratlů",
@@ -6752,7 +6481,7 @@ id: 269,
     "en": {
       "stem": "A patient with a spinal injury has a damaged ligamentum flavum. Between which structures does this ligament run?",
       "options": {
-        "a": "The vertebral arches of adjacent vertebrae (laminae)",
+        "a": "The vertebral arches of adjacent vertebrae",
         "b": "The vertebral bodies of adjacent vertebrae",
         "c": "The spinous processes of adjacent vertebrae",
         "d": "The transverse processes of adjacent vertebrae",
@@ -6760,33 +6489,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The ligamentum flavum is a yellow ligament composed mainly of elastic fibers. It connects the vertebral arches of adjacent vertebrae, more precisely their laminae, and contributes to the stabilization of the vertebral column."
-    }
-  },
-  {
-    "id": 877,
-    "cz": {
-      "stem": "Pacient po chirurgickém zákroku v oblasti laterální části krku vykazuje motorický deficit při pohybech hlavy. Při vyšetření je zjištěno oslabení rotace hlavy doleva proti odporu. Při inspekci je patrná atrofie svalu na přední straně krku. O jaký sval se jedná?",
-      "options": {
-        "a": "Musculus sternocleidomastoideus dexter",
-        "b": "Musculus scalenus anterior dexter",
-        "c": "Musculus trapezius dexter",
-        "d": "Musculus omohyoideus sinister",
-        "e": "Musculus sternocleidomastoideus sinister"
-      },
-      "correct": "a",
-      "explanation": "Poškození pravého musculus sternocleidomastoideus způsobí oslabení úklonu hlavy doprava a oslabení rotace hlavy doleva, protože jednostranná kontrakce tohoto svalu uklání hlavu na svou stranu a rotuje ji na opačnou stranu. Sval je inervován nervus accessorius."
-    },
-    "en": {
-      "stem": "A patient after a surgical procedure in the lateral region of the neck presents with a motor deficit during head movements. Examination reveals weakened rotation of the head to the left against resistance. Inspection shows atrophy of a muscle on the anterior aspect of the neck. Which muscle is affected?",
-      "options": {
-        "a": "Right sternocleidomastoid muscle",
-        "b": "Right anterior scalene muscle",
-        "c": "Right trapezius muscle",
-        "d": "Left omohyoid muscle",
-        "e": "Left sternocleidomastoid muscle"
-      },
-      "correct": "a",
-      "explanation": "Damage to the right sternocleidomastoid muscle causes weakened lateral flexion of the head to the right and weakened rotation of the head to the left, because unilateral contraction of this muscle laterally flexes the head to the same side and rotates it to the opposite side. The muscle is innervated by the accessory nerve."
     }
   },
   {
@@ -6817,33 +6519,6 @@ id: 269,
     }
   },
   {
-    "id": 879,
-    "cz": {
-      "stem": "Pacient po chirurgickém zákroku v oblasti laterální části krku vykazuje motorický deficit. Při vyšetření je patrná slabost úklonu hlavy na stranu postiženého svalu, oslabení rotace hlavy na opačnou stranu a současně snížená schopnost elevace ramene. Lékař předpokládá postižení nervového zásobení svalu uloženého v oblasti krku a ramenního pletence. Která kombinace nervů zajišťuje motorickou inervaci tohoto svalu?",
-      "options": {
-        "a": "Nervus accessorius a rami anteriores nervorum cervicalium C2–C4",
-        "b": "Nervus accessorius samostatně, bez příspěvku plexus cervicalis",
-        "c": "Rami anteriores nervorum cervicalium C2–C4 samostatně",
-        "d": "Nervus phrenicus a nervus accessorius",
-        "e": "Nervus hypoglossus a plexus cervicalis"
-      },
-      "correct": "a",
-      "explanation": "Popsaný deficit odpovídá postižení musculus sternocleidomastoideus, který je motoricky inervován hlavně nervus accessorius (XI) a pomocně rami anteriores nervorum cervicalium C2–C4 z plexus cervicalis. Nervus accessorius zajišťuje hlavní motorickou složku, zatímco větve z plexus cervicalis vedou proprioceptivní a pomocné motorické informace."
-    },
-    "en": {
-      "stem": "A patient after surgery in the lateral region of the neck presents with a motor deficit. Examination shows weakness of lateral flexion of the head to the side of the affected muscle, weakened rotation of the head to the opposite side, and reduced ability to elevate the shoulder. The physician suspects impairment of the nerve supply to a muscle located in the neck and shoulder girdle region.\nWhich combination of nerves provides the motor innervation of this muscle?",
-      "options": {
-        "a": "Accessory nerve and anterior rami of cervical spinal nerves C2–C4",
-        "b": "Accessory nerve alone, with no contribution from the cervical plexus",
-        "c": "Anterior rami of cervical spinal nerves C2–C4 alone",
-        "d": "Phrenic nerve and accessory nerve",
-        "e": "Hypoglossal nerve and cervical plexus"
-      },
-      "correct": "a",
-      "explanation": "The described deficit corresponds to damage of the sternocleidomastoid muscle, which is innervated primarily by the accessory nerve (XI) and additionally by the anterior rami of cervical spinal nerves C2–C4 from the cervical plexus. The accessory nerve provides the main motor component, while branches from the cervical plexus transmit proprioceptive and supplementary motor information."
-    }
-  },
-  {
     "id": 880,
     "cz": {
       "stem": "Která z následujících možností obsahuje pouze suprahyoidní svaly?",
@@ -6855,7 +6530,7 @@ id: 269,
         "e": "Musculus mylohyoideus, musculus geniohyoideus, musculus thyrohyoideus"
       },
       "correct": "a",
-      "explanation": "Mezi suprahyoidní svaly patří m. digastricus, m. mylohyoideus, m. stylohyoideus a m. geniohyoideus. Svaly m. sternohyoideus, m. omohyoideus a m. sternothyroideus patří mezi infrahyoidní svaly."
+      "explanation": "Mezi suprahyoidní svaly patří m. digastricus, m. mylohyoideus, m. stylohyoideus a m. geniohyoideus. Svaly m. sternohyoideus, m. thyrohyoideus, m. omohyoideus a m. sternothyroideus patří mezi infrahyoidní svaly."
     },
     "en": {
       "stem": "Which of the following options contains only suprahyoid muscles?",
@@ -6867,13 +6542,13 @@ id: 269,
         "e": "Mylohyoid muscle, geniohyoid muscle, thyrohyoid muscle"
       },
       "correct": "a",
-      "explanation": "The suprahyoid muscles include the digastric muscle, mylohyoid muscle, stylohyoid muscle, and geniohyoid muscle. The sternohyoid muscle, omohyoid muscle, and sternothyroid muscle belong to the infrahyoid muscle group."
+      "explanation": "The suprahyoid muscles include the digastric muscle, mylohyoid muscle, stylohyoid muscle, and geniohyoid muscle. The sternohyoid muscle, thyrohyoid muscle, omohyoid muscle, and sternothyroid muscle belong to the infrahyoid muscle group."
     }
   },
   {
     "id": 881,
     "cz": {
-      "stem": "Při vyšetření svalů oblasti krku a dna ústní dutiny lékař hodnotí funkci svalů podílejících se na pohybech os hyoideum. Který z následujících svalů je primárně zodpovědný za elevaci zmíněné struktury?",
+      "stem": "Který z uvedených svalů elevuje jazylku?",
       "options": {
         "a": "Musculus mylohyoideus",
         "b": "Musculus thyrohyoideus",
@@ -6885,7 +6560,7 @@ id: 269,
       "explanation": "Musculus mylohyoideus je suprahyoidní sval, který se podílí na elevaci os hyoideum a tvoří svalové dno dutiny ústní. Musculus geniohyoideus sice patří mezi suprahyoidní svaly, ale jeho hlavní funkcí je posun os hyoideum a jazyka dopředu. M. sternohyoideus, m. omohyoideus a m. sternothyroideus patří mezi infrahyoidní svaly a podílejí se především na depresi os hyoideum."
     },
     "en": {
-      "stem": "A patient is undergoing examination of the muscles of the neck and the floor of the oral cavity. The physician evaluates the function of muscles involved in movements of the hyoid bone.\nWhich of the following muscles is primarily responsible for elevation of this structure?",
+      "stem": "Which of the following muscles elevates the hyoid bone?",
       "options": {
         "a": "Mylohyoid muscle",
         "b": "Thyrohyoid muscle",
@@ -6898,36 +6573,9 @@ id: 269,
     }
   },
   {
-    "id": 882,
-    "cz": {
-      "stem": "Pacient podstupuje chirurgický zákrok v oblasti krku. Při preparaci hlubokých struktur je důležité znát vztahy mezi svaly krku a velkými cévami. Lékař hodnotí sval, který probíhá v blízkosti vena jugularis interna a je uložen povrchově v oblasti předního krku.\nKterý z následujících svalů má přímý vztah k této žíle?",
-      "options": {
-        "a": "Musculus omohyoideus",
-        "b": "Musculus sternohyoideus",
-        "c": "Musculus sternocleidomastoideus",
-        "d": "Musculus stylohyoideus",
-        "e": "Musculus geniohyoideus"
-      },
-      "correct": "a",
-      "explanation": "Musculus omohyoideus má významný vztah k vena jugularis interna, protože jeho dolní bříško probíhá v laterální oblasti krku a pomocí fascia cervicalis udržuje průchodnost žíly. Ostatní infrahyoidní svaly leží více mediálně a nemají tak přímý vztah k vena jugularis interna."
-    },
-    "en": {
-      "stem": "A patient undergoes a surgical procedure in the neck region. During dissection of deep structures, it is important to know the relationships between neck muscles and major vessels. The physician evaluates a muscle that runs close to the internal jugular vein and is located superficially in the anterior neck region.\nWhich of the following muscles has a direct relationship with this vein?",
-      "options": {
-        "a": "Omohyoid muscle",
-        "b": "Sternohyoid muscle",
-        "c": "Sternocleidomastoid muscle",
-        "d": "Stylohyoid muscle",
-        "e": "Geniohyoid muscle"
-      },
-      "correct": "a",
-      "explanation": "The omohyoid muscle has an important relationship with the internal jugular vein, because its inferior belly runs in the lateral region of the neck and, through the cervical fascia, helps maintain the patency of the vein. The other infrahyoid muscles are located more medially and do not have such a direct relationship with the internal jugular vein."
-    }
-  },
-  {
     "id": 883,
     "cz": {
-      "stem": "Pacient je vyšetřován pro obtíže v oblasti krku. Lékař hodnotí skupinu svalů, které se podílejí na tvorbě fissura scalenorum a jejichž začátky se nacházejí na processus transversi vertebrarum cervicalium. Která z následujících možností správně popisuje úpony všech musculi scaleni?",
+      "stem": "Která z následujících možností správně popisuje úpony všech musculi scaleni?",
       "options": {
         "a": "M. scalenus anterior – costa I; m. scalenus medius – costa I; m. scalenus posterior – costa II",
         "b": "M. scalenus anterior – costa I; m. scalenus medius – costa I; m. scalenus posterior – costa I",
@@ -6939,7 +6587,7 @@ id: 269,
       "explanation": "M. scalenus anterior a m. scalenus medius se upínají na costa I, zatímco m. scalenus posterior se upíná na costa II. Všechny musculi scaleni začínají na processus transversi vertebrarum cervicalium."
     },
     "en": {
-      "stem": "A patient is being evaluated for neck-related symptoms. The physician assesses a group of muscles that contribute to the formation of the scalene fissure and whose origins are located on the transverse processes of the cervical vertebrae. Which of the following options correctly describes the insertions of all the scalene muscles?",
+      "stem": "Which of the following options correctly describes the insertions of all the scalene muscles?",
       "options": {
         "a": "M. scalenus anterior – rib I; m. scalenus medius – rib I; m. scalenus posterior – rib II",
         "b": "M. scalenus anterior – rib I; m. scalenus medius – rib I; m. scalenus posterior – rib I",
@@ -6963,7 +6611,7 @@ id: 269,
         "e": "N. thoracodorsalis"
       },
       "correct": "a",
-      "explanation": "N. accessorius je motorickým nervem pro m. trapezius a m. sternocleidomastoideus. Po jeho poškození dochází k oslabení elevace a zevní rotace lopatky, což může vést k obtížím při zvedání paže nad horizontálu. N. dorsalis scapulae inervuje především m. rhomboideus major, m. rhomboideus minor a m. levator scapulae. N. thoracicus longus inervuje m. serratus anterior. N. suprascapularis inervuje m. supraspinatus a m. infraspinatus. N. thoracodorsalis inervuje m. latissimus dorsi."
+      "explanation": "N. accessorius je motorickým nervem pro m. trapezius a m. sternocleidomastoideus. Po jeho poškození dochází k oslabení elevace, což může vést k obtížím při zvedání paže nad horizontálu. N. dorsalis scapulae inervuje především m. rhomboideus major, m. rhomboideus minor a m. levator scapulae. N. thoracicus longus inervuje m. serratus anterior. N. suprascapularis inervuje m. supraspinatus a m. infraspinatus. N. thoracodorsalis inervuje m. latissimus dorsi."
     },
     "en": {
       "stem": "A patient develops difficulty raising the arm above the horizontal plane after surgical removal of cervical lymph nodes. Examination reveals shoulder drooping and weakness of scapular elevation. Which nerve was most likely injured?",
@@ -7035,7 +6683,7 @@ id: 269,
   {
     "id": 1024,
     "cz": {
-      "stem": "Pacient podstoupí chirurgický zákrok v oblasti bederní páteře. Po výkonu má oslabenou extenzi bederní páteře a při vyšetření je patrná porucha funkce m. erector spinae. Která struktura je nejpravděpodobněji zodpovědná za motorickou inervaci tohoto svalu?",
+      "stem": "Pacient podstoupí chirurgický zákrok v oblasti bederní páteře. Po výkonu má oslabenou extenzi bederní páteře a při vyšetření je patrná porucha funkce m. erector spinae. Která struktura je zodpovědná za motorickou inervaci tohoto svalu?",
       "options": {
         "a": "Rr. dorsales nervorum spinalium",
         "b": "Rr. ventrales nervorum spinalium",
@@ -7047,7 +6695,7 @@ id: 269,
       "explanation": "M. erector spinae je součástí hlubokých zádových svalů a je motoricky inervován rr. dorsales nervorum spinalium. Tyto větve zajišťují segmentální motorickou inervaci hlubokých svalů zad a současně poskytují senzitivní inervaci kůže zad. Rr. ventrales nervorum spinalium se podílejí na inervaci anterolaterální části trupu a končetin. N. thoracodorsalis inervuje m. latissimus dorsi, n. accessorius inervuje m. trapezius a m. sternocleidomastoideus a n. dorsalis scapulae inervuje především m. rhomboideus major, m. rhomboideus minor a m. levator scapulae."
     },
     "en": {
-      "stem": "A patient undergoes surgery in the lumbar region of the spine. After the procedure, the patient has weakened extension of the lumbar spine, and examination reveals impaired function of the erector spinae muscle. Which structure is most likely responsible for the motor innervation of this muscle?",
+      "stem": "A patient undergoes surgery in the lumbar region of the spine. After the procedure, the patient has weakened extension of the lumbar spine, and examination reveals impaired function of the erector spinae muscle. Which structure is responsible for the motor innervation of this muscle?",
       "options": {
         "a": "Dorsal rami of spinal nerves",
         "b": "Ventral rami of spinal nerves",
@@ -7089,7 +6737,7 @@ id: 269,
   {
     "id": 1026,
     "cz": {
-      "stem": "35letý muž má při vyšetření nepřímou tříselnou kýlu, která prochází tříselným kanálem a vystupuje jeho povrchovým prstencem. Která struktura tvoří přední stěnu tříselného kanálu?",
+      "stem": "Která struktura tvoří přední stěnu tříselného kanálu?",
       "options": {
         "a": "Aponeuróza m. obliquus externus abdominis",
         "b": "Aponeuróza m. obliquus internus abdominis",
@@ -7101,7 +6749,7 @@ id: 269,
       "explanation": "Přední stěnu tříselného kanálu tvoří především aponeuróza m. obliquus externus abdominis. Její zesílený dolní okraj vytváří ligamentum inguinale a její rozštěpení vytváří anulus inguinalis superficialis. Zadní stěnu tvoří především fascia transversalis, která je mediálně zesílena falx inguinalis. Strop tříselného kanálu vytvářejí obloukovitá vlákna m. obliquus internus abdominis a m. transversus abdominis, zatímco dno tvoří především ligamentum inguinale."
     },
     "en": {
-      "stem": "A 35-year-old man is found to have an indirect inguinal hernia that passes through the inguinal canal and exits through its superficial ring. Which structure forms the anterior wall of the inguinal canal?",
+      "stem": "Which structure forms the anterior wall of the inguinal canal?",
       "options": {
         "a": "Aponeurosis of the external oblique muscle",
         "b": "Aponeurosis of the internal oblique muscle",
@@ -7116,7 +6764,7 @@ id: 269,
   {
     "id": 1027,
     "cz": {
-      "stem": "Při chirurgickém přístupu k přední břišní stěně je nutné určit sval, který začíná na symphysis pubica a crista pubica a upíná se na chrupavky 5.–7. žebra a processus xiphoideus. Který sval odpovídá tomuto popisu?",
+      "stem": "Který sval začíná na symphysis pubica a crista pubica a upíná se na 5.–7. žebro a processus xiphoideus?",
       "options": {
         "a": "M. rectus abdominis",
         "b": "M. obliquus externus abdominis",
@@ -7128,7 +6776,7 @@ id: 269,
       "explanation": "M. rectus abdominis začíná na symphysis pubica a crista pubica a upíná se na chrupavky 5.–7. žebra a processus xiphoideus. Jeho hlavní funkcí je flexe trupu a při fixovaném hrudníku se podílí také na kompresi obsahu dutiny břišní. M. pyramidalis je malý sval napínající linea alba, zatímco ostatní uvedené svaly patří mezi ploché svaly přední a laterální břišní stěny."
     },
     "en": {
-      "stem": "During a surgical approach to the anterior abdominal wall, a muscle must be identified that originates from the pubic symphysis and pubic crest and inserts on the costal cartilages of ribs 5–7 and the xiphoid process. Which muscle corresponds to this description?",
+      "stem": "Which muscle originates from the pubic symphysis and pubic crest and inserts on the 5th–7th costal cartilages and xiphoid process?",
       "options": {
         "a": "Rectus abdominis muscle",
         "b": "External oblique muscle",
@@ -7195,36 +6843,9 @@ id: 269,
     }
   },
   {
-    "id": 1030,
-    "cz": {
-      "stem": "Při vyšetření pacienta s podezřením na tříselnou kýlu chirurg palpuje anulus inguinalis superficialis. Která z následujících struktur tvoří jeho horní a dolní rameno?",
-      "options": {
-        "a": "Crus mediale a crus laterale aponeurózy musculus obliquus externus abdominis",
-        "b": "Ligamentum inguinale a ligamentum lacunare",
-        "c": "Musculus obliquus internus abdominis a musculus transversus abdominis",
-        "d": "Fascia transversalis a ligamentum interfoveolare",
-        "e": "Musculus rectus abdominis a linea alba"
-      },
-      "correct": "a",
-      "explanation": "Anulus inguinalis superficialis je trojúhelníkovitý otvor v aponeurosis musculi obliqui externi abdominis. Jeho horní a dolní okraj tvoří crus mediale a crus laterale musculi obliqui externi abdominis. Mezi oběma rameny se nachází intercruralní vlákna, která otvor dále zpevňují. Anulus inguinalis superficialis představuje výstupní otvor canalis inguinalis."
-    },
-    "en": {
-      "stem": "During examination of a patient with suspected inguinal hernia, a surgeon palpates the superficial inguinal ring. Which of the following structures forms its medial and lateral crus?",
-      "options": {
-        "a": "Medial crus and lateral crus of the external oblique aponeurosis",
-        "b": "Inguinal ligament and lacunar ligament",
-        "c": "Internal oblique muscle and transversus abdominis muscle",
-        "d": "Transversalis fascia and interfoveolar ligament",
-        "e": "Rectus abdominis muscle and linea alba"
-      },
-      "correct": "a",
-      "explanation": "The superficial inguinal ring is a triangular opening in the external oblique aponeurosis. Its medial and lateral borders are formed by the medial crus and lateral crus of the external oblique aponeurosis. Intercrural fibers reinforce the opening between the two crura. The superficial inguinal ring represents the exit of the inguinal canal."
-    }
-  },
-  {
     "id": 1031,
     "cz": {
-      "stem": "Při rekonstrukční operaci tříselného kanálu chirurg identifikuje svalové struktury, jejichž obloukovitě probíhající vlákna tvoří jeho horní stěnu. Která kombinace svalů se na tvorbě stropu canalis inguinalis podílí?",
+      "stem": "Které svaly tvoří strop canalis inguinalis?",
       "options": {
         "a": "Musculus obliquus internus abdominis a musculus transversus abdominis",
         "b": "Musculus obliquus externus abdominis a musculus rectus abdominis",
@@ -7236,7 +6857,7 @@ id: 269,
       "explanation": "Strop canalis inguinalis tvoří obloukovitě probíhající svalová vlákna musculus obliquus internus abdominis a musculus transversus abdominis. Jejich šlachová vlákna se mediálně podílejí na vytvoření tendo musculi transversi abdominis et musculi obliqui interni abdominis neboli falx inguinalis. Přední stěnu tvoří především aponeurosis musculi obliqui externi abdominis, zadní stěnu především fascia transversalis a spodinu především ligamentum inguinale."
     },
     "en": {
-      "stem": "During reconstructive surgery of the inguinal canal, a surgeon identifies muscular structures whose arching fibers form its roof. Which combination of muscles contributes to the formation of the roof of the inguinal canal?",
+      "stem": "Which muscles form the roof of the inguinal canal?",
       "options": {
         "a": "Internal oblique muscle and transversus abdominis muscle",
         "b": "External oblique muscle and rectus abdominis muscle",
@@ -7273,33 +6894,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The ilioinguinal nerve enters the inguinal canal and passes through it together with the spermatic cord in males or the round ligament of the uterus in females, but it does not enter the canal through the deep inguinal ring. After exiting through the superficial inguinal ring, it provides sensory innervation to the skin over the root of the penis and anterior scrotum in males and the mons pubis and labium majus in females. It may also contribute to sensory innervation of the adjacent upper medial thigh."
-    }
-  },
-  {
-    "id": 1033,
-    "cz": {
-      "stem": "Při operaci tříselné kýly chirurg identifikuje strukturu, která prochází celým canalis inguinalis a vystupuje z něj přes anulus inguinalis superficialis. Která z následujících struktur má tento průběh?",
-      "options": {
-        "a": "Funiculus spermaticus",
-        "b": "N. iliohypogastricus",
-        "c": "Vasa epigastrica inferiora",
-        "d": "A. circumflexa iliaca profunda",
-        "e": "N. femoralis"
-      },
-      "correct": "a",
-      "explanation": "Funiculus spermaticus vstupuje do canalis inguinalis přes anulus inguinalis profundus, prochází celým kanálem a vystupuje přes anulus inguinalis superficialis. Obsahuje ductus deferens, a. testicularis, plexus pampiniformis, a. ductus deferentis, a. cremasterica, ramus genitalis n. genitofemoralis, lymfatické cévy a autonomní nervová vlákna. N. ilioinguinalis rovněž prochází částí canalis inguinalis, ale do kanálu nevstupuje přes anulus inguinalis profundus."
-    },
-    "en": {
-      "stem": "During inguinal hernia surgery, a surgeon identifies a structure that passes through the entire inguinal canal and exits through the superficial inguinal ring. Which of the following structures follows this course?",
-      "options": {
-        "a": "Spermatic cord",
-        "b": "Iliohypogastric nerve",
-        "c": "Inferior epigastric vessels",
-        "d": "Deep circumflex iliac artery",
-        "e": "Femoral nerve"
-      },
-      "correct": "a",
-      "explanation": "The spermatic cord enters the inguinal canal through the deep inguinal ring, passes through the entire canal, and exits through the superficial inguinal ring. It contains the ductus deferens, testicular artery, pampiniform plexus, artery of the ductus deferens, cremasteric artery, genital branch of the genitofemoral nerve, lymphatic vessels, and autonomic nerve fibers. The ilioinguinal nerve also passes through part of the inguinal canal, but it does not enter the canal through the deep inguinal ring."
     }
   },
   {
@@ -7570,33 +7164,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The subcostal nerve passes through the region of the superior lumbar triangle (Grynfeltt-Lesshaft triangle) and contributes to the innervation of the muscles and skin of the anterolateral abdominal wall. The ilioinguinal nerve runs between the internal oblique and transversus abdominis muscles. The genitofemoral nerve descends along the anterior surface of the psoas major muscle, while the obturator nerve passes through the pelvis toward the obturator foramen."
-    }
-  },
-  {
-    "id": 1058,
-    "cz": {
-      "stem": "Při chirurgickém přístupu k posterolaterální břišní stěně je identifikováno trigonum lumbale superius (trigonum Grynfeltti). Který z následujících svalů tvoří jeho spodinu?",
-      "options": {
-        "a": "M. obliquus internus abdominis",
-        "b": "M. quadratus lumborum",
-        "c": "M. transversus abdominis",
-        "d": "M. latissimus dorsi",
-        "e": "M. obliquus externus abdominis"
-      },
-      "correct": "a",
-      "explanation": "Spodinu trigonum lumbale superius (trigonum Grynfeltti) tvoří m. obliquus internus abdominis. Laterálně je prostor ohraničen m. latissimus dorsi, mediálně m. erector spinae a kraniálně 12. žebrem a m. serratus posterior inferior. Trigonum lumbale superius představuje anatomicky slabé místo posterolaterální břišní stěny kudy často prostupují bederní hernie."
-    },
-    "en": {
-      "stem": "During a surgical approach to the posterolateral abdominal wall, the superior lumbar triangle (Grynfeltt-Lesshaft triangle) is identified. Which of the following muscles forms its floor?",
-      "options": {
-        "a": "Internal oblique muscle",
-        "b": "Quadratus lumborum muscle",
-        "c": "Transversus abdominis muscle",
-        "d": "Latissimus dorsi muscle",
-        "e": "External oblique muscle"
-      },
-      "correct": "a",
-      "explanation": "The floor of the superior lumbar triangle (Grynfeltt-Lesshaft triangle) is formed by the internal oblique muscle. Laterally, the space is bounded by the latissimus dorsi muscle, medially by the erector spinae muscle, and superiorly by the 12th rib and serratus posterior inferior muscle. The superior lumbar triangle is an anatomically weak area of the posterolateral abdominal wall through which lumbar hernias can occur."
     }
   },
   {
@@ -26917,6 +26484,61 @@ const LIVE_QUESTION_BANKS = {
   },
   image: { key: "q119_custom", source: "Nevit Dilmen. Shoulder MRI T2 me2d ax (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Shoulder_MRI_144244_t2me2d.png. CC BY-SA 3.0. Accessed 1 July 2026."}
 },
+{
+    "id": 10286,
+    "cz": {
+      "stem": "Pacient po chirurgickém zákroku v oblasti laterální části krku vykazuje motorický deficit při pohybech hlavy. Při vyšetření je zjištěno oslabení rotace hlavy doleva proti odporu. Při inspekci je patrná atrofie svalu na přední straně krku. O jaký sval se jedná?",
+      "options": {
+        "a": "Musculus sternocleidomastoideus dexter",
+        "b": "Musculus scalenus anterior dexter",
+        "c": "Musculus trapezius dexter",
+        "d": "Musculus omohyoideus sinister",
+        "e": "Musculus sternocleidomastoideus sinister"
+      },
+      "correct": "a",
+      "explanation": "Poškození pravého musculus sternocleidomastoideus způsobí oslabení úklonu hlavy doprava a oslabení rotace hlavy doleva, protože jednostranná kontrakce tohoto svalu uklání hlavu na svou stranu a rotuje ji na opačnou stranu. Sval je inervován nervus accessorius."
+    },
+    "en": {
+      "stem": "A patient after a surgical procedure in the lateral region of the neck presents with a motor deficit during head movements. Examination reveals weakened rotation of the head to the left against resistance. Inspection shows atrophy of a muscle on the anterior aspect of the neck. Which muscle is affected?",
+      "options": {
+        "a": "Right sternocleidomastoid muscle",
+        "b": "Right anterior scalene muscle",
+        "c": "Right trapezius muscle",
+        "d": "Left omohyoid muscle",
+        "e": "Left sternocleidomastoid muscle"
+      },
+      "correct": "a",
+      "explanation": "Damage to the right sternocleidomastoid muscle causes weakened lateral flexion of the head to the right and weakened rotation of the head to the left, because unilateral contraction of this muscle laterally flexes the head to the same side and rotates it to the opposite side. The muscle is innervated by the accessory nerve."
+    }
+  },
+  {
+  id: 10287,
+  cz: {
+    stem: "M. latissimus dorsi se podílí na addukci, vnitřní rotaci a extenzi v ramenním kloubu. Kterým nervem je inervován?",
+    options: {
+      a: "n. axillaris",
+      b: "n. thoracodorsalis",
+      c: "n. dorsalis scapulae",
+      d: "n. subscapularis",
+      e: "n. musculocutaneus"
+    },
+    correct: "b",
+    explanation: "M. latissimus dorsi je inervován n. thoracodorsalis (z fasciculus posterior plexus brachialis, kořeny C6–C8), probíhajícím spolu s a. thoracodorsalis po jeho přední ploše. Tento nerv je klíčovým landmarkem při axilární lymfadenektomii, kde musí být šetřen."
+  },
+  en: {
+    stem: "The latissimus dorsi muscle contributes to adduction, internal rotation, and extension of the shoulder joint. Which nerve innervates it?",
+    options: {
+      a: "axillary nerve (n. axillaris)",
+      b: "thoracodorsal nerve (n. thoracodorsalis)",
+      c: "dorsal scapular nerve (n. dorsalis scapulae)",
+      d: "subscapular nerve (n. subscapularis)",
+      e: "musculocutaneous nerve (n. musculocutaneus)"
+    },
+    correct: "b",
+    explanation: "The latissimus dorsi is innervated by the thoracodorsal nerve (from the posterior cord of the brachial plexus, roots C6–C8), which runs together with the thoracodorsal vessels along its deep surface. This nerve is an important landmark in axillary lymph node dissection, where it must be preserved."
+  }
+},
+
     ]
     // =ANATOMIE_1_VERZE_2_END=
   },
@@ -27415,7 +27037,60 @@ const LIVE_QUESTION_BANKS = {
       explanation: "The findings are consistent with a positive anterior drawer test. The anterior cruciate ligament prevents anterior translation of the tibia relative to the femur and also limits excessive internal rotation of the tibia. It is commonly injured during a sudden change in direction or a rotational mechanism with the foot planted, resulting in increased anteroposterior instability of the knee joint."
     }
   },
-
+  {
+    "id": 10284,
+    "cz": {
+      "stem": "Jaké je správné kraniokaudální pořadí struktur v sulcus costae?",
+      "options": {
+        "a": "Vena intercostalis, arteria intercostalis, nervus intercostalis",
+        "b": "Nervus intercostalis, arteria intercostalis, vena intercostalis",
+        "c": "Arteria intercostalis, vena intercostalis, nervus intercostalis",
+        "d": "Vena intercostalis, nervus intercostalis, arteria intercostalis",
+        "e": "Nervus intercostalis, vena intercostalis, arteria intercostalis"
+      },
+      "correct": "a",
+      "explanation": "Mezižeberní svazek probíhá v sulcus costae na dolním okraji žebra a jeho struktury jsou ve směru od horní k dolní části prostoru uspořádány jako vena intercostalis, arteria intercostalis a nervus intercostalis. Při zavádění drénu se proto vstupuje těsně nad horní okraj dolního žebra."
+    },
+    "en": {
+      "stem": "What is the correct craniocaudal order of the structures within the costal groove?",
+      "options": {
+        "a": "Intercostal vein, intercostal artery, intercostal nerve",
+        "b": "Intercostal nerve, intercostal artery, intercostal vein",
+        "c": "Intercostal artery, intercostal vein, intercostal nerve",
+        "d": "Intercostal vein, intercostal nerve, intercostal artery",
+        "e": "Intercostal nerve, intercostal vein, intercostal artery"
+      },
+      "correct": "a",
+      "explanation": "The intercostal neurovascular bundle runs within the costal groove along the inferior border of the rib, and its structures are arranged from superior to inferior as the intercostal vein, intercostal artery, and intercostal nerve. Therefore, when inserting a chest tube, the entry point should be immediately above the superior border of the lower rib."
+    }
+  },
+  {
+  id: 10285,
+  cz: {
+    stem: "Který vaz fixuje dens axis k zadní ploše přední oblouku atlasu a zabraňuje jeho posteriornímu posunu?",
+    options: {
+      a: "lig. apicis dentis",
+      b: "lig. transversum atlantis",
+      c: "lig. alaria",
+      d: "lig. longitudinale anterius",
+      e: "membrana tectoria"
+    },
+    correct: "b",
+    explanation: "Lig. transversum atlantis probíhá mezi vnitřními ploškami massae laterales atlasu a fixuje dens axis zezadu k arcus anterior atlantis. Jeho ruptura (např. při traumatu nebo u revmatoidní artritidy) umožňuje posteriorní posun dens axis do canalis vertebralis s rizikem komprese míchy."
+  },
+  en: {
+    stem: "Which ligament anchors the dens of the axis to the posterior surface of the anterior arch of the atlas and prevents its posterior displacement?",
+    options: {
+      a: "apical ligament of the dens",
+      b: "transverse ligament of the atlas",
+      c: "alar ligaments",
+      d: "anterior longitudinal ligament",
+      e: "tectorial membrane"
+    },
+    correct: "b",
+    explanation: "The transverse ligament of the atlas runs between the medial surfaces of the lateral masses of the atlas and secures the dens of the axis posteriorly to the anterior arch of the atlas. Its rupture (e.g., in trauma or rheumatoid arthritis) allows posterior displacement of the dens into the vertebral canal with a risk of spinal cord compression."
+  }
+},
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
