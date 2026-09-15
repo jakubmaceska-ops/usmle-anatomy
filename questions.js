@@ -21549,6 +21549,34 @@ id: 269,
   },
   image: { key: "q1071_custom", source: "Hellerhoff. Zn transsphenoidaler Hypophysektomie 52M - CT sagittal - 001.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Zn_transsphenoidaler_Hypophysektomie_52M_-_CT_sagittal_-_001.jpg. CC BY-SA 4.0. Accessed 22 August 2026.", type: "image" }
 },
+{
+  id: 1122,
+  cz: {
+    stem: "32letý muž je vyšetřován pomocí MRI mozku pro opakované epizody poruchy vědomí. Na přiloženém koronárním MRI řezu je patrný rozdíl v objemu struktur uložených v mediální části temporálních laloků, přičemž vlevo je pozorován výrazný objemový úbytek (označeno šipkou). Jaká anatomická struktura je postižena?",
+    options: {
+        a: "Hippocampus",
+        b: "Amygdala",
+        c: "Gyrus parahippocampalis",
+        d: "Nucleus caudatus",
+        e: "Thalamus"
+    },
+    correct: "a",
+    explanation: "Na přiloženém MRI je patrný objemový úbytek levého hippocampu (označeno šipkou). Hippocampus se nachází v mediální části temporálního laloku a je součástí limbického systému. Podílí se především na procesech učení a konsolidaci deklarativní paměti. Jeho atrofie může být pozorována například u sklerózy hippocampu, která je významně spojena s epilepsií mediálního temporálního laloku."
+  },
+  en: {
+    stem: "A 32-year-old man is undergoing brain MRI evaluation for recurrent episodes of impaired consciousness. On the attached coronal MRI section, there is an asymmetry in the volume of structures located in the medial portions of the temporal lobes, with marked volume loss on the left (arrow). Which anatomical structure is affected?",
+    options: {
+        a: "Hippocampus",
+        b: "Amygdala",
+        c: "Parahippocampal gyrus",
+        d: "Caudate nucleus",
+        e: "Thalamus"
+    },
+    correct: "a",
+    explanation: "The MRI shows volume loss of the left hippocampus (arrow). The hippocampus is located in the medial temporal lobe and is part of the limbic system. It is primarily involved in learning and the consolidation of declarative memory. Hippocampal atrophy may be observed in conditions such as hippocampal sclerosis, which is strongly associated with mesial temporal lobe epilepsy."
+  },
+  image: { key: "q1122_custom", source: "Uhomachinky. Left Hippocampal Sclerosis on MRI.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Left_Hippocampal_Sclerosis_on_MRI.jpg. CC BY-SA 4.0. Accessed 15 September 2026.", type: "image" }
+},
         ]
       },
       hlavove_nervy: {
