@@ -1018,11 +1018,26 @@
   .aq-success-msg {
     font-size: 14.5px;
     font-weight: 600;
-    color: var(--correct-ink, var(--ink));
+    color: var(--ink);
     background: var(--bg-hover);
     border: 1px solid var(--line-strong);
     border-radius: var(--radius);
     padding: 12px 14px;
+  }
+
+  .aq-success-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .aq-success-check {
+    font-weight: 700;
+  }
+
+  .aq-success-thanks {
+    margin-top: 6px;
+    font-weight: 600;
   }
 
   .aq-output-wrap {
@@ -1424,6 +1439,18 @@
     letter-spacing: 0.5px;
     margin-bottom: 14px;
     text-transform: uppercase;
+  }
+
+  .q-number.has-author {
+    margin-bottom: 3px;
+  }
+
+  .q-author {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    letter-spacing: 0.3px;
+    margin-bottom: 14px;
   }
 
   .q-stem {
@@ -3006,6 +3033,7 @@ function chapterImageSrc(chapterKey) {
       backToUnits: "Zpět na úvod",
       question: "Otázka",
       questionIdLabel: "ID otázky",
+      questionAddedByLabel: (name) => `Otázka přidána uživatelem ${name}`,
       of: "z",
       next: "Další otázka",
       prev: "Předchozí otázka",
@@ -3053,6 +3081,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       fieldChapter: "Podkapitola",
       sectionCzTitle: "Český text",
       sectionEnTitle: "Anglický text",
+      sectionAuthorTitle: "Autor otázky",
       fieldStem: "Text otázky",
       fieldStemPlaceholder: "Zadej znění otázky…",
       fieldStemEn: "Text otázky (EN)",
@@ -3089,6 +3118,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       submitForReviewBtn: "Odeslat otázku ke kontrole",
       submitForReviewSending: "Odesílám…",
       submitForReviewSuccess: "Odesláno týmu USMLE Anatomy App ke kontrole.",
+      submitForReviewThanks: "Děkujeme!",
       submitForReviewError: "Odeslání se nezdařilo. Zkuste to prosím znovu později.",
       consentRequiredMsg: "Pro odeslání otázky je nutné zaškrtnout povinný souhlas.",
 
@@ -3262,6 +3292,7 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       backToUnits: "Back to home",
       question: "Question",
       questionIdLabel: "Question ID",
+      questionAddedByLabel: (name) => `Question added by ${name}`,
       of: "of",
       next: "Next question",
       prev: "Previous question",
@@ -3309,6 +3340,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       fieldChapter: "Subchapter",
       sectionCzTitle: "Czech text",
       sectionEnTitle: "English text",
+      sectionAuthorTitle: "Question author",
       fieldStem: "Question text",
       fieldStemPlaceholder: "Enter the question text…",
       fieldStemEn: "Question text (EN)",
@@ -3345,6 +3377,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       submitForReviewBtn: "Submit question for review",
       submitForReviewSending: "Sending…",
       submitForReviewSuccess: "Sent to the USMLE Anatomy App team for review.",
+      submitForReviewThanks: "Thank you!",
       submitForReviewError: "Sending failed. Please try again later.",
       consentRequiredMsg: "You must check the required consent box to submit the question.",
 
@@ -4777,6 +4810,27 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     explSourceField.appendChild(explSourceInput);
     wrap.appendChild(explSourceField);
 
+    // -- autor otázky (nepovinné, na konci formuláře) --
+    wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionAuthorTitle }));
+
+    const authorField = el("div", { cls: "aq-consent-field" });
+    const authorCheckbox = el("input", { attrs: { type: "checkbox", id: "aq-admin-author-cb" } });
+    const authorLabel = el("label", { attrs: { for: "aq-admin-author-cb" }, text: tr().authorNameCheckboxLabel });
+    authorField.appendChild(authorCheckbox);
+    authorField.appendChild(authorLabel);
+    wrap.appendChild(authorField);
+
+    const authorNameInput = el("input", {
+      cls: "aq-input aq-author-name-input",
+      attrs: { type: "text", placeholder: tr().authorNamePlaceholder }
+    });
+    authorNameInput.style.display = "none";
+    wrap.appendChild(authorNameInput);
+
+    authorCheckbox.addEventListener("change", () => {
+      authorNameInput.style.display = authorCheckbox.checked ? "block" : "none";
+    });
+
     // -- error message --
     const errorMsg = el("div", { cls: "aq-error" });
     wrap.appendChild(errorMsg);
@@ -4863,6 +4917,11 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
           ? `,\n  explanationImage: { key: ${JSON.stringify(explImageKey)}, source: ${JSON.stringify(explSourceInput.value.trim())}, type: ${JSON.stringify(explImageMediaType)} }`
           : "";
 
+        const authorName = authorCheckbox.checked ? authorNameInput.value.trim() : "";
+        const authorFieldCode = authorName
+          ? `,\n  author: ${JSON.stringify(authorName)}`
+          : "";
+
         const questionCode =
 `{
   id: ${newId},
@@ -4881,7 +4940,7 @@ ${optionsObjCodeEn}
     },
     correct: ${JSON.stringify(correctLetter)},
     explanation: ${JSON.stringify(explTextEn)}
-  }${imageFieldCode}${explImageFieldCode}
+  }${imageFieldCode}${explImageFieldCode}${authorFieldCode}
 },`;
 
         const combinedImageCode = imageCode + explImageCode;
@@ -4920,7 +4979,13 @@ ${optionsObjCodeEn}
 
     // -- po úspěšném odeslání se místo formuláře zobrazí jen potvrzení --
     if (live.userQuestionSent) {
-      wrap.appendChild(el("div", { cls: "aq-success-msg", text: tr().submitForReviewSuccess }));
+      const successBox = el("div", { cls: "aq-success-msg" });
+      const successLine = el("div", { cls: "aq-success-line" });
+      successLine.appendChild(document.createTextNode(tr().submitForReviewSuccess));
+      successLine.appendChild(el("span", { cls: "aq-success-check", text: "✓" }));
+      successBox.appendChild(successLine);
+      successBox.appendChild(el("div", { cls: "aq-success-thanks", text: tr().submitForReviewThanks }));
+      wrap.appendChild(successBox);
       return wrap;
     }
 
@@ -6644,7 +6709,13 @@ ${optionsObjCodeEn}
     // Question card
     const card = el("div", { cls: "question-card" });
     const qNumberLabel = (q.id !== undefined && q.id !== null) ? q.id : (idx + 1);
-    card.appendChild(el("div", { cls: "q-number", text: `${tr().questionIdLabel} ${qNumberLabel}` }));
+    card.appendChild(el("div", {
+      cls: "q-number" + (q.author ? " has-author" : ""),
+      text: `${tr().questionIdLabel} ${qNumberLabel}`
+    }));
+    if (q.author) {
+      card.appendChild(el("div", { cls: "q-author", text: tr().questionAddedByLabel(q.author) }));
+    }
 
     // Favorite button
     if (q.id !== undefined && q.id !== null) {
