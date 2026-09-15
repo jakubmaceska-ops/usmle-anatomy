@@ -945,6 +945,86 @@
     min-height: 18px;
   }
 
+  /* ---- volba režimu (admin / uživatel) ---- */
+  .aq-mode-choice {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 360px;
+    margin: 4px 0 0;
+  }
+
+  .aq-mode-choice .pill-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* ---- licenční upozornění u obrázku (uživatelský formulář) ---- */
+  .aq-license-warning {
+    display: flex;
+    align-items: flex-start;
+    gap: 9px;
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--ink-soft);
+    background: var(--bg-hover);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    padding: 10px 12px;
+    margin: -2px 0 0;
+  }
+
+  .aq-license-warning .aq-warning-icon {
+    flex-shrink: 0;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .aq-license-warning a {
+    color: var(--ink);
+    text-decoration: underline;
+  }
+
+  /* ---- souhlasové / autorské zaškrtávací pole (uživatelský formulář) ---- */
+  .aq-consent-field {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .aq-consent-field input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    margin-top: 2px;
+    accent-color: var(--ink);
+    cursor: pointer;
+  }
+
+  .aq-consent-field label {
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+  }
+
+  .aq-consent-field .aq-required-star {
+    color: var(--incorrect-ink);
+  }
+
+  .aq-author-name-input {
+    margin-left: 27px;
+  }
+
+  .aq-success-msg {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--correct-ink, var(--ink));
+    background: var(--bg-hover);
+    border: 1px solid var(--line-strong);
+    border-radius: var(--radius);
+    padding: 12px 14px;
+  }
+
   .aq-output-wrap {
     border-top: 1px solid var(--line);
     padding-top: 22px;
@@ -2658,6 +2738,7 @@ function chapterImageSrc(chapterKey) {
     adminUnlockInput: "",
     adminUnlockError: "",
     adminUnlockChecking: false,
+    addQuestionMode: null,     // null | "admin" | "user" — volba v sekci "Přidat otázku"
     uid: null,
     myName: (function () {
       try { return localStorage.getItem("usmle-live-name") || ""; } catch (e) { return ""; }
@@ -2995,6 +3076,21 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       copyBtn: "Kopírovat",
       copiedMsg: "Zkopírováno!",
       validationMsg: "Vyplň prosím český i anglický text otázky, všech 5 možností v obou jazycích, vyber správnou odpověď a vyplň vzorové řešení v obou jazycích.",
+      addQuestionChooseAdmin: "Přidat otázku - admin",
+      addQuestionChooseUser: "Přidat otázku - uživatel",
+      addQuestionUserIntro: "Vyplň formulář níže (český i anglický text). Po odeslání otázku zkontroluje tým USMLE Anatomy App a v případě schválení ji zařadí do databáze otázek.",
+      fieldImageLicenseWarningHtml: "Obrázky musí pocházet z licencí umožňujících jejich bezplatné šíření na internetu, tedy např. <a href=\"https://en.wikipedia.org/wiki/Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a>, <a href=\"https://creativecommons.org/licenses/by/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY 2.5</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.",
+      fieldImageUrlUser: "Zadejte url obrázku",
+      fieldImageUrlUserPlaceholder: "https://…",
+      fieldExplanationImageUrlUser: "Zadejte url obrázku k řešení",
+      consentLabel: "Odesláním otázky souhlasím s tím, že ji tým USMLE Anatomy App může zařadit do databáze otázek, upravit a dále využívat v rámci aplikace, včetně jejích budoucích verzí.",
+      authorNameCheckboxLabel: "Chci, aby u otázky bylo uvedeno moje jméno nebo přezdívka jako autora. (vyplňte)",
+      authorNamePlaceholder: "Jméno nebo přezdívka",
+      submitForReviewBtn: "Odeslat otázku ke kontrole",
+      submitForReviewSending: "Odesílám…",
+      submitForReviewSuccess: "Odesláno týmu USMLE Anatomy App ke kontrole.",
+      submitForReviewError: "Odeslání se nezdařilo. Zkuste to prosím znovu později.",
+      consentRequiredMsg: "Pro odeslání otázky je nutné zaškrtnout povinný souhlas.",
 
       // ---- Živý test (multiplayer) ----
       liveEntryBtn: "Živý test",
@@ -3236,6 +3332,21 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       copyBtn: "Copy",
       copiedMsg: "Copied!",
       validationMsg: "Please fill in both the Czech and English question text, all 5 options in both languages, select the correct answer, and fill in the explanation in both languages.",
+      addQuestionChooseAdmin: "Add question - admin",
+      addQuestionChooseUser: "Add question - user",
+      addQuestionUserIntro: "Fill out the form below (both the Czech and English text). After submitting, the USMLE Anatomy App team will review the question and, if approved, add it to the question database.",
+      fieldImageLicenseWarningHtml: "Images must come from licenses that allow free distribution on the internet, e.g. <a href=\"https://en.wikipedia.org/wiki/Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a>, <a href=\"https://creativecommons.org/licenses/by/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY 2.5</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> and <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>.",
+      fieldImageUrlUser: "Enter image URL",
+      fieldImageUrlUserPlaceholder: "https://…",
+      fieldExplanationImageUrlUser: "Enter explanation image URL",
+      consentLabel: "By submitting this question I agree that the USMLE Anatomy App team may add it to the question database, edit it, and further use it within the app, including its future versions.",
+      authorNameCheckboxLabel: "I want my name or nickname to be shown as the author of this question. (fill in)",
+      authorNamePlaceholder: "Name or nickname",
+      submitForReviewBtn: "Submit question for review",
+      submitForReviewSending: "Sending…",
+      submitForReviewSuccess: "Sent to the USMLE Anatomy App team for review.",
+      submitForReviewError: "Sending failed. Please try again later.",
+      consentRequiredMsg: "You must check the required consent box to submit the question.",
 
       // ---- Live test (multiplayer) ----
       liveEntryBtn: "Live Test",
@@ -4324,10 +4435,13 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     return wrap;
   }
 
-  function renderAddQuestionForm() {
-    const wrap = el("div", { cls: "add-question-form" });
-    wrap.appendChild(el("p", { cls: "aq-intro", text: tr().addQuestionIntro }));
+  // Sdílená regulární výrazová konstanta pro rozpoznání video-přípon —
+  // používá jak admin, tak uživatelský formulář pro přidání otázky.
+  const AQ_VIDEO_EXT_RE = /\.(ogv|ogg|webm|mp4|mov)$/i;
 
+  // Vykreslí dvě série textů "Poslední přidaná otázka má číslo…" — společné
+  // pro obrazovku volby režimu i pro oba formuláře.
+  function renderAddQuestionLastIdInfo(wrap) {
     const lastIdNum = getMaxQuestionId();
     const lastIdTemplate = tr().addQuestionLastId || "Poslední přidaná otázka má číslo {id} (další nová otázka dostane číslo {nextId}).";
     const lastIdText = lastIdTemplate.replace("{id}", lastIdNum).replace("{nextId}", lastIdNum + 1);
@@ -4342,6 +4456,53 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
       lastLiveIdText = lastLiveIdTemplate.replace("{id}", lastLiveIdNum).replace("{nextId}", lastLiveIdNum + 1);
     }
     wrap.appendChild(el("p", { cls: "aq-last-id aq-last-live-id", text: lastLiveIdText }));
+  }
+
+  // -- sekce "Přidat otázku" — nejprve volba mezi admin formulářem (beze
+  // změny, jde rovnou do zdrojového kódu appky) a uživatelským formulářem
+  // (bez přihlášení, odešle se e-mailem ke kontrole týmu). Volba se drží
+  // v live.addQuestionMode, ať přežije re-render (např. po přihlášení admina).
+  function renderAddQuestionForm() {
+    if (live.addQuestionMode === "admin") return renderAddQuestionAdminForm();
+    if (live.addQuestionMode === "user") return renderAddQuestionUserForm();
+    return renderAddQuestionModeSelect();
+  }
+
+  function renderAddQuestionModeSelect() {
+    const wrap = el("div", { cls: "add-question-form" });
+    renderAddQuestionLastIdInfo(wrap);
+
+    const choiceWrap = el("div", { cls: "aq-mode-choice" });
+    choiceWrap.appendChild(el("button", {
+      cls: "pill-btn primary",
+      text: tr().addQuestionChooseAdmin,
+      onClick: () => { live.addQuestionMode = "admin"; render(); }
+    }));
+    choiceWrap.appendChild(el("button", {
+      cls: "pill-btn",
+      text: tr().addQuestionChooseUser,
+      onClick: () => {
+        live.addQuestionMode = "user";
+        live.userQuestionSent = false;
+        live.userQuestionSending = false;
+        live.userQuestionError = "";
+        render();
+      }
+    }));
+    wrap.appendChild(choiceWrap);
+
+    return wrap;
+  }
+
+  function renderAddQuestionAdminForm() {
+    const wrap = el("div", { cls: "add-question-form" });
+    wrap.appendChild(el("a", {
+      cls: "back-link", attrs: { "data-hw-back": "1" },
+      text: "← " + tr().back,
+      onClick: () => { live.addQuestionMode = null; render(); }
+    }));
+    wrap.appendChild(el("p", { cls: "aq-intro", text: tr().addQuestionIntro }));
+    renderAddQuestionLastIdInfo(wrap);
 
     // -- samotný formulář pro přidání otázky je dostupný jen po přihlášení
     // admina (stejné ověřené admin přihlášení jako u živého testu — sdílený
@@ -4738,6 +4899,366 @@ ${optionsObjCodeEn}
       }
     });
     wrap.appendChild(generateBtn);
+
+    return wrap;
+  }
+
+  // -- Uživatelský formulář pro přidání otázky -----------------------------
+  // Bez přihlášení. Po odeslání se otázka pošle na server endpoint
+  // /api/submit-question (Cloudflare Pages Function, analogicky k
+  // /api/report-question — viz functions/api/submit-question.js), který
+  // pošle e-mail s obsahem otázky přes Resend na kontrolní e-mail týmu.
+  // Otázka se NIKAM neukládá automaticky — o zařazení do appky rozhoduje
+  // až tým po ruční kontrole e-mailu.
+  function renderAddQuestionUserForm() {
+    const wrap = el("div", { cls: "add-question-form" });
+    wrap.appendChild(el("a", {
+      cls: "back-link", attrs: { "data-hw-back": "1" },
+      text: "← " + tr().back,
+      onClick: () => { live.addQuestionMode = null; render(); }
+    }));
+
+    // -- po úspěšném odeslání se místo formuláře zobrazí jen potvrzení --
+    if (live.userQuestionSent) {
+      wrap.appendChild(el("div", { cls: "aq-success-msg", text: tr().submitForReviewSuccess }));
+      return wrap;
+    }
+
+    wrap.appendChild(el("p", { cls: "aq-intro", text: tr().addQuestionUserIntro }));
+    renderAddQuestionLastIdInfo(wrap);
+
+    // -- unit + chapter selects --
+    const unitKeys = Object.keys(QUESTION_DATA).filter(k => k !== "nastaveni");
+
+    const unitField = el("div", { cls: "aq-field" });
+    unitField.appendChild(el("label", { cls: "aq-label", text: tr().fieldUnit }));
+    const unitSelect = el("select", { cls: "aq-select" });
+    unitKeys.forEach(uk => {
+      const opt = el("option", { text: QUESTION_DATA[uk].title[state.lang] });
+      opt.value = uk;
+      unitSelect.appendChild(opt);
+    });
+    unitField.appendChild(unitSelect);
+    wrap.appendChild(unitField);
+
+    const chapterField = el("div", { cls: "aq-field" });
+    chapterField.appendChild(el("label", { cls: "aq-label", text: tr().fieldChapter }));
+    const chapterSelect = el("select", { cls: "aq-select" });
+    chapterField.appendChild(chapterSelect);
+    wrap.appendChild(chapterField);
+
+    function populateChapters() {
+      chapterSelect.innerHTML = "";
+      const chapters = QUESTION_DATA[unitSelect.value].chapters;
+      Object.keys(chapters).forEach(ck => {
+        const opt = el("option", { text: chapters[ck].title[state.lang] });
+        opt.value = ck;
+        chapterSelect.appendChild(opt);
+      });
+    }
+    populateChapters();
+    unitSelect.addEventListener("change", populateChapters);
+
+    // -- CZ section --
+    wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionCzTitle }));
+
+    const stemField = el("div", { cls: "aq-field" });
+    stemField.appendChild(el("label", { cls: "aq-label", text: tr().fieldStem }));
+    const stemInput = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldStemPlaceholder }
+    });
+    stemField.appendChild(stemInput);
+    wrap.appendChild(stemField);
+
+    const optionsField = el("div", { cls: "aq-field" });
+    optionsField.appendChild(el("label", { cls: "aq-label", text: tr().fieldOptions }));
+    const letters = ["a", "b", "c", "d", "e"];
+    const optionInputs = {};
+    letters.forEach(letter => {
+      const row = el("div", { cls: "aq-option-row" });
+      const radio = el("input", { attrs: { type: "radio", name: "aq-user-correct" } });
+      radio.value = letter;
+      const letterLabel = el("span", { cls: "aq-option-letter", text: letter.toUpperCase() });
+      const textInput = el("input", {
+        cls: "aq-input aq-option-input",
+        attrs: { type: "text", placeholder: tr().fieldOptionPlaceholder(letter.toUpperCase()) }
+      });
+      optionInputs[letter] = { radio, textInput };
+      row.appendChild(radio);
+      row.appendChild(letterLabel);
+      row.appendChild(textInput);
+      optionsField.appendChild(row);
+    });
+    wrap.appendChild(optionsField);
+
+    const explField = el("div", { cls: "aq-field" });
+    explField.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanation }));
+    const explInput = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldExplanationPlaceholder }
+    });
+    explField.appendChild(explInput);
+    wrap.appendChild(explField);
+
+    // -- image / video (nepovinné) + licenční upozornění + url zdroje --
+    let imageDataUrl = null;
+    let imageMediaType = "image";
+    const imageField = el("div", { cls: "aq-field" });
+    imageField.appendChild(el("label", { cls: "aq-label", text: tr().fieldImage }));
+    const imageInput = el("input", {
+      attrs: {
+        type: "file",
+        accept: "image/png,image/jpeg,image/webp,video/mp4,video/webm,video/ogg,.ogv,.ogg,.mp4,.webm,.mov"
+      }
+    });
+    const imagePreviewWrap = el("div", { cls: "aq-image-preview-wrap" });
+    imageField.appendChild(imageInput);
+    imageField.appendChild(imagePreviewWrap);
+    const imageWarning = el("div", { cls: "aq-license-warning" });
+    imageWarning.appendChild(el("span", { cls: "aq-warning-icon", text: "❗" }));
+    imageWarning.appendChild(el("span", { html: tr().fieldImageLicenseWarningHtml }));
+    imageField.appendChild(imageWarning);
+    wrap.appendChild(imageField);
+
+    imageInput.addEventListener("change", () => {
+      const file = imageInput.files && imageInput.files[0];
+      imagePreviewWrap.innerHTML = "";
+      if (!file) { imageDataUrl = null; return; }
+      const isVideo = (file.type && file.type.startsWith("video/")) || AQ_VIDEO_EXT_RE.test(file.name || "");
+      imageMediaType = isVideo ? "video" : "image";
+      const reader = new FileReader();
+      reader.onload = () => {
+        imageDataUrl = reader.result;
+        const previewEl = isVideo
+          ? el("video", {
+              cls: "aq-image-preview",
+              attrs: { src: imageDataUrl, controls: "controls", muted: "muted" }
+            })
+          : el("img", { cls: "aq-image-preview", attrs: { src: imageDataUrl, alt: "" } });
+        const removeBtn = el("button", {
+          cls: "aq-remove-img",
+          text: "×",
+          onClick: () => {
+            imageDataUrl = null;
+            imageInput.value = "";
+            imagePreviewWrap.innerHTML = "";
+          }
+        });
+        imagePreviewWrap.appendChild(previewEl);
+        imagePreviewWrap.appendChild(removeBtn);
+      };
+      reader.readAsDataURL(file);
+    });
+
+    const sourceField = el("div", { cls: "aq-field" });
+    sourceField.appendChild(el("label", { cls: "aq-label", text: tr().fieldImageUrlUser }));
+    const sourceInput = el("input", {
+      cls: "aq-input",
+      attrs: { type: "text", placeholder: tr().fieldImageUrlUserPlaceholder }
+    });
+    sourceField.appendChild(sourceInput);
+    wrap.appendChild(sourceField);
+
+    // -- EN section --
+    wrap.appendChild(el("h3", { cls: "aq-section-title", text: tr().sectionEnTitle }));
+
+    const stemFieldEn = el("div", { cls: "aq-field" });
+    stemFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldStemEn }));
+    const stemInputEn = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldStemEnPlaceholder }
+    });
+    stemFieldEn.appendChild(stemInputEn);
+    wrap.appendChild(stemFieldEn);
+
+    const optionsFieldEn = el("div", { cls: "aq-field" });
+    optionsFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldOptionsEn }));
+    const optionInputsEn = {};
+    letters.forEach(letter => {
+      const row = el("div", { cls: "aq-option-row" });
+      const letterLabel = el("span", { cls: "aq-option-letter", text: letter.toUpperCase() });
+      const textInput = el("input", {
+        cls: "aq-input aq-option-input",
+        attrs: { type: "text", placeholder: tr().fieldOptionPlaceholderEn(letter.toUpperCase()) }
+      });
+      optionInputsEn[letter] = { textInput };
+      row.appendChild(letterLabel);
+      row.appendChild(textInput);
+      optionsFieldEn.appendChild(row);
+    });
+    wrap.appendChild(optionsFieldEn);
+
+    const explFieldEn = el("div", { cls: "aq-field" });
+    explFieldEn.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationEn }));
+    const explInputEn = el("textarea", {
+      cls: "aq-textarea",
+      attrs: { rows: "4", placeholder: tr().fieldExplanationEnPlaceholder }
+    });
+    explFieldEn.appendChild(explInputEn);
+    wrap.appendChild(explFieldEn);
+
+    // -- explanation image / video (nepovinné) + stejné licenční upozornění --
+    let explImageDataUrl = null;
+    let explImageMediaType = "image";
+    const explImageField = el("div", { cls: "aq-field" });
+    explImageField.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationImage }));
+    const explImageInput = el("input", {
+      attrs: {
+        type: "file",
+        accept: "image/png,image/jpeg,image/webp,video/mp4,video/webm,video/ogg,.ogv,.ogg,.mp4,.webm,.mov"
+      }
+    });
+    const explImagePreviewWrap = el("div", { cls: "aq-image-preview-wrap" });
+    explImageField.appendChild(explImageInput);
+    explImageField.appendChild(explImagePreviewWrap);
+    const explImageWarning = el("div", { cls: "aq-license-warning" });
+    explImageWarning.appendChild(el("span", { cls: "aq-warning-icon", text: "❗" }));
+    explImageWarning.appendChild(el("span", { html: tr().fieldImageLicenseWarningHtml }));
+    explImageField.appendChild(explImageWarning);
+    wrap.appendChild(explImageField);
+
+    explImageInput.addEventListener("change", () => {
+      const file = explImageInput.files && explImageInput.files[0];
+      explImagePreviewWrap.innerHTML = "";
+      if (!file) { explImageDataUrl = null; return; }
+      const isVideo = (file.type && file.type.startsWith("video/")) || AQ_VIDEO_EXT_RE.test(file.name || "");
+      explImageMediaType = isVideo ? "video" : "image";
+      const reader = new FileReader();
+      reader.onload = () => {
+        explImageDataUrl = reader.result;
+        const previewEl = isVideo
+          ? el("video", {
+              cls: "aq-image-preview",
+              attrs: { src: explImageDataUrl, controls: "controls", muted: "muted" }
+            })
+          : el("img", { cls: "aq-image-preview", attrs: { src: explImageDataUrl, alt: "" } });
+        const removeBtn = el("button", {
+          cls: "aq-remove-img",
+          text: "×",
+          onClick: () => {
+            explImageDataUrl = null;
+            explImageInput.value = "";
+            explImagePreviewWrap.innerHTML = "";
+          }
+        });
+        explImagePreviewWrap.appendChild(previewEl);
+        explImagePreviewWrap.appendChild(removeBtn);
+      };
+      reader.readAsDataURL(file);
+    });
+
+    const explSourceField = el("div", { cls: "aq-field" });
+    explSourceField.appendChild(el("label", { cls: "aq-label", text: tr().fieldExplanationImageUrlUser }));
+    const explSourceInput = el("input", {
+      cls: "aq-input",
+      attrs: { type: "text", placeholder: tr().fieldImageUrlUserPlaceholder }
+    });
+    explSourceField.appendChild(explSourceInput);
+    wrap.appendChild(explSourceField);
+
+    // -- povinný souhlas se zpracováním --
+    const consentField = el("div", { cls: "aq-consent-field" });
+    const consentCheckbox = el("input", { attrs: { type: "checkbox", id: "aq-consent-cb" } });
+    const consentLabel = el("label", { attrs: { for: "aq-consent-cb" } });
+    consentLabel.appendChild(document.createTextNode(tr().consentLabel + " "));
+    consentLabel.appendChild(el("span", { cls: "aq-required-star", text: "*" }));
+    consentField.appendChild(consentCheckbox);
+    consentField.appendChild(consentLabel);
+    wrap.appendChild(consentField);
+
+    // -- nepovinné uvedení jména/přezdívky autora --
+    const authorField = el("div", { cls: "aq-consent-field" });
+    const authorCheckbox = el("input", { attrs: { type: "checkbox", id: "aq-author-cb" } });
+    const authorLabel = el("label", { attrs: { for: "aq-author-cb" }, text: tr().authorNameCheckboxLabel });
+    authorField.appendChild(authorCheckbox);
+    authorField.appendChild(authorLabel);
+    wrap.appendChild(authorField);
+
+    const authorNameInput = el("input", {
+      cls: "aq-input aq-author-name-input",
+      attrs: { type: "text", placeholder: tr().authorNamePlaceholder }
+    });
+    authorNameInput.style.display = "none";
+    wrap.appendChild(authorNameInput);
+
+    authorCheckbox.addEventListener("change", () => {
+      authorNameInput.style.display = authorCheckbox.checked ? "block" : "none";
+    });
+
+    // -- chybová hláška --
+    const errorMsg = el("div", { cls: "aq-error" });
+    wrap.appendChild(errorMsg);
+
+    // -- odeslat ke kontrole --
+    const submitBtn = el("button", {
+      cls: "pill-btn primary",
+      text: tr().submitForReviewBtn,
+      onClick: async () => {
+        errorMsg.textContent = "";
+
+        const stemText = stemInput.value.trim();
+        const explText = explInput.value.trim();
+        const optionTexts = {};
+        letters.forEach(l => { optionTexts[l] = optionInputs[l].textInput.value.trim(); });
+        const correctLetter = letters.find(l => optionInputs[l].radio.checked);
+
+        const stemTextEn = stemInputEn.value.trim();
+        const explTextEn = explInputEn.value.trim();
+        const optionTextsEn = {};
+        letters.forEach(l => { optionTextsEn[l] = optionInputsEn[l].textInput.value.trim(); });
+
+        const czValid = stemText && explText && correctLetter && !letters.some(l => !optionTexts[l]);
+        const enValid = stemTextEn && explTextEn && !letters.some(l => !optionTextsEn[l]);
+
+        if (!czValid || !enValid) {
+          errorMsg.textContent = tr().validationMsg;
+          return;
+        }
+        if (!consentCheckbox.checked) {
+          errorMsg.textContent = tr().consentRequiredMsg;
+          return;
+        }
+        const authorName = authorCheckbox.checked ? authorNameInput.value.trim() : "";
+
+        const payload = {
+          unit: unitSelect.value,
+          unitTitle: QUESTION_DATA[unitSelect.value].title[state.lang],
+          chapter: chapterSelect.value,
+          chapterTitle: QUESTION_DATA[unitSelect.value].chapters[chapterSelect.value].title[state.lang],
+          cz: { stem: stemText, options: optionTexts, correct: correctLetter, explanation: explText },
+          en: { stem: stemTextEn, options: optionTextsEn, correct: correctLetter, explanation: explTextEn },
+          image: imageDataUrl ? { dataUrl: imageDataUrl, mediaType: imageMediaType, sourceUrl: sourceInput.value.trim() } : null,
+          explanationImage: explImageDataUrl ? { dataUrl: explImageDataUrl, mediaType: explImageMediaType, sourceUrl: explSourceInput.value.trim() } : null,
+          authorName: authorName || null,
+          showAuthorName: !!authorCheckbox.checked,
+          consentGiven: true
+        };
+
+        live.userQuestionSending = true;
+        submitBtn.disabled = true;
+        submitBtn.textContent = tr().submitForReviewSending;
+
+        try {
+          const resp = await fetch("/api/submit-question", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(payload)
+          });
+          if (!resp.ok) throw new Error("submit-question failed: " + resp.status);
+          live.userQuestionSent = true;
+          live.userQuestionSending = false;
+          render();
+        } catch (err) {
+          console.error("submitUserQuestion failed:", err);
+          live.userQuestionSending = false;
+          submitBtn.disabled = false;
+          submitBtn.textContent = tr().submitForReviewBtn;
+          errorMsg.textContent = tr().submitForReviewError;
+        }
+      }
+    });
+    wrap.appendChild(submitBtn);
 
     return wrap;
   }
