@@ -16,7 +16,7 @@
 //
 // Nutné Cloudflare Pages env proměnné (Settings → Environment variables,
 // pro Production i Preview, ideálně jako "Encrypt"):
-//   LIVE_ADMIN_CODE       - tajný kód (dřív "MACESKA2026", klidně změň)
+//   LIVE_ADMIN_CODE       - tajný kód 
 //   FIREBASE_CLIENT_EMAIL - z JSON klíče service accountu (Firebase Console →
 //                           Project settings → Service accounts → Generate new private key)
 //   FIREBASE_PRIVATE_KEY  - "private_key" z téhož JSON (i s "\n" v textu, kód
