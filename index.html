@@ -1356,6 +1356,23 @@
     flex-shrink: 0;
   }
 
+  /* MENU (Nastavení) — v mobilní verzi se název podkapitoly nemá zalamovat
+     na 2 řádky. Řádek dostává na mobilu celou šířku (místo rezervovaných
+     sloupců pro počet otázek, které tu stejně nejsou využité), aby se text
+     v jedné řádce vešel. */
+  @media (max-width: 640px) {
+    .chapter-row-menu {
+      grid-template-columns: 1fr;
+    }
+
+    .chapter-row-menu .ch-name-icon,
+    .chapter-row-menu .ch-name-news {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
   .news-badge {
     grid-column: 3;
     justify-self: end;
@@ -5448,7 +5465,7 @@ ${optionsObjCodeEn}
     // Aktuality — vždy první, graficky odlišené, s badge počtu nepřečtených zpráv
     const unreadCount = getUnreadNewsCount();
     const newsRow = el("div", {
-      cls: "chapter-row chapter-row-news",
+      cls: "chapter-row chapter-row-news chapter-row-menu",
       onClick: openNews
     });
     const newsNameWrap = el("span", { cls: "ch-name-news" });
@@ -5463,7 +5480,7 @@ ${optionsObjCodeEn}
     Object.keys(unit.chapters).forEach(chKey => {
       const ch = unit.chapters[chKey];
       const row = el("div", {
-        cls: "chapter-row",
+        cls: "chapter-row chapter-row-menu",
         onClick: () => openSettingsItem(state.unitKey, chKey)
       });
       const nameWrap = el("span", { cls: "ch-name-icon" });
@@ -5478,7 +5495,7 @@ ${optionsObjCodeEn}
       // ohledu na data.
       if (chKey === "podporte_nas") {
         const searchRow = el("div", {
-          cls: "chapter-row",
+          cls: "chapter-row chapter-row-menu",
           onClick: openQuestionSearch
         });
         const searchNameWrap = el("span", { cls: "ch-name-icon" });
