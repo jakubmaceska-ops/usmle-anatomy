@@ -603,6 +603,35 @@
     margin-bottom: 0;
   }
 
+  .about-app-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .about-app-link-btn {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--line);
+    background: transparent;
+    border-radius: 100px;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-family: var(--mono);
+    letter-spacing: 0.2px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: all 0.12s;
+  }
+
+  .about-app-link-btn:hover {
+    opacity: 1;
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+
   .about-app-composition-wrap {
     margin-top: 24px;
   }
@@ -3070,6 +3099,8 @@ function chapterImageSrc(chapterKey) {
       incorrect: "Nesprávně",
       correctAnswerWas: "Správná odpověď",
 aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během letních prázdnin 2026. Otázky znalostmi odpovídají rozsahu výuky anatomie na naší <em>alma mater</em> – Lékařské fakulty Masarykovy univerzity (Brno). Tento projekt není nijak spojen, sponzorován ani oficiálně přidružen k žádné vzdělávací organizaci, ani k oficiální zkoušce USMLE. Otázky v tomto projektu jsou autorským obsahem vytvořeným pro vzdělávací účely a nejsou převzaty z oficiálních materiálů USMLE ani z jejich reprodukcí.</p><p>Jedná se o studentský projekt 2 lidí bez jakéhokoliv financování, takže aplikace může být nedokonalá po technické i obsahové stránce. Pokud narazíte v otázkách na chybu, můžete na ni upozornit ostatní uživatele pod otázkou v komentáři nebo můžete nahlásit otázku tlačítkem Nahlásit chybu v pravém horním rohu. Případně nás můžete kontaktovat na uvedený email. Chyby se pokusíme opravit co nejdříve. </p><p>Otázky jsou zaměřené především na klinickou a praktickou aplikaci anatomie a snaží se napodobit USMLE styl testování. Snažili jsme se otázky udělat tak, aby jim porozuměl i student prvního ročníku pouze s anatomickými znalostmi.</p><p>Všechny otázky jsou originální autorská práce. Obrazové přílohy jsou buď vlastní autorskou prací (jako zdroj uvedeno \"Own work\") nebo pochází z veřejně dostupných zdrojů, jejichž licenční podmínky umožňují jejich bezplatné užití a šíření (konkrétně se jedná o licence: <a href=\"https://en.wikipedia.org/wiki/Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a>, <a href=\"https://creativecommons.org/licenses/by/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY 2.5</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> a <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>).</p><p>Více o autorských právech, využití umělé inteligence a licencích použitých obrázků najdete <a href=\"autorska-prava.html\" target=\"_blank\" rel=\"noopener\">zde</a>.</p><p>Zásady ochrany soukromí dostupné k přečtení <a href=\"privacy-policy.html\" target=\"_blank\" rel=\"noopener\">zde</a>.</p><p>&nbsp;</p><p>Hodně štěstí při studiu anatomie!</p>",
+      mainSiteLinkLabel: "Naše hlavní stránka",
+      googlePlayLinkLabel: "Stáhnout na Google Play",
       lightMode: "Bílý režim",
       darkMode: "Tmavý režim",
       saveProgressLabel: "Ukládat postup",
@@ -3329,6 +3360,8 @@ aboutAppText: "<p>Aplikace USMLE Anatomy byla vytvořena dvěma studenty během 
       incorrect: "Incorrect",
       correctAnswerWas: "Correct answer",
 aboutAppText: "<p>USMLE Anatomy app was created by two students during the summer break of 2026. The questions match the scope of anatomy taught at our <em>alma mater</em> – the Faculty of Medicine, Masaryk University (Brno). This project is not affiliated with, sponsored by, or officially associated with any educational organization or the official USMLE examination. The questions in this project are original content created for educational purposes and are not taken from official USMLE materials or reproductions thereof.</p><p>This is a student project made by 2 students without any funding, so the app may be imperfect both technically and content-wise. If you notice an error in any of the questions, you can point it out to other users by leaving a comment below the question, or you can report the question using the “Report an error” button in the upper-right corner. Alternatively, you can contact us at the email address provided. We will try to correct any errors as soon as possible.</p><p>The questions are focused mainly on the clinical and practical application of anatomy and try to imitate the USMLE testing style. We tried to make the questions understandable even for a first-year med student with only anatomical knowledge.</p><p>All questions are original authorial work. Image attachments are either our own work (listed with the source \"Own work\") or come from publicly available sources whose license terms allow their free use and distribution (specifically the licenses: <a href=\"https://en.wikipedia.org/wiki/Public_domain\" target=\"_blank\" rel=\"noopener\">Public domain</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\" target=\"_blank\" rel=\"noopener\">CC0 1.0</a>, <a href=\"https://creativecommons.org/licenses/by/2.5/\" target=\"_blank\" rel=\"noopener\">CC BY 2.5</a>, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY 3.0</a>, <a href=\"https://creativecommons.org/licenses/by/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY 4.0</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 3.0</a> and <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\" target=\"_blank\" rel=\"noopener\">CC BY-SA 4.0</a>).</p><p>More about copyright, the use of artificial intelligence, and the licenses of the images used is available <a href=\"autorska-prava.html\" target=\"_blank\" rel=\"noopener\">here</a>.</p><p>Privacy policy available to read <a href=\"privacy-policy.html\" target=\"_blank\" rel=\"noopener\">here</a>.</p><p>&nbsp;</p><p>Good luck studying anatomy!</p>",
+      mainSiteLinkLabel: "Our main website",
+      googlePlayLinkLabel: "Get it on Google Play",
       lightMode: "Light mode",
       darkMode: "Dark mode",
       saveProgressLabel: "Save progress",
@@ -5863,6 +5896,18 @@ ${optionsObjCodeEn}
 
       if (chapterKey === "info_o_aplikaci") {
         panel.appendChild(el("div", { cls: "about-app-text", html: tr().aboutAppText }));
+        const aboutAppLinks = el("div", { cls: "about-app-links" });
+        aboutAppLinks.appendChild(el("a", {
+          cls: "about-app-link-btn",
+          text: tr().mainSiteLinkLabel,
+          attrs: { href: "https://usmle-anatomy.app/", target: "_blank", rel: "noopener" }
+        }));
+        aboutAppLinks.appendChild(el("a", {
+          cls: "about-app-link-btn",
+          text: tr().googlePlayLinkLabel,
+          attrs: { href: "https://play.google.com/store/apps/details?id=app.usmle_anatomy.app.twa", target: "_blank", rel: "noopener" }
+        }));
+        panel.appendChild(aboutAppLinks);
         panel.appendChild(renderAboutAppComposition());
       } else if (chapterKey === "nastaveni_aplikace") {
         const langBlock = el("div", { cls: "setting-block lang-setting-block" });
