@@ -3871,7 +3871,7 @@ const QUESTION_DATA = {
 {
   id: 290,
   cz: {
-    stem: "34letý pacient s těžkou dysplazií kyčelního kloubu podstoupil periacetabulární osteotomii, při které došlo k lézi nervus obturatorius. Která z následujících možností obsahuje výhradně svaly, které jsou inervovány pouze tímto nervem (a nemají duální inervaci z jiného nervového zdroje)?",
+    stem: "34letý pacient s těžkou dysplazií kyčelního kloubu podstoupil periacetabulární osteotomii, při které došlo k poškození nervus obturatorius. Která z následujících možností obsahuje výhradně svaly, které jsou inervovány pouze tímto nervem (a nemají duální inervaci z jiného nervového zdroje)?",
     options: {
         a: "M. adductor longus, m. adductor brevis, m. gracilis, m. obturatorius externus",
         b: "M. adductor magnus, m. adductor brevis, m. pectineus, m. adductor longus",
@@ -6232,7 +6232,7 @@ id: 269,
         e: "Musculus longissimus dorsi et cervicis"
     },
     correct: "a",
-    explanation: "Na CT snímku je vyznačen m. psoas major, který tvoří m. iliopsoas. Tento sval začíná od těl obratlů T12–L5 a processus costarii L1–L5 a upíná se na trochanter minor. Funkce tohoto svalu je flexe, vnější rotace a pomocná addukce v kyčelním kloubu. Psoatový příznak je bolest vyvolaná napnutím nebo kontrakcí musculus psoas major, která svědčí pro dráždění m. psoas nebo přilehlého peritonea. Nejčastěji se používá při diagnostice akutní apendicitidy"
+    explanation: "Na CT snímku je vyznačen m. psoas major, který spolu s m. iliacus tvoří m. iliopsoas. Tento sval začíná od těl obratlů T12–L5 a processus costarii L1–L5 a upíná se na trochanter minor. Funkce tohoto svalu je flexe, vnější rotace a pomocná addukce v kyčelním kloubu. Psoatový příznak je bolest vyvolaná napnutím nebo kontrakcí musculus psoas major, která svědčí pro dráždění m. psoas nebo přilehlého peritonea. Nejčastěji se používá při diagnostice akutní apendicitidy"
   },
   en: {
     stem: "The CT image shows a muscle that, because of its close anatomical relationship to the appendix (in its most common retrocecal position), is used in the clinical diagnosis of acute appendicitis. The clinical sign named after this muscle can be elicited by asking the patient, while lying supine, to raise the right lower limb against the examiner's resistance (a movement performed by this muscle). Which muscle is it?",
@@ -6629,7 +6629,7 @@ id: 269,
   {
     "id": 1022,
     "cz": {
-      "stem": "Pacient podstoupí axilární chirurgický výkon, při kterém dojde k poškození nervu probíhajícího v zadní stěně axily. Následně má potíže s extenzí a adukcí paže a se šplháním. Který sval je nejpravděpodobněji denervován?",
+      "stem": "Pacient podstoupí axilární chirurgický výkon, při kterém dojde k poškození nervu probíhajícího v zadní stěně axily. Následně má potíže s extenzí a addukcí paže a se šplháním. Který sval je nejpravděpodobněji denervován?",
       "options": {
         "a": "m. latissimus dorsi",
         "b": "m. teres major",
@@ -6638,7 +6638,7 @@ id: 269,
         "e": "m. subscapularis"
       },
       "correct": "a",
-      "explanation": "M. latissimus dorsi je inervován n. thoracodorsalis, který probíhá v zadní stěně axily společně s a. thoracodorsalis. M. latissimus dorsi provádí extenzi, adukci a vnitřní rotaci paže a je důležitý při šplhání nebo přitahování těla k horní končetině. M. teres major je inervován n. subscapularis inferior, m. pectoralis major nn. pectorales, m. serratus anterior n. thoracicus longus a m. subscapularis nn. subscapulares."
+      "explanation": "M. latissimus dorsi je inervován n. thoracodorsalis, který probíhá v zadní stěně axily společně s a. thoracodorsalis. M. latissimus dorsi provádí extenzi, addukci a vnitřní rotaci paže a je důležitý při šplhání nebo přitahování těla k horní končetině. M. teres major je inervován n. subscapularis inferior, m. pectoralis major nn. pectorales, m. serratus anterior n. thoracicus longus a m. subscapularis nn. subscapulares."
     },
     "en": {
       "stem": "A patient undergoes axillary surgery that damages a nerve traveling along the posterior wall of the axilla. The patient subsequently has difficulty with extension and adduction of the arm and with climbing. Which muscle is most likely denervated?",
@@ -11785,7 +11785,7 @@ id: 269,
         {
   id: 336,
   cz: {
-    stem: "Nosní dutina je rozdělena nosním septem na dvě poloviny, na jejichž laterální stěně se nacházejí tři skořepy (conchae nasales) vytvářející tři nosní průchody. Do kterého nosního průchodu ústí ductus nasolacrimalis?",
+    stem: "Do kterého nosního průchodu ústí ductus nasolacrimalis?",
     options: {
         a: "meatus nasi superior",
         b: "meatus nasi medius",
@@ -11797,22 +11797,22 @@ id: 269,
     explanation: "Ductus nasolacrimalis odvádí slzy ze slzného vaku (saccus lacrimalis) a ústí do meatus nasi inferior, prostoru pod concha nasalis inferior. Do meatus nasi medius naproti tomu ústí vedlejší nosní dutiny sinus frontalis, maxillaris a přední/střední buňky sinus ethmoidalis (přes hiatus semilunaris a infundibulum ethmoidale), zatímco do meatus nasi superior a recessus sphenoethmoidalis ústí zadní etmoidální buňky a sinus sphenoidalis."
   },
   en: {
-    stem: "The nasal cavity is divided by the nasal septum into two halves. On the lateral wall of each half, there are three nasal conchae, which create three nasal meatuses. Into which nasal meatus does the ductus nasolacrimalis open?",
+    stem: "Which nasal meatus does the nasolacrimal duct open into?",
     options: {
-        a: "Meatus nasi superior",
-        b: "Meatus nasi medius",
-        c: "Meatus nasi inferior",
-        d: "Meatus nasi communis",
-        e: "Recessus sphenoethmoidalis"
+        a: "superior nasal meatus",
+        b: "middle nasal meatus",
+        c: "inferior nasal meatus",
+        d: "common nasal meatus",
+        e: "sphenoethmoidal recess"
     },
     correct: "c",
-    explanation: "The ductus nasolacrimalis drains tears from the lacrimal sac (saccus lacrimalis) and opens into the meatus nasi inferior, the space beneath the inferior nasal concha (concha nasalis inferior). In contrast, the meatus nasi medius receives the openings of the paranasal sinuses: the frontal sinus, maxillary sinus, and anterior/middle ethmoidal air cells (via the hiatus semilunaris and ethmoidal infundibulum), whereas the meatus nasi superior and sphenoethmoidal recess receive the openings of the posterior ethmoidal air cells and the sphenoidal sinus."
+    explanation: "The nasolacrimal duct drains tears from the lacrimal sac and opens into the inferior nasal meatus, the space beneath the inferior nasal concha. In contrast, the frontal, maxillary, and anterior/middle ethmoidal sinuses open into the middle nasal meatus (via the semilunar hiatus and ethmoidal infundibulum), while the posterior ethmoidal cells and sphenoid sinus open into the superior nasal meatus and sphenoethmoidal recess, respectively."
   }
 },
 {
   id: 337,
   cz: {
-    stem: "Hlasové vazy (plicae vocales) jsou napínány a polohovány souborem vnitřních hrtanových svalů. Který sval je jediným abduktorem hlasových vazů a jeho oboustranná paréza (např. po štítné operaci) může vést k život ohrožující obstrukci dýchacích cest?",
+    stem: "Hlasové vazy (plicae vocales) jsou napínány a polohovány souborem vnitřních hrtanových svalů. Který sval je jediným abduktorem hlasových vazů a jeho oboustranná paréza (např. po operaci štítné žlázy) může vést k život ohrožující obstrukci dýchacích cest?",
     options: {
         a: "m. cricothyroideus",
         b: "m. vocalis",
@@ -11829,7 +11829,7 @@ id: 269,
         a: "Musculus cricothyroideus",
         b: "Musculus vocalis",
         c: "Musculus cricoarytenoideus posterior",
-        d: "Musculus cricoarytenoideus lateralise",
+        d: "Musculus cricoarytenoideus lateralis",
         e: "Musculus arytenoideus transversus"
     },
     correct: "c",
@@ -11866,7 +11866,7 @@ id: 269,
 {
   id: 339,
   cz: {
-    stem: "Respirační epitel dýchacích cest se postupně mění od hrtanu po alveoly. Který typ epitelu je typický pro alveolární výstelku a umožňuje efektivní difuzi plynů?",
+    stem: "Který typ epitelu je typický pro alveolární výstelku a umožňuje efektivní difuzi plynů?",
     options: {
         a: "víceřadý cylindrický epitel s řasinkami",
         b: "jednovrstevný dlaždicový epitel",
@@ -11878,7 +11878,7 @@ id: 269,
     explanation: "Alveolární stěnu vystýlá především jednovrstevný dlaždicový epitel tvořený pneumocyty I. typu, které kvůli své extrémní tloušťkové tenkosti umožňují efektivní difuzi O₂ a CO₂ přes alveolokapilární membránu. Doplňují je metabolicky aktivní pneumocyty II. typu, produkující surfaktant a schopné regenerace epitelu. Naproti tomu horní a střední dýchací cesty (trachea, bronchy) jsou vystlány víceřadým cylindrickým epitelem s řasinkami a pohárkovými buňkami, který se postupně směrem k bronchiolům zjednodušuje."
   },
   en: {
-    stem: "The respiratory epithelium of the airways gradually changes from the larynx to the alveoli. Which type of epithelium is characteristic of the alveolar lining and allows efficient gas diffusion?",
+    stem: "Which type of epithelium is characteristic of the alveolar lining and allows efficient gas diffusion?",
     options: {
         a: "Pseudostratified ciliated columnar epithelium",
         b: "Simple squamous epithelium",
@@ -11921,7 +11921,7 @@ id: 269,
 {
     "id": 547,
     "cz": {
-      "stem": "32letý muž utrpěl zlomeninu nosu při sportovním úrazu. CT ukazuje frakturu laterální stěny dutiny nosní s poraněním tenké kostěné ploténky, která tvoří největší část této stěny a nese dolní a střední nosní skořepu. Která kost byla s největší pravděpodobností poraněna?",
+      "stem": "32letý muž utrpěl zlomeninu nosu při sportovním úrazu. CT ukazuje frakturu laterální stěny dutiny nosní s poraněním tenké kostěné ploténky, která tvoří významnou část této stěny a nese horní a střední nosní skořepu. Která kost byla s největší pravděpodobností poraněna?",
       "options": {
         "a": "Os ethmoidale",
         "b": "Os lacrimale",
@@ -11948,7 +11948,7 @@ id: 269,
   {
     "id": 548,
     "cz": {
-      "stem": "24letý muž podstoupil endoskopické vyšetření dutiny nosní pro dlouhodobou jednostrannou nosní obstrukci. Lékař identifikoval prostor, do kterého ústí ductus nasolacrimalis. Ve kterém nosním průchodu se nachází jeho vyústění?",
+      "stem": "Do kterého nosního průchodu ústí ductus nasolacrimalis?",
       "options": {
         "a": "Meatus nasi inferior",
         "b": "Meatus nasi medius",
@@ -11960,7 +11960,7 @@ id: 269,
       "explanation": "Ductus nasolacrimalis odvádí slzy ze slzného vaku do meatus nasi inferior, kde ústí pod concha nasalis inferior. Ostatní nosní průchody přijímají vývody vedlejších nosních dutin nebo představují společný prostor mezi nosní přepážkou a nosními skořepami."
     },
     "en": {
-      "stem": "A 24-year-old man undergoes nasal endoscopy because of chronic unilateral nasal obstruction. The physician identifies the space that receives the opening of the nasolacrimal duct. Into which nasal meatus does this duct drain?",
+      "stem": "Into which nasal meatus does the nasolacrimal duct open?",
       "options": {
         "a": "Inferior nasal meatus",
         "b": "Middle nasal meatus",
@@ -12162,33 +12162,6 @@ id: 269,
     }
   },
   {
-    "id": 556,
-    "cz": {
-      "stem": "Pacient utrpěl poranění krku vedoucí k poškození jedné z chrupavek hrtanu. Při vyšetření je zjištěna nestabilita struktury, která tvoří dolní část hrtanu a slouží jako pevný prstenec pro uchycení hlasivkových vazů. Která z následujících struktur byla nejpravděpodobněji poškozena?",
-      "options": {
-        "a": "Cartilago cricoidea",
-        "b": "Cartilago thyroidea",
-        "c": "Cartilago arytenoidea",
-        "d": "Cartilago epiglottica",
-        "e": "Cartilago triticea"
-      },
-      "correct": "a",
-      "explanation": "Cartilago cricoidea je jediná kompletní prstencovitá chrupavka hrtanu a tvoří jeho dolní část. Slouží jako pevná opora pro spojení s tracheou a vytváří kloubní spojení s cartilago thyroidea a cartilagines arytenoideae. Její horní část poskytuje úpon pro hlasivkové struktury a podílí se na stabilizaci hrtanu. Cartilago thyroidea tvoří převážně přední stěnu hrtanu, cartilagines arytenoideae se podílejí na pohybu hlasivek, cartilago epiglottica tvoří základ epiglottis a cartilago triticea je drobná akcesorní chrupavka v lig. thyrohyoideum."
-    },
-    "en": {
-      "stem": "A patient sustains a neck injury resulting in damage to one of the laryngeal cartilages. Examination reveals instability of a structure that forms the inferior part of the larynx and serves as a firm ring-like support for attachment of the vocal ligaments. Which of the following structures was most likely injured?",
-      "options": {
-        "a": "Cricoid cartilage",
-        "b": "Thyroid cartilage",
-        "c": "Arytenoid cartilage",
-        "d": "Epiglottic cartilage",
-        "e": "Triticeal cartilage"
-      },
-      "correct": "a",
-      "explanation": "The cricoid cartilage is the only complete ring-shaped cartilage of the larynx and forms its inferior part. It provides a firm connection with the trachea and forms articulations with the thyroid cartilage and arytenoid cartilages. Its superior portion provides attachment sites for laryngeal structures and contributes to stabilization of the larynx. The thyroid cartilage mainly forms the anterior wall of the larynx, arytenoid cartilages are involved in vocal cord movement, the epiglottic cartilage forms the framework of the epiglottis, and the triticeal cartilage is a small accessory cartilage located within the thyrohyoid ligament."
-    }
-  },
-  {
     "id": 557,
     "cz": {
       "stem": "Mladý pacient podstupuje urgentní zajištění dýchacích cest při obstrukci horních cest dýchacích. Lékař zvažuje provedení koniotomie a hledá anatomický prostor mezi dvěma strukturami hrtanu, který umožňuje rychlý přístup do dutiny hrtanu. Která struktura tvoří dolní hranici tohoto prostoru?",
@@ -12240,33 +12213,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The arytenoid cartilage is a paired pyramid-shaped laryngeal cartilage located on the superior border of the lamina of the cricoid cartilage. It has a base and an apex and serves as an important attachment site for the vocal ligament and several intrinsic laryngeal muscles. Movements of this cartilage allow opening and closing of the rima glottidis during phonation and respiration."
-    }
-  },
-  {
-    "id": 559,
-    "cz": {
-      "stem": "Pacient po operaci v oblasti krku vykazuje chrapot a neschopnost správně uzavírat hlasivkovou štěrbinu. Při vyšetření je zjištěna porucha rotace malé párové chrupavky hrtanu, která se pohybuje na horní ploše jiné chrupavky hrtanu a mění postavení hlasivkového vazu. Které spojení mezi chrupavkami je při tomto procesu nejdůležitější?",
-      "options": {
-        "a": "Articulatio cricoarytenoidea mezi cartilago arytenoidea a cartilago cricoidea",
-        "b": "Articulatio cricothyroidea mezi cartilago cricoidea a cartilago thyroidea",
-        "c": "Spojení mezi cartilago thyroidea a os hyoideum prostřednictvím membrana thyrohyoidea",
-        "d": "Spojení mezi cartilago epiglottica a cartilago thyroidea prostřednictvím ligamentum thyroepiglotticum",
-        "e": "Spojení mezi cartilago arytenoidea a cartilago trachealis prostřednictvím ligamentum cricotracheale"
-      },
-      "correct": "a",
-      "explanation": "Cartilago arytenoidea se pohybuje vůči cartilago cricoidea prostřednictvím articulatio cricoarytenoidea. Tento kloub umožňuje rotaci a posun cartilago arytenoidea, čímž dochází ke změně postavení processus vocalis a následně k otevírání a uzavírání rima glottidis. Tím je regulována fonace a průchodnost dýchacích cest."
-    },
-    "en": {
-      "stem": "A patient develops hoarseness and an inability to properly close the rima glottidis after neck surgery. Examination reveals impaired rotation of a small paired laryngeal cartilage that moves on the superior surface of another laryngeal cartilage and changes the position of the vocal ligament. Which articulation between laryngeal cartilages is most important in this process?",
-      "options": {
-        "a": "Cricoarytenoid joint between the arytenoid cartilage and cricoid cartilage",
-        "b": "Cricothyroid joint between the cricoid cartilage and thyroid cartilage",
-        "c": "Connection between the thyroid cartilage and hyoid bone through the thyrohyoid membrane",
-        "d": "Connection between the epiglottic cartilage and thyroid cartilage through the thyroepiglottic ligament",
-        "e": "Connection between the arytenoid cartilage and tracheal cartilage through the cricotracheal ligament"
-      },
-      "correct": "a",
-      "explanation": "The arytenoid cartilage moves relative to the cricoid cartilage through the cricoarytenoid joint. This joint allows rotation and gliding of the arytenoid cartilage, which changes the position of the vocal process and subsequently controls opening and closing of the rima glottidis. This mechanism regulates phonation and airway patency."
     }
   },
   {
@@ -12326,28 +12272,28 @@ id: 269,
   {
     "id": 562,
     "cz": {
-      "stem": "Pacient utrpěl poranění v oblasti hrtanu, při kterém došlo k poškození chrupavčité struktury tvořící podklad epiglottis. Které tvrzení o této struktuře je správné?",
+      "stem": "Který typ chrupavky tvoří cartilago epiglottica?",
       "options": {
-        "a": "Je tvořena elastickou chrupavkou a umožňuje dynamický pohyb epiglottis při polykání.",
-        "b": "Je tvořena hyalinní chrupavkou a tvoří hlavní přední stěnu hrtanu.",
-        "c": "Je tvořena hyalinní chrupavkou a tvoří prstenec obklopující celý lumen hrtanu.",
-        "d": "Je tvořena elastickou chrupavkou a tvoří hlavní podklad hlasivek.",
-        "e": "Je tvořena vazivovou chrupavkou a spojuje hrtan s průdušnicí."
+        "a": "Elastická chrupavka",
+        "b": "Hyalinní chrupavka",
+        "c": "Vazivová chrupavka",
+        "d": "Hyalinní chrupavka s převahou kolagenních vláken",
+        "e": "Vazivová chrupavka s elastickými vlákny"
       },
       "correct": "a",
-      "explanation": "Cartilago epiglottica je tvořena elastickou chrupavkou, která umožňuje flexibilní pohyb epiglottis během polykání. Epiglottis se sklápí nad vchod do hrtanu a zabraňuje vstupu potravy do dolních dýchacích cest. Na rozdíl od cartilago thyroidea a cartilago cricoidea, které jsou tvořeny převážně hyalinní chrupavkou a poskytují mechanickou oporu hrtanu, má cartilago epiglottica díky elastickým vláknům vysokou pružnost."
+      "explanation": "Cartilago epiglottica je tvořena elastickou chrupavkou, která umožňuje flexibilní pohyb epiglottis během polykání. Na rozdíl od cartilago thyroidea a cartilago cricoidea, které jsou tvořeny převážně hyalinní chrupavkou a poskytují mechanickou oporu hrtanu, má cartilago epiglottica díky elastickým vláknům vysokou pružnost."
     },
     "en": {
-      "stem": "A patient suffers a laryngeal injury involving the cartilaginous structure that forms the framework of the epiglottis. Which statement about this structure is correct?",
+      "stem": "Which type of cartilage forms the epiglottic cartilage?",
       "options": {
-        "a": "It is composed of elastic cartilage and allows dynamic movement of the epiglottis during swallowing.",
-        "b": "It is composed of hyaline cartilage and forms the main anterior wall of the larynx.",
-        "c": "It is composed of hyaline cartilage and forms a ring surrounding the entire laryngeal lumen.",
-        "d": "It is composed of elastic cartilage and forms the main support of the vocal cords.",
-        "e": "It is composed of fibrocartilage and connects the larynx with the trachea."
+        "a": "Elastic cartilage",
+        "b": "Hyaline cartilage",
+        "c": "Fibrocartilage",
+        "d": "Hyaline cartilage with a predominance of collagen fibers",
+        "e": "Fibrocartilage with elastic fibers"
       },
       "correct": "a",
-      "explanation": "The epiglottic cartilage is composed of elastic cartilage, which allows flexible movement of the epiglottis during swallowing. The epiglottis folds over the laryngeal inlet and prevents food from entering the lower respiratory tract. Unlike the thyroid cartilage and cricoid cartilage, which are mainly composed of hyaline cartilage and provide structural support for the larynx, the epiglottic cartilage has high flexibility due to its elastic fibers."
+      "explanation": "The epiglottic cartilage is composed of elastic cartilage, which allows flexible movement of the epiglottis during swallowing. Unlike the thyroid cartilage and cricoid cartilage, which are mainly composed of hyaline cartilage and provide structural support for the larynx, the epiglottic cartilage has high flexibility due to its elastic fibers."
     }
   },
 {
@@ -12491,25 +12437,25 @@ id: 269,
       "stem": "27letý muž utrpí těžké poranění obličeje a není možné zajistit dýchací cesty endotracheální intubací. Lékař nejprve zvažuje koniotomii, ale vzhledem k okolnostem volí chirurgickou tracheotomii. Při preparaci přední strany krku musí postupovat kaudálněji než při koniotomii a vyhnout se cévním strukturám v přední části krku. Která z následujících struktur představuje při standardní tracheotomii významnou anatomickou překážku, která se při koniotomii obvykle nevyskytuje?",
       "options": {
         "a": "Isthmus glandulae thyroideae",
-        "b": "Membrana cricothyroidea",
-        "c": "Ligamentum vocale",
-        "d": "Membrana quadrangularis",
-        "e": "Ligamentum vestibulare"
+        "b": "V. jugularis anterior",
+        "c": "A. carotis communis",
+        "d": "N. vagus",
+        "e": "Ansa cervicalis"
       },
       "correct": "a",
-      "explanation": "Tracheotomie se provádí kaudálně od cartilago cricoidea, obvykle v oblasti horních tracheálních prstenců. V této oblasti může přední stěnu trachey překrývat isthmus štítné žlázy, který je proto při chirurgickém přístupu nutné identifikovat a podle úrovně tracheotomie odsunout nebo jinak ošetřit. Koniotomie se provádí výše přes membrana cricothyroidea mezi cartilago thyroidea a cartilago cricoidea, takže isthmus glandulae thyroideae se při tomto výkonu obvykle nenachází v operačním poli. Ligamentum vocale, membrana quadrangularis a ligamentum vestibulare jsou vnitřní vazivové struktury hrtanu a nejsou překážkou při standardní tracheotomii."
+      "explanation": "Tracheotomie se provádí kaudálně od cartilago cricoidea, obvykle v oblasti horních tracheálních prstenců. V této oblasti může přední stěnu trachey překrývat isthmus štítné žlázy, který je proto při chirurgickém přístupu nutné identifikovat a podle úrovně tracheotomie odsunout nebo jinak ošetřit. Koniotomie se provádí výše přes membrana cricothyroidea mezi cartilago thyroidea a cartilago cricoidea, takže isthmus glandulae thyroideae se při tomto výkonu obvykle nenachází v operačním poli."
     },
     "en": {
       "stem": "A 27-year-old man sustains severe facial trauma, and endotracheal intubation is unsuccessful. The physician initially considers cricothyrotomy but decides to perform a surgical tracheostomy. During dissection of the anterior neck, the surgeon must work more caudally than during cricothyrotomy and avoid vascular structures in the anterior neck. Which of the following structures represents an important anatomical obstacle during standard tracheostomy that is usually not encountered during cricothyrotomy?",
       "options": {
         "a": "Isthmus of the thyroid gland",
-        "b": "Cricothyroid membrane",
-        "c": "Vocal ligament",
-        "d": "Quadrangular membrane",
-        "e": "Vestibular ligament"
+        "b": "Anterior jugular vein",
+        "c": "Common carotid artery",
+        "d": "Vagus nerve",
+        "e": "Ansa cervicalis"
       },
       "correct": "a",
-      "explanation": "Tracheostomy is performed caudal to the cricoid cartilage, usually at the level of the upper tracheal rings. At this level, the isthmus of the thyroid gland may overlie the anterior surface of the trachea and therefore must be identified and retracted or otherwise managed depending on the level of the tracheostomy. Cricothyrotomy is performed more superiorly through the cricothyroid membrane between the thyroid cartilage and cricoid cartilage, so the thyroid isthmus is usually not encountered in the operative field. The vocal ligament, quadrangular membrane, and vestibular ligament are intrinsic fibrous structures of the larynx and do not obstruct a standard tracheostomy."
+      "explanation": "Tracheostomy is performed caudal to the cricoid cartilage, usually at the level of the upper tracheal rings. At this level, the isthmus of the thyroid gland may overlie the anterior surface of the trachea and therefore must be identified and retracted or otherwise managed depending on the level of the tracheostomy. Cricothyrotomy is performed more superiorly through the cricothyroid membrane between the thyroid cartilage and cricoid cartilage, so the thyroid isthmus is usually not encountered in the operative field."
     }
   },
   {
@@ -12865,33 +12811,6 @@ id: 269,
   }
 },
 {
-  "id": 582,
-  "cz": {
-    "stem": "Při operaci v oblasti krční trachey chirurg preparuje laterálně od trachey. V této oblasti se nachází nerv, který sestupuje v tracheoezofageálním žlábku a může být při laterální preparaci poraněn. Který nerv má tento vztah k trachee?",
-    "options": {
-      "a": "N. laryngeus recurrens",
-      "b": "N. laryngeus superior, ramus internus",
-      "c": "N. phrenicus",
-      "d": "N. vagus",
-      "e": "N. hypoglossus"
-    },
-    "correct": "a",
-    "explanation": "N. laryngeus recurrens probíhá v těsném vztahu k tracheoezofageálnímu žlábku a ascendentně směřuje k hrtanu. Vzhledem k jeho blízkosti ke krční trachee může být ohrožen při chirurgických výkonech v této oblasti. Poškození nervu může způsobit poruchu inervace většiny vnitřních svalů hrtanu a následnou poruchu hybnosti hlasivky."
-  },
-  "en": {
-    "stem": "During surgery in the region of the cervical trachea, the surgeon dissects laterally to the trachea. A nerve that ascends within the tracheoesophageal groove is located in this region and may be injured during lateral dissection. Which nerve has this anatomical relationship with the trachea?",
-    "options": {
-      "a": "Recurrent laryngeal nerve",
-      "b": "Internal branch of the superior laryngeal nerve",
-      "c": "Phrenic nerve",
-      "d": "Vagus nerve",
-      "e": "Hypoglossal nerve"
-    },
-    "correct": "a",
-    "explanation": "The recurrent laryngeal nerve runs closely within the tracheoesophageal groove and ascends toward the larynx. Because of its close relationship to the cervical trachea, it may be at risk during surgical procedures in this region. Injury to the nerve can impair innervation of most intrinsic muscles of the larynx and subsequently cause vocal fold dysfunction."
-  }
-},
-{
   "id": 583,
   "cz": {
     "stem": "Který typ bronchu přímo navazuje na bronchus principalis?",
@@ -12946,33 +12865,6 @@ id: 269,
   }
 },
 {
-  "id": 585,
-  "cz": {
-    "stem": "Při CT vyšetření hrudníku je patrná fisura, která odděluje horní lalok pravé plíce od středního laloku. Která anatomická struktura je tímto nálezem zobrazena?",
-    "options": {
-      "a": "Fissura horizontalis",
-      "b": "Fissura obliqua",
-      "c": "Lingula pulmonis",
-      "d": "Incisura cardiaca",
-      "e": "Apex pulmonis"
-    },
-    "correct": "a",
-    "explanation": "Fissura horizontalis je přítomna v pravé plíci a odděluje její horní lalok od středního laloku. Fissura obliqua je přítomna v obou plicích a na pravé plíci odděluje střední a dolní lalok, zatímco na levé plíci odděluje horní a dolní lalok. Lingula pulmonis je výběžek horního laloku levé plíce, který anatomicky odpovídá střednímu laloku pravé plíce. Incisura cardiaca je srdeční zářez na předním okraji levé plíce a apex pulmonis představuje její vrchol."
-  },
-  "en": {
-    "stem": "A chest CT scan demonstrates a fissure separating the superior lobe of the right lung from the middle lobe. Which anatomical structure is visualized by this finding?",
-    "options": {
-      "a": "Horizontal fissure",
-      "b": "Oblique fissure",
-      "c": "Lingula of the lung",
-      "d": "Cardiac notch",
-      "e": "Apex of the lung"
-    },
-    "correct": "a",
-    "explanation": "The horizontal fissure is present in the right lung and separates its superior lobe from the middle lobe. The oblique fissure is present in both lungs and separates the middle and inferior lobes in the right lung, whereas in the left lung it separates the superior and inferior lobes. The lingula of the lung is a projection of the superior lobe of the left lung that anatomically corresponds to the middle lobe of the right lung. The cardiac notch is an indentation on the anterior border of the left lung, while the apex of the lung is its superior-most portion."
-  }
-},
-{
   "id": 586,
   "cz": {
     "stem": "Při lobektomii levé plíce chirurg identifikuje část plicní tkáně, která vybíhá z předního okraje lobus superior a nachází se v blízkosti incisura cardiaca. Tato struktura je anatomickým protějškem kterého laloku pravé plíce?",
@@ -13011,7 +12903,7 @@ id: 269,
       "e": "Lobus medius a lingula pulmonis"
     },
     "correct": "a",
-    "explanation": "Fissura horizontalis je charakteristická pro pravou plíci a odděluje lobus superior od lobus medius. Fissura obliqua odděluje lobus superior a lobus inferior na levé plíci a lobus superior a lobus inferior na pravé plíci; na pravé plíci proto protíná fissura horizontalis. Levá plíce nemá samostatný lobus medius, přičemž jeho anatomickým protějškem je lingula pulmonis, která je součástí lobus superior."
+    "explanation": "Fissura horizontalis je přítomna pouze na pravé plíci a odděluje lobus superior od lobus medius. Fissura obliqua pak odděluje lobus inferior od lobus superior a lobus medius."
   },
   "en": {
     "stem": "During anatomical dissection of the right lung, a surgeon identifies the horizontal fissure, which runs approximately in a horizontal plane and intersects the oblique fissure. Which two lobes of the right lung are separated by this fissure?",
@@ -13023,34 +12915,7 @@ id: 269,
       "e": "Middle lobe and lingula of the lung"
     },
     "correct": "a",
-    "explanation": "The horizontal fissure is characteristic of the right lung and separates the superior lobe from the middle lobe. The oblique fissure separates the superior and inferior lobes in both lungs and therefore intersects the horizontal fissure in the right lung. The left lung does not have a separate middle lobe; its anatomical counterpart is the lingula of the lung, which is part of the superior lobe."
-  }
-},
-{
-  "id": 588,
-  "cz": {
-    "stem": "Při anatomickém vyšetření obou plic student porovnává jejich laloky a fisury. Která kombinace anatomických nálezů je správná?",
-    "options": {
-      "a": "Pravá plíce má tři laloky a dvě fisury, zatímco levá plíce má dva laloky a jednu fisuru.",
-      "b": "Pravá plíce má dva laloky a jednu fisuru, zatímco levá plíce má tři laloky a dvě fisury.",
-      "c": "Pravá i levá plíce mají tři laloky a dvě fisury.",
-      "d": "Pravá i levá plíce mají dva laloky a jednu fisuru.",
-      "e": "Pravá plíce má tři laloky a jednu fisuru, zatímco levá plíce má dva laloky a dvě fisury."
-    },
-    "correct": "a",
-    "explanation": "Pravá plíce se skládá z lobus superior, lobus medius a lobus inferior. Tyto laloky jsou odděleny fissura horizontalis a fissura obliqua. Levá plíce má pouze lobus superior a lobus inferior, které jsou odděleny fissura obliqua. Lingula pulmonis je součástí lobus superior levé plíce a nepředstavuje samostatný lalok."
-  },
-  "en": {
-    "stem": "During anatomical examination of both lungs, a student compares their lobes and fissures. Which combination of anatomical findings is correct?",
-    "options": {
-      "a": "The right lung has three lobes and two fissures, whereas the left lung has two lobes and one fissure.",
-      "b": "The right lung has two lobes and one fissure, whereas the left lung has three lobes and two fissures.",
-      "c": "Both the right and left lungs have three lobes and two fissures.",
-      "d": "Both the right and left lungs have two lobes and one fissure.",
-      "e": "The right lung has three lobes and one fissure, whereas the left lung has two lobes and two fissures."
-    },
-    "correct": "a",
-    "explanation": "The right lung consists of the superior, middle, and inferior lobes. These lobes are separated by the horizontal and oblique fissures. The left lung has only the superior and inferior lobes, which are separated by the oblique fissure. The lingula of the lung is part of the superior lobe of the left lung and does not constitute a separate lobe."
+    "explanation": "The horizontal fissure is present only in the right lung and separates the superior lobe from the middle lobe. The oblique fissure separates the inferior lobe from the superior and middle lobes."
   }
 },
 {
@@ -13065,7 +12930,7 @@ id: 269,
       "e": "V. pulmonalis superior dextra"
     },
     "correct": "a",
-    "explanation": "V oblasti hilu pravé plíce je bronchus lobaris superior dexter uložen kraniálně od a. pulmonalis dextra a označuje se jako eparteriální bronchus. Kaudálněji se nachází a. pulmonalis dextra, pod ní bronchus principalis dexter a dále v. pulmonalis inferior dextra. Toto uspořádání se liší od levé plíce, kde a. pulmonalis sinistra leží kraniálně od bronchus principalis sinister."
+    "explanation": "V oblasti hilu pravé plíce je bronchus lobaris superior dexter uložen kraniálně od a. pulmonalis dextra. Kaudálněji se nachází a. pulmonalis dextra, pod ní bronchus principalis dexter a dále v. pulmonalis inferior dextra. Toto uspořádání se liší od levé plíce, kde a. pulmonalis sinistra leží kraniálně od bronchus principalis sinister."
   },
   "en": {
     "stem": "During surgery involving the hilum of the right lung, the surgeon identifies the structures of the pulmonary root and assesses their arrangement from superior to inferior. Which of the following structures is located most superiorly?",
@@ -13092,7 +12957,7 @@ id: 269,
       "e": "A. pulmonalis dextra"
     },
     "correct": "a",
-    "explanation": "Bronchus lobaris superior dexter leží kraniálně od a. pulmonalis dextra, a proto se označuje jako eparteriální bronchus. Na levé straně leží a. pulmonalis sinistra kraniálně od bronchus principalis sinister."
+    "explanation": "Bronchus lobaris superior dexter leží kraniálně od a. pulmonalis dextra. Na levé straně leží a. pulmonalis sinistra kraniálně od bronchus principalis sinister."
   },
   "en": {
     "stem": "A chest CT scan shows a structure of the right pulmonary root located superior to the right pulmonary artery. Which structure is normally found in this location?",
@@ -13146,7 +13011,7 @@ id: 269,
       "e": "Nodi lymphoidei paraoesophageales"
     },
     "correct": "a",
-    "explanation": "Nodi lymphoidei bronchopulmonales, označované také jako hilar lymph nodes, se nacházejí v oblasti hilu plic podél bronchů a jejich větví. Přijímají lymfu především z plic a odvádějí ji dále do nodi lymphoidei tracheobronchiales. Jejich zvětšení může být významným nálezem při hodnocení šíření bronchogenního karcinomu."
+    "explanation": "Nodi lymphoidei bronchopulmonales se nacházejí v oblasti hilu plic podél bronchů a jejich větví. Přijímají lymfu především z plic a odvádějí ji dále do nodi lymphoidei tracheobronchiales. Jejich zvětšení může být významným nálezem při hodnocení šíření bronchogenního karcinomu."
   },
   "en": {
     "stem": "A patient undergoes chest CT because of suspected lung cancer. The radiologist identifies enlarged lymph nodes located directly within the pulmonary hilum. Which lymph nodes are normally found in this location?",
@@ -13378,33 +13243,6 @@ id: 269,
     }
   },
   {
-    "id": 601,
-    "cz": {
-      "stem": "Pacient s pleurálním výpotkem podstupuje punkci pleurální dutiny. Jehla proniká přes hrudní stěnu a následně prochází listem pleury, než se dostane do prostoru obsahujícího nahromaděnou tekutinu. Který z následujících anatomických vztahů nejlépe popisuje prostor, do kterého jehla proniká?",
-      "options": {
-        "a": "Cavitas pleuralis se nachází mezi pleura parietalis a pleura visceralis",
-        "b": "Cavitas pleuralis se nachází mezi pleura visceralis a povrchem plicního parenchymu",
-        "c": "Cavitas pleuralis se nachází mezi pleura parietalis a fascia endothoracica",
-        "d": "Cavitas pleuralis je prostor uvnitř plicního parenchymu mezi bronchi a alveoli",
-        "e": "Cavitas pleuralis se nachází mezi pleura parietalis a pericardium fibrosum"
-      },
-      "correct": "a",
-      "explanation": "Cavitas pleuralis je potenciální prostor mezi pleura parietalis a pleura visceralis. Za normálních okolností obsahuje pouze malé množství serózní tekutiny, která snižuje tření mezi oběma listy během dýchacích pohybů. Při pleurálním výpotku se v tomto prostoru hromadí patologické množství tekutiny. Pleura visceralis těsně pokrývá povrch plíce, zatímco pleura parietalis vystýlá vnitřní povrch hrudní stěny, mediastinum a diaphragma."
-    },
-    "en": {
-      "stem": "A patient with a pleural effusion undergoes a pleural tap. The needle passes through the thoracic wall and then penetrates a layer of pleura before reaching the space containing the accumulated fluid. Which of the following anatomical relationships best describes the space entered by the needle?",
-      "options": {
-        "a": "The pleural cavity lies between the parietal and visceral pleurae",
-        "b": "The pleural cavity lies between the visceral pleura and the surface of the lung parenchyma",
-        "c": "The pleural cavity lies between the parietal pleura and the endothoracic fascia",
-        "d": "The pleural cavity is located within the lung parenchyma between the bronchi and alveoli",
-        "e": "The pleural cavity lies between the parietal pleura and the fibrous pericardium"
-      },
-      "correct": "a",
-      "explanation": "The pleural cavity is a potential space between the parietal and visceral pleurae. Under normal conditions, it contains only a small amount of serous fluid, which reduces friction between the two layers during respiratory movements. In a pleural effusion, a pathological amount of fluid accumulates within this space. The visceral pleura closely covers the surface of the lung, whereas the parietal pleura lines the inner surface of the thoracic wall, mediastinum, and diaphragm."
-    }
-  },
-  {
     "id": 602,
     "cz": {
       "stem": "22letý muž je přijat po tupém traumatu hrudníku. Má náhle vzniklou dušnost a jednostranně oslabené dechové fenomény. Rentgen hrudníku prokazuje pneumotorax. Která změna v pleurální dutině nejlépe vysvětluje kolaps postižené plíce?",
@@ -13434,7 +13272,7 @@ id: 269,
   {
     "id": 603,
     "cz": {
-      "stem": "65letý pacient s rozsáhlým pleurálním výpotkem podstupuje thorakocentesis. Lékař zavádí jehlu do dolní části hrudníku, aby odsál tekutinu nahromaděnou v nejnižší části cavitas pleuralis. Jehlu zavádí těsně nad horním okrajem žebra. Které z následujících vysvětlení nejlépe objasňuje správné umístění jehly?",
+      "stem": "65letý pacient s rozsáhlým pleurálním výpotkem podstupuje thorakocentézu. Lékař zavádí jehlu do dolní části hrudníku, aby odsál tekutinu nahromaděnou v nejnižší části cavitas pleuralis. Jehlu zavádí těsně nad horním okrajem žebra. Které z následujících vysvětlení nejlépe objasňuje správné umístění jehly?",
       "options": {
         "a": "Tekutina se hromadí v recessus costodiaphragmaticus a hlavní interkostální neurovaskulární svazek probíhá v sulcus costae při dolním okraji žebra",
         "b": "Tekutina se hromadí v recessus costomediastinalis a hlavní interkostální neurovaskulární svazek probíhá při horním okraji žebra",
@@ -13443,7 +13281,7 @@ id: 269,
         "e": "Tekutina se hromadí mezi pleura parietalis a fascia endothoracica a hlavní interkostální neurovaskulární svazek probíhá hluboko pod pleura parietalis"
       },
       "correct": "a",
-      "explanation": "Při pleurálním výpotku se tekutina vlivem gravitace hromadí zejména v nejnižší části cavitas pleuralis, kterou představuje recessus costodiaphragmaticus. Při thorakocentesis se proto přistupuje do této oblasti. Hlavní interkostální neurovaskulární svazek, tvořený v. intercostalis, a. intercostalis a n. intercostalis, probíhá v sulcus costae při dolním okraji žebra. Zavedení jehly těsně nad horním okrajem žebra proto snižuje riziko poranění hlavního neurovaskulárního svazku."
+      "explanation": "Při pleurálním výpotku se tekutina vlivem gravitace hromadí zejména v nejnižší části cavitas pleuralis, kterou představuje recessus costodiaphragmaticus. Při thorakocentéze se proto přistupuje do této oblasti. Hlavní interkostální neurovaskulární svazek, tvořený v. intercostalis, a. intercostalis a n. intercostalis, probíhá v sulcus costae při dolním okraji žebra. Zavedení jehly těsně nad horním okrajem žebra proto snižuje riziko poranění hlavního neurovaskulárního svazku."
     },
     "en": {
       "stem": "A 65-year-old patient with a large pleural effusion undergoes thoracentesis. The physician inserts a needle into the lower part of the thorax to aspirate fluid accumulated in the lowest part of the pleural cavity. The needle is inserted immediately superior to the upper border of a rib. Which of the following best explains the proper positioning of the needle?",
@@ -13461,7 +13299,7 @@ id: 269,
   {
     "id": 604,
     "cz": {
-      "stem": "72letý pacient s pleurálním výpotkem podstupuje thorakocentesis. Lékař chce zavést jehlu do recessus costodiaphragmaticus, aniž by poranil plíci. Který z následujících anatomických vztahů nejlépe vysvětluje, proč je tento prostor dostupný pod dolním okrajem plíce?",
+      "stem": "72letý pacient s pleurálním výpotkem podstupuje thorakocentézu. Lékař chce zavést jehlu do recessus costodiaphragmaticus, aniž by poranil plíci. Který z následujících anatomických vztahů nejlépe vysvětluje, proč je tento prostor dostupný pod dolním okrajem plíce?",
       "options": {
         "a": "Dolní hranice pleura parietalis sahá kaudálněji než dolní okraj plíce",
         "b": "Dolní okraj pleura visceralis sahá kaudálněji než dolní hranice pleura parietalis",
@@ -13470,7 +13308,7 @@ id: 269,
         "e": "Dolní okraj plíce přesahuje dolní hranici pleura parietalis v klidové poloze"
       },
       "correct": "a",
-      "explanation": "Dolní hranice pleura parietalis sahá kaudálněji než dolní okraj plíce, čímž vzniká prostor mezi oběma hranicemi označovaný jako recessus costodiaphragmaticus. V klidové poloze není tento prostor zcela vyplněn plící a může sloužit jako místo akumulace pleurální tekutiny. Tento anatomický vztah je důležitý při thorakocentesis, protože umožňuje přístup do cavitas pleuralis pod dolním okrajem plíce."
+      "explanation": "Dolní hranice pleura parietalis sahá kaudálněji než dolní okraj plíce, čímž vzniká prostor mezi oběma hranicemi označovaný jako recessus costodiaphragmaticus. V klidové poloze není tento prostor zcela vyplněn plící a může sloužit jako místo akumulace pleurální tekutiny. Tento anatomický vztah je důležitý při thorakocentéze, protože umožňuje přístup do cavitas pleuralis pod dolním okrajem plíce."
     },
     "en": {
       "stem": "A 72-year-old patient with a pleural effusion undergoes thoracentesis. The physician wants to insert the needle into the costodiaphragmatic recess without injuring the lung. Which of the following anatomical relationships best explains why this space is accessible below the inferior border of the lung?",
@@ -13497,7 +13335,7 @@ id: 269,
         "e": "Přímé podráždění pleura parietalis způsobuje kontrakci mediastina směrem doprava"
       },
       "correct": "a",
-      "explanation": "Při tension pneumothorax se vzduch hromadí v cavitas pleuralis a v důsledku mechanismu jednocestného ventilu dochází k progresivnímu nárůstu intrapleurálního tlaku. Vysoký tlak utlačuje levou plíci a může posunout mediastinum na opačnou stranu. Současně může dojít ke snížení žilního návratu do srdce, poklesu srdečního výdeje a následné hypotenzi. Pleura parietalis vystýlá vnitřní povrch hrudní stěny, zatímco pleura visceralis těsně pokrývá povrch plíce."
+      "explanation": "Při tenzním pneumothoraxu se vzduch hromadí v cavitas pleuralis a v důsledku mechanismu jednocestného ventilu dochází k progresivnímu nárůstu intrapleurálního tlaku. Vysoký tlak utlačuje levou plíci a může posunout mediastinum na opačnou stranu. Současně může dojít ke snížení žilního návratu do srdce, poklesu srdečního výdeje a následné hypotenzi. Pleura parietalis vystýlá vnitřní povrch hrudní stěny, zatímco pleura visceralis těsně pokrývá povrch plíce."
     },
     "en": {
       "stem": "A 28-year-old man sustains a penetrating injury to the left side of the thorax. Shortly after the injury, he develops severe dyspnea, hypotension, and tachycardia. Imaging demonstrates a large pneumothorax with rightward displacement of the mediastinum. Which mechanism best explains this finding?",
@@ -13515,7 +13353,7 @@ id: 269,
   {
     "id": 606,
     "cz": {
-      "stem": "Při CT vyšetření hrudníku je identifikována léze v mediastinum medium. Která z následujících struktur se v tomto oddílu mediastina nachází?",
+      "stem": "Při CT vyšetření hrudníku je identifikována léze ve středním mediastinu. Která z následujících struktur se v tomto oddílu mediastina nachází?",
       "options": {
         "a": "N. phrenicus",
         "b": "Oesophagus",
@@ -13524,7 +13362,7 @@ id: 269,
         "e": "Truncus sympathicus"
       },
       "correct": "a",
-      "explanation": "Mediastinum inferius se dělí na mediastinum anterius, medium a posterius. Mediastinum medium obsahuje především srdce uložené v pericardium fibrosum, kořeny velkých cév a také n. phrenicus, který sestupuje po laterální straně pericardium fibrosum společně s vasa pericardiacophrenica. Oesophagus, ductus thoracicus a truncus sympathicus probíhají především mediastinum posterius. Thymus se nachází zejména v mediastinum superius a u dospělých také může zasahovat do mediastinum anterius."
+      "explanation": "Mediastinum inferius se dělí na mediastinum anterius, medium a posterius. Střední mediastinum obsahuje především srdce uložené v pericardium fibrosum, kořeny velkých cév a také n. phrenicus, který sestupuje po laterální straně pericardium fibrosum společně s vasa pericardiacophrenica. Oesophagus, ductus thoracicus a truncus sympathicus probíhají především mediastinum posterius. Thymus se nachází zejména v mediastinum superius a u dospělých také může zasahovat do mediastinum anterius."
     },
     "en": {
       "stem": "A chest CT scan identifies a lesion in the middle mediastinum. Which of the following structures is located in this compartment?",
@@ -13537,33 +13375,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The inferior mediastinum is divided into the anterior, middle, and posterior mediastinum. The middle mediastinum primarily contains the heart within the fibrous pericardium, the roots of the great vessels, and the phrenic nerve, which descends along the lateral surface of the fibrous pericardium together with the pericardiacophrenic vessels. The esophagus, thoracic duct, and sympathetic trunk mainly pass through the posterior mediastinum. The thymus is located primarily in the superior mediastinum and, in adults, may also extend into the anterior mediastinum."
-    }
-  },
-  {
-    "id": 607,
-    "cz": {
-      "stem": "Při CT vyšetření hrudníku je patrná léze v mediastinum superius. Která z následujících struktur se nachází v tomto oddílu mediastina?",
-      "options": {
-        "a": "Arcus aortae",
-        "b": "Ventriculus dexter",
-        "c": "Vena cava inferior",
-        "d": "Aorta ascendens",
-        "e": "Apex cordis"
-      },
-      "correct": "a",
-      "explanation": "Mediastinum superius obsahuje mimo jiné arcus aortae a jeho větve, v. brachiocephalicae, horní část v. cava superior, tracheu, oesophagus, ductus thoracicus, thymus a nervové struktury. Srdce a pericardium se nacházejí v mediastinum inferius, především v jeho středním oddílu. Ventriculus dexter a apex cordis jsou součástí srdce, zatímco v. cava inferior vstupuje do pravé síně v oblasti dolního mediastina."
-    },
-    "en": {
-      "stem": "A chest CT scan reveals a lesion in the superior mediastinum. Which of the following structures is located within this compartment?",
-      "options": {
-        "a": "Aortic arch",
-        "b": "Right ventricle",
-        "c": "Inferior vena cava",
-        "d": "Ascending aorta",
-        "e": "Apex of the heart"
-      },
-      "correct": "a",
-      "explanation": "The superior mediastinum contains, among other structures, the aortic arch and its branches, brachiocephalic veins, the superior part of the superior vena cava, trachea, esophagus, thoracic duct, thymus, and neural structures. The heart and pericardium are located in the inferior mediastinum, primarily within its middle compartment. The right ventricle and apex of the heart are parts of the heart, whereas the inferior vena cava enters the right atrium in the region of the inferior mediastinum."
     }
   },
   {
@@ -13594,48 +13405,21 @@ id: 269,
     }
   },
   {
-    "id": 609,
-    "cz": {
-      "stem": "Při operaci v oblasti dolního jícnu chirurg identifikuje bránici. Které z následujících tvrzení je správné?",
-      "options": {
-        "a": "Diaphragma se upíná na processus xiphoideus, dolní žebra a bederní obratle; v úrovni T8 jím prochází v. cava inferior a motoricky je inervováno n. phrenicus.",
-        "b": "Diaphragma se upíná na sternum, horní žebra a hrudní obratle; v úrovni T10 jím prochází v. cava inferior a motoricky je inervováno nn. intercostales.",
-        "c": "Diaphragma se upíná pouze na processus xiphoideus a dolní žebra; v úrovni T12 jím prochází oesophagus a motoricky je inervováno n. vagus.",
-        "d": "Diaphragma se upíná na clavicula a sternum; v úrovni T8 jím prochází oesophagus a motoricky je inervováno n. phrenicus.",
-        "e": "Diaphragma se upíná na dolní žebra a hrudní obratle; v úrovni T10 jím prochází aorta a motoricky je inervováno nn. intercostales."
-      },
-      "correct": "a",
-      "explanation": "Diaphragma se upíná na processus xiphoideus, dolní žebra a bederní obratle. V úrovni T8 jím prochází v. cava inferior, v T10 oesophagus a v T12 aorta. Motorickou inervaci zajišťuje n. phrenicus z C3–C5."
-    },
-    "en": {
-      "stem": "During surgery in the region of the lower esophagus, the surgeon identifies the diaphragm. Which of the following statements is correct?",
-      "options": {
-        "a": "The diaphragm attaches to the xiphoid process, lower ribs, and lumbar vertebrae; the inferior vena cava passes through it at T8, and motor innervation is provided by the phrenic nerve.",
-        "b": "The diaphragm attaches to the sternum, upper ribs, and thoracic vertebrae; the inferior vena cava passes through it at T10, and motor innervation is provided by the intercostal nerves.",
-        "c": "The diaphragm attaches only to the xiphoid process and lower ribs; the esophagus passes through it at T12, and motor innervation is provided by the vagus nerve.",
-        "d": "The diaphragm attaches to the clavicle and sternum; the esophagus passes through it at T8, and motor innervation is provided by the phrenic nerve.",
-        "e": "The diaphragm attaches to the lower ribs and thoracic vertebrae; the aorta passes through it at T10, and motor innervation is provided by the intercostal nerves."
-      },
-      "correct": "a",
-      "explanation": "The diaphragm attaches to the xiphoid process, lower ribs, and lumbar vertebrae. The inferior vena cava passes through it at T8, the esophagus at T10, and the aorta at T12. Motor innervation is provided by the phrenic nerve from C3–C5."
-    }
-  },
-  {
     "id": 610,
     "cz": {
-      "stem": "Při hodnocení anatomie bránice student popisuje její tři hlavní otvory. Které tvrzení je správné?",
+      "stem": "Která možnost správně uvádí úrovně průchodu hlavních otvorů bránice?",
       "options": {
-        "a": "V úrovni T8 prochází diaphragma v. cava inferior, v T10 oesophagus a v T12 aorta.",
-        "b": "V úrovni T8 prochází diaphragma aorta, v T10 v. cava inferior a v T12 oesophagus.",
-        "c": "V úrovni T8 prochází diaphragma oesophagus, v T10 aorta a v T12 v. cava inferior.",
-        "d": "V úrovni T8 prochází diaphragma aorta, v T10 oesophagus a v T12 v. cava inferior.",
-        "e": "V úrovni T8 prochází diaphragma v. cava inferior, v T10 aorta a v T12 oesophagus."
+        "a": "V úrovni T8 prochází bránicí v. cava inferior, v T10 oesophagus a v T12 aorta.",
+        "b": "V úrovni T8 prochází bránicí aorta, v T10 v. cava inferior a v T12 oesophagus.",
+        "c": "V úrovni T8 prochází bránicí oesophagus, v T10 aorta a v T12 v. cava inferior.",
+        "d": "V úrovni T8 prochází bránicí aorta, v T10 oesophagus a v T12 v. cava inferior.",
+        "e": "V úrovni T8 prochází bránicí v. cava inferior, v T10 aorta a v T12 oesophagus."
       },
       "correct": "a",
       "explanation": "Hlavní otvory bránice se nacházejí přibližně v úrovních T8, T10 a T12. V T8 prochází v. cava inferior, v T10 oesophagus a v T12 aorta spolu s ductus thoracicus."
     },
     "en": {
-      "stem": "When reviewing the anatomy of the diaphragm, a student describes its three major openings. Which statement is correct?",
+      "stem": "Which option correctly identifies the vertebral levels of the main openings of the diaphragm?",
       "options": {
         "a": "At T8, the inferior vena cava passes through the diaphragm; at T10, the esophagus passes through it; and at T12, the aorta passes through it.",
         "b": "At T8, the aorta passes through the diaphragm; at T10, the inferior vena cava passes through it; and at T12, the esophagus passes through it.",
@@ -13650,7 +13434,7 @@ id: 269,
   {
     "id": 611,
     "cz": {
-      "stem": "Při preparaci bránice chirurg identifikuje její bederní úpony. Které tvrzení je správné?",
+      "stem": "Na které obratle se upínají crura diaphragmatis?",
       "options": {
         "a": "Crus dextrum se upíná na obratle L1–L3 a crus sinistrum na L1–L2.",
         "b": "Crus dextrum se upíná na obratle T10–T12 a crus sinistrum na T11–L1.",
@@ -13659,10 +13443,10 @@ id: 269,
         "e": "Obě crura se upínají na obratle L2–L4."
       },
       "correct": "a",
-      "explanation": "Crus dextrum diaphragma se upíná na těla obratlů L1–L3, zatímco crus sinistrum na těla obratlů L1–L2. Z crura a jejich vazivových spojení vznikají struktury podílející se na ohraničení některých otvorů bránice."
+      "explanation": "Crus dextrum diaphragmatis se upíná na těla obratlů L1–L3, zatímco crus sinistrum na těla obratlů L1–L2. Z crura a jejich vazivových spojení vznikají struktury podílející se na ohraničení některých otvorů bránice."
     },
     "en": {
-      "stem": "During dissection of the diaphragm, a surgeon identifies its lumbar attachments. Which statement is correct?",
+      "stem": "Which vertebrae do the crura of the diaphragm attach to?",
       "options": {
         "a": "The right crus attaches to the L1–L3 vertebrae, while the left crus attaches to L1–L2.",
         "b": "The right crus attaches to the T10–T12 vertebrae, while the left crus attaches to T11–L1.",
@@ -13686,7 +13470,7 @@ id: 269,
         "e": "Plexus lumbalis, L1–L3."
       },
       "correct": "a",
-      "explanation": "Nerv zajišťující motorickou inervaci diaphragma je větví plexus cervicalis a pochází z předních větví míšních nervů C3–C5, s dominantním příspěvkem C4."
+      "explanation": "Nervus phrenicus zajišťuje motorickou inervaci bránice a vzniká z plexus cervicalis, převážně z předních větví míšních nervů C3–C5."
     },
     "en": {
       "stem": "The nerve providing motor innervation to the diaphragm arises from which plexus and which range of spinal cord segments?",
@@ -13698,7 +13482,7 @@ id: 269,
         "e": "Lumbar plexus, L1–L3."
       },
       "correct": "a",
-      "explanation": "The nerve providing motor innervation to the diaphragm is a branch of the cervical plexus and arises from the anterior rami of spinal nerves C3–C5, with the main contribution from C4."
+      "explanation": "The phrenic nerve provides motor innervation to the diaphragm and arises from the cervical plexus, primarily from the anterior rami of the C3–C5 spinal nerves."
     }
   },
   {
@@ -13713,7 +13497,7 @@ id: 269,
         "e": "Pleura parietalis costalis a peritoneum viscerale."
       },
       "correct": "a",
-      "explanation": "Nerv zajišťující motorickou inervaci bránice poskytuje také senzitivní inervaci pericardium fibrosum, pleura mediastinalis a centrální části bránice z jeho hrudní i břišní plochy."
+      "explanation": "Nervus phrenicus zajišťuje motorickou inervaci bránice a zároveň senzitivně inervuje pericardium fibrosum, pleura mediastinalis a centrální část pleura diaphragmatica. Zajišťuje také senzitivní inervaci peritoneum parietale na spodní ploše bránice. Správná odpověď je proto pleura mediastinalis a pericardium fibrosum. Pleura costalis a periferní část pleura diaphragmatica jsou senzitivně inervovány především mezižeberními nervy."
     },
     "en": {
       "stem": "Which structure is also supplied with sensory innervation by the nerve providing motor innervation to the diaphragm?",
@@ -13725,7 +13509,7 @@ id: 269,
         "e": "Costal parietal pleura and visceral peritoneum."
       },
       "correct": "a",
-      "explanation": "The nerve providing motor innervation to the diaphragm also provides sensory innervation to the fibrous pericardium, mediastinal pleura, and the central part of the diaphragm on both its thoracic and abdominal surfaces."
+      "explanation": "The phrenic nerve provides motor innervation to the diaphragm and also provides sensory innervation to the fibrous pericardium, mediastinal pleura, and central part of the diaphragmatic pleura. It also provides sensory innervation to the parietal peritoneum on the inferior surface of the diaphragm. Therefore, the correct answer is mediastinal pleura and fibrous pericardium. The costal pleura and peripheral part of the diaphragmatic pleura are primarily innervated by the intercostal nerves."
     }
   },
   {
@@ -13821,7 +13605,7 @@ id: 269,
         "e": "M. transversus thoracis"
       },
       "correct": "a",
-      "explanation": "M. rectus abdominis je pomocný expirační sval. Jeho kontrakce zvyšuje nitrobřišní tlak a posouvá bránici kraniálně, čímž napomáhá usilovnému výdechu. M. iliopsoas, m. quadratus lumborum, m. psoas minor a m. transversus thoracis se na tomto mechanismu nepodílejí."
+      "explanation": "M. rectus abdominis je pomocný exspirační sval. Jeho kontrakce zvyšuje nitrobřišní tlak a vytlačuje bránici kraniálně, čímž napomáhá usilovnému výdechu. M. transversus thoracis je rovněž pomocným exspiračním svalem, jeho účinek však spočívá především v depresi žeberních chrupavek, nikoli ve zvýšení nitrobřišního tlaku. M. quadratus lumborum se může na usilovné exspiraci podílet fixací 12. žebra, čímž umožňuje účinnější působení bránice a mezižeberních svalů, nepůsobí však mechanismem popsaným v zadání. M. iliopsoas a m. psoas minor nejsou pomocnými exspiračními svaly."
     },
     "en": {
       "stem": "A patient with severe airway obstruction has marked activation of the muscles of the anterior abdominal wall during forced expiration. Contraction of one of these muscles increases intra-abdominal pressure and simultaneously pushes the diaphragm cranially. Which muscle contributes to this mechanism?",
@@ -13833,7 +13617,7 @@ id: 269,
         "e": "Transversus thoracis muscle"
       },
       "correct": "a",
-      "explanation": "The rectus abdominis muscle is an accessory muscle of expiration. Its contraction increases intra-abdominal pressure and pushes the diaphragm cranially, thereby assisting forced expiration. The iliopsoas muscle, quadratus lumborum muscle, psoas minor muscle, and transversus thoracis muscle do not contribute to this mechanism."
+      "explanation": "The rectus abdominis muscle is an accessory muscle of expiration. Its contraction increases intra-abdominal pressure and pushes the diaphragm cranially, thereby assisting forced expiration. The transversus thoracis muscle is also an accessory muscle of expiration; however, its main action is depression of the costal cartilages rather than increasing intra-abdominal pressure. The quadratus lumborum muscle may contribute to forced expiration by stabilizing the 12th rib, thereby allowing more effective action of the diaphragm and intercostal muscles, but it does not act through the mechanism described in the question. The iliopsoas and psoas minor muscles are not accessory muscles of expiration."
     }
   },
 {
