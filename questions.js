@@ -25784,7 +25784,7 @@ const LIVE_QUESTION_BANKS = {
     explanation: "N. saphenus je čistě senzitivní terminální větev n. femoralis, probíhající podél v. saphena magna na mediální straně bérce. Při operacích varixů této vény je proto riziko jeho poškození, vedoucí k necitlivosti na mediální straně bérce a kotníku, bez motorického deficitu, protože nerv neobsahuje motorická vlákna."
   },
   en: {
-    stem: "After surgery for varicose veins of the great saphenous vein (v. saphena magna) on the lower leg, a patient complains of persistent numbness on the medial side of the leg and ankle, without any motor deficit. Which nerve was most likely injured?",
+    stem: "After surgery for varicose veins of the great saphenous vein on the lower leg, a patient complains of persistent numbness on the medial side of the leg and ankle, without any motor deficit. Which nerve was most likely injured?",
     options: {
         a: "superficial fibular (peroneal) nerve",
         b: "saphenous nerve",
@@ -25902,32 +25902,32 @@ const LIVE_QUESTION_BANKS = {
         e: "N. cutaneus femoris anterior"
     },
     correct: "a",
-    explanation: "The muscles highlighted in the image belong to the hamstring group (m. semitendinosus, m. semimembranosus, and m. biceps femoris). These muscles are innervated by the sciatic nerve (nervus ischiadicus)."
+    explanation: "The muscles highlighted in the image belong to the hamstring group (m. semitendinosus, m. semimembranosus, and m. biceps femoris). These muscles are innervated by the sciatic nerve."
   },
   image: { key: "q307_custom", source: "Marshall Strother. Thigh cross section.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thigh_cross_section.svg. CC BY 3.0. Accessed 16 July 2026." }
 },
 {
   id: 10015,
   cz: {
-    stem: "Při preparaci v oblasti fossa poplitea identifikuje student svaly tvořící její kraniomediální ohraničení. Následně je dotázán na jejich motorickou inervaci. Která z následujících možností správně popisuje inervaci svalů tvořících kraniomediální ohraničení fossa poplitea?",
+    stem: "Který nerv motoricky inervuje svaly tvořící kraniomediální ohraničení fossa poplitea?",
     options: {
-        a: "Nervus tibialis, větev nervus ischiadicus z plexus sacralis",
-        b: "Nervus fibularis communis, větev nervus ischiadicus z plexus sacralis",
-        c: "Nervus femoralis z plexus lumbalis",
-        d: "Nervus obturatorius z plexus lumbalis",
-        e: "Nervus ischiadicus z plexus sacralis"
+        a: "Nervus tibialis",
+        b: "Nervus fibularis communis",
+        c: "Nervus femoralis",
+        d: "Nervus obturatorius",
+        e: "Nervus ischiadicus"
     },
     correct: "a",
     explanation: "Kraniomediální ohraničení fossa poplitea tvoří m. semimembranosus a m. semitendinosus. Oba svaly patří mezi hamstringy a jsou inervovány nervus tibialis, který představuje terminální větev nervus ischiadicus pocházející z plexus sacralis."
   },
   en: {
-    stem: "During dissection in the popliteal fossa region, a student identifies the muscles forming its craniomedial boundary. Subsequently, the student is asked about their motor innervation. Which of the following correctly describes the innervation of the muscles forming the craniomedial boundary of the popliteal fossa?",
+    stem: "Which nerve provides motor innervation to the muscles forming the superomedial boundary of the popliteal fossa?",
     options: {
-        a: "Tibial nerve, a branch of the sciatic nerve from the sacral plexus",
-        b: "Common fibular nerve, a branch of the sciatic nerve from the sacral plexus",
-        c: "Femoral nerve from the lumbar plexus",
-        d: "Obturator nerve from the lumbar plexus",
-        e: "Sciatic nerve from the sacral plexus"
+        a: "Tibial nerve",
+        b: "Common fibular nerve",
+        c: "Femoral nerve",
+        d: "Obturator nerve",
+        e: "Sciatic nerve"
     },
     correct: "a",
     explanation: "The craniomedial boundary of the popliteal fossa is formed by the semimembranosus and semitendinosus muscles. Both muscles belong to the hamstring group and are innervated by the tibial nerve, which is the terminal branch of the sciatic nerve originating from the sacral plexus."
@@ -25984,34 +25984,7 @@ const LIVE_QUESTION_BANKS = {
         "e": "Long thoracic nerve"
       },
       "correct": "a",
-      "explanation": "The main intercostal neurovascular bundle in the costal groove is arranged from superior to inferior as the vein, artery, and intercostal nerve, abbreviated as VAN. Therefore, the intercostal nerve lies most inferiorly. The bundle runs between the internal intercostal muscle and the innermost intercostal muscle."
-    }
-  },
-  {
-    "id": 10262,
-    "cz": {
-      "stem": "Pacient podstupuje chirurgický výkon v oblasti zadní břišní stěny. Při preparaci je identifikován nerv probíhající po přední ploše m. quadratus lumborum a následně vstupující do stehenní krajiny pod lig. inguinale. Který nerv byl identifikován?",
-      "options": {
-        "a": "N. femoralis",
-        "b": "N. obturatorius",
-        "c": "N. iliohypogastricus",
-        "d": "N. genitofemoralis",
-        "e": "N. cutaneus femoris lateralis"
-      },
-      "correct": "a",
-      "explanation": "N. femoralis vzniká z předních větví nervů L2–L4 a v oblasti zadní břišní stěny probíhá v sulcus mezi m. psoas major a m. iliacus. Poté prochází pod lig. inguinale do trigonum femorale, kde se dělí na motorické a senzitivní větve. Inervuje především m. quadriceps femoris a zajišťuje senzitivní inervaci přední strany stehna a prostřednictvím n. saphenus také mediální strany bérce."
-    },
-    "en": {
-      "stem": "A patient undergoes surgery in the region of the posterior abdominal wall. During dissection, a nerve is identified running along the anterior surface of the quadratus lumborum muscle and then entering the thigh region beneath the inguinal ligament. Which nerve has been identified?",
-      "options": {
-        "a": "Femoral nerve",
-        "b": "Obturator nerve",
-        "c": "Iliohypogastric nerve",
-        "d": "Genitofemoral nerve",
-        "e": "Lateral femoral cutaneous nerve"
-      },
-      "correct": "a",
-      "explanation": "The femoral nerve arises from the anterior divisions of the L2–L4 spinal nerves and, in the posterior abdominal wall, runs in the groove between the psoas major and iliacus muscles. It then passes beneath the inguinal ligament into the femoral triangle, where it divides into motor and sensory branches. It primarily innervates the quadriceps femoris muscle and provides sensory innervation to the anterior thigh and, via the saphenous nerve, to the medial aspect of the leg."
+      "explanation": "The main intercostal neurovascular bundle in the costal groove is arranged from superior to inferior as the vein, artery, and intercostal nerve. Therefore, the intercostal nerve lies most inferiorly. The bundle runs between the internal intercostal muscle and the innermost intercostal muscle."
     }
   },
   {
@@ -26055,7 +26028,7 @@ const LIVE_QUESTION_BANKS = {
       {
   id: 10005,
   cz: {
-    stem: "Golfista udává bolest na vnitřní straně lokte, která se zhoršuje při flexi zápěstí proti odporu. Která kostěná struktura je při palpaci nejcitlivější?",
+    stem: "Golfista udává bolest lokte, která se zhoršuje při flexi zápěstí proti odporu. Která kostěná struktura je při palpaci nejcitlivější?",
     options: {
         a: "Mediální epikondyl humeru",
         b: "Laterální epikondyl humeru",
@@ -26067,7 +26040,7 @@ const LIVE_QUESTION_BANKS = {
     explanation: "Golfový loket (mediální epikondylitida) postihuje společný flexorový úpon na mediálním epikondylu humeru."
   },
   en: {
-    stem: "A golfer reports pain over the medial aspect of the elbow that worsens with resisted wrist flexion. Which bony landmark is most likely tender to palpation?",
+    stem: "A golfer reports pain of the elbow that worsens with resisted wrist flexion. Which bony landmark is most likely tender to palpation?",
     options: {
         a: "Medial epicondyle of the humerus",
         b: "Lateral epicondyle of the humerus",
@@ -26094,7 +26067,7 @@ const LIVE_QUESTION_BANKS = {
     explanation: "Přední skupina svalů bérce je inervována nervus fibularis profundus, který je větví nervus fibularis communis. Ten vzniká z nervus ischiadicus a pochází z plexus sacralis. Nervus fibularis superficialis naopak inervuje laterální skupinu svalů bérce."
   },
   en: {
-    stem: "uring an anatomical examination of the lower limb, the anterior compartment muscles of the leg are evaluated, which primarily perform dorsiflexion of the foot and extension of the toes. Which nerve provides motor innervation to this muscle group, and from which plexus does this nerve originally arise?",
+    stem: "During an anatomical examination of the lower limb, the anterior compartment muscles of the leg are evaluated, which primarily perform dorsiflexion of the foot and extension of the toes. Which nerve provides motor innervation to this muscle group, and from which plexus does this nerve originally arise?",
     options: {
         a: "Deep fibular nerve, sacral plexus",
         b: "Deep fibular nerve, lumbar plexus",
@@ -26109,7 +26082,7 @@ const LIVE_QUESTION_BANKS = {
 {
     "id": 10018,
     "cz": {
-      "stem": "Při neurologickém vyšetření je hodnocena funkce nervus plantaris lateralis. Lékař vybírá svaly, jejichž motorická inervace pochází z tohoto nervu. Mezi uvedenými možnostmi vyberte skupinu svalů, která je správně zásobena nervus plantaris lateralis.",
+      "stem": "Ve které z uvedených možností jsou pouze svaly motoricky inervované nervus plantaris lateralis?",
       "options": {
         "a": "Obě hlavy musculus adductor hallucis, musculus quadratus plantae, musculus abductor digiti minimi",
         "b": "Musculus abductor hallucis, musculus quadratus plantae, musculus opponens digiti minimi",
@@ -26121,7 +26094,7 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "Nervus plantaris lateralis je větví nervus tibialis z plexus sacralis a inervuje většinu svalů hluboké vrstvy planta pedis. Patří mezi ně musculus adductor hallucis, musculus quadratus plantae a musculus abductor digiti minimi. Naopak svaly první vrstvy u palce, jako musculus abductor hallucis a musculus flexor hallucis brevis, jsou zásobeny především nervus plantaris medialis."
     },
     "en": {
-      "stem": "During a neurological examination, the function of the lateral plantar nerve is assessed. The physician selects muscles whose motor innervation originates from this nerve. Among the following options, choose the group of muscles that is correctly supplied by the lateral plantar nerve.",
+      "stem": "Which of the following options contains only muscles that receive motor innervation from the lateral plantar nerve?",
       "options": {
         "a": "Both heads of the adductor hallucis muscle, quadratus plantae muscle, abductor digiti minimi muscle",
         "b": "Abductor hallucis muscle, quadratus plantae muscle, opponens digiti minimi muscle",
@@ -26136,7 +26109,7 @@ const LIVE_QUESTION_BANKS = {
   {
     "id": 10253,
     "cz": {
-      "stem": "Při operaci tříselné kýly chirurg hledá anulus inguinalis profundus. Která z následujících struktur představuje nejpřesnější anatomický vztah tohoto otvoru?",
+      "stem": "Která z následujících možností správně popisuje polohu anulus inguinalis profundus?",
       "options": {
         "a": "Nachází se laterálně od vasa epigastrica inferiora ve fascia transversalis",
         "b": "Nachází se mediálně od vasa epigastrica inferiora v aponeurosis musculi obliqui externi abdominis",
@@ -26148,7 +26121,7 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "Anulus inguinalis profundus je otvor ve fascia transversalis, který představuje vstup do canalis inguinalis. Nachází se laterálně od vasa epigastrica inferiora. Tudy vstupuje do canalis inguinalis funiculus spermaticus u mužů nebo ligamentum teres uteri u žen. Tento anatomický vztah je důležitý pro rozlišení hernia inguinalis indirecta, která vstupuje přes anulus inguinalis profundus, od hernia inguinalis directa, která prochází mediálně od vasa epigastrica inferiora přes zadní stěnu canalis inguinalis."
     },
     "en": {
-      "stem": "During inguinal hernia surgery, a surgeon identifies the deep inguinal ring. Which of the following best describes the anatomical relationship of this opening?",
+      "stem": "Which of the following options correctly describes the location of the deep inguinal ring?",
       "options": {
         "a": "It is located lateral to the inferior epigastric vessels within the transversalis fascia",
         "b": "It is located medial to the inferior epigastric vessels within the external oblique aponeurosis",
@@ -26190,7 +26163,7 @@ const LIVE_QUESTION_BANKS = {
   {
   "id": 10267,
   "cz": {
-    "stem": "Která z následujících možností správně popisuje topografickou trasu nervus medianus při přechodu z paže na předloktí a jeho další sestup směrem k zápěstí?",
+    "stem": "Která z následujících možností správně popisuje průběh nervus medianus při přechodu z paže na předloktí a jeho další sestup směrem k zápěstí?",
     "options": {
       "a": "Prochází v loketní jamce mediálně od a. brachialis, vstupuje na předloktí mezi dvěma hlavami m. pronator teres, běží pod m. flexor digitorum superficialis a do dlaně vstupuje skrze karpální tunel.",
       "b": "Sestupuje za mediálním epikondylem humeru, prostupuje skrze m. flexor carpi ulnaris a na zápěstí prochází povrchově nad retinaculum flexorum v Guyonově kanálu.",
@@ -26199,16 +26172,16 @@ const LIVE_QUESTION_BANKS = {
       "e": "Prochází loketní jamkou laterálně od úponové šlachy m. biceps brachii, proráží m. brachialis a běží po povrchové fascii předloktí až k palcovému valu."
     },
     "correct": "a",
-    "explanation": "Nervus medianus prochází loketní jamkou mediálně od arteria brachialis a na předloktí vstupuje mezi oběma hlavami svalu pronator teres. Následně sestupuje středem předloktí mezi povrchovým a hlubokým ohybačem prstů. V dolní třetině předloktí se dostává na povrch mezi šlachy flexor carpi radialis a palmaris longus, odkud pak pokračuje přes karpální tunel přímo do dlaně."
+    "explanation": "Nervus medianus prochází loketní jamkou mediálně od arteria brachialis a na předloktí vstupuje mezi oběma hlavami svalu pronator teres. Následně sestupuje středem předloktí mezi povrchovým a hlubokým ohybačem prstů. V dolní třetině předloktí se dostává na povrch mezi šlachy m. flexor carpi radialis a m. palmaris longus, odkud pak pokračuje přes karpální tunel přímo do dlaně."
   },
   "en": {
     "stem": "Which of the following options correctly describes topographical route of the median nerve during its transition from the arm to the forearm and its subsequent descent toward the wrist?",
     "options": {
-      "a": "It passes through the cubital fossa medially to the a. brachialis, enters the forearm between the two heads of the m. pronator teres, runs beneath the m. flexor digitorum superficialis, and enters the palm through the carpal tunnel.",
-      "b": "It descends behind the medial epicondyle of the humerus, passes through the m. flexor carpi ulnaris, and at the wrist, it passes superficially over the retinaculum flexorum in Guyon's canal.",
-      "c": "It winds around the neck of the radius, pierces the m. supinator, descends along the dorsal side of the forearm along the interosseous membrane, and does not enter the palm at all.",
-      "d": "It descends along the lateral side of the elbow beneath the m. brachioradialis, places itself deep beneath the m. flexor carpi radialis in the middle of the forearm, and passes through the foveola radialis.",
-      "e": "It passes through the cubital fossa laterally to the insertion tendon of the m. biceps brachii, pierces the m. brachialis, and runs along the superficial fascia of the forearm up to the thenar eminence."
+      "a": "It passes through the cubital fossa medial to the brachial artery, enters the forearm between the two heads of the pronator teres muscle, runs deep to the flexor digitorum superficialis muscle, and enters the hand through the carpal tunnel.",
+      "b": "It descends behind the medial epicondyle of the humerus, passes through the flexor carpi ulnaris muscle, and crosses the wrist superficially over the flexor retinaculum through Guyon's canal.",
+      "c": "It winds around the neck of the radius, pierces the supinator muscle, descends along the dorsal aspect of the forearm next to the interosseous membrane, and does not enter the hand.",
+      "d": "It descends along the lateral side of the elbow deep to the brachioradialis muscle, runs deep to the flexor carpi radialis muscle in the middle of the forearm, and passes through the anatomical snuffbox.",
+      "e": "It passes through the cubital fossa lateral to the biceps brachii tendon, pierces the brachialis muscle, and runs along the superficial fascia of the forearm toward the thenar eminence."
     },
     "correct": "a",
     "explanation": "The median nerve passes through the cubital fossa medially to the brachial artery and enters the forearm between both heads of the pronator teres muscle. Subsequently, it descends down the middle of the forearm between the superficial and deep flexors of the fingers. In the lower third of the forearm, it emerges superficially between the tendons of the flexor carpi radialis and palmaris longus, from where it then continues through the carpal tunnel directly into the palm."
@@ -26239,33 +26212,6 @@ const LIVE_QUESTION_BANKS = {
     },
     correct: "b",
     explanation: "The cephalic vein runs within the deltopectoral groove between the deltoid muscle and the pectoralis major muscle. Due to its superficial and relatively constant anatomical course, it is easily accessible for venous access and for the insertion of catheters or pacing leads, for example during pacemaker implantation."
-  }
-},
-{
-  id: 10269,
-  cz: {
-    stem: "Během chirurgického přístupu do ramenního kloubu využívá operatér anatomickou rovinu v trigonum deltoideopectorale. Aby nedošlo k poškození struktur procházejících tímto prostorem, musí identifikovat svaly tvořící jeho bezprostřední ohraničení. Která z následujících dvojic svalů přímo ohraničuje tento topografický prostor?",
-    options: {
-        a: "Musculus pectoralis major a musculus deltoideus",
-        b: "Musculus pectoralis minor a musculus deltoideus",
-        c: "Musculus pectoralis minor a musculus pectoralis major",
-        d: "Musculus teres major a musculus pectoralis major",
-        e: "Musculus pectoralis major a musculus subclavius"
-    },
-    correct: "a",
-    explanation: "Trigonum deltoideopectorale je ohraničeno m. pectoralis major (mediálně), m. deltoideus (laterálně) a klíční kostí (shora)."
-  },
-  en: {
-    stem: "During a surgical approach to the shoulder joint, the surgeon utilizes the anatomical plane in the deltoideopectoral triangle (trigonum deltoideopectorale). To avoid damaging structures passing through this space, they must identify the muscles forming its immediate boundaries. Which of the following pairs of muscles directly bounds this topographical space?",
-    options: {
-        a: "Pectoralis major muscle and deltoid muscle",
-        b: "Pectoralis minor muscle and deltoid muscle",
-        c: "Pectoralis minor muscle and pectoralis major muscle",
-        d: "Teres major muscle and pectoralis major muscle",
-        e: "Pectoralis major muscle and subclavius muscle"
-    },
-    correct: "a",
-    explanation: "The deltoideopectoral triangle (trigonum deltoideopectorale) is bounded by the m. pectoralis major (medially), the m. deltoideus (laterally), and the clavicle (superiorly)."
   }
 },
 {
@@ -26335,7 +26281,7 @@ const LIVE_QUESTION_BANKS = {
       e: "n. musculocutaneus"
     },
     correct: "b",
-    explanation: "M. latissimus dorsi je inervován n. thoracodorsalis (z fasciculus posterior plexus brachialis, kořeny C6–C8), probíhajícím spolu s a. thoracodorsalis po jeho přední ploše. Tento nerv je klíčovým landmarkem při axilární lymfadenektomii, kde musí být šetřen."
+    explanation: "M. latissimus dorsi je inervován n. thoracodorsalis (z fasciculus posterior plexus brachialis, kořeny C6–C8), probíhajícím spolu s a. thoracodorsalis po jeho přední ploše."
   },
   en: {
     stem: "The latissimus dorsi muscle contributes to adduction, internal rotation, and extension of the shoulder joint. Which nerve innervates it?",
@@ -26347,7 +26293,7 @@ const LIVE_QUESTION_BANKS = {
       e: "musculocutaneous nerve (n. musculocutaneus)"
     },
     correct: "b",
-    explanation: "The latissimus dorsi is innervated by the thoracodorsal nerve (from the posterior cord of the brachial plexus, roots C6–C8), which runs together with the thoracodorsal vessels along its deep surface. This nerve is an important landmark in axillary lymph node dissection, where it must be preserved."
+    explanation: "The latissimus dorsi is innervated by the thoracodorsal nerve (from the posterior cord of the brachial plexus, roots C6–C8), which runs together with the thoracodorsal vessels along its deep surface."
   }
 },
 
@@ -26373,7 +26319,7 @@ const LIVE_QUESTION_BANKS = {
         e: "Supinace předloktí bez odporu"
     },
     correct: "a",
-    explanation: "Při tenisovém lokti jsou postiženy extenzory zápěstí. Aktivní kontrakce proti odporu reprodukuje bolest."
+    explanation: "Při tenisovém lokti jsou postiženy extenzory zápěstí. Aktivní kontrakce proti odporu působí bolest."
   },
   en: {
     stem: "A patient with tennis elbow has degeneration of the common extensor tendon. Which movement is expected to produce the greatest pain?",
@@ -26389,36 +26335,9 @@ const LIVE_QUESTION_BANKS = {
   },
 },
 {
-  id: 10011,
-  cz: {
-    stem: "Profesor anatomie se při zkoušení ptá studenta na průběh zkřížených vazů, které zajišťují stabilitu kolenního kloubu. Které z následujících tvrzení správně popisuje průběh ligamentum cruciatum anterius?",
-    options: {
-        a: "Vede z area intercondylaris anterior tibiae na plochu vnitřní strany condylus lateralis femoris",
-        b: "Vede z area intercondylaris posterior tibiae na plochu vnitřní strany condylus medialis femoris",
-        c: "Vede z epicondylus medialis femoris na hlavici fibuly",
-        d: "Vede z area intercondylaris anterior tibiae na condylus medialis femoris",
-        e: "Vede z hlavice fibuly na condylus lateralis femoris"
-    },
-    correct: "a",
-    explanation: "Ligamentum cruciatum anterius začíná v area intercondylaris anterior tibiae a směřuje šikmo dozadu, nahoru a laterálně k vnitřní ploše condylus lateralis femoris. Svým průběhem zabraňuje především přednímu posunu tibie vůči femuru a podílí se na rotační stabilitě kolenního kloubu."
-  },
-  en: {
-    stem: "During an anatomy examination, a professor asks a student about the course of the cruciate ligaments, which provide stability of the knee joint. Which of the following statements correctly describes the course of the anterior cruciate ligament?",
-    options: {
-        a: "Runs from the anterior intercondylar area of the tibia to the medial surface of the lateral femoral condyle",
-        b: "Runs from the posterior intercondylar area of the tibia to the medial surface of the medial femoral condyle",
-        c: "Runs from the medial epicondyle of the femur to the head of the fibula",
-        d: "Runs from the anterior intercondylar area of the tibia to the medial femoral condyle",
-        e: "Runs from the head of the fibula to the lateral femoral condyle"
-    },
-    correct: "a",
-    explanation: "The anterior cruciate ligament originates from the anterior intercondylar area of the tibia and runs obliquely posteriorly, superiorly, and laterally to the medial surface of the lateral femoral condyle. Through its course, it primarily prevents anterior translation of the tibia relative to the femur and contributes to the rotational stability of the knee joint."
-  }
-},
-{
   id: 10016,
   cz: {
-    stem: "Při vyšetření hlezenního kloubu jsou hodnoceny kloubní plochy kostních struktur. Která z následujících možností správně uvádí přiřazení kloubní plochy articulatio talocruralis a jejich příslušné kosti?",
+    stem: "Která z následujících možností správně uvádí přiřazení kloubní plochy articulatio talocruralis a jejich příslušné kosti?",
     options: {
         a: "Facies articularis malleolaris lateralis na fibule a facies articularis malleolaris medialis na tibii",
         b: "Facies articularis malleolaris lateralis na tibii a facies articularis malleolaris medialis na fibule",
@@ -26430,7 +26349,7 @@ const LIVE_QUESTION_BANKS = {
     explanation: "Articulatio talocruralis tvoří kloubní plochy na distální tibii, fibule a talu. Laterální kotník tvoří facies articularis malleolaris lateralis na fibule a mediální kotník tvoří facies articularis malleolaris medialis na tibii. Tyto plochy společně s facies articularis inferior tibiae vytvářejí vidlici, která objímá trochlea tali."
   },
   en: {
-    stem: "When examining the ankle joint, the articular surfaces of the bony structures are evaluated. Which of the following options correctly describes the assignment of the articular surfaces of the talocrural joint and their corresponding bones?",
+    stem: "Which of the following options correctly describes the assignment of the articular surfaces of the talocrural joint and their corresponding bones?",
     options: {
         a: "Lateral malleolar articular surface on the fibula and medial malleolar articular surface on the tibia",
         b: "Lateral malleolar articular surface on the tibia and medial malleolar articular surface on the fibula",
@@ -26497,33 +26416,6 @@ const LIVE_QUESTION_BANKS = {
   },
   image: { key: "q1046_custom", source: "Hellerhoff. Epicondylitis lateralis des Ellenbogens 49W - MR PDW FS - 001 - Annotation.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Epicondylitis_lateralis_des_Ellenbogens_49W_-_MR_PDW_FS_-_001_-_Annotation.jpg. CC BY-SA 4.0. Accessed 17 August 2026.", type: "image" }
 },
-{
-    "id": 10258,
-    "cz": {
-      "stem": "Pacient podstupuje chirurgický zákrok v oblasti zadní břišní stěny. Chirurg identifikuje svalový oblouk tvořený zesílením fascie m. psoas major, který překlenuje m. psoas major a upíná se na processus transversus obratle L1. Která struktura bránice je tímto obloukem vytvořena?",
-      "options": {
-        "a": "Ligamentum arcuatum mediale",
-        "b": "Ligamentum arcuatum laterale",
-        "c": "Ligamentum arcuatum medianum",
-        "d": "Crus dextrum",
-        "e": "Crus sinistrum"
-      },
-      "correct": "a",
-      "explanation": "Ligamentum arcuatum mediale je zesílení fascie m. psoas major, které vytváří oblouk nad tímto svalem a upíná se laterálně na processus transversus L1. Ligamentum arcuatum laterale překlenuje m. quadratus lumborum a směřuje k 12. žebru. Ligamentum arcuatum medianum spojuje pravé a levé crus diaphragmatis nad aortou."
-    },
-    "en": {
-      "stem": "A patient undergoes surgery in the region of the posterior abdominal wall. The surgeon identifies a muscular arch formed by a thickening of the fascia of the psoas major muscle, which arches over the psoas major muscle and attaches to the transverse process of the L1 vertebra. Which structure of the diaphragm is formed by this arch?",
-      "options": {
-        "a": "Medial arcuate ligament",
-        "b": "Lateral arcuate ligament",
-        "c": "Median arcuate ligament",
-        "d": "Right crus",
-        "e": "Left crus"
-      },
-      "correct": "a",
-      "explanation": "The medial arcuate ligament is a thickening of the fascia of the psoas major muscle that forms an arch over the muscle and attaches laterally to the transverse process of L1. The lateral arcuate ligament arches over the quadratus lumborum muscle and extends toward the 12th rib. The median arcuate ligament connects the right and left diaphragmatic crura over the aorta."
-    }
-  },
   {
     "id": 10261,
     "cz": {
@@ -26579,33 +26471,6 @@ const LIVE_QUESTION_BANKS = {
   },
   image: { key: "q1083_custom", source: "C4KC-KiTS Kidney Study. Abdominal CT (modified). SAGA IT / The Cancer Imaging Archive. Available from: https://saga-it.com/dicom/samples. CC BY 3.0. Accessed 29 August 2026.", type: "image" }
 },
-{
-  "id": 10271,
-  "cz": {
-    "stem": "Během neurologického vyšetření 28letého mechanika, který utrpěl hluboké bodné poranění v oblasti ulnární strany zápěstí, lékař testuje funkci mm. interossei dorsales et palmares. Která z následujících možností správně popisuje anatomickou funkci těchto svalů?",
-    "options": {
-      "a": "Mm. palmares provádějí addukci prstů k podélné ose ruky; mm. dorsales provádějí abdukci prstů od osy ruky",
-      "b": "Mm. palmares provádějí abdukci prstů od podélné osy ruky; mm. dorsales provádějí addukci prstů k ose ruky",
-      "c": "Mm. palmares provádějí extenzi v metakarpofalangových kloubech; mm. dorsales provádějí flexi v mezifalangových kloubech",
-      "d": "Mm. palmares provádějí flexi palce; mm. dorsales provádějí opozici malíčku",
-      "e": "Mm. palmares i dorsales provádějí výhradně flexi v distálních mezifalangových kloubech"
-    },
-    "correct": "a",
-    "explanation": "Mm. interossei palmares provádějí addukci prstů k podélné ose ruky, zatímco mm. interossei dorsales zajišťují jejich abdukci od této osy. Vzhledem k úponu do dorzální aponeurózy prstů navíc všechny tyto svaly současně pomáhají s flexí v metakarpofalangových a extenzí v mezifalangových kloubech. Všechny mezikostní svaly jsou inervovány z ramus profundus nervi ulnaris."
-  },
-  "en": {
-    "stem": "During a neurological examination of a 28-year-old mechanic who sustained a deep puncture wound to the ulnar aspect of the wrist, the physician tests the function of the interossei muscles (dorsal and palmar interossei). Which of the following options correctly describes the anatomical function of these muscles?",
-    "options": {
-      "a": "Palmares adduct the fingers toward the longitudinal axis of the hand; dorsales abduct the fingers away from the axis of the hand",
-      "b": "Palmares abduct the fingers away from the longitudinal axis of the hand; dorsales adduct the fingers toward the axis of the hand",
-      "c": "Palmares extend the metacarpophalangeal joints; dorsales flex the interphalangeal joints",
-      "d": "Palmares flex the thumb; dorsales oppose the little finger",
-      "e": "Both palmares and dorsales exclusively flex the distal interphalangeal joints"
-    },
-    "correct": "a",
-    "explanation": "Palmar interossei muscles adduct the fingers toward the longitudinal axis of the hand, while dorsal interossei muscles abduct them away from this axis. Furthermore, due to their insertion into the dorsal digital expansion, all of these muscles simultaneously assist with flexion at the metacarpophalangeal joints and extension at the interphalangeal joints. All interossei muscles are innervated by the deep branch of the ulnar nerve."
-  }
-},
  {
     "id": 10272,
     "cz": {
@@ -26654,10 +26519,10 @@ const LIVE_QUESTION_BANKS = {
         b: "the deep branch was injured, the superficial branch was spared",
         c: "both branches were injured simultaneously",
         d: "the main trunk of the ulnar nerve proximal to the wrist was injured",
-        e: "only the dorsal branch of the ulnar nerve (ramus dorsalis nervi ulnaris) was injured"
+        e: "only the dorsal branch of the ulnar nerve was injured"
     },
     correct: "b",
-    explanation: "Within Guyon’s canal, the ulnar nerve divides into the superficial branch (ramus superficialis), which is predominantly sensory and supplies the skin of the little finger and the ulnar half of the ring finger, and the deep branch (ramus profundus), which is purely motor and supplies the hypothenar muscles, interossei muscles, and adductor pollicis. Isolated injury to the deep branch results in a motor deficit (weakness of thumb adduction and finger abduction/adduction) without sensory impairment."
+    explanation: "Within Guyon’s canal, the ulnar nerve divides into the superficial branch, which is predominantly sensory and supplies the skin of the little finger and the ulnar half of the ring finger, and the deep branch, which is purely motor and supplies the hypothenar muscles, interossei muscles, and adductor pollicis. Isolated injury to the deep branch results in a motor deficit (weakness of thumb adduction and finger abduction/adduction) without sensory impairment."
   }
 },
 {
@@ -26672,7 +26537,7 @@ const LIVE_QUESTION_BANKS = {
                 e: "n. interosseus anterior"
               },
               correct: "c",
-              explanation: "N. ulnaris probíhá v sulcus nervi ulnaris za mediálním epikondylem humeru (kubitální tunel), kde je při dlouhodobém opírání lokte nebo flexi v lokti náchylný ke kompresi. Postižení se projeví senzitivním deficitem na malíku a ulnární polovině prsteníku a oslabením svalů inervovaných n. ulnaris v ruce."
+              explanation: "N. ulnaris probíhá v sulcus nervi ulnaris za mediálním epikondylem humeru, kde je při dlouhodobém opírání lokte nebo flexi v lokti náchylný ke kompresi. Postižení se projeví senzitivním deficitem na malíku a ulnární polovině prsteníku a oslabením svalů inervovaných n. ulnaris v ruce."
             },
             en: {
               stem: "A man who frequently rests his elbows on his desk while working complains of tingling on the ulnar side of the hand (the little finger and half of the ring finger) and weak grip strength. Examination reveals a positive Tinel sign over the medial epicondyle of the humerus. Which nerve is most likely compressed?",
@@ -26792,7 +26657,7 @@ const LIVE_QUESTION_BANKS = {
         e: "Obturator nerve (lumbar plexus) and inferior gluteal nerve (sacral plexus)"
     },
     correct: "a",
-    explanation: " The adductor magnus muscle is innervated by the obturator nerve, which arises from the lumbar plexus, and the sciatic nerve, which arises from the sacral plexus."
+    explanation: "The adductor magnus muscle is innervated by the obturator nerve, which arises from the lumbar plexus, and the sciatic nerve, which arises from the sacral plexus."
   }
 },
 {
