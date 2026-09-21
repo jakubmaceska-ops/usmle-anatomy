@@ -2202,7 +2202,7 @@ const QUESTION_DATA = {
     "options": {
       "a": "Z paže přichází za mediálním epikondylem humeru, na předloktí vstupuje mezi dvěma hlavami m. flexor carpi ulnaris, běží podél ulnární strany předloktí a do dlaně vstupuje skrze Guyonův kanál.",
       "b": "Z paže přichází před mediálním epikondylem humeru, na předloktí prostupuje skrze m. pronator teres, běží středem předloktí mezi flexory a do dlaně vstupuje skrze karpální tunel.",
-      "c": "Z paže přichází za laterálním epikondylem humeru, na předloktí proráží m. supinator, stáčí se na dorzální stranu předloktí a končí v anatomické šňupací krabičce (foveola radialis).",
+      "c": "Z paže přichází za laterálním epikondylem humeru, na předloktí proráží m. supinator, stáčí se na dorzální stranu předloktí a končí ve foveola radialis.",
       "d": "Z paže přichází za mediálním epikondylem humeru, na předloktí běží povrchově nad m. brachioradialis, v distální třetině proráží fascii a větví se na hřbetu ruky.",
       "e": "Z paže přichází v sulcus bicipitalis lateralis, na předloktí vstupuje pod m. flexor digitorum superficialis a do zápěstí vstupuje těsně vedle arteria radialis."
     },
@@ -11527,7 +11527,7 @@ id: 269,
   image: { key: "q1039_custom", source: "Hellerhoff. Lymphom terminales Ileum 74M - CT 3 Eb und PET-CT axial - 001.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Lymphom_terminales_Ileum_74M_-_CT_3_Eb_und_PET-CT_axial_-_001.jpg. CC BY-SA 4.0. Accessed 15 August 2026.", type: "image" }
 },
 {
-  id: 1043,
+  id: 1123,
   cz: {
     stem: "Mladý lékař při vyšetřování pacienta s bolestmi břicha poslouchá střevní peristaltiku v oblasti ileocaekální chlopně (Bauhinská chlopeň). Kam přiloží fonendoskop?",
     options: {
