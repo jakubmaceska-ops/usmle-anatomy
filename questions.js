@@ -15713,14 +15713,14 @@ id: 269,
   en: {
     stem: "FAST (Focused Assessment with Sonography in Trauma) includes examination of the lowest part of the peritoneal cavity within the pelvic region. In the FAST protocol diagram, the probe is placed in the midline suprapubically (number 4). The examiner evaluates the space between the pelvic organs. How does the lowest peritoneal space assessed during FAST differ between males and females?",
     options: {
-        a: "In males, it is the rectovesical pouch, while in females, it is the rectouterine pouch (Douglas pouch)",
+        a: "In males, it is the rectovesical pouch, while in females, it is the rectouterine pouch (pouch of Douglas)",
         b: "In males, it is Morrison’s pouch, while in females, it is the rectouterine pouch",
         c: "In males, it is the lesser sac (omental bursa), while in females, it is the rectovesical pouch",
-        d: "In males, it is the Douglas pouch, while in females, it is the rectovesical pouch",
+        d: "In males, it is the pouch of Douglas, while in females, it is the rectovesical pouch",
         e: "In both sexes, it is the rectovesical pouch"
     },
     correct: "a",
-    explanation: "The lowest part of the peritoneal cavity differs between sexes. In males, it is the rectovesical pouch, located between the rectum and urinary bladder. In females, it is the rectouterine pouch (Douglas pouch), located between the rectum and uterus."
+    explanation: "The lowest part of the peritoneal cavity differs between sexes. In males, it is the rectovesical pouch, located between the rectum and urinary bladder. In females, it is the rectouterine pouch (pouch of Douglas), located between the rectum and uterus."
   },
   image: { key: "q542_custom", source: "Own work. Generated with Google Gemini AI." }
 },
@@ -15749,33 +15749,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The processus vaginalis is an evagination of the peritoneum that accompanies the descending testis through the inguinal canal into the scrotum. Its distal portion normally persists as the cavity of the tunica vaginalis of the testis, whereas its proximal connection with the abdominal cavity becomes obliterated. Persistence of a patent processus vaginalis can result in a communicating hydrocele or an indirect inguinal hernia. The testicular gubernaculum assists testicular descent but does not form the serous covering of the testis."
-    }
-  },
-  {
-    "id": 661,
-    "cz": {
-      "stem": "25letý muž podstupuje chirurgický zákrok v oblasti retroperitonea. Chirurg musí identifikovat cévní zásobení varlete, aby se vyhnul jeho poranění. Která tepna je hlavním zdrojem arteriálního zásobení varlete?",
-      "options": {
-        "a": "A. testicularis",
-        "b": "A. ductus deferentis",
-        "c": "A. cremasterica",
-        "d": "A. pudenda interna",
-        "e": "A. epigastrica inferior"
-      },
-      "correct": "a",
-      "explanation": "A. testicularis odstupuje z aorta abdominalis obvykle distálně od aa. renales a sestupuje retroperitoneálně směrem k anulus inguinalis profundus. Prochází následně v rámci funiculus spermaticus do scrotum a zajišťuje hlavní arteriální zásobení varlete a nadvarlete. A. ductus deferentis, a. cremasterica a a. pudenda interna se podílejí na cévním zásobení struktur v oblasti varlete, ale nepředstavují hlavní zdroj jeho arteriálního zásobení."
-    },
-    "en": {
-      "stem": "A 25-year-old man undergoes retroperitoneal surgery. The surgeon must identify the arterial supply to the testis to avoid injuring it. Which artery is the main source of arterial blood supply to the testis?",
-      "options": {
-        "a": "Testicular artery",
-        "b": "Artery of the ductus deferens",
-        "c": "Cremasteric artery",
-        "d": "Internal pudendal artery",
-        "e": "Inferior epigastric artery"
-      },
-      "correct": "a",
-      "explanation": "The testicular artery arises from the abdominal aorta, usually inferior to the renal arteries, and descends retroperitoneally toward the deep inguinal ring. It then travels within the spermatic cord to the scrotum and provides the main arterial supply to the testis and epididymis. The artery of the ductus deferens, cremasteric artery, and internal pudendal artery contribute to the vascular supply of structures in the region of the testis but are not the main source of arterial blood supply to the testis."
     }
   },
   {
@@ -15835,7 +15808,7 @@ id: 269,
   {
     "id": 664,
     "cz": {
-      "stem": "23letý muž podstupuje biopsii varlete pro podezření na poruchu tvorby spermií. Při mikroskopickém vyšetření je nalezena struktura tvořená sítí navzájem propojených kanálků v oblasti mediastinum testis. Která struktura za normálních okolností odvádí spermie z rete testis směrem k nadvarleti?",
+      "stem": "Která struktura odvádí spermie z rete testis do nadvarlete?",
       "options": {
         "a": "Ductuli efferentes",
         "b": "Ductus epididymidis",
@@ -15847,7 +15820,7 @@ id: 269,
       "explanation": "Rete testis se nachází v mediastinum testis a je spojeno s nadvarletem prostřednictvím ductuli efferentes. Ty odvádějí spermie z rete testis do ductus epididymidis, který pokračuje jako ductus deferens. Tubuli seminiferi recti spojují semenotvorné kanálky s rete testis."
     },
     "en": {
-      "stem": "A 23-year-old man undergoes a testicular biopsy for suspected impaired sperm production. Microscopic examination reveals a network of interconnected ducts located in the mediastinum of the testis. Which structure normally carries sperm from the rete testis toward the epididymis?",
+      "stem": "Which structure carries sperm from the rete testis to the epididymis?",
       "options": {
         "a": "Efferent ductules",
         "b": "Epididymal duct",
@@ -15857,33 +15830,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The rete testis is located in the mediastinum of the testis and is connected to the epididymis by the efferent ductules. These ducts carry sperm from the rete testis to the epididymal duct, which continues as the ductus deferens. The straight tubules connect the seminiferous tubules with the rete testis."
-    }
-  },
-  {
-    "id": 665,
-    "cz": {
-      "stem": "Která část nadvarlete je anatomicky spojena s ductuli efferentes?",
-      "options": {
-        "a": "Caput epididymidis",
-        "b": "Corpus epididymidis",
-        "c": "Cauda epididymidis",
-        "d": "Ductus deferens",
-        "e": "Rete testis"
-      },
-      "correct": "a",
-      "explanation": "Caput epididymidis je tvořena převážně ductuli efferentes, které přivádějí spermie z rete testis do ductus epididymidis. Corpus epididymidis představuje střední část nadvarlete a cauda epididymidis jeho dolní část, která pokračuje do ductus deferens. Rete testis se nachází uvnitř varlete v oblasti mediastinum testis."
-    },
-    "en": {
-      "stem": "Which part of the epididymis is anatomically connected to the efferent ductules?",
-      "options": {
-        "a": "Head of the epididymis",
-        "b": "Body of the epididymis",
-        "c": "Tail of the epididymis",
-        "d": "Ductus deferens",
-        "e": "Rete testis"
-      },
-      "correct": "a",
-      "explanation": "The head of the epididymis is formed primarily by the efferent ductules, which carry sperm from the rete testis to the epididymal duct. The body of the epididymis forms its middle portion, while the tail forms its inferior portion and continues into the ductus deferens. The rete testis is located within the testis in the region of the mediastinum of the testis."
     }
   },
   {
@@ -15928,7 +15874,7 @@ id: 269,
       "explanation": "A. testicularis je hlavním zdrojem arteriálního zásobení varlete a prochází ve funiculus spermaticus. Při jeho torzi může dojít k útlaku této tepny, což vede k ischemii varlete. A. ductus deferentis a a. cremasterica se rovněž podílejí na cévním zásobení varlete a mohou poskytovat kolaterální průtok."
     },
     "en": {
-      "stem": "A 16-year-old boy presents to the emergency department with sudden severe right hemiscrotal pain and nausea. On examination, the right testis is positioned higher and is markedly tender. Testicular torsion is suspected. During torsion, the spermatic cord rotates and contains vessels, nerves, and ductal structures traveling toward the testis. Which artery is most at risk of compression during torsion of the spermatic cord?",
+      "stem": "A 16-year-old boy presents to the emergency department with sudden severe right hemiscrotal pain and nausea. On examination, the right testis is positioned higher and is markedly tender. Testicular torsion is suspected. During torsion, the spermatic cord rotates and contains vessels, nerves, and ductal structures running toward the testis. Which artery is most at risk of compression during torsion of the spermatic cord?",
       "options": {
         "a": "Testicular artery",
         "b": "Artery of the ductus deferens",
@@ -15937,34 +15883,7 @@ id: 269,
         "e": "Inferior epigastric artery"
       },
       "correct": "a",
-      "explanation": "The testicular artery is the main source of arterial blood supply to the testis and travels within the spermatic cord. Torsion of the spermatic cord can compress this artery, resulting in testicular ischemia. The artery of the ductus deferens and cremasteric artery also contribute to the arterial supply of the testis and may provide collateral blood flow."
-    }
-  },
-  {
-    "id": 668,
-    "cz": {
-      "stem": "24letý muž podstupuje ultrazvukové vyšetření pro nebolestivé zvětšení varlete. Při následné operaci chirurg proniká přes jeho vazivový obal a identifikuje vazivové přepážky, které vybíhají dovnitř varlete a rozdělují jeho parenchym na jednotlivé lalůčky. Která struktura tvoří tento vazivový obal varlete a dává vznik těmto přepážkám?",
-      "options": {
-        "a": "Tunica albuginea",
-        "b": "Tunica vaginalis testis",
-        "c": "Fascia spermatica interna",
-        "d": "Tunica dartos",
-        "e": "Lamina visceralis tunicae vaginalis testis"
-      },
-      "correct": "a",
-      "explanation": "Tunica albuginea je pevný vazivový obal přímo obklopující varle. Na jeho zadní straně se ztlušťuje a vytváří mediastinum testis, z něhož vybíhají septa testis rozdělující parenchym varlete na lobuli testis. Tunica vaginalis testis je serózní obal varlete a nevytváří vazivová septa uvnitř jeho parenchymu."
-    },
-    "en": {
-      "stem": "A 24-year-old man undergoes ultrasonography for painless enlargement of the testis. During subsequent surgery, the surgeon passes through its fibrous covering and identifies connective tissue septa extending inward and dividing the testicular parenchyma into individual lobules. Which structure forms this fibrous covering and gives rise to these septa?",
-      "options": {
-        "a": "Tunica albuginea",
-        "b": "Tunica vaginalis of the testis",
-        "c": "Internal spermatic fascia",
-        "d": "Dartos tunic",
-        "e": "Visceral layer of the tunica vaginalis of the testis"
-      },
-      "correct": "a",
-      "explanation": "The tunica albuginea is a dense fibrous covering that directly surrounds the testis. Posteriorly, it thickens to form the mediastinum of the testis, from which testicular septa extend and divide the testicular parenchyma into testicular lobules. The tunica vaginalis of the testis is a serous covering and does not form fibrous septa within the testicular parenchyma."
+      "explanation": "The testicular artery is the main source of arterial blood supply to the testis and runs within the spermatic cord. Torsion of the spermatic cord can compress this artery, resulting in testicular ischemia. The artery of the ductus deferens and cremasteric artery also contribute to the arterial supply of the testis and may provide collateral blood flow."
     }
   },
   {
@@ -16103,60 +16022,6 @@ id: 269,
     }
   },
   {
-    "id": 674,
-    "cz": {
-      "stem": "Při vasektomii (chirurgickém přerušení ductus deferens za účelem trvalé antikoncepce) chirurg izoluje v oblasti funiculus spermaticus pevnou strukturu s výrazně silnou svalovou stěnou. Struktura je přerušena a její konce jsou podvázány. Která z následujících struktur byla nejpravděpodobněji identifikována?",
-      "options": {
-        "a": "Ductus deferens",
-        "b": "A. testicularis",
-        "c": "Plexus pampiniformis",
-        "d": "N. ilioinguinalis",
-        "e": "R. genitalis n. genitofemoralis"
-      },
-      "correct": "a",
-      "explanation": "Ductus deferens je součástí funiculus spermaticus a je charakteristický svou brkovitě tuhou konzistencí, která je dána především výraznou vrstvou hladké svaloviny ve stěně. Při vasektomii je ductus deferens chirurgicky přerušen a jeho konce jsou obvykle podvázány nebo jinak ošetřeny. Funiculus spermaticus dále obsahuje například a. testicularis, plexus pampiniformis, nervové struktury a lymfatické cévy. N. ilioinguinalis však součástí funiculus spermaticus není a probíhá v jeho blízkosti v canalis inguinalis."
-    },
-    "en": {
-      "stem": "During a vasectomy (surgical interruption of the ductus deferens for permanent contraception), a surgeon isolates a firm structure within the spermatic cord with a prominent muscular wall. The structure is transected and its ends are ligated. Which of the following structures was most likely identified?",
-      "options": {
-        "a": "Ductus deferens",
-        "b": "Testicular artery",
-        "c": "Pampiniform plexus",
-        "d": "Ilioinguinal nerve",
-        "e": "Genital branch of the genitofemoral nerve"
-      },
-      "correct": "a",
-      "explanation": "The ductus deferens is a component of the spermatic cord and is characterized by its firm, cord-like consistency, which is primarily due to its prominent smooth muscle layer. During a vasectomy, the ductus deferens is surgically transected and its ends are usually ligated or otherwise treated. The spermatic cord also contains the testicular artery, pampiniform plexus, nerves, and lymphatic vessels. The ilioinguinal nerve is not a component of the spermatic cord and instead travels nearby within the inguinal canal."
-    }
-  },
-  {
-    "id": 675,
-    "cz": {
-      "stem": "Při anatomické preparaci mužské pánve student identifikuje tři přídatné pohlavní žlázy: vesicula seminalis, prostata a glandula bulbourethralis. Které z následujících tvrzení správně popisuje anatomický vztah a průběh vývodů těchto žláz?",
-      "options": {
-        "a": "Ductus excretorius vesiculae seminalis se spojuje s ductus deferens a společně vytvářejí ductus ejaculatorius, který prochází prostatou.",
-        "b": "Ductus prostaticus ústí do ductus ejaculatorius ještě před jeho vstupem do prostaty.",
-        "c": "Ductus glandulae bulbourethralis prochází prostatou a ústí do pars prostatica urethrae.",
-        "d": "Vesicula seminalis se nachází vpředu od močového měchýře a její vývod ústí přímo do urethra.",
-        "e": "Glandula bulbourethralis leží v malé pánvi posteriorně od prostata a její vývod ústí do močového měchýře."
-      },
-      "correct": "a",
-      "explanation": "Vesicula seminalis leží vzadu od močového měchýře. Její vývod se spojuje s ductus deferens a vzniká ductus ejaculatorius. Ten vstupuje do prostaty a prochází její tkání, než ústí do pars prostatica urethrae. Prostata se nachází bezprostředně pod močovým měchýřem a obklopuje počáteční část urethra. Glandula bulbourethralis leží v hlubokém prostoru hráze a její vývod prochází perineální membránou a ústí do pars spongiosa urethrae."
-    },
-    "en": {
-      "stem": "During anatomical dissection of the male pelvis, a student identifies three accessory sex glands: the seminal vesicle, prostate, and bulbourethral gland. Which of the following statements correctly describes the anatomical relationship and course of the ducts of these glands?",
-      "options": {
-        "a": "The seminal vesicle duct joins the ductus deferens to form the ejaculatory duct, which passes through the prostate.",
-        "b": "The prostatic ducts join the ejaculatory duct before it enters the prostate.",
-        "c": "The bulbourethral gland duct passes through the prostate and opens into the prostatic urethra.",
-        "d": "The seminal vesicle is located anterior to the urinary bladder, and its duct opens directly into the urethra.",
-        "e": "The bulbourethral gland is located in the pelvis posterior to the prostate, and its duct opens into the urinary bladder."
-      },
-      "correct": "a",
-      "explanation": "The seminal vesicle is located posterior to the urinary bladder. Its duct joins the ductus deferens to form the ejaculatory duct. The ejaculatory duct enters and passes through the prostate before opening into the prostatic urethra. The prostate is located immediately inferior to the urinary bladder and surrounds the initial part of the urethra. The bulbourethral gland is located in the deep perineal space, and its duct passes through the perineal membrane and opens into the spongy urethra."
-    }
-  },
-  {
     "id": 676,
     "cz": {
       "stem": "Při preparaci malé pánve je identifikována vesicula seminalis uložená vzadu od vesica urinaria. Chirurg sleduje její vývod směrem k močové trubici. Která z následujících struktur vzniká spojením tohoto vývodu s ductus deferens?",
@@ -16213,7 +16078,7 @@ id: 269,
   {
     "id": 678,
     "cz": {
-      "stem": "22letý muž se dostaví pro poruchu erekce. Při vyšetření anatomie penisu lékař vysvětluje, že některé svaly pomáhají udržovat erekci tím, že omezují odtok krve z erektilní tkáně. Který sval se na tomto mechanismu podílí?",
+      "stem": "Který sval omezuje venózní odtok krve z penisu a tím pomáhá udržovat erekci?",
       "options": {
         "a": "M. ischiocavernosus",
         "b": "M. bulbospongiosus",
@@ -16225,7 +16090,7 @@ id: 269,
       "explanation": "M. ischiocavernosus obklopuje crura penis. Jeho kontrakce stlačuje crura penis, omezuje venózní odtok krve a pomáhá udržovat erekci. M. bulbospongiosus obklopuje bulbus penis a podílí se především na ejakulaci a vyprazdňování urethra masculina."
     },
     "en": {
-      "stem": "A 22-year-old man presents with erectile dysfunction. During a review of penile anatomy, the physician explains that certain muscles help maintain an erection by reducing venous outflow from the erectile tissue. Which muscle contributes to this mechanism?",
+      "stem": "Which muscle reduces venous outflow from the penis and thereby helps maintain an erection?",
       "options": {
         "a": "Ischiocavernosus muscle",
         "b": "Bulbospongiosus muscle",
@@ -16265,33 +16130,6 @@ id: 269,
   },
   image: { key: "q679_custom", source: "Yan C, Liang BX, Huang HB, Liang BR, Zhou Z, Wang LJ, Yang ZQ, Xian SX. Axial CT image of penile fracture.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Axial_CT_image_of_penile_fracture.jpg. CC BY 4.0. Accessed 3 August 2026.", type: "image" }
 },
-{
-    "id": 680,
-    "cz": {
-      "stem": "Při anatomickém vyšetření penisu lékař hodnotí jeho tepenné zásobení. Která tepna zásobuje především corpora cavernosa?",
-      "options": {
-        "a": "A. profunda penis",
-        "b": "A. dorsalis penis",
-        "c": "A. urethralis",
-        "d": "A. bulbi penis",
-        "e": "A. pudenda externa"
-      },
-      "correct": "a",
-      "explanation": "A. profunda penis vstupuje do crus penis a zásobuje především corpora cavernosa. Je důležitá také pro erekci, protože přivádí krev do erektilní tkáně."
-    },
-    "en": {
-      "stem": "During an anatomical examination of the penis, a physician evaluates its arterial blood supply. Which artery primarily supplies the corpora cavernosa?",
-      "options": {
-        "a": "Deep artery of the penis",
-        "b": "Dorsal artery of the penis",
-        "c": "Urethral artery",
-        "d": "Artery of the bulb of the penis",
-        "e": "External pudendal artery"
-      },
-      "correct": "a",
-      "explanation": "The deep artery of the penis enters the crus of the penis and primarily supplies the corpora cavernosa. It is also important for erection because it delivers blood to the erectile tissue."
-    }
-  },
   {
     "id": 681,
     "cz": {
@@ -16361,7 +16199,7 @@ id: 269,
       "explanation": "A. ovarica je hlavní tepna zásobující ovarium a odstupuje přímo z aorty abdominalis, obvykle pod odstupem aa. renales. K ovariu probíhá v lig. suspensorium ovarii. Na cévním zásobení ovaria se podílí také a. uterina, která odstupuje z a. iliaca interna a anastomozuje s a. ovarica."
     },
     "en": {
-      "stem": "A 29-year-old woman is diagnosed with ovarian torsion. During laparoscopy, the surgeon identifies a vascular pedicle traveling within the suspensory ligament of the ovary that contains an artery supplying the ovary. Which artery is involved, and where does it arise from?",
+      "stem": "A 29-year-old woman is diagnosed with ovarian torsion. During laparoscopy, the surgeon identifies a vascular pedicle running within the suspensory ligament of the ovary that contains an artery supplying the ovary. Which artery is involved, and where does it arise from?",
       "options": {
         "a": "Ovarian artery, which arises directly from the abdominal aorta",
         "b": "Uterine artery, which arises from the internal iliac artery",
@@ -16370,7 +16208,7 @@ id: 269,
         "e": "Vaginal artery, which arises from the internal iliac artery"
       },
       "correct": "a",
-      "explanation": "The ovarian artery is the main artery supplying the ovary and arises directly from the abdominal aorta, usually inferior to the renal arteries. It travels to the ovary within the suspensory ligament of the ovary. The uterine artery also contributes to the ovarian blood supply; it arises from the internal iliac artery and anastomoses with the ovarian artery."
+      "explanation": "The ovarian artery is the main artery supplying the ovary and arises directly from the abdominal aorta, usually inferior to the renal arteries. It runs to the ovary within the suspensory ligament of the ovary. The uterine artery also contributes to the ovarian blood supply; it arises from the internal iliac artery and anastomoses with the ovarian artery."
     }
   },
   {
@@ -16401,36 +16239,9 @@ id: 269,
     }
   },
   {
-    "id": 685,
-    "cz": {
-      "stem": "28letá žena podstupuje laparoskopickou operaci pro mimoděložní těhotenství. Při vyšetření pravého vejcovodu chirurg identifikuje jeho nejširší a nejdelší úsek, který se nachází mezi úsekem probíhajícím v mezosalpinxu a zúženým úsekem před vstupem do dělohy. V této části vejcovodu nejčastěji dochází k oplodnění. Která část vejcovodu byla identifikována?",
-      "options": {
-        "a": "Ampulla tubae uterinae",
-        "b": "Infundibulum tubae uterinae",
-        "c": "Isthmus tubae uterinae",
-        "d": "Pars uterina tubae uterinae",
-        "e": "Fimbria tubae uterinae"
-      },
-      "correct": "a",
-      "explanation": "Ampulla tubae uterinae je nejširší a nejdelší část vejcovodu. Nachází se mezi infundibulem a isthmem a je nejčastějším místem oplodnění. Infundibulum je nálevkovitě rozšířený laterální konec tuba uterina s fimbriemi, isthmus představuje užší mediální úsek a pars uterina prochází stěnou dělohy."
-    },
-    "en": {
-      "stem": "A 28-year-old woman undergoes laparoscopic surgery for an ectopic pregnancy. During examination of the right uterine tube, the surgeon identifies its widest and longest segment, located between the portion running within the mesosalpinx and the narrowed segment before entering the uterus. Fertilization most commonly occurs in this part of the uterine tube. Which part of the uterine tube has been identified?",
-      "options": {
-        "a": "Ampulla of the uterine tube",
-        "b": "Infundibulum of the uterine tube",
-        "c": "Isthmus of the uterine tube",
-        "d": "Uterine part of the uterine tube",
-        "e": "Fimbria of the uterine tube"
-      },
-      "correct": "a",
-      "explanation": "The ampulla of the uterine tube is the widest and longest part of the uterine tube. It lies between the infundibulum and isthmus and is the most common site of fertilization. The infundibulum is the funnel-shaped lateral end of the uterine tube with fimbriae, the isthmus is the narrower medial segment, and the uterine part passes through the wall of the uterus."
-    }
-  },
-  {
     "id": 686,
     "cz": {
-      "stem": "32letá žena podstupuje laparoskopickou sterilizaci. Chirurg identifikuje laterální konec tuba uterina jako nálevkovitě rozšířenou část s prstovitými výběžky přiléhajícími k ovarium. Která část tuba uterina byla identifikována?",
+      "stem": "32letá žena podstupuje laparoskopickou sterilizaci. Chirurg identifikuje laterální konec tuba uterina jako nálevkovitě rozšířenou část s prstovitými výběžky přiléhajícími k ovariu. Která část tuba uterina byla identifikována?",
       "options": {
         "a": "Infundibulum tubae uterinae",
         "b": "Ampulla tubae uterinae",
@@ -16484,7 +16295,7 @@ id: 269,
   {
     "id": 688,
     "cz": {
-      "stem": "Při laparoskopické operaci vejcovodu chirurg identifikuje cévy probíhající v mesosalpinx. Která kombinace tepen zajišťuje arteriální zásobení vejcovodu?",
+      "stem": "Která kombinace tepen zajišťuje arteriální zásobení vejcovodu?",
       "options": {
         "a": "A. uterina a a. ovarica",
         "b": "A. vaginalis a a. ovarica",
@@ -16496,7 +16307,7 @@ id: 269,
       "explanation": "Tuba uterina je zásobena větvemi a. uterina a a. ovarica, které anastomozují v mesosalpinx. A. uterina přispívá především k zásobení mediální části vejcovodu, zatímco a. ovarica zásobuje zejména její laterální část."
     },
     "en": {
-      "stem": "During laparoscopic surgery on the uterine tube, a surgeon identifies vessels running within the mesosalpinx. Which combination of arteries provides the arterial supply to the uterine tube?",
+      "stem": "Which combination of arteries provides the arterial supply to the uterine tube?",
       "options": {
         "a": "Uterine artery and ovarian artery",
         "b": "Vaginal artery and ovarian artery",
@@ -16586,7 +16397,7 @@ id: 269,
         "e": "Uterosacral ligament"
       },
       "correct": "a",
-      "explanation": "The broad ligament of the uterus is a double layer of peritoneum extending from the lateral aspect of the uterus to the lateral wall of the pelvis. It contains the uterine vessels, uterine tube, and connective tissue structures. The uterine artery travels within its inferior portion and crosses the ureter near the cervix."
+      "explanation": "The broad ligament of the uterus is a double layer of peritoneum extending from the lateral aspect of the uterus to the lateral wall of the pelvis. It contains the uterine vessels, uterine tube, and connective tissue structures. The uterine artery runs within its inferior portion and crosses the ureter near the cervix."
     }
   },
   {
@@ -16641,33 +16452,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The upper part of the vagina is supplied primarily by branches of the uterine artery, whereas the middle and lower parts also receive blood from the vaginal artery and internal pudendal artery. The arteries supplying the vagina form a rich vascular network along its walls with numerous anastomoses."
-    }
-  },
-  {
-    "id": 694,
-    "cz": {
-      "stem": "Při vaginálním vyšetření lékař hodnotí polohu vaginy a její vztah k okolním strukturám. Které tvrzení o vagině je anatomicky správné?",
-      "options": {
-        "a": "Vagina probíhá kaudálně a ventrálně od cervix uteri a prochází přes diaphragma pelvis",
-        "b": "Vagina je uložena před vesica urinaria a urethra po celé své délce",
-        "c": "Vagina je po celé své délce uložena intraperitoneálně",
-        "d": "Vagina je spojena s ovarium prostřednictvím lig. ovarii proprium",
-        "e": "Vagina prochází přes diaphragma urogenitale společně s ureterem"
-      },
-      "correct": "a",
-      "explanation": "Vagina se táhne od cervix uteri kaudálně a mírně ventrálně a prochází přes diaphragma pelvis. Její přední stěna sousedí s vesica urinaria a močovou trubicí, zatímco zadní stěna souvisí s rectem a v horní části s excavatio rectouterina. Vagina není intraperitoneální po celé své délce a s ovarium není spojena prostřednictvím lig. ovarii proprium."
-    },
-    "en": {
-      "stem": "During a vaginal examination, a physician evaluates the position of the vagina and its relationship to surrounding structures. Which of the following statements about the vagina is anatomically correct?",
-      "options": {
-        "a": "The vagina runs caudally and anteriorly from the uterine cervix and passes through the pelvic diaphragm",
-        "b": "The vagina lies anterior to the urinary bladder and urethra along its entire length",
-        "c": "The vagina is intraperitoneal along its entire length",
-        "d": "The vagina is connected to the ovary by the proper ovarian ligament",
-        "e": "The vagina passes through the urogenital diaphragm together with the ureter"
-      },
-      "correct": "a",
-      "explanation": "The vagina extends caudally and slightly anteriorly from the uterine cervix and passes through the pelvic diaphragm. Its anterior wall is related to the urinary bladder and urethra, whereas its posterior wall is related to the rectum and, superiorly, to the rectouterine pouch. The vagina is not intraperitoneal along its entire length and is not connected to the ovary by the proper ovarian ligament."
     }
   },
   {
@@ -16779,33 +16563,6 @@ id: 269,
     }
   },
   {
-    "id": 703,
-    "cz": {
-      "stem": "Při chirurgickém zákroku v oblasti clitoris je nutné zachovat nerv zodpovědný za hlavní somatickou senzitivní inervaci této struktury. Který nerv je třeba chránit?",
-      "options": {
-        "a": "N. dorsalis clitoridis",
-        "b": "N. ilioinguinalis",
-        "c": "N. genitofemoralis",
-        "d": "N. perinealis",
-        "e": "N. pudendus"
-      },
-      "correct": "a",
-      "explanation": "N. dorsalis clitoridis je senzitivní větev n. pudendus a představuje hlavní somatický senzitivní nerv pro clitoris. Probíhá podél dorzální strany clitoris a zajišťuje významnou část jeho senzitivní inervace. N. ilioinguinalis a n. genitofemoralis přispívají k senzitivní inervaci přední části zevního genitálu, zatímco n. perinealis zásobuje především kůži a svaly perinea."
-    },
-    "en": {
-      "stem": "During a surgical procedure involving the clitoris, a nerve responsible for the major somatic sensory innervation of this structure must be preserved. Which nerve should be protected?",
-      "options": {
-        "a": "Dorsal nerve of the clitoris",
-        "b": "Ilioinguinal nerve",
-        "c": "Genitofemoral nerve",
-        "d": "Perineal nerve",
-        "e": "Pudendal nerve"
-      },
-      "correct": "a",
-      "explanation": "The dorsal nerve of the clitoris is a sensory branch of the pudendal nerve and provides the major somatic sensory innervation of the clitoris. It runs along the dorsal aspect of the clitoris and provides a major component of its sensory innervation. The ilioinguinal and genitofemoral nerves contribute to sensory innervation of the anterior external genitalia, whereas the perineal nerve primarily supplies the skin and muscles of the perineum."
-    }
-  },
-  {
     "id": 704,
     "cz": {
       "stem": "U ženy během druhé doby porodní je za účelem regionální analgezie aplikováno lokální anestetikum v blízkosti spina ischiadica. Který nerv procházející touto oblastí zajišťuje senzitivní inervaci většiny perinea?",
@@ -16857,33 +16614,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The bulbospongiosus muscle is a paired muscle of the superficial perineal space. In females, it surrounds the vestibular bulb and contributes to its compression. The ischiocavernosus muscle surrounds the crus of the clitoris, whereas the superficial transverse perineal muscle extends between the ischial tuberosity and the perineal body."
-    }
-  },
-  {
-    "id": 706,
-    "cz": {
-      "stem": "Při porodu může dojít k poranění vazivové struktury v centrální části ženského perinea, do které se upíná několik svalů perinea. Která struktura byla poraněna?",
-      "options": {
-        "a": "Centrum tendineum perinei",
-        "b": "Ligamentum sacrospinale",
-        "c": "Ligamentum sacrotuberale",
-        "d": "Fascia obturatoria",
-        "e": "Membrana perinei"
-      },
-      "correct": "a",
-      "explanation": "Centrum tendineum perinei je vazivové centrum ženského perinea, do kterého se upínají například m. bulbospongiosus, m. transversus perinei superficialis, m. sphincter ani externus a část m. levator ani. Je důležitou strukturou pro mechanickou podporu perinea a pánevního dna."
-    },
-    "en": {
-      "stem": "During childbirth, a fibrous structure in the central part of the female perineum may be injured. Several perineal muscles attach to this structure. Which structure has been injured?",
-      "options": {
-        "a": "Perineal body",
-        "b": "Sacrospinous ligament",
-        "c": "Sacrotuberous ligament",
-        "d": "Obturator fascia",
-        "e": "Perineal membrane"
-      },
-      "correct": "a",
-      "explanation": "The perineal body is a fibrous central structure of the female perineum to which several muscles attach, including the bulbospongiosus muscle, superficial transverse perineal muscle, external anal sphincter muscle, and part of the levator ani muscle. It is an important structure for mechanical support of the perineum and pelvic floor."
     }
   },
   {
@@ -16968,60 +16698,6 @@ id: 269,
     }
   },
   {
-    "id": 710,
-    "cz": {
-      "stem": "23letý muž utrpí tupé trauma perinea při pádu na rám jízdního kola. Následně má bolestivé močení a krev na ústí urethry. Při vyšetření je podezření na poranění části urethry, která prochází diaphragma urogenitale. Která část urethry je nejpravděpodobněji poraněna?",
-      "options": {
-        "a": "Pars membranacea urethrae",
-        "b": "Pars prostatica urethrae",
-        "c": "Pars spongiosa urethrae",
-        "d": "Ostium urethrae internum",
-        "e": "Fossa navicularis urethrae"
-      },
-      "correct": "a",
-      "explanation": "Pars membranacea urethrae je krátký úsek urethry, který prochází hlubokou oblastí perinea a je obklopen m. sphincter urethrae. Je proto anatomicky spojen s oblastí tradičně označovanou jako diaphragma urogenitale. Trauma perinea může vést k jejímu poranění. Pars prostatica urethrae prochází prostatou, zatímco pars spongiosa urethrae probíhá corpus spongiosum penis."
-    },
-    "en": {
-      "stem": "A 23-year-old man sustains blunt perineal trauma after falling onto a bicycle frame. He subsequently develops painful urination and blood at the urethral meatus. Injury to a part of the urethra that passes through the urogenital diaphragm is suspected. Which part of the urethra is most likely injured?",
-      "options": {
-        "a": "Membranous part of the urethra",
-        "b": "Prostatic part of the urethra",
-        "c": "Spongy part of the urethra",
-        "d": "Internal urethral orifice",
-        "e": "Navicular fossa of the urethra"
-      },
-      "correct": "a",
-      "explanation": "The membranous part of the urethra is a short segment that passes through the deep perineal region and is surrounded by the external urethral sphincter muscle. It is therefore anatomically associated with the region traditionally referred to as the urogenital diaphragm. Perineal trauma can result in injury to this segment. The prostatic part of the urethra passes through the prostate, whereas the spongy part of the urethra runs within the corpus spongiosum of the penis."
-    }
-  },
-  {
-    "id": 711,
-    "cz": {
-      "stem": "45letý muž má infekci v oblasti hlubokého perinea. Při chirurgické drenáži abscesu lékař identifikuje strukturu tvořenou především m. transversus perinei profundus a m. sphincter urethrae. Která anatomická struktura je tímto nálezem nejlépe reprezentována?",
-      "options": {
-        "a": "Diaphragma urogenitale",
-        "b": "Diaphragma pelvis",
-        "c": "Fascia superficialis perinei",
-        "d": "Corpus perineale",
-        "e": "Fascia spermatica interna"
-      },
-      "correct": "a",
-      "explanation": "Diaphragma urogenitale je historický anatomický termín pro strukturu v hluboké oblasti perinea. Tradičně se popisuje jako tvořená hlubokým příčným svalem hráze, m. sphincter urethrae a souvisejícími fasciemi. Nachází se v oblasti mezi ramus inferior ossis pubis a ramus ossis ischii a souvisí s přední částí pánevního dna. Diaphragma pelvis je tvořena především svaly pánevního dna, zejména m. levator ani a m. coccygeus."
-    },
-    "en": {
-      "stem": "A 45-year-old man has an infection in the deep perineal region. During surgical drainage of an abscess, the surgeon identifies a structure composed primarily of the deep transverse perineal muscle and external urethral sphincter muscle. Which anatomical structure is best represented by this finding?",
-      "options": {
-        "a": "Urogenital diaphragm",
-        "b": "Pelvic diaphragm",
-        "c": "Superficial perineal fascia",
-        "d": "Perineal body",
-        "e": "Internal spermatic fascia"
-      },
-      "correct": "a",
-      "explanation": "The urogenital diaphragm is a historical anatomical term for a structure in the deep perineal region. Traditionally, it is described as consisting of the deep transverse perineal muscle, external urethral sphincter muscle, and associated fasciae. It is located between the inferior pubic ramus and ischial ramus and is associated with the anterior part of the pelvic floor. The pelvic diaphragm is formed primarily by the pelvic floor muscles, particularly the levator ani muscle and coccygeus muscle."
-    }
-  },
-  {
     "id": 712,
     "cz": {
       "stem": "28letý muž utrpí zlomeninu pánve při dopravní nehodě. Má krev na ústí urethry a při pokusu o zavedení močového katétru se objeví výrazný odpor. Vyšetření potvrdí rupturu urethry v oblasti jejího průchodu diaphragma urogenitale. Která další struktura je v této oblasti bezprostředně spojena s poraněným úsekem urethry?",
@@ -17084,10 +16760,10 @@ id: 269,
         "b": "M. ischiocavernosus",
         "c": "M. bulbospongiosus",
         "d": "M. transversus perinei superficialis",
-        "e": "Corpus cavernosum penis"
+        "e": "Glandula vestibularis major"
       },
       "correct": "a",
-      "explanation": "Glandula bulbourethralis je párová žláza mužského reprodukčního systému uložená v hlubokém perineálním prostoru a její vývod ústí do urethra. M. ischiocavernosus, m. bulbospongiosus a m. transversus perinei superficialis se nacházejí v trigonum urogenitale u obou pohlaví. Corpus cavernosum penis je rovněž mužská struktura, ale jeho umístění není omezeno na trigonum urogenitale."
+      "explanation": "Glandula bulbourethralis je párová žláza mužského reprodukčního systému uložená v hlubokém perineálním prostoru a její vývod ústí do urethra. M. ischiocavernosus, m. bulbospongiosus a m. transversus perinei superficialis se nacházejí v trigonum urogenitale u obou pohlaví. Glandula vestibularis major je párová žláza ženského reprodukčního systému uložená v povrchovém perineálním prostoru."
     },
     "en": {
       "stem": "During anatomical examination of the perineum, the contents of the urogenital triangle are compared between a male and a female. Which of the following structures is characteristic of the male urogenital triangle but is not present in this region in females?",
@@ -17096,10 +16772,10 @@ id: 269,
         "b": "Ischiocavernosus muscle",
         "c": "Bulbospongiosus muscle",
         "d": "Superficial transverse perineal muscle",
-        "e": "Corpus cavernosum of the penis"
+        "e": "Greater vestibular gland (Bartholin's gland)."
       },
       "correct": "a",
-      "explanation": "The bulbourethral gland is a paired gland of the male reproductive system located in the deep perineal space, with its duct opening into the urethra. The ischiocavernosus muscle, bulbospongiosus muscle, and superficial transverse perineal muscle are present in the urogenital triangle in both sexes. The corpus cavernosum of the penis is also a male structure, but its location is not restricted to the urogenital triangle."
+      "explanation": "The bulbourethral gland is a paired gland of the male reproductive system located in the deep perineal space, with its duct opening into the urethra. The ischiocavernosus muscle, bulbospongiosus muscle, and superficial transverse perineal muscle are present in the urogenital triangle in both sexes. The greater vestibular gland is a paired gland of the female reproductive system located in the superficial perineal space."
     }
   },
   {
@@ -17126,7 +16802,7 @@ id: 269,
         "e": "Superior rectal artery"
       },
       "correct": "a",
-      "explanation": "The internal pudendal artery is the main artery supplying the perineum. It enters the perineal region near the ischial spine and then travels within the pudendal canal along the lateral wall of the ischioanal fossa. It gives branches supplying the perineum, external genitalia, and anal canal. The other arteries do not follow this characteristic course: the external pudendal artery primarily supplies superficial structures of the external genitalia, the inferior gluteal artery supplies the gluteal region and posterior thigh, the obturator artery supplies structures of the pelvic wall and thigh, and the superior rectal artery supplies the upper part of the rectum."
+      "explanation": "The internal pudendal artery is the main artery supplying the perineum. It enters the perineal region near the ischial spine and then runs within the pudendal canal along the lateral wall of the ischioanal fossa. It gives branches supplying the perineum, external genitalia, and anal canal. The other arteries do not follow this characteristic course: the external pudendal artery primarily supplies superficial structures of the external genitalia, the inferior gluteal artery supplies the gluteal region and posterior thigh, the obturator artery supplies structures of the pelvic wall and thigh, and the superior rectal artery supplies the upper part of the rectum."
     }
   },
   {
@@ -17296,7 +16972,7 @@ id: 269,
         b: "Splenic rupture with free blood in the peritoneal cavity",
         c: "Liver laceration with hemoperitoneum",
         d: "Bleeding into the pericardial cavity",
-        e: "Bleeding into the Douglas pouch"
+        e: "Bleeding into the pouch of Douglas"
     },
     correct: "a",
     explanation: "FAST is primarily designed to detect free fluid in the peritoneal cavity and the pericardial sac. Therefore, a positive finding typically occurs in cases of hemoperitoneum or hemopericardium. In contrast, retroperitoneal hemorrhage may not be detected during a standard FAST examination because the blood accumulates outside the evaluated spaces. Typical causes include injuries to the kidney, major vessels, or pancreas. Therefore, a patient with significant retroperitoneal bleeding may have a negative FAST examination despite ongoing hemorrhagic shock."
