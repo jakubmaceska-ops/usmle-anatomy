@@ -7413,6 +7413,34 @@ id: 269,
     explanation: "The ilioinguinal nerve enters the inguinal canal and exits through the superficial inguinal ring. It provides sensory innervation to the skin of the mons pubis and anterior labia majora in females."
   }
 },
+{
+  id: 1124,
+  cz: {
+    stem: "Která z následujících charakteristik není typická pro ženskou pánev?",
+    options: {
+        a: "Promontorium méně vyčnívá – aditus pelvis je příčně oválný",
+        b: "Symphysis pubica je nižší oproti mužské pánvi",
+        c: "Dolní ramena kostí stydkých svírají tupý úhel",
+        d: "Incisura ischiadica major je široká a mělká",
+        e: "Kostrč je delší a méně pohyblivá než u mužské pánve."
+    },
+    correct: "e",
+    explanation: "Ženská pánev má méně vyčnívající promontorium, symphysis pubica vysokou 4,5 cm (mužská je vyšší, cca 5 cm), tupý arcus pubicus, širokou a mělkou incisura ischiadica major a kratší, pohyblivější kostrč. Naopak delší a méně pohyblivá kostrč je typická pro mužskou pánev.    *https://www.wikiskripta.eu/w/Rozd%C3%ADly_mezi_mu%C5%BEskou_a_%C5%BEenskou_p%C3%A1nv%C3%AD"
+  },
+  en: {
+    stem: "Which of the following characteristics is not typical of the female pelvis?",
+    options: {
+        a: "The promontory is less prominent, and the pelvic inlet is transversely oval.",
+        b: "The pubic symphysis is lower than in the male pelvis.",
+        c: "The inferior pubic rami form an obtuse angle.",
+        d: "The greater sciatic notch is wide and shallow.",
+        e: "The coccyx is longer and less mobile than in the male pelvis."
+    },
+    correct: "e",
+    explanation: "The female pelvis has a less prominent promontory, a pubic symphysis approximately 4.5 cm high (the male symphysis is higher, approximately 5 cm), an obtuse pubic arch, a wide and shallow greater sciatic notch, and a shorter, more mobile coccyx. In contrast, a longer and less mobile coccyx is characteristic of the male pelvis."
+  },
+  explanationImage: { key: "e1124_custom", source: "OpenStax College. 809 Male Female Pelvic Girdle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg. CC BY 3.0. Accessed 28 September 2026.", type: "image" }
+},
 ]
       }
 
@@ -26443,6 +26471,34 @@ const LIVE_QUESTION_BANKS = {
     correct: "b",
     explanation: "The transverse ligament of the atlas runs between the medial surfaces of the lateral masses of the atlas and secures the dens of the axis posteriorly to the anterior arch of the atlas. Its rupture (e.g., in trauma or rheumatoid arthritis) allows posterior displacement of the dens into the vertebral canal with a risk of spinal cord compression."
   }
+},
+{
+  id: 10288,
+  cz: {
+    stem: "Která z následujících charakteristik NENÍ typická pro mužskou pánev?",
+    options: {
+        a: "Promontorium více vyčnívá – exitus pelvis má tvar srdce",
+        b: "Symphysis pubica je vyšší oproti ženské pánvi",
+        c: "Dolní ramena kostí stydkých svírají ostřejší úhel oproti ženské pánvi",
+        d: "Incisura ischiadica major je široká a mělká",
+        e: "Kostrč je delší a méně pohyblivá oproti ženské pánvi"
+    },
+    correct: "d",
+    explanation: "Mužská pánev má více vyčnívající promontorium, vyšší symphysis pubica (přibližně 5 cm oproti 4,5 cm u ženy), ostřejší angulus pubicus, hlubší incisura ischiadica major v horní části a delší, méně pohyblivou kostrč. Naopak široká a mělká incisura ischiadica major je typická pro ženskou pánev."
+  },
+  en: {
+    stem: "Which of the following characteristics is NOT typical of the male pelvis?",
+    options: {
+        a: "The promontory is more prominent – the pelvic outlet has a heart-shaped appearance.",
+        b: "The pubic symphysis is higher than in the female pelvis.",
+        c: "The inferior pubic rami form a sharper angle than in the female pelvis.",
+        d: "The greater sciatic notch is wide and shallow.",
+        e: "The coccyx is longer and less mobile than in the female pelvis."
+    },
+    correct: "d",
+    explanation: "The male pelvis has a more prominent promontory, a higher pubic symphysis (approximately 5 cm compared with 4.5 cm in females), a sharper pubic angle, a deeper greater sciatic notch in its upper part, and a longer, less mobile coccyx. In contrast, a wide and shallow greater sciatic notch is characteristic of the female pelvis."
+  },
+  explanationImage: { key: "e1124_custom", source: "OpenStax College. 809 Male Female Pelvic Girdle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg. CC BY 3.0. Accessed 28 September 2026.", type: "image" }
 },
     ]
     // =ANATOMIE_1_VERZE_3_END=
