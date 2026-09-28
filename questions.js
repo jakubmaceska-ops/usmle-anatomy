@@ -4982,7 +4982,7 @@ const QUESTION_DATA = {
   {
     "id": 398,
     "cz": {
-      "stem": "Která z následujících možností správně popisuje struktury procházející před mediálním kotníkem?",
+      "stem": "Která z následujících možností správně popisuje struktury procházející PŘED mediálním kotníkem?",
       "options": {
         "a": "Vena saphena magna, nervus saphenus",
         "b": "M. tibialis anterior, arteria tibialis anterior, nervus fibularis profundus",
@@ -4991,7 +4991,7 @@ const QUESTION_DATA = {
         "e": "Vena saphena magna, nervus suralis"
       },
       "correct": "a",
-      "explanation": "Před mediálním kotníkem probíhá především vena saphena magna a nervus saphenus, který zajišťuje senzitivní inervaci mediální strany bérce. Za mediálním kotníkem naopak probíhají šlachy hluboké zadní skupiny svalů bérce spolu s arteria tibialis posterior a nervus tibialis."
+      "explanation": "PŘED mediálním kotníkem probíhá vena saphena magna a nervus saphenus, který zajišťuje senzitivní inervaci mediální strany bérce. ZA mediálním kotníkem naopak probíhají šlachy hluboké zadní skupiny svalů bérce spolu s arteria tibialis posterior a nervus tibialis."
     },
     "en": {
       "stem": "Which of the following options correctly describes the structures passing in front of the medial malleolus?",
@@ -6395,7 +6395,7 @@ id: 269,
         "e": "Costa I"
       },
       "correct": "a",
-      "explanation": "11. žebro je atypické žebro, které má caput costae, collum costae a corpus costae, ale chybí mu tuberculum costae a sulcus costae. Jeho hlavice se spojuje pouze s tělem obratle Th11 a nemá spojení s processus transversus. 12. žebro je vyloučeno, protože na rozdíl od 11. žebra postrádá také collum costae."
+      "explanation": "11. žebro je volné žebro (costa fluctuans), které má caput costae, collum costae a corpus costae, ale chybí mu tuberculum costae a sulcus costae. Jeho hlavice se spojuje pouze s tělem obratle Th11 a nemá spojení s processus transversus. 12. žebro je vyloučeno, protože na rozdíl od 11. žebra postrádá také collum costae."
     },
     "en": {
       "stem": "During an anatomical examination of a rib, a bone is identified consisting of the head of the rib, neck of the rib, and shaft of the rib. Its head articulates with the body of only one vertebra, and the rib also lacks a tubercle and costal groove. Which structure is being described?",
@@ -16968,21 +16968,21 @@ id: 269,
   en: {
     stem: "Select the correct arterial blood supply of the indicated organ and its anatomical origin:",
     options: {
-        a: "a. renalis sinistra – a. mesenterica superior",
-        b: "a. renalis sinistra – aorta abdominalis",
-        c: "a. renalis dextra – aorta abdominalis",
-        d: "a. renalis sinistra – a. iliaca communis",
-        e: "a. renalis dextra– a. iliaca communis"
+        a: "left renal artery – superior mesenteric artery",
+        b: "left renal artery – abdominal aorta",
+        c: "right renal artery – abdominal aorta",
+        d: "left renal artery – common iliac artery",
+        e: "right renal artery – common iliac artery"
     },
     correct: "b",
-    explanation: "The left renal artery (a. renalis sinistra) arises directly from the abdominal aorta, typically at the level of L1–L2, slightly inferior to the origin of the superior mesenteric artery."
+    explanation: "The left renal artery arises directly from the abdominal aorta, typically at the level of L1–L2, slightly inferior to the origin of the superior mesenteric artery."
   },
   image: { key: "q14_custom", source: "Imaging Data Commons (IDC). DICOM study (modified) visualized in Saga DICOM Viewer. Available from: https://saga-it.com/dicom/viewer/app/viewer/idc?StudyInstanceUIDs=1.2.840.113654.2.55.33575893932308185246496913106863435791. CC BY 4.0. Accessed 28 June 2026." }
 },
 {
   id: 544,
   cz: {
-    stem: "FAST (Focused Assessment with Sonography in Trauma) je rychlé ultrazvukové vyšetření používané u pacientů s podezřením na vnitřní krvácení po traumatu. Vyšetření se zaměřuje především na detekci volné tekutiny v peritoneální dutině! a v perikardu! pomocí čtyř standardizovaných projekcí. Na obrázku FAST protokolu jsou znázorněny všechny čtyři vyšetřované oblasti. U pacienta po tupém traumatu jsou všechny FAST projekce negativní, přestože pacient zůstává hypotenzní a vykazuje známky pokračujícího krvácení. Při hodnocení výsledku je nutné zamyslet se nad anatomickým uspořádáním dutin a uložením orgánů vzhledem k peritoneu. CT vyšetření později prokáže rozsáhlé krvácení v oblasti, kterou standardní FAST protokol nemusí spolehlivě zobrazit. Které poranění bylo nejpravděpodobněji přehlédnuto?",
+    stem: "FAST (Focused Assessment with Sonography in Trauma) je rychlé ultrazvukové vyšetření používané u pacientů s podezřením na vnitřní krvácení po traumatu. Vyšetření se zaměřuje především na detekci volné tekutiny v peritoneální dutině a v perikardu pomocí čtyř standardizovaných projekcí. Na obrázku FAST protokolu jsou znázorněny všechny čtyři vyšetřované oblasti. U pacienta po tupém traumatu jsou všechny FAST projekce negativní, přestože pacient zůstává hypotenzní a vykazuje známky pokračujícího krvácení. Při hodnocení výsledku je nutné zamyslet se nad anatomickým uspořádáním dutin a uložením orgánů vzhledem k peritoneu. CT vyšetření později prokáže rozsáhlé krvácení v oblasti, kterou standardní FAST protokol nemusí spolehlivě zobrazit. Které poranění bylo nejpravděpodobněji přehlédnuto?",
     options: {
         a: "Poranění ledviny s retroperitoneálním hematomem",
         b: "Ruptura sleziny s volnou krví v peritoneální dutině",
@@ -17019,7 +17019,7 @@ id: 269,
         e: "Pravá ledvina je zavěšena na mezenteriu tenkého střeva"
     },
     correct: "a",
-    explanation: "Ledviny jsou retroperitoneálně uložené orgány. Přestože nejsou intraperitoneální, jejich přední povrch vztahující se k peritoneu umožňuje vznik potenciálních prostorů, které FAST využívá k detekci volné tekutiny."
+    explanation: "Pravá ledvina je uložena retroperitoneálně. Její přední plocha je v kontaktu s peritoneálními strukturami, zatímco zadní plocha přiléhá ke svalům zadní břišní stěny. Prostor mezi játry a pravou ledvinou se nazývá recessus hepatorenalis (Morisonův prostor) a je jedním z míst, kde se při FAST vyšetření může hromadit volná tekutina."
   },
   en: {
     stem: "FAST (Focused Assessment with Sonography in Trauma) utilizes anatomical relationships between organs and peritoneal spaces to detect free fluid. In the FAST protocol image, a view of the right upper quadrant is shown (number 1). The examiner evaluates the space between the liver and the kidney. Which statement about the anatomical location of the right kidney is correct?",
@@ -17031,37 +17031,10 @@ id: 269,
         e: "The right kidney is suspended by the mesentery of the small intestine"
     },
     correct: "a",
-    explanation: "The kidneys are retroperitoneal organs. Although they are not intraperitoneal, their anterior surfaces are related to the peritoneum, allowing the formation of potential spaces that are evaluated during FAST to detect free fluid."
+    explanation: "The right kidney is located retroperitoneally. Its anterior surface is in contact with peritoneal structures, while its posterior surface lies against the muscles of the posterior abdominal wall. The space between the liver and the right kidney is called the hepatorenal recess (Morison's pouch) and is one of the sites where free fluid may accumulate during a FAST examination."
   },
   image: { key: "q542_custom", source: "Own work. Generated with Google Gemini AI." }
 },
- {
-    "id": 716,
-    "cz": {
-      "stem": "Při hodnocení CT břicha lékař porovnává polohu obou ledvin. Zjistí, že pravá ledvina leží o něco níže než levá. Která anatomická struktura je hlavním důvodem tohoto rozdílu v jejich kraniokaudální poloze?",
-      "options": {
-        "a": "Játra",
-        "b": "Slezina",
-        "c": "Pancreas",
-        "d": "Colon descendens",
-        "e": "Glandula suprarenalis"
-      },
-      "correct": "a",
-      "explanation": "Pravá ledvina leží níže než levá především kvůli rozsáhlým játrům, který se nachází nad pravou ledvinou a omezuje její kraniální postavení. Slezina je uložena v levém horním kvadrantu břicha, ale jeho vliv na polohu levé ledviny není srovnatelný s vlivem heparu na pravou ledvinu. Pancreas a colon descendens nejsou hlavní příčinou rozdílu v kraniokaudální poloze ledvin. Glandula suprarenalis leží na horním pólu obou ledvin, ale sama nevysvětluje jejich rozdílnou výšku."
-    },
-    "en": {
-      "stem": "During abdominal CT evaluation, a physician compares the position of both kidneys. The right kidney is found to lie slightly lower than the left kidney. Which anatomical structure is primarily responsible for this difference in their craniocaudal position?",
-      "options": {
-        "a": "Liver",
-        "b": "Spleen",
-        "c": "Pancreas",
-        "d": "Descending colon",
-        "e": "Suprarenal gland"
-      },
-      "correct": "a",
-      "explanation": "The right kidney lies lower than the left primarily because of the large liver, which is located superior to the right kidney and limits its superior displacement. The spleen is located in the left upper quadrant of the abdomen, but its influence on the position of the left kidney is not comparable to the effect of the liver on the right kidney. The pancreas and descending colon are not the main causes of the difference in the craniocaudal position of the kidneys. The suprarenal gland lies at the superior pole of each kidney but does not explain their difference in height."
-    }
-  },
   {
     "id": 717,
     "cz": {
@@ -17074,7 +17047,7 @@ id: 269,
         "e": "M. obliquus internus abdominis"
       },
       "correct": "a",
-      "explanation": "Zadní plocha ledviny naléhá na m. psoas major mediálně, m. quadratus lumborum více laterálně a na horní části také na m. transversus abdominis. M. iliacus a m. obliquus internus abdominis nejsou standardními přímými svalovými vztahy zadní plochy ledviny."
+      "explanation": "Zadní plocha ledviny naléhá na m. psoas major mediálně, m. quadratus lumborum více laterálně a na horní části také na m. transversus abdominis. M. iliacus a m. obliquus internus abdominis nejsou v přímém kontaktu se zadní plochou ledviny."
     },
     "en": {
       "stem": "A man undergoes CT imaging of the retroperitoneum. The radiologist evaluates the relationship of the kidneys to the posterior abdominal wall and notes that the kidneys contact several muscles in this region. Which muscle forms the most medial muscular relation of the posterior surface of the kidney?",
@@ -17086,7 +17059,7 @@ id: 269,
         "e": "Internal abdominal oblique muscle"
       },
       "correct": "a",
-      "explanation": "The posterior surface of the kidney is related medially to the psoas major muscle, more laterally to the quadratus lumborum muscle, and in its superior portion also to the transversus abdominis muscle. The iliacus muscle and internal abdominal oblique muscle are not standard direct muscular relations of the posterior surface of the kidney."
+      "explanation": "The posterior surface of the kidney is related medially to the psoas major muscle, more laterally to the quadratus lumborum muscle, and in its superior portion also to the transversus abdominis muscle. The iliacus muscle and internal oblique muscle are not in direct contact with the posterior surface of the kidney."
     }
   },
   {
@@ -17101,7 +17074,7 @@ id: 269,
         "e": "Obě ledviny jsou v kontaktu s 10., 11. a 12. žebrem."
       },
       "correct": "a",
-      "explanation": "Levá ledvina je uložena výše než pravá a její zadní plocha souvisí s 11. a 12. žebrem. Pravá ledvina je níže a její zadní plocha souvisí pouze s 12. žebrem. Tento rozdíl souvisí především s polohou heparu, který omezuje kraniální postavení pravé ledviny."
+      "explanation": "Levá ledvina je uložena výše než pravá a její zadní plocha souvisí s 11. a 12. žebrem. Pravá ledvina je níže a její zadní plocha souvisí pouze s 12. žebrem. Tento rozdíl souvisí především s polohou jater, který omezuje kraniální postavení pravé ledviny."
     },
     "en": {
       "stem": "During CT imaging of the retroperitoneum, a radiologist evaluates the relationship of the kidneys to the lower ribs. Which statement regarding the skeletal relationships of the kidneys is correct?",
@@ -17128,7 +17101,7 @@ id: 269,
         "e": "Ageneze ledvin"
       },
       "correct": "a",
-      "explanation": "Ren migrans (nephroptosis) označuje abnormální pohyblivost a sestup ledviny, který je závislý na poloze těla. Ledvina může být při vyšetření vleže v relativně normální poloze, ale ve stoje výrazně sestupuje kaudálně v důsledku nedostatečné fixace. Ektopická ledvina je naopak vrozeně abnormálně uložená ledvina, která zůstává v abnormální poloze bez typického výrazného sestupu při změně polohy. Ren arcuatus je vrozená srůstem spojená ledvina, ren duplex představuje zdvojení ledviny a ageneze ledvin znamená vrozené chybění ledviny."
+      "explanation": "Ren migrans označuje abnormální pohyblivost a sestup ledviny, který je závislý na poloze těla. Ledvina může být při vyšetření vleže v relativně normální poloze, ale ve stoje výrazně sestupuje kaudálně v důsledku nedostatečné fixace. Ektopická ledvina je naopak vrozeně abnormálně uložená ledvina, která zůstává v abnormální poloze bez typického výrazného sestupu při změně polohy. Ren arcuatus je vrozená srůstem spojená ledvina, ren duplex představuje zdvojení ledviny a ageneze ledvin znamená vrozené chybění ledviny."
     },
     "en": {
       "stem": "A man undergoes CT imaging for recurrent flank pain. When examined in the supine position, the right kidney is located at its usual level, whereas when examined in the standing position, it descends markedly in a caudal direction. Which condition best explains this finding?",
@@ -17200,7 +17173,7 @@ id: 269,
   {
     "id": 722,
     "cz": {
-      "stem": "Při histologickém vyšetření ledviny je identifikováno corpusculum renale (Malpighiho tělísko), které se skládá z glomerulu a dvouvrstevného Bowmanova pouzdra. Která část nefronu přímo navazuje na močový pól tohoto tělíska?",
+      "stem": "Při histologickém vyšetření ledviny je identifikováno corpusculum renale (Malpighiho tělísko), které se skládá z glomerulu a Bowmanova pouzdra. Která část nefronu přímo navazuje na močový pól tohoto tělíska?",
       "options": {
         "a": "Proximální stočený kanálek",
         "b": "Tenké sestupné raménko Henleovy kličky",
@@ -17209,10 +17182,10 @@ id: 269,
         "e": "Sběrací kanálek"
       },
       "correct": "a",
-      "explanation": "Corpusculum renale (Malpighiho tělísko) se skládá z glomerulu a Bowmanova pouzdra. Na jeho močovém pólu přímo navazuje proximální stočený kanálek, který odvádí glomerulární filtrát dále do tubulárního systému nefronu. Tenké sestupné raménko Henleovy kličky navazuje až za proximálním stočeným kanálkem. Tlusté vzestupné raménko a distální stočený kanálek jsou dalšími úseky tubulárního systému. Sběrací kanálek není součástí nefronu."
+      "explanation": "Corpusculum renale (Malpighiho tělísko) se skládá z glomerulu a Bowmanova pouzdra. Na jeho močovém pólu přímo navazuje proximální stočený kanálek, který odvádí glomerulární filtrát dále do tubulárního systému nefronu. Tenké sestupné raménko Henleovy kličky navazuje až za proximálním stočeným kanálkem. Tlusté vzestupné raménko a distální stočený kanálek jsou dalšími úseky tubulárního systému."
     },
     "en": {
-      "stem": "During histological examination of the kidney, a renal corpuscle (Malpighian corpuscle) is identified, consisting of a glomerulus and a double-layered Bowman’s capsule. Which part of the nephron directly continues from the urinary pole of this corpuscle?",
+      "stem": "During histological examination of the kidney, a renal corpuscle (Malpighian corpuscle) is identified, consisting of a glomerulus and a Bowman’s capsule. Which part of the nephron directly continues from the urinary pole of this corpuscle?",
       "options": {
         "a": "Proximal convoluted tubule",
         "b": "Thin descending limb of the loop of Henle",
@@ -17221,7 +17194,7 @@ id: 269,
         "e": "Collecting duct"
       },
       "correct": "a",
-      "explanation": "The renal corpuscle (Malpighian corpuscle) consists of the glomerulus and Bowman’s capsule. The proximal convoluted tubule directly continues from its urinary pole and carries the glomerular filtrate into the tubular system of the nephron. The thin descending limb of the loop of Henle follows the proximal convoluted tubule. The thick ascending limb and distal convoluted tubule are subsequent segments of the tubular system. The collecting duct is not part of the nephron."
+      "explanation": "The renal corpuscle (Malpighian corpuscle) consists of the glomerulus and Bowman’s capsule. The proximal convoluted tubule directly continues from its urinary pole and carries the glomerular filtrate into the tubular system of the nephron. The thin descending limb of the loop of Henle follows the proximal convoluted tubule. The thick ascending limb and distal convoluted tubule are subsequent segments of the tubular system."
     }
   },
   {
@@ -17263,7 +17236,7 @@ id: 269,
         "e": "A. pudenda interna"
       },
       "correct": "a",
-      "explanation": "Ureter sestupuje retroperitoneálně po m. psoas major a při přechodu z břišní do pánevní části překračuje pánevní okraj v oblasti bifurkace a. iliaca communis. Toto místo zároveň představuje jedno z typických fyziologických zúžení ureteru a může zde dojít k uvíznutí ureterálního konkrementu. Ostatní uvedené tepny nejsou typickou strukturou, přes kterou ureter při vstupu do malé pánve přechází."
+      "explanation": "Ureter sestupuje retroperitoneálně po m. psoas major a při přechodu z břišní do pánevní části překračuje pánevní okraj v oblasti bifurkace a. iliaca communis. Toto místo zároveň představuje jedno z typických fyziologických zúžení ureteru a může zde dojít k uvíznutí ureterálního konkrementu."
     },
     "en": {
       "stem": "A CT scan is used to trace the course of the ureter from the kidney to the urinary bladder. Which of the following structures does the ureter typically cross as it enters the pelvis?",
@@ -17275,61 +17248,7 @@ id: 269,
         "e": "Internal pudendal artery"
       },
       "correct": "a",
-      "explanation": "The ureter descends retroperitoneally along the psoas major muscle and, as it passes from the abdominal into the pelvic part, crosses the pelvic brim near the bifurcation of the common iliac artery. This site also represents one of the typical physiological narrowings of the ureter and may be a site of ureteral stone impaction. The other vessels listed are not typically crossed by the ureter as it enters the pelvis."
-    }
-  },
-  {
-    "id": 725,
-    "cz": {
-      "stem": "Ureterální konkrement se při svém sestupu z ledviny do močového měchýře může zachytit v jednom ze tří fyziologických zúžení ureteru. Které z následujících míst představuje nejdistálnější z těchto zúžení?",
-      "options": {
-        "a": "Ureterovezikální přechod",
-        "b": "Ureteropelvický přechod",
-        "c": "Místo překřížení pánevního okraje v oblasti bifurkace a. iliaca communis",
-        "d": "Místo, kde ureter překračuje m. psoas major",
-        "e": "Místo, kde ureter překračuje a. mesenterica inferior"
-      },
-      "correct": "a",
-      "explanation": "Tři typická fyziologická zúžení ureteru jsou přechod pánvičky ledvinné v ureter (ureteropelvický přechod), místo, kde ureter překračuje pánevní okraj v oblasti bifurkace a. iliaca communis, a ureterovezikální přechod. Ureterovezikální přechod je z těchto tří zúžení nejdistálnější a představuje časté místo uvíznutí ureterálního konkrementu. Ostatní uvedená místa nejsou typickými fyziologickými zúženími ureteru."
-    },
-    "en": {
-      "stem": "A ureteral stone descending from the kidney to the urinary bladder may become impacted at one of three physiological narrowings of the ureter. Which of the following represents the most distal of these narrowings?",
-      "options": {
-        "a": "Ureterovesical junction",
-        "b": "Ureteropelvic junction",
-        "c": "Site where the ureter crosses the pelvic brim near the bifurcation of the common iliac artery",
-        "d": "Site where the ureter crosses the psoas major muscle",
-        "e": "Site where the ureter crosses the inferior mesenteric artery"
-      },
-      "correct": "a",
-      "explanation": "The three typical physiological narrowings of the ureter are the ureteropelvic junction, the site where the ureter crosses the pelvic brim near the bifurcation of the common iliac artery, and the ureterovesical junction. The ureterovesical junction is the most distal of these three narrowings and represents a common site of ureteral stone impaction. The other sites listed are not typical physiological narrowings of the ureter."
-    }
-  },
-  {
-    "id": 726,
-    "cz": {
-      "stem": "Při anatomické disekci retroperitonea je sledován ureter od ledviny směrem k malé pánvi. Který sval leží bezprostředně za ureterem v jeho břišní části?",
-      "options": {
-        "a": "M. psoas major",
-        "b": "M. quadratus lumborum",
-        "c": "M. iliacus",
-        "d": "M. transversus abdominis",
-        "e": "M. obturatorius internus"
-      },
-      "correct": "a",
-      "explanation": "Ureter sestupuje retroperitoneálně po přední ploše m. psoas major. V průběhu svého sestupu překračuje přední plochu tohoto svalu a následně přechází přes pánevní okraj do malé pánve. Jeho vztah k m. psoas major je důležitým anatomickým orientačním bodem při sledování průběhu ureteru. Ostatní uvedené svaly neleží v tomto typickém vztahu k břišní části ureteru."
-    },
-    "en": {
-      "stem": "During retroperitoneal dissection, the ureter is traced from the kidney toward the pelvis. Which muscle lies directly posterior to the ureter along its abdominal course?",
-      "options": {
-        "a": "Psoas major muscle",
-        "b": "Quadratus lumborum muscle",
-        "c": "Iliacus muscle",
-        "d": "Transversus abdominis muscle",
-        "e": "Obturator internus muscle"
-      },
-      "correct": "a",
-      "explanation": "The ureter descends retroperitoneally along the anterior surface of the psoas major muscle. During its descent, it crosses the anterior surface of this muscle and then passes over the pelvic brim into the pelvis. Its relationship to the psoas major muscle is an important anatomical landmark when tracing the course of the ureter. The other muscles listed do not have this typical relationship to the abdominal part of the ureter."
+      "explanation": "The ureter descends retroperitoneally along the psoas major muscle and, as it passes from the abdominal into the pelvic part, crosses the pelvic brim near the bifurcation of the common iliac artery. This site also represents one of the typical physiological narrowings of the ureter and may be a site of ureteral stone impaction."
     }
   },
   {
@@ -17371,7 +17290,7 @@ id: 269,
         "e": "Jednovrstevný dlaždicový epitel"
       },
       "correct": "a",
-      "explanation": "Vnitřní povrch močového měchýře je vystlán přechodným epitelem, který je specializovaným vícevrstevným epitelem schopným měnit svůj tvar a tloušťku v závislosti na stupni naplnění močového měchýře a současně vytvářet účinnou bariéru proti moči. Vícevrstevný dlaždicový nerohovějící epitel se nachází například v dutině ústní a jícnu, víceřadý cylindrický epitel s řasinkami v některých úsecích dýchacích cest a jednovrstevné epitely nejsou typickou výstelkou močového měchýře."
+      "explanation": "Vnitřní povrch močového měchýře je vystlán přechodným epitelem, který je specializovaným vícevrstevným epitelem schopným měnit svůj tvar a tloušťku v závislosti na stupni naplnění močového měchýře a současně vytvářet účinnou bariéru proti moči. Vícevrstevný dlaždicový nerohovějící epitel se nachází například v dutině ústní a jícnu, víceřadý cylindrický epitel s řasinkami v některých úsecích dýchacích cest."
     },
     "en": {
       "stem": "Histologic examination of the urinary bladder reveals an epithelium that allows the organ to undergo substantial changes in volume while maintaining its barrier function. Which type of epithelium lines the inner surface of the urinary bladder?",
@@ -17383,7 +17302,7 @@ id: 269,
         "e": "Simple squamous epithelium"
       },
       "correct": "a",
-      "explanation": "The inner surface of the urinary bladder is lined by transitional epithelium, a specialized stratified epithelium capable of changing its shape and thickness depending on the degree of bladder distension while maintaining an effective barrier against urine. Nonkeratinized stratified squamous epithelium is found, for example, in the oral cavity and esophagus; ciliated pseudostratified columnar epithelium is found in certain parts of the respiratory tract; and simple epithelia are not characteristic of the urinary bladder lining."
+      "explanation": "The inner surface of the urinary bladder is lined by transitional epithelium, a specialized stratified epithelium capable of changing its shape and thickness depending on the degree of bladder distension while maintaining an effective barrier against urine. Nonkeratinized stratified squamous epithelium is found, for example, in the oral cavity and esophagus; ciliated pseudostratified columnar epithelium is found in certain parts of the respiratory tract."
     }
   },
   {
@@ -17452,7 +17371,7 @@ id: 269,
         "e": "L4–S1"
       },
       "correct": "a",
-      "explanation": "Parasympatická vlákna pro močový měchýř vycházejí z míšních segmentů S2–S4 a vedou v pánevních útrobních nervech. Jejich aktivace způsobuje kontrakci m. detrusor vesicae a podporuje mikci. Sympatická vlákna vycházejí z hrudně-bederní oblasti míchy a podporují plnění močového měchýře."
+      "explanation": "Parasympatická vlákna pro močový měchýř vycházejí z míšních segmentů S2–S4 a vedou v pánevních útrobních nervech. Jejich aktivace způsobuje kontrakci m. detrusor vesicae a podporuje mikci."
     },
     "en": {
       "stem": "Which spinal cord segments contain the parasympathetic centers for the urinary bladder?",
@@ -17464,13 +17383,13 @@ id: 269,
         "e": "L4–S1"
       },
       "correct": "a",
-      "explanation": "Parasympathetic fibers to the urinary bladder arise from spinal cord segments S2–S4 and travel in the pelvic splanchnic nerves. Their activation causes contraction of the detrusor muscle and promotes micturition. Sympathetic fibers arise from the thoracolumbar spinal cord and facilitate urinary bladder filling."
+      "explanation": "Parasympathetic fibers to the urinary bladder arise from spinal cord segments S2–S4 and travel in the pelvic splanchnic nerves. Their activation causes contraction of the detrusor muscle and promotes micturition."
     }
   },
   {
     "id": 732,
     "cz": {
-      "stem": "Při operaci v malé pánvi došlo k poranění tepny zásobující horní část močového měchýře. Chirurg chce určit její původ. Z které tepny tato céva nejčastěji odstupuje?",
+      "stem": "Při operaci v malé pánvi došlo k poranění tepny zásobující horní část močového měchýře. Z které tepny tato céva nejčastěji odstupuje?",
       "options": {
         "a": "A. umbilicalis",
         "b": "A. obturatoria",
@@ -17479,10 +17398,10 @@ id: 269,
         "e": "A. glutea inferior"
       },
       "correct": "a",
-      "explanation": "A. vesicalis superior nejčastěji odstupuje z a. umbilicalis, která je větví a. iliaca interna. Zásobuje především horní část močového měchýře. Při operacích v malé pánvi proto může být poranění a. umbilicalis spojeno s krvácením z jejích větví pro močový měchýř."
+      "explanation": "A. vesicalis superior nejčastěji odstupuje z a. umbilicalis, která je větví a. iliaca interna. Zásobuje především horní část močového měchýře."
     },
     "en": {
-      "stem": "During pelvic surgery, an artery supplying the superior part of the urinary bladder is injured. The surgeon wants to determine its origin. From which artery does this vessel most commonly arise?",
+      "stem": "During pelvic surgery, an artery supplying the superior part of the urinary bladder is injured. From which artery does this vessel most commonly arise?",
       "options": {
         "a": "Umbilical artery",
         "b": "Obturator artery",
@@ -17491,13 +17410,13 @@ id: 269,
         "e": "Inferior gluteal artery"
       },
       "correct": "a",
-      "explanation": "The superior vesical artery most commonly arises from the umbilical artery, which is a branch of the internal iliac artery. It primarily supplies the superior part of the urinary bladder. During pelvic surgery, injury to the umbilical artery can therefore cause bleeding from its vesical branches."
+      "explanation": "The superior vesical artery most commonly arises from the umbilical artery, which is a branch of the internal iliac artery. It primarily supplies the superior part of the urinary bladder."
     }
   },
   {
     "id": 733,
     "cz": {
-      "stem": "Při chirurgickém zákroku v oblasti hráze dojde k poranění krátkého úseku urethra masculina, který prochází přes diaphragma pelvis a je obklopen příčně pruhovanou svalovinou zajišťující volní kontrolu mikce. Která část urethry byla pravděpodobně poraněna?",
+      "stem": "Při chirurgickém zákroku v oblasti hráze dojde k poranění krátkého úseku urethra masculina, který prochází přes diaphragma urogenitale a je obklopen příčně pruhovanou svalovinou zajišťující volní kontrolu mikce. Která část urethry byla pravděpodobně poraněna?",
       "options": {
         "a": "Pars membranacea urethrae",
         "b": "Pars prostatica urethrae",
@@ -17506,10 +17425,10 @@ id: 269,
         "e": "Fossa navicularis"
       },
       "correct": "a",
-      "explanation": "Pars membranacea urethrae je krátký úsek urethry, který prochází diaphragma pelvis a je obklopen m. sphincter urethrae. Tento svěrač umožňuje volní kontrolu mikce. Pars prostatica urethrae prochází prostatou, pars spongiosa urethrae prochází corpus spongiosum penis a pars intramuralis urethrae prochází stěnou močového měchýře. Fossa navicularis představuje rozšířenou distální část pars spongiosa urethrae."
+      "explanation": "Pars membranacea urethrae je krátký úsek urethry, který prochází diaphragma urogenitale a je obklopen m. sphincter urethrae. Tento svěrač umožňuje volní kontrolu mikce. Pars prostatica urethrae prochází prostatou, pars spongiosa urethrae prochází corpus spongiosum penis a pars intramuralis urethrae prochází stěnou močového měchýře. Fossa navicularis představuje rozšířenou distální část pars spongiosa urethrae."
     },
     "en": {
-      "stem": "During a surgical procedure in the perineal region, a short segment of the male urethra that passes through the pelvic floor and is surrounded by striated muscle responsible for voluntary control of urination is injured. Which part of the urethra was most likely damaged?",
+      "stem": "During a surgical procedure in the perineal region, a short segment of the male urethra that passes through the urogenital diaphragm and is surrounded by striated muscle responsible for voluntary control of urination is injured. Which part of the urethra was most likely damaged?",
       "options": {
         "a": "Membranous urethra",
         "b": "Prostatic urethra",
@@ -17518,7 +17437,7 @@ id: 269,
         "e": "Navicular fossa"
       },
       "correct": "a",
-      "explanation": "The membranous urethra is a short segment of the urethra that passes through the pelvic floor and is surrounded by the external urethral sphincter muscle. This muscle provides voluntary control of urination. The prostatic urethra passes through the prostate, the spongy urethra passes through the corpus spongiosum penis, and the intramural urethra passes through the wall of the urinary bladder. The navicular fossa is an expanded distal portion of the spongy urethra."
+      "explanation": "The membranous urethra is a short segment of the urethra that passes through the urogenital diaphragm and is surrounded by the external urethral sphincter muscle. This muscle provides voluntary control of urination. The prostatic urethra passes through the prostate, the spongy urethra passes through the corpus spongiosum penis, and the intramural urethra passes through the wall of the urinary bladder. The navicular fossa is an expanded distal portion of the spongy urethra."
     }
   },
   {
@@ -17533,7 +17452,7 @@ id: 269,
         "e": "M. bulbospongiosus"
       },
       "correct": "a",
-      "explanation": "M. sphincter urethrae obklopuje pars membranacea urethrae a představuje hlavní příčně pruhovaný svěrač urethry. Tato část urethry je relativně krátká a prochází diaphragma pelvis. Colliculus seminalis se nachází na zadní stěně pars prostatica urethrae. Fossa navicularis je rozšíření distální části pars spongiosa urethrae. Ostium urethrae externum představuje zevní ústí urethry na glans penis. M. bulbospongiosus obklopuje bulbární část urethry a podílí se na vyprazdňování urethry po mikci."
+      "explanation": "M. sphincter urethrae obklopuje pars membranacea urethrae a představuje hlavní příčně pruhovaný svěrač urethry. Tato část urethry je relativně krátká a prochází diaphragma urogenitale. Colliculus seminalis se nachází na zadní stěně pars prostatica urethrae. Fossa navicularis je rozšíření distální části pars spongiosa urethrae. Ostium urethrae externum představuje zevní ústí urethry na glans penis. M. bulbospongiosus obklopuje bulbární část urethry a podílí se na vyprazdňování urethry po mikci."
     },
     "en": {
       "stem": "A man undergoes evaluation for recurrent difficulty with urination. Urethrography reveals marked narrowing of the lumen at the transition between the spongy urethra and membranous urethra. Which anatomical structure is located at this site?",
@@ -17551,7 +17470,7 @@ id: 269,
   {
     "id": 735,
     "cz": {
-      "stem": "Při zavádění močového katétru u muže lékař elevuje penis do horizontální polohy, aby napřímil urethra masculina a usnadnil průchod katétru. Které tvrzení nejlépe popisuje zakřivení urethry relevantní pro tento postup?",
+      "stem": "Při zavádění močového katétru u muže lékař elevuje penis do horizontální polohy, aby napřímil urethra masculina a usnadnil průchod katétru. Které tvrzení správně popisuje zakřivení urethra masculina?",
       "options": {
         "a": "Urethra masculina má infrapubické a prepubické zakřivení; prepubické zakřivení je mobilní a při elevaci penisu do horizontální polohy se vyrovnává",
         "b": "Urethra masculina má infrapubické a prepubické zakřivení; infrapubické zakřivení je mobilní a při elevaci penisu do horizontální polohy se vyrovnává",
@@ -17563,7 +17482,7 @@ id: 269,
       "explanation": "Urethra masculina má v ochablém stavu dvě hlavní zakřivení: infrapubické a prepubické. Infrapubické zakřivení je relativně fixované, zatímco prepubické zakřivení je mobilní a při elevaci penisu do horizontální polohy se vyrovnává. Elevace penisu proto napřimuje urethra masculina a usnadňuje zavedení močového katétru."
     },
     "en": {
-      "stem": "During urinary catheterization in a man, the physician elevates the penis to a horizontal position to straighten the male urethra and facilitate passage of the catheter. Which statement best describes the urethral curvatures relevant to this maneuver?",
+      "stem": "During urinary catheterization in a man, the physician elevates the penis to a horizontal position to straighten the male urethra and facilitate passage of the catheter. Which statement correctly describes the curvatures of the male urethra?",
       "options": {
         "a": "The male urethra has infrapubic and prepubic curvatures; the prepubic curvature is mobile and is straightened when the penis is elevated to a horizontal position",
         "b": "The male urethra has infrapubic and prepubic curvatures; the infrapubic curvature is mobile and is straightened when the penis is elevated to a horizontal position",
@@ -28224,6 +28143,33 @@ const LIVE_QUESTION_BANKS = {
       "explanation": "The internal spermatic fascia is derived from the transversalis fascia at the level of the deep inguinal ring. The external spermatic fascia is derived from the external oblique aponeurosis, while the cremasteric fascia and cremaster muscle are derived from the internal oblique muscle. The tunica vaginalis of the testis is derived from the processus vaginalis of the peritoneum, whereas the dartos layer consists of smooth muscle and connective tissue within the scrotal wall."
     }
   },
+  {
+  id: 10289,
+  cz: {
+    stem: "Které zakřivení urethra masculina se při elevaci penisu do horizontální polohy vyrovnává?",
+    options: {
+        a: "Prepubické zakřivení",
+        b: "Infrapubické zakřivení",
+        c: "Obě zakřivení",
+        d: "Žádné zakřivení",
+        e: "Urethra masculina nemá žádné zakřivení"
+    },
+    correct: "a",
+    explanation: "Urethra masculina má dvě hlavní zakřivení: infrapubické a prepubické. Infrapubické zakřivení je relativně fixované, zatímco prepubické je mobilní a při elevaci penisu do horizontální polohy se vyrovnává."
+  },
+  en: {
+    stem: "Which curvature of the male urethra is straightened when the penis is elevated to a horizontal position?",
+    options: {
+        a: "Prepubic curvature",
+        b: "Infrapubic curvature",
+        c: "Both curvatures",
+        d: "Neither curvature",
+        e: "The male urethra has no curvature"
+    },
+    correct: "a",
+    explanation: "The male urethra has two main curvatures: infrapubic and prepubic. The infrapubic curvature is relatively fixed, whereas the prepubic curvature is mobile and straightens when the penis is elevated to a horizontal position."
+  }
+},
     ]
     // =ANATOMIE_2_VERZE_2_END=
   },
