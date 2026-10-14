@@ -15719,6 +15719,35 @@ id: 269,
   },
   image: { key: "q1110_custom", source: "Hellerhoff. Thymom - CT axial - circle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Thymom_-_CT_axial_-_circle.jpg. CC BY-SA 3.0. Accessed 7 September 2026.", type: "image" }
 },
+{
+  id: 1125,
+  cz: {
+    stem: "Na obrázku je histologický řez pupečníkem. Na jakou cévu ukazuje šipka a jaký typ krve touto cévou prochází?",
+    options: {
+        a: "Arteria umbilicalis – okysličená krev",
+        b: "Arteria umbilicalis – odkysličená krev",
+        c: "Vena umbilicalis – okysličená krev",
+        d: "Vena umbilicalis – odkysličená krev",
+        e: "Vena vitellina – okysličená krev"
+    },
+    correct: "c",
+    explanation: "Pupečník obsahuje dvě pupečníkové tepny (arteriae umbilicales) a jednu pupečníkovou žílu (vena umbilicalis). Pupečníkové tepny vedou odkysličenou krev z plodu do placenty, zatímco pupečníková žíla přivádí okysličenou krev z placenty k plodu."
+  },
+  en: {
+    stem: "A histological cross section of the umbilical cord is shown. Which blood vessel is indicated by the arrow, and what type of blood does it carry?",
+    options: {
+        a: "Umbilical artery – oxygenated blood",
+        b: "Umbilical artery – deoxygenated blood",
+        c: "Umbilical vein – oxygenated blood",
+        d: "Umbilical vein – deoxygenated blood",
+        e: "Vitelline vein – oxygenated blood"
+    },
+    correct: "c",
+    explanation: "The umbilical cord contains two umbilical arteries and one umbilical vein. The umbilical arteries carry deoxygenated blood from the fetus to the placenta, whereas the umbilical vein carries oxygenated blood from the placenta to the fetus."
+  },
+  image: { key: "q1125_custom", source: "Johnlancer123. Cross section of the umbilical cord.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_the_umbilical_cord.jpg. CC BY-SA 3.0. Accessed 14 October 2026.", type: "image" },
+  explanationImage: { key: "e1125_custom", source: "Johnlancer123. Cross section of the umbilical cord.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_the_umbilical_cord.jpg. CC BY-SA 3.0. Accessed 14 October 2026.", type: "image" }
+},
 ]
       },
       pohlavni_soustava: {
