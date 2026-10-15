@@ -1489,7 +1489,7 @@ const QUESTION_DATA = {
   {
     "id": 182,
     "cz": {
-      "stem": "Muž po autonehodě utrpěl zlomeninu střední části humeru. Při vyšetření není schopen provést extenzi v zápěstí a prstech. Která z následujících cév může být při tomto poranění současně poškozena?",
+      "stem": "Muž po autonehodě utrpěl zlomeninu střední části humeru. Při vyšetření není schopen provést extenzi v zápěstí a prstech. Která z následujících cév může být při tomto poranění nejpravděpodobněji poškozena?",
       "options": {
         "a": "A. profunda brachii",
         "b": "A. circumflexa humeri posterior",
@@ -1501,7 +1501,7 @@ const QUESTION_DATA = {
       "explanation": "Arteria profunda brachii probíhá spolu s nervus radialis v sulcus nervi radialis, proto mohou být tyto dvě struktury při zlomenině střední části humeru poškozeny společně."
     },
     "en": {
-      "stem": "A man sustained a fracture of the midshaft of the humerus in a car accident. On examination, he is unable to extend his wrist and fingers. Which of the following arteries may also be injured in this fracture?",
+      "stem": "A man sustained a fracture of the midshaft of the humerus in a car accident. On examination, he is unable to extend his wrist and fingers. Which of the following arteries is most likely to also be injured in this fracture?",
       "options": {
         "a": "Deep artery of the arm",
         "b": "Posterior circumflex humeral artery",
@@ -2915,6 +2915,33 @@ const QUESTION_DATA = {
     explanation: "The image shows a fracture of the hamate bone. The hamate bone is located in the distal row of the carpal bones on the ulnar side of the wrist and lies distal to the triquetrum bone. The hamate bone is considerably larger than the triquetrum, and its body articulates mainly with the capitate bone, triquetrum bone, and the fourth and fifth metacarpal bones."
   },
   image: { key: "q1111_custom", source: "Hellerhoff. Fraktur des Os hamatum 27M - CR CT - 001.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Fraktur_des_Os_hamatum_27M_-_CR_CT_-_001.jpg. CC BY-SA 4.0. Accessed 11 September 2026.", type: "image" }
+},
+{
+  id: 1126,
+  cz: {
+    stem: "U novorozence po komplikovaném porodu porodním kanálem byla diagnostikována porodní paréza brachiálního plexu způsobená poškozením truncus superior, tvořeného předními větvemi míšních nervů C5–C6. Jaký klinický projev bude u novorozence nejpravděpodobněji přítomný?",
+    options: {
+        a: "Oslabení abdukce a zevní rotace paže a flexe lokte.",
+        b: "Oslabení addukce paže a extenze lokte.",
+        c: "Oslabení flexe prstů a úchopu.",
+        d: "Oslabení extenze zápěstí a prstů.",
+        e: "Úplná ztráta hybnosti horní končetiny."
+    },
+    correct: "a",
+    explanation: "Míšní nervy C5–C6 se podílejí na inervaci m. deltoideus (abdukce paže), m. supraspinatus a m. infraspinatus (abdukce a zevní rotace paže) a m. biceps brachii (flexe lokte). Jejich postižení při lézi horního kmene plexus brachialis způsobuje Erbovu-Duchennovu parézu. Typické je oslabení těchto pohybů a postavení končetiny v addukci a vnitřní rotaci paže, extenzi lokte a pronaci předloktí (kvůli převaze tonu nepostižených svalů). Porucha flexe prstů a úchopu svědčí spíše pro postižení dolního kmene plexus brachialis – paréza Klumpkeové (C8–T1). Oslabení extenze zápěstí a prstů odpovídá spíše lézi n. radialis. Úplná ztráta hybnosti končetiny ukazuje na rozsáhlé postižení brachiálního plexu."
+  },
+  en: {
+    stem: "A newborn delivered following a complicated labor is diagnosed with obstetric brachial plexus palsy caused by injury to the superior trunk, formed by the C5–C6 ventral rami. Which clinical manifestation is most likely to be present?",
+    options: {
+        a: "Weakness of arm abduction and external rotation and elbow flexion.",
+        b: "Weakness of arm adduction and elbow extension.",
+        c: "Weakness of finger flexion and grip.",
+        d: "Weakness of wrist and finger extension.",
+        e: "Complete loss of movement of the upper limb."
+    },
+    correct: "a",
+    explanation: "The C5–C6 spinal nerves contribute to the innervation of the deltoid muscle (arm abduction), supraspinatus and infraspinatus muscles (arm abduction and external rotation), and biceps brachii (elbow flexion). Injury to these nerve fibers in the superior trunk of the brachial plexus causes Erb-Duchenne palsy. Typical findings include weakness of these movements and the characteristic posture of arm adduction and internal rotation, elbow extension, and forearm pronation due to the unopposed action of unaffected muscles. Weakness of finger flexion and grip suggests injury to the inferior trunk of the brachial plexus (C8–T1), known as Klumpke palsy. Weakness of wrist and finger extension suggests radial nerve injury. Complete loss of movement of the upper limb indicates extensive brachial plexus injury."
+  }
 },
 
           {
