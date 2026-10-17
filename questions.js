@@ -6818,7 +6818,7 @@ id: 269,
   {
     "id": 1028,
     "cz": {
-      "stem": "Při chirurgickém výkonu v okolí linea mediana inferior břišní stěny je nalezen drobný trojúhelníkový sval uložený před dolní částí m. rectus abdominis. Jeho vlákna směřují kraniálně a upínají se do linea alba. Který sval byl identifikován?",
+      "stem": "Při chirurgickém výkonu v okolí dolní části linea mediana anterior je nalezen drobný trojúhelníkový sval uložený před m. rectus abdominis. Jeho vlákna směřují kraniálně a upínají se do linea alba. Který sval byl identifikován?",
       "options": {
         "a": "M. pyramidalis",
         "b": "M. rectus abdominis",
@@ -7467,6 +7467,34 @@ id: 269,
     explanation: "The female pelvis has a less prominent promontory, a pubic symphysis approximately 4.5 cm high (the male symphysis is higher, approximately 5 cm), an obtuse pubic arch, a wide and shallow greater sciatic notch, and a shorter, more mobile coccyx. In contrast, a longer and less mobile coccyx is characteristic of the male pelvis."
   },
   explanationImage: { key: "e1124_custom", source: "OpenStax College. 809 Male Female Pelvic Girdle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg. CC BY 3.0. Accessed 28 September 2026.", type: "image" }
+},
+{
+  id: 1127,
+  cz: {
+    stem: "34letá žena podstoupila plánovaný císařský řez. Byl použit příčný suprapubický řez (Pfannenstielův řez). Po operaci pacientka udává sníženou citlivost kůže těsně nad symfýzou a pálivou bolest v této oblasti. Který z následujících nervů byl s nejvyšší pravděpodobností poškozen?",
+    options: {
+        a: "N. iliohypogastricus",
+        b: "N. genitofemoralis",
+        c: "N. cutaneus femoris lateralis",
+        d: "N. femoralis",
+        e: "N. obturatorius"
+    },
+    correct: "a",
+    explanation: "N. iliohypogastricus (Th12–L1) probíhá mezi m. transversus abdominis a m. obliquus internus abdominis. Jeho přední kožní větev zajišťuje senzitivní inervaci suprapubické oblasti. Při Pfannenstielově řezu, zejména při jeho laterálním rozšíření nebo zachycení nervu stehem, může dojít k jeho poškození. To se projevuje hypestezií a neuropatickou, často pálivou bolestí nad symfýzou."
+  },
+  en: {
+    stem: "A 34-year-old woman undergoes an elective cesarean section using a transverse suprapubic incision (Pfannenstiel incision). After surgery, she reports decreased skin sensation immediately superior to the pubic symphysis and burning pain in this area. Which of the following nerves was most likely injured?",
+    options: {
+        a: "Iliohypogastric nerve",
+        b: "Genitofemoral nerve",
+        c: "Lateral femoral cutaneous nerve",
+        d: "Femoral nerve",
+        e: "Obturator nerve"
+    },
+    correct: "a",
+    explanation: "The iliohypogastric nerve (T12–L1) runs between the transversus abdominis and internal oblique muscles. Its anterior cutaneous branch provides sensory innervation to the suprapubic region. During a Pfannenstiel incision, particularly when the incision is extended laterally or the nerve is entrapped by a suture, the nerve may be injured. This can result in hypoesthesia and neuropathic, often burning, pain superior to the pubic symphysis."
+  },
+  image: { key: "q1127_custom", source: "Hermann Johannes Pfannenstiel. Pfannenstiel2.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Pfannenstiel2.JPG. Public domain. Accessed 17 October 2026.", type: "image" }
 },
 ]
       }
@@ -21039,6 +21067,35 @@ id: 269,
     explanation: "The MRI shows volume loss of the left hippocampus (arrow). The hippocampus is located in the medial temporal lobe and is part of the limbic system. It is primarily involved in learning and the consolidation of declarative memory. Hippocampal atrophy may be observed in conditions such as hippocampal sclerosis, which is strongly associated with mesial temporal lobe epilepsy."
   },
   image: { key: "q1122_custom", source: "Uhomachinky. Left Hippocampal Sclerosis on MRI.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Left_Hippocampal_Sclerosis_on_MRI.jpg. CC BY-SA 4.0. Accessed 15 September 2026.", type: "image" }
+},
+{
+  id: 1128,
+  cz: {
+    stem: "Jaká tepna je označena šipkou a přiloženém MRI?",
+    options: {
+        a: "Arteria cerebri anterior",
+        b: "Arteria cerebri media",
+        c: "Arteria cerebri posterior",
+        d: "Arteria basilaris",
+        e: "Arteria vertebralis"
+    },
+    correct: "d",
+    explanation: "Arteria basilaris vzniká spojením obou vertebrálních tepen a probíhá po ventrální ploše pontu. Na horním konci se rozděluje na dvě arteriae cerebri posteriores."
+  },
+  en: {
+    stem: "Which artery is indicated by the arrow on the attached MRI?",
+    options: {
+        a: "Anterior cerebral artery",
+        b: "Middle cerebral artery",
+        c: "Posterior cerebral artery",
+        d: "Basilar artery",
+        e: "Vertebral artery"
+    },
+    correct: "d",
+    explanation: "The basilar artery is formed by the union of the two vertebral arteries and runs along the ventral surface of the pons. At its superior end, it bifurcates into the two posterior cerebral arteries."
+  },
+  image: { key: "q1128_custom", source: "Ceccomaster. Circle of Willis MRI (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/w/index.php?curid=10711595. CC BY-SA 3.0. Accessed 17 October 2026.", type: "image" },
+  explanationImage: { key: "e1128_custom", source: "Rachel Sanchez. Cerebral Arterial Circle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cerebral_Arterial_Circle.jpg. Adapted from Ceccomaster, Circle of Willis – MRI, MIP – Anterior projection, CC BY-SA 4.0. CC BY-SA 4.0. Accessed 17 October 2026.", type: "image" }
 },
         ]
       },
