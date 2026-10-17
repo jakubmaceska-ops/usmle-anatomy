@@ -7472,12 +7472,29 @@ ${optionsObjCodeEn}
         await fb.set(sessionRef, data);
       }
 
+      const alreadyJoined = liveWasJoinedLocally(cfg.sessionId) ||
+        !!(data.participants && data.participants[uid]) ||
+        !!(data.results && data.results[uid]);
+
+      if (alreadyJoined) {
+        // Test už z tohoto zařízení jednou otevřen byl — zobrazit pouze výsledky.
+        liveMarkJoined(cfg.sessionId);
+        lastHandledStatus = null;
+        live.sessionId = cfg.sessionId;
+        live.isAdmin = false;
+        live.resultSubmitted = true;   // zabrání opětovnému vstupu do testu
+        liveClearActiveSession();
+        liveAttachSessionListener();
+        return;
+      }
+
       const name = (live.myName || "").trim() || "Účastník";
       try { localStorage.setItem("usmle-live-name", name); } catch (e) {}
       live.myName = name;
 
       const participantRef = fb.ref(fb.db, `liveSessions/${cfg.sessionId}/participants/${uid}`);
       await fb.set(participantRef, { name, joinedAt: fb.serverTimestamp() });
+      liveMarkJoined(cfg.sessionId);
 
       live.sessionId = cfg.sessionId;
       live.isAdmin = false;
@@ -7685,6 +7702,7 @@ ${optionsObjCodeEn}
 
       const participantRef = fb.ref(fb.db, `liveSessions/${foundId}/participants/${uid}`);
       await fb.set(participantRef, { name, joinedAt: fb.serverTimestamp() });
+      liveMarkJoined(foundId);
 
       live.sessionId = foundId;
       live.isAdmin = (foundData.adminUid === uid);
@@ -7762,6 +7780,13 @@ ${optionsObjCodeEn}
       }
       render();
       return;
+    }
+
+    // Obnovení stránky po odeslání výsledku: nikdy znovu nespouštět test.
+    if (!live.isAdmin && !live.resultSubmitted && live.sessionId &&
+        (status === "running" || status === "finished") &&
+        ((data.results && live.uid && data.results[live.uid]) || liveWasSubmittedLocally(live.sessionId))) {
+      live.resultSubmitted = true;
     }
 
     if (status === "running") {
@@ -7955,6 +7980,22 @@ ${optionsObjCodeEn}
     try { localStorage.removeItem(ACTIVE_LIVE_SESSION_KEY); } catch (e) {}
   }
 
+  // ---- Jednorázový vstup do živého testu z jednoho zařízení ----
+  // Po prvním vstupu (a po odeslání výsledku) si zařízení zapamatuje, že už
+  // v dané session bylo. Další kliknutí na stejný test ukáže jen výsledky.
+  // Kontroluje se jak localStorage zařízení, tak záznam účastníka/výsledku ve Firebase.
+  function liveJoinedKey(sessionId) { return `usmle-live-joined-${sessionId}`; }
+  function liveMarkJoined(sessionId) {
+    try { localStorage.setItem(liveJoinedKey(sessionId), "1"); } catch (e) {}
+  }
+  function liveSubmittedKey(sessionId) { return `usmle-live-submitted-${sessionId}`; }
+  function liveWasSubmittedLocally(sessionId) {
+    try { return localStorage.getItem(liveSubmittedKey(sessionId)) === "1"; } catch (e) { return false; }
+  }
+  function liveWasJoinedLocally(sessionId) {
+    try { return localStorage.getItem(liveJoinedKey(sessionId)) === "1"; } catch (e) { return false; }
+  }
+
   // Po refreshi stránky (nový load) zkusí obnovit rozpojenou live session:
   // nastaví live.sessionId/isAdmin z localStorage a znovu se napojí na Firebase
   // listener. Jakmile dorazí první snapshot, liveHandleSessionUpdate podle
@@ -8052,6 +8093,9 @@ ${optionsObjCodeEn}
     if (live.resultSubmitted) return;
     live.resultSubmitted = true;
     lastHandledStatus = "submitting";
+    if (live.sessionId) {
+      try { localStorage.setItem(liveSubmittedKey(live.sessionId), "1"); } catch (e) {}
+    }
 
     const total = state.questions.length;
     let correctCount = 0;
