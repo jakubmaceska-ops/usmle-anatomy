@@ -21125,6 +21125,34 @@ id: 269,
   image: { key: "q1128_custom", source: "Ceccomaster. Circle of Willis MRI (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/w/index.php?curid=10711595. CC BY-SA 3.0. Accessed 17 October 2026.", type: "image" },
   explanationImage: { key: "e1128_custom", source: "Rachel Sanchez. Cerebral Arterial Circle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cerebral_Arterial_Circle.jpg. Adapted from Ceccomaster, Circle of Willis – MRI, MIP – Anterior projection, CC BY-SA 4.0. CC BY-SA 4.0. Accessed 17 October 2026.", type: "image" }
 },
+{
+  id: 1130,
+  cz: {
+    stem: "Žlutá šipka na přiložené TOF MR angiografii mozku ukazuje na stenózu mozkové tepny. O kterou tepnu se jedná?",
+    options: {
+        a: "Arteria cerebri anterior",
+        b: "Arteria cerebri media",
+        c: "Arteria cerebri posterior",
+        d: "Arteria basilaris",
+        e: "Arteria carotis interna"
+    },
+    correct: "b",
+    explanation: "Arteria cerebri media odstupuje z arteria carotis interna a směřuje laterálně. Zásobuje převážnou část laterální plochy pravé mozkové hemisféry. Její stenóza může vést k ischemii laterální plochy lobus frontalis, lobus parietalis a lobus temporalis."
+  },
+  en: {
+    stem: "The yellow arrow on the attached TOF MR angiogram of the brain indicates stenosis of a cerebral artery. Which artery is affected?",
+    options: {
+        a: "Anterior cerebral artery",
+        b: "Middle cerebral artery",
+        c: "Posterior cerebral artery",
+        d: "Basilar artery",
+        e: "Internal carotid artery"
+    },
+    correct: "b",
+    explanation: "The middle cerebral artery arises from the internal carotid artery and courses laterally. It supplies most of the lateral surface of the cerebral hemisphere. Its stenosis may cause ischemia of the lateral surfaces of the frontal, parietal, and temporal lobes."
+  },
+  image: { key: "q1130_custom", source: "Shazia Mirza and Sankalp Gokhale. TOF MRI angiography of right middle cerebral artery stenosis.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:TOF_MRI_angiography_of_right_middle_cerebral_artery_stenosis.png. CC BY 4.0. Accessed 17 October 2026.", type: "image" }
+},
         ]
       },
       hlavove_nervy: {
