@@ -13785,6 +13785,34 @@ id: 269,
     correct: "c",
     explanation: "The inferior tracheobronchial lymph nodes are located at the carina, between the right and left main bronchi. They receive lymph from the bronchi and lungs and represent an important group of lymph nodes involved in the spread of bronchogenic carcinomas. The paratracheal lymph nodes are located along the trachea and receive lymph primarily from the trachea, esophagus, and mediastinal structures. The left supraclavicular lymph nodes (Virchow's node) may be involved by metastases from tumors of the thorax and abdominal cavity, classically gastric carcinoma. The posterior mediastinal lymph nodes are located in the posterior mediastinum and drain mainly structures of the posterior mediastinum. The deep cervical lymph nodes are located along the internal jugular vein and represent a more distant group of lymph nodes. Carcinoma of the main bronchus may spread to these nodes in advanced disease, but they are not the first lymph node group involved."
   }
+},
+{
+  id: 1131,
+  cz: {
+    stem: "58letá žena přichází s postupně se zhoršující dušností, stridorem a pocitem tlaku na krku, který se zhoršuje při zvednutí horních končetin nad hlavu. CT krku s kontrastní látkou prokazuje objemnou strumu, která utlačuje průdušnici. Pacientka je indikována k totální tyreoidektomii. Během preparace laterálního laloku štítné žlázy musí chirurg identifikovat nerv, který probíhá v rýze mezi průdušnicí a jícnem. Který z následujících následků by nejpravděpodobněji nastal při poranění tohoto nervu?",
+    options: {
+        a: "Ztráta napětí hlasivkových vazů a neschopnost vytvářet vysoké tóny.",
+        b: "Ztráta citlivosti sliznice hrtanu nad hlasivkovými vazy.",
+        c: "Paréza hlasivky na poraněné straně spojená s chrapotem.",
+        d: "Deviace jazyka směrem k poraněné straně.",
+        e: "Oslabení infrahyoidních svalů."
+    },
+    correct: "c",
+    explanation: "Popsaným nervem je nervus laryngeus recurrens, který odstupuje z nervus vagus. Vpravo obtáčí arteria subclavia, zatímco vlevo oblouk aorty. Oboustranně poté vystupuje v tracheoezofageální rýze směrem k hrtanu. Inervuje všechny vnitřní svaly hrtanu s výjimkou musculus cricothyroideus. Jeho poranění proto vede k paréze hlasivky na postižené (ipsilaterální) straně a k chrapotu. Oboustranné poranění může způsobit obstrukci dýchacích cest. Objemná struma může vychylovat průdušnici a měnit obvyklý průběh nervu, čímž se zvyšuje riziko jeho poranění během operace. Ztráta napětí hlasivkových vazů a neschopnost vytvářet vysoké tóny jsou typické pro poškození ramus externus nervi laryngei superioris, který inervuje musculus cricothyroideus. Ztráta citlivosti sliznice hrtanu nad hlasivkovými vazy odpovídá poškození ramus internus nervi laryngei superioris. Deviace jazyka směrem k postižené straně je projevem léze nervus hypoglossus. Oslabení infrahyoidních svalů může vzniknout při poškození ansa cervicalis, která zajišťuje motorickou inervaci většiny těchto svalů."
+  },
+  en: {
+    stem: "A 58-year-old woman presents with progressively worsening dyspnea, stridor, and a feeling of pressure in her neck that worsens when she raises her arms above her head. Contrast-enhanced CT of the neck reveals a large goiter compressing the trachea. The patient is scheduled for total thyroidectomy. During dissection of the lateral lobe of the thyroid gland, the surgeon must identify a nerve that runs in the groove between the trachea and the esophagus. Which of the following consequences would most likely result from injury to this nerve?",
+    options: {
+        a: "Loss of vocal fold tension and inability to produce high-pitched sounds.",
+        b: "Loss of sensation in the laryngeal mucosa above the vocal folds.",
+        c: "Ipsilateral vocal fold paralysis associated with hoarseness.",
+        d: "Deviation of the tongue toward the affected side.",
+        e: "Weakness of the infrahyoid muscles."
+    },
+    correct: "c",
+    explanation: "The nerve described is the recurrent laryngeal nerve, which branches from the vagus nerve. On the right, it loops around the subclavian artery, whereas on the left, it loops around the aortic arch. Both nerves then typically ascend toward the larynx in the tracheoesophageal groove. They provide motor innervation to all intrinsic muscles of the larynx except the cricothyroid muscle. Injury therefore results in ipsilateral vocal fold paralysis and hoarseness. Bilateral injury may cause airway obstruction. A large goiter may displace the trachea and alter the nerve's usual course, increasing the risk of injury during surgery.\nLoss of vocal fold tension and inability to produce high-pitched sounds are characteristic of injury to the external branch of the superior laryngeal nerve, which innervates the cricothyroid muscle. Loss of sensation in the laryngeal mucosa above the vocal folds results from injury to the internal branch of the superior laryngeal nerve. Deviation of the tongue toward the affected side is a sign of hypoglossal nerve injury. Weakness of the infrahyoid muscles may result from injury to the ansa cervicalis, which provides motor innervation to most of these muscles."
+  },
+  image: { key: "q1131_custom", source: "Stockholm. Goitre compressif sur la trachée (sagittal).jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Goitre_compressif_sur_la_trach%C3%A9e_%28sagittal%29.jpg. CC BY-SA 4.0. Accessed 17 October 2026.", type: "image" }
 },]
       },
       srdce_cevni_system: {
