@@ -7496,6 +7496,34 @@ id: 269,
   },
   image: { key: "q1127_custom", source: "Hermann Johannes Pfannenstiel. Pfannenstiel2.JPG (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Pfannenstiel2.JPG. Public domain. Accessed 17 October 2026.", type: "image" }
 },
+{
+  id: 1129,
+  cz: {
+    stem: "Do ortopedické ambulance přichází dvacetiletý muž s výrazně kulatými zády. Na bočním RTG snímku hrudní páteře je patrná klínovitá deformita čtyř sousedních obratlových těl v dolní hrudní oblasti, ostatní obratle jsou bez patologie. Kyfóza měřená podle Cobba je přibližně 70°. Je stanovena diagnóza Scheuermannovy choroby. Při dlouhodobém trvání hrudní hyperkyfózy dochází k adaptivnímu zkrácení kterých svalů?",
+    options: {
+        a: "Mm. pectorales major et minor",
+        b: "Mm. rhomboidei major et minor",
+        c: "M. trapezius",
+        d: "M. erector spinae",
+        e: "M. gluteus maximus"
+    },
+    correct: "a",
+    explanation: "Fyziologická hrudní kyfóza měří přibližně 20-40°, hodnota kolem 70° představuje výraznou hyperkyfózu. Při ní jsou ramena v protrakci a lopatky odtažené dopředu. Velký a malý prsní sval táhnou ramena dopředu a dolů (vnitřní rotace), což dále prohlubuje nahrbení. Při dlouhodobém držení v tomto postavení se adaptivně zkracují. Naopak mm. rhomboidei, dolní část m. trapezius a extenzory hrudní páteře (m. erector spinae) jsou protažené a oslabené. M. gluteus maximus s hrudní kyfózou nesouvisí."
+  },
+  en: {
+    stem: "A 20-year-old man presents to an orthopedic clinic with a markedly rounded back. A lateral X-ray of the thoracic spine reveals wedge-shaped deformities of four consecutive vertebral bodies in the lower thoracic region, while the remaining vertebrae appear normal. The thoracic Cobb angle is approximately 70°. A diagnosis of Scheuermann disease is made. Which muscles undergo adaptive shortening in the setting of long-standing thoracic hyperkyphosis?",
+    options: {
+        a: "Mm. pectorales major et minor",
+        b: "Mm. rhomboidei major et minor",
+        c: "M. trapezius",
+        d: "M. erector spinae",
+        e: "M. gluteus maximus"
+    },
+    correct: "a",
+    explanation: "Physiological thoracic kyphosis measures approximately 20–40°, whereas a value of around 70° indicates marked hyperkyphosis. In this condition, the shoulders become protracted and the scapulae move forward. The pectoralis major and minor pull the shoulders forward and downward, contributing to a rounded-back posture. With prolonged maintenance of this position, these muscles undergo adaptive shortening. In contrast, the rhomboid muscles, the lower fibers of the trapezius, and the thoracic spinal extensors (erector spinae muscles) become lengthened and weakened. The gluteus maximus is not directly related to thoracic kyphosis."
+  },
+  image: { key: "q1129_custom", source: "Daniel McFadden. Scheuermanns70.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Scheuermanns70.jpg. Public domain. Accessed 17 October 2026.", type: "image" }
+},
 ]
       }
 
