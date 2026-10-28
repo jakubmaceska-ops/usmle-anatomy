@@ -7578,6 +7578,33 @@ id: 269,
   },
   image: { key: "q1129_custom", source: "Daniel McFadden. Scheuermanns70.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Scheuermanns70.jpg. Public domain. Accessed 17 October 2026.", type: "image" }
 },
+{
+  id: 1135,
+  cz: {
+    stem: "Dvaatřicetiletý muž přichází na chirurgickou ambulanci pro bolest a bulku v pravém třísle, která se objevila po zvedání těžkého nákladu. Bulka se zvětšuje při Valsalvově manévru (usilovný výdech proti uzavřené hlasivkové štěrbině, který zvyšuje nitrobřišní tlak) a vleže se spontánně zmenšuje. Při vyšetření je hmatná nad lig. inguinale, mediálně od vasa epigastrica inferiora, a nesestupuje do skrota. Lékař diagnostikuje přímou tříselnou kýlu a pacient je indikován k plastice síťkou. Síťka má zpevnit oslabené místo stěny, kterým kýlní vak prostupuje. Mezi kterými dvěma strukturami toto místo leží?",
+    options: {
+        a: "lig. interfoveolare a falx inguinalis",
+        b: "lig. interfoveolare a laterální břišní stěna",
+        c: "lig. arcuatum mediale a laterale",
+        d: "lig. lacunare a falx inguinalis",
+        e: "lig. lacunare a vasa femoralia"
+    },
+    correct: "a",
+    explanation: "Přímá tříselná kýla prochází přes oslabené místo zadní stěny canalis inguinalis v oblasti trigonum inguinale (Hesselbachova trojúhelníku), mediálně od vasa epigastrica inferiora. Kýlní vak se vyklenuje přes transversální fascii v oblasti mezi lig. interfoveolare a falx inguinalis (společnou šlachou m. obliquus internus abdominis a m. transversus abdominis). Na rozdíl od nepřímé tříselné kýly nevstupuje do canalis inguinalis přes anulus inguinalis profundus, a proto typicky nesestupuje do skrota."
+  },
+  en: {
+    stem: "A 32-year-old man presents to the surgical outpatient clinic with pain and a lump in his right groin that developed after lifting a heavy load. The lump enlarges during the Valsalva maneuver and spontaneously decreases in size when lying down. On examination, it is palpable above the inguinal ligament, medial to the inferior epigastric vessels, and does not descend into the scrotum. The physician diagnoses a direct inguinal hernia, and the patient is scheduled for mesh repair. The mesh is intended to reinforce the weakened area of the abdominal wall through which the hernial sac protrudes. Between which two structures is this area located?",
+    options: {
+        a: "Interfoveolar ligament and inguinal falx",
+        b: "Interfoveolar ligament and lateral abdominal wall",
+        c: "Medial and lateral arcuate ligaments",
+        d: "Lacunar ligament and inguinal falx",
+        e: "Lacunar ligament and femoral vessels"
+    },
+    correct: "a",
+    explanation: "A direct inguinal hernia protrudes through a weakened area of the posterior wall of the inguinal canal in the region of the inguinal triangle (Hesselbach's triangle), medial to the inferior epigastric vessels. The hernial sac bulges through the transversalis fascia in the area between the interfoveolar ligament and the inguinal falx (the conjoint tendon of the internal oblique and transversus abdominis muscles). Unlike an indirect inguinal hernia, it does not enter the inguinal canal through the deep inguinal ring and therefore typically does not descend into the scrotum."
+  }
+},
 ]
       }
 
