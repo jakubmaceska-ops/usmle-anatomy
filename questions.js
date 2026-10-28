@@ -2943,6 +2943,33 @@ const QUESTION_DATA = {
     explanation: "The C5–C6 spinal nerves contribute to the innervation of the deltoid muscle (arm abduction), supraspinatus and infraspinatus muscles (arm abduction and external rotation), and biceps brachii (elbow flexion). Injury to these nerve fibers in the superior trunk of the brachial plexus causes Erb-Duchenne palsy. Typical findings include weakness of these movements and the characteristic posture of arm adduction and internal rotation, elbow extension, and forearm pronation due to the unopposed action of unaffected muscles. Weakness of finger flexion and grip suggests injury to the inferior trunk of the brachial plexus (C8–T1), known as Klumpke palsy. Weakness of wrist and finger extension suggests radial nerve injury. Complete loss of movement of the upper limb indicates extensive brachial plexus injury."
   }
 },
+{
+  id: 1132,
+  cz: {
+    stem: "Po pádu z horského kola byl pětadvacetiletému muži diagnostikován vzácný typ zlomeniny: dislokovaná zlomenina processus coracoideus scapulae. Který z uvedených svalů se na dislokaci odlomeného fragmentu nepodílel?",
+    options: {
+        a: "m. biceps brachii",
+        b: "m. coracobrachialis",
+        c: "všechny z uvedených se podílely",
+        d: "m. subclavius",
+        e: "m. pectoralis minor"
+    },
+    correct: "d",
+    explanation: "M. biceps brachii (caput breve) a m. coracobrachialis začínají na processus coracoideus scapulae, zatímco m. pectoralis minor se na něj upíná. Tah těchto svalů proto může přispívat k dislokaci odlomeného fragmentu. M. subclavius není na processus coracoideus scapulae nijak připojen, a proto se na dislokaci nemůže podílet."
+  },
+  en: {
+    stem: "A 25-year-old man was diagnosed with a rare type of fracture after falling off a mountain bike: a displaced fracture of the coracoid process of the scapula. Which of the following muscles did NOT contribute to displacement of the fractured fragment?",
+    options: {
+        a: "Biceps brachii muscle",
+        b: "Coracobrachialis muscle",
+        c: "All of the above contributed",
+        d: "Subclavius muscle",
+        e: "Pectoralis minor muscle"
+    },
+    correct: "d",
+    explanation: "The short head of the biceps brachii and the coracobrachialis originate from the coracoid process of the scapula, whereas the pectoralis minor inserts onto it. The pull of these muscles may therefore contribute to displacement of the fractured fragment. The subclavius muscle has no attachment to the coracoid process of the scapula and therefore cannot contribute to its displacement."
+  }
+},
 
           {
             id: 12,
@@ -4451,7 +4478,7 @@ const QUESTION_DATA = {
         "e": "Articulatio ellipsoidea"
       },
       "correct": "a",
-      "explanation": "Enarthrosis je speciální typ kulového kloubu, kde je hlavice výrazně zapuštěná do hluboké jamky, což zvyšuje stabilitu, ale omezuje rozsah pohybu. Typickým příkladem je právě articulatio coxae, kde hluboké acetabulum a labrum acetabulare stabilizují hlavici femuru."
+      "explanation": "Enarthrosis je speciální typ kulového kloubu, kde je hlavice výrazně zapuštěná do hluboké jamky, což zvyšuje stabilitu, ale omezuje rozsah pohybu. Typickým příkladem je právě articulatio coxae, kde hluboké acetabulum a labrum acetabulare stabilizují hlavici femuru. https://is.muni.cz/do/rect/el/estud/lf/ps15/pohyby_klouby/web/pages/coxae.html"
     },
     "en": {
       "stem": "What type of joint is the hip joint",
@@ -4586,7 +4613,7 @@ const QUESTION_DATA = {
         e: "Oba menisky jsou pevně spojeny s ligamentum patellae"
       },
       correct: "a",
-      explanation: "Meniscus lateralis je spojen se šlachou m. popliteus, která jej při pohybech kolenního kloubu mobilizuje a umožňuje jeho posun. Na rozdíl od meniscus medialis není spojen s ligamentum collaterale fibulare, což přispívá k jeho větší pohyblivosti a nižší náchylnosti k poranění."
+      explanation: "Meniscus lateralis je spojen se šlachou m. popliteus, která probíhá v jeho zadní části a pomáhá jej při pohybu kolenního kloubu posouvat. Meniscus medialis je pevně spojen s ligamentum collaterale tibiale, nikoli s ligamentum cruciatum anterius. Meniscus lateralis naopak není pevně spojen s ligamentum collaterale fibulare, což mu umožňuje větší pohyblivost. Ani jeden z menisků není pevně spojen s ligamentum patellae."
     },
     en: {
       stem: "Which of the following statements about the knee joint is true?",
@@ -4598,7 +4625,7 @@ const QUESTION_DATA = {
         e: "Both menisci are firmly attached to the patellar ligament"
       },
       correct: "a",
-      explanation: "The lateral meniscus is connected to the tendon of the popliteus muscle, which mobilizes it during knee joint movements and allows its displacement. Unlike the medial meniscus, it is not connected to the fibular collateral ligament, which contributes to its greater mobility and lower susceptibility to injury."
+      explanation: "The lateral meniscus is connected to the tendon of the popliteus muscle, which runs along its posterior aspect and helps move it during knee joint movements. The medial meniscus is firmly attached to the tibial collateral ligament, not the anterior cruciate ligament. In contrast, the lateral meniscus is not firmly attached to the fibular collateral ligament, allowing it greater mobility. Neither meniscus is firmly attached to the patellar ligament."
     }
   },
   {
@@ -4748,7 +4775,7 @@ const QUESTION_DATA = {
         "e": "Dorzální flexe v hlezenním kloubu a flexe v kolenním kloubu"
       },
       "correct": "a",
-      "explanation": "M. triceps surae tvoří m. gastrocnemius a m. soleus. Oba svaly zajišťují především plantární flexi v hlezenním kloubu. M. gastrocnemius navíc překračuje kolenní kloub, a proto se podílí na flexi kolene. M. soleus tuto funkci nemá, protože kolenní kloub nepřekračuje."
+      "explanation": "M. triceps surae tvoří m. gastrocnemius (caput mediale et caput laterale) a m. soleus. Tyto svaly zajišťují především plantární flexi v hlezenním kloubu. M. gastrocnemius navíc překračuje kolenní kloub, a proto se podílí na flexi kolene. M. soleus tuto funkci nemá, protože kolenní kloub nepřekračuje."
     },
     "en": {
       "stem": "A 22-year-old athlete injured the muscle group on the posterior aspect of the leg during sprinting. Examination confirmed a lesion of the triceps surae muscle of the right lower limb. The patient reports difficulty with push-off from the ground and with certain movements of the lower limb. Which of the following combinations of movements will be most weakened in this patient?",
@@ -4760,7 +4787,7 @@ const QUESTION_DATA = {
         "e": "Dorsiflexion at the ankle joint and flexion at the knee joint"
       },
       "correct": "a",
-      "explanation": "The triceps surae muscle consists of the gastrocnemius muscle and soleus muscle. Both muscles primarily perform plantar flexion at the ankle joint. The gastrocnemius muscle additionally crosses the knee joint and therefore contributes to knee flexion. The soleus muscle does not have this function because it does not cross the knee joint."
+      "explanation": "The triceps surae muscle consists of the gastrocnemius muscle (medial and lateral heads) and the soleus muscle. Both muscles primarily perform plantar flexion at the ankle joint. The gastrocnemius muscle additionally crosses the knee joint and therefore contributes to knee flexion. The soleus muscle does not have this function because it does not cross the knee joint."
     }
   },
   {
@@ -5823,10 +5850,10 @@ const QUESTION_DATA = {
       b: "n. subscapularis",
       c: "n. axillaris",
       d: "n. suprascapularis",
-      e: "n. radialis"
+      e: "n. thoracicus longus"
     },
     correct: "a",
-    explanation: "n. thoracodorsalis inervuje m. latissimus dorsi. Tento sval zajišťuje extenzi, addukci a vnitřní rotaci paže. Léze vede k oslabení těchto pohybů a atrofii svalu."
+    explanation: "N. thoracodorsalis inervuje m. latissimus dorsi. Tento sval zajišťuje extenzi, addukci a vnitřní rotaci paže. Léze vede k oslabení těchto pohybů a atrofii svalu."
   },
   en: {
     stem: "A 28-year-old man reports weakness of arm extension and adduction after weight training. Examination reveals atrophy of the latissimus dorsi muscle. Which nerve is most likely affected?",
@@ -5835,7 +5862,7 @@ const QUESTION_DATA = {
       b: "subscapular nerve",
       c: "axillary nerve",
       d: "suprascapular nerve",
-      e: "radial nerve"
+      e: "long thoracic nerve"
     },
     correct: "a",
     explanation: "The thoracodorsal nerve supplies latissimus dorsi. Its functions include extension, adduction, and internal rotation of the arm. Lesions cause weakness and muscle atrophy."
@@ -17214,7 +17241,7 @@ id: 269,
         "e": "Obě ledviny jsou v kontaktu s 10., 11. a 12. žebrem."
       },
       "correct": "a",
-      "explanation": "Levá ledvina je uložena výše než pravá a její zadní plocha souvisí s 11. a 12. žebrem. Pravá ledvina je níže a její zadní plocha souvisí pouze s 12. žebrem. Tento rozdíl souvisí především s polohou jater, který omezuje kraniální postavení pravé ledviny."
+      "explanation": "Levá ledvina je uložena výše než pravá a její zadní plocha souvisí s 11. a 12. žebrem. Pravá ledvina je níže a její zadní plocha souvisí pouze s 12. žebrem. Tento rozdíl souvisí především s polohou jater, které omezují kraniální postavení pravé ledviny."
     },
     "en": {
       "stem": "During CT imaging of the retroperitoneum, a radiologist evaluates the relationship of the kidneys to the lower ribs. Which statement regarding the skeletal relationships of the kidneys is correct?",
