@@ -2970,6 +2970,33 @@ const QUESTION_DATA = {
     explanation: "The short head of the biceps brachii and the coracobrachialis originate from the coracoid process of the scapula, whereas the pectoralis minor inserts onto it. The pull of these muscles may therefore contribute to displacement of the fractured fragment. The subclavius muscle has no attachment to the coracoid process of the scapula and therefore cannot contribute to its displacement."
   }
 },
+{
+  id: 1133,
+  cz: {
+    stem: "Při neurologickém vyšetření u třiačtyřicetileté ženy, která před třemi týdny prodělala operaci prsu s exenterací axily, lékař zjistil, že pacientka při aktivní abdukci levé paže nedokáže zvednout horní končetinu nad horizontálu. Při pokusu o předpažení proti odporu se navíc mediální okraj lopatky odlepuje od hrudní stěny. Který sval má nejspíše porušenou inervaci?",
+    options: {
+        a: "m. subclavius",
+        b: "m. subscapularis",
+        c: "m. pectoralis major",
+        d: "m. supraspinatus",
+        e: "m. serratus anterior"
+    },
+    correct: "e",
+    explanation: "M. serratus anterior je inervován n. thoracicus longus, který může být poškozen při exenteraci axily. Sval přitlačuje lopatku k hrudní stěně a podílí se na její zevní rotaci, která je nezbytná pro vzpažení horní končetiny nad horizontálu. Při jeho ochrnutí dochází k odstávání mediálního okraje lopatky od hrudní stěny (scapula alata) a k omezení abdukce paže nad horizontálu."
+  },
+  en: {
+    stem: "During a neurological examination of a 43-year-old woman who underwent breast surgery with axillary dissection three weeks earlier, the physician found that the patient was unable to raise her left upper limb above the horizontal plane during active abduction of the arm. Additionally, when attempting to flex the shoulder against resistance, the medial border of the scapula protruded from the thoracic wall. Which muscle most likely has impaired innervation?",
+    options: {
+        a: "Subclavius muscle",
+        b: "Subscapularis muscle",
+        c: "Pectoralis major muscle",
+        d: "Supraspinatus muscle",
+        e: "Serratus anterior muscle"
+    },
+    correct: "e",
+    explanation: "The serratus anterior muscle is innervated by the long thoracic nerve, which may be injured during axillary dissection. The muscle holds the scapula against the thoracic wall and contributes to its upward rotation, which is essential for raising the upper limb above the horizontal plane. Paralysis of this muscle causes the medial border of the scapula to protrude from the thoracic wall (scapula alata) and limits arm abduction above the horizontal plane."
+  }
+},
 
           {
             id: 12,
