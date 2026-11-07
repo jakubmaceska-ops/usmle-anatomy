@@ -2996,7 +2996,34 @@ const QUESTION_DATA = {
     correct: "e",
     explanation: "The serratus anterior muscle is innervated by the long thoracic nerve, which may be injured during axillary dissection. The muscle holds the scapula against the thoracic wall and contributes to its upward rotation, which is essential for raising the upper limb above the horizontal plane. Paralysis of this muscle causes the medial border of the scapula to protrude from the thoracic wall (scapula alata) and limits arm abduction above the horizontal plane."
   }
-},
+            },
+            {
+                id: 1140,
+                cz: {
+                    stem: "U 28letého muže došlo k poranění n. radialis v oblasti střední třetiny paže. Má oslabenou extenzi zápěstí a prstů, ale při lokti flektovaném do 90° dokáže předloktí téměř normálně supinovat. Který sval tuto zachovanou funkci nejlépe vysvětluje?",
+                    options: {
+                        a: "M. supinator.",
+                        b: "M. biceps brachii.",
+                        c: "M. brachioradialis.",
+                        d: "M. pronator teres.",
+                        e: "M. anconeus."
+                    },
+                    correct: "b",
+                    explanation: "M. biceps brachii je nejsilnější supinátor předloktí, zejména při flektovaném lokti, kdy je jeho supinační síla největší. Inervuje jej n. musculocutaneus, takže jeho funkce zůstává při izolované lézi n. radialis zachována. M. supinator, m. brachioradialis a m. anconeus jsou inervovány n. radialis, takže bude jejich funkce postižena. M. pronator teres je inervován n. medianus a zajišťuje pronaci předloktí."
+                },
+                en: {
+                    stem: "A 28-year-old man sustains an injury to the radial nerve in the middle third of the arm. He has weakened wrist and finger extension but can still supinate the forearm almost normally when the elbow is flexed to 90°. Which muscle best explains this preserved function?",
+                    options: {
+                        a: "Supinator muscle.",
+                        b: "Biceps brachii muscle.",
+                        c: "Brachioradialis muscle.",
+                        d: "Pronator teres muscle.",
+                        e: "Anconeus muscle."
+                    },
+                    correct: "b",
+                    explanation: "The biceps brachii is the strongest supinator of the forearm, particularly when the elbow is flexed, which maximizes its supination force. It is innervated by the musculocutaneous nerve, so its function remains intact in an isolated radial nerve injury. The supinator, brachioradialis, and anconeus muscles are innervated by the radial nerve, so their function is impaired. The pronator teres is innervated by the median nerve and is responsible for forearm pronation."
+                }
+            },
 
           {
             id: 12,
