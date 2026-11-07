@@ -23676,6 +23676,35 @@ id: 269,
                 image: { key: "q1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" },
                 explanationImage: { key: "e1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" }
             },
+            {
+                id: 1139,
+                cz: {
+                    stem: "35letý muž přichází pro postupně se zhoršující necitlivost tváře, horního rtu a oblasti horních zubů. Neurologické vyšetření odhalí sníženou citlivost v oblasti střední části obličeje, zatímco motorická funkce obličejových svalů zůstává zachována. MRI mozku prokáže pomalu rostoucí meningeom utlačující hlavový nerv v místě jeho výstupu z lebeční dutiny. Kde je meningeom lokalizován?",
+                    options: {
+                        a: "4",
+                        b: "5",
+                        c: "3",
+                        d: "6",
+                        e: "8"
+                    },
+                    correct: "b",
+                    explanation: "Klinický obraz odpovídá lézi nervus maxillaris (V2), druhé větve trojklanného nervu (n. V), která zajišťuje senzitivní inervaci střední části obličeje, včetně tváře, dolního víčka, horního rtu a horních zubů (prostřednictvím rr. alveolares superiores). Nervus maxillaris vystupuje z lebeční dutiny skrze foramen rotundum. Motorická funkce obličejových svalů zůstává zachována, protože ji zajišťuje n. facialis (n. VII), který opouští lebku přes foramen stylomastoideum."
+                },
+                en: {
+                    stem: "A 35-year-old man presents with progressively worsening numbness of the cheek, upper lip, and upper teeth. Neurological examination reveals decreased sensation in the midface, while motor function of the facial muscles remains intact. Brain MRI reveals a slowly growing meningioma compressing a cranial nerve at the point where it exits the cranial cavity. Where is the meningioma located?",
+                    options: {
+                        a: "4",
+                        b: "5",
+                        c: "3",
+                        d: "6",
+                        e: "8"
+                    },
+                    correct: "b",
+                    explanation: "The clinical presentation is consistent with a lesion of the maxillary nerve (CN V2), the second division of the trigeminal nerve (CN V), which provides sensory innervation to the midface, including the cheek, lower eyelid, upper lip, and upper teeth (via the superior alveolar branches). The maxillary nerve exits the cranial cavity through the foramen rotundum. Motor function of the facial muscles remains intact because these muscles are innervated by the facial nerve (CN VII), which exits the skull through the stylomastoid foramen."
+                },
+                image: { key: "q1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" },
+                explanationImage: { key: "e1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" }
+            },
         ]
       },
       zrakovy_sluchovy: {
