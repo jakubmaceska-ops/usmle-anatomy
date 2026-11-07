@@ -15939,7 +15939,34 @@ id: 269,
   },
   image: { key: "q1125_custom", source: "Johnlancer123. Cross section of the umbilical cord.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_the_umbilical_cord.jpg. CC BY-SA 3.0. Accessed 14 October 2026.", type: "image" },
   explanationImage: { key: "e1125_custom", source: "Johnlancer123. Cross section of the umbilical cord.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Cross_section_of_the_umbilical_cord.jpg. CC BY-SA 3.0. Accessed 14 October 2026.", type: "image" }
-},
+            },
+            {
+                id: 1136,
+                cz: {
+                    stem: "32letý muž je hospitalizován pro hlubokou žilní trombózu levé dolní končetiny. Několik dní po zahájení léčby se u něj náhle rozvine pravostranná hemiparéza a afázie. CT mozku prokáže akutní ischemický infarkt v povodí levé a. cerebri media. Při následném vyšetření je prokázáno otevřené foramen ovale, kterým pravděpodobně došlo k paradoxní embolizaci. Kterým z následujících srdečních oddílů embolus během své cesty z hlubokých žil dolní končetiny do mozkového řečiště neprošel?",
+                    options: {
+                        a: "Pravá síň.",
+                        b: "Pravá komora.",
+                        c: "Levá síň.",
+                        d: "Levá komora.",
+                        e: "Embolus prošel všemi srdečními oddíly."
+                    },
+                    correct: "b",
+                    explanation: "Embolus vzniklý uvolněním části trombu z hlubokých žil dolní končetiny postupuje přes v. cava inferior do pravé síně. Za normálních okolností by pokračoval do pravé komory a odtud do plicního řečiště (truncus pulmonalis a aa. pulmonales), kde by mohl způsobit plicní embolii. V tomto případě však otevřené foramen ovale umožnilo jeho přechod přímo z pravé síně do levé síně, čímž obešel pravou komoru i plicní řečiště. Následně prošel levou komorou a aortou do systémového oběhu a dostal se až do mozkového řečiště, kde způsobil ischemickou cévní mozkovou příhodu. Tento mechanismus se označuje jako paradoxní embolizace."
+                },
+                en: {
+                    stem: "A 32-year-old man is hospitalized for deep vein thrombosis of the left lower extremity. Several days after initiation of treatment, he suddenly develops right-sided hemiparesis and aphasia. Brain CT reveals an acute ischemic infarction in the territory of the left middle cerebral artery. Subsequent examination reveals a patent foramen ovale, through which paradoxical embolism most likely occurred. Which of the following cardiac chambers did the embolus NOT pass through during its journey from the deep veins of the lower extremity to the cerebral circulation?",
+                    options: {
+                        a: "Right atrium.",
+                        b: "Right ventricle.",
+                        c: "Left atrium.",
+                        d: "Left ventricle.",
+                        e: "The embolus passed through all cardiac chambers."
+                    },
+                    correct: "b",
+                    explanation: "An embolus formed by the detachment of a fragment of thrombus from the deep veins of the lower extremity travels through the inferior vena cava into the right atrium. Under normal circumstances, it would proceed into the right ventricle and then into the pulmonary circulation (pulmonary trunk and pulmonary arteries), where it could cause a pulmonary embolism. In this case, however, the patent foramen ovale allowed it to pass directly from the right atrium into the left atrium, thereby bypassing the right ventricle and pulmonary circulation. It subsequently passed through the left ventricle and aorta into the systemic circulation, eventually reaching the cerebral circulation, where it caused an ischemic stroke. This mechanism is known as paradoxical embolism."
+                }
+            },
 ]
       },
       pohlavni_soustava: {
