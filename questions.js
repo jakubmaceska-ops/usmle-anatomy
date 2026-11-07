@@ -3637,7 +3637,7 @@ const QUESTION_DATA = {
         e: "Musculus tensor fasciae latae"
     },
     correct: "a",
-    explanation: "U pacienta se rozvinul „hruškovitý syndrom“, kdy tento sval vyplňuje foramen ischiadicum majus a dělí ho na foramen suprapiriforme a infrapiriforme. Při jeho traumatu nebo otoku dochází ke kompresi těsně pod ním probíhajícího nervus ischiadicus, což způsobuje bolest a parestézie střílející do zadní strany stehna. Pasivní vnitřní rotace v kyčelním kloubu tento sval napíná, což tlak na nerv dále zvyšuje a vyvolává popsané příznaky."
+      explanation: "U pacienta se rozvinul „hruškovitý syndrom“, kdy musculus piriformis (hruškovitý sval) vyplňuje foramen ischiadicum majus a dělí ho na foramen suprapiriforme a infrapiriforme. Při jeho traumatu nebo otoku dochází ke kompresi těsně pod ním probíhajícího nervus ischiadicus, což způsobuje bolest a parestézie střílející do zadní strany stehna. Pasivní vnitřní rotace v kyčelním kloubu tento sval napíná, což tlak na nerv dále zvyšuje a vyvolává popsané příznaky."
   },
   en: {
     stem: "A 29-year-old man complains of deep pain in the gluteal region after a skiing fall. Examination reveals palpation tenderness in the region of the foramen ischiadicum majus, and the patient reports tingling radiating into the posterior thigh during passive internal rotation of the hip joint. Which of the following muscles, through its swelling, is most likely compressing the structures passing through this foramen?",
@@ -3649,7 +3649,7 @@ const QUESTION_DATA = {
         e: "Tensor fasciae latae muscle"
     },
     correct: "a",
-    explanation: "The patient has developed “piriformis syndrome,” in which this muscle fills the foramen ischiadicum majus and divides it into the foramen suprapiriforme and infrapiriforme. Trauma or swelling of the muscle compresses the nervus ischiadicus, which runs just beneath it, causing pain and paresthesia shooting into the posterior thigh. Passive internal rotation of the hip stretches this muscle, further increasing pressure on the nerve and provoking the described symptoms."
+      explanation: "The patient has developed “piriformis syndrome,” in which the piriformis muscle fills the foramen ischiadicum majus and divides it into the foramen suprapiriforme and infrapiriforme. Trauma or swelling of the muscle compresses the nervus ischiadicus, which runs just beneath it, causing pain and paresthesia shooting into the posterior thigh. Passive internal rotation of the hip stretches this muscle, further increasing pressure on the nerve and provoking the described symptoms."
   }
 },
 {
@@ -25902,7 +25902,7 @@ const LIVE_QUESTION_BANKS = {
         a: "N. ischiadicus",
         b: "N. femoralis",
         c: "N. tibialis",
-        d: "Nejméně 1 sval je diploneurální",
+        d: "N. saphenus",
         e: "N. cutaneus femoris anterior"
     },
     correct: "a",
@@ -25914,7 +25914,7 @@ const LIVE_QUESTION_BANKS = {
         a: "N. ischiadicus",
         b: "N. femoralis",
         c: "N. tibialis",
-        d: "At least 1 muscle is dually innervated",
+        d: "N. saphenus",
         e: "N. cutaneus femoris anterior"
     },
     correct: "a",
