@@ -8971,7 +8971,37 @@ id: 269,
     explanation: "The metopic suture is the suture between the right and left portions of the frontal bone. Its presence is physiological in newborns and young children, and it normally closes during childhood. When it persists into adulthood, it represents an anatomical variant reported in approximately 1–9% of the adult population in different studies. The coronal suture separates the frontal bone from the parietal bones, whereas the sagittal suture lies between the right and left parietal bones. The mendosal suture is an anatomical variant of a cranial suture located on the occipital bone. This is not a pathological fracture. This does not represent a pathological fracture."
   },
   image: { key: "q1037_custom", source: "Hellerhoff. Persistierende Sutura frontalis mediana 39W - CT - 001.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Persistierende_Sutura_frontalis_mediana_39W_-_CT_-_001.jpg. CC BY-SA 4.0. Accessed 13 August 2026.", type: "image" }
-},]
+            },
+            {
+                id: 1137,
+                cz: {
+                    stem: "28letý muž přichází pro oslabení žvýkacích svalů a sníženou citlivost v oblasti dolní části obličeje po úrazu baze lební. Při fyzikálním vyšetření je zjištěna porucha motorické funkce svalů inervovaných nervus mandibularis (V3). Kterým z následujících otvorů tento nerv vystupuje z lebeční dutiny?",
+                    options: {
+                        a: "3",
+                        b: "5",
+                        c: "6",
+                        d: "7",
+                        e: "8"
+                    },
+                    correct: "c",
+                    explanation: "Nervus mandibularis (V3) vystupuje z lebeční dutiny skrze foramen ovale. Obsahuje senzitivní vlákna z dolní části obličeje a motorická vlákna inervující žvýkací svaly. Naproti tomu nervus maxillaris (V2) prochází foramen rotundum."
+                },
+                en: {
+                    stem: "A 28-year-old man presents with weakness of the muscles of mastication and decreased sensation in the lower part of the face following a skull base injury. Physical examination reveals impaired motor function of the muscles innervated by the mandibular nerve (CN V3). Through which of the following foramina does this nerve exit the cranial cavity?",
+                    options: {
+                        a: "3",
+                        b: "5",
+                        c: "6",
+                        d: "7",
+                        e: "8"
+                    },
+                    correct: "c",
+                    explanation: "The mandibular nerve (CN V3) exits the cranial cavity through the foramen ovale. It contains sensory fibers from the lower part of the face and motor fibers supplying the muscles of mastication. In contrast, the maxillary nerve (CN V2) passes through the foramen rotundum."
+                },
+                image: { key: "q1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" },
+                explanationImage: { key: "e1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" }
+            },
+        ]
       },
       travici_soustava: {
         title: { cz: "Trávicí soustava", en: "Digestive System" },
