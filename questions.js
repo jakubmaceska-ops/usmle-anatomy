@@ -23646,7 +23646,36 @@ id: 269,
       "correct": "a",
       "explanation": "The deep ansa cervicalis is a nerve loop formed by fibers from the anterior rami of spinal nerves C1–C3. C1 fibers initially travel with the hypoglossal nerve and then separate as the descending branch of the hypoglossal nerve to form the superior root of the loop. The inferior root is formed by C2–C3 fibers and descends from the cervical plexus. The deep ansa cervicalis provides motor innervation to the sternohyoid muscle, sternothyroid muscle, and omohyoid muscle. The thyrohyoid muscle is an exception because it is directly innervated by C1 fibers traveling with the hypoglossal nerve."
     }
-  },
+            },
+            {
+                id: 1138,
+                cz: {
+                    stem: "42letá žena přichází pro postupně se zhoršující obtíže s polykáním a poruchu dávivého reflexu. Při neurologickém vyšetření je zjištěna snížená citlivost v zadní třetině jazyka a oslabení m. stylopharyngeus. MRI mozku prokáže meningeom v oblasti otvoru na bazi lební, který způsobil útlak určitého hlavového nervu, což způsobilo pacientovy obtíže. Kde je meningeom lokalizovaný?",
+                    options: {
+                        a: "3",
+                        b: "4",
+                        c: "5",
+                        d: "8",
+                        e: "6"
+                    },
+                    correct: "d",
+                    explanation: "Klinický obraz odpovídá lézi n. glossopharyngeus (n. IX): senzitivní inervace zadní třetiny jazyka, aferentní část dávivého reflexu a motorická inervace m. stylopharyngeus (jediný sval inervovaný n. IX). Nerv opouští lebeční dutinu přes foramen jugulare spolu s n. X a n. XI (a v. jugularis interna). Při rozsáhlejším útlaku v této oblasti se mohou přidat příznaky z postižení n. X (chrapot, dysfagie) a n. XI (oslabení m. trapezius a m. sternocleidomastoideus)."
+                },
+                en: {
+                    stem: "A 42-year-old woman presents with progressively worsening difficulty swallowing and an impaired gag reflex. Neurological examination reveals decreased sensation in the posterior third of the tongue and weakness of the stylopharyngeus muscle. Brain MRI reveals a meningioma in the region of a skull base foramen, causing compression of a specific cranial nerve and resulting in the patient's symptoms. Where is the meningioma located?",
+                    options: {
+                        a: "3",
+                        b: "4",
+                        c: "5",
+                        d: "8",
+                        e: "6"
+                    },
+                    correct: "d",
+                    explanation: "The clinical presentation is consistent with a lesion of the glossopharyngeal nerve (CN IX), which provides sensory innervation to the posterior third of the tongue, forms the afferent limb of the gag reflex, and supplies motor innervation to the stylopharyngeus muscle (the only muscle innervated by CN IX). The nerve exits the cranial cavity through the jugular foramen, together with the vagus (CN X) and accessory (CN XI) nerves (and the internal jugular vein). More extensive compression in this region may also cause symptoms of CN X involvement (hoarseness, dysphagia) and CN XI involvement (weakness of the trapezius and sternocleidomastoid muscles)."
+                },
+                image: { key: "q1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" },
+                explanationImage: { key: "e1137_custom", source: "Welleschik; modified by Mcstrother. Skull foramina labeled.svg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Skull_foramina_labeled.svg. CC BY-SA 3.0. Accessed 7 November 2026.", type: "image" }
+            },
         ]
       },
       zrakovy_sluchovy: {
