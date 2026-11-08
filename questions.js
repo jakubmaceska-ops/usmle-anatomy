@@ -26866,6 +26866,33 @@ const LIVE_QUESTION_BANKS = {
                 explanation: "The pronator teres muscle is innervated by the median nerve. The ulnar nerve innervates the flexor carpi ulnaris, adductor pollicis, and abductor digiti minimi muscles. The brachioradialis muscle is innervated by the radial nerve."
             }
         },
+        {
+            id: 10291,
+            cz: {
+                stem: "U 52leté ženy se po chirurgickém zákroku v oblasti zadní strany ramenního kloubu objevila neschopnost aktivně zahájit abdukci v ramenním kloubu. Jakmile jí vyšetřující lékař paži pasivně odtáhne asi o 15°, dokáže pokračovat v abdukci až do horizontály. Který nerv byl s největší pravděpodobností při operaci poškozen?",
+                options: {
+                    a: "N. suprascapularis.",
+                    b: "N. axillaris.",
+                    c: "N. thoracicus longus.",
+                    d: "N. accessorius.",
+                    e: "N. thoracodorsalis."
+                },
+                correct: "a",
+                explanation: "M. supraspinatus, inervovaný n. suprascapularis, zahajuje abdukci paže v ramenním kloubu v rozsahu přibližně 0–15°. Následně přebírá hlavní úlohu m. deltoideus, který je inervován n. axillaris a zajišťuje pokračování abdukce přibližně do 90°. Při lézi n. suprascapularis proto pacient nedokáže abdukci aktivně zahájit, ale po pasivním odtažení paže může v pohybu pokračovat díky zachované funkci m. deltoideus."
+            },
+            en: {
+                stem: "A 52-year-old woman develops an inability to actively initiate shoulder abduction following surgery in the posterior shoulder region. Once the examining physician passively abducts her arm to approximately 15°, she is able to continue abducting it to the horizontal plane. Which nerve was most likely injured during the surgery?",
+                options: {
+                    a: "Suprascapular nerve.",
+                    b: "Axillary nerve.",
+                    c: "Long thoracic nerve.",
+                    d: "Accessory nerve.",
+                    e: "Thoracodorsal nerve."
+                },
+                correct: "a",
+                explanation: "The supraspinatus muscle, innervated by the suprascapular nerve, initiates shoulder abduction during the first approximately 15°. The deltoid muscle, innervated by the axillary nerve, then becomes the primary muscle responsible for continuing abduction up to approximately 90°. Therefore, injury to the suprascapular nerve prevents the patient from actively initiating abduction. However, once the arm is passively abducted beyond the initial 15°, the patient can continue the movement due to preserved deltoid function."
+            }
+        },
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
