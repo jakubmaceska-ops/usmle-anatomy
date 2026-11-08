@@ -3024,6 +3024,34 @@ const QUESTION_DATA = {
                     explanation: "The biceps brachii is the strongest supinator of the forearm, particularly when the elbow is flexed, which maximizes its supination force. It is innervated by the musculocutaneous nerve, so its function remains intact in an isolated radial nerve injury. The supinator, brachioradialis, and anconeus muscles are innervated by the radial nerve, so their function is impaired. The pronator teres is innervated by the median nerve and is responsible for forearm pronation."
                 }
             },
+            {
+                id: 1141,
+                cz: {
+                    stem: "Při chirurgickém přístupu k ramennímu kloubu chirurg identifikuje foramen humerotricipitale. Které struktury jím procházejí?",
+                    options: {
+                        a: "N. axillaris a a. circumflexa humeri posterior.",
+                        b: "N. axillaris a a. circumflexa humeri anterior.",
+                        c: "N. radialis a a. profunda brachii.",
+                        d: "N. suprascapularis a a. suprascapularis.",
+                        e: "N. musculocutaneus a a. circumflexa humeri anterior."
+                    },
+                    correct: "a",
+                    explanation: "Foramen humerotricipitale je ohraničen m. teres minor nahoře, m. teres major dole, dlouhou hlavou m. triceps brachii mediálně a chirurgickým krčkem humeru laterálně. Procházejí jím n. axillaris a vasa circumflexa humeri post., které zásobují a inervují zejména oblast deltového svalu a ramenního kloubu."
+                },
+                en: {
+                    stem: "During a surgical approach to the shoulder joint, the surgeon identifies the quadrangular space. Which structures pass through it?",
+                    options: {
+                        a: "Axillary nerve and posterior circumflex humeral artery.",
+                        b: "Axillary nerve and anterior circumflex humeral artery.",
+                        c: "Radial nerve and profunda brachii artery.",
+                        d: "Suprascapular nerve and suprascapular artery.",
+                        e: "Musculocutaneous nerve and anterior circumflex humeral artery."
+                    },
+                    correct: "a",
+                    explanation: "The quadrangular space is bounded superiorly by the teres minor muscle, inferiorly by the teres major muscle, medially by the long head of the triceps brachii, and laterally by the surgical neck of the humerus. It transmits the axillary nerve and posterior circumflex humeral vessels, which supply the deltoid region and shoulder joint."
+                },
+                explanationImage: { key: "e1141_custom", source: "Icewalker. Foramina.png. WikiSkripta. Available from: https://www.wikiskripta.eu/w/Soubor:Foramina.png. CC BY 3.0 CZ. Accessed 8 November 2026.", type: "image" }
+            },
 
           {
             id: 12,
