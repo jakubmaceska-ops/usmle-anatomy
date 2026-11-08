@@ -26838,7 +26838,34 @@ const LIVE_QUESTION_BANKS = {
     explanation: "The male pelvis has a more prominent promontory, a higher pubic symphysis (approximately 5 cm compared with 4.5 cm in females), a sharper pubic angle, a deeper greater sciatic notch in its upper part, and a longer, less mobile coccyx. In contrast, a wide and shallow greater sciatic notch is characteristic of the female pelvis."
   },
   explanationImage: { key: "e1124_custom", source: "OpenStax College. 809 Male Female Pelvic Girdle.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg. CC BY 3.0. Accessed 28 September 2026.", type: "image" }
-},
+        },
+        {
+            id: 10290,
+            cz: {
+                stem: "Který z následujících svalů předloktí je inervován n. medianus?",
+                options: {
+                    a: "M. flexor carpi ulnaris.",
+                    b: "M. brachioradialis.",
+                    c: "M. pronator teres.",
+                    d: "M. adductor pollicis.",
+                    e: "M. abductor digiti minimi."
+                },
+                correct: "c",
+                explanation: "M. pronator teres je inervován n. medianus. N. ulnaris inervuje m. flexor carpi ulnaris, m. adductor pollicis a m. abductor digiti minimi. M. brachioradialis je inervován n. radialis."
+            },
+            en: {
+                stem: "Which of the following forearm muscles is innervated by the median nerve?",
+                options: {
+                    a: "Flexor carpi ulnaris muscle.",
+                    b: "Brachioradialis muscle.",
+                    c: "Pronator teres muscle.",
+                    d: "Adductor pollicis muscle.",
+                    e: "Abductor digiti minimi muscle."
+                },
+                correct: "c",
+                explanation: "The pronator teres muscle is innervated by the median nerve. The ulnar nerve innervates the flexor carpi ulnaris, adductor pollicis, and abductor digiti minimi muscles. The brachioradialis muscle is innervated by the radial nerve."
+            }
+        },
     ]
     // =ANATOMIE_1_VERZE_3_END=
   },
