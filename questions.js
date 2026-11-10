@@ -6688,24 +6688,24 @@ id: 269,
       "options": {
         "a": "Musculus mylohyoideus",
         "b": "Musculus thyrohyoideus",
-        "c": "Musculus geniohyoideus",
+          "c": "Musculus sternohyoideus",
         "d": "Musculus omohyoideus",
         "e": "Musculus scalenus anterior"
       },
       "correct": "a",
-      "explanation": "Musculus mylohyoideus je suprahyoidní sval, který se podílí na elevaci os hyoideum a tvoří svalové dno dutiny ústní. Musculus geniohyoideus sice patří mezi suprahyoidní svaly, ale jeho hlavní funkcí je posun os hyoideum a jazyka dopředu. M. sternohyoideus, m. omohyoideus a m. sternothyroideus patří mezi infrahyoidní svaly a podílejí se především na depresi os hyoideum."
+        "explanation": "Musculus mylohyoideus je suprahyoidní sval, který se podílí na elevaci os hyoideum a tvoří svalové dno dutiny ústní (diaphragma oris). M. sternohyoideus, m. thyrohyoideus a m. omohyoideus patří mezi infrahyoidní svaly a podílejí se především na depresi os hyoideum. M. scalenus anterior s jazylkou nesouvisí, jde o hluboký sval krku, který elevuje 1. žebro a podílí se na inspiraci."
     },
     "en": {
       "stem": "Which of the following muscles elevates the hyoid bone?",
       "options": {
         "a": "Mylohyoid muscle",
         "b": "Thyrohyoid muscle",
-        "c": "Geniohyoid muscle",
+          "c": "Sternohyoid muscle",
         "d": "Omohyoid muscle",
         "e": "Anterior scalene muscle"
       },
       "correct": "a",
-      "explanation": "The mylohyoid muscle is a suprahyoid muscle that contributes to elevation of the hyoid bone and forms the muscular floor of the oral cavity. The geniohyoid muscle also belongs to the suprahyoid muscles, but its main function is to move the hyoid bone and the tongue anteriorly. The sternohyoid muscle, omohyoid muscle, and sternothyroid muscle belong to the infrahyoid muscles and primarily contribute to depression of the hyoid bone."
+        "explanation": "The mylohyoid muscle is a suprahyoid muscle that contributes to elevation of the hyoid bone and forms the muscular floor of the oral cavity. The sternohyoid, thyrohyoid, and omohyoid muscles belong to the infrahyoid muscles and primarily contribute to depression of the hyoid bone. The anterior scalene muscle is unrelated to the hyoid bone; it is a deep neck muscle that elevates the first rib and assists in inspiration."
     }
   },
   {
