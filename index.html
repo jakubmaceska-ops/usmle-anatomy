@@ -1612,6 +1612,8 @@
     transition: border-color 0.12s, background 0.12s;
     font-size: 15px;
     line-height: 1.5;
+    position: relative;
+    overflow: hidden;
   }
 
   .q-option:hover:not(.locked) {
@@ -1651,6 +1653,34 @@
     background: var(--bg-hover-strong);
   }
   .q-option.selected-neutral .opt-letter { color: var(--ink); }
+
+  /* Statistika odpovědí (Procházet): % uživatelů, kteří zvolili danou možnost */
+  .q-option .opt-text { flex: 1; min-width: 0; }
+  .q-option .opt-pct {
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-left: auto;
+    padding: 2px 0 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #5a5a5a;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    animation: optPctFade 0.25s ease;
+  }
+  body.dark-mode .q-option .opt-pct { color: #a0a0a0; }
+  /* Nenápadný průhledný pásek za možností, délka = podíl uživatelů */
+  .q-option .opt-bar {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 0;
+    background: rgba(128, 128, 128, 0.16);
+    pointer-events: none;
+    transition: width 0.5s ease;
+  }
+  .q-option > :not(.opt-bar) { position: relative; }
+  @keyframes optPctFade { from { opacity: 0; } to { opacity: 1; } }
 
   .explanation {
     margin-top: 24px;
@@ -2634,7 +2664,7 @@
   // Firebase SDK pro "Živý test" (multiplayer): Realtime Database + Anonymous Auth.
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
   import {
-    getDatabase, ref, push, set, update, get, onValue, off, serverTimestamp
+    getDatabase, ref, push, set, update, get, onValue, off, serverTimestamp, increment
   } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-database.js";
   import {
     getAuth, signInAnonymously, signInWithCustomToken, signOut, onAuthStateChanged
@@ -2667,7 +2697,7 @@
   const auth = getAuth(fbApp);
 
   // Vystavíme jen to, co hlavní (non-module) script potřebuje, přes window.__fb.
-  window.__fb = { db, ref, push, set, update, get, onValue, off, serverTimestamp };
+  window.__fb = { db, ref, push, set, update, get, onValue, off, serverTimestamp, increment };
   window.__fbAuth = { auth, signInWithCustomToken, signOut };
   window.dispatchEvent(new CustomEvent("fb-ready"));
 
@@ -4254,6 +4284,112 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     render();
   }
 
+  // ============ STATISTIKA ODPOVĚDÍ (režim "Procházet") ============
+  // Po zodpovězení otázky se u každé možnosti zobrazí, kolik % uživatelů ji zvolilo.
+  // Počítadla jsou ve Firebase RTDB pod answerStats/{id otázky}/{skutečný klíč možnosti}.
+  // Klíč je skutečný klíč možnosti (ne zobrazené písmeno A-E), takže náhodné míchání
+  // pořadí možností statistiku neovlivňuje. Klíče jsou stejné pro CZ i EN.
+  // Do zobrazeného % se přičítá "předvolba" ANSWER_STATS_PRIOR hlasů ke každé možnosti
+  // (jen ve vykreslení, do databáze se nic navíc nezapisuje), aby první hlasy
+  // statistiku příliš nevychýlily. Až bude dost dat, lze hodnotu snížit nebo dát 0.
+  const ANSWER_STATS_PRIOR = 10;
+  const ANSWER_STATS_VOTED_KEY = "usmle-anatomy-stats-voted";
+  const answerStats = { byQuestion: {} };  // { [qId]: { [klíč možnosti]: počet } }
+
+  function answerStatsLoadVoted() {
+    try {
+      const raw = localStorage.getItem(ANSWER_STATS_VOTED_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch (e) { return {}; }
+  }
+
+  function answerStatsMarkVoted(qId) {
+    try {
+      const map = answerStatsLoadVoted();
+      map[qId] = 1;
+      localStorage.setItem(ANSWER_STATS_VOTED_KEY, JSON.stringify(map));
+    } catch (e) {}
+  }
+
+  // Vrátí podíl v % (celé číslo) pro danou možnost, nebo null, když data ještě nejsou.
+  function answerStatsPctNum(q, key) {
+    const counts = answerStats.byQuestion[q.id];
+    if (!counts) return null;
+    const keys = Object.keys((q[state.lang] && q[state.lang].options) || {});
+    if (!keys.length) return null;
+    let total = 0;
+    keys.forEach(k => { total += Number(counts[k]) || 0; });
+    const denom = total + ANSWER_STATS_PRIOR * keys.length;
+    return Math.round(100 * ((Number(counts[key]) || 0) + ANSWER_STATS_PRIOR) / denom);
+  }
+
+  // Text podle jazyka: CZ "20 %" (s pevnou mezerou), EN "20%".
+  function answerStatsPctFor(q, key) {
+    const n = answerStatsPctNum(q, key);
+    if (n === null) return null;
+    return state.lang === "cz" ? n + "\u00A0%" : n + "%";
+  }
+
+  function answerStatsBadge(text) {
+    return el("span", {
+      cls: "opt-pct",
+      text,
+      attrs: { title: state.lang === "cz"
+        ? "Podíl uživatelů, kteří zvolili tuto možnost"
+        : "Share of users who chose this option" }
+    });
+  }
+
+  // Přidá k možnosti pásek a procento (jen jednou).
+  function answerStatsDecorate(optEl, q, key) {
+    if (optEl.querySelector(".opt-pct")) return;
+    const n = answerStatsPctNum(q, key);
+    if (n === null) return;
+    const bar = el("span", { cls: "opt-bar" });
+    bar.style.width = "0%";
+    optEl.insertBefore(bar, optEl.firstChild);
+    optEl.appendChild(answerStatsBadge(answerStatsPctFor(q, key)));
+    void bar.offsetWidth;  // vynutí reflow, aby se pásek plynule roztáhl
+    bar.style.width = n + "%";
+  }
+
+  // Doplní % do již vykreslené otázky (bez překreslení celé appky).
+  function answerStatsPaint(qId) {
+    if (state.mode !== "browse") return;
+    const q = state.questions[state.currentIndex];
+    if (!q || String(q.id) !== String(qId) || !state.answers[state.currentIndex]) return;
+    document.querySelectorAll(".q-options[data-qid]").forEach(wrap => {
+      if (wrap.dataset.qid !== String(qId)) return;
+      wrap.querySelectorAll(".q-option").forEach(optEl => {
+        answerStatsDecorate(optEl, q, optEl.dataset.optKey);
+      });
+    });
+  }
+
+  // Zapíše odpověď (max. jednou na otázku a zařízení) a načte aktuální statistiku.
+  // Všechny chyby jen tiše logujeme: když Firebase nejde, otázka funguje jako dřív.
+  async function answerStatsRecord(q, key) {
+    const qId = q && q.id;
+    if (qId === undefined || qId === null) return;
+    const fb = getFb();
+    if (!fb || !fb.increment) return;
+    try {
+      await waitForAuthOrTimeout(8000);
+      const r = fb.ref(fb.db, `answerStats/${qId}`);
+      if (!answerStatsLoadVoted()[qId]) {
+        try {
+          await fb.update(r, { [key]: fb.increment(1) });
+          answerStatsMarkVoted(qId);
+        } catch (e) { console.warn("answerStats write failed:", e); }
+      }
+      const snap = await fb.get(r);
+      answerStats.byQuestion[qId] = snap.val() || {};
+      answerStatsPaint(qId);
+    } catch (e) {
+      console.warn("answerStats failed:", e);
+    }
+  }
+
   function selectAnswer(letter) {
     const idx = state.currentIndex;
     // V živém testu, v denní výzvě i v testu 30 otázek lze odpověď kdykoliv změnit
@@ -4265,6 +4401,9 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     state.answers[idx] = { selected: letter, isCorrect };
     if (state.saveProgress && state.mode === "browse") {
       markQuestionDone(q.id);
+    }
+    if (state.mode === "browse") {
+      answerStatsRecord(q, letter);
     }
     if (state.mode === "live") {
       // Persistovat odpovědi do localStorage — přežijí refresh stránky
@@ -6812,6 +6951,7 @@ ${optionsObjCodeEn}
     card.appendChild(el("div", { cls: "q-stem", html: formatStemHtml(qData.stem) }));
 
     const optsWrap = el("div", { cls: "q-options" });
+    if (q.id !== undefined && q.id !== null) optsWrap.dataset.qid = String(q.id);
     const optionRealKeys = Object.keys(qData.options);
     const orderKeys = (Array.isArray(q._optionOrder) && q._optionOrder.length === optionRealKeys.length)
       ? q._optionOrder
@@ -6821,7 +6961,9 @@ ${optionsObjCodeEn}
       const optionText = qData.options[letter];
       const optEl = el("div", { cls: "q-option" });
       optEl.appendChild(el("span", { cls: "opt-letter", text: displayLetter }));
-      optEl.appendChild(el("span", { text: optionText }));
+      optEl.appendChild(el("span", { cls: "opt-text", text: optionText }));
+      optEl.dataset.optKey = letter;
+      if (state.mode === "browse" && isAnswered) answerStatsDecorate(optEl, q, letter);
 
       const isClickable = !isAnswered || state.mode === "live" || state.mode === "daily" || state.mode === "test";
 
