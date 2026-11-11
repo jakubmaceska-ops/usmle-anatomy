@@ -3106,6 +3106,33 @@ const QUESTION_DATA = {
                     explanation: "The infraspinatus muscle, together with the teres minor, is a primary external rotator of the shoulder joint (the teres minor is not listed among the answer choices, making the infraspinatus the only possible cause of impaired external rotation). The infraspinatus originates from the infraspinous fossa of the scapula, inserts onto the greater tubercle of the humerus, and is innervated by the suprascapular nerve. During pitching, the infraspinatus is subjected to substantial eccentric loading during the deceleration phase, when it helps resist internal rotation of the arm and stabilize the glenohumeral joint. Repetitive overloading can lead to tendon injury."
                 }
             },
+            {
+                id: 1144,
+                cz: {
+                    stem: "Pětatřicetiletý muž pracující jako brusič skla udává několik měsíců trvající brnění a sníženou citlivost malíku a ulnární poloviny prsteníku pravé ruky. Obtíže se zhoršují při dlouhodobém ohnutí lokte a při opírání lokte o tvrdou podložku.\n\nPři fyzikálním vyšetření je patrné oslabení roztažení prstů proti odporu a snížená citlivost na malíku a prsteníku. Poklep nad oblastí za mediálním epikondylem humeru vyvolává brnění do malíku a prsteníku.\n\nKterá z následujících diagnóz nejlépe vysvětluje klinický obraz?",
+                    options: {
+                        a: "Syndrom karpálního tunelu (komprese n. medianus v oblasti zápěstí)",
+                        b: "Pronátorový syndrom (komprese n. medianus v oblasti proximálního předloktí)",
+                        c: "Syndrom kubitálního tunelu (komprese n. ulnaris v oblasti lokte)",
+                        d: "Syndrom Guyonova kanálu (komprese n. ulnaris v oblasti zápěstí)",
+                        e: "Syndrom radiálního tunelu (komprese n. radialis v oblasti lokte)"
+                    },
+                    correct: "c",
+                    explanation: "Nervus ulnaris zajišťuje senzitivní inervaci malíku a ulnární poloviny prsteníku, proto se jeho útlak projevuje poruchou citlivosti právě v této oblasti. Zároveň motoricky inervuje mm. interossei, které zajišťují abdukci a addukci prstů. Jejich oslabení proto odpovídá postižení n. ulnaris. K útlaku došlo v oblasti lokte, kde nervus ulnaris probíhá v sulcus nervi ulnaris za mediálním epikondylem humeru. V tomto místě je nerv uložen poměrně povrchově, takže je náchylný ke kompresi při opírání lokte o tvrdou podložku. Při ohnutí lokte se navíc kubitální tunel zužuje a zvyšuje se napětí nervu, což může jeho útlak dále zhoršovat. Poklep nad touto oblastí proto vyvolává parestezie v inervační oblasti n. ulnaris."
+                },
+                en: {
+                    stem: "A 35-year-old man who works as a glass grinder presents with a several-month history of tingling and decreased sensation in the little finger and ulnar half of the ring finger of his right hand. The symptoms worsen with prolonged elbow flexion and when leaning his elbow against a hard surface.\n\nOn physical examination, weakness of finger abduction against resistance and decreased sensation in the little and ring fingers are noted. Tapping over the area posterior to the medial epicondyle of the humerus elicits tingling radiating into the little and ring fingers.\n\nWhich of the following diagnoses best explains the clinical presentation?",
+                    options: {
+                        a: "Carpal tunnel syndrome (compression of the median nerve at the wrist)",
+                        b: "Pronator teres syndrome (compression of the median nerve in the proximal forearm)",
+                        c: "Cubital tunnel syndrome (compression of the ulnar nerve at the elbow)",
+                        d: "Guyon canal syndrome (compression of the ulnar nerve at the wrist)",
+                        e: "Radial tunnel syndrome (compression of the radial nerve at the elbow)"
+                    },
+                    correct: "c",
+                    explanation: "The ulnar nerve provides sensory innervation to the little finger and the ulnar half of the ring finger, which explains why its compression causes sensory disturbances in this distribution. It also provides motor innervation to the interossei muscles, which are responsible for finger abduction and adduction. Weakness of these movements is therefore consistent with ulnar nerve involvement. The nerve is compressed at the elbow, where the ulnar nerve passes through the ulnar groove posterior to the medial epicondyle of the humerus before entering the cubital tunnel. At this location, the nerve lies relatively superficially, making it susceptible to compression when leaning the elbow against a hard surface. Elbow flexion further narrows the cubital tunnel and increases tension on the nerve, potentially exacerbating the compression. Tapping over this region therefore elicits paresthesias in the sensory distribution of the ulnar nerve."
+                }
+            },
 
           {
             id: 12,
