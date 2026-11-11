@@ -3162,6 +3162,33 @@ const QUESTION_DATA = {
                 image: { key: "q1145_custom", source: "Padawane. Brachial plexus.A.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.A.png. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" },
                 explanationImage: { key: "e1145_custom", source: "Selket. Brachial plexus.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.svg. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" }
             },
+            {
+                id: 1146,
+                cz: {
+                    stem: "Dvaatřicetiletý muž utrpěl řezné poranění dlaňové strany pravého ukazováku při manipulaci s kuchyňským nožem. Při fyzikálním vyšetření není schopen aktivně flektovat distální interfalangeální kloub pravého ukazováku, zatímco flexe proximálního interfalangeálního kloubu zůstává zachována.\n\nKterá z následujících šlach je nejpravděpodobněji poškozena?",
+                    options: {
+                        a: "Šlacha musculus flexor digitorum profundus",
+                        b: "Šlacha musculus flexor digitorum superficialis",
+                        c: "Šlacha musculus extensor digitorum",
+                        d: "Šlacha musculus lumbricalis",
+                        e: "Šlacha musculus flexor pollicis longus"
+                    },
+                    correct: "a",
+                    explanation: "M. flexor digitorum profundus se upíná na bázi distálního článku prstů II–V a zajišťuje flexi v distálních interfalangeálních kloubech. M. flexor digitorum superficialis se naopak upíná na střední článek a zajišťuje především flexi v proximálních interfalangeálních kloubech."
+                },
+                en: {
+                    stem: "A 32-year-old man sustains a laceration to the palmar aspect of his right index finger while handling a kitchen knife. On physical examination, he is unable to actively flex the distal interphalangeal joint of the right index finger, while flexion of the proximal interphalangeal joint remains intact.\n\nWhich of the following tendons is most likely damaged?",
+                    options: {
+                        a: "Tendon of the flexor digitorum profundus muscle",
+                        b: "Tendon of the flexor digitorum superficialis muscle",
+                        c: "Tendon of the extensor digitorum muscle",
+                        d: "Tendon of the lumbrical muscle",
+                        e: "Tendon of the flexor pollicis longus muscle"
+                    },
+                    correct: "a",
+                    explanation: "The flexor digitorum profundus inserts on the bases of the distal phalanges of digits II–V and is responsible for flexion at the distal interphalangeal joints. In contrast, the flexor digitorum superficialis inserts on the middle phalanges and primarily facilitates flexion at the proximal interphalangeal joints."
+                }
+            },
 
           {
             id: 12,
