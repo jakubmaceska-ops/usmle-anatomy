@@ -6343,7 +6343,7 @@ const QUESTION_DATA = {
       e: "žádný pohyb, jde o synostózu"
     },
     correct: "b",
-    explanation: "Articulatio atlantooccipitalis je kondylární kloub umožňující především flexi a extenzi hlavy (přikyvovací pohyb). Naproti tomu rotace hlavy (přibližně polovina celkové rotace krční páteře, „no“ pohyb) se odehrává primárně v articulatio atlantoaxialis mediana mezi dens axis a atlasem."
+      explanation: "Articulatio atlantooccipitalis je kondylární kloub umožňující především flexi a extenzi hlavy (přikyvovací pohyb, pohyb “ano”). Naproti tomu rotace hlavy (přibližně polovina celkové rotace krční páteře, pohyb “ne”) se odehrává primárně v articulatio atlantoaxialis mediana mezi dens axis a atlasem."
   },
   en: {
     stem: "The atlanto-occipital joint between the occipital condyles and the superior articular facets of the atlas primarily allows which head movement?",
@@ -26249,7 +26249,36 @@ const LIVE_QUESTION_BANKS = {
     explanation: "The blue arrow indicates the medial cuneiform bone. The tibialis anterior muscle inserts on the medial and plantar surfaces of the medial cuneiform and the base of the first metatarsal. The fibularis brevis muscle inserts on the tuberosity of the fifth metatarsal, whereas the extensor hallucis longus muscle inserts on the distal phalanx of the great toe. The flexor hallucis longus muscle also inserts on the distal phalanx of the great toe, while the flexor digitorum longus muscle inserts on the distal phalanges of toes II–V."
   },
   image: { key: "q1086_custom", source: "Nevit Dilmen. Medical X-Ray imaging CRJ03 nevit.jpg. (modified) Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Medical_X-Ray_imaging_CRJ03_nevit.jpg. CC BY-SA 3.0. Accessed 29 August 2026.", type: "image" }
-},
+        },
+        {
+            id: 10293,
+            cz: {
+                stem: "Jaký senzorický deficit bude mít pacient s izolovanou lézí nervu označeného písmenem F?",
+                options: {
+                    a: "Ztrátu citlivosti na palmární i dorzální straně 5. prstu a mediální poloviny 4. prstu.",
+                    b: "Ztrátu citlivosti na palmární straně palce, 2. a 3. prstu a laterální poloviny 4. prstu.",
+                    c: "Ztrátu citlivosti na dorzální straně palce a proximálních článků 2. a 3. prstu.",
+                    d: "Ztrátu citlivosti na mediální straně předloktí a paže.",
+                    e: "Ztrátu citlivosti na laterální straně předloktí."
+                },
+                correct: "a",
+                explanation: "Nervus ulnaris vzniká z fasciculus medialis (C8–T1) plexus brachialis. Jeho léze způsobuje poruchu citlivosti na palmární i dorzální straně mediální 1½ prstu a přilehlé části ruky. Motoricky se projevuje zejména oslabením abdukce a addukce prstů, poruchou jemné motoriky ruky a oslabením addukce palce.\nLéze nervus medianus způsobuje poruchu citlivosti na palmární straně laterálních 3½ prstu a na dorzální straně jejich distálních článků.\nLéze nervus musculocutaneus způsobuje poruchu citlivosti na laterální straně předloktí, kterou senzitivně zásobuje jeho pokračování nervus cutaneus antebrachii lateralis.\nLéze nervus radialis způsobuje poruchu citlivosti zejména na dorzální straně laterální části ruky."
+            },
+            en: {
+                stem: "What sensory deficit would a patient with an isolated lesion of the nerve labeled F experience?",
+                options: {
+                    a: "Loss of sensation on both the palmar and dorsal surfaces of the 5th digit and the medial half of the 4th digit.",
+                    b: "Loss of sensation on the palmar surface of the thumb, 2nd and 3rd digits, and the lateral half of the 4th digit.",
+                    c: "Loss of sensation on the dorsal surface of the thumb and the proximal phalanges of the 2nd and 3rd digits.",
+                    d: "Loss of sensation on the medial aspect of the forearm and arm.",
+                    e: "Loss of sensation on the lateral aspect of the forearm."
+                },
+                correct: "a",
+                explanation: "The ulnar nerve arises from the medial cord (C8–T1) of the brachial plexus. Its injury causes sensory loss over the palmar and dorsal surfaces of the medial 1½ digits and the adjacent part of the hand. Motor deficits primarily include weakness of finger abduction and adduction, impaired fine motor control of the hand, and weakness of thumb adduction.\nAn injury to the median nerve causes sensory loss over the palmar surface of the lateral 3½ digits and the dorsal surface of their distal phalanges.\nAn injury to the musculocutaneous nerve causes sensory loss over the lateral aspect of the forearm, which is supplied by its terminal branch, the lateral antebrachial cutaneous nerve.\nAn injury to the radial nerve causes sensory loss primarily over the dorsal aspect of the lateral part of the hand."
+            },
+            image: { key: "q1145_custom", source: "Padawane. Brachial plexus.A.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.A.png. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" },
+            explanationImage: { key: "e1145_custom", source: "Selket. Brachial plexus.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.svg. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" }
+        },
     ]
     // =ANATOMIE_1_VERZE_1_END=
   },
@@ -26530,7 +26559,36 @@ const LIVE_QUESTION_BANKS = {
     correct: "b",
     explanation: "The latissimus dorsi is innervated by the thoracodorsal nerve (from the posterior cord of the brachial plexus, roots C6–C8), which runs together with the thoracodorsal vessels along its deep surface."
   }
-},
+        },
+        {
+            id: 10292,
+            cz: {
+                stem: "Jaký senzorický deficit bude mít pacient s izolovanou lézí nervu označeného písmenem D?",
+                options: {
+                    a: "Ztrátu citlivosti na palmární straně 5. prstu a mediální poloviny 4. prstu.",
+                    b: "Ztrátu citlivosti na palmární straně palce, 2. a 3. prstu a laterální poloviny 4. prstu.",
+                    c: "Ztrátu citlivosti na dorzální straně palce a proximálních článků 2. a 3. prstu.",
+                    d: "Ztrátu citlivosti na mediální straně předloktí a paže.",
+                    e: "Ztrátu citlivosti na laterální straně předloktí."
+                },
+                correct: "b",
+                explanation: "Nervus medianus vzniká spojením radix lateralis a radix medialis, které odstupují z fasciculus lateralis (C5–C7), respektive fasciculus medialis (C8–T1) plexus brachialis. Jeho léze způsobuje poruchu citlivosti na palmární straně laterálních 3½ prstu a na dorzální straně jejich distálních článků. Motoricky se projevuje zejména oslabením opozice a abdukce palce a poruchou flexe některých prstů. Léze nervus musculocutaneus způsobuje poruchu citlivosti na laterální straně předloktí, kterou senzitivně zásobuje jeho pokračování nervus cutaneus antebrachii lateralis. Léze nervus ulnaris způsobuje poruchu citlivosti na palmární i dorzální straně mediálního jeden a půl prstu. Léze nervus radialis způsobuje poruchu citlivosti zejména na dorzální straně laterální části ruky."
+            },
+            en: {
+                stem: "What sensory deficit would a patient with an isolated lesion of the nerve labeled D experience?",
+                options: {
+                    a: "Loss of sensation on the palmar surface of the 5th digit and the medial half of the 4th digit.",
+                    b: "Loss of sensation on the palmar surface of the thumb, 2nd and 3rd digits, and the lateral half of the 4th digit.",
+                    c: "Loss of sensation on the dorsal surface of the thumb and the proximal phalanges of the 2nd and 3rd digits.",
+                    d: "Loss of sensation on the medial aspect of the forearm and arm.",
+                    e: "Loss of sensation on the lateral aspect of the forearm."
+                },
+                correct: "b",
+                explanation: "The median nerve is formed by the union of the lateral and medial roots, which arise from the lateral cord (C5–C7) and medial cord (C8–T1), respectively, of the brachial plexus. Its injury causes sensory loss over the palmar surface of the lateral 3½ digits and the dorsal surface of their distal phalanges. Motor deficits primarily include weakness of thumb opposition and abduction, as well as impaired flexion of certain digits.\nAn injury to the musculocutaneous nerve causes sensory loss over the lateral aspect of the forearm, which is supplied by its terminal branch, the lateral antebrachial cutaneous nerve.\nAn injury to the ulnar nerve causes sensory loss over the palmar and dorsal surfaces of the medial 1½ digits.\nAn injury to the radial nerve causes sensory loss primarily over the dorsal aspect of the lateral part of the hand."
+            },
+            image: { key: "q1145_custom", source: "Padawane. Brachial plexus.A.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.A.png. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" },
+            explanationImage: { key: "e1145_custom", source: "Selket. Brachial plexus.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.svg. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" }
+        },
 
     ]
     // =ANATOMIE_1_VERZE_2_END=
