@@ -4288,7 +4288,7 @@ const QUESTION_DATA = {
         e: "M. pectineus"
     },
     correct: "a",
-    explanation: "Trigonum femorale je ohraničeno proximálně ligamentum inguinale, zvenčí krajem m. sartorius a zevnitř krajem m. adductor longus. M. sartorius běží z vnějšího boku směrem ke koleni, takže celý prostor uzavírá z laterální strany. Mediální hranici na vnitřní straně stehna proto logicky tvoří přitahovač m. adductor longus."
+    explanation: "Trigonum femorale je ohraničeno proximálně ligamentum inguinale, laterálně okrajem m. sartorius a mediálně okrajem m. adductor longus."
   },
   en: {
     stem: "During surgery in the groin region, the surgeon dissects the anatomical area known as the femoral triangle. Which anatomical structure forms the medial boundary of this space?",
@@ -4300,7 +4300,7 @@ const QUESTION_DATA = {
         e: "Pectineus muscle"
     },
     correct: "a",
-    explanation: "The femoral triangle is bounded proximally by the inguinal ligament, laterally by the border of the sartorius muscle, and medially by the border of the adductor longus muscle. The sartorius muscle runs from the lateral side toward the knee, forming the lateral boundary of the space. The medial boundary on the inner side of the thigh is therefore formed by the adductor longus muscle."
+    explanation: "The femoral triangle is bounded proximally by the inguinal ligament, laterally by the border of the sartorius muscle, and medially by the border of the adductor longus muscle."
   }
 },
 {
@@ -5999,7 +5999,34 @@ const QUESTION_DATA = {
     explanation: "The tibial nerve runs superficially in the popliteal fossa and innervates the muscles of the posterior compartment of the leg responsible for plantar flexion and inversion of the foot. An enlarging Baker's cyst in the popliteal fossa can compress this nerve, leading to paresthesia and weakness of plantar flexion."
   },
   image: { key: "q1117_custom", source: "Hellerhoff. Bakerzyste MRT ax.jpg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Bakerzyste_MRT_ax.jpg. CC BY-SA 3.0. Accessed 12 September 2026.", type: "image" }
-},
+            },
+            {
+                id: 1147,
+                cz: {
+                    stem: "Dvaadvacetiletý muž utrpěl řezné poranění na laterální straně pravého bérce. Při neurologickém vyšetření není schopen provádět everzi pravé nohy (vytočení chodidla vně). Dorzální flexe nohy je však zachována.\n\nKterý z následujících nervů je nejpravděpodobněji poškozen?",
+                    options: {
+                        a: "Nervus fibularis superficialis",
+                        b: "Nervus fibularis profundus",
+                        c: "Nervus tibialis",
+                        d: "Nervus suralis",
+                        e: "Nervus fibularis communis"
+                    },
+                    correct: "a",
+                    explanation: "Nervus fibularis superficialis inervuje musculus fibularis longus a musculus fibularis brevis, které zajišťují everzi nohy. Nervus fibularis profundus inervuje svaly přední skupiny bérce, zejména musculus tibialis anterior, který zajišťuje dorzální flexi nohy. Zachovaná dorzální flexe při poruše everze proto svědčí pro izolované poškození nervus fibularis superficialis."
+                },
+                en: {
+                    stem: "A 22-year-old man sustains a laceration to the lateral aspect of his right leg. On neurological examination, he is unable to evert his right foot. However, dorsiflexion of the foot remains intact.\n\nWhich of the following nerves is most likely damaged?",
+                    options: {
+                        a: "Superficial fibular nerve",
+                        b: "Deep fibular nerve",
+                        c: "Tibial nerve",
+                        d: "Sural nerve",
+                        e: "Common fibular nerve"
+                    },
+                    correct: "a",
+                    explanation: "The superficial fibular nerve innervates the fibularis longus and fibularis brevis muscles, which are responsible for foot eversion. The deep fibular nerve innervates the anterior compartment muscles of the leg, particularly the tibialis anterior, which is responsible for foot dorsiflexion. Therefore, preserved dorsiflexion with impaired eversion indicates an isolated injury to the superficial fibular nerve."
+                }
+            },
 ]
       },
 
