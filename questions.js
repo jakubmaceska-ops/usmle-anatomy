@@ -3133,6 +3133,35 @@ const QUESTION_DATA = {
                     explanation: "The ulnar nerve provides sensory innervation to the little finger and the ulnar half of the ring finger, which explains why its compression causes sensory disturbances in this distribution. It also provides motor innervation to the interossei muscles, which are responsible for finger abduction and adduction. Weakness of these movements is therefore consistent with ulnar nerve involvement. The nerve is compressed at the elbow, where the ulnar nerve passes through the ulnar groove posterior to the medial epicondyle of the humerus before entering the cubital tunnel. At this location, the nerve lies relatively superficially, making it susceptible to compression when leaning the elbow against a hard surface. Elbow flexion further narrows the cubital tunnel and increases tension on the nerve, potentially exacerbating the compression. Tapping over this region therefore elicits paresthesias in the sensory distribution of the ulnar nerve."
                 }
             },
+            {
+                id: 1145,
+                cz: {
+                    stem: "Osmadvacetiletý muž utrpěl při pracovním úrazu penetrující poranění přední strany pravé paže. Při fyzikálním vyšetření je patrné oslabení flexe v loketním kloubu. Na laterální straně předloktí je přítomna snížená citlivost.\n\nKterý z následujících nervů je s největší pravděpodobností poškozen?",
+                    options: {
+                        a: "B",
+                        b: "C",
+                        c: "D",
+                        d: "E",
+                        e: "F"
+                    },
+                    correct: "a",
+                    explanation: "Nervus musculocutaneus (C5–C7) odstupuje z fasciculus lateralis plexus brachialis, prostupuje musculus coracobrachialis a dále probíhá mezi musculus biceps brachii a musculus brachialis. Motoricky inervuje tyto svaly, které se podílejí na flexi v loketním kloubu; musculus biceps brachii se navíc významně podílí na supinaci předloktí. Nerv pokračuje jako nervus cutaneus antebrachii lateralis, který zajišťuje senzitivní inervaci laterální strany předloktí."
+                },
+                en: {
+                    stem: "A 28-year-old man sustains a penetrating injury to the anterior aspect of his right upper arm in a workplace accident. On physical examination, weakness of elbow flexion is noted. Decreased sensation is present over the lateral aspect of the forearm.\n\nWhich of the following nerves is most likely injured?",
+                    options: {
+                        a: "B",
+                        b: "C",
+                        c: "D",
+                        d: "E",
+                        e: "F"
+                    },
+                    correct: "a",
+                    explanation: "The musculocutaneous nerve (C5–C7) arises from the lateral cord of the brachial plexus, pierces the coracobrachialis muscle, and continues between the biceps brachii and brachialis muscles. It provides motor innervation to these muscles, which contribute to elbow flexion. The biceps brachii also plays an important role in forearm supination. The nerve continues as the lateral cutaneous nerve of the forearm, which provides sensory innervation to the lateral aspect of the forearm. Injury to this nerve therefore results in weakness of elbow flexion and sensory impairment over the lateral forearm."
+                },
+                image: { key: "q1145_custom", source: "Padawane. Brachial plexus.A.png. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.A.png. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" },
+                explanationImage: { key: "e1145_custom", source: "Selket. Brachial plexus.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Brachial_plexus.svg. CC BY-SA 3.0. Accessed 11 November 2026.", type: "image" }
+            },
 
           {
             id: 12,
