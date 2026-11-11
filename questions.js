@@ -3079,6 +3079,33 @@ const QUESTION_DATA = {
                     explanation: "The injured muscle is the supraspinatus muscle, which initiates arm abduction during the first approximately 15° of movement. Further abduction is performed primarily by the deltoid muscle. The supraspinatus is the most commonly injured muscle of the rotator cuff.\n\nThe rotator cuff consists of four muscles: the supraspinatus muscle (initiates abduction), the infraspinatus muscle (external rotation), the teres minor muscle (adduction and external rotation), and the subscapularis muscle (adduction and internal rotation)."
                 }
             },
+            {
+                id: 1143,
+                cz: {
+                    stem: "Dvaadvacetiletý baseballový nadhazovač udává postupně se zhoršující bolest pravého ramene, zejména při opakovaných nadhozech. \n\nPři fyzikálním vyšetření je patrné oslabení zevní rotace pravého ramene proti odporu. Zachována je abdukce i vnitřní rotace. Čití v oblasti celé horní končetiny je v normě. MRI prokazuje poškození šlachy jednoho ze svalů rotátorové manžety.\n\nKterý sval je s největší pravděpodobností poškozen?",
+                    options: {
+                        a: "M. supraspinatus",
+                        b: "M. infraspinatus",
+                        c: "M. subscapularis",
+                        d: "M. deltoideus",
+                        e: "M. trapezius"
+                    },
+                    correct: "b",
+                    explanation: "M. infraspinatus je spolu s m. teres minor hlavním zevním rotátorem ramenního kloubu (m. teres minor není v nabídce, takže oslabení zevní rotace ukazuje na poškození m. infraspinatus). M. infraspinatus odstupuje z fossa infraspinata scapulae, upíná se na tuberculum majus humeri a je inervován n. suprascapularis. Při nadhozu je silně zatěžován excentrickou kontrakcí ve fázi decelerace, kdy brzdí vnitřní rotaci paže a stabilizuje glenohumerální kloub. Opakované přetěžování může vést k poškození jeho šlachy."
+                },
+                en: {
+                    stem: "A 22-year-old baseball pitcher reports progressively worsening right shoulder pain, particularly during repetitive pitching.\n\nPhysical examination reveals weakness of the right shoulder during resisted external rotation. Abduction and internal rotation remain intact. Sensation throughout the upper extremity is normal. MRI reveals damage to the tendon of one of the rotator cuff muscles.\n\nWhich muscle is most likely injured?",
+                    options: {
+                        a: "Supraspinatus muscle",
+                        b: "Infraspinatus muscle",
+                        c: "Subscapularis muscle",
+                        d: "Deltoid muscle",
+                        e: "Trapezius muscle"
+                    },
+                    correct: "b",
+                    explanation: "The infraspinatus muscle, together with the teres minor, is a primary external rotator of the shoulder joint (the teres minor is not listed among the answer choices, making the infraspinatus the only possible cause of impaired external rotation). The infraspinatus originates from the infraspinous fossa of the scapula, inserts onto the greater tubercle of the humerus, and is innervated by the suprascapular nerve. During pitching, the infraspinatus is subjected to substantial eccentric loading during the deceleration phase, when it helps resist internal rotation of the arm and stabilize the glenohumeral joint. Repetitive overloading can lead to tendon injury."
+                }
+            },
 
           {
             id: 12,
