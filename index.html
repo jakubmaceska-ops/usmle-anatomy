@@ -4292,7 +4292,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
   // Do zobrazeného % se přičítá "předvolba" ANSWER_STATS_PRIOR hlasů ke každé možnosti
   // (jen ve vykreslení, do databáze se nic navíc nezapisuje), aby první hlasy
   // statistiku příliš nevychýlily. Až bude dost dat, lze hodnotu snížit nebo dát 0.
-  const ANSWER_STATS_PRIOR = 10;
+  const ANSWER_STATS_PRIOR = 5;
   const ANSWER_STATS_VOTED_KEY = "usmle-anatomy-stats-voted";
   const answerStats = { byQuestion: {} };  // { [qId]: { [klíč možnosti]: počet } }
 
@@ -4330,14 +4330,14 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     return state.lang === "cz" ? n + "\u00A0%" : n + "%";
   }
 
+  function answerStatsTitle() {
+    return state.lang === "cz"
+      ? "Podíl uživatelů, kteří zvolili tuto možnost"
+      : "Share of users who chose this option";
+  }
+
   function answerStatsBadge(text) {
-    return el("span", {
-      cls: "opt-pct",
-      text,
-      attrs: { title: state.lang === "cz"
-        ? "Podíl uživatelů, kteří zvolili tuto možnost"
-        : "Share of users who chose this option" }
-    });
+    return el("span", { cls: "opt-pct", text, attrs: { title: answerStatsTitle() } });
   }
 
   // Přidá k možnosti pásek a procento (jen jednou).
@@ -4349,6 +4349,7 @@ aboutAppText: "<p>USMLE Anatomy app was created by two students during the summe
     bar.style.width = "0%";
     optEl.insertBefore(bar, optEl.firstChild);
     optEl.appendChild(answerStatsBadge(answerStatsPctFor(q, key)));
+    optEl.title = answerStatsTitle();  // nápověda po najetí myší kamkoli na možnost
     void bar.offsetWidth;  // vynutí reflow, aby se pásek plynule roztáhl
     bar.style.width = n + "%";
   }
