@@ -3052,6 +3052,33 @@ const QUESTION_DATA = {
                 },
                 explanationImage: { key: "e1141_custom", source: "Icewalker. Foramina.png. WikiSkripta. Available from: https://www.wikiskripta.eu/w/Soubor:Foramina.png. CC BY 3.0 CZ. Accessed 8 November 2026.", type: "image" }
             },
+            {
+                id: 1142,
+                cz: {
+                    stem: "Třiadvacetiletý muž pocítil náhlou bolest v pravém rameni během silového tréninku v posilovně. Při upažování s jednoručkami (\"dumbbell lateral raises\") používal vysokou zátěž a v závěru série provedl prudký nekontrolovaný pohyb pravou horní končetinou. Bezprostředně poté pocítil ostrou bolest v oblasti ramene a nebyl schopen pokračovat ve cvičení.\n\nPři fyzikálním vyšetření má pacient obtíže se zahájením abdukce pravé horní končetiny, zejména abdukce prvních 15°. Při testování svalové síly je abdukce proti odporu bolestivá a oslabená. Pasivní rozsah pohybu je zachován. MRI ramenního kloubu prokazuje úplnou rupturu šlachy jednoho ze svalů rotátorové manžety.\n\nKterý sval byl s největší pravděpodobností poraněn?",
+                    options: {
+                        a: "Musculus supraspinatus",
+                        b: "Musculus infraspinatus",
+                        c: "Musculus teres minor",
+                        d: "Musculus subscapularis",
+                        e: "Musculus deltoideus"
+                    },
+                    correct: "a",
+                    explanation: "Postižen je musculus supraspinatus, který zahajuje abdukci paže v prvních přibližně 15°. V další abdukci pokračuje především musculus deltoideus. M. supraspinatus je nejčastěji poraněným svalem rotátorové manžety. Rotátorovou manžetu tvoří čtyři svaly: m. supraspinatus (zahájení abdukce), m. infraspinatus (zevní rotace), m. teres minor (addukce a zevní rotace) a m. subscapularis (addukce a vnitřní rotace)."
+                },
+                en: {
+                    stem: "A 23-year-old man experienced sudden pain in his right shoulder while performing strength training at the gym. During dumbbell lateral raises, he was using a heavy weight and performed a sudden, uncontrolled movement of his right upper limb towards the end of the set. Immediately afterward, he felt sharp pain in the shoulder region and was unable to continue exercising.\n\nOn physical examination, the patient has difficulty initiating abduction of the right upper limb, particularly during the first 15° of movement. Muscle strength testing reveals painful and weakened abduction against resistance. Passive range of motion is preserved. MRI of the shoulder joint demonstrates a complete tear of the tendon of one of the rotator cuff muscles.\n\nWhich muscle was most likely injured?",
+                    options: {
+                        a: "Supraspinatus muscle",
+                        b: "Infraspinatus muscle",
+                        c: "Teres minor muscle",
+                        d: "Subscapularis muscle",
+                        e: "Deltoid muscle"
+                    },
+                    correct: "a",
+                    explanation: "The injured muscle is the supraspinatus muscle, which initiates arm abduction during the first approximately 15° of movement. Further abduction is performed primarily by the deltoid muscle. The supraspinatus is the most commonly injured muscle of the rotator cuff.\n\nThe rotator cuff consists of four muscles: the supraspinatus muscle (initiates abduction), the infraspinatus muscle (external rotation), the teres minor muscle (adduction and external rotation), and the subscapularis muscle (adduction and internal rotation)."
+                }
+            },
 
           {
             id: 12,
