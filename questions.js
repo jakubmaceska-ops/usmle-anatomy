@@ -21565,7 +21565,34 @@ id: 269,
     explanation: "The middle cerebral artery arises from the internal carotid artery and courses laterally. It supplies most of the lateral surface of the cerebral hemisphere. Its stenosis may cause ischemia of the lateral surfaces of the frontal, parietal, and temporal lobes."
   },
   image: { key: "q1130_custom", source: "Shazia Mirza and Sankalp Gokhale. TOF MRI angiography of right middle cerebral artery stenosis.png (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:TOF_MRI_angiography_of_right_middle_cerebral_artery_stenosis.png. CC BY 4.0. Accessed 17 October 2026.", type: "image" }
-},
+            },
+            {
+                id: 1150,
+                cz: {
+                    stem: "Sedmdesátiletý muž je přivezen na pohotovost 90 minut po náhlém vzniku poruchy řeči. Anamnéza: hypertenze a fibrilace síní, antikoagulancia neužívá. Při vyšetření je při vědomí a orientovaný. Mluví pomalu, namáhavě a s dlouhými pauzami, používá jen krátké věty z několika slov bez gramatických spojek („chodit... doktor... ruka“). Rozumí mluvenému slovu a správně plní složité příkazy. Nedokáže zopakovat větu, kterou mu lékař řekne. Je si svých potíží vědom a je z nich frustrovaný. Dále má pravostranně pokleslé dolní obličejové svalstvo se zachovanou hybností čela a lehkou slabost pravé horní končetiny. Zorná pole jsou normální. CT mozku bez kontrastu nezobrazuje krvácení, následné MR potvrzuje akutní ischemickou lézi.\n\nKterá céva je nejpravděpodobněji postižena?",
+                    options: {
+                        a: "Levá a. cerebri anterior",
+                        b: "Levá a. cerebri media",
+                        c: "Pravá a. cerebri anterior",
+                        d: "Levá a. cerebri posterior",
+                        e: "A. basilaris"
+                    },
+                    correct: "b",
+                    explanation: "Pacient má Brocovu (nonfluentní, expresivní) afázii s porušenou plynulostí řeči a opakování při zachovaném porozumění a s vědomím vlastního deficitu. Brocovo centrum leží v gyrus frontalis inferior (pars opercularis a triangularis) dominantní jazykové hemisféry, což je u většiny lidí hemisféra levá. Zásobuje ho horní větev levé a. cerebri media, jejíž okluze (zde pravděpodobně embolická příčina při fibrilaci síní) vysvětluje i kontralaterální slabost obličeje a horní končetiny, protože tuto oblast motorické kůry zásobuje rovněž a. cerebri media.\n\nLevá a. cerebri anterior by způsobila slabost kontralaterální dolní končetiny a abulii (=ztráta vůle), nikoli afázii (=ztráta řeči). Okluze levé a. cerebri posterior by se projevila pravostrannou homonymní hemianopsií, řeč by byla plynulá. Okluze a. basilaris by způsobila postižení kmene, tedy poruchy hlavových nervů, kvadruparézu a poruchy vědomí."
+                },
+                en: {
+                    stem: "A 70-year-old man is brought to the emergency department 90 minutes after the sudden onset of speech difficulties. His medical history is significant for hypertension and atrial fibrillation, for which he is not taking anticoagulants. On examination, he is alert and oriented. His speech is slow and effortful, with long pauses. He uses only short, simple phrases consisting of a few words and omits grammatical connectives (e.g., “go... doctor... arm”). He understands spoken language and correctly follows complex commands. However, he is unable to repeat a sentence spoken by the physician. He is aware of his deficits and appears frustrated by them. Further examination reveals right-sided lower facial weakness with preserved forehead movement and mild weakness of the right upper extremity. Visual fields are intact. Non-contrast CT of the head shows no evidence of hemorrhage, and subsequent MRI confirms an acute ischemic lesion.\n\nWhich of the following blood vessels is most likely affected?",
+                    options: {
+                        a: "Left anterior cerebral artery (ACA)",
+                        b: "Left middle cerebral artery (MCA)",
+                        c: "Right anterior cerebral artery (ACA)",
+                        d: "Left posterior cerebral artery (PCA)",
+                        e: "Basilar artery"
+                    },
+                    correct: "b",
+                    explanation: "The patient presents with Broca (nonfluent, expressive) aphasia, characterized by impaired speech fluency and repetition despite preserved comprehension and awareness of the deficit. Broca's area is located in the inferior frontal gyrus (pars opercularis and pars triangularis) of the dominant language hemisphere, which is the left hemisphere in most individuals. It is supplied by the superior division of the left middle cerebral artery (MCA). Occlusion of this artery (most likely due to an embolus associated with atrial fibrillation in this case) also explains the contralateral weakness of the face and upper extremity, as the corresponding regions of the primary motor cortex are likewise supplied by the MCA.\n\nOcclusion of the left anterior cerebral artery (ACA) would cause contralateral weakness predominantly affecting the lower extremity and may cause abulia (loss of motivation or initiative), rather than aphasia. Occlusion of the left posterior cerebral artery (PCA) would typically cause a right homonymous hemianopia, while speech would generally remain fluent. Occlusion of the basilar artery would cause brainstem dysfunction, potentially resulting in cranial nerve deficits, quadriparesis, and impaired consciousness."
+                }
+            },
         ]
       },
       hlavove_nervy: {
