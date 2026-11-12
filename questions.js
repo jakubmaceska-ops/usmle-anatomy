@@ -6027,6 +6027,34 @@ const QUESTION_DATA = {
                     explanation: "The superficial fibular nerve innervates the fibularis longus and fibularis brevis muscles, which are responsible for foot eversion. The deep fibular nerve innervates the anterior compartment muscles of the leg, particularly the tibialis anterior, which is responsible for foot dorsiflexion. Therefore, preserved dorsiflexion with impaired eversion indicates an isolated injury to the superficial fibular nerve."
                 }
             },
+            {
+                id: 1148,
+                cz: {
+                    stem: "Pacient podstoupí operaci pro tříselnou kýlu. Několik týdnů po zákroku udává poruchu kožního čití v oblasti přední části scrota a přilehlé části mediální strany horní části stehna. Cremasterový reflex je při vyšetření zachován a citlivost kůže na přední ploše stehna těsně pod ligamentum inguinale je normální. Který nerv byl během operace nejpravděpodobněji poškozen?",
+                    options: {
+                        a: "N. ilioinguinalis",
+                        b: "N. iliohypogastricus",
+                        c: "N. genitofemoralis",
+                        d: "N. cutaneus femoris lateralis",
+                        e: "N. obturatorius"
+                    },
+                    correct: "a",
+                    explanation: "N. ilioinguinalis prochází canalis inguinalis společně s funiculus spermaticus u mužů nebo s lig. teres uteri u žen. Po výstupu přes anulus inguinalis superficialis zajišťuje senzitivní inervaci kůže v oblasti kořene penisu a přední části scrota u mužů a mons pubis a labium majus u žen. Také zajišťuje senzitivní inervaci přilehlé oblasti horního mediálního stehna.\n\nN. genitofemoralis je vyloučen zachovaným cremasterovým reflexem a normální citlivostí kůže pod ligamentum inguinale. Jeho ramus femoralis (aferentní raménko) inervuje kůži v trigonum femorale a ramus genitalis (eferentní raménko) inervuje m. cremaster. Při poškození by byl reflex oslaben a citlivost kůže pod ligamentum inguinale by byla porušena."
+                },
+                en: {
+                    stem: "A patient undergoes surgery for an inguinal hernia. Several weeks after the procedure, he reports impaired sensation over the anterior scrotum and the adjacent medial aspect of the upper thigh. The cremasteric reflex is intact on examination, and sensation over the anterior thigh immediately inferior to the inguinal ligament is normal. Which nerve was most likely injured during the procedure?",
+                    options: {
+                        a: "Ilioinguinal nerve",
+                        b: "Iliohypogastric nerve",
+                        c: "Genitofemoral nerve",
+                        d: "Lateral femoral cutaneous nerve",
+                        e: "Obturator nerve"
+                    },
+                    correct: "a",
+                    explanation: "The ilioinguinal nerve passes through the inguinal canal alongside the spermatic cord in males or the round ligament of the uterus in females. After exiting through the superficial inguinal ring, it provides sensory innervation to the skin over the root of the penis and anterior scrotum in males, and the mons pubis and labia majora in females. It also provides sensory innervation to the adjacent area of the upper medial thigh.\n\nThe genitofemoral nerve is not injured because the cremasteric reflex is intact and sensation inferior to the inguinal ligament is preserved. Its femoral branch provides sensory innervation to the skin over the femoral triangle and forms the afferent limb of the cremasteric reflex, whereas its genital branch provides motor innervation to the cremaster muscle and forms the efferent limb. Injury to the genitofemoral nerve would therefore be expected to impair the cremasteric reflex and/or sensation over the upper anterior thigh."
+                },
+                explanationImage: { key: "e1148_custom", source: "Henry Vandyke Carter. Gray826and831.svg. Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Gray826and831.svg. Public domain (vector redrawing by Fred the Oyster). Accessed 12 November 2026.", type: "image" }
+            },
 ]
       },
 
@@ -7064,7 +7092,7 @@ id: 269,
   {
     "id": 1027,
     "cz": {
-      "stem": "Který sval začíná na symphysis pubica a crista pubica a upíná se na 5.–7. žebro a processus xiphoideus?",
+        "stem": "Který sval začíná na 5.–7. žebru a processus xiphoideus a upíná se na os pubis?",
       "options": {
         "a": "M. rectus abdominis",
         "b": "M. obliquus externus abdominis",
@@ -7073,10 +7101,10 @@ id: 269,
         "e": "M. pyramidalis"
       },
       "correct": "a",
-      "explanation": "M. rectus abdominis začíná na symphysis pubica a crista pubica a upíná se na chrupavky 5.–7. žebra a processus xiphoideus. Jeho hlavní funkcí je flexe trupu a při fixovaném hrudníku se podílí také na kompresi obsahu dutiny břišní. M. pyramidalis je malý sval napínající linea alba, zatímco ostatní uvedené svaly patří mezi ploché svaly přední a laterální břišní stěny."
+        "explanation": "M. rectus abdominis začíná na chrupavkách 5.–7. žebra a processus xiphoideus a upíná se na os pubis mezi symphysis pubica a tuberculum pubicum. Je inervován nervi intercostales (Th7–Th11) a nervus subcostalis (Th12). Jeho funkcí je ventrální flexe páteře, změna sklonu pánve, účast na břišním lisu a pomoc při výdechu."
     },
     "en": {
-      "stem": "Which muscle originates from the pubic symphysis and pubic crest and inserts on the 5th–7th costal cartilages and xiphoid process?",
+        "stem": "Which muscle originates from the 5th–7th ribs and the xiphoid process and inserts onto the pubic bone?",
       "options": {
         "a": "Rectus abdominis muscle",
         "b": "External oblique muscle",
@@ -7085,7 +7113,7 @@ id: 269,
         "e": "Pyramidalis muscle"
       },
       "correct": "a",
-      "explanation": "The rectus abdominis muscle originates from the pubic symphysis and pubic crest and inserts on the costal cartilages of ribs 5–7 and the xiphoid process. Its primary function is trunk flexion, and with the thorax fixed, it also contributes to compression of the abdominal contents. The pyramidalis muscle is a small muscle that tenses the linea alba, whereas the other listed muscles are flat muscles of the anterior and lateral abdominal wall."
+        "explanation": "The rectus abdominis muscle originates from the costal cartilages of the 5th–7th ribs and the xiphoid process and inserts onto the pubic bone between the pubic symphysis and pubic tubercle. It is innervated by the intercostal nerves (T7–T11) and the subcostal nerve (T12). Its functions include trunk flexion, changing pelvic tilt, contributing to the abdominal press, and assisting in forced expiration."
     }
   },
   {
@@ -7167,33 +7195,6 @@ id: 269,
       },
       "correct": "a",
       "explanation": "The roof of the inguinal canal is formed by the arching fibers of the internal oblique muscle and transversus abdominis muscle. Medially, their aponeurotic fibers contribute to the formation of the conjoint tendon, also known as the inguinal falx. The anterior wall is formed mainly by the external oblique aponeurosis, the posterior wall mainly by the transversalis fascia, and the floor mainly by the inguinal ligament."
-    }
-  },
-  {
-    "id": 1032,
-    "cz": {
-      "stem": "Pacient podstoupí operaci pro tříselnou kýlu. Několik týdnů po zákroku udává poruchu kožního čití v oblasti přední části scrota a přilehlé části stehna. Který nerv byl během operace nejpravděpodobněji poškozen?",
-      "options": {
-        "a": "N. ilioinguinalis",
-        "b": "N. iliohypogastricus",
-        "c": "N. genitofemoralis",
-        "d": "N. cutaneus femoris lateralis",
-        "e": "N. obturatorius"
-      },
-      "correct": "a",
-      "explanation": "N. ilioinguinalis vstupuje do canalis inguinalis a prochází jím společně s funiculus spermaticus u mužů nebo s ligamentum teres uteri u žen, ale nevstupuje do kanálu přes anulus inguinalis profundus. Po výstupu přes anulus inguinalis superficialis zajišťuje senzitivní inervaci kůže v oblasti kořene penisu a přední části scrota u mužů a mons pubis a labium majus u žen. Část senzitivní inervace přilehlé oblasti horního mediálního stehna může být rovněž zprostředkována tímto nervem."
-    },
-    "en": {
-      "stem": "A patient undergoes surgery for an inguinal hernia. Several weeks after the procedure, the patient reports impaired sensation over the anterior scrotum and the adjacent part of the thigh. Which nerve was most likely injured during the procedure?",
-      "options": {
-        "a": "Ilioinguinal nerve",
-        "b": "Iliohypogastric nerve",
-        "c": "Genitofemoral nerve",
-        "d": "Lateral femoral cutaneous nerve",
-        "e": "Obturator nerve"
-      },
-      "correct": "a",
-      "explanation": "The ilioinguinal nerve enters the inguinal canal and passes through it together with the spermatic cord in males or the round ligament of the uterus in females, but it does not enter the canal through the deep inguinal ring. After exiting through the superficial inguinal ring, it provides sensory innervation to the skin over the root of the penis and anterior scrotum in males and the mons pubis and labium majus in females. It may also contribute to sensory innervation of the adjacent upper medial thigh."
     }
   },
   {
