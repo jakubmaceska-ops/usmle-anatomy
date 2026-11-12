@@ -7824,7 +7824,34 @@ id: 269,
     correct: "a",
     explanation: "A direct inguinal hernia protrudes through a weakened area of the posterior wall of the inguinal canal in the region of the inguinal triangle (Hesselbach's triangle), medial to the inferior epigastric vessels. The hernial sac bulges through the transversalis fascia in the area between the interfoveolar ligament and the inguinal falx (the conjoint tendon of the internal oblique and transversus abdominis muscles). Unlike an indirect inguinal hernia, it does not enter the inguinal canal through the deep inguinal ring and therefore typically does not descend into the scrotum."
   }
-},
+            },
+            {
+                id: 1149,
+                cz: {
+                    stem: "Jedenáctiletý chlapec je přiveden k lékaři pro nebolestivé vyklenutí v pravém třísle, které zasahuje do skrota. Matka si změny všimla před několika měsíci. Vyklenutí se zvětšuje při kašli a ve stoje, vleže spontánně mizí. Chlapec nemá žádné další obtíže, anamnéza je jinak bez pozoruhodností. Při vyšetření vleže je tříselná krajina bez patrného útvaru. Po postavení se objeví měkké, nebolestivé, reponibilní vyklenutí sestupující do pravého skrota. Pokud lékař při zakašlání stlačí prstem oblast anulus inguinalis profundus, kýla se neobjeví.\n\nKteré z následujících anatomických umístění nejlépe odpovídá průběhu této kýly?",
+                    options: {
+                        a: "Laterálně od a. epigastrica inferior a nad lig. inguinale",
+                        b: "Mediálně od a. epigastrica inferior a nad lig. inguinale",
+                        c: "Laterálně od a. epigastrica inferior a pod lig. inguinale",
+                        d: "Mediálně od a. epigastrica inferior a pod lig. inguinale",
+                        e: "Mediálně od a. epigastrica inferior a posteriorně od lig. inguinale"
+                    },
+                    correct: "a",
+                    explanation: "Jde o nepřímou tříselnou kýlu (hernia inguinalis indirecta), která vzniká při přetrvávajícím processus vaginalis peritonei. Vstupuje do tříselného kanálu přes anulus inguinalis profundus, který leží laterálně od a. epigastrica inferior a nad lig. inguinale, a může sestoupit až do skrota. \n\nPřímá tříselná kýla prochází Hesselbachovým trojúhelníkem, tedy mediálně od a. epigastrica inferior a nad lig. inguinale. Vzniká získanou slabostí zadní stěny tříselného kanálu, typicky u starších mužů, nevstupuje přes anulus inguinalis profundus, a proto ji komprese v tomto místě nezastaví. Femorální kýla prochází pod lig. inguinale a mediálně od v. femoralis, a je častější u žen."
+                },
+                en: {
+                    stem: "An 11-year-old boy is brought to the physician because of a painless bulge in the right groin that extends into the scrotum. His mother first noticed the swelling several months ago. The bulge becomes more prominent when he coughs or stands and disappears spontaneously when he lies down. The boy has no other complaints, and his medical history is otherwise unremarkable. On examination, no mass is palpable in the inguinal region while he is lying down. Upon standing, a soft, painless, reducible bulge appears and extends into the right scrotum. When the physician applies pressure with a finger over the deep inguinal ring while the boy coughs, the hernia does not reappear.\n\nWhich of the following anatomical locations best describes the course of this hernia?",
+                    options: {
+                        a: "Lateral to the inferior epigastric artery and superior to the inguinal ligament.",
+                        b: "Medial to the inferior epigastric artery and superior to the inguinal ligament.",
+                        c: "Lateral to the inferior epigastric artery and inferior to the inguinal ligament.",
+                        d: "Medial to the inferior epigastric artery and inferior to the inguinal ligament.",
+                        e: "Medial to the inferior epigastric artery and posterior to the inguinal ligament."
+                    },
+                    correct: "a",
+                    explanation: "This is an indirect inguinal hernia, which results from persistence of the processus vaginalis. It enters the inguinal canal through the deep inguinal ring, which is located lateral to the inferior epigastric artery and superior to the inguinal ligament. The hernia can follow the inguinal canal and descend into the scrotum.\n\nA direct inguinal hernia passes through Hesselbach's triangle, medial to the inferior epigastric artery and superior to the inguinal ligament. It results from acquired weakness of the posterior wall of the inguinal canal, typically in older men. It does not enter through the deep inguinal ring, so compression of this opening does not prevent the hernia from protruding.\n\nA femoral hernia passes inferior to the inguinal ligament and medial to the femoral vein. It is more common in women."
+                }
+            },
 ]
       }
 
