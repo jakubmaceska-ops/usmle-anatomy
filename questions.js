@@ -7198,33 +7198,6 @@ id: 269,
     }
   },
   {
-    "id": 1034,
-    "cz": {
-      "stem": "Která struktura tvoří hlavní část spodiny canalis inguinalis?",
-      "options": {
-        "a": "Ligamentum inguinale",
-        "b": "Aponeurosis musculi obliqui externi abdominis",
-        "c": "Fascia transversalis",
-        "d": "Musculus obliquus internus abdominis",
-        "e": "Tendo musculi transversi abdominis et musculi obliqui interni abdominis"
-      },
-      "correct": "a",
-      "explanation": "Spodinu canalis inguinalis tvoří především ligamentum inguinale, které vzniká z dolního okraje aponeurosis musculi obliqui externi abdominis. V mediální části je spodina doplněna ligamentum lacunare. Strop canalis inguinalis tvoří obloukovitě probíhající vlákna musculus obliquus internus abdominis a musculus transversus abdominis, zadní stěnu tvoří především fascia transversalis a přední stěnu především aponeurosis musculi obliqui externi abdominis."
-    },
-    "en": {
-      "stem": "Which structure forms the main part of the floor of the inguinal canal?",
-      "options": {
-        "a": "Inguinal ligament",
-        "b": "External oblique aponeurosis",
-        "c": "Transversalis fascia",
-        "d": "Internal oblique muscle",
-        "e": "Conjoint tendon"
-      },
-      "correct": "a",
-      "explanation": "The floor of the inguinal canal is formed mainly by the inguinal ligament, which is derived from the inferior margin of the external oblique aponeurosis. Medially, the floor is supplemented by the lacunar ligament. The roof of the inguinal canal is formed by the arching fibers of the internal oblique muscle and transversus abdominis muscle, the posterior wall is formed mainly by the transversalis fascia, and the anterior wall mainly by the external oblique aponeurosis."
-    }
-  },
-  {
     "id": 1035,
     "cz": {
       "stem": "Při operaci tříselné kýly chirurg sleduje kýlní vak, který vstupuje do canalis inguinalis přes anulus inguinalis profundus. Která struktura je v tomto případě nejpravděpodobněji uložena mezi kýlním vakem a střední rovinou těla?",
