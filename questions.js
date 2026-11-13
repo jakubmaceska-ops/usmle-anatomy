@@ -25333,7 +25333,35 @@ id: 269,
       "correct": "a",
       "explanation": "The medial longitudinal fasciculus connects the vestibular nuclei with the nuclei of the oculomotor, trochlear, and abducens nerves. These connections coordinate eye movements with movements of the head and are an important component of the vestibulo-ocular reflex. Vestibular information is also transmitted through this pathway between the nuclei of the ocular motor nerves, allowing synchronized movement of both eyes."
     }
-  },
+            },
+            {
+                id: 1151,
+                cz: {
+                    stem: "Kam bude směřovat levý bulbus při poškození vyznačeného nervu?",
+                    options: {
+                        a: "Mediálně",
+                        b: "Dolů a zevně",
+                        c: "Nahoru",
+                        d: "Přímo dopředu (bez odchylky)",
+                        e: "Zevně a nahoru"
+                    },
+                    correct: "b",
+                    explanation: "Vyznačený nerv je levý n. oculomotorius (n. III). Inervuje m. rectus superior, inferior a medialis, m. obliquus inferior a m. levator palpebrae superioris. Při jeho lézi zůstane funkční jen m. rectus lateralis (n. VI) a m. obliquus superior (n. IV), které táhnou oko zevně a dolů. K tomu se přidává ptóza horního víčka a mydriáza.\n\nPři lézi n. abducens (n. VI) by bylo oko stočeno mediálně, protože chybí funkce m. rectus lateralis. Léze n. trochlearis (n. IV) vyřadí m. obliquus superior, který normálně táhne oko dolů a rotuje ho dovnitř (intorze). Bez něj převládají jeho antagonisté, hlavně m. obliquus inferior a m. rectus superior, takže je oko mírně nahoře a mírně vytočené zevně."
+                },
+                en: {
+                    stem: "In which direction will the left eyeball deviate following damage to the indicated nerve?",
+                    options: {
+                        a: "Medially",
+                        b: "Downward and laterally",
+                        c: "Upward",
+                        d: "Straight ahead (without deviation)",
+                        e: "Laterally and upward"
+                    },
+                    correct: "b",
+                    explanation: "The indicated nerve is the left oculomotor nerve (CN III). It innervates the superior, inferior, and medial rectus muscles, the inferior oblique muscle, and the levator palpebrae superioris muscle. Following a lesion of this nerve, only the lateral rectus muscle (CN VI) and superior oblique muscle (CN IV) remain functional, pulling the eye laterally and downward. Associated findings include ptosis of the upper eyelid and mydriasis.\n\nA lesion of the abducens nerve (CN VI) would cause medial deviation of the eye due to loss of lateral rectus muscle function. A lesion of the trochlear nerve (CN IV) would impair the superior oblique muscle, which normally depresses and intorts the eye. Without its action, its antagonists, particularly the inferior oblique and superior rectus muscles, predominate, causing the eye to deviate slightly upward and laterally."
+                },
+                image: { key: "q1151_custom", source: "Anatomist90. Oculomotor nerve.jpg (modified). Wikimedia Commons. Available from: https://commons.wikimedia.org/wiki/File:Oculomotor_nerve.jpg. CC BY-SA 3.0. Accessed 13 November 2026.", type: "image" }
+            },
         ]
       },
       nervove_drahy: {
